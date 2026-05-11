@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <title>Chapter 4: Induction (Part 2)</title>
+  <p><term>Fibonacci Numbers</term> The Fibonacci numbers are a recursive sequence defined by <m>(f_n)_{n=1}^\infty</m> with</p>
+  <ul>
+    <li><p><m>f_1 = 1</m>, and</p></li>
+    <li><p>For each natural number <m>n</m>, <m>f_{n+2} = f_{n+1}+f_n</m>.</p></li>
+  </ul>
+  <p>A process is  <em>recursive</em> if the ``next step'' is defined in terms of previous ones.  (So induction is a great proof technique for recursion, since in induction we prove a case based on a previous case!)</p>
+  <activity workspace="1in">
+    <statement>
+      <p>In the preview activity, you likely conjectured that, for all <m>n \in \mathbb{N}</m>, <m>f_1^2 + f_2^2 + \cdots + f_{n}^2 = f_{n} f_{n+1}</m>. Let's prove this by induction!</p>
+    </statement>
+  </activity>
+  <activity>
+    <introduction>
+      <p>Here are the first several Fibonacci numbers (starting with <m>f_1</m>):</p>
+      <p><md>1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584,\dots</md></p>
+      <p>What is the important thing you notice about every fourth Fibonacci number?  State this in the form of a Proposition: ``For all <m>n \in \mathbb{N}</m>, <m>f_{4n}</m> is <m>\ldots</m>''  Then prove your conjecture using induction!</p>
+      <p><term>Strong Induction</term>
+Consider a sequence of mathematical statements <m>S_1, S_2 \dots</m>.</p>
+    </introduction>
+    <task>
+      <statement>
+        <p>Suppose <m>S_1</m> is true</p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>Suppose for any <m>k\in\mathbb{N}</m>, if <m>S_1, S_2,\dots, S_k</m> are all true, then <m>S_{k+1}</m> is true.</p>
+      </statement>
+    </task>
+  </activity>
+  <activity workspace="1in">
+    <statement>
+      <p>Suppose you had a chocolate bar, a grid of squares, and you want to break it up completely so that each piece is only one square. No tricks, just break along the grid lines. Try breaking it up - how many breaks did it take? Can you do it more efficiently? Start simple - like with a <m>2\times 3</m>.</p>
+      <p><term>Play, Conjecture, Prove: Option 4:</term></p>
+      <p>In a simplified version of the super bowl, teams can score <m>3</m> points (for a field goal) or <m>7</m> points (for a touchdown). What are the possible scores for one team?</p>
+      <p><term>Common Induction Mistakes</term></p>
+      <p>Here are some things that you should never ever do. For each one, can you explain why it's a mistake?</p>
+      <ul>
+        <li><p>Writing something like ``<m>S_n = n^{2}</m>'' or ``<m>S_1= 1^{2}</m>.'' A predicate is never <em>equal</em> to anything. It's a sentence!</p></li>
+        <li><p>In the base case: Stating <m>S_1</m> and then forgetting to explain why it is true. Base cases should usually look ``obvious'' but you still need to say <em>something</em> about why they're true.</p></li>
+        <li><p>Forgetting to do the base case at all.</p></li>
+        <li><p>In the inductive step: Saying that ``We assume that <m>S_k</m> is true for all natural numbers <m>k</m>.'' If you really did assume this, what would you have left to prove?</p></li>
+        <li><p>Writing ``We assume that <m>S_n</m> is <m>1 + 2 + \cdots + n = \frac{n(n+1)}{2}</m>''. Are you actually assuming anything is <em>true</em>?</p></li>
+      </ul>
+      <p><term>Evaluating a Proof</term></p>
+      <p>\includegraphics[scale=.5]{images/Dinosaurs}</p>
+    </statement>
+  </activity>
+</worksheet>

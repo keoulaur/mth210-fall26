@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <title>Chapter 8 (Part 1): Functions - Injections and Surjections</title>
+  <subsection>
+    <title>Definitions</title>
+    <p>Given a pair of sets <m>A</m> and <m>B</m>, suppose that each element <m>x\in A</m> is associated in some way, to a unique element of <m>B</m>, which we denote <m>f(x)</m>. Then <m>f</m> is said to be a <term>function</term> from <m>A</m> to <m>B</m>. This is often denoted
+<md>f: A\to B.</md>
+Furthermore, <m>A</m> is called the <term>domain</term> of <m>f</m>, and <m>B</m> is called the <term>codomain</term> of <m>f</m>. The set <m>\{f(x): x\in A\}</m> is called the <term>range</term> of <m>f</m>.</p>
+    <p>A function <m>f: A\to B</m> is <term>injective</term> (or <em>one-to-one</em>) if for all <m>a_1,a_2\in A</m>, if <m>f(a_1) = f(a_2)</m> then <m>a_1 = a_2</m>.</p>
+    <p>A function <m>f: A\to B</m> is <term>surjective</term> (or <em>onto</em>) if, for every <m>b\in B</m>, there exists some <m>a\in A</m> such that <m>f(a) = b</m>.</p>
+    <p>A function <m>f: A\to B</m> is <term>bijective</term> if, <m>f</m> is both injective and surjective.</p>
+    <p>If <m>f:A\to B</m> and <m>a\in A</m> then the element <m>B</m> that is associated with <m>a</m> is denoted by <m>f(a)</m> and is called the <term>image of <m>a</m> under <m>f</m></term>. If <m>f(a)=b</m> with <m>b\in B</m> then <m>a</m> is called a <term>pre-image of <m>b</m> under <m>f</m></term>. If we say <term>the pre-image of <m>b</m> under <m>f</m></term> then we are referring to the set of all pre-images.</p>
+  </subsection>
+  <subsection>
+    <title>Examples:</title>
+    <activity>
+      <introduction>
+        <p>Draw an arrow diagram, or write down a function formula, for each of the following.</p>
+<tabular>
+  <col halign="center" right="minor"/>
+  <col halign="left"/>
+  <row bottom="minor">
+    <cell>|p{2.5in}|}
+
+Term</cell>
+    <cell>Example</cell>
+    <cell>Non-example</cell>
+  </row>
+  <row>
+    <cell>Function</cell>
+    <cell></cell>
+    <cell></cell>
+  </row>
+  <row>
+    <cell>[55pt]
+
+Injection</cell>
+    <cell></cell>
+    <cell></cell>
+  </row>
+  <row>
+    <cell>[55pt]
+
+Surjection</cell>
+    <cell></cell>
+    <cell></cell>
+  </row>
+  <row>
+    <cell>[55pt]
+
+Bijection</cell>
+    <cell></cell>
+    <cell></cell>
+  </row>
+  <row>
+    <cell>[55pt]</cell>
+  </row>
+</tabular>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p>Choose an example from the table above and use the terms ``image" and ``pre-image".</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Why do we say ``the" image, but ``a" pre-image.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>What do we call it when all the elements in the range have a unique pre-image? What do we call it when all the elements in the codomain have a unique pre-image?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>If <m>A</m> and <m>B</m> are finite sets, and  <m>f:A \to B</m> is an injection, what can you say about <m>|A|</m> vs. <m>|B|</m>?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>If <m>A</m> and <m>B</m> are finite sets, and  <m>f:A \to B</m> is a surjection, what can you say about <m>|A|</m> vs. <m>|B|</m>?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>If <m>A</m> and <m>B</m> are finite sets, and  <m>f:A \to B</m> is a bijection, what can you say about <m>|A|</m> vs. <m>|B|</m>?</p>
+        </statement>
+      </task>
+    </activity>
+    <activity>
+      <introduction>
+        <p>For each of the following functions, in addition to answering the given questions you should determine:</p>
+        <ul>
+          <li><p>the domain, codomain, and range,</p></li>
+          <li><p>and then determine if they are injections, surjections, or bijections.</p></li>
+        </ul>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p>For all <m>x\in \mathbb{R}</m>, <m>f(x) = x^2-9</m>. What is the image of <m>2</m>? of <m>20</m>? What is the pre-image of <m>0</m>? of <m>-10</m>?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>For all people in the world, B(person) = person's birthday. (Just the month and day, e.g., B(DocK) = May 29.) What is the image of each member of your group?</p>
+          <p><em>If time:</em> How would this be different if we changed the domain to be just the people in our class?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>For all <m>n\in\mathbb{Z}</m>, <m>g(n)= n^3 - n \pmod{3}</m>. (Here we mean the remainder <m>r\in\{0,1,2\}</m> when <m>n^3-n</m> is divided by <m>3</m>.) Determine the images of <m>0,1,2,</m> and <m>5</m> under <m>g</m>. What is the pre-image of <m>0</m>? What is the pre-image of <m>1</m>?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p><em>If time:</em> For all <m>(m,n)\in\mathbb{Z}\times\mathbb{Z}</m>, <m>f(m,n) = 3m+6n</m>. What are the images of <m>(-1,2), (3,4)</m>, and <m>(122,341)</m> under <m>g</m>? What is the pre-image of <m>3</m> under <m>g</m>? What is the pre-image of <m>2</m>?</p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>Disproving Injection and Surjection</title>
+    <p>Let's start with disproving. Recall the following definitions.</p>
+    <p>A function <m>f: A\to B</m> is <term>injective</term> if for all <m>a_1,a_2\in A</m>, if <m>f(a_1) = f(a_2)</m> then <m>a_1 = a_2</m>.</p>
+    <p>A function <m>f: A\to B</m> is <term>surjective</term> if, for every <m>b\in B</m>, there exists some <m>a\in A</m> such that <m>f(a) = b</m>.</p>
+    <activity>
+      <task>
+        <introduction>
+          <p>Disproving is like proving the negation. Negate the definitions above to complete the sentences:</p>
+        </introduction>
+        <task>
+          <statement>
+            <p>A function <m>f: A\to B</m> is <term>not injective</term> if</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>A function <m>f: A\to B</m> is <term>not surjective</term> if</p>
+          </statement>
+        </task>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Let <m>\mathcal{M}_{2,2} (\mathbb{R})</m> be the set of all <m>2\times 2</m> matrices with real entries. That is, 
+<md>\mathcal{M}_{2,2}(\mathbb{R}) =\left\{ \begin{bmatrix} a \amp  b\\ c \amp  d\end{bmatrix}: a,b,c,d\in\mathbb{R}\right\}.</md>
+Prove that <m>\det: \mathcal{M}_{2,2} (\mathbb{R})\to \mathbb{R}</m> defined by <m>\det\left(\begin{bmatrix} a \amp  b\\ c \amp  d\end{bmatrix}\right) = ad-bc</m> is not an injection.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Prove that <m>f: \mathbb{R} - \{1 \} \to \mathbb{R}</m> defined by <m>f(x) = \frac{1}{1-x}</m> is not surjective. <fn>Hint: Graph it! What's in the codomain but not in the range?</fn></p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>Proving Injection and Surjection</title>
+    <activity>
+      <introduction>
+        <p>We'll do the scratch work for proving a function is a bijection.</p>
+      </introduction>
+      <task>
+        <statement>
+          <p>Let <m>f: \underline{\hspace{1in}} \to \underline{\hspace{1in}}</m> be defined by <m>f(x) = \frac{1}{1-x}</m>. (Fill in the blanks, look at \#3 on page 98!)</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>Write down the definition of injective here:</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>What will you assume? What will you try to show?</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>To start: Pick two arbitrary <m>x_1, x_2 \in \underline{\hspace{1in}}</m> such that: _____</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Now do some algebra to get to what you want to show! That will finish the proof of injective.</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>Write down the definition of surjective:</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>In order to show that <m>f</m> is surjective, start with an arbitrary <m>z\in \underline{\hspace{1in}}</m>. You must show that there exists an <m>x\in \underline{\hspace{1in}}</m> such that _____.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Now do some algebra scratch-work to figure out what <m>x</m> <em>should</em> be.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <introduction>
+          <p>Your work above is <em>not enough</em> to show that <m>f(x) = z</m> (why not?). There are two things to check:</p>
+        </introduction>
+        <task>
+          <statement>
+            <p>Is your <m>x</m> in the domain of <m>f</m>? Verify this.</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>Does <m>f(x) = z</m>? Show directly by substituting your <m>x</m> into the formula and simplifying.</p>
+          </statement>
+        </task>
+      </task>
+    </activity>
+    <theorem>
+      <statement>
+        <p>Let <m>f: \R - \{1\} \to \R - \{0\}</m> be defined by <m>f(x) = \dfrac{1}{1-x}</m> for all <m>x \in \R - \{1\}</m>. Then <m>f</m> is a bijection.</p>
+      </statement>
+    </theorem>
+    <proof>
+      <p>Let <m>f: \R - \{1\} \to \R - \{0\}</m> be defined by <m>f(x) = \dfrac{1}{1-x}</m> for all <m>x \in \R - \{1\}</m>. We will prove that <m>f</m> is a bijection by proving that it is both a surjection and an injection.</p>
+      <p>We will first show that <m>f</m> is a surjection. So, let <m>z \in \mathbb{R} - \{0\}</m> be any element of the codomain of <m>f</m>. Let <m>x = \frac{z-1}{z}</m>. We will show that <m>x \in \R - \{1\}</m> and that <m>f(x) = z</m>.</p>
+      <p>We begin by showing that <m>x</m> is in the domain of <m>f</m>. To do this, we will show that <m>x \in \R</m> and <m>x \neq 1</m>. Real numbers are closed under subtraction and division (as long as they are nonzero), and by assumption <m>z \neq 0</m>, so <m>x \in \mathbb{R}</m>. Next we will show that <m>x \neq 1</m>. To see this, suppose that <m>x = 1</m>. Using algebra, we find that <m>1 = \frac{z-1}{z}</m>, which simplifies to <m>0 = -1</m>, a contradiction. Thus <m>x \neq 1</m>, and so <m>x \in \mathbb{R} - \{1\}</m>.</p>
+      <p>Now we will show that <m>f(x) = z</m>. Using algebra,
+\begin{align*}
+	f(x) = f\left(\frac{z-1}{z}\right) &amp;= \dfrac{1}{1 - \left(\frac{z-1}{z}\right)}  
+	&amp;= \dfrac{1}{\frac{z}{z} - \frac{z-1}{z}}  
+	&amp;= \dfrac{1}{\frac{z - (z-1)}{z}}  
+	&amp;= \dfrac{1}{\frac{1}{z}}  
+	&amp;= z.
+\end{align*}</p>
+      <p>Thus for each <m>z</m> in the codomain of <m>f</m>, there exists <m>x = \frac{z-1}{z}</m> in the domain of <m>f</m> such that <m>f(x) = z</m>. Therefore by definition, <m>f</m> is a surjection.</p>
+      <p>We will now show that <m>f</m> is an injection. So, suppose that <m>f(x) = f(y)</m> for some <m>x, y \in \mathbb{R} - \{1\}</m>. We will show that <m>x = y</m>. Using algebra,
+\begin{align*}
+	f(x) &amp;= f(y)  
+	\dfrac{1}{1-x} &amp;= \dfrac{1}{1-y}  
+	1-y &amp;= 1-x  
+	x &amp;= y.
+\end{align*}
+Thus, for all <m>x</m> and <m>y</m> in the domain of <m>f</m>, whenever <m>f(x) = f(y)</m>, we must have <m>x = y</m>. Therefore <m>f</m> is an injection.</p>
+      <p>Because we have shown that <m>f</m> is both a surjection and an injection, we have shown that <m>f</m> is a bijection.</p>
+    </proof>
+  </subsection>
+</worksheet>

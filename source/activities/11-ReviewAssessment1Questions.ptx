@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <title>Questions for Review Assessment 1</title>
+  <p>6 students submitted questions about Review Assessment 1:</p>
+  <subsection>
+    <title>Structure</title>
+    <p>Here are questions and answers about the structure:</p>
+    <ol>
+      <li><p>Can the proof question be written as a proof sketch or should it be written formally? About how much writing is expected for the short answer questions?
+
+<term>Answer:</term>  A proof sketch is okay, but you will be asked to include a theorem statement, and to include all the important details. E.g., if you were assuming an integer <m>n</m> is even, don't just write ``<m>n=2k</m>", write ``<m>n=2k</m> for some integer <m>k</m>". Using symbols like <m>\exists</m>, <m>\forall</m> and other shorthands is okay on the review assessment (even though not okay in a typed proof). For the short answer questions, if something says ``briefly explain", one or two sentences will suffice - you want to say enough to answer the question precisely (and tying to definitions), but you don't need to be writing in complete sentences.</p></li>
+      <li><p>How meticulous do we need to be on the proof? Should we worry about overwriting?
+
+
+<term>Answer:</term> See above - you want to include a theorem statement and all the important details. Don't worry about overwriting (though don't write things that are incorrect). Students are more likely to underwrite than overwrite!</p></li>
+      <li><p>What kind of proof are we meant to do?
+
+<term>Answer:</term> The three possible proofs are 
+	\begin{enumerate}
+	\item Prove that for every integer <m>n</m>, if <m>n\not\equiv 0 \pmod{3}</m>, then <m>n^2 \equiv 1 \pmod{3}</m>.
+	\item Prove that for all natural numbers <m>n</m>, <m>3\mid (4^n - 1)</m>.
+	\item Let <m>A = \{n\in\mathbb{Z}: 3 \mid (n-6)\}</m> and <m>B = \{n\in \mathbb{Z}: n\equiv 9 \pmod{12}\}</m>. Prove that <m>B\subset A</m>.
+	\end{enumerate}
+Each one uses a different proof technique that we've covered! Only one will be asked on the exam. I'd advise you to do each of these before the review assessment.</p></li>
+      <li><p>Are there any specific examples to review other than the 3 proofs? 
+
+<term>Answer:</term> Definitely take a look at Review Assessment \#1 from 2023 (posted on Blackboard). Note we went in a different order, so questions 2, 3bcd, and 5 are not appropriate for our review assessment, but the other questions will give you some idea of what questions might be like. Also a good idea to go back and clarify any questions you had on weekly practice, learning targets (including ones you didn't do), and  proof options you didn't do for the proof portfolio. If you got stuck somewhere and you're still unsure, please ask!</p></li>
+      <li><p>How many questions per concept will there be?
+
+
+<term>Answer:</term> There's 5 short answer questions plus 1 proof. The short answer questions have multiple parts, and may combine ideas.  I tried to make the emphasis close to how we emphasized in class - e.g., there will be fewer questions on the pigeonhole principle and dominoes then there will be on congruence, sets, and induction.</p></li>
+    </ol>
+  </subsection>
+  <subsection>
+    <title>Content</title>
+    <p>Here are questions about content:</p>
+    <p>\item I would like more practice like the learning targets or quiz questions, practice on elements and subsets, and modulos.</p>
+    <p><term>Practice Questions:</term></p>
+    <ol>
+      <li><p>Say <m>A = \{ 1,2, \{3,4\}, \text{cat}, \text{dog}\}</m>. Circle the ones that are correct to say:
+	\begin{enumerate}
+	\item <m>\{3,4\} \in A</m> or <m>\{3,4\} \subseteq A</m>? 
+	
+	\item <m>1 \in A</m> or <m>\{1\}\in A</m> or <m>1\subseteq A</m>?
+	
+	\item <m>\{1,2\} \in A</m> or <m>\{1,2\} \subseteq A</m>?
+	
+	\item <m>\{1,2\} \in \mathcal{P}(A)</m> or <m>\{1,2\} \subseteq \mathcal{P}(A)</m>?
+	
+	\item <m>\emptyset \subseteq A</m> or <m>\emptyset\in A</m> or <m>\emptyset \subset A</m>?
+	
+	\item <m>A \subseteq A</m> or <m>A\in A</m> or <m>A \subset A</m> or <m>A= A</m>?
+	
+	\end{enumerate}</p></li>
+      <li><p>Here's some practice questions on congruence:
+	\begin{enumerate}
+	\item Which of the following are true? For each of the congruences that aren't true, change one number to make them true.
+		
+		
+	\item If <m>x\equiv 5\pmod{8}</m> and <m>y \equiv 7\pmod{8}</m> what number is <m>x+y</m> congruent to modulo <m>8</m>? What number is <m>xy</m> congruent to modulo <m>8</m>? What is the remainder when <m>x+y</m> is divided by <m>8</m>? What about the remainder when <m>xy</m> is divided by <m>8</m>?
+	
+
+
+	
+	\item The Winter Olympics are every 4 years, and there were Winter Olympics this year (2026). The Summer Olympics are every 4 years, and the next Summer Olympics will be in (2028). How could you phrase when the Winter and Summer Olympics are in terms of modulo? (e.g., The Winter Olympics occur in years <m>n</m> for which <m>n \equiv ? \pmod{?}</m>.)
+		
+	\item Suppose for an integer <m>x</m>, you know <m>5x\equiv 1 \pmod{6}</m>. Find two possible solutions for <m>x</m>.
+	
+		
+	\item Here's a fun thing you can do with modular arithmetic - suppose I wanted to know the last digit of <m>7^{100}</m>. The last digit is the same as finding what the number is modulo <m>10</m>. Then <m>7^{100} = (7^2)^{50} = 49^{50} \equiv (-1)^{50} \pmod{10}</m>. Find the last digit of <m>9^{2026}</m>.
+	
+	\end{enumerate}</p></li>
+    </ol>
+    <p>\item Can you clarify the steps to prove a proper subset?</p>
+    <p><term>Answer:</term> Yes! To shows <m>A\subset B</m>, show that <m>A\subseteq B</m> and <m>A\neq B</m>.</p>
+    <ol>
+      <li><p>To show that <m>A\subseteq B</m>, let <m>x\in A</m> (choosing an arbitrary element of <m>A</m>, so use the rule of <m>A</m> and variables to define) and show that <m>x\in B</m> (show that the arbitrary <m>x</m> follows the rule for <m>B</m>).</p></li>
+      <li><p>To show <m>A\neq B</m>, show there is some element <m>B</m> that is not in <m>A</m>. (You could think of this as <m>B</m> is ``strictly bigger" than <m>A</m>.) Pick a specific element for this part, e.g., like <m>5</m> is in <m>B</m> but <m>5\notin A</m>. Make sure to show why it satisfies the rule for <m>A</m> but not the rule for <m>B</m>.</p></li>
+    </ol>
+    <p>If you're trying to do a proper subset proof, it's a good idea to list the elements in roster notation first. This will help you find an element that shows <m>A\neq B</m>. Note listing the elements in roster notation is not a proof!</p>
+    <p><term>Practice Question:</term> Prove that if <m>A = \{ x\in\mathbb{Z} : x = 12k+1 \text{ for some } k\in\Z\} </m> and <m>B =\{x\in \Z : x\equiv 1\mod {4}\}</m> then <m>A\subset B</m>.</p>
+    <p>\item Is there a trick to work out how to get from <m>S_k</m> to <m>S_{k+1}</m> when the statement isn't a infinite sum? (for example, if the statement is based on divides such as <m>2</m> divides <m>n^2 - n</m>).</p>
+    <p><term>Answer:</term> Induction can be used in <term>a lot</term> of contexts, so it's not necessarily possible to say a technique that will work every time. The sums are a common place to start with induction. The next place would be things that have associated equations - like <m>2 \mid n^2 - n</m> turns into the equation <m>2j = n^2-n</m> for some integer <m>j</m>. When you are using equations, consider your <m>S_k</m> and <m>S_{k+1}</m>. In this case <m>S_k</m> is <m>2j = k^2-k</m> for some integer <m>k</m>, and <m>S_{k+1}</m> is <m>2j' = (k+1)^2 -(k+1)</m>. In this proof, like in even/odd proofs, you can start with one side of <m>S_{k+1}</m>. E.g., start with <m>(k+1)^2 -(k+1)</m>. Expand, and then look for <m>k^2-k</m> somewhere in your expression!</p>
+    <p><term>Practice Question:</term> Prove using induction that for all <m>n\in\mathbb{N}</m>, <m>6 \mid (5^{2n}-1)</m>. (See footnote for a hint.) <fn>After simplifying one side of <m>S_{k+1}</m> you may have <m>5^{2k+2} -1</m>. You want to look for <m>5^{2k}-1</m> in this expression. Use exponent rules to split up the <m>5^{2k+2}</m> into <m>5^j5^{2k} </m> for some <m>j</m> Keep reading for more: <m>25\cdot 5^{2k}=24\cdot 5^{2k}+5^{2k}</m>.</fn></p>
+    <p>\item  How does assuming <m>S_1, S_2, S_3, ..., S_n</m> using strong induction instead of just <m>S_n</m> help prove things?</p>
+    <p><term>Answer:</term> We'll do strong induction examples on pages 54 and 55. As one example you've already seen, in the Fundamental Theorem of Arithmetic, say you are doing the induction step where <m>k=54</m>. So you want to show <m>55</m> is either prime or a product of primes. It's not enough to <em>just</em> know that <m>54</m> is prime or a product of primes. The proof says - ok <m>k+1=55</m> is not prime, so we can write <m>55 = a\cdot b</m> where <m>1&lt;a,b&lt;55</m>. In this case <m>a=11</m> and <m>b=5</m>. So you need to know that both <m>11</m> and <m>5</m> are either prime or a product of primes. That's why it helps to have assumed <m>S_2, S_3, \dots, S_5, \dots, S_{11},\dots, S_{54}</m>, because <m>5</m> and <m>11</m> are in that list.</p>
+    <p><term>Practice Question:</term> Prove that for all <m>n\in\mathbb{N}</m>, <m>f_n &lt; 2^n</m> where <m>f_n</m> is the <m>n^{th}</m> Fibonacci number.</p>
+    <p>\item How do you do proofs with Cartesian products?</p>
+    <p><term>Answer:</term> If you are trying to prove a Cartesian Product of two sets is a subset or equal to Cartesian Product of another two sets, you still use the choose an element method. In this case, when you choose an element of one set, that element is an ordered pair. Here's an example.</p>
+    <theorem>
+      <statement>
+        <p>Let <m>A,B,</m> and <m>C</m> be subsets of some universal set <m>U</m>. If <m>A\subseteq B</m> then <m>A\times B\subseteq A\times C</m>.</p>
+      </statement>
+    </theorem>
+    <proof>
+      <p>Suppose <m>A,B,</m> and <m>C</m> be subsets of some universal set <m>U</m> and <m>A\subseteq B</m>. We will show <m>A\times B\subseteq A\times C</m>. Let <m>x\in A\times B</m>. Then <m>x = (a,c)</m> for some <m>a\in A</m> and <m>c\in C</m>. Since <m>a\in A</m> and <m>A\subseteq B</m>, by the definition of subset, we know <m>a\in B</m>. Thus <m>x=(a,c) \in B\times C</m> as <m>a\in B</m> and <m>c\in C</m>. Thus, we've shown that if <m>x\in A\times C</m> then <m>x\in B\times C</m>. By the definition of subset, <m>A\subseteq B</m> then <m>A\times B\subseteq A\times C</m>.</p>
+    </proof>
+    <p><term>Practice Question:</term> Is <m>(A\times B) \cup (C\times D) = (A\cup C) \times (B\cup D)</m>? Prove or disprove.</p>
+    <p>\item Can we do another example of a proof with sets (union, intersection, etc.) where the elements of <m>A</m> and <m>B</m> are not given (arbitrary sets)?</p>
+    <p><term>Answer:</term> Sure! Suppose <m>U</m> is some universal set and <m>A,B,</m> and <m>C</m> are subsets of that universal set. Suppose <m>A\subseteq C</m> and <m>B\subseteq C</m>. Show <m>A\cup B \subseteq C</m>.</p>
+    <theorem>
+      <statement>
+        <p>Let <m>U</m> be a universal set and <m>A, B,</m> and <m>C</m> be subsets of <m>U</m>. If <m>A\subseteq C</m> and <m>B\subseteq C</m> then <m>A\cup B \subseteq C</m>.</p>
+      </statement>
+    </theorem>
+    <proof>
+      <p>To prove this, we'll use the ``choose an element method". Let <m>x\in U</m> such that <m>x\in A\cup B</m>. We will show <m>x\in C</m>. Since <m>x\in A \cup B</m>, we know <m>x\in A</m> or <m>x\in B</m>. So we'll consider two cases: (1) <m>x\in A</m> and (2) <m>x\in B</m>.</p>
+      <p>Case 1: Suppose <m>x\in A</m>. Then, by the definition of subset, because <m>A\subseteq C</m> and <m>x\in A</m>, we know <m>x\in C</m>, which is what we wanted to show.</p>
+      <p>Case 2: Suppose <m>x\in B</m>. Then, by the definition of subset, because <m>B\subseteq C</m> and <m>x\in B</m>, we know <m>x\in C</m>, which is what we wanted to show.</p>
+      <p>In both cases, <m>x\in C</m>. So, assuming <m>A\subseteq B</m>, <m>B\subseteq C</m>, if <m>x\in A\cup B</m> then <m>x\in C</m>. Thus, by the definition of subset <m>A\cup B \subseteq C</m>.</p>
+    </proof>
+    <p><term>Practice Question:</term>  Let <m>A,B</m> and <m>C</m> be subsets of some universal set <m>U</m>. Show that <m>A\cap (B\cup C) = (A\cap B) \cup (A\cap C)</m>.</p>
+    <p>\end{enumerate}</p>
+  </subsection>
+</worksheet>

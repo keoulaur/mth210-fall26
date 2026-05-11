@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <title>Chapter 5: Logic (Part 1)</title>
+  <subsection>
+    <title>Vocabulary and Notation</title>
+<tabular>
+  <col halign="left"/>
+  <row bottom="minor">
+    <cell>|c|p{4.25in}|}
+
+Word</cell>
+    <cell>Symbol</cell>
+    <cell>Meaning</cell>
+  </row>
+  <row bottom="minor">
+    <cell>Statement</cell>
+    <cell></cell>
+    <cell>A <em>statement</em> is a sentence or mathematical expression that is true or false.</cell>
+  </row>
+  <row bottom="minor">
+    <cell>Open Sentence</cell>
+    <cell></cell>
+    <cell>An <em>open sentence</em> is a sentence or mathematical expression which does not have a truth value, depends on some unknown, becomes a statement when the unknown is specified.</cell>
+  </row>
+  <row bottom="minor">
+    <cell>And</cell>
+    <cell><m>\wedge</m></cell>
+    <cell></cell>
+  </row>
+  <row bottom="minor">
+    <cell>Or</cell>
+    <cell><m>\vee</m></cell>
+    <cell><m>P\wedge Q</m> is true when both <m>P</m> and <m>Q</m> are true.</cell>
+  </row>
+  <row bottom="minor">
+    <cell>Not (or Negation)</cell>
+    <cell><m>\sim</m></cell>
+    <cell><m>P \vee Q</m> is true when at least one of <m>P</m> or <m>Q</m> is true.</cell>
+  </row>
+  <row bottom="minor">
+    <cell>Conditional Statement (``If...then")</cell>
+    <cell><m>\implies</m></cell>
+    <cell><m>P\implies Q</m> means ``If <m>P</m> then <m>Q</m>" and is only false in situations where <m>P</m> is true and <m>Q</m> is false.</cell>
+  </row>
+  <row bottom="minor">
+    <cell>Hypothesis</cell>
+    <cell></cell>
+    <cell>In a conditional statement ``If <m>P</m> then <m>Q</m>", <m>P</m> is the hypothesis.</cell>
+  </row>
+  <row bottom="minor">
+    <cell>Conclusion</cell>
+    <cell></cell>
+    <cell>In a conditional statement ``If <m>P</m> then <m>Q</m>", <m>Q</m> is the conclusion.</cell>
+  </row>
+  <row bottom="minor">
+    <cell>Biconditional Statement ``if and only if", or iff</cell>
+    <cell><m>\Leftrightarrow</m></cell>
+    <cell>A biconditional statement is of the form <m>P</m> if and only if <m>Q</m>. It means <m>P\implies Q</m> and <m>Q\implies P</m>.</cell>
+  </row>
+  <row bottom="minor">
+    <cell>Converse</cell>
+    <cell></cell>
+    <cell>The converse of <m>P\implies Q</m> is <m>Q\implies P</m>.</cell>
+  </row>
+  <row bottom="minor">
+    <cell>Logically Equivalent</cell>
+    <cell><m>\Leftrightarrow</m></cell>
+    <cell>A statement is <em>logically equivalent</em> to another statement if they have the same truth value on all possible inputs. E.g., <m>\sim (P \wedge Q) \Leftrightarrow \sim P \,\vee \sim Q</m> by DeMorgan's Laws</cell>
+  </row>
+  <row bottom="minor">
+    <cell>For all</cell>
+    <cell><m>\forall</m></cell>
+    <cell>Also, ``For ever", ``For each"</cell>
+  </row>
+  <row bottom="minor">
+    <cell>There exists</cell>
+    <cell><m>\exists</m></cell>
+    <cell>Also ``For some"</cell>
+  </row>
+  <row bottom="minor">
+    <cell>Quantifier</cell>
+    <cell></cell>
+    <cell>Indicates the number or quantity of our objects. <m>\forall</m> is the universal quantifier and <m>\exists</m> is the existential quantifier</cell>
+  </row>
+  <row bottom="minor">
+    <cell>Tautology</cell>
+    <cell></cell>
+    <cell>A statement that is true no matter what, e.g., <m>S\vee \sim S</m></cell>
+  </row>
+  <row bottom="minor">
+    <cell>Contradiction</cell>
+    <cell></cell>
+    <cell>A statement that is never true, e.g., <m>S\wedge \sim S</m></cell>
+  </row>
+  <row bottom="minor">
+    <cell>Converse</cell>
+    <cell></cell>
+    <cell>The converse of <m>P\implies Q</m> is <m>Q\implies P</m>.</cell>
+  </row>
+  <row>
+    <cell>Contrapositive</cell>
+    <cell></cell>
+    <cell>The contrapositive of <m>P\implies Q</m> is <m>\sim Q \implies \sim P</m>.</cell>
+  </row>
+</tabular>
+  </subsection>
+  <subsection>
+    <title>Truth Tables</title>
+    <activity>
+      <task>
+        <statement>
+          <p>Fill in the following truth tables:</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>Suppose <m>P</m> is the statement ``<m>15</m> is odd" and <m>Q</m> is the statement ``<m>15</m> is prime". What are some true statements we can form using <m>P, Q, \wedge, \vee, \sim</m>.</p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>Conditional Statements, Biconditional Statements</title>
+    <activity>
+      <introduction>
+        <p>Let's return to an activity we did on the first day of class.</p>
+      </introduction>
+      <task workspace="1in">
+        <introduction>
+          <p>A mathematician places a set of four cards on a table, each of which has a number on one side and a colored patch on the other side. She claims the following:</p>
+          <p>if a card shows an even number on one face, then its opposite face is red</p>
+        </introduction>
+        <task>
+          <statement>
+            <p>The visible faces of the cards show 3, 8, red, and blue. Which card(s) must you turn over in order to test the truth of her claim? Carefully explain out loud to the people at your table.</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>Let <m>P</m> be the statement ``a card shows an even number" and <m>Q</m> be the statement ``it's opposite face is red". Next to the <m>P</m>'s and <m>Q</m>'s above, label T, F, or ? for what you know about that card.</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>What is/are the only situation(s) where the mathematician could be lying, i.e.,  <m>P\implies Q</m> would be false?</p>
+          </statement>
+        </task>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>It is a well known law in the United States that you must be 21 to consume alcohol.  Suppose now that four cards are placed on the table each of which has an age on one side and a beverage on the other.  The visible faces of the cards show 16, 22, coca-cola, and beer. If each card represents a person at the party, which card(s) must you check to make sure everyone at the party is a law abiding citizen.  That is, which card(s) must you turn over to verify the proposition:</p>
+          <p>if one is consuming an alcoholic beverage then one is over the age of 21</p>
+          <p>Complete the same tasks as in part 1, except now <m>P</m> is ``one is consuming an alcoholic beverage" and <m>Q</m> is ``one is over 21". What is/are the situation(s) could be breaking the law? How does this relate to the previous problem?</p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>Conditional and Biconditional Statement Truth Tables</title>
+    <activity workspace="1in">
+      <statement>
+        <p>Based on the logic from the previous page, fill in the following truth tables.</p>
+        <p><term>Conditional, implies, or ``If <m>P</m> then <m>Q</m>":</term></p>
+<tabular>
+  <col halign="center" right="minor"/>
+  <col halign="center" right="minor"/>
+  <col halign="center"/>
+  <row bottom="minor">
+    <cell><m>P</m></cell>
+    <cell><m>Q</m></cell>
+    <cell><m>P\implies Q</m></cell>
+  </row>
+  <row bottom="minor">
+    <cell>True</cell>
+    <cell>True</cell>
+    <cell></cell>
+  </row>
+  <row bottom="minor">
+    <cell>True</cell>
+    <cell>False</cell>
+    <cell></cell>
+  </row>
+  <row bottom="minor">
+    <cell>False</cell>
+    <cell>True</cell>
+    <cell></cell>
+  </row>
+  <row>
+    <cell>False</cell>
+    <cell>False</cell>
+    <cell></cell>
+  </row>
+</tabular>
+        <p><term>Biconditional, if and only if, or <m>P\Leftrightarrow Q</m>:</term></p>
+<tabular>
+  <col halign="center" right="minor"/>
+  <col halign="center" right="minor"/>
+  <col halign="center" right="minor"/>
+  <col halign="center" right="minor"/>
+  <col halign="center"/>
+  <row bottom="minor">
+    <cell><m>P</m></cell>
+    <cell><m>Q</m></cell>
+    <cell><m>P\implies Q</m></cell>
+    <cell><m>Q\implies P</m></cell>
+    <cell><m>(P\implies Q)\wedge (Q\implies P)</m></cell>
+  </row>
+  <row bottom="minor">
+    <cell>True</cell>
+    <cell>True</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+  </row>
+  <row bottom="minor">
+    <cell>True</cell>
+    <cell>False</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+  </row>
+  <row bottom="minor">
+    <cell>False</cell>
+    <cell>True</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+  </row>
+  <row>
+    <cell>False</cell>
+    <cell>False</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+  </row>
+</tabular>
+        <p>You will encounter many ``if and only if" statements. E.g., in linear algebra: <em>``A square matrix is invertible if and only if it has a pivot in every column"</em>, or in geometry: <em>``a triangle has a pair of congruent sides if and only if it has a pair of congruent angles"</em>.</p>
+      </statement>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>The Converse and the Contrapositive</title>
+    <activity>
+      <task>
+        <statement>
+          <p>Draw a truth table that includes columns for <m>P\implies Q</m>, <m>Q\implies P</m>, and <m>\sim Q \implies \sim P</m>.</p>
+<tabular>
+  <col halign="center" right="minor"/>
+  <col halign="center" right="minor"/>
+  <col halign="center" right="minor"/>
+  <col halign="center" right="minor"/>
+  <col halign="center" right="minor"/>
+  <col halign="center" right="minor"/>
+  <col halign="center"/>
+  <row bottom="minor">
+    <cell><m>P</m></cell>
+    <cell><m>Q</m></cell>
+    <cell><m>P\implies Q</m></cell>
+    <cell><m>Q\implies P</m></cell>
+    <cell><m>\sim Q</m></cell>
+    <cell><m>\sim P</m></cell>
+    <cell><m>\sim Q \implies \sim P</m></cell>
+  </row>
+  <row bottom="minor">
+    <cell>True</cell>
+    <cell>True</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+  </row>
+  <row bottom="minor">
+    <cell>True</cell>
+    <cell>False</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+  </row>
+  <row bottom="minor">
+    <cell>False</cell>
+    <cell>True</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+  </row>
+  <row>
+    <cell>False</cell>
+    <cell>False</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+  </row>
+</tabular>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Some vocabulary:</p>
+          <ul>
+            <li><p>The <term>converse</term> of <m>P\implies Q</m> is <m>Q\implies P</m>.</p></li>
+            <li><p>The <term>contrapositive</term> of <m>P\implies Q</m> is <m>Q\implies P</m>.</p></li>
+          </ul>
+          <p>What do you notice about the converse and the contrapositive from your truth table above?</p>
+        </statement>
+      </task>
+      <task>
+        <introduction>
+          <p>For each of the following, determine if the statement is true. Then write down the converse and contrapositive and determine if they are true.</p>
+        </introduction>
+        <task>
+          <statement>
+            <p><term>Original Statement:</term>  If <m>a = 5</m> then <m>a^2 = 25</m>.   True  False</p>
+            <p><term>Converse:</term> True  False</p>
+            <p><term>Contrapositive:</term> True  False</p>
+            <p><term>If false - counterexample:</term></p>
+            <p>\hrulefill</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><term>Original Statement:</term>  If <m>a\neq b</m> then <m>a^4 \neq b^4</m>.   True  False</p>
+            <p><term>Converse:</term> True  False</p>
+            <p><term>Contrapositive:</term> True  False</p>
+            <p><term>If false - counterexample:</term></p>
+            <p>\hrulefill</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><term>Original Statement:</term>  If <m>a</m> is an odd integer then <m>3a</m> is an odd integer.   True  False</p>
+            <p><term>Converse:</term> True  False</p>
+            <p><term>Contrapositive:</term> True  False</p>
+            <p><term>If false - counterexample:</term></p>
+          </statement>
+        </task>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>What can you say about the relationship between the original statement and the converse? The original statement and the contrapositive?</p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>Negating Conditional Statements</title>
+    <p>The <term>negation</term> of the statement <m>P</m> is the statement ``not <m>P</m>" and is denoted by <m>\sim P</m>. The negation of <m>P</m>, <m>\sim P</m>, is true only when <m>P</m> is false, and <m>\sim P</m> is false only when <m>P</m> is true.</p>
+    <p>We want to be able to write the negations of statements written in English, so that we can get the statement of opposite truth value. This will be helpful when doing proofs by contradiction.</p>
+    <activity>
+      <task>
+        <statement>
+          <p>In each of your counterexamples on the previous page, what did you do to show the statement was false? What does this suggest about the negation of a conditional statement?</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>Make a truth table with <m>P\implies Q</m>, <m>\sim (P\implies Q)</m>, <m>\sim P \vee Q</m>, and <m>P\wedge \sim Q</m>. What do you notice? What does this suggest about the negation of a conditional statement?</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>As the previous exercises suggest, <m>\sim(P\implies Q)</m> is the statement <m>P\vee \sim Q</m>. Negate each of the statements on the previous page. Are the negations true or false? How does that relate to the truth value of the original statement?</p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>More Practice with Truth Tables and Logically Equivalent Statements</title>
+    <activity>
+      <task>
+        <statement>
+          <p>Use the  truth table to show that <m>(P\vee Q)\implies R</m> is logically equivalent to  <m>(P\implies R) \wedge (Q\implies R)</m>.</p>
+<tabular>
+  <col halign="center" right="minor"/>
+  <col halign="center" right="minor"/>
+  <col halign="center" right="minor"/>
+  <col halign="center" right="minor"/>
+  <col halign="center" right="minor"/>
+  <col halign="center" right="minor"/>
+  <col halign="center" right="minor"/>
+  <col halign="center"/>
+  <row bottom="minor">
+    <cell><m>P</m></cell>
+    <cell><m>Q</m></cell>
+    <cell><m>R</m></cell>
+    <cell><m>P\vee Q</m></cell>
+    <cell><m>P\vee \implies R</m></cell>
+    <cell><m>P\implies R</m></cell>
+    <cell><m>Q\implies R</m></cell>
+    <cell><m>(P\implies R) \wedge (Q\implies R)</m></cell>
+  </row>
+  <row bottom="minor">
+    <cell>True</cell>
+    <cell>True</cell>
+    <cell>True</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+  </row>
+  <row bottom="minor">
+    <cell>True</cell>
+    <cell>True</cell>
+    <cell>False</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+  </row>
+  <row bottom="minor">
+    <cell>True</cell>
+    <cell>False</cell>
+    <cell>True</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+  </row>
+  <row bottom="minor">
+    <cell>True</cell>
+    <cell>False</cell>
+    <cell>False</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+  </row>
+  <row bottom="minor">
+    <cell>False</cell>
+    <cell>True</cell>
+    <cell>True</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+  </row>
+  <row bottom="minor">
+    <cell>False</cell>
+    <cell>True</cell>
+    <cell>False</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+  </row>
+  <row bottom="minor">
+    <cell>False</cell>
+    <cell>False</cell>
+    <cell>True</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+  </row>
+  <row>
+    <cell>False</cell>
+    <cell>False</cell>
+    <cell>False</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+  </row>
+</tabular>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>Do we have all possible truth values of <m>P</m>, <m>Q</m>, and <m>R</m> in the truth table above? What do you notice about how they are arranged?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Draw a truth table to show <m>P\implies (Q\vee R)</m> is logically equivalent to <m>(P \wedge \sim Q) \implies R</m>.</p>
+          <p>Make sure you break down each statement so you aren't doing too many things at once!</p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>More Practice with Conditional Statements and Logical Equivalences</title>
+    <activity>
+      <introduction>
+        <p>Let <m>a</m> be a real number and let <m>f</m> be a real-valued function defined on an interval containing <m>x=a</m>. Consider the following conditional statement:</p>
+        <p>If <m>f</m> is differentiable at <m>x=a</m>, then <m>f</m> is continuous at <m>x=a</m>.</p>
+        <p>Let <m>P</m> be ``<m>f</m> is differentiable, and <m>Q</m> be ``<m>f</m> is continuous". So the above statement is <m>P\implies Q</m>.</p>
+        <p>For each of the following write in symbols, using <m>P</m>, <m>Q</m>, and logical operators. Then, determine which statements are equivalent to <m>P\implies Q</m> and which are the negation? (Some may be neither.)</p>
+      </introduction>
+      <task>
+        <statement>
+          <p>If <m>f</m> is continuous at <m>x=a</m>, then <m>f</m> is differentiable at <m>x=a</m>.</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>If <m>f</m> is not differentiable at <m>x=a</m>, then <m>f</m> is not continuous at <m>x=a</m>.</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>If <m>f</m> is not continuous at <m>x=a</m>, then <m>f</m> is not differentiable at <m>x=a</m>.</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p><m>f</m> is not differentiable at <m>x=a</m> or <m>f</m> is continuous at <m>x=a</m></p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p><m>f</m> is not continuous at <m>x=a</m> or <m>f</m> is differentiable at <m>x=a</m></p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p><m>f</m> is differentiable at <m>x=a</m> and <m>f</m> is not continuous at <m>x=a</m>.</p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>Applying Conditional Statements</title>
+    <activity workspace="1in">
+      <statement>
+        <p>Following is a statement of a theorem which can be proven using calculus or precalculus mathematics.</p>
+      </statement>
+    </activity>
+    <theorem>
+      <statement>
+        <p>If <m>f</m> is a quadratic function of the form <m>f(x) = ax^2 +bx + c</m> where <m>a,b,c\in\mathbb{R}</m> and <m>a&lt;0</m>, then the function <m>f</m> has a maximum value when <m>x= \frac{-b}{2a}</m>.</p>
+      </statement>
+    </theorem>
+    <p>Using <em>only</em> this theorem, what can be concluded about the functions given by the following formulas?</p>
+    <ol>
+      <li><p><m>g(x) = -8x^2 +5x-2</m></p></li>
+      <li><p><m>h(x)=-\frac{1}{3}x^2 + 3x</m></p></li>
+      <li><p><m>k(x) = 8x^2 -5x-7</m></p></li>
+      <li><p><m>f(x) = -4x+2</m></p></li>
+      <li><p><m>j(x) = -\frac{71}{99}x^2 + 210</m></p></li>
+      <li><p><m>f(x) = -x^4 + x^3 + 9</m></p></li>
+    </ol>
+  </subsection>
+</worksheet>

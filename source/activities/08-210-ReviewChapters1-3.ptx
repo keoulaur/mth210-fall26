@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <title>Chapters 1-3 Review</title>
+  <subsection>
+    <title>Congruence and Modular Arithmetic, Division Algorithm</title>
+    <definition>
+      <statement>
+        <p>For <m>a,b\in \mathbb{Z}</m> and <m>m\in \mathbb{N}</m>, <m>a\equiv b \pmod{m}</m> provided that <m>m\mid (a-b)</m>.</p>
+      </statement>
+    </definition>
+    <p><term>Overleaf:</term> To type the above line in Overleaf, use</p>
+    <p>To type, <m>a \not\equiv b \pmod{m}</m> and <m>a\nmid b</m> use</p>
+    <p>Here's a theorem with properties of congruence. You can prove all of these using the definition of congruence.</p>
+    <theorem>
+      <statement>
+        <p>Suppose <m>a,b,c,d\in \mathbb{Z}</m>, <m>m\in \mathbb{N}</m>. The following hold:</p>
+        <ol>
+          <li><p>For all <m>a\in \mathbb{Z}</m>, <m>a\equiv a \pmod{m}</m></p></li>
+          <li><p>If  <m>a\equiv b \pmod{m}</m> then <m>b\equiv a \pmod{m}</m>.</p></li>
+          <li><p>If <m>a\equiv b \pmod{m}</m> and <m>b\equiv c \pmod{m}</m> then <m>a\equiv c \pmod{m}</m>.</p></li>
+          <li><p>If <m>a\equiv b\pmod{m}</m> and <m>c\equiv d \pmod{m}</m> then 
+		\begin{enumerate}
+		\item <m>(a+b) \equiv (c+d) \pmod{m}</m>
+		\item <m>(a-b) \equiv (c-d) \pmod{m}</m>
+		\item <m>(ab) \equiv (cd) \pmod{m}</m>.
+		\end{enumerate}</p></li>
+        </ol>
+      </statement>
+    </theorem>
+    <activity>
+      <introduction>
+        <p>Practice with congruence, modular arithmetic, and the division algorithm.</p>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p>If you want practice with proving things about modulo, pick one of the parts of the above theorem and prove it!</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>In roster notation, write the set of all integers that are congruent to <m>3</m> modulo <m>7</m>. Include some negative integers!</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Find an integer <m>a</m> such that <m>4a\equiv 0\pmod{12}</m> but <m>a\not\equiv 0\pmod{12}</m>. Can you find all such integers <m>a</m>?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Try to find an intuitive explanation for why there is no integer <m>a</m> such that <m>4a\equiv 0\pmod{11}</m>.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>One can use cases to prove that if <m>a\not\equiv 0 \pmod{3}</m> and <m>b\not\equiv 0\pmod{3}</m> then <m>ab\not\equiv 0 \pmod{3}</m>. What cases would make sense here? Prove one case.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>The division algorithm states that for all integers <m>a</m> and <m>m</m> with <m>m&gt;0</m>, there exist unique integers <m>q</m> and <m>r</m> such that <m>a=mq+r</m> where <m>0\le r &lt; m</m>. For each of the following, find <m>q</m> and <m>r</m> (and use the words quotient and remainder), and write a congruence that results from this. (a) <m>a=13</m>, <m>m=5</m> (b) <m>a=-13</m>, <m>m=5</m>, (c) <m>a=-2</m>, <m>m=5</m>.</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>One place congruence shows up is in the childhood way of picking who is ``it" in tag called ``eeny meeny miny, moe".  Here's the rhyme:
+	\begin{quote}
+	Eeny, meeny, miny, moe, 
+	Catch a tiger by the toe. 
+	If he hollers, let him go, 
+	Eeny, meeny, miny, moe.
+	\end{quote}
+	Decide with your group how many people you point to going through the rhyme. Then pick a person in your team to point out first. Use modular arithmetic to decide who will be ``it" without doing the rhyme. Who can you start with if you don't want to be ``it"? What if your group had <m>5</m> people? <m>6</m>? more?</p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>Set Notation (Roster and Set-Builder and Subsets)</title>
+    <p><term>Overleaf:</term> To write <m>\{\dots, -2,-1,0,1,2,3,\dots\}</m> or <m>\{ x^2 : x\in\mathbb{N}\}</m> use</p>
+    <p>(Note the backslash before the curly brace. Otherwise the curly brace won't appear!)</p>
+    <activity>
+      <introduction>
+        <p>There's lots of problems on Learning Targets 5 and 7 practice!</p>
+      </introduction>
+      <task>
+        <introduction>
+          <p>For each set, name 4 elements of the set.</p>
+        </introduction>
+        <task>
+          <statement>
+            <p><m>\{x\in\mathbb{R} : -1&lt;x&lt;0\}</m></p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><m>\{x\in\mathbb{R}: \sin(x)=0\}</m></p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><m>\{2x+7: x\in \mathbb{N}\}</m></p>
+          </statement>
+        </task>
+      </task>
+      <task>
+        <statement>
+          <p>Let <m>A = \{x\in\mathbb{R}: \sin(x)=0\}</m> and <m>B = \{x\in \mathbb{R}: \sin(2x) = 0\}</m>. How are <m>A</m> and <m>B</m> related?</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>How many elements are in the set <m>H = \{ \frac{n}{2n}: n\in\mathbb{N}\}</m>? (I.e., what's the cardinality of <m>H</m>?)</p>
+        </statement>
+      </task>
+      <task>
+        <introduction>
+          <p>Write the following sets in set-builder notation.</p>
+        </introduction>
+        <task>
+          <statement>
+            <p><m>\{7, 49, 343,\dots\}</m></p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><m>\{ \frac{1}{3}, \frac{2}{4}, \frac{3}{5}, \frac{4}{6},\dots\}</m></p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><m>\{ \dots, -1, 1,3,5,7,9,\dots\}</m></p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><m>\{ 2,3,5,7,11,13,17,\dots\}</m></p>
+          </statement>
+        </task>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>Sets and Set Operations (+ Venn Diagrams)</title>
+    <p><term>Overleaf</term> Note in Overleaf the symbols <m>\cup, \cap, A^c, \setminus</m> are written as</p>
+    <ol>
+      <li><p>Lots of problems on Learning Target 8 practice!</p></li>
+      <li><p>Let the universal set be <m>U = \left\{ {1,2,3,4,5,6} \right\}</m>, and let
+<md>A = \left\{ {1,2,4} \right\}\!, \quad  B = \left\{ {1,3,5} \right\}\!, \quad   
+  C = \left\{ { {x \in U} : x^2  \leq 2} \right\}\!.</md>
+
+\begin{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
+	\item For each new set described below,
+	\begin{itemize}
+		\item List all elements in the set using the roster method.
+		\item Write a formula for the set using <m>A</m>, <m>B</m>, <m>C</m>, or <m>U</m> and operations such as <m>\cap</m>, <m>\cup</m>, <m>\setminus</m>, and <m>{}^{c}</m>.
+	\end{itemize}
+
+
+	
+
+
+	\item Let <m>D = \{ x \in U : x = 2^{k} \text{ for some } k \in \mathbb{Z} \}</m>.
+	
+	\begin{enumerate}
+		\item List all elements of <m>D</m> using Roster notation. 
+		
+		\item <m>D</m> is a subset of which other sets (<m>A</m>, <m>B</m>, or <m>C</m>)? 
+		
+		\item Which other sets (<m>A</m>, <m>B</m>, or <m>C</m>) are subsets of <m>D</m>? 
+		
+		\item What is the relationship between <m>A</m> and <m>D</m>? Why? 
+		
+	\end{enumerate}
+
+\end{enumerate}</p></li>
+      <li><p>For each of the following, label the sets and shade the region(s) that represent the given set.</p></li>
+      <li><p>Parts (a) and (b) should be equal! This suggests a ``distributive property" for intersection over union. Recall the distributive property means <m>a(b+c) = ab+ac</m>. How is this related?</p></li>
+      <li><p>In the Venn diagram below, set <m>M</m> represents all math majors, set <m>B</m> represents all bicyclists, and set <m>G</m> represents people who live in Grand Rapids. The universal set <m>U</m> is all humans.</p></li>
+    </ol>
+  </subsection>
+  <subsection>
+    <title>Proofs with Sets and Subsets</title>
+    <theorem>
+      <statement>
+        <p>If <m>A = \{2k+1: k\in\mathbb{Z}\}</m> and <m>B = \{6j+5: j \in\mathbb{Z}\}</m> then <m>B\subset A</m>.</p>
+      </statement>
+    </theorem>
+    <p>If time: Prove the distributive property:</p>
+    <theorem>
+      <statement>
+        <p>For all subsets <m>A,B,C</m> of some universal set <m>U</m>, <m>A\cap (B\cup C) = (A\cap B) \cup (A\cap C)</m>.</p>
+      </statement>
+    </theorem>
+  </subsection>
+</worksheet>

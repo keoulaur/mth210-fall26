@@ -19,6 +19,9 @@ executables.ptx
 # don't track node packages
 node_modules
 
+# don't track latex source
+latex
+
 # don't track error logs
 .error_schema.log
 logs
