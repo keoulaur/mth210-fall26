@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <title>Chapter 5: Logic (Part 2)</title>
+  <subsection>
+    <title>Quantifiers, in Multiples</title>
+    <p>Recall that <m>\forall</m> means ``for all" and <m>\exists</m> means ``there exists". When we use ``there exists" we usually follow it with a ``such that". Also, there exist <m>x,y</m> (no s), but there exists <m>x</m> (with an s).</p>
+    <activity>
+      <introduction>
+        <p>Determine if each of the following are true or false.</p>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p><m>(\forall n\in\mathbb{N})(n \text{ is odd})</m></p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p><m>(\exists n\in\mathbb{N})(n \text{ is odd})</m></p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p><m>(\forall x\in \mathbb{R})(\forall y\in\mathbb{R})(xy=1)</m></p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p><m>(\exists x\in \mathbb{R})(\exists y\in\mathbb{R})(xy=1)</m></p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p><m>(\forall x\in \mathbb{R})(\exists y\in\mathbb{R})(xy=1)</m></p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p><m>(\exists x\in \mathbb{R})(\forall y\in\mathbb{R})(xy=1)</m></p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p><m>(\forall x\in \mathbb{R})(\exists y\in\mathbb{R})(x+y=0)</m></p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p><m>(\exists x\in \mathbb{R})(\forall y\in\mathbb{R})(x+y=0)</m></p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p><m>(\forall x\in \mathbb{R})(\exists y\in\mathbb{R})(xy=0)</m></p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p><m>(\exists x\in \mathbb{R})(\forall y\in\mathbb{R})(xy=0)</m></p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>Negations</title>
+<tabular>
+  <col halign="center" right="minor"/>
+  <col halign="center" right="minor"/>
+  <col halign="center" right="minor"/>
+  <col halign="center" right="minor"/>
+  <col halign="center"/>
+  <row bottom="minor">
+    <cell><term>Logical Connector</term></cell>
+    <cell>\bf{In words}</cell>
+    <cell>\bf{Negate!}</cell>
+    <cell>\bf{Negation distributed}</cell>
+    <cell>\bf{In words}</cell>
+  </row>
+  <row bottom="minor">
+    <cell><m>\forall x\in A</m></cell>
+    <cell>For all <m>x</m> in <m>A</m></cell>
+    <cell><m>\sim(\forall x\in A)</m></cell>
+    <cell><m>\exists x\in A</m></cell>
+    <cell>There exists <m>x</m> in <m>A</m>.</cell>
+  </row>
+  <row bottom="minor">
+    <cell><m>\exists x \in A</m></cell>
+    <cell>There exists <m>x</m> in <m>A</m></cell>
+    <cell><m>\sim(\exists x \in A)</m></cell>
+    <cell><m>\forall x\in A</m></cell>
+    <cell>For all <m>x</m> in <m>A</m></cell>
+  </row>
+  <row bottom="minor">
+    <cell><m>P\vee Q</m></cell>
+    <cell><m>P</m> or <m>Q</m></cell>
+    <cell><m>\sim (P\vee Q)</m></cell>
+    <cell><m>\sim P \wedge \sim Q</m></cell>
+    <cell>Not <m>P</m> and not <m>Q</m></cell>
+  </row>
+  <row bottom="minor">
+    <cell><m>P\wedge Q</m></cell>
+    <cell><m>P</m> and <m>Q</m></cell>
+    <cell><m>\sim(P\wedge Q)</m></cell>
+    <cell><m>\sim P \vee \sim Q</m></cell>
+    <cell>Not <m>P</m> or not <m>Q</m></cell>
+  </row>
+  <row bottom="minor">
+    <cell><m>P\implies Q</m></cell>
+    <cell>If <m>P</m> then <m>Q</m></cell>
+    <cell><m>\sim(P\implies Q)</m></cell>
+    <cell><m>P\wedge \sim Q</m></cell>
+    <cell><m>P</m> and not <m>Q</m>.</cell>
+  </row>
+  <row>
+    <cell><m>\sim P</m></cell>
+    <cell>Not <m>P</m></cell>
+    <cell><m>\sim(\sim P)</m></cell>
+    <cell><m>P</m></cell>
+    <cell><m>P</m></cell>
+  </row>
+</tabular>
+    <activity>
+      <introduction>
+        <p>Practice Negating. Negate the following statements.</p>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p>For all integers <m>n</m>, if <m>n</m> is positive, then <m>n^2 - n + 11</m> is prime.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>For all integers <m>a</m> and <m>b</m>, if <m>a\equiv 1\pmod{3}</m> and <m>b\equiv 2\pmod{3}</m> then <m>a+b\equiv 0\pmod{3}</m>.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>For each real number <m>x</m>, if <m>x\ge 0</m> then <m>x^2\ge 0 </m> and <m>\sqrt{x^2} = x</m>.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>There are real numbers <m>a</m> and <m>b</m> such that <m>ab\neq \sqrt{a^2b^2}</m>.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>For every pair of real numbers <m>x</m> and <m>y</m>, if <m>x&lt;y</m> then there exists a rational number <m>q</m> such that <m>x&lt;q&lt;y</m>.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>For every line <m>\ell</m> and every point <m>P</m>, if <m>P</m> is not on <m>\ell</m>, then there exists a unique line <m>m</m> through <m>P</m> that is parallel to <m>\ell</m>.</p>
+        </statement>
+      </task>
+    </activity>
+    <activity workspace="1in">
+      <statement>
+        <p>(If time:) Negate the statements on page 72 and translate into English.</p>
+      </statement>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>English is hard!</title>
+    <p>As we've seen, there are many many ways to write a conditional statement. For example, ``if <m>P</m> then <m>Q</m>" can be written as ``<m>P</m> implies <m>Q</m>" or ``<m>Q</m> if <m>P</m>" or ``<m>P</m> only if <m>Q</m>" and more. (See page 211 of your textbook.)  This is similar for the universal and existential quantifiers. For example, instead of ``for all", we might say ``for any", or ``for each". And instead of ``there exists" we could say ``there is". There's also an idea of ``hidden quantifiers". E.g., sometimes instead of starting ``for all" we start with ``if" and it has the same meaning.</p>
+    <p>\begin{quote}
+In general, to negate a statement, it's a good idea to write the statement using symbols, including any hidden quantifiers. On the other hand, sometimes translating a statement into different words, can be easier to interpret.
+\end{quote}</p>
+    <p><term>Example:</term> <m>(\forall x\in\mathbb{R})(x^2&gt;0)</m> can be said as</p>
+    <p>The last statement, is a conditional statement, that ``hides" the universal quantifier.</p>
+    <p><term>Example:</term> <m>(\exists x\in \mathbb{R})(x^2 = 5)</m> can be said as</p>
+    <activity>
+      <introduction>
+        <p>Here's some statements with hidden quantifiers, hidden conditional statements, or translated into other words. Rewrite the sentences as directed.</p>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p>If a function <m>y=f(x)</m> is continuous at <m>x=a</m>, then the function is differentiable at <m>x=a</m>. <em>Rewrite with a universal quantifier.</em></p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>The equation <m>x^3 + x =0 </m> has a solution. <em>Rewrite with an existential quantifier.</em></p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Every natural number is a perfect square. <em>Rewrite with a universal and existential quantifier.</em></p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Every real number can be squared.  <em>Rewrite with a universal and existential quantifier.</em></p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>No basketball players also play tennis. <em>Rewrite as a conditional statement.</em></p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Any prime number is not followed by a perfect square. <em>Rewrite as a conditional statement.</em></p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>Applying Conditional Statements</title>
+    <p>A key component of logical reasoning with conditional statements is known as <em>modus ponens</em>.  It works like this:</p>
+    <p>IF</p>
+    <ul>
+      <li><p>you have a conditional statement (of the form ``if <m>P</m>, then <m>Q</m>'') that you know is _____, 
+
+AND</p></li>
+      <li><p>you can establish that the hypothesis <m>P</m> is _____, 
+
+THEN</p></li>
+      <li><p>it necessarily follows that the conclusion <m>Q</m> _____.</p></li>
+    </ul>
+    <p>Use this reasoning in what follows.</p>
+    <activity>
+      <introduction>
+        <p>In calculus, we establish that the following conditional statement is true:</p>
+        <p>\begin{quote}
+If <m>f</m> is any function such that <m>f</m> is differentiable at the real number <m>x = a</m>, then <m>f</m> is continuous at <m>x = a</m>.
+\end{quote}</p>
+        <p>What can we conclude, if anything about the following four functions?</p>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p>A function <m>g</m> that we know is differentiable at <m>x = 2</m>.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>A function <m>r</m> that we know is not differentiable at <m>x=-5</m>.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>A function <m>h</m> that we know is continuous at <m>x = 3</m>.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>A function <m>h</m> that we know is not continuous at <m>x = -1</m>.</p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>Proving Quantified Statements</title>
+    <p>To <term>prove an existentially quantified statement</term>  it suffices to provide an example satisfying the criteria. One can do this in two ways:</p>
+    <ul>
+      <li><p><em>Constructive:</em>  E.g., to prove ``there exists a perfect covering of a chessboard" we did so by drawing one out.</p></li>
+      <li><p><em>Non-constructive:</em> E.g., when applying the pigeonhole principle, we said ``if there are 367 people in a stadium, at least two of them are guaranteed to have the same birthday". We didn't say which two or what the birthday was, just that we know at least two such people exist.</p></li>
+    </ul>
+    <p>To <term>prove a universally quantified statement</term> you must prove for an arbitrary case. E.g., when we proved that the sum of an even integer and an odd integer is odd, it's not enough to say <m>2+3</m> is odd. We must show for any arbitrary even integer, and any arbitrary odd integer, the sum is odd. We use variables to do infinitely many things at once here!</p>
+    <activity>
+      <introduction>
+        <p><em>If time:</em> Some exercises to keep you entertain over spring break if you get bored :)</p>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p>Prove that for all <m>x,y\in\mathbb{Q}</m>, there exists some <m>z\in \mathbb{Q}</m> such that <m>x&lt;z&lt;y</m>.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Any prime number <m>p\neq 3</m> is not followed by a perfect square. (Note a prime number is a natural number greater than 1 that has exactly two distinct positive divisors: 1 and itself. A perfect square is a natural number <m>n</m> such that there exists a natural number <m>k</m> such that <m>n=k^2</m>.)</p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+</worksheet>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <title>Chapter 8 (Part 2): Functions - Compositions and Inverses</title>
+  <subsection>
+    <title>Definitions</title>
+    <p>Let <m>A,B</m>, and <m>C</m> be sets, <m>g: A\to B</m> and <m>f:B\to C</m>. Then the <term>composition</term> function is denoted <m>f\circ g</m> and is defined as thus:
+	<md>(f\circ g): A\to C \hspace{.2in} \text{    where    }  \hspace{.2in} (f\circ g)(a) = f(g(a)).</md></p>
+    <p>This is read as ``<m>f</m> composed with <m>g</m>'' or ``<m>f</m> of <m>g</m>''. Note <m>g</m> composed with <m>f</m> is usually very different than <m>f</m> composed with <m>g</m>.</p>
+    <p>For a set <m>A</m>, the <term>identity function</term> on <m>A</m> is the function</p>
+    <p><md>i_A: A\to A  \hspace{.2in} \text{    where    }  \hspace{.2in} i_A(x) = x \text{ for every } x\in A.</md></p>
+    <p>The <term>inverse</term> of a function <m>f: A\to B</m>, if it exists, is the function <m>f^{-1}: B\to A</m> such that <m>f^{-1}\circ f = i_A</m> and <m>f\circ f^{-1} = i_B</m>.</p>
+  </subsection>
+  <subsection>
+    <title>Examples</title>
+    <activity>
+      <introduction>
+        <p>For each of the following, draw arrow diagrams for <m>f</m>, <m>g</m>, and <m>f\circ g</m>. Then determine if each of those 3 functions is an injection or surjection.</p>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p>Suppose <m>g: \{1,2,3\} \to \{a,b,c,d\}</m> and <m>f: \{a,b,c,d\} \to \{\star, \bigcirc, \bigtriangleup\}</m> are defined by
+	<md>f(1) = a; \,\,\, f(2) = b; \,\,\, f(3) = a \hspace{.2in} \text{ and } \hspace{.2in} g(a) = \bigcirc; \,\,\, g(b) = \bigcirc;\,\,\, g(c) = \star; \,\,\, g(d) = \bigtriangleup;</md></p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Suppose <m>g: \{1,2,3\} \to \{a,b,c,d\}</m> and <m>f: \{a,b,c,d\} \to \{\star, \bigcirc, \bigtriangleup\}</m> are defined by
+	<md>f(1) = a; \,\,\, f(2) = b; \,\,\, f(3) = c \hspace{.2in} \text{ and } \hspace{.2in} g(a) = \bigcirc; \,\,\, g(b) = \star;\,\,\, g(c) = \bigtriangleup; \,\,\, g(d) = \bigtriangleup;</md></p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>Conjectures About Compositions and 'Jections</title>
+    <p>We will spend some time thinking about compositions effect on injections and surjections.</p>
+    <p>In each, assume <m>g: A\to B</m> and <m>f: B\to C</m>, so that the composition makes sense.</p>
+<tabular>
+  <col halign="left" right="minor"/>
+  <col halign="center"/>
+  <row bottom="minor">
+    <cell>Conjecture</cell>
+    <cell>Guess: True or False?</cell>
+  </row>
+  <row>
+    <cell>1. If <m>f</m> and <m>g</m> are injective, then <m>f\circ g</m> is injective.</cell>
+    <cell></cell>
+  </row>
+  <row>
+    <cell>[15pt]
+
+2. If <m>f</m> and <m>g</m> are surjective, then <m>f\circ g</m> is surjective.</cell>
+    <cell></cell>
+  </row>
+  <row>
+    <cell>[15pt]
+
+3. If <m>f</m> and <m>f\circ g</m> are injective, then <m>g</m> is injective.</cell>
+    <cell></cell>
+  </row>
+  <row>
+    <cell>[15pt]
+
+4. If <m>g</m> and <m>f\circ g</m> are injective, then <m>f</m> is injective.</cell>
+    <cell></cell>
+  </row>
+  <row>
+    <cell>[15pt] 
+
+5. If <m>f</m> and <m>f\circ g</m> are surjective, then <m>g</m> is surjective.</cell>
+    <cell></cell>
+  </row>
+  <row>
+    <cell>[15pt] 
+
+6. If <m>g</m> and <m>f\circ g</m> are surjective, then <m>f</m> is surjective.</cell>
+    <cell></cell>
+  </row>
+  <row>
+    <cell>[15pt]</cell>
+  </row>
+</tabular>
+    <p>If you find a counterexample, write it down in the space below.</p>
+  </subsection>
+  <subsection>
+    <title>Theorems About Compositions and 'Jections</title>
+    <p>1. and 2. from the previous page are true. There are proof sketches and formal proofs in your book (pages 349 - 350). We'll state and sketch 1. here.</p>
+    <theorem>
+      <statement>
+        <p>Suppose <m>A,B,</m> and <m>C</m> are sets, <m>g:A \to B</m> is injective and <m>f:B\to C</m> is injective. Then <m>f\circ g</m> is injective.</p>
+      </statement>
+    </theorem>
+    <p>We'll prove this directly. When trying to figure out a direct proof, you should always write down what you are assuming, what you are proving, and then definitions of each of those. Here I've outlined the order I would think abou this proof.</p>
+    <ul>
+      <li><p>Assuming (by hypothesis): <m>g</m> is _____
+This means for all <m>a_1, a_2\in A</m></p></li>
+      <li><p>Assuming (by hypothesis): <m>f</m> is _____
+This means for all <m>b_1, b_2 \in B</m></p></li>
+      <li><p>The conclusion definition is a conditional statement, so we will assume its hypothesis which is   
+
+_____ which can be rewritten as _____</p></li>
+      <li><p>Work your way to the conclusion. Hint in footnote!<fn>Hint - you know <m>f(g(a_1))= f(g(a_2))</m>, what can you say about <m>g(a_1)</m> and <m>g(a_2)</m> given that <m>f</m> is an injection. </fn></p></li>
+      <li><p>Proving (conclusion): _____
+This means:</p></li>
+    </ul>
+    <p>Here's a fill in the blank proof of the theorem on the previous page:</p>
+    <theorem>
+      <statement>
+        <p>Suppose <m>A,B,</m> and <m>C</m> are sets, <m>g:A \to B</m> is injective and <m>f:B\to C</m> is injective. Then <m>f\circ g</m> is injective.</p>
+      </statement>
+    </theorem>
+    <proof>
+      <p>Suppose <m>A,B,</m> and <m>C</m> are sets, <m>g: A\to B</m> is injective and <m>f: B\to C</m> is injective. We will show <m>f\circ g</m> is injective by showing that</p>
+      <p>To this end, assume <m>a_1,a_2\in A</m> and <m>(f \circ g)(a_1) = (f\circ g)(a_2)</m>. We aim to show: _____. Applying the definition of composition to <m>(f \circ g)(a_1) = (f\circ g)(a_2)</m> we get</p>
+      <p>Since <m>f: B\to C</m> is _____, if _____ for any <m>b_1, b_2 \in B</m>, then _____. In particular, observe that <m>g(a_1), g(a_2)\in B</m> and <m>f(g(a_1))=f(g(a_2))</m> and so _____.</p>
+      <p>Likewise, <m>g: A\to B</m> is  _____ and we just showed that <m>g(a_1)=g(a_2)</m> where <m>a_1, a_2\in A</m>. This implies _____.</p>
+      <p>We have shown that for <m>a_1,a_2 \in A</m>, if <m>(f\circ g)(a_1) = (f\circ g)(a_2)</m> then <m>a_1 = a_2</m>. Thus, <m>f\circ g</m> is an injection.</p>
+    </proof>
+    <p>\hrulefill</p>
+    <p><em>If time:</em> Do a proof sketch below of 2.</p>
+    <theorem>
+      <statement>
+        <p>Suppose <m>A,B,</m> and <m>C</m> are sets, <m>g:A \to B</m> is surjective and <m>f:B\to C</m> is surjective. Then <m>f\circ g</m> is surjective.</p>
+      </statement>
+    </theorem>
+    <p>Proof sketch: (Start by writing down what you are assuming at the top and what you are proving at the bottom, then write definitions of each.)</p>
+    <p>Here's a fill in the blank proof of 2.</p>
+    <theorem>
+      <statement>
+        <p>Suppose <m>A,B,</m> and <m>C</m> are sets, <m>g:A \to B</m> is surjective and <m>f:B\to C</m> is surjective. Then <m>f\circ g</m> is surjective.</p>
+      </statement>
+    </theorem>
+    <proof>
+      <p>We assume that <m>A</m>, <m>B</m>, <m>C</m> are subsets of some universal set. Furthermore, we are given that function <m>f: A \to B</m> is a surjection. By definition, this means that: [1cm]</p>
+      <p>Also, we are given that <m>g: B \to C</m> is a surjection. By definition, this means that: [1cm]</p>
+      <p>We want to show that <m>g \circ f : A \to C</m> is also a surjection.</p>
+      <p>That is, we must show that for all <m>\underline{\hspace{1cm}} \in \underline{\hspace{1.5cm}}</m>, there exists _____ such that _____. Thus, we assume that <m>c \in C</m>.  Because <m>g</m> is a surjection with codomain <m>C</m>, and <m>c \in C</m>, we know that there exists <m>\underline{\hspace{1cm}} \in \underline{\hspace{1cm}}</m> such that _____.</p>
+      <p>Because <m>f</m> is a surjection with codomain <m>B</m>, [.5in]</p>
+      <p>Putting these facts together, we have:
+\begin{align*}
+	(g \circ f)(_____) &amp;= g(f(_____))  [1ex]
+	&amp;=  [.4in]
+\end{align*}</p>
+      <p>Therefore, we have shown that: [.5in]</p>
+    </proof>
+    <corollary>
+      <statement>
+        <p>Suppose <m>A,B,</m> and <m>C</m> are sets, <m>g:A \to B</m> is bijective and <m>f:B\to C</m> is bijective. Then <m>f\circ g</m> is bijective.</p>
+      </statement>
+    </corollary>
+    <p>3. and 6. are also true! We'll restate 6 and work on proving here.</p>
+    <theorem>
+      <statement>
+        <p>Suppose <m>A,B,</m> and <m>C</m> are sets, and <m>g: A\to B</m> and <m>f: B\to C</m> are functions. If <m>g</m> and <m>f\circ g</m> are surjective, then <m>f</m> is surjective.</p>
+      </statement>
+    </theorem>
+    <p>Proof sketch: What are you assuming? Write that at the top. What are you proving? Write that at the bottom. Write definitions of each!</p>
+    <p>Note we didn't actually use the hypothesis that <m>f</m> is surjective. So we can state a stronger theorem (stronger because it will have fewer hypotheses).</p>
+    <theorem>
+      <statement>
+        <p>Suppose <m>A,B,</m> and <m>C</m> are sets, and <m>g: A\to B</m> and <m>f: B\to C</m> are functions. If  <m>f\circ g</m> is surjective, then <m>f</m> is surjective.</p>
+      </statement>
+    </theorem>
+    <p><em>If time:</em> Work on the proof of 3. below.</p>
+    <theorem>
+      <statement>
+        <p>Suppose <m>A,B,</m> and <m>C</m> are sets, and <m>g: A\to B</m> and <m>f: B\to C</m> are functions. If <m>f</m> and <m>f\circ g</m> are injective, then <m>g</m> is injective.</p>
+      </statement>
+    </theorem>
+    <p>Note we didn't actually use the hypothesis that <m>g</m> is injective. So we can state a stronger theorem (stronger because it will have fewer hypotheses).</p>
+    <theorem>
+      <statement>
+        <p>Suppose <m>A,B,</m> and <m>C</m> are sets, and <m>g: A\to B</m> and <m>f: B\to C</m> are functions. If <m>f\circ g</m> is injective, then <m>g</m> is injective.</p>
+      </statement>
+    </theorem>
+  </subsection>
+  <subsection>
+    <title>Inverse Functions</title>
+    <theorem>
+      <statement>
+        <p>A function <m>f: A\to B</m> is invertible if and only if <m>f</m> is a bijection.</p>
+      </statement>
+    </theorem>
+    <p>There's a proof of this theorem on pages 355-356, which I encourage you to read. These 2 pictures from your preview activity reading show the big idea behind why if <m>f</m> is not a bijection, then <m>f^{-1}</m> is not a function.</p>
+    <p>\includegraphics{images/InverseNotInj}
+\includegraphics{images/InverseNotSurj}</p>
+    <p>In college algebra, you were likely asked many times to find the inverse of a function like <m>f(x)=x^3-5</m>. Work with your group to try to remember ways you were taught to do that. Then think about how that relates to the definition given on page 103 of these worksheets.</p>
+    <activity>
+      <introduction>
+        <p>One of the big ideas of inverse functions is that they allow us to ``undo'' functions. E.g., <m>\log_2(x)</m> undoes <m>2^x</m> in the sense that <m>\log_2(2^x) = x = 2^{\log_2(x)}</m>. Similarly,  <m>\arcsin(x)</m> undoes <m>\sin(x)</m>. This activity is going to ask, if we can take square roots and cube roots modulo <m>5</m>.</p>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p>Define <m>f: \mathbb{R} \to \mathbb{R}</m> by <m>f(x) = x^2</m>. Then we might say the inverse is <m>g: \mathbb{R} \to\mathbb{R}</m> where <m>g(x) = \sqrt{x}</m>. Is <m>g</m> a function? Why or why not? What about if we change <m>f</m> to <m>x^3</m> and <m>g</m> to <m>\sqrt[3]{x}</m>?</p>
+          <p>Let <m>R_5 = \{0,1,2,3,4\}</m> for the rest of the questions.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Define <m>h: R_5 \to R_5</m> by <m>h(x)=x^2 \pmod{5}</m>. Find <m>h(a)</m> for all <m>a\in R_5</m>. Does <m>h</m> have an inverse function?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Define <m>j: R_5 \to R_5</m> by <m>j(x)=x^3 \pmod{5}</m>. Find <m>j(a)</m> for all <m>a\in R_5</m>. Does <m>j</m> have an inverse function?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Define <m>k: R_5 \to R_5</m> by <m>k(x)=x^3 -2 \pmod{5}</m>. Can you find a formula for <m>k^{-1}(x)</m>?</p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>More Practice With 'Jections</title>
+    <p>For all of the following, start by doing some examples of where a few elements in the domain map to in the codomain. Then ``push'' on it a little bit - try to get elements of the domain to map to the same element in the codomain. Try to find an element that doesn't get mapped to, and do some scratch work to see if it does. For functions that are from ``one dimension'' to ``one dimension'' you might graph (I would use Desmos).</p>
+  </subsection>
+  <subsection>
+    <title>Proving Bijections</title>
+    <p>Prove that each of the following are both injections and surjections (and hence bijections).</p>
+    <ol>
+      <li><p><m>g: \mathbb{R}-\{1\} \to \mathbb{R}-\{1\}</m> defined by <m>g(x) = \frac{x}{x-1}</m>.</p></li>
+      <li><p><m>f: \mathbb{R} \to S</m> defined by <m>f(x) = 2\cdot 3^{4x-1} + 7</m>, where <m>S = \{y\in\mathbb{R}: y&gt;7\}</m>.</p></li>
+      <li><p><m>h: \mathbb{R}\times \mathbb{R} \to \mathbb{R} \times \mathbb{R}</m> defined by <m>h(x,y) = (-x+y, 2y)</m>.</p></li>
+    </ol>
+  </subsection>
+  <subsection>
+    <title>Conjecturing, Proving, and Disproving</title>
+    <p>For each of the following, prove or disprove whether they are injections and/or surjections. Again, start by doing examples (see the directions at the top of this page!)</p>
+    <ul>
+      <li><p>Define <m>f: \mathbb{R}\times\mathbb{R} \to \mathbb{R}\times \mathbb{R}</m> by <m>f(a,b) = (2a+b,2a-b)</m>.</p></li>
+      <li><p>Define <m>f: \mathbb{Z} \to\mathbb{Z}</m> by <m>f(x) = 2x-4</m>.</p></li>
+    </ul>
+    <p>Blank page for work.</p>
+  </subsection>
+</worksheet>

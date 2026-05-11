@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <title>Chapter 3 - Sets (Part 1)</title>
+  <subsection>
+    <title>What is a Set?</title>
+    <p>A <em>set</em> is an unordered collection of distinct objects which are called <em>elements</em>.</p>
+  </subsection>
+  <subsection>
+    <title>The Symbols <m>\in, \notin, \subseteq, \subset, \not\subseteq, = </m></title>
+    <ul>
+      <li><p>If <m>x</m> is an element of a set <m>S</m>, we write <m>x\in S</m>. This is read ``<m>x</m> in <m>S</m>".</p></li>
+      <li><p>If <m>x</m> is not an element of a set <m>S</m>, we write <m>x\notin S</m>. This is read as ``<m>x</m> is not in <m>S</m>".</p></li>
+      <li><p>If every element of <m>A</m> is also an element of <m>B</m> then <m>A</m> is a subset of <m>B</m>, denoted <m>A\subseteq B</m>.</p></li>
+      <li><p>If <m>A\subseteq B</m> and <m>A\neq B</m>, then <m>A \subset B</m>, we say ``<m>A</m> is a proper subset of <m>B</m>".</p></li>
+      <li><p>If <m>A</m> is not a subset of <m>B</m> then we write <m>A\not\subseteq B</m>. This means there exists an <m>x\in A</m> such that <m>x\notin B</m>.</p></li>
+      <li><p>If <m>A</m> and <m>B</m> have the exact same elements, we write <m>A=B</m>. This is read as ``<m>A</m> equals <m>B</m>".</p></li>
+    </ul>
+    <activity>
+      <task workspace="1in">
+        <introduction>
+          <p>Consider the set <m>A=\{1,2,3,\text{cat}, \star\}</m>.</p>
+        </introduction>
+        <task>
+          <statement>
+            <p>What are the elements of <m>A</m>?  How many are there? (Later we'll refer to the number of elements in the set as the <em>size</em> or the <em>cardinality</em>.)</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>List 3 different subsets of <m>A</m>.</p>
+          </statement>
+        </task>
+      </task>
+      <task workspace="1in">
+        <introduction>
+          <p>Consider the set <m>B=\{1,2,3,\{4,9\},7\}</m>.</p>
+        </introduction>
+        <task>
+          <statement>
+            <p>What are the elements of <m>B</m>? How many are there?</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>List 3 different subsets of <m>B</m>.</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>Which of the following is correct to say: <m>\{4,9\}\in B</m> or <m>\{4,9\}\subseteq B</m>?</p>
+          </statement>
+        </task>
+      </task>
+      <task workspace="1in">
+        <introduction>
+          <p>Let <m>A = \{1, \{2, 3\}\}</m>.  Decide whether each of the following statements is true or false.</p>
+        </introduction>
+        <task>
+          <statement>
+            <p><m>1\in A</m></p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><m>1\subseteq A</m></p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><m>\{1\} \in A</m></p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><m>\{2,3\}\in A</m></p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><m>\{2,3\} \subseteq A</m></p>
+          </statement>
+        </task>
+      </task>
+      <task>
+        <statement>
+          <p>Let <m>A = \{ \ldots, -6, -3, 0, 3, 6, \ldots \}</m>, <m>B = \{12, 24, 36 \}</m>, and <m>C = \{1, 2, 3\}</m>.  Which of the following statements are true?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Fill in all of the symbols that apply from the list: <m>\in, \notin, \subseteq, \subset, \not\subseteq, = </m></p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>(If time:) Challenge Question 1: Can an object ever be both an element and a subset of the same set?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>(If time:) Challenge Question 2: How many subsets are there of the set <m>\{1,2\}</m>? Of the set <m>\{1,2,3\}</m>? How many subsets do you think there will be of the set <m>\{1,2,3,\dots, n\}</m> for <m>n\in\mathbb{N}</m>?</p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>Roster Notation and Set Builder Notation</title>
+    <ul>
+      <li><p>Roster notation is when we list all the elements, or list enough elements so that pattern is obvious and use <m>\dots</m>. E.g., <m>\{1,4,9,16,25,\dots\}</m>.</p></li>
+      <li><p>Set builder notation is when we define the elements by a rule. E.g., <m>\{n^2: n\in\mathbb{N}\}</m>.</p></li>
+    </ul>
+    <activity>
+      <introduction>
+        <p>Practice translating between roster notation and set builder notation.</p>
+      </introduction>
+      <task workspace="1in">
+        <introduction>
+          <p>Each of the following sets is written in set builder notation. Use an English sentence to describe what the set means, and then, if possible, write the sets in roster notation.</p>
+        </introduction>
+        <task>
+          <statement>
+            <p><m>\{x\in\mathbb{N} : x^2&lt;25\}</m></p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><m>\{ y\in \mathbb{Z}: \, |y-2|=2.5\}</m></p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><m>\{ x\in \mathbb{R} : -3\leq x \leq 5\}</m></p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><m>\{ n^3 +1: n\in\mathbb{N}\}</m></p>
+          </statement>
+        </task>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Write down the set of all even integers using roster notation and set builder notation.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <introduction>
+          <p>Consider the following set written using roster notation:
+	<md>\{\sqrt{3}^2, \sqrt{3}^4, \sqrt{3}^6,\cdots\}</md></p>
+        </introduction>
+        <task>
+          <statement>
+            <p>Determine four elements of the set other than the ones listed above.</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>Use set builder notation to describe the set.</p>
+          </statement>
+        </task>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>Proving <m>A\subseteq B</m> - The ``Choose an Element Method"</title>
+    <p>The notation <m>A\subseteq B</m> is read ``<m>A</m> is a subset of <m>B</m>" and means that if <m>x\in A</m> then <m>x\in B</m>, that is, every element of <m>A</m> is also an element of <m>B</m>.</p>
+    <p>Thus, if we want to prove that <m>A\subseteq B</m>, we are proving a conditional statement, i.e., an ``if - then" statement. We'll do a direct proof of this conditional statement. So, we'll assume the hypothesis, and show the conclusion.</p>
+    <p>More specifically, we'll start with an arbitrary <m>x</m> such that <m>x\in A</m>, and we'll show <m>x\in B</m>,</p>
+    <activity workspace="1in">
+      <statement>
+        <p>Prove the following theorem.</p>
+      </statement>
+    </activity>
+    <theorem>
+      <statement>
+        <p>If <m>A = \{x\in\mathbb{Z} \mid x \equiv 2 \pmod{4}\} </m> and <m>B =\{x\in\mathbb{Z} \mid x \equiv 0 \pmod{2}\}</m> then <m>A\subseteq B</m>.</p>
+      </statement>
+    </theorem>
+    <p>Start with a pre-proof analysis. Consider listing the elements in <m>A</m> and the elements in <m>B</m> to see if you believe the conjecture. Then, choose an arbitrary element of <m>A</m>, e.g., ``Let <m>x\in A</m>. So <m>x\in \mathbb{Z}</m> and <m>x\equiv 2 \pmod{4}</m>." Work to show that this <m>x</m> is in <m>B</m>, that is <m>x\equiv 0 \pmod {2}</m>.</p>
+    <p>(If time:) It's actually true that <m>A\subset B</m>. What would you add to your proof to prove this?</p>
+  </subsection>
+  <subsection>
+    <title>Proving <m>A = B</m></title>
+    <p>To say <m>A = B</m> is to say that <m>A</m> and <m>B</m> contain <em>exactly</em> the same elements. Said differently, it means these two things:</p>
+    <ol>
+      <li><p>Every element in <m>A</m> is also in <m>B</m> (which means <m>A\subseteq B</m>), and</p></li>
+      <li><p>Every element in <m>B</m> is also in <m>A</m> (which means <m>B\subseteq A</m>).</p></li>
+    </ol>
+    <p>Indeed, a slick way to prove that <m>A=B</m> is to prove both <m>A\subseteq B</m> and <m>B\subseteq A</m>, both of which can be done using the ``choose an element" method.</p>
+    <activity workspace="1in">
+      <statement>
+        <p>Prove the following theorem.</p>
+      </statement>
+    </activity>
+    <theorem>
+      <statement>
+        <p>The sets <m>A = \{5k+1: k\in\mathbb{Z} \}</m> and <m>B = \{5k+6: k\in\mathbb{Z}\}</m> are equal.</p>
+      </statement>
+    </theorem>
+  </subsection>
+</worksheet>

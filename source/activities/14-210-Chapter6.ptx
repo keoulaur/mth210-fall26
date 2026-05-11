@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <title>Chapter 6: The Contrapositive</title>
+  <p>A conditional statement is logically equivalent to its <term>contrapositive</term>. That is,
+<md>(P\implies Q) \leftrightarrow (\sim Q \implies \sim P).</md></p>
+  <p>We proved this using truth tables on page 66 of class worksheets and in the preview activity for today. This also makes intuitive sense, considering the examples on pages 5 and 65 of class worksheets, and page 262 of your textbook. If we're following the US law and say</p>
+  <p><em>if one is consuming an alcoholic beverage then one is at least age 21</em></p>
+  <p>then you would agree that</p>
+  <p><em>if one is under the age of 21 then one is not consuming an alcoholic beverage.</em></p>
+  <p>If we label the first statement as <m>P\implies Q</m>, then the second statement is <m>\sim Q\implies \sim P</m>.</p>
+  <p>In <term>``proof by contrapositive"</term> we will use that a statement and its contrapositive are logically equivalent to our advantage. Instead of proving the original statement, we do a direct proof of the contrapositive. Note that proof by contrapositive is really just another type of direct proof.</p>
+  <p><term>Example:</term> Suppose we want to do proof by contrapositive of the statement</p>
+  <p><em>For all <m>n\in\mathbb{N}</m>, if <m>n^2</m> is odd, then <m>n</m> is odd.</em></p>
+  <p>Then instead we would prove</p>
+  <p><em>For all <m>n\in\mathbb{N}</m>, if <m>n</m> is even, then <m>n^2</m> is odd.</em></p>
+  <p>Notice that</p>
+  <ul>
+    <li><p>Taking the contrapositive of the conditional statement does not affect the quantifier at the start. We still need to prove this statement for all <m>n\in\mathbb{N}</m>.</p></li>
+    <li><p>When we negate ``<m>n</m> is odd'' we get ``<m>n</m> is not odd", but every non-odd integer is even, so instead we write ``<m>n</m> is even.</p></li>
+  </ul>
+  <p><term>Proof Writing:</term> Here's a proof by contrapositive of the statement in the example. Underline the parts that would be included in all proofs by contrapositive.</p>
+  <theorem>
+    <statement>
+      <p>For all <m>n\in\mathbb{N}</m>, if <m>n^2</m> is odd, then <m>n</m> is odd.</p>
+    </statement>
+  </theorem>
+  <proof>
+    <p>We will prove this using the contrapositive, which is: For all <m>n\in \mathbb{N}</m>, iff <m>n</m> is even, then <m>n^{2}</m> is even. So, let <m>n\in\mathbb{N}</m>. We begin by assuming that <m>n</m> is even. By definition of even there exists an integer <m>m</m> such that <m>n = 2m</m>. Substituting, we have 
+	\begin{align}
+		n^{2} = (2m)^{2} = 4m^{2} = 2(2m^{2}).
+	\end{align}
+	We know that <m>m</m> and <m>2</m> are integers, and the integers are closed under and multiplication. Thus <m>p = 2m^{2}+2m</m> is also an integer. Thus equation (\ref{eqn:n^2}) shows that <m>n^{2}</m> can be written in the form <m>2p</m> where <m>p</m> is an integer. By definition of even, this shows that <m>n^{2}</m> is even. This completes the proof of the contrapositive, showing that if <m>n^{2}</m> is odd, then <m>n</m> is odd.</p>
+  </proof>
+  <activity>
+    <introduction>
+      <p>For each of the following statements, find the contrapositive (turning the statement into an ``if-then" conditional statement if needed). Then decide which one seems easier to prove - the statement or its contrapositive, and briefly explain why.</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>For all natural numbers <m>n</m>, if <m>3\nmid n</m> then <m>9\nmid n</m>.</p>
+        <p>{\tiny  Easier to prove the original  Easier to prove the contrapositive }</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>For all integers <m>n</m> and <m>m</m>, if <m>nm</m> is even, then <m>n</m> is even or <m>m</m> is even.</p>
+        <p>{\tiny  Easier to prove the original  Easier to prove the contrapositive }</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Let <m>a,b\in\mathbb{Z}</m>, and let <m>p</m> be a prime. If <m>p\nmid ab</m> then <m>p\nmid a</m> and <m>p\nmid b</m>.</p>
+        <p>{\tiny  Easier to prove the original  Easier to prove the contrapositive }</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>For all integers <m>n</m>, if <m>n^2</m> is even if and only if <m>n</m> is even. (Note there are 2 conditional statements here, write out both conditional statements and their contrapositives.)</p>
+        <p>{\tiny  Easier to prove the original  Easier to prove the contrapositive }</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>For all integers <m>n</m>, if <m>n</m> is even, then <m>n^2-4n+7</m> is even.</p>
+        <p>{\tiny  Easier to prove the original  Easier to prove the contrapositive }</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>For all <m>n\in\mathbb{Z}</m>, if <m>n^2-4n+7</m> is even, then <m>n</m> is odd.</p>
+        <p>{\tiny  Easier to prove the original  Easier to prove the contrapositive }</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>No prime number greater than <m>3</m> is followed by a perfect square. (Rewrite as a conditional statement first!)</p>
+        <p>{\tiny  Easier to prove the original  Easier to prove the contrapositive }</p>
+      </statement>
+    </task>
+  </activity>
+  <activity workspace="1in">
+    <statement>
+      <p>Prove the following <term>biconditional</term> theorem. This means you need to prove 2 conditional statements!</p>
+    </statement>
+  </activity>
+  <theorem>
+    <statement>
+      <p>For all integers <m>n</m>, <m>n^2-4n+7</m> is odd if and only if <m>n</m> is event.</p>
+    </statement>
+  </theorem>
+  <activity workspace="1in">
+    <statement>
+      <p>Prove the following <term>biconditional</term> theorem. This means you need to prove 2 conditional statements!</p>
+    </statement>
+  </activity>
+  <theorem>
+    <statement>
+      <p>For all integers <m>m</m> and <m>n</m>, <m>3\mid mn</m>  if and only if <m>3\mid m</m> or <m>3\mid n</m>.</p>
+    </statement>
+  </theorem>
+  <subsection>
+    <title>Proof Evaluation</title>
+    <activity workspace="1in">
+      <statement>
+        <p>Evaluate the following proof. Is it correct? Should more be explained? Does it meet our writing guidelines?</p>
+        <p>\includegraphics{images/ContrapositiveForCowards.PNG}</p>
+      </statement>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>Counterexamples</title>
+    <p>This chapter returns to counterexamples, which we've done a bunch of (and is Learning Target 11). Here's an important connection to the chapter on logic - when you are disproving a statement, you are proving its negation. So if you have a statement that has a ``for all" (or an implied for all), the negation has a ``there exists", and so one can just use an example to prove it.</p>
+    <activity workspace="1in">
+      <statement>
+        <p>Here are two things that sometimes happen in math:</p>
+        <ul>
+          <li><p>A counterexample comes early, but it turns out to be the <em>only</em> counterexample. E.g., find counterexamples to the following 
+	\begin{itemize}
+	\item Every prime is odd.
+	
+	\item No prime number is followed by a perfect square.
+	
+	\end{itemize}
+It turns out the first statement is true for any prime greater than 2, and the second is true for any prime greater than 3. <em>If time:</em> Can you prove these?</p></li>
+          <li><p>Sometimes the ``first" counterexample comes really late, but then there are lots of counterexamples. Consider the following statement
+	\begin{itemize}
+	\item If <m>p</m> is prime then <m>2^p - 1</m> is prime. 
+	\end{itemize}
+	It turns out this is true for <m>p=2, 3, 5,</m> and <m>7</m>, but it is not true for <m>p=11</m>. Prime numbers of the form <m>2^p - 1</m> for a prime <m>p</m> are know as Mersenne Primes. Currently we know of <m>52</m> Mersenne primes and <m>2^136279841-1</m>  (which is 41,024,320 digits) is the largest known prime number (found in 2024).
+
+Also, the following statment 	
+	\begin{itemize}
+	\item For every <m>n\in\mathbb{N}</m>, 
+		<md>1+\frac{1}{2} + \frac{1}{3} + \cdots \frac{1}{n}&lt; 100.</md>
+	\end{itemize}
+	The first counterexample for this has <m>44</m> digits (see page 270 of your textbook). We know one exists because the harmonic series diverges (you'd see this in Calc 2). After the first counterexample, every natural number is a counterexample, do you see why?</p></li>
+        </ul>
+      </statement>
+    </activity>
+  </subsection>
+</worksheet>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <title>Chapter 2 - Direct Proofs (Part 3)</title>
+  <subsection>
+    <title>The Division Algorithm</title>
+    <theorem>
+      <statement>
+        <p>(The Division Algorithm) For all integers <m>a</m> and <m>m</m> with <m>m&gt;0</m>, there exist unique integers <m>q</m> and <m>r</m> such that
+	<md>a = mq + r</md>
+where <m>0 \le r &lt; m</m>.</p>
+      </statement>
+    </theorem>
+    <p>Here's some comments about the Division Algorithm:</p>
+    <ol>
+      <li><p>The Division Algorithm can be proven is not so much an algorithm as it is a theorem. One can prove the Division Algorithm and your textbook does in the Bonus Examples of Chapter 7, and you may see a proof if you take MTH 350.</p></li>
+      <li><p>Though there are several different ways to write <m>a=bq+r</m> there’s
+only ONE way to write <m>a=bq+r</m> with <m>0\le r &lt; b</m>.</p></li>
+      <li><p>We call <m>q</m> the quotient and <m>r</m> the remainder. (Notice we are using ``the" because the quotient and remainder are unique!)</p></li>
+      <li><p>Be careful with negative numbers. In a calculator <m>-17/5 = -3.4</m>. It would be natural to think this means
+the quotient when dividing <m>-17</m> by <m>5</m> is <m>3</m>. However,<m>-17=5(-4)+3</m>, giving quotient <m>-4</m>.</p></li>
+      <li><p>One way to look at the Division Algorithm is that an integer is either going to be a multiple of <m>b</m> or between
+multiples of <m>b</m>.  Thus, the Division Algorithm helps with cases, e.g., you can do cases based on the remainder. In this way, we might reduce infinitely many integers, down to <m>3</m> ``types" of integers - e.g., what the remainder is when divided by <m>3</m>.</p></li>
+    </ol>
+    <p>\hrulefill</p>
+    <activity workspace="1in">
+      <statement>
+        <p>In problems where we are concerned with the issue of “divides,” the Division Algorithm provides a natural way to
+consider cases. Consider the following theorem:</p>
+      </statement>
+    </activity>
+    <theorem>
+      <statement>
+        <p>If <m>n</m> is an integer then <m>3\mid n^3-n</m>.</p>
+      </statement>
+    </theorem>
+    <p>\item Test the theorem for several values of <m>n</m>. (Include both positive and negative, and even and odd values!)</p>
+    <p>\item The only hypothesis is ``<m>n</m> is an integer". This doesn't give us a lot to go on. Suppose instead, we have the theorem:</p>
+    <theorem>
+      <statement>
+        <p>If <m>n</m> is an integer and <m>3\mid n</m>, then <m>3\mid n^3-n</m>.</p>
+      </statement>
+    </theorem>
+    <p>Do a ``pre-proof analysis" of this theorem!</p>
+    <p>\item I claim that with the proof from the previous question, we are actually 1/3 of the way to a proof. What are the possibilities for the remainder when <m>n</m> is divided by <m>3</m>? How can this lead to cases?</p>
+    <p>\item Read the proof below out loud.<fn>This proof is from <url href="https://gvsuoer.github.io/sundstrom-textbook/S_divalgo.html\#P\_3divides">https://gvsuoer.github.io/sundstrom-textbook/S_divalgo.html\#P\_3divides</url></fn>. Pause after each sentence to make sure you understand what the sentence means and why it is said. Make notes on the proof of any details that help you make sense of it! Switch who is reading at least every paragraph!</p>
+    <p>\includegraphics[scale=.75]{5-CasesProof}</p>
+    <p>What questions do you have on the proof? How does the author set up the structure of a proof using cases? Can you prove the last case? Can you generalize? E.g., is it true that <m>2\mid n^2 - n</m>? <m>4\mid n^4-n</m>?<fn>This theorem is actually a corollary of Fermat's Little Theorem (Theorem 2.19 on page 71 of your textbook).</fn></p>
+    <p>\end{enumerate}</p>
+  </subsection>
+  <subsection>
+    <title>Modular Arithmetic</title>
+    <p>Modular arithmetic actually shows up lots of places - including in RSA Encryption (which is how your credit card number gets encrypted in an online transactions) and for ``check digits" - a way to make sure a UPC bar code has scanned correctly. We introduce a lot of content in MTH 210 for the sake of learning how to write proofs, but modular arithmetic wins the award for ``most likely to appear in your future classes". It's worth investing the time to make sense of this topic!</p>
+    <p>The metaphors are a helpful of way understanding modular arithmetic, but we want to define the sandwich in a way that even when the metaphor fails us, we can still agree on what it means for two integers to be congruent.</p>
+    <definition>
+      <statement>
+        <p>For <m>a,r\in\mathbb{Z}</m> and <m>m\in \mathbb{N}</m>, we say that <m>a</m> is congruent to <m>r</m> modulo <m>m</m>, and we write <m>a\equiv r \pmod{m}</m>, if <m>m\mid a-r</m>.</p>
+      </statement>
+    </definition>
+    <p>Note in Definition 2.14 the author says <m>m</m> is an integer, but in practice, we really only think about <m>m</m> being a positive integer.</p>
+    <activity>
+      <introduction>
+        <p>(Practice with congruence)</p>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p>Find two integers <m>a</m> and <m>r</m> that are congruent modulo <m>5</m>. That is, give examples of <m>a</m> and <m>r</m> such that <m>a\equiv r \pmod{5}</m>.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Find all integers <m>x</m> such that <m>x\equiv -2 \pmod{5}</m>.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>True or false: If <m>x</m> is an integer, then there exists a unique integer <m>y</m> with <m>0\le y\le 5</m> such that <m>x\equiv y \pmod{5}</m>.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>True or false: If <m>ak \equiv bk \pmod{m}</m> then <m>a\equiv b\mod{m}</m>.</p>
+        </statement>
+      </task>
+    </activity>
+    <activity workspace="1in">
+      <statement>
+        <p>(Direct Proofs with Modulo) Do a pre-proof analysis of the following theorem.</p>
+      </statement>
+    </activity>
+    <theorem>
+      <statement>
+        <p>For all integers <m>a,b,c,</m> and <m>d</m>, and all natural numbers <m>m</m>, if <m>a\equiv b \pmod{m}</m> and <m>c\equiv d\pmod{m}</m> then <m>a\cdot c \equiv b\cdot d\pmod{m}</m>.</p>
+      </statement>
+    </theorem>
+    <p><em>Pre-proof analysis:</em></p>
+  </subsection>
+</worksheet>

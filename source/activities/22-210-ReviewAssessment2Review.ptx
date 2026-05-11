@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <title>210 - Practice for Review Assessment 2</title>
+  <subsection>
+    <title>Rules</title>
+    <ol>
+      <li><p>You have 30 minutes to work with your team to work on and sketch (handwritten) solutions to these 6 problems.</p></li>
+      <li><p>You should write up your solution (or progress towards a solution) on an 8.5" by 11" sheet of paper (one per problem).</p></li>
+      <li><p>The first team to present will be chosen randomly. They can choose any problem they want to present.</p></li>
+      <li><p>Any team can then provide a rebuttal - adding to their solution, correcting mistakes, or generalizing further.</p></li>
+      <li><p>There are 10 points per problem. The judge (DocK) can distribute the 10 points between the presenting team, the rebuttal team, and herself.</p></li>
+      <li><p>The rebuttal team, gets to present a problem next - they can choose which problem and who from their team they want to present.</p></li>
+      <li><p>Each person can only present a problem or provide a rebuttal once.</p></li>
+      <li><p>Problem presentations and rebuttals will be divided up evenly among teams. With 6 problems and 3 teams, each team gets to present twice, and provide a rebuttal twice.</p></li>
+      <li><p>Just use your own brain and each other - no computers, phones, calculators, internet, AI.</p></li>
+    </ol>
+  </subsection>
+  <subsection>
+    <title>The Problems</title>
+    <ol>
+      <li><p><term>A Power Outage:</term> When DocK left for school in the morning, all three of her clocks showed the correct time. But during the day there was a power outage, so when she got home in the afternoon, the wall clock read a quarter after four, the clock on her radio showed 16:25 and the digital clock on her desk 14:40. The wall clock is not affected by power outages, but the digital clock and the radio are switched off when the power goes out. When the power comes back on, the clock on the radio restarts from 12:00, while the digital clock continues from the time when it stopped at the start of the blackout. When did the blackout at Lisa's house start and end?</p></li>
+      <li><p><term>A Remainder</term> (No calculators allowed!) What is the remainder when <m>3^{100}</m> is divided by <m>7</m>?</p></li>
+      <li><p><term>A Suitcase Lock Code</term> I bought an extra-secure suitcase with a lock that can only be opened by entering its 10-digit code. I can set each digit between 0 and 9 as I wish. I was very happy with the purchase, but I soon realised that I will need to remember my extra-secure code without writing it down. Then I had a fantastic idea - I will set the code so that it reveals information about itself: The first digit tells me how many 0s are in the code, the second tells me how many 1s are in the code, and so on, the 10th digit tells me how many 9s are in the code. I am sure I will not forget this. What is the code on my lock?</p></li>
+      <li><p><term>A Mosaic Floor</term> See Figure~\ref{fig:mosaic}. The floor plan of a room with large tiles is shown in the illustration. The central yellow parts are squares, and the outer blue parts are identical rectangles. We know that the perimeter of the room is 42 meters. What is its area?</p></li>
+      <li><p><term>Cabbage Donations</term> Two rabbits grow their cabbages together in a fenced-off rectangular plot.  The cabbages are planted in a <m>9\times 10</m> grid pattern. The soil between them was plowed loose, so the rabbits stick to traveling by hopping around, always jumping to one of the closest cabbages – in particular, they cannot jump diagonally. For example, in Figure~\ref{fig:Cabbages} the black dashed path is a valid 5-jump-long path to a ready-to-harvest cabbage, but this same spot can be reached in many different ways by the black rabbit, for example by using the yellow 3-jump-long path. The cabbages are ready to harvest soon. Following their tradition, the rabbits donate those cabbages which are the same number of jumps away from the two rabbit holes to a noble cause. To each cabbage they count the <em>least number of jumps</em>. For example, the circled cabbage on the figure is 3 jumps away from the black rabbit’s hole, and 5 jumps away from the brown rabbit’s. How many cabbages are donated this year by the two rabbits?</p></li>
+      <li><p><term>Ambiguous Dates</term> Some countries use the convention for writing the date MM/DD while others write the date DD/MM. Call a day ambiguous if you can’t tell the date without knowing the convention. For example 07/05 could either be July 5th or May 7th. How many ambiguous days are there in a year?</p></li>
+    </ol>
+    <p>\begin{figure}
+ \includegraphics[scale=2]{images/MosaicFloor}
+ \caption{Figure for Mosaic Floor}
+  
+ \end{figure}</p>
+    <p>\begin{figure}
+ \includegraphics[scale=2]{images/Cabbages}
+ \caption{Figure for Cabbages}
+  
+ \end{figure}</p>
+  </subsection>
+</worksheet>

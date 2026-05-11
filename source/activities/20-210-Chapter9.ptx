@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <title>Chapter 9: Relations (Equivalence Relations and Equivalence Classes)</title>
+  <subsection>
+    <title>What's a relation?</title>
+    <p>Here is the most general definition of relation (which is on page 393 of your textbook):</p>
+    <p>A <term>relation from <m>A</m> to <m>B</m></term> is a subset <m>\sim</m> of <m>A\times B</m>.</p>
+    <p>A <term>relation on <m>A</m></term> is a subset <m>\sim</m> of <m>A\times A</m>.</p>
+    <p>Recall the <term>Cartesian product of <m>A</m> and <m>B</m></term> is denoted <m>A\times B</m> and means the ordered pairs where the first element is in <m>A</m> and the second element is in <m>B</m>. E.g.,
+	<md>A\times B = \{ (a,b): a\in A \text{ and } b\in B\}.</md></p>
+  </subsection>
+  <subsection>
+    <title>Representations and Examples</title>
+    <p>A relation can be written as</p>
+    <ul>
+      <li><p>a ``rule'' (typically an if  or an if and only if statement),</p></li>
+      <li><p>a set of ordered pairs (either in set-builder or roster notation)</p></li>
+      <li><p>a directed graph</p></li>
+    </ul>
+    <p><term>Example:</term> In the first example in Chapter 9, the author defines a relation <m>A = \mathbb{N}</m> where we say <m>a\sim b</m> if <m>a\geq b</m>. Here's 3 different ways to write that relation on <m>\mathbb{N}</m>:</p>
+    <ul>
+      <li><p><m>a\sim b</m> if and only if <m>a\le b</m></p></li>
+      <li><p><m>\{(a,b)\in\mathbb{N}\times\mathbb{N}: a\le b\}</m></p></li>
+      <li><p>Notice that it's hard to write the set form in roster notation, we might write something like
+		<md>\{(1,2), (1,3), (1,4),\dots, (2,3), (2,4), (2,5), \dots, (3,4), (3,5), (3,6),\dots \}</md>
+		but even then it might be hard for our reader to see what's going on.</p></li>
+      <li><p>We can't draw the graph neatly on infinitely many things, but here's one if the relation were on <m>\{1,2,3,4,5\}</m>:</p></li>
+    </ul>
+    <activity>
+      <introduction>
+        <p>For the following examples of relations, give a pair <m>x</m> and  <m>y</m> such that <m>x\sim y</m> and a different pair <m>w</m> and <m>z</m> such that <m>w\not\sim z</m>. (Note, the next activity will require you to work on these same relations, so leave space!)</p>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p><m>\sim = \{(x,y) \in \mathbb{R}\times \mathbb{R}: x&lt;y\}</m></p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p><m>\sim</m> on <m>\mathbb{Z}</m> such that <m>x\sim y</m> if and only if <m>x\mid y</m></p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p><m>R</m> on <m>\mathbb{Z}</m> such that <m>xR y</m> if and only if <m>x\equiv y\pmod{4}</m></p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p><m>\sim</m> from <m>\{1,2,3\}</m> to <m>\mathcal{P}(\{1,2,3\}</m> such that <m>x\sim A</m> if <m>x\in A</m>.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p><m>A = \{1,2,3,4,5,6\}</m> and <m>R = \{ (x,y) \in A\times A: x+y\text{ is even } \}.</m></p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>More Definitions!</title>
+    <p>Some relations on a set <m>A</m> are special because they act like ``='' (and, IMHO, = is one of the most important symbols in all of math!). They have the following the properties:</p>
+    <ul>
+      <li><p><term>Reflexive:</term> For all <m>a\in A</m>, <m>a\sim a</m></p></li>
+      <li><p><term>Symmetric:</term> For all <m>a,b\in A</m>, if <m>a\sim b</m> then <m>b\sim a</m>.</p></li>
+      <li><p><term>Transitive:</term> For all <m>a,b,c \in A</m>, if <m>a\sim b</m> and <m>b\sim c</m> then <m>a\sim c</m>.</p></li>
+    </ul>
+    <p>If all three of the properties hold, we call the relation an <term>equivalence relation</term>.</p>
+    <activity workspace="1in">
+      <statement>
+        <p>For each of the relations defined in the activity earlier on this page, which of the 3 properties reflexive, symmetric, transitive, hold?</p>
+      </statement>
+    </activity>
+    <activity>
+      <introduction>
+        <p>Complete the following with your team:</p>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p>Let <m>A = \{1,2,3\}</m> and define <m>\sim</m> on <m>A</m> by <m>\sim = \{ (1,1), (1,2), (3,1)\}</m>. Is <m>R</m> reflexive? Symmetric? Transitive?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Let <m>A = \{1,2,3\}</m>. Find a relation <m>R</m> on <m>A</m> such that <m>R</m> is symmetric, but not transitive.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Let <m>A =  \{1,2,3\}</m>. Find a relation <m>R</m> on <m>A</m> such that <m>R</m> is symmetric and transitive, but not reflexive.</p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>Proving and Disproving Equivalence Relations</title>
+    <p><term>Example:</term> Congruence is an equivalence relation.</p>
+    <theorem>
+      <statement>
+        <p>Let <m>\sim</m> be the relation on <m>\mathbb{Z}</m> defined by <m>a\sim b</m> if and only if <m>a\equiv b \pmod{3}</m>. Then <m>\sim</m> is an equivalence relation.</p>
+      </statement>
+    </theorem>
+    <proof>
+      <p>For all <m>a,b\in\mathbb{Z}</m> say <m>a\sim b</m> if and only if <m>a\equiv b \pmod{3}</m>. We will show <m>\sim</m> is reflexive, symmetric, and transitive and therefore an equivalence relation.</p>
+      <p><term>Reflexive:</term> First we will show <m>\sim</m> is reflexive. This means we will show</p>
+      <p>Let <m>a \in \underline{\hspace{.2in}}</m>. Note that <m>\underline{\hspace{.2in}} \equiv \underline{\hspace{.2in}} \pmod{3}</m> because _____.  Thus <m>\underline{\hspace{.2in}} \sim \underline{\hspace{.2in}}</m> and thus <m>\sim</m> is reflexive.</p>
+      <p><term>Symmetric:</term> Now we will show <m>\sim</m> is symmetric. This means we will show</p>
+      <p>Suppose <m>a,b  \in \underline{\hspace{.2in}}</m> and assume <m>\underline{\hspace{.2in}} \equiv \underline{\hspace{.2in}} \pmod{3}</m>. We will show <m>\underline{\hspace{.2in}} \equiv \underline{\hspace{.2in}} \pmod{3}</m>. Since <m>\underline{\hspace{.2in}} \equiv \underline{\hspace{.2in}} \pmod{3}</m> we know _____ and so _____. By algebra, we see</p>
+      <p>Since <m>\underline{\hspace{.4in}}\in \mathbb{Z}</m>, we know _____ and <m>\underline{\hspace{.2in}} \equiv \underline{\hspace{.2in}} \pmod{3}</m>, as desired. Thus, for all <m>a,b\in\underline{\hspace{.2in}}</m>,  if <m>\underline{\hspace{.2in}} \sim \underline{\hspace{.2in}}</m> then <m>\underline{\hspace{.2in}} \sim \underline{\hspace{.2in}}</m> and thus <m>\sim</m> is symmetric.</p>
+      <p><term>Transitive:</term> Lastly, we will show <m>\sim</m> is transitive. Suppose <m>a,b,c\in \underline{\hspace{.2in}}</m> and that <m>\underline{\hspace{.2in}} \equiv \underline{\hspace{.2in}} \pmod{3}</m>  and <m>\underline{\hspace{.2in}} \equiv \underline{\hspace{.2in}} \pmod{3}</m>. We will show <m>\underline{\hspace{.2in}} \equiv \underline{\hspace{.2in}} \pmod{3}</m>.
+Since <m>\underline{\hspace{.2in}} \equiv \underline{\hspace{.2in}} \pmod{3}</m> we know</p>
+      <p>Since <m>\underline{\hspace{.2in}} \equiv \underline{\hspace{.2in}} \pmod{3}</m>  we know</p>
+      <p>By algebra and substitution,</p>
+      <p>Since <m>\underline{\hspace{.4in}} \in \mathbb{Z}</m>, he above shows that _____  and so <m>\underline{\hspace{.2in}} \equiv \underline{\hspace{.2in}} \pmod{3}</m>. Thus, for all, <m>a,b,c\in\underline{\hspace{.5in}}</m> if <m>\underline{\hspace{.2in}} \sim \underline{\hspace{.2in}}</m> and  <m>\underline{\hspace{.2in}} \sim \underline{\hspace{.2in}}</m> then <m>\underline{\hspace{.2in}} \sim \underline{\hspace{.2in}}</m> and thus <m>\sim</m> is transitive.</p>
+    </proof>
+    <p>Follow up question: How does this <m>\sim</m> ``partition'' <m>\mathbb{Z}</m>?</p>
+    <activity workspace="1in">
+      <statement>
+        <p>Prove or disprove if each relation is reflexive, symmetric, or transitive.</p>
+      </statement>
+    </activity>
+    <conjecture>
+      <statement>
+        <p>Define the relation <m>\sim</m> on <m>\mathbb{R}</m> as follows: for all <m>a,b\in \mathbb{R}</m>, <m>a\sim b</m> if and only if <m>ab\geq 0</m>.  Then <m>\sim</m> is reflexive, symmetric, and transitive.</p>
+      </statement>
+    </conjecture>
+    <conjecture>
+      <statement>
+        <p>Let <m>U</m> be some nonempty universal set and define the relation <m>\sim</m> on <m>\mathcal{P}(U)</m> as follows: for all <m>A,B\in \mathcal{P}(U)</m>, <m>A\sim B</m> if and only if <m>A\cap B = \emptyset</m>.  Then <m>\sim</m> is reflexive, symmetric, and transitive.</p>
+      </statement>
+    </conjecture>
+    <p><em>Hint: You can try this with  <m>U=\{1,2,3\}</m> as an example warmup.</em></p>
+    <p><em>Challenge Question/Proof</em>  Define the relation on <m>\mathbb{Z}</m> as follows: for all <m>a,b\in\mathbb{Z}</m>, <m>a\sim b</m> if and only if <m>2a + 3b\equiv 0\pmod{5}</m>.</p>
+  </subsection>
+  <subsection>
+    <title>Equivalence Classes</title>
+    <definition>
+      <statement>
+        <p>Let <m>\sim</m> be an equivalence relation on a nonempty set of <m>A</m>.  Then the <term>equivalence class of of <m>a</m> determined by <m>\sim</m></term> is
+	<md>[a]_{\sim} = \{x\in A \mid x \sim a \} .</md></p>
+      </statement>
+    </definition>
+    <theorem>
+      <title>Equivalence Classes Partition</title>
+      <statement>
+        <p>[Equivalence Classes Partition]
+Let <m>A</m> be a nonempty set and let <m>\sim</m> be an equivalence relation on <m>A</m>.  Then</p>
+        <ol>
+          <li><p>For each <m>a\in A</m>, <m>[a]</m> is nonempty (in particular, <m>a\in [a]</m>).</p></li>
+          <li><p>For each <m>a,b\in A</m>, <m>a\sim b</m> if and only if <m>[a]=[b]</m>.</p></li>
+          <li><p>For each <m>a,b\in A, [a] =[b]</m> or <m>[a] \cap [b] = \emptyset</m>.</p></li>
+        </ol>
+      </statement>
+    </theorem>
+    <activity>
+      <introduction>
+        <p>(Working with equivalence classes)</p>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p>Let <m>A = \{0,1,2,3,\dots, 999, 1000\}</m> and define <m>\sim</m> by</p>
+          <p>For <m>x,y\in A</m>, <m>x\sim y</m> if and only if <m>x</m> and <m>y</m> have the same number of digits.</p>
+          <p>This is an equivalence relation (briefly think about why).  Determine all the distinct equivalence classes determined by <m>\sim</m>.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <introduction>
+          <p>Recall that <m>\mathcal{M}_{2\times 2}(\mathbb{R})</m> is the set of all <m>2\times 2</m> matrices and that if <m>A = \begin{bmatrix} a \amp b \\ c \amp d\end{bmatrix}</m> then the determinant of <m>A</m> is given by <m>\det(A) = ad-bc</m>.   Define <m>\sim</m> by,</p>
+          <p>For all <m>A,B \in \mathcal{M}_{2\times 2}(\mathbb{R})</m>, <m>A\sim B</m> if and only if <m>\det(A) = \det(B)</m>.</p>
+        </introduction>
+        <task>
+          <statement>
+            <p>Find two matrices <m>A</m> and <m>B</m> such that <m>A\sim B</m>.</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>Is <m>\sim</m> an equivalence relation? (Briefly think about it, don't need to prove.)</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>Let <m>X = \begin{bmatrix}
+	0 \amp 0 \\ 0 \amp 0
+	\end{bmatrix}</m>.  Find two elements of <m>[X]_{\sim}</m>.<fn><em>Challenge Question:</em> Can you find the entire equivalence class?</fn></p>
+          </statement>
+        </task>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>Equivalence Classes for Congruence Modulo <m>3</m> - MTH 350</title>
+    <p>This is a preview activity taken from the 5th chapter of the modern algebra text used by many professors at GVSU.</p>
+    <p><em>For each integer <m>a</m>, let <m>[a]_3</m> denote the set of all integers that are congruent to <m>a</m> modulo <m>3</m>.  Note this is the equivalence class of <m>a</m> under the congruence modulo <m>3</m> equivalence relation.</em></p>
+    <ol>
+      <li><p>Determine <m>[0]_3, [1]_3, [2]_3, [3]_3, [4]_3,</m> and <m>[5]_3</m>.</p></li>
+      <li><p>What is the remainder when <m>734</m> is divided by <m>3</m>?  Which, if any, of the sets <m>[0]_3</m>, <m>[1]_3</m>, and <m>[2]_3</m> contain <m>734</m>?</p></li>
+      <li><p>Which elements belong to <m>[0]_3\cap [1]_3</m>?  What about <m>[0]_3\cap [2]_3</m>, or <m>[1]_3\cap [2]_3</m>?</p></li>
+      <li><p>What familiar set is <m>[0]_3\cup [1]_3 \cup [2]_3</m> equal to, and why?</p></li>
+      <li><p>Based on your answers above, make as many conjectures as you can about <m>[0]_3, [1]_3, [2]_3, [3]_3, </m> <m>[4]_3,[5]_3,\dots</m> (the equivalence classes of congruence modulo <m>3</m>).</p></li>
+    </ol>
+  </subsection>
+  <subsection>
+    <title>Congruence Classes and Congruence Arithmetic</title>
+    <p>If the equivalence relation is congruence, then we use the term <em>congruence class</em> rather than equivalence class.  The great thing about congruence classes is that you can add and multiply them in a natural way.</p>
+    <definition>
+      <statement>
+        <p>Let <m>a,b\in\mathbb{Z}</m> and <m>n\in\mathbb{N}</m>.  Then</p>
+        <p><m>[a]_n + [b]_n = [a+b]_n</m> and <m>[a]_n\cdot [b]_n = [a \cdot b]_n</m>.</p>
+      </statement>
+    </definition>
+    <p>This may seem obvious to you, but there are some very subtle things going on.  Perhaps the weirdest is that <m>[a]_n</m> is really a set, an infinite set. So what you're actually doing is adding and multiplying infinite sets.</p>
+    <p><term>Example:</term> What is <m>[1]_3 +_3 [2]_3</m>? What is <m>[2]_3 \cdot_3 [2]_3</m>?</p>
+    <p>Notice that we've only used the congruence classes <m>[0]_3, [1]_3,</m> and <m>[2]_3</m> since these are the only distinct congruence classes modulo <m>3</m>.  We typically let <m>\Z_3 = \{[0]_3, [1]_3,[2]_3\}</m>.  Also, note <m>[2]_3 \cdot [2]_3 = [4]_3</m>.  However, <m>[4]_3=[1]_3</m> so we choose <m>1</m> to be our representative of that congruence class.</p>
+    <p>Here are are addition and multiplication tables when we consider congruence modulo <m>3</m>:</p>
+<tabular>
+  <col halign="center" right="minor"/>
+  <col halign="center" right="minor"/>
+  <col halign="center" right="minor"/>
+  <col halign="center"/>
+  <row bottom="minor">
+    <cell><m>+_{3}</m></cell>
+    <cell><m>[0]_{3}</m></cell>
+    <cell><m>[1]_{3}</m></cell>
+    <cell><m>[2]_{3}</m></cell>
+  </row>
+  <row bottom="minor">
+    <cell><m>[0]_{3}</m></cell>
+    <cell><m>[0]_3</m></cell>
+    <cell><m>[1]_3</m></cell>
+    <cell><m>[2]_3</m></cell>
+  </row>
+  <row bottom="minor">
+    <cell><m>[1]_{3}</m></cell>
+    <cell><m>[1]_3</m></cell>
+    <cell><m>[2]_3</m></cell>
+    <cell><m>[0]_3</m></cell>
+  </row>
+  <row>
+    <cell><m>[2]_{3}</m></cell>
+    <cell><m>[2]_3</m></cell>
+    <cell><m>[0]_3</m></cell>
+    <cell><m>[1]_3</m></cell>
+  </row>
+</tabular>
+<tabular>
+  <col halign="center" right="minor"/>
+  <col halign="center" right="minor"/>
+  <col halign="center" right="minor"/>
+  <col halign="center"/>
+  <row bottom="minor">
+    <cell><m>\cdot_{3}</m></cell>
+    <cell><m>[0]_{3}</m></cell>
+    <cell><m>[1]_{3}</m></cell>
+    <cell><m>[2]_{3}</m></cell>
+  </row>
+  <row bottom="minor">
+    <cell><m>[0]_{3}</m></cell>
+    <cell><m>[0]_3</m></cell>
+    <cell><m>[0]_3</m></cell>
+    <cell><m>[0]_3</m></cell>
+  </row>
+  <row bottom="minor">
+    <cell><m>[1]_{3}</m></cell>
+    <cell><m>[0]_3</m></cell>
+    <cell><m>[1]_3</m></cell>
+    <cell><m>[2]_3</m></cell>
+  </row>
+  <row>
+    <cell><m>[2]_{3}</m></cell>
+    <cell><m>[0]_3</m></cell>
+    <cell><m>[2]_3</m></cell>
+    <cell><m>[1]_3</m></cell>
+  </row>
+</tabular>
+    <activity workspace="1in">
+      <statement>
+        <p>Complete  the addition and multiplication tables for <m>\mathbb{Z}_4</m>, <m>\mathbb{Z}_5</m>, <m>\mathbb{Z}_6</m> and  <m>\mathbb{Z}_7</m> (you don't have to write all the [ ]'s but do pick the representative that is in that <m>\mathbb{Z}_n</m>. What do you notice? What do you wonder?</p>
+        <p>Are the following statements true or false?  Why?</p>
+        <ul>
+          <li><p>For all <m>[a], [b] \in \mathbb{Z}_5</m>, if <m>[a] \ne [0]</m> and <m>[b] \ne [0]</m>, then <m>[a] \cdot_5 [b] \ne [0]</m>.</p></li>
+          <li><p>For all <m>[a], [b] \in \mathbb{Z}_6</m>, if <m>[a] \ne [0]</m> and <m>[b] \ne [0]</m>, then <m>[a] \cdot_6 [b] \ne [0]</m>.</p></li>
+        </ul>
+      </statement>
+    </activity>
+    <activity workspace="1in">
+      <statement>
+        <p>Sometimes math competition problems will ask seemingly tough questions, like what is the remainder of <m>2^{100}</m> when divided by <m>6</m>. Try to find the answer to this question, by translating into modular arithmetic/congruence classes and doing some smaller cases. E.g., what's <m>[2]_{6}^1</m>? <m>[2]_{6}^2</m>? <m>[2]_{6}^3</m>? <m>[2]_{6}^4</m>? What do these tell you about the remainder of <m>2^x</m> when divided by <m>6</m>.</p>
+      </statement>
+    </activity>
+    <activity>
+      <introduction>
+        <p>In <m>\mathbb{Z}_5</m>, solve each of the following equations, keeping in mind that the solution to any equation is the set of all values that make the equation true.  (Note: order of operations for <m>+_5</m> and <m>\cdot_5</m> are the same as for ``regular'' addition and multiplication, <m>+</m> and <m>\cdot</m>, in the following way:  in the absence of parentheses, we multiply before we add.)</p>
+        <p>Find all <m>x\in\mathbb{Z}_5</m> such that:</p>
+      </introduction>
+      <task>
+        <statement>
+          <p><m>x^2 +_5 [1] = [0]</m></p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p><m>[3] \cdot_5 x +_5 [2] = [0]</m></p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p><m>x^2 +_5 [3] \cdot_5 x= [3]</m></p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+</worksheet>

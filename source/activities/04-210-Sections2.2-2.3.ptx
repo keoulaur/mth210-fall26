@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <title>Chapter 2 - Direct Proofs (Part 2)</title>
+  <subsection>
+    <title>Proof by Cases</title>
+    <p><term>Idea:</term> ``Proof by Cases" is a type of direct proof. We use proof by cases when we might not have enough hypotheses (like the whole hypothesis is ``<m>n</m> is an integer"), or if the conclusion suggests cases (like ``...is even" or ``...is a type 1 integer"). Proof by Cases works when you break down the problem and do ``sub proofs" that will `` cover" the whole hypothesis. E.g.., if the hypothesis is ``<m>n</m> is an integer" then you could do 2 sub proofs - one where <m>n</m> is an even integer and one where <m>n</m> is an odd integer. Since all integers are either even or odd, you've proven the result for all integers!</p>
+    <proposition>
+      <statement>
+        <p>For all integers <m>n</m>,
+	<md>1+(-1)^n(2n-1)</md>
+is even.</p>
+      </statement>
+    </proposition>
+    <p><em>Pre-proof analysis:</em></p>
+  </subsection>
+  <subsection>
+    <title>Definition Uses Cases? Try Proof by Cases!</title>
+    <p>What is <m>|7|</m>?  What is <m>|-4|</m>?</p>
+    <definition>
+      <statement>
+        <p>For <m>x\in\mathbb{R}</m>, we define <m>|x|</m>, called the <term>absolute value of <m>x</m></term> , by
+	<md>|x| = \begin{cases}
+	x \amp \text{ if } x\geq 0\\
+	-x \amp \text{ if } x&lt;0
+	\end{cases}.</md></p>
+      </statement>
+    </definition>
+    <activity workspace="1in">
+      <statement>
+        <p>\item Check that this definition agrees with your answers for <m>|7|</m> and <m>|-4|</m>.
+
+\item Does the following conjecture seem true? Test it out!</p>
+      </statement>
+    </activity>
+    <conjecture>
+      <statement>
+        <p>For all real numbers <m>x</m> and <m>y</m>, <m>|xy| = |x||y|</m>.</p>
+      </statement>
+    </conjecture>
+    <p>\item What cases might make sense to use here? 
+
+\item What should you prove in each case? If time - pick one case and try it!
+
+
+
+\end{enumerate}</p>
+  </subsection>
+  <subsection>
+    <title>Divisibility</title>
+    <p><term>Definition:</term> A nonzero integer <m>a</m> is said to <term>divide</term> an integer <m>b</m> if <m>b = ak</m> for some integer <m>k</m>. When <m>a</m> does divide <m>b</m>, we write ``<m>a\mid b</m>" and when <m>a</m> does not divide <m>b</m>, we write ``<m>a\nmid b</m>".</p>
+    <activity>
+      <introduction>
+        <p>With your team, prove one of the following propositions:</p>
+      </introduction>
+      <task>
+        <statement>
+          <p>For all integers <m>m</m> and <m>n</m>, if <m>m\mid n</m> then <m>m\mid (7n^3 + 13n^2 - n)</m>.</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>For all integers <m>m</m> and <m>n</m>, if <m>m\mid n</m>, then <m>m^2\mid n^2</m>.</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>For all integers <m>a, b</m> and <m>c</m>, and all integers <m>m</m> and <m>n</m>, if <m>a\mid b</m> and <m>a\mid c</m> then <m>a\mid bm+cn</m>.</p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>Duplicate this in Overleaf!</title>
+    <theorem>
+      <statement>
+        <p>If <m>x</m> is an odd integer and <m>y</m> is an even integer, then <m>x \cdot y</m> is an even integer.</p>
+      </statement>
+    </theorem>
+    <proof>
+      <p>Assume that <m>x</m> is an odd integer and <m>y</m> is an even integer. We will show that <m>x \cdot y</m> is an even integer using a direct proof.  Since <m>x</m> is an odd integer, by definition of ``odd" there exists some integer <m>k</m> such that <m>x = 2k+1</m>.   Since <m>y</m> is an even integer, by definition of ``even" there exists some <m>m \in \Z</m> such that <m>y = 2m</m>.</p>
+      <p>Using algebra, we have:
+    \begin{align*}
+        xy &amp;= (2k+1)(2m)  
+        &amp;= 4km+2m  
+        &amp;= 2(2km+m).
+    \end{align*}</p>
+      <p>Because <m>k</m> and <m>m</m> are integers, and the integers are closed under addition and multiplication, we know that <m>f = 2km+m</m> is also an integer.   Thus the previous equation has demonstrated how to write <m>xy</m> in the form <m>xy = 2f</m>, where <m>f \in \Z</m>. By definition, this shows that <m>xy</m> is an even integer.  Consequently, we have shown that if <m>x</m> is an odd integer and <m>y</m> is an even integer, then <m>x \cdot y</m> is an even integer.</p>
+    </proof>
+  </subsection>
+</worksheet>

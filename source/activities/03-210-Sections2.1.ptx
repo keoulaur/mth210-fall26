@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <title>Chapter 2 - Direct Proofs</title>
+  <subsection>
+    <title>Number Systems and Closure</title>
+    <p>Here are a few "number systems", or sets of numbers, and their notation.</p>
+    <ul>
+      <li><p>The natural numbers, denoted <m>\mathbb{N}</m>, are the positive whole numbers. That is,
+	<md>\mathbb{N} = \{1,2,3,4,...\}.</md></p></li>
+      <li><p>The integers, denoted <m>\mathbb{Z}</m>, consist of zero, the natural numbers, and the negatives of the natural numbers. That is, 
+	<md>\mathbb{Z} = \{...,-3,-2,-1,0,1,2,3,...\}.</md>
+(The Z comes from the German word Zahlen, which means "numbers")</p></li>
+      <li><p>The rational numbers, denoted <m>\mathbb{Q}</m>, are those real numbers that can be written as a quotient of two integers (with a nonzero denominator). That is, 
+	<md>\mathbb{Q} = \left\{ \frac{a}{b}: a,b\in\mathbb{Z}, b\neq 0\right\}.</md>
+(The Q is for quotient.)</p></li>
+      <li><p>The real numbers, denoted <m>\mathbb{R}</m>, consist of the rational numbers and the irrational numbers.</p></li>
+    </ul>
+    <p>In Fact 2.1 the author writes ``The sum of integers is an integer, the difference of integers, and the product of integers is an integer." We'll refer to these facts as ``<term>the integers are closed under addition, subtraction, and multiplication</term>". We'll use these closure properties a lot when doing our first proofs.</p>
+    <p>\scalebox{0.2}{\includegraphics{images/Closure.jpg}}</p>
+    <activity>
+      <introduction>
+        <p>Determine if each of the following are true or false, and explain.</p>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p>The natural numbers are closed under subtraction.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>The rational numbers are closed under addition.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>The integers are closed under division.</p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>Mathematical Proof Writing</title>
+    <p>Overall, mathematical writing -- particularly writing proofs -- is a mix of being creative, being organized, and honoring conventions of the mathematics community.  There are a handful of guidelines (I'm hesitant to call them rules), but little in the way of algorithms to follow.  Writing proofs is absolutely something that you'll learn to do <em>by doing</em>:  making mistakes, seeking feedback, struggling, revising, and more.</p>
+    <p>From the outset, another key thing to realize is that a part of formal mathematical writing is misleading.  What I mean by this is</p>
+    <p>The author writes his process of the ``Proof Idea" and (later) ``Scratch Work". These are important parts of proof-writing, even if the final polished proof doesn't include all the work you do in this part. I use what we'll call a ``pre-proof analysis,'' which is just a fancy term for <em>trying examples-experimenting-writing down ideas-making mistakes-making connections-trying to find helpful paths-scratch work</em>.  You can see examples of the author's process in your textbook on pages 49, 50, 53, and 56.</p>
+    <p>_____</p>
+  </subsection>
+  <subsection>
+    <title>Definitions of Odd and Even</title>
+    <ul>
+      <li><p>An integer <m>n</m> is even if <m>n=2k</m> for some integer <m>k</m>.</p></li>
+      <li><p>An integer <m>n</m> is odd if <m>n=2k+1</m> for some integer <m>j</m>.</p></li>
+    </ul>
+    <p>_____</p>
+  </subsection>
+  <subsection>
+    <title>Example - Writing a Proof</title>
+    <p><term>Conjecture.</term> If <m>a</m> and <m>b</m> are odd integers and <m>c</m> is any integer, then <m>cb + ca</m> is _____.</p>
+    <p><em>Analysis.</em></p>
+    <p>Now we will take our ideas from our pre-proof analysis and write a formal proof.  In so doing, we will use (and discuss some of) the Professional Writing Specifications provided at <url href="https://gvsu.edu/s/3to">https://gvsu.edu/s/3to</url>.  You should read these guidelines carefully on your own time and think about them as you begin writing proofs.  Among the things we will do here (and always) are:  clearly state the result we are proving, state what we assume to start the proof, declare what we aim to show, and throughout our argument keep the reader informed of our reasoning and logic<fn>Soon we will be learning a variety of ``proof techniques.''  It is always important to state the type of argument you are using; for now, the main route we will use is called a ``direct proof.''</fn>.  Other key writing conventions are: italicize typeset variables (we use ``<m>x</m>'', rather than ``x''); use an active third person voice (``next, <em>we</em> will use algebra to <m>\ldots</m>''); and display (center) important equations in our argument.</p>
+    <theorem>
+      <statement>
+        <p>If <m>a</m> and <m>b</m> are odd integers and <m>c</m> is any integer, then <m>cb + ca</m> is an even integer.</p>
+      </statement>
+    </theorem>
+    <proof>
+      <p>.</p>
+    </proof>
+    <p><term>Two Proofs of the Same Statement</term> Below is a theorem and two proofs. What are the advantages and disadvantages of each? Which is more readable? Are they both correct?</p>
+    <theorem>
+      <statement>
+        <p>If <m>x</m> and <m>y</m> are odd integers then <m>x+y</m> is an even integer.</p>
+      </statement>
+    </theorem>
+    <proof>
+      <p>We assume that <m>x</m> and <m>y</m> are odd integers and will prove that <m>x+y</m> is an even integer. Since <m>x</m> and <m>y</m> are odd, there exist integers <m>m</m> and <m>n</m> such that <m>x=2m+1</m> and <m>y=2n+1</m>.  By substitution and algebra we obtain
+\begin{align*}
+x+y &amp;= 2m+1 + 2n + 1 
+&amp;= 2m+2n+2 
+&amp;=2(m+n+1).
+\end{align*}
+Define <m>q=m+n+1</m>.  Since <m>m</m> and <m>n</m> are integers and the integers are closed under addition, we conclude that <m>q</m> is an integer. Since <m>x+y=2q</m> for the integer <m>q</m> we conclude that <m>x+y</m> is an even integer.</p>
+    </proof>
+    <proof>
+      <p><m>\exists</m> j,k s.t. x=2k+1 and y=2j+1.</p>
+      <p>x+y=2k+1+2j+1=2(k+j+1) which is even.</p>
+    </proof>
+    <activity>
+      <introduction>
+        <p>With your group, head to the whiteboard to work on the following prompts.</p>
+        <p><term>Definition.</term> An integer <m>a</m> is said to be a <term>type <m>0</m> integer</term> if there exists an integer <m>n</m> such that <m>a=3n</m>. An integer <m>a</m> is said to be a <term>type 1 integer</term> if there exists an integer <m>n</m> such that <m>a = 3n+1</m>. An integer <m>a</m> is said to be a type <m>2</m> integer if there exists an integer <m>n</m> such that <m>a=3n+2</m>.</p>
+      </introduction>
+      <task>
+        <statement>
+          <p>Give examples of at least <m>4</m> different type <m>1</m> integers.</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>Give examples of at least <m>4</m> different type <m>2</m> integers.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>By multiplying pairs of integers from the list in the first part, does it appear that the following conjecture is true or false?
+	\begin{quote}
+	<term>Conjecture:</term> If <m>a</m> and <m>b</m> are both type <m>1</m> integers, then <m>a\cdot b </m> is a type <m>2</m> integer.
+	\end{quote}</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>If the conjecture is false, modify it to make it true. Then, do a pre-proof analysis of the resulting proposition. If time permits, return to your tables and strive to begin writing an actual proof of your proposition. (There is space to do so on the next page.)</p>
+        </statement>
+      </task>
+    </activity>
+    <proposition>
+      <statement>
+      </statement>
+    </proposition>
+    <proof>
+      <p>We will give a direct proof of the proposition.</p>
+    </proof>
+  </subsection>
+</worksheet>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <title>Chapter 4: Induction (Part 1)</title>
+  <p><em>What we'll do:</em> 
+ <term>Procedure for a Proof by Mathematical Induction</term> To prove a series of statements <m>S_1, S_2, S_3, \dots </m>.</p>
+  <ol>
+    <li><p>_____:  Prove  _____</p></li>
+    <li><p>_____: Prove  _____,
+		
+		if _____ then _____
+		
+Then we can conclude that <m>P(n)</m> is true for all <m>n\in \mathbb{N}</m>.</p></li>
+  </ol>
+  <p>To identify a statement you might prove by induction you might look for...</p>
+  <p>\hrulefill</p>
+  <p><term>Example Of Formal Writing of a Proof by Mathematical Induction.</term></p>
+  <theorem>
+    <statement>
+      <p>For all <m>n \in \mathbb{N}</m>, the sum of the first <m>n</m> odd natural numbers is <m>n^{2}</m>. That is, for all <m>n\in\mathbb{N}</m>,
+	<md>1 + 3 + 5 + ... + 2(n-1)+1  = n^2.</md></p>
+    </statement>
+  </theorem>
+  <proof>
+    <p>We will use proof by mathematical induction. For each natural number <m>n</m>, we let the statement <m>S_n</m> be
+	<md>1 + 3 + 5 + \cdots + (2n-1) = n^{2}.</md>
+	For the base case, we prove that <m>S_1</m> is true. In the case where <m>n = 1</m>, the left side of <m>S_1</m> is <m>1</m> and the right side is <m>1^2</m>. Since <m>1=1^2</m>, <m>S_1</m> is true and the base case is complete.</p>
+    <p>For the inductive step, we prove that for each <m>k \in \mathbb{N}</m>, if <m>S_k</m> is true, then <m>S_{k+1}</m> is true. So let <m>k</m> be a natural number and assume that <m>S_k</m> is true. That is, assume that
+	\begin{equation}
+		1 + 3 + 5 + \cdots + (2k-1) = k^{2}.
+	\end{equation}
+	Now we must show that <m>S_{k+1}</m> is true. That is, we will show that
+	\begin{equation}
+		1 + 3 + 5 + \cdots + (2k-1) + (2k+1) = (k+1)^{2}.
+	\end{equation}</p>
+    <p>To do so, we add <m>2k+1</m> to both sides of equation \eqref{eq1} and factor the right side of the resulting equation. This gives us:
+	\begin{align*}
+		1 + 3 + 5 + \cdots + (2k-1) &amp;= k^{2}  
+		1 + 3 + 5 + \cdots + (2k-1) + (2k+1) &amp;= k^{2} + 2k + 1  
+		1 + 3 + 5 + \cdots + (2k-1) + (2k+1) &amp;= (k+1)^{2}.
+	\end{align*}
+	The result above is exactly the statement <m>S_{k+1}</m>, as seen in equation \eqref{eq2}. This proves that if <m>S_k</m> is true, then <m>S_{k+1}</m> is true. Hence, the inductive step has been established.</p>
+    <p>Thus by the Principle of Mathematical Induction, we have proved that for each natural number <m>n</m>, the sum of the first <m>n</m> odd natural numbers is <m>n^{2}</m>.</p>
+  </proof>
+  <activity workspace="1in">
+    <statement>
+      <p>Use the principle of mathematical induction to prove the theorem.</p>
+    </statement>
+  </activity>
+  <theorem>
+    <statement>
+      <p>For every natural number <m>n</m>, the sum of the squares of the first <m>n</m> natural numbers is <m>\frac{n(n+1)(2n+1)}{6}</m>. That is,  
+<md>\ds \sum_{i=1}^{n} i^2 =  \frac{n(n+1)(2n+1)}{6}.</md></p>
+    </statement>
+  </theorem>
+  <p>Here's some things you may do when working to prove by induction:</p>
+  <ul>
+    <li><p>First, you may want to test a couple of values of <m>n</m> to see if the statement even seems true/you understand what it is. Test <m>n=1, 2</m>. See if you can write down what the statement says when <m>n=17</m>.</p></li>
+    <li><p>What is <m>S_n</m> in this case?</p></li>
+    <li><p>What is <m>S_1</m> and is it true?</p></li>
+    <li><p>Then, let <m>k\in \mathbb{N}</m> and write <m>S_k</m> at the top of your page and <m>S_{k+1}</m> at the bottom. Wiggle your way in between!</p></li>
+  </ul>
+  <activity workspace="1in">
+    <statement>
+      <p>Work to get the big ideas of the induction argument right first; then, sketch the proof.</p>
+    </statement>
+  </activity>
+  <theorem>
+    <statement>
+      <p>For every natural number <m>n</m>, <m>5^n \equiv 1 \pmod{4}</m>.</p>
+    </statement>
+  </theorem>
+  <ul>
+    <li><p>First, you may want to test a couple of values of <m>n</m> to see if the statement even seems true/you understand what 	it is. Test <m>n=1, 2</m>. See if you can write down what the statement says when <m>n=17</m>. Does it seem true?</p></li>
+    <li><p>What is <m>S_n</m> in this case?</p></li>
+    <li><p>What is <m>S_1</m> and is it true?</p></li>
+    <li><p>Then, let <m>k\in \mathbb{N}</m> and write <m>S_k</m> at the top of your page and <m>S_{k+1}</m> at the bottom. Wiggle your way in between! Two approaches here:
+		\begin{itemize}
+		\item Use definitions to translate from the definition of congruence, to the definition of divides, and then to an equation. Mess around with some algebra.
+		\item Recall that we proved that if <m>a\equiv b\pmod{m}</m> and <m>c\equiv d \pmod{m}</m> then <m>ac \equiv bd \pmod{m}</m>. How could you use that as a Lemma?
+		\end{itemize}</p></li>
+  </ul>
+  <activity workspace="1in">
+    <statement>
+      <p><em>If time:</em> If you finish the activity above, here's one more statement to try to prove, using induction:</p>
+      <p>\begin{quote}
+``For every natural number <m>n</m>, <m>6 \mid (n^3 - n)</m>''
+\end{quote}</p>
+    </statement>
+  </activity>
+  <activity workspace="1in">
+    <statement>
+      <p><term>An induction proof from calculus:</term> Find a formula for the <m>n^{th}</m> derivative of <m>e^{2x}</m>, state your result as a theorem, and prove it using induction.</p>
+    </statement>
+  </activity>
+  <activity workspace="1in">
+    <statement>
+      <p><term>An induction proof with inequality</term> Recall (or learn for the first time!) that <m>n! = n(n-1)(n-2)\cdots 3\cdot 2\cdot 1</m>. E.g., <m>3! = 3\cdot 2 \cdot 1 = 6</m> and <m>4! = 4\cdot 3 \cdot 2 \cdot 1 = 24</m>. Determine if the following conjecture is true. If not, modify it by saying which values of <m>n</m> it is true for, and then prove by induction.</p>
+    </statement>
+  </activity>
+  <conjecture>
+    <statement>
+      <p>For all <m>n\in\mathbb{N}</m>, <m>2^n &lt; n!</m>.</p>
+    </statement>
+  </conjecture>
+</worksheet>

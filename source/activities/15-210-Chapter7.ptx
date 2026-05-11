@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <title>Chapter 7: Contradiction</title>
+  <subsection>
+    <title>What Proof by Contradiction Is</title>
+    <p>In a <term>proof by contradiction</term>, we</p>
+    <ol>
+      <li><p>Assume the negation</p></li>
+      <li><p>Reduce to the absurd</p></li>
+      <li><p>Conclude the negation could not have been true</p></li>
+    </ol>
+  </subsection>
+  <subsection>
+    <title>Why Use Proof by Contradiction</title>
+    <p>Some of the most consequential theorems in history were proved by contradiction.<fn>See <url href="https://philosophersguild.com/products/proof-is-in-the-pudding-bowls">https://philosophersguild.com/products/proof-is-in-the-pudding-bowls</url>: 2 of the 4 proofs chosen for the bowls are proofs by contradiction.</fn>  For example,</p>
+    <ul>
+      <li><p>There are infinitely many prime numbers.</p></li>
+      <li><p>The number <m>\sqrt{2}</m> is irrational.</p></li>
+    </ul>
+    <p>are both proved by contradiction.</p>
+    <p><term>Question:</term> Why?</p>
+    <p>{\scriptsize To answer this, you might discuss: (a) What is the negation and how might that be helpful for starting a proof? (b) What other proof techniques could you try and how would those start?}</p>
+  </subsection>
+  <subsection>
+    <title>First Example</title>
+    <p>You have already seen a proof by contradiction, on page 38 of the worksheets, in Chapter 3 about sets.</p>
+    <p>Read the following proof, one sentence at a time, and underline sentences that you think will be in every proof by contradiction.</p>
+    <theorem>
+      <statement>
+        <p>If <m>A = \{x\in\mathbb{Z} : x\equiv 2 \pmod{4}\}</m> and <m>B = \{y\in\Z : y\equiv 3 \pmod{6}\}</m>. Then <m>A\cap B = \emptyset</m>.</p>
+      </statement>
+    </theorem>
+    <proof>
+      <p>We will use a proof by contradiction. That is, we assume <m>A =  \{x\in\mathbb{Z} : x\equiv 2 \pmod{4}\}</m> and <m>B = \{y\in\Z : y\equiv 3 \pmod{6}\}</m> and <m>A\cap B \neq \emptyset</m>. Since <m>A\cap B\neq \emptyset</m>, there exists <m>x\in\Z</m> such that <m>x\in A\cap B</m>. Since <m>x\in A</m>, <m>x\equiv 2\pmod{4}</m> and so <m>4\mid (x-2)</m>. This means there exists <m>k\in\mathbb{Z}</m> such that <m>x-2 = 4k</m>, or 
+<md>x= 4k+2.</md></p>
+      <p>Also, since <m>x\in B</m>, we know <m>x\equiv 3\pmod{6}</m>. So <m>6 \mid (x-3)</m> and thus there exists <m>j\in \mathbb{Z}</m> such that <m>x-3=6j</m> or
+<md>x=6j+3.</md></p>
+      <p>Since <m>x=4k+2</m> and <m>x=6j+3</m>, by substitution and algebra we get,
+	\begin{align*}
+	4k+2 &amp; = 6j+3 
+	4k &amp;= 6j+1 
+	2(2k) &amp;= 2(3j)+1.
+	\end{align*}
+By closure of integers under multiplication, <m>2k\in\mathbb{Z}</m> and <m>3j\in\mathbb{Z}</m>. Therefore <m>2(2k)</m> is an even integer and <m>2(3j)+1</m> is an odd integer. But this is a contradiction - there is no integer that is both even and odd! This contradicts our assumption that <m>x\in A\cap B</m>, and thus we conclude <m>A\cap B = \emptyset</m>.</p>
+    </proof>
+    <p><term>Note 1:</term> ``Even = Odd" is one example of a contradiction you might get. You also could get other contradictions in the proof above - can you think of a different one?
+
+<term>Note 2</term>: We could have also phrased the above theorem as ``For each integer <m>n</m>, if <m>n\equiv 2 \pmod{4}</m> then <m>n\not\equiv 3\pmod{6}</m>." Why would it make sense to use contradiction for that theorem statement (and not, say, contrapositive)? What would change about the proof above?</p>
+  </subsection>
+  <subsection>
+    <title>Starting A Proof By Contradiction</title>
+    <p>One of the most important parts of proof by contradiction is the very first part: Stating the assumptions. This requires writing a clear negation of the theorem to be proven.</p>
+    <activity>
+      <introduction>
+        <p>For each statement below, write its negation to start the proof by contradiction.</p>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p><term>Theorem.</term> <em> For all real numbers <m>a</m> and <m>b</m>, if <m>a&gt;0</m> and <m>b&gt;0</m>, then <m>\frac{2}{a} + \frac{2}{b} \neq \frac{4}{a+b}</m>.</em></p>
+          <p><em>Proof.</em> We will use a proof by contradiction. So we assume the theorem is false. That is, we assume</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p><term>Theorem.</term> <em> For each real number <m>x</m>, <m>(\sqrt{2}+x)</m> is irrational or <m>(\sqrt{2}-x)</m> is irrational.</em></p>
+          <p><em>Proof.</em> We will use a proof by contradiction. So we assume the theorem is false. That is, we assume</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p><term>Theorem.</term> <em>For each real number <m>x</m>, if <m>x</m> is irrational, then <m>\sqrt[3]{x}</m> is irrational.</em></p>
+          <p><em>Proof.</em> We will use a proof by contradiction. So we assume the theorem is false. That is, we assume</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p><term>Theorem.</term> <em>For each <m>a,b\in\mathbb{R}</m>, if <m>a\neq 0</m> and <m>b\neq 0</m> then <m>\sqrt{a^2+b^2} \neq a+b</m>.</em></p>
+          <p><em>Proof.</em> We will use a proof by contradiction. So we assume the theorem is false. That is, we assume</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p><term>Theorem.</term> <em>For all integers <m>a</m> and <m>b</m>, if <m>5\nmid ab</m>, then <m>5\nmid a</m> and <m>5\nmid b</m>.</em></p>
+          <p><em>Proof.</em> We will use a proof by contradiction. So we assume the theorem is false. That is, we assume</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p><term>Theorem.</term> <em>For all integers <m>a</m> and <m>b</m>, if <m>5\mid ab</m> then <m>5\mid a</m> or <m>5\mid b</m>.</em></p>
+          <p><em>Proof.</em> We will use a proof by contradiction. So we assume the theorem is false. That is, we assume</p>
+          <p><em>If time:</em> When you have each negation completed, go back and try to figure out what the next main step of logic would be. That is, what's the next helpful statement you could make in a contradiction proof?</p>
+          <p><em>If time 2:</em> Could you prove any of these with a different proof technique? For example, would any of the proofs be better with contrapositive? Or cases?</p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>Practicing Proofs</title>
+    <p>Recall a real number <m>x</m> is <term>rational</term> if <m>x=\frac{a}{b}</m> for some <m>a,b\in\mathbb{Z}</m> with <m>b\neq 0</m>. Otherwise, we say <m>x</m> is <term>irrational</term>. Recall that the set of rationals is denoted <m>\mathbb{Q}</m> (for quotient).</p>
+    <p>You may use any of the following as lemmas without proof:</p>
+    <p>(a)  <m>\sqrt{2}</m> is irrational. We will prove that on pages 89-90</p>
+    <p>(b) If <m>x,y\in\mathbb{R}</m>, if <m>xy=0</m> then <m>x=0</m> or <m>y=0</m>.</p>
+    <p>(c) For all <m>a,b,x,y\in\mathbb{Z}</m> and <m>n\in\mathbb{N}</m>, if <m>a\equiv x \pmod{n}</m> and <m>b\equiv y\pmod{n}</m> then <m>ab \equiv xy\pmod{n}</m>.</p>
+    <p>Space for notes on your proof(s):</p>
+    <p>What are some examples of contradictions you can get?</p>
+  </subsection>
+  <subsection>
+    <title>Irrationals</title>
+    <p>Recall a real number <m>x</m> is <term>rational</term> if <m>x=\frac{a}{b}</m> for some <m>a,b\in\mathbb{Z}</m> with <m>b\neq 0</m>. Otherwise, we say <m>x</m> is <term>irrational</term>.</p>
+    <p>Pythagoras, of Pythagorean Theorem fame, did not believe in irrational numbers. Which is wild, because they were right under his nose:</p>
+    <p>There is an apocryphal story (that may not be true) that Hippasus of Metapontum, a member of the school of Pythagoreans, proved that <m>\sqrt{2}</m> is irrational, after Pythagoras died. This was upsetting to other Pythagoreans, and Hippasus was drowned at sea.</p>
+    <p>Let's outline the proof that <m>\sqrt{2}</m> is irrational below.</p>
+    <p>Here is a formal proof that <m>\sqrt{2}</m> is irrational. We won't prove the lemma here, but in general you should either prove the lemma, or cite a page from worksheets, homework, or the book. Fill in the blanks.</p>
+    <lemma>
+      <statement>
+        <p>For all integers <m>n</m>, <m>n</m> is even if and only if <m>n^2</m> is even.</p>
+      </statement>
+    </lemma>
+    <theorem>
+      <statement>
+        <p>The real number <m>\sqrt{2}</m> is irrational.</p>
+      </statement>
+    </theorem>
+    <p><term>series Proof.</term>   To prove that <m>\sqrt{2}</m> is irrational, we _____.  In particular, we _____ that _____.  This tells us that there exist integers <m>m</m> and <m>n</m> with <m>n \ne 0</m> such that</p>
+    <p>We further assume that <m>m</m> and <m>n</m> have no common factors so that <m>\frac{m}{n}</m> is in lowest terms.   Let us now consider the consequences of assuming that <m>\sqrt{2} = \frac{m}{n}.</m>  Our goal is to show that</p>
+    <p>Squaring both sides of <m>\sqrt{2} = \frac{m}{n}</m> , we find that <m>2 = \frac{m^2}{n^2}</m>, so that multiplying by <m>n^2</m>, we have 
+\begin{equation} 
+_____. 
+\end{equation}  
+Since <m>n^2</m> is an integer, it follows that _____ 
+is even.  By the lemma, which states that an integer is even if and only if its square is even, we now know that since <m>m^2</m> is even, it follows that <m>m</m> is also even.  In particular, 
+there exists some integer <m>k</m> such that 
+\begin{equation} 
+_____. 
+\end{equation}
+If we now substitute <m>2k</m> for <m>m</m> in Equation~(\ref{Q:m^2}), it follows that <m>(2k)^2 = 2n^2</m>.  Dividing both sides by 2, we find that
+\begin{equation} 
+_____. 
+\end{equation}
+Now Equation~(\ref{Q:n^2}) implies that <m>n^2</m> is even, and therefore by again applying the lemma, <m>n</m> must also be even.  In particular, there exists some integer <m>p</m> such that 
+\begin{equation} 
+_____. 
+\end{equation}
+Now consider Equations~(\ref{Q:m}) and~(\ref{Q:n}).  These show that <m>2 \mid m</m> and <m>2 \mid n</m>, so that <m>m</m> and <m>n</m> share a common factor of <m>2</m>, and thus <m>\frac{m}{n}</m> is not in lowest terms.  This is _____.  Moreover, this contradiction proves that our assumption that <m>\sqrt{2}</m> is rational _____, and therefore <m>\sqrt{2}</m> is irrational.
+  <m>\Box</m></p>
+    <conjecture>
+      <statement>
+        <p>For all integers <m>a,b</m> and <m>c</m>, if <m>a \mid (bc)</m>, then <m>a \mid b</m> or <m>a \mid c</m> given integers <m>a</m>, <m>b</m>, <m>c</m>.</p>
+      </statement>
+    </conjecture>
+    <p>Disprove this conjecture:</p>
+    <theorem>
+      <title>The Prime Divisor Theorem</title>
+      <statement>
+        <p>[The Prime Divisor Theorem]  Let <m>a</m>, <m>b</m> and <m>c</m> be natural numbers.  If <m>a \mid (bc)</m> and <m>a</m> is prime, then <m>a \mid b</m> or <m>a \mid c</m>.</p>
+      </statement>
+    </theorem>
+    <p>This result enables us to consider additional results on irrational numbers.</p>
+    <p><term>series Theorem.</term>  The real number <m>\sqrt{3}</m> is irrational.</p>
+    <p><term>series Proof.</term>   To prove that <m>\sqrt{3}</m> is irrational, we argue by contradiction.  In particular, we assume to the contrary that <m>\sqrt{3}</m> is rational.  This tells us that there exist integers <m>m</m> and <m>n</m> with <m>n \ne 0</m> such that</p>
+    <p>\
+ \</p>
+    <p>We further assume that <m>m</m> and <m>n</m> have no common factors so that <m>\frac{m}{n}</m> is in lowest terms.  Let us now consider the consequences of assuming that <m>\sqrt{3} = \frac{m}{n}.</m></p>
+    <p>Squaring both sides of this equation, we find that <m>3 = \frac{m^2}{n^2}</m>, so that multiplying by <m>n^2</m>, we have 
+\begin{equation} 
+m^2 = 3n^2.
+\end{equation}  
+Since <m>n^2</m> is an integer, it follows that _____.  By</p>
+    <p>In particular, there exists some integer <m>k</m> such that 
+\begin{equation} 
+ \ 
+\end{equation}
+If we now substitute <m>3k</m> for <m>m</m> in Equation~(\ref{Q3:m^2}), it follows that <m>(3k)^2 = 3n^2</m>.  Dividing both sides by 3, we find that
+\begin{equation} 
+\
+\end{equation}
+Now Equation~(\ref{Q3:n^2}) implies that _____, and therefore by again applying</p>
+    <p>In particular, there exists some integer <m>p</m> such that 
+\begin{equation} 
+ \
+\end{equation}
+Now consider Equations~(\ref{Q3:m}) and~(\ref{Q3:n}).  These show that _____ and _____ so that <m>m</m> and <m>n</m> share a common factor of _____, and thus <m>\frac{m}{n}</m> is not in lowest terms.  This is _____.  Moreover, this contradiction proves that our assumption that <m>\sqrt{3}</m> is rational _____, and therefore <m>\sqrt{3}</m> is irrational.
+  <m>\Box</m></p>
+  </subsection>
+  <subsection>
+    <title>More Proofs by Contradiction</title>
+    <activity workspace="1in">
+      <statement>
+        <p>Try to determine if the following conjectures are true on false. If true, work on the proving the following theorems by contradiction.</p>
+        <ul>
+          <li><p>For each real number <m>x</m>, if <m>0&lt;x&lt;1</m> then <m>\frac{1}{x(1-x)}\ge 4</m>.</p></li>
+          <li><p>Let <m>a, b,</m> and <m>c</m> be integers. If <m>3\mid a</m> and <m>3\mid b</m> and <m>c\equiv 1 \pmod{3}</m> then the equation <m>ax+by=c</m> has no solution in which both <m>x</m> and <m>y</m> are integers.</p></li>
+          <li><p>For each positive real number <m>x</m>, if <m>x</m> is irrational then <m>x^2</m> is irrational.</p></li>
+        </ul>
+      </statement>
+    </activity>
+  </subsection>
+</worksheet>
