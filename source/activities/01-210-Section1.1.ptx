@@ -240,6 +240,20 @@
         </statement>
       </task>
     </activity>
+
+    <p>
+      Sage can do modular arithmetic!
+    </p>
+
+    <sage>
+      <input>
+R = IntegerModRing(7)
+a = R(3)
+b = R(4)
+a * b
+      </input>
+    </sage>
+
   </subsection>
   <subsection>
     <title>10 Things To Know</title>
