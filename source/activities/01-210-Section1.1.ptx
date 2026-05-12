@@ -42,6 +42,64 @@
     <activity>
       <introduction>
         <p>The game <em>Tetris</em> is played with five different shapes - the five shapes that can be obtained by piecing together 4 unit squares:</p>
+
+        <figure xml:id="fig-tetris">
+          <caption>Five <em>Tetris</em> pieces</caption>
+          <sidebyside widths="15% 15% 15% 15% 15%">
+            <image>
+              <shortdescription>A Tetris piece</shortdescription>
+              <latex-image label="tetris-1">
+                \begin{tikzpicture}
+                \draw[step=1cm] (0,0) grid (1,4);
+                \draw[very thick] (0,0) -- (1,0) -- (1,4) -- (0,4) -- (0,0);
+                \end{tikzpicture}
+              </latex-image>
+            </image>
+            <image>
+              <shortdescription>A Tetris piece</shortdescription>
+              <latex-image label="tetris-2">
+                \begin{tikzpicture}
+                \draw[step=1cm] (0,0) grid (2,2);
+                \draw[very thick] (0,0) -- (2,0) -- (2,2) -- (0,2) -- (0,0);
+                \end{tikzpicture}
+              </latex-image>
+            </image>
+            <image>
+              <shortdescription>A Tetris piece</shortdescription>
+              <latex-image label="tetris-3">
+                \begin{tikzpicture}
+                \draw [very thick] (0,0) -- (3,0) -- (3,1) -- (2,1) -- (2,2)--(1,2) -- (1,1) -- (0,1) -- (0,0);
+                \draw (1,0) -- (1,1);
+                \draw (1,1) -- (2,1);
+                \draw (2,1) -- (2,0);
+                \end{tikzpicture}
+              </latex-image>
+            </image>
+            <image>
+              <shortdescription>A Tetris piece</shortdescription>
+              <latex-image label="tetris-4">
+                \begin{tikzpicture}
+                \draw [very thick] (0,0) -- (2,0) -- (2,1) -- (3,1) -- (3,2)--(1,2) -- (1,1) -- (0,1) -- (0,0);
+                \draw (1,0) -- (1,1);
+                \draw (1,1) -- (2,1);
+                \draw (2,1) -- (2,2);
+                \end{tikzpicture}
+              </latex-image>
+            </image>
+            <image>
+              <shortdescription>A Tetris piece</shortdescription>
+              <latex-image label="tetris-5">
+                \begin{tikzpicture}
+                \draw [very thick] (0,0) -- (2,0) -- (2,1) -- (1,1) --  (1,3) -- (0,3) -- (0,0);
+                \draw (0,1) -- (1,1);
+                \draw (0,2) -- (1,2);
+                \draw (1,0) -- (1,1);
+                \end{tikzpicture}
+              </latex-image>
+            </image>
+          </sidebyside>
+        </figure>
+
         <p>For the questions below, we also allow these pieces to be ``flipped over."</p>
       </introduction>
       <task workspace="1in">
