@@ -6,12 +6,73 @@
   <xi:include href="./docinfo.ptx" />
   <!-- By creating a PreTeXt "book" for the course, we can split components into "chapters" -->
   <book>
-    <title>Course Name (change me)</title>
+    <title>Communicating in Mathematics</title>
 
-    <subtitle>MATH xxx Semester 20xx</subtitle>
+    <subtitle>MTH 210 Fall 2026</subtitle>
 
     <!-- Optional: include frontmatter with author info and date -->
     <xi:include href="./frontmatter.ptx" />
+
+
+    <xi:include href="./activities/01-Chapter1-IntuitiveProofs.ptx"/>
+
+    <xi:include href="./activities/02-Chapter2-DirectProofs.ptx"/>
+    
+    <xi:include href="./activities/04-210-Sections2.2-2.3.ptx"/>
+    
+    <xi:include href="./activities/05-210-Section2.5.ptx"/>
+    
+    <xi:include href="./activities/06-210-Section3.1-3.3.ptx"/>
+    
+    <xi:include href="./activities/07-210-Section3.4.ptx"/>
+    
+    <xi:include href="./activities/08-210-ReviewChapters1-3.ptx"/>
+    
+    <xi:include href="./activities/09-210-Sections4.1-4.2.ptx"/>
+    
+    <xi:include href="./activities/10-210-Section4.3.ptx"/>
+    
+    <xi:include href="./activities/11-ReviewAssessment1Questions.ptx"/>
+    
+    <xi:include href="./activities/12-210-Sections5.1-5.2.ptx"/>
+    
+    <xi:include href="./activities/13-210-Sections5.3-5.4.ptx"/>
+    
+    <xi:include href="./activities/14-210-Chapter6.ptx"/>
+    
+    <xi:include href="./activities/15-210-Chapter7.ptx"/>
+    
+    <xi:include href="./activities/18-210-Chapter8.ptx"/>
+    
+    <xi:include href="./activities/19-210-Chapter8Part2.ptx"/>
+    
+    <xi:include href="./activities/20-210-Chapter9.ptx"/>
+    
+    <xi:include href="./activities/21-210-MathWrangle.ptx"/>
+    
+    <xi:include href="./activities/22-210-ReviewAssessment2Review.ptx"/>
+
+    <chapter xml:id="activities">
+      <title>In-Class Activities</title>
+
+      <introduction>
+        <p>
+          These are copies of the in-class activities distributed during the semester.
+        </p>
+      </introduction>
+
+      <!-- Remove the example and replace with your own activities -->
+      <xi:include href="./activities/01-intro-activity.ptx"/>
+      
+
+      <!-- Add more xi:include files here to include them in the main course -->
+    </chapter>
+
+    <chapter xml:id="handouts">
+      <title>Handouts</title>
+      <!-- Include handouts -->
+      <!--<xi:include href="./handouts/handout-filename.ptx"/>-->
+    </chapter>
 
     <chapter xml:id="course-documents">
       <title>Course Documents</title>
@@ -35,48 +96,6 @@
       <xi:include href="./notes/week02.ptx"/>
       <!-- etc. -->
 
-    </chapter>
-
-
-    <chapter xml:id="activities">
-      <title>In-Class Activities</title>
-
-      <introduction>
-        <p>
-          These are copies of the in-class activities distributed during the semester.
-        </p>
-      </introduction>
-
-      <!-- Remove the example and replace with your own activities -->
-      <xi:include href="./activities/01-intro-activity.ptx"/>
-      <xi:include href="./activities/01-210-Section1.1.ptx"/>
-      <xi:include href="./activities/02-210-Sections1.2-1.3.ptx"/>
-      <xi:include href="./activities/03-210-Sections2.1.ptx"/>
-      <xi:include href="./activities/04-210-Sections2.2-2.3.ptx"/>
-      <xi:include href="./activities/05-210-Section2.5.ptx"/>
-      <xi:include href="./activities/06-210-Section3.1-3.3.ptx"/>
-      <xi:include href="./activities/07-210-Section3.4.ptx"/>
-      <xi:include href="./activities/08-210-ReviewChapters1-3.ptx"/>
-      <xi:include href="./activities/09-210-Sections4.1-4.2.ptx"/>
-      <xi:include href="./activities/10-210-Section4.3.ptx"/>
-      <xi:include href="./activities/11-ReviewAssessment1Questions.ptx"/>
-      <xi:include href="./activities/12-210-Sections5.1-5.2.ptx"/>
-      <xi:include href="./activities/13-210-Sections5.3-5.4.ptx"/>
-      <xi:include href="./activities/14-210-Chapter6.ptx"/>
-      <xi:include href="./activities/15-210-Chapter7.ptx"/>
-      <xi:include href="./activities/18-210-Chapter8.ptx"/>
-      <xi:include href="./activities/19-210-Chapter8Part2.ptx"/>
-      <xi:include href="./activities/20-210-Chapter9.ptx"/>
-      <xi:include href="./activities/21-210-MathWrangle.ptx"/>
-      <xi:include href="./activities/22-210-ReviewAssessment2Review.ptx"/>
-
-      <!-- Add more xi:include files here to include them in the main course -->
-    </chapter>
-
-    <chapter xml:id="handouts">
-      <title>Handouts</title>
-      <!-- Include handouts -->
-      <!--<xi:include href="./handouts/handout-filename.ptx"/>-->
     </chapter>
 
     <chapter xml:id="homework">

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<worksheet>
-  <title>Chapter 2 - Direct Proofs</title>
+  
+<chapter xml:id="ch-directproofs">
+  
+  <title> Direct Proofs </title>  
+
   <subsection>
     <title>Number Systems and Closure</title>
     <p>Here are a few "number systems", or sets of numbers, and their notation.</p>
@@ -122,4 +125,5 @@ Define <m>q=m+n+1</m>.  Since <m>m</m> and <m>n</m> are integers and the integer
       <p>We will give a direct proof of the proposition.</p>
     </proof>
   </subsection>
-</worksheet>
+</chapter>
+

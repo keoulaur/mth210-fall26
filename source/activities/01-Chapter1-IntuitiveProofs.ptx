@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<worksheet>
-  <title>Chapter 1 - Intuitive Proofs</title>
-  <subsection>
+
+  
+<chapter xml:id="ch-intuitiveproofs">
+  
+  <title> Intuitive Proofs </title>
+  
+ <subsection>
     <title>What is Mathematics?  What is a proof?  Why do we prove things?</title>
     <p><em>What happens next? Does it always work? How many are there? Why does it work? What if we tried this instead?</em></p>
     <p>Questions such as these are at the heart of mathematics, where we seek to identify, understand, and explain patterns.</p>
   </subsection>
+
+
+ 
   <subsection>
     <title>Section 1.1 - Chessboard Problems</title>
     <p>My favorite parts of mathematics are ones that feel like games. The domino covering problem that you read about for today's class is one of them!</p>
     <p>Here's reminders of definitions and propositions from your text:</p>
     <definition>
       <statement>
-        <p>A <em>perfect cover</em> of an <m>m\times n</m> board with <m>2\times 1</m> dominoes is an arrangement of those dominoes on the chessboard with no squares left uncovered, and no dominoes stacked or left hanging off the end.</p>
+        <p>A <term>perfect cover</term> of an <m>m\times n</m> board with <m>2\times 1</m> dominoes is an arrangement of those dominoes on the chessboard with no squares left uncovered, and no dominoes stacked or left hanging off the end.</p>
       </statement>
     </definition>
     <proposition>
@@ -319,4 +326,144 @@ if one is consuming an alcoholic beverage then one is over the age of 21
     </ol>
     <p>Statements of the form ``If... then..." are called conditional statements. We will explore conditional statements a lot in MTH 210. What must we do to establish that a conditional statement is true?  What is the only way that a conditional statement can be false?</p>
   </subsection>
-</worksheet>
+
+
+  <subsection>
+    <title>Counterexamples</title>
+    <p><em>Disproving a conjecture, or showing a statement is false.</em></p>
+    <p>There are several types of mathematical statements that we might disprove. Here's 3 types:</p>
+    <ul>
+      <li><p>For all (blah), (bleh).</p></li>
+      <li><p>There exists a (doodle) that (doddles).</p></li>
+      <li><p>If (loppity), then (luppity).</p></li>
+    </ul>
+    <p>Disproving each of them is a little different. Let's start, as the chapter title says, with your intuition about how you would disprove these.</p>
+    <activity>
+      <task workspace="1in">
+        <introduction>
+          <p>Disprove the following statements:</p>
+        </introduction>
+        <task>
+          <statement>
+            <p>For all natural numbers<fn>The natural numbers, denoted <m>\mathbb{N}</m>, are the set <m>\{1,2,3,\dots\}</m>.</fn> <m>n</m>, <m>n&lt;n^2</m>.</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>There exists a perfect covering of an <m>8\times 8</m> chessboard with the top left and bottom right corners removed using dominoes.</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>If <m>a</m> and <m>b</m> are odd integers, and <m>c</m> is any integer<fn>The integers, denoted <m>\mathbb{Z}</m>, are the set <m>\{\dots,-3,-2,-1,0,1,2,3,\dots\}</m>. The odd integers are <m>\{\dots, -5,-3,-1,1,3,5,\dots\}</m>.</fn>, then <m>cb+ca</m> is an odd integer.</p>
+          </statement>
+        </task>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>How was it different to write a disproof for each type of statement? How was it similar?</p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>Section 1.3 - The Pigeonhole Principle</title>
+    <p>As a reminder, here's the statement of the pigeonhole principle:</p>
+    <p><term>Principle 1.5</term> (<em>The pigeonhole principle</em>). The principle has a simple form and a general form. Assume <m>k</m> and <m>n</m> are positive integers. <fn>The positive integers are these numbers: 1,2,3,4.... We will call these the natural numbers, and denote <m>\mathbb{N}</m>, but mathematicians disagree about whether <m>0</m> is a natural number, so the author writes positive integers.</fn></p>
+    <p><term>Simple form:</term> If <m>n+1</m> objects are placed into <m>n</m> boxes, then at least one box has at least two objects in it.</p>
+    <p><term>General form:</term> If <m>kn+1</m> objects are placed into <m>n</m> boxes, then at least one box has at least <m>k+1</m> objects in it.</p>
+    <activity>
+      <task>
+        <introduction>
+          <p>Let's begin with some true/false questions. Explain your answers.</p>
+        </introduction>
+        <task>
+          <statement>
+            <p>True/False: If <m>201</m> objects are placed in <m>100</m> boxes, then every box has at least 2 items.</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>True/False: If <m>100^2</m> objects are placed in <m>100</m> boxes, then no box is empty.</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>True/False: Given <m>501</m> objects placed in <m>100</m> boxes, at least one box has <m>5</m> objects in it.</p>
+          </statement>
+        </task>
+      </task>
+      <task>
+        <statement>
+          <p>Read (aloud) pages 17-18 of your textbook (starting at Mathematical Examples and ending before Proposition 1.10) with your team. Pause every paragraph (at least) to ask questions, and rephrase what you have read.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <introduction>
+          <p>In the following, identify what version of the pigeonhole principle are you using, what the objects and boxes are, and what any variables are (<m>n</m> and <m>k</m>). Suppose you deal a pile of cards, face down, from a shuffled deck of cards (this is a standard 52-card deck, where each card is one of 4 suits and one of 13 ranks). How many must you deal until you are guaranteed...</p>
+        </introduction>
+        <task>
+          <statement>
+            <p>five of the same suit?</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>two of the same rank?</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>three of the same rank?</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>four of the same rank?</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>two of one rank and three of another?</p>
+          </statement>
+        </task>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Paul Erd\"{o}s was a Hungarian mathematician famous for problem solving. Here's his favorite problem to give:
+		\begin{quote}
+		Given any 101 integers from <m>\{1,2,3,\dots, 200\}</m> at least one these numbers will divide another.
+		\end{quote}
+		This problem is a challenge and will introduce a few ideas which we have not yet discussed, but the goal for this chapter is to get our feet wet, to have fun proving some interesting things, and to push your problem solving skills. Discuss with your team - what could the boxes be? How do we sort into the boxes?</p>
+        </statement>
+      </task>
+    </activity>
+  </subsection>
+  <subsection>
+    <title>Play, Conjecture, Prove \#1 - The Game SET</title>
+    <p>To provide us with an initial playground for exploring some mathematical ideas, meet the wonderful card game <term>SET</term> (if you've never played it before).  It is filled with superb mathematical ideas.</p>
+    <p>SET: Each card in the deck has three symbols on it, characterized by four attributes:</p>
+    <ul>
+      <li><p><term>number</term>: one, two, or three symbols;</p></li>
+      <li><p><term>color</term>: red, purple, or green;</p></li>
+      <li><p><term>shading</term>: empty, striped, or solid;</p></li>
+      <li><p><term>shape</term>: oval, diamond, or squiggle.</p></li>
+    </ul>
+    <p><em>Every possible combination appears in the deck exactly once</em>.  A ``<term>set</term>'' comprises three cards for which each attribute is independently either all the same or all different. It's important to note that the number of attributes that are the same can vary. On the document camera, let's find some examples among the 12 cards present.</p>
+    <p>\hrulefill</p>
+    <activity workspace="1in">
+      <statement>
+        <p>At your table in your group of 3-4 students, play several hands of SET.</p>
+        <p>After you have each found a couple of sets, stop playing and do the following:  develop some mathematically significant questions about the game SET.  Your main task is to <em>ask questions</em>.</p>
+        <p>After you have stated several questions, choose at least one of them and use your question to make a <em>conjecture</em>.  (A conjecture is a mathematical statement that you think might be true.)</p>
+        <p>What is a theorem?  What is a proof? What's the difference between a conjecture and a theorem?</p>
+        <p><term>Theorem.</term>  (The Fundamental Theorem of SET)  Given any two cards from the deck in SET, those two cards determine a _____.  Said differently,    \</p>
+        <p><em>Proof.</em>  Choose any two cards in the deck.  Consider one of the four attributes.  Either the two cards are _____ in that attribute or they are _____.  If they are the same, then the third card in the set must be _____ in that attribute; if they are different, then the third card in the set must have the _____ _____ of that attribute.</p>
+        <p>Since this happens for each of the four attributes, the four traits of the potential third card are _____ determined.  Moreover, since every possible combination of the four attributes appears exactly once in the deck, we know that such a card exists, and hence there is _____ set that contains the original  two given cards.</p>
+        <p>For the first ``Play, Conjecture, Prove" problem (Proof Portfolio Problem \#1), you can pick one of the questions you asked with your team, explore an answer, and prove something. I have a deck of SET cards that I keep in my office.  You can borrow it any time you'd like.  Maybe some enterprising student would like to organize a SET tournament sometime this semester <m>\ldots</m></p>
+      </statement>
+    </activity>
+  </subsection>
+
+</chapter>
+
