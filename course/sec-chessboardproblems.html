@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>210 - Practice for Review Assessment 2</title>
+<title>Chessboard Problems</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -63,6 +63,18 @@ eBookConfig.enable_chatcodes =  false;
 <script src="_static/prefix-runtime.ce7e0a2163cb330f.bundle.js"></script><script src="_static/prefix-713.de0ab26248766350.bundle.js"></script><script src="_static/prefix-runestone.f4a2ffb04bb978bb.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-713.f43ced6a6134ea74.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.87414d180ebeebd6.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><script>// Make *any* div with class 'sagecell-sage' an executable Sage cell
+// Their results will be linked, only within language type
+sagecell.makeSagecell({
+  "inputLocation": "div.sagecell-sage",
+  "linked": true,
+  "linkKey": "linked-sage",
+  "autoeval": false,
+  "languages": [
+    "sage"
+  ],
+  "evalButtonText": "Evaluate (Sage)"
+});
 </script>
 </head>
 <body class="pretext book ignore-math">
@@ -87,7 +99,7 @@ eBookConfig.enable_chatcodes =  false;
 <textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
 </div>
 </div>
-<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="root-1-2-21-3.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="root-1-2.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="root-1-2-22-2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ch-intuitiveproofs.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-intuitiveproofs.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-intuitiveproofs-4.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
@@ -101,12 +113,12 @@ eBookConfig.enable_chatcodes =  false;
 <div class="ptx-page">
 <div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
-<li class="toc-item toc-chapter">
+<li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-intuitiveproofs.html" class="internal"><span class="codenumber">1</span> <span class="title">Intuitive Proofs</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-section">
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="sec-chessboardproblems.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Chessboard Problems</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-chessboardproblems.html#ws-exploringcoverings" class="internal"><span class="codenumber">1.1</span> <span class="title">Worksheet</span></a></div></li></ul>
+<ul class="structural toc-item-list active"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-chessboardproblems.html#ws-exploringcoverings" class="internal"><span class="codenumber">1.1</span> <span class="title">Worksheet</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-intuitiveproofs-4.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Conjecturing</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-intuitiveproofs-5.html" class="internal"><span class="codenumber">1.3</span> <span class="title">The Wason Selection Test - Testing Truth.</span></a></div></li>
@@ -269,9 +281,9 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="root-1-2-21-3.html" class="internal"><span class="codenumber">18.2</span> <span class="title">The Problems</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-worksheet contains-active">
+<li class="toc-item toc-worksheet">
 <div class="toc-title-box"><a href="root-1-2-22.html" class="internal"><span class="codenumber">19</span> <span class="title">210 - Practice for Review Assessment 2</span></a></div>
-<ul class="structural toc-item-list active">
+<ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="root-1-2-22-2.html" class="internal"><span class="codenumber">19.1</span> <span class="title">Rules</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="root-1-2-22-3.html" class="internal"><span class="codenumber">19.2</span> <span class="title">The Problems</span></a></div></li>
 </ul>
@@ -314,16 +326,158 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter"><div class="toc-title-box"><a href="homework.html" class="internal"><span class="codenumber">7</span> <span class="title">Homework</span></a></div></li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="worksheet" id="root-1-2-22">
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<div class="print-controls-toggles">
+<form class="papersize-select" id="papersize-select">
+<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
+        </label><label><input type="radio" name="papersize" value="letter">Letter
+        </label>
+</form>
+<details class="print-options"><summary>Additional printing options</summary><div class="header-footer-options">
+<div class="header-option">
+<span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
+</div>
+<div class="footer-option">
+<span class="title">Print footers</span><label>First page<input type="checkbox" id="print-first-page-footer-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-footer-checkbox" checked></label>
+</div>
+</div>
+<div class="highlight-workspace-option">
+<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
+</div></details>
+</div>
+<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="section" id="sec-chessboardproblems">
 <h2 class="heading hide-type">
-<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">19</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">210 - Practice for Review Assessment 2</span><div class="print-links"><a href="?printpreview=root-1-2-22" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Chessboard Problems</span>
 </h2>
-<nav class="summary-links"><ul>
-<li><a href="root-1-2-22-2.html" class="internal"><span class="codenumber">19.1</span> <span class="title">Rules</span></a></li>
-<li><a href="root-1-2-22-3.html" class="internal"><span class="codenumber">19.2</span> <span class="title">The Problems</span></a></li>
-</ul></nav><div class="autopermalink" data-description="Worksheet 19: 210 - Practice for Review Assessment 2"><a href="#root-1-2-22" title="Copy heading and permalink for Worksheet 19: 210 - Practice for Review Assessment 2" aria-label="Copy heading and permalink for Worksheet 19: 210 - Practice for Review Assessment 2">🔗</a></div></section></div>
+<div class="para" id="sec-chessboardproblems-2">My favorite parts of mathematics are ones that feel like games. The domino covering problem that you read about for today’s class is one of them!<div class="autopermalink" data-description="Paragraph"><a href="#sec-chessboardproblems-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-chessboardproblems-3">Here’s reminders of definitions and propositions from your text:<div class="autopermalink" data-description="Paragraph"><a href="#sec-chessboardproblems-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="sec-chessboardproblems-4"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-chessboardproblems-4-1-1">A <dfn class="terminology">perfect cover</dfn> of an <span class="process-math">\(m\times n\)</span> board with <span class="process-math">\(2\times 1\)</span> dominoes is an arrangement of those dominoes on the chessboard with no squares left uncovered, and no dominoes stacked or left hanging off the end.<div class="autopermalink" data-description="Paragraph"><a href="#sec-chessboardproblems-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1"><a href="#sec-chessboardproblems-4" title="Copy heading and permalink for Definition 1" aria-label="Copy heading and permalink for Definition 1">🔗</a></div>
+</article>
+<article class="proposition theorem-like" id="sec-chessboardproblems-5"><h3 class="heading">
+<span class="type">Proposition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-chessboardproblems-5-1-1">There exists a perfect cover of an <span class="process-math">\(8\times 8\)</span> chessboard.<div class="autopermalink" data-description="Paragraph"><a href="#sec-chessboardproblems-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Proposition 2"><a href="#sec-chessboardproblems-5" title="Copy heading and permalink for Proposition 2" aria-label="Copy heading and permalink for Proposition 2">🔗</a></div>
+</article>
+<div class="para" id="sec-chessboardproblems-6">Proof idea:<div class="autopermalink" data-description="Paragraph"><a href="#sec-chessboardproblems-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="proposition theorem-like" id="sec-chessboardproblems-7"><h3 class="heading">
+<span class="type">Proposition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-chessboardproblems-7-1-1">If one crosses out the top-left square of an <span class="process-math">\(8\times 8\)</span> chessboard, the remaining squares cannot be perfectly covered by dominoes.<div class="autopermalink" data-description="Paragraph"><a href="#sec-chessboardproblems-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Proposition 3"><a href="#sec-chessboardproblems-7" title="Copy heading and permalink for Proposition 3" aria-label="Copy heading and permalink for Proposition 3">🔗</a></div>
+</article>
+<div class="para" id="sec-chessboardproblems-8">Proof idea:<div class="autopermalink" data-description="Paragraph"><a href="#sec-chessboardproblems-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-chessboardproblems-9">The author then proceeds to ask the following questions:<div class="autopermalink" data-description="Paragraph"><a href="#sec-chessboardproblems-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ol class="decimal" id="sec-chessboardproblems-10">
+<li id="sec-chessboardproblems-10-1">
+<div class="para" id="sec-chessboardproblems-10-1-1">
+<dfn class="terminology">Question 1:</dfn> If I remove two squares of different colors from an <span class="process-math">\(8\times 8\)</span> chessboard, must the result have a perfect cover?<div class="autopermalink" data-description="Paragraph"><a href="#sec-chessboardproblems-10-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#sec-chessboardproblems-10-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="sec-chessboardproblems-10-2">
+<div class="para" id="sec-chessboardproblems-10-2-1">
+<dfn class="terminology">Question 2:</dfn> If I remove four squares - two black, two white - from an <span class="process-math">\(8\times 8\)</span> chessboard, must the result have a perfect cover?<div class="autopermalink" data-description="Paragraph"><a href="#sec-chessboardproblems-10-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#sec-chessboardproblems-10-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="sec-chessboardproblems-10-3">
+<div class="para" id="sec-chessboardproblems-10-3-1">
+<dfn class="terminology">Question 3:</dfn> For every pair of positive integers <span class="process-math">\(m\)</span> and <span class="process-math">\(n\text{,}\)</span> does there exist a perfect cover of the <span class="process-math">\(m\times n\)</span> chessboard by <span class="process-math">\(2\times 1\)</span> dominoes?<div class="autopermalink" data-description="Paragraph"><a href="#sec-chessboardproblems-10-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#sec-chessboardproblems-10-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+</ol>
+<div class="para" id="sec-chessboardproblems-11">What are some other questions we could ask?<div class="autopermalink" data-description="Paragraph"><a href="#sec-chessboardproblems-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<section class="worksheet" id="ws-exploringcoverings" data-margins="0.75in 0.75in 0.75in 0.75in">
+<h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Worksheet</span><div class="print-links"><a href="?printpreview=ws-exploringcoverings" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<article class="activity project-like" id="ws-exploringcoverings-1"><h4 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="ws-exploringcoverings-1-1-1">Explore one of the questions from the previous page with your team!<div class="autopermalink" data-description="Paragraph"><a href="#ws-exploringcoverings-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Activity 1"><a href="#ws-exploringcoverings-1" title="Copy heading and permalink for Activity 1" aria-label="Copy heading and permalink for Activity 1">🔗</a></div>
+</article>
+<article class="activity project-like" id="ws-exploringcoverings-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="introduction" id="ws-exploringcoverings-2-1">
+<div class="para" id="ws-exploringcoverings-2-1-1">The game <em class="emphasis">Tetris</em> is played with five different shapes - the five shapes that can be obtained by piecing together 4 unit squares:<div class="autopermalink" data-description="Paragraph"><a href="#ws-exploringcoverings-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig-tetris">
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;grid-template-columns:15.7894736842105% 15.7894736842105% 15.7894736842105% 15.7894736842105% 15.7894736842105%;column-gap:5%;">
+<div class="sbspanel sbspanel--top top" style=""><div class="image-box"><img src="generated/latex-image/tetris-1.svg" role="img" class="contained" alt="A Tetris piece"></div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="image-box"><img src="generated/latex-image/tetris-2.svg" role="img" class="contained" alt="A Tetris piece"></div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="image-box"><img src="generated/latex-image/tetris-3.svg" role="img" class="contained" alt="A Tetris piece"></div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="image-box"><img src="generated/latex-image/tetris-4.svg" role="img" class="contained" alt="A Tetris piece"></div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="image-box"><img src="generated/latex-image/tetris-5.svg" role="img" class="contained" alt="A Tetris piece"></div></div>
+</div>
+</div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Five <em class="emphasis">Tetris</em> pieces<div class="autopermalink" data-description="Figure 4"><a href="#fig-tetris" title="Copy heading and permalink for Figure 4" aria-label="Copy heading and permalink for Figure 4">🔗</a></div></figcaption>
+</figure>
+<figure class="figure figure-like" id="fig-prefigure-tetris">
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:20% 20% 20% 20% 20%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style=""><div class="image-box"><img src="generated/prefigure/prefig-tetris-1.svg" role="img" class="contained" alt="A Tetris piece"></div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="image-box"><img src="generated/prefigure/prefig-tetris-2.svg" role="img" class="contained" alt="A Tetris piece"></div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="image-box"><img src="generated/prefigure/prefig-tetris-3.svg" role="img" class="contained" alt="A Tetris piece"></div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="image-box"><img src="generated/prefigure/prefig-tetris-4.svg" role="img" class="contained" alt="A Tetris piece"></div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="image-box"><img src="generated/prefigure/prefig-tetris-5.svg" role="img" class="contained" alt="A Tetris piece"></div></div>
+</div>
+</div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Five <em class="emphasis">Tetris</em> pieces in PreFigure<div class="autopermalink" data-description="Figure 5"><a href="#fig-prefigure-tetris" title="Copy heading and permalink for Figure 5" aria-label="Copy heading and permalink for Figure 5">🔗</a></div></figcaption>
+</figure>
+<div class="para" id="ws-exploringcoverings-2-1-4">For the questions below, we also allow these pieces to be ``flipped over."<div class="autopermalink" data-description="Paragraph"><a href="#ws-exploringcoverings-2-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="ws-exploringcoverings-2-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="ws-exploringcoverings-2-2-1-1">Is it possible to perfectly cover a <span class="process-math">\(4\times 5\)</span> chessboard using each of these shapes exactly once? Prove that it is impossible, or show by example that it is possible.<div class="autopermalink" data-description="Paragraph"><a href="#ws-exploringcoverings-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 2.a"><a href="#ws-exploringcoverings-2-2" title="Copy heading and permalink for Task 2.a" aria-label="Copy heading and permalink for Task 2.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ws-exploringcoverings-2-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="ws-exploringcoverings-2-3-1-1">Is it possible to perfectly cover an <span class="process-math">\(8\times 5\)</span> chessboard using each of these shapes exactly twice? Prove that it is impossible, or show by example that it is possible.<div class="autopermalink" data-description="Paragraph"><a href="#ws-exploringcoverings-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.b"><a href="#ws-exploringcoverings-2-3" title="Copy heading and permalink for Task 2.b" aria-label="Copy heading and permalink for Task 2.b">🔗</a></div>
+</article><div class="autopermalink" data-description="Activity 2"><a href="#ws-exploringcoverings-2" title="Copy heading and permalink for Activity 2" aria-label="Copy heading and permalink for Activity 2">🔗</a></div>
+</article><div class="autopermalink" data-description="Worksheet 1.1"><a href="#ws-exploringcoverings" title="Copy heading and permalink for Worksheet 1.1" aria-label="Copy heading and permalink for Worksheet 1.1">🔗</a></div>
+</section>
+<div class="para" id="sec-chessboardproblems-13">Sage can do modular arithmetic!<div class="autopermalink" data-description="Paragraph"><a href="#sec-chessboardproblems-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div id="sec-chessboardproblems-14" class="ptx-sagecell sagecell-sage"><script type="text/x-sage">R = IntegerModRing(7)
+a = R(3)
+b = R(4)
+a * b
+</script></div>
+<div class="autopermalink" data-description="Section 1.1: Chessboard Problems"><a href="#sec-chessboardproblems" title="Copy heading and permalink for Section 1.1: Chessboard Problems" aria-label="Copy heading and permalink for Section 1.1: Chessboard Problems">🔗</a></div>
+</section>
+</div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<a class="previous-button button" href="root-1-2-21-3.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="root-1-2-22-2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="ch-intuitiveproofs.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-intuitiveproofs-4.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
