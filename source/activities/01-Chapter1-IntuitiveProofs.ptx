@@ -1,20 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-  
+
 <chapter xml:id="ch-intuitiveproofs">
   
   <title> Intuitive Proofs </title>
+    <introduction>
+      <p>
+        What is Mathematics?  What is a proof?  Why do we prove things? What happens next? Does it always work? How many are there? Why does it work? What if we tried this instead? 
+        Questions such as these are at the heart of mathematics, where we seek to identify, understand, and explain patterns. Before we begin,
+        here are 10 Things I Want You to Know.
+        </p>
+
+    <ol>
+      <li><p>Math 210 may be the most important course in the mathematics major.  Many future courses rely heavily on it (315, 331, 350, 408, 441, 450, 495, and more) and it is helpful in many others (204, 205, 304, 360, 402, 498 and more).  
+        <em>More than this, being a critical and independent thinker, creative problem solver, and excellent communicator are incredibly valuable professional skills</em>.  
+        To be a math major, it is important to become reasonably good at the kinds of things we do in Math 210 and to find all of them familiar.</p></li>
+      <li><p>Get to know your classmates.  Be an active participant in class.  Use class time to build understanding.  Use ``rough draft language.''  Be honest with yourself about your understanding.  
+        Be unafraid to struggle and/or fail.  Ask questions.  Our meetings will be structured to encourage these behaviors.</p></li>
+      <li><p>On working in small groups with others:  for effective group work, what do you need your group mates to do?  what do you need your group mates <em>not</em> to do?  
+        What do you need Professor Keough to do? What do you need to do? (on a note card, write your thoughts on each question; then share with your group and update as needed, then submit your notecards to me).
+        Random groups will be assigned for the first  month in the course in order to find who you work well with.  Then we will work toward more consistent and stable seating arrangements.</p></li>
+      <li><p>Use drop-in hours.  Five minutes of conversation with your professor can sometimes be at least as effective as an hour on your own.
+	 <em>Use drop-in hours.</em>  Ask for an appointment if drop-in hours don't work for you.</p></li>
+      <li><p>Work on Math 210 5 days a week, 8-10 hours a week. 
+       <ol>
+			  <li><p> Preview activities for each class day (30-60 minutes per class: 1-2 hours each week); </p> </li>
+			  <li><p> 3-5 ``weekly practice'' homework exercises each week (1.5-2 hours per week: 20-30 minutes per exercise, plus preparing for 3 short presentations over the course of the semester); </p> </li>
+			  <li><p>Overall reading, studying, and summarizing, including making a notecard for the check point (2-3 hours each week);</p> </li>
+			  <li><p>Proof portfolio problems (3-4 hours a week).  The portfolio project will begin by the end of the 2nd week of class.  
+        During the first two weeks of the course, expect to spend some time invested to learn how to use \LaTeX~(with support from me), which is the typesetting software we will use for all of our professional writing. </p> </li>
+        </ol> 
+        </p> </li>
+      <li><p><em>Your textbook is designed just for you.  It is made to be read, to be worked on, and to have notes taken.</em></p></li>
+      <li><p>GVSU has a Math 210 YouTube Channel: \href{http://gvsu.edu/s/GW}{\texttt{http://gvsu.edu/s/GW}}. (Note - this follows a different order than our textbook!)</p></li>
+      <li><p>Be certain to fully read the syllabus.  Meet with me, in-person, for 5 minutes, within the first 3 weeks of the semester.  Just to get to know one another a bit and so you know where the PCS is located  If posted drop-in hours don't work, email me for an appointment: \texttt{keoulaur@gvsu.edu}.</p></li>
+      <li><p>In the "<m>\checkmark</m> Weekly To Do <m>\checkmark</m>" document on Blackboard I'll post what needs to be done for the following week after class on Thursday.</p></li>
+      <li><p>I want you to be successful.</p></li>
+    </ol>
+
+    </introduction>
   
- <subsection>
-    <title>What is Mathematics?  What is a proof?  Why do we prove things?</title>
-    <p><em>What happens next? Does it always work? How many are there? Why does it work? What if we tried this instead?</em></p>
-    <p>Questions such as these are at the heart of mathematics, where we seek to identify, understand, and explain patterns.</p>
-  </subsection>
+  <section xml:id="sec-chessboardproblems">
+    <title>Chessboard Problems</title>
+    
 
 
- 
-  <subsection>
-    <title>Section 1.1 - Chessboard Problems</title>
     <p>My favorite parts of mathematics are ones that feel like games. The domino covering problem that you read about for today's class is one of them!</p>
     <p>Here's reminders of definitions and propositions from your text:</p>
     <definition>
@@ -41,6 +71,9 @@
       <li><p><term>Question 3:</term> For every pair of positive integers <m>m</m> and <m>n</m>, does there exist a perfect cover of the <m>m\times n</m> chessboard by <m>2\times 1</m> dominoes?</p></li>
     </ol>
     <p>What are some other questions we could ask?</p>
+    <worksheet xml:id="ws-exploringcoverings">
+      
+  
     <activity workspace="1in">
       <statement>
         <p>Explore one of the questions from the previous page with your team!</p>
@@ -248,6 +281,8 @@
       </task>
     </activity>
 
+    </worksheet>
+
     <p>
       Sage can do modular arithmetic!
     </p>
@@ -261,37 +296,21 @@ a * b
       </input>
     </sage>
 
-  </subsection>
-  <subsection>
-    <title>10 Things To Know</title>
-    <ol>
-      <li><p>Math 210 may be the most important course in the mathematics major.  Many future courses rely heavily on it (315, 331, 350, 408, 441, 450, 495, and more) and it is helpful in many others (204, 205, 304, 360, 402, 498 and more).  <em>More than this, being a critical and independent thinker, creative problem solver, and excellent communicator are incredibly valuable professional skills</em>.  To be a math major, it is important to become reasonably good at the kinds of things we do in Math 210 and to find all of them familiar.</p></li>
-      <li><p>Get to know your classmates.  Be an active participant in class.  Use class time to build understanding.  Use ``rough draft language.''  Be honest with yourself about your understanding.  Be unafraid to struggle and/or fail.  Ask questions.  Our meetings will be structured to encourage these behaviors.</p></li>
-      <li><p>On working in small groups with others:  for effective group work, what do you need your group mates to do?  what do you need your group mates <em>not</em> to do?  What do you need Professor Keough to do? What do you need to do? (on a note card, write your thoughts on each question; then share with your group and update as needed, then submit your notecards to me)
-	
-	Random groups will be assigned for the first  month in the course in order to find who you work well with.  Then we will work toward more consistent and stable seating arrangements.</p></li>
-      <li><p>Use drop-in hours.  Five minutes of conversation with your professor can sometimes be at least as effective as an hour on your own.
-	 <em>Use drop-in hours.</em>  Ask for an appointment if drop-in hours don't work for you.</p></li>
-      <li><p>Work on Math 210 5 days a week, 8-10 hours a week. 
-	
-		\begin{enumerate}
-			\item Preview activities for each class day (30-60 minutes per class: 1-2 hours each week);
-			\item 3-5 ``weekly practice'' homework exercises each week (1.5-2 hours per week: 20-30 minutes per exercise, plus preparing for 3 short presentations over the course of the semester);
-			\item Overall reading, studying, and summarizing, including making a notecard for the check point (2-3 hours each week);
-			\item Proof portfolio problems (3-4 hours a week).  The portfolio project will begin by the end of the 2nd week of class.  During the first two weeks of the course, expect to spend some time invested to learn how to use \LaTeX~(with support from me), which is the typesetting software we will use for all of our professional writing.
-		\end{enumerate}</p></li>
-      <li><p><em>Your textbook is designed just for you.  It is made to be read, to be worked on, and to have notes taken.</em></p></li>
-      <li><p>GVSU has a Math 210 YouTube Channel: \href{http://gvsu.edu/s/GW}{\texttt{http://gvsu.edu/s/GW}}. (Note - this follows a different order than our textbook!)</p></li>
-      <li><p>Be certain to fully read the syllabus.  Meet with me, in-person, for 5 minutes, within the first 3 weeks of the semester.  Just to get to know one another a bit and so you know where the PCS is located  If posted drop-in hours don't work, email me for an appointment: \texttt{keoulaur@gvsu.edu}.</p></li>
-      <li><p>In the "<m>\checkmark</m> Weekly To Do <m>\checkmark</m>" document on Blackboard I'll post what needs to be done for the following week after class on Thursday.</p></li>
-      <li><p>I want you to be successful.</p></li>
-    </ol>
-  </subsection>
-  <subsection>
+  </section>
+
+  
+
+  <section>
     <title>Conjecturing</title>
+    
+    
     <p>More advanced mathematics is often considerably different from algebra and calculus.  Rather than using algorithms to solve a collection of similar problems, we are interested in other things:</p>
-    <p><em>A mathematician, like a painter or a poet, is a maker of patterns.  If her patterns are more permanent than theirs, it is because they are made with ideas. The mathematician's patterns, like the painter's or the poet's, must be beautiful; the ideas, like the colours or the words, must fit together in a harmonious way. Beauty is the first test: there is no permanent place in the world for ugly mathematics.</em></p>
-    <p>-G. H. Hardy  (1877 - 1947)</p>
+    <blockquote>
+    <p><em>A mathematician, like a painter or a poet, is a maker of patterns.  If her patterns are more permanent than theirs, it is because they are made with ideas. 
+      The mathematician's patterns, like the painter's or the poet's, must be beautiful; the ideas, like the colours or the words, must fit together in a harmonious way. Beauty is the first test: there is no permanent place in the world for ugly mathematics.</em></p>
+      <attribution>G. H. Hardy  (1877 - 1947)</attribution>
+  </blockquote>
+
     <p><term>On patterns and conjectures.</term>  Go with your group to the whiteboard.  As directed, work on <term>one</term> of the following prompts. (I will take pictures of your work and post.)</p>
     <ol>
       <li><p>Consider the expression 
@@ -308,8 +327,9 @@ What conjectures can you make regarding this expression and the related numbers 
 		<md>7^k - 2^k.</md>
 		Evaluate this expression for at least 10 different natural number values of <m>k</m>. What conjectures can you make regarding this expression and the numbers you find?</p></li>
     </ol>
-  </subsection>
-  <subsection>
+  </section>
+
+  <section>
     <title>The Wason Selection Test - Testing Truth.</title>
     <ol>
       <li><p>A mathematician places a set of four cards on a table, each of which has a number on one side and a colored patch on the other side. She claims the following: 
@@ -325,10 +345,10 @@ if one is consuming an alcoholic beverage then one is over the age of 21
   How does this relate to the previous problem?</p></li>
     </ol>
     <p>Statements of the form ``If... then..." are called conditional statements. We will explore conditional statements a lot in MTH 210. What must we do to establish that a conditional statement is true?  What is the only way that a conditional statement can be false?</p>
-  </subsection>
+  </section>
 
 
-  <subsection>
+  <section>
     <title>Counterexamples</title>
     <p><em>Disproving a conjecture, or showing a statement is false.</em></p>
     <p>There are several types of mathematical statements that we might disprove. Here's 3 types:</p>
@@ -338,6 +358,10 @@ if one is consuming an alcoholic beverage then one is over the age of 21
       <li><p>If (loppity), then (luppity).</p></li>
     </ul>
     <p>Disproving each of them is a little different. Let's start, as the chapter title says, with your intuition about how you would disprove these.</p>
+    
+    <worksheet xml:id="ws-disproofs">
+      
+    
     <activity>
       <task workspace="1in">
         <introduction>
@@ -365,13 +389,18 @@ if one is consuming an alcoholic beverage then one is over the age of 21
         </statement>
       </task>
     </activity>
-  </subsection>
-  <subsection>
+    </worksheet>
+  </section>
+  <section>
     <title>Section 1.3 - The Pigeonhole Principle</title>
     <p>As a reminder, here's the statement of the pigeonhole principle:</p>
     <p><term>Principle 1.5</term> (<em>The pigeonhole principle</em>). The principle has a simple form and a general form. Assume <m>k</m> and <m>n</m> are positive integers. <fn>The positive integers are these numbers: 1,2,3,4.... We will call these the natural numbers, and denote <m>\mathbb{N}</m>, but mathematicians disagree about whether <m>0</m> is a natural number, so the author writes positive integers.</fn></p>
     <p><term>Simple form:</term> If <m>n+1</m> objects are placed into <m>n</m> boxes, then at least one box has at least two objects in it.</p>
     <p><term>General form:</term> If <m>kn+1</m> objects are placed into <m>n</m> boxes, then at least one box has at least <m>k+1</m> objects in it.</p>
+    
+    <worksheet xml:id="ws-pigeonhole">
+      
+    
     <activity>
       <task>
         <introduction>
@@ -438,8 +467,12 @@ if one is consuming an alcoholic beverage then one is over the age of 21
         </statement>
       </task>
     </activity>
-  </subsection>
-  <subsection>
+
+    </worksheet>
+
+  </section>
+
+  <section>
     <title>Play, Conjecture, Prove \#1 - The Game SET</title>
     <p>To provide us with an initial playground for exploring some mathematical ideas, meet the wonderful card game <term>SET</term> (if you've never played it before).  It is filled with superb mathematical ideas.</p>
     <p>SET: Each card in the deck has three symbols on it, characterized by four attributes:</p>
@@ -451,6 +484,10 @@ if one is consuming an alcoholic beverage then one is over the age of 21
     </ul>
     <p><em>Every possible combination appears in the deck exactly once</em>.  A ``<term>set</term>'' comprises three cards for which each attribute is independently either all the same or all different. It's important to note that the number of attributes that are the same can vary. On the document camera, let's find some examples among the 12 cards present.</p>
     <p>\hrulefill</p>
+
+    <worksheet xml:id="ws-SET">
+      
+    
     <activity workspace="1in">
       <statement>
         <p>At your table in your group of 3-4 students, play several hands of SET.</p>
@@ -463,7 +500,8 @@ if one is consuming an alcoholic beverage then one is over the age of 21
         <p>For the first ``Play, Conjecture, Prove" problem (Proof Portfolio Problem \#1), you can pick one of the questions you asked with your team, explore an answer, and prove something. I have a deck of SET cards that I keep in my office.  You can borrow it any time you'd like.  Maybe some enterprising student would like to organize a SET tournament sometime this semester <m>\ldots</m></p>
       </statement>
     </activity>
-  </subsection>
+    </worksheet>
+  </section>
 
 </chapter>
 
