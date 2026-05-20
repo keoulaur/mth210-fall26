@@ -19,14 +19,79 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 <link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
-<script type="module">import { startMathJax } from './_static/pretext/js/mathjax_startup.js';
-startMathJax({
-hasWebworkReps: false,
-hasSage: true,
-isReact: false,
-htmlPresentation: false,
-});
-</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "textmacros",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math",
+    "renderActions": {
+      "findScript": [
+        10,
+        function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        },
+        ""
+      ]
+    }
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[tex]/textmacros",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
 <meta property="book:title" content="Communicating in Mathematics">
@@ -335,22 +400,22 @@ sagecell.makeSagecell({
 </div>
 <ol class="decimal" id="ch-intuitiveproofs-2-2">
 <li id="ch-intuitiveproofs-2-2-1">
-<div class="para" id="ch-intuitiveproofs-2-2-1-1">Math 210 may be the most important course in the mathematics major.  Many future courses rely heavily on it (315, 331, 350, 408, 441, 450, 495, and more) and it is helpful in many others (204, 205, 304, 360, 402, 498 and more). <em class="emphasis">More than this, being a critical and independent thinker, creative problem solver, and excellent communicator are incredibly valuable professional skills</em>. To be a math major, it is important to become reasonably good at the kinds of things we do in Math 210 and to find all of them familiar.<div class="autopermalink" data-description="Paragraph"><a href="#ch-intuitiveproofs-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-intuitiveproofs-2-2-1-1">Math 210 may be the most important course in the mathematics major.  Many future courses rely heavily on it (315, 331, 350, 408, 441, 450, 495, and more) and it is helpful in many others (204, 205, 304, 360, 402, 498 and more).  <em class="emphasis">More than this, being a critical and independent thinker, creative problem solver, and excellent communicator are incredibly valuable professional skills</em>.  To be a math major, it is important to become reasonably good at the kinds of things we do in Math 210 and to find all of them familiar.<div class="autopermalink" data-description="Paragraph"><a href="#ch-intuitiveproofs-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 1"><a href="#ch-intuitiveproofs-2-2-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
 </li>
 <li id="ch-intuitiveproofs-2-2-2">
-<div class="para" id="ch-intuitiveproofs-2-2-2-1">Get to know your classmates.  Be an active participant in class.  Use class time to build understanding.  Use ``rough draft language.’’  Be honest with yourself about your understanding. Be unafraid to struggle and/or fail.  Ask questions.  Our meetings will be structured to encourage these behaviors.<div class="autopermalink" data-description="Paragraph"><a href="#ch-intuitiveproofs-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-intuitiveproofs-2-2-2-1">Get to know your classmates.  Be an active participant in class.  Use class time to build understanding.  Use ``rough draft language.’’  Be honest with yourself about your understanding.  Be unafraid to struggle and/or fail.  Ask questions.  Our meetings will be structured to encourage these behaviors.<div class="autopermalink" data-description="Paragraph"><a href="#ch-intuitiveproofs-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 2"><a href="#ch-intuitiveproofs-2-2-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
 </li>
 <li id="ch-intuitiveproofs-2-2-3">
-<div class="para" id="ch-intuitiveproofs-2-2-3-1">On working in small groups with others:  for effective group work, what do you need your group mates to do?  what do you need your group mates <em class="emphasis">not</em> to do? What do you need Professor Keough to do? What do you need to do? (on a note card, write your thoughts on each question; then share with your group and update as needed, then submit your notecards to me). Random groups will be assigned for the first  month in the course in order to find who you work well with.  Then we will work toward more consistent and stable seating arrangements.<div class="autopermalink" data-description="Paragraph"><a href="#ch-intuitiveproofs-2-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-intuitiveproofs-2-2-3-1">On working in small groups with others:  for effective group work, what do you need your group mates to do?  what do you need your group mates <em class="emphasis">not</em> to do?  What do you need Professor Keough to do? What do you need to do? (on a note card, write your thoughts on each question; then share with your group and update as needed, then submit your notecards to me). Random groups will be assigned for the first  month in the course in order to find who you work well with.  Then we will work toward more consistent and stable seating arrangements.<div class="autopermalink" data-description="Paragraph"><a href="#ch-intuitiveproofs-2-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 3"><a href="#ch-intuitiveproofs-2-2-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
 </li>
 <li id="ch-intuitiveproofs-2-2-4">
-<div class="para" id="ch-intuitiveproofs-2-2-4-1">Use drop-in hours.  Five minutes of conversation with your professor can sometimes be at least as effective as an hour on your own. <em class="emphasis">Use drop-in hours.</em>  Ask for an appointment if drop-in hours don’t work for you.<div class="autopermalink" data-description="Paragraph"><a href="#ch-intuitiveproofs-2-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-intuitiveproofs-2-2-4-1">Use drop-in hours.  Five minutes of conversation with your professor can sometimes be at least as effective as an hour on your own.<em class="emphasis">Use drop-in hours.</em>  Ask for an appointment if drop-in hours don’t work for you.<div class="autopermalink" data-description="Paragraph"><a href="#ch-intuitiveproofs-2-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 4"><a href="#ch-intuitiveproofs-2-2-4" title="Copy heading and permalink for Item 4" aria-label="Copy heading and permalink for Item 4">🔗</a></div>
 </li>
@@ -374,7 +439,7 @@ sagecell.makeSagecell({
 <div class="autopermalink" data-description="Item 5.c"><a href="#ch-intuitiveproofs-2-2-5-1-1-3" title="Copy heading and permalink for Item 5.c" aria-label="Copy heading and permalink for Item 5.c">🔗</a></div>
 </li>
 <li id="ch-intuitiveproofs-2-2-5-1-1-4">
-<div class="para" id="ch-intuitiveproofs-2-2-5-1-1-4-1">Proof portfolio problems (3-4 hours a week).  The portfolio project will begin by the end of the 2nd week of class. During the first two weeks of the course, expect to spend some time invested to learn how to use \LaTeX~(with support from me), which is the typesetting software we will use for all of our professional writing.<div class="autopermalink" data-description="Paragraph"><a href="#ch-intuitiveproofs-2-2-5-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-intuitiveproofs-2-2-5-1-1-4-1">Proof portfolio problems (3-4 hours a week).  The portfolio project will begin by the end of the 2nd week of class.  During the first two weeks of the course, expect to spend some time invested to learn how to use \LaTeX~(with support from me), which is the typesetting software we will use for all of our professional writing.<div class="autopermalink" data-description="Paragraph"><a href="#ch-intuitiveproofs-2-2-5-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 5.d"><a href="#ch-intuitiveproofs-2-2-5-1-1-4" title="Copy heading and permalink for Item 5.d" aria-label="Copy heading and permalink for Item 5.d">🔗</a></div>
 </li>
@@ -395,7 +460,7 @@ sagecell.makeSagecell({
 <div class="autopermalink" data-description="Item 7"><a href="#ch-intuitiveproofs-2-2-7" title="Copy heading and permalink for Item 7" aria-label="Copy heading and permalink for Item 7">🔗</a></div>
 </li>
 <li id="ch-intuitiveproofs-2-2-8">
-<div class="para" id="ch-intuitiveproofs-2-2-8-1">Be certain to fully read the syllabus.  Meet with me, in-person, for 5 minutes, within the first 3 weeks of the semester.  Just to get to know one another a bit and so you know where the PCS is located  If posted drop-in hours don’t work, email me for an appointment: \texttt{keoulaur@gvsu.edu}.<div class="autopermalink" data-description="Paragraph"><a href="#ch-intuitiveproofs-2-2-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-intuitiveproofs-2-2-8-1">Be certain to fully read the syllabus.  Meet with me, in-person, for 5 minutes, within the first 3 weeks of the semester.  Just to get to know one another a bit and so you know where the PCS is located  If posted drop-in hours don’t work, email me for an appointment: keoulaur@gvsu.edu.<div class="autopermalink" data-description="Paragraph"><a href="#ch-intuitiveproofs-2-2-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 8"><a href="#ch-intuitiveproofs-2-2-8" title="Copy heading and permalink for Item 8" aria-label="Copy heading and permalink for Item 8">🔗</a></div>
 </li>
