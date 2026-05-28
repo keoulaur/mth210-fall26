@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This frontmatter division will contain all content before the -->
-<!-- first chapter. Fill in and comment/uncomment to see how this -->
-<!-- works. -->
 
+<!-- This frontmatter division will contain all content before the --> <!-- first chapter. Fill in and comment/uncomment to see how this --> <!-- works. -->
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
   <bibinfo>
-    <author>
-      <personname>Lauren Keough</personname>
-      <department>Mathematics</department>
-      <institution>Grand Valley State University</institution>
-    </author>
-    <date>
-      Last Updated: <today />
-    </date>
-  </bibinfo>
+  <author>
+    <personname>Lauren Keough</personname>
+    <department>Mathematics</department>
+    <institution>Grand Valley State University</institution>
+  </author>
+  <date> Last Updated: <today />
+  </date>
+  </bibinfo> <!-- This displays the title page information -->
 
-  <!-- This displays the title page information -->
   <titlepage>
     <titlepage-items/>
   </titlepage>
-
 </frontmatter>
-

@@ -10,7 +10,6 @@
       This is the introduction to the activity.
     </p>
   </introduction>
-
   <!-- Exercises start here. -->
   <exercise workspace="2in">
     <statement>
@@ -19,5 +18,4 @@
       </p>
     </statement>
   </exercise>
-
 </worksheet>

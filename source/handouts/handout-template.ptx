@@ -3,10 +3,9 @@
 <handout>
 <title>Handout Title</title>
 
-  <page>
-    <p workspace="1in">
-      A first paragraph with some space for notes below it.
-    </p>
-
-  </page>
+<page>
+  <p workspace="1in">
+    A first paragraph with some space for notes below it.
+  </p>
+</page>
 </handout>

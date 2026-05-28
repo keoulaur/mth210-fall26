@@ -2,11 +2,13 @@
 
 <worksheet>
   <title>Homework 01</title>
+
   <introduction>
     <p>
       <alert>Instructions:</alert> Complete all the exercises below and submit your work by the due date.
     </p>
   </introduction>
+
 
   <page>
     <exercise>
@@ -16,6 +18,5 @@
         </p>
       </statement>
     </exercise>
-
   </page>
 </worksheet>
