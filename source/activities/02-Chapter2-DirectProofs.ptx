@@ -26,7 +26,7 @@
           <md>
             \mathbb{Z} = \{...,-3,-2,-1,0,1,2,3,...\}.
           </md>
-          (The Z comes from the German word Zahlen, which means "numbers")
+          (The Z comes from the German word Zahl, which means "number")
         </p>
       </li>
 
@@ -52,13 +52,17 @@
     </p>
 
     <figure xml:id="fig-closure">
-      <image source="images/Closure.jpg"/>
-      <caption>A comic from Math With Bad Drawings. What's the set and what's the operation here?</caption>
-      <shortdescription>A presentation shows a family tree that has a bird with two dinosaur parents. A green stick figure
+          <caption>A comic from Math With Bad Drawings. What's the set and what's the operation here?</caption>
+      <image source="images/Closure.jpg">
+      <shortdescription> A presentation shows a family tree that has a bird with two dinosaur parents. A green stick figure
         points and says "I don't get it, how could birds evolve from dinosaurs?". The purple stick figure responds "Well 
         dinosaurs aren't closed under reproduction."
       </shortdescription>
+    </image>
     </figure>
+
+
+    <!--  -->
 
     <activity>
       <introduction>
