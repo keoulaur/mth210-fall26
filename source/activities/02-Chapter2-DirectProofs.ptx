@@ -8,11 +8,11 @@
     <title> Direct Proofs </title>
 
 
-  <section>
+    <subsection>
     <title>Terms and Conditions</title>
 
     <p> I know most of us typically ignore the Terms and Conditions we are asked to agree to, but for doing mathematics, understanding the terms and conditions is vital. Note I didn't say "agreeing" to the terms and conditions is vital. In fact, changing the terms and conditions is one of the ways we play with math. But in any mathematical dialogue, knowing the terms and conditions of the participants is essential. With that, let's lay out a few things for our mathematical dialogue to get started.</p>
-  
+    </subsection>
 
     <subsection>
         <title>Number Systems</title>
@@ -166,13 +166,13 @@
 
   </subsection>
 
-  </section>
+  </worksheet>
 
 
 
 
 
-  <section>
+  <worksheet>
     <title>Example - Writing a Proof</title>
 
     <p>
@@ -292,7 +292,6 @@
         We will give a direct proof of the proposition.
       </p>
     </proof>
-  </section>
 
 </worksheet>
 </chapter>
