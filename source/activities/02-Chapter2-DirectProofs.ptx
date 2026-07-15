@@ -3,7 +3,7 @@
 <chapter xml:id="ch-directproofs">
   <title> Direct Proofs </title>
 
-  <subsection>
+  <section>
     <title>Number Systems and Closure</title>
 
     <p>
@@ -51,9 +51,14 @@
       In Fact 2.1 the author writes ``The sum of integers is an integer, the difference of integers, and the product of integers is an integer." We'll refer to these facts as ``<term>the integers are closed under addition, subtraction, and multiplication</term>". We'll use these closure properties a lot when doing our first proofs.
     </p>
 
-    <p>
-      \scalebox{0.2}{\includegraphics{images/Closure.jpg}}
-    </p>
+    <figure xml:id="fig-closure">
+      <image source="images/Closure.jpg"/>
+      <caption>A comic from Math With Bad Drawings. What's the set and what's the operation here?</caption>
+      <shortdescription>A presentation shows a family tree that has a bird with two dinosaur parents. A green stick figure
+        points and says "I don't get it, how could birds evolve from dinosaurs?". The purple stick figure responds "Well 
+        dinosaurs aren't closed under reproduction."
+      </shortdescription>
+    </figure>
 
     <activity>
       <introduction>
@@ -89,10 +94,10 @@
         </statement>
       </task>
     </activity>
-  </subsection>
+  </section>
 
 
-  <subsection>
+  <section>
     <title>Mathematical Proof Writing</title>
 
     <p>
@@ -110,10 +115,10 @@
     <p>
       _____
     </p>
-  </subsection>
+  </section>
 
 
-  <subsection>
+  <section>
     <title>Definitions of Odd and Even</title>
 
     <ul>
@@ -133,10 +138,10 @@
     <p>
       _____
     </p>
-  </subsection>
+  </section>
 
 
-  <subsection>
+  <section>
     <title>Example - Writing a Proof</title>
 
     <p>
@@ -256,5 +261,5 @@
         We will give a direct proof of the proposition.
       </p>
     </proof>
-  </subsection>
+  </section>
 </chapter>
