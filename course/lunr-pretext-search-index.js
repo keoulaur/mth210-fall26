@@ -247,15 +247,15 @@ var ptx_lunr_docs = [
   "id": "ch-directproofs-2",
   "level": "1",
   "url": "ch-directproofs-2.html",
-  "type": "Section",
+  "type": "Worksheet",
   "number": "2.1",
-  "title": "Number Systems and Closure",
-  "body": " Number Systems and Closure  Here are a few \"number systems\", or sets of numbers, and their notation.    The natural numbers, denoted , are the positive whole numbers. That is,     The integers, denoted , consist of zero, the natural numbers, and the negatives of the natural numbers. That is, (The Z comes from the German word Zahlen, which means \"numbers\")    The rational numbers, denoted , are those real numbers that can be written as a quotient of two integers (with a nonzero denominator). That is, (The Q is for quotient.)    The real numbers, denoted , consist of the rational numbers and the irrational numbers.    In Fact 2.1 the author writes ``The sum of integers is an integer, the difference of integers, and the product of integers is an integer.\" We'll refer to these facts as `` the integers are closed under addition, subtraction, and multiplication \". We'll use these closure properties a lot when doing our first proofs.   A comic from Math With Bad Drawings. What's the set and what's the operation here?   A presentation shows a family tree that has a bird with two dinosaur parents. A green stick figure points and says \"I don't get it, how could birds evolve from dinosaurs?\". The purple stick figure responds \"Well dinosaurs aren't closed under reproduction.\"       Determine if each of the following are true or false, and explain.     The natural numbers are closed under subtraction.      The rational numbers are closed under addition.      The integers are closed under division.     "
+  "title": "Direct Proofs",
+  "body": " Direct Proofs   Terms and Conditions  I know most of us typically ignore the Terms and Conditions we are asked to agree to, but for doing mathematics, understanding the terms and conditions is vital. Note I didn't say \"agreeing\" to the terms and conditions is vital. In fact, changing the terms and conditions is one of the ways we play with math. But in any mathematical dialogue, knowing the terms and conditions of the participants is essential. With that, let's lay out a few things for our mathematical dialogue to get started.   Number Systems  Here are a few \"number systems\", or sets of numbers with operations, and their notation.    The natural numbers, denoted , are the positive whole numbers. That is,     The integers, denoted , consist of zero, the natural numbers, and the negatives of the natural numbers. That is, (The Z comes from the German word Zahl, which means \"number\")    The rational numbers, denoted , are those real numbers that can be written as a quotient of two integers (with a nonzero denominator). That is, (The Q is for quotient.)    The real numbers, denoted , consist of the rational numbers and the irrational numbers.      Closure of a Set under an Operation  In Fact 2.1 of our textbook, the author writes ``The sum of integers is an integer, the difference of integers, and the product of integers is an integer.\" We'll refer to these facts as `` the integers are closed under addition, subtraction, and multiplication \". We'll use these closure properties a lot when doing our first proofs.   A comic from Math With Bad Drawings. What's the set and what's the operation here?   A comic. A: \"I don't get it, how could birds evolve from dinosaurs?\". B: \"Well dinosaurs aren't closed under reproduction.\"      Determine if each of the following are true or false, and explain.     The natural numbers are closed under subtraction.      The rational numbers are closed under addition.      The integers are closed under division.      The even integers are closed under subtraction.      The odd integers are closed under addition.       Definitions of Odd and Even  In the previous activity, to justify your work about evens and odds, you may have used examples. But to be absolutely sure the even integers are closed under subtraction, we need to verify infinitely many examples. But, we don't have infinity time! So instead we will use definitions. Definitions don't come from thin air - recall from your preclass reading that there are other options for these definitions, and reasons to choose these one. We will use these definitions frequently in our early proofs, and you should be able to recall them from memory. Here they are:    An integer is even if for some integer .    An integer is odd if for some integer .   These definitions, seemingly simple, are quite powerful. They allow us to do infinitely many examples all at once.   Mathematical Proof Writing  Overall, mathematical writing -- particularly writing proofs -- is a mix of being creative, being organized, and honoring conventions of the mathematics community. There are a handful of guidelines (I'm hesitant to call them rules), but little in the way of algorithms to follow. Writing proofs is absolutely something that you'll learn to do by doing : making mistakes, seeking feedback, struggling, revising, and more.  From the outset, another key thing to realize is that a part of formal mathematical writing is misleading. What I mean by this is  The author writes his process of the ``Proof Idea\" and (later) ``Scratch Work\". These are important parts of proof-writing, even if the final polished proof doesn't include all the work you do in this part. I use what we'll call a ``pre-proof analysis,'' which is just a fancy term for trying examples-experimenting-writing down ideas-making mistakes-making connections-trying to find helpful paths-scratch work . You can see examples of the author's process in your textbook on pages 49, 50, 53, and 56.     Example - Writing a Proof   Conjecture. If and are odd integers and is any integer, then is _____.   Analysis.   Now we will take our ideas from our pre-proof analysis and write a formal proof. In so doing, we will use (and discuss some of) the Professional Writing Specifications provided at https:\/\/gvsu.edu\/s\/3to . You should read these guidelines carefully on your own time and think about them as you begin writing proofs. Among the things we will do here (and always) are: clearly state the result we are proving, state what we assume to start the proof, declare what we aim to show, and throughout our argument keep the reader informed of our reasoning and logic Soon we will be learning a variety of ``proof techniques.'' It is always important to state the type of argument you are using; for now, the main route we will use is called a ``direct proof.'' . Other key writing conventions are: italicize typeset variables (we use `` '', rather than ``x''); use an active third person voice (``next, we will use algebra to ''); and display (center) important equations in our argument.    If and are odd integers and is any integer, then is an even integer.     .    Two Proofs of the Same Statement Below is a theorem and two proofs. What are the advantages and disadvantages of each? Which is more readable? Are they both correct?    If and are odd integers then is an even integer.     We assume that and are odd integers and will prove that is an even integer. Since and are odd, there exist integers and such that and . By substitution and algebra we obtain \\begin{align*} x+y &= 2m+1 + 2n + 1 &= 2m+2n+2 &=2(m+n+1). \\end{align*} Define . Since and are integers and the integers are closed under addition, we conclude that is an integer. Since for the integer we conclude that is an even integer.     j,k s.t. x=2k+1 and y=2j+1.  x+y=2k+1+2j+1=2(k+j+1) which is even.     With your group, head to the whiteboard to work on the following prompts.   Definition. An integer is said to be a type integer if there exists an integer such that . An integer is said to be a type 1 integer if there exists an integer such that . An integer is said to be a type integer if there exists an integer such that .     Give examples of at least different type integers.      Give examples of at least different type integers.      By multiplying pairs of integers from the list in the first part, does it appear that the following conjecture is true or false? \\begin{quote} Conjecture: If and are both type integers, then is a type integer. \\end{quote}      If the conjecture is false, modify it to make it true. Then, do a pre-proof analysis of the resulting proposition. If time permits, return to your tables and strive to begin writing an actual proof of your proposition. (There is space to do so on the next page.)          We will give a direct proof of the proposition.    "
 },
 {
-  "id": "ch-directproofs-2-4",
+  "id": "ch-directproofs-2-2-4-2",
   "level": "2",
-  "url": "ch-directproofs-2.html#ch-directproofs-2-4",
+  "url": "ch-directproofs-2.html#ch-directproofs-2-2-4-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -268,131 +268,104 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "6",
   "title": "",
-  "body": " A comic from Math With Bad Drawings. What's the set and what's the operation here?   A presentation shows a family tree that has a bird with two dinosaur parents. A green stick figure points and says \"I don't get it, how could birds evolve from dinosaurs?\". The purple stick figure responds \"Well dinosaurs aren't closed under reproduction.\"   "
+  "body": " A comic from Math With Bad Drawings. What's the set and what's the operation here?   A comic. A: \"I don't get it, how could birds evolve from dinosaurs?\". B: \"Well dinosaurs aren't closed under reproduction.\"   "
 },
 {
-  "id": "ch-directproofs-2-6",
+  "id": "ch-directproofs-2-2-4-4",
   "level": "2",
-  "url": "ch-directproofs-2.html#ch-directproofs-2-6",
+  "url": "ch-directproofs-2.html#ch-directproofs-2-2-4-4",
   "type": "Activity",
   "number": "6",
   "title": "",
-  "body": "  Determine if each of the following are true or false, and explain.     The natural numbers are closed under subtraction.      The rational numbers are closed under addition.      The integers are closed under division.    "
+  "body": "  Determine if each of the following are true or false, and explain.     The natural numbers are closed under subtraction.      The rational numbers are closed under addition.      The integers are closed under division.      The even integers are closed under subtraction.      The odd integers are closed under addition.    "
 },
 {
-  "id": "ch-directproofs-3",
-  "level": "1",
-  "url": "ch-directproofs-3.html",
-  "type": "Section",
-  "number": "2.2",
-  "title": "Mathematical Proof Writing",
-  "body": " Mathematical Proof Writing  Overall, mathematical writing -- particularly writing proofs -- is a mix of being creative, being organized, and honoring conventions of the mathematics community. There are a handful of guidelines (I'm hesitant to call them rules), but little in the way of algorithms to follow. Writing proofs is absolutely something that you'll learn to do by doing : making mistakes, seeking feedback, struggling, revising, and more.  From the outset, another key thing to realize is that a part of formal mathematical writing is misleading. What I mean by this is  The author writes his process of the ``Proof Idea\" and (later) ``Scratch Work\". These are important parts of proof-writing, even if the final polished proof doesn't include all the work you do in this part. I use what we'll call a ``pre-proof analysis,'' which is just a fancy term for trying examples-experimenting-writing down ideas-making mistakes-making connections-trying to find helpful paths-scratch work . You can see examples of the author's process in your textbook on pages 49, 50, 53, and 56.  _____  "
-},
-{
-  "id": "ch-directproofs-4",
-  "level": "1",
-  "url": "ch-directproofs-4.html",
-  "type": "Section",
-  "number": "2.3",
-  "title": "Definitions of Odd and Even",
-  "body": " Definitions of Odd and Even    An integer is even if for some integer .    An integer is odd if for some integer .    _____  "
-},
-{
-  "id": "ch-directproofs-5",
-  "level": "1",
-  "url": "ch-directproofs-5.html",
-  "type": "Section",
-  "number": "2.4",
-  "title": "Example - Writing a Proof",
-  "body": " Example - Writing a Proof   Conjecture. If and are odd integers and is any integer, then is _____.   Analysis.   Now we will take our ideas from our pre-proof analysis and write a formal proof. In so doing, we will use (and discuss some of) the Professional Writing Specifications provided at https:\/\/gvsu.edu\/s\/3to . You should read these guidelines carefully on your own time and think about them as you begin writing proofs. Among the things we will do here (and always) are: clearly state the result we are proving, state what we assume to start the proof, declare what we aim to show, and throughout our argument keep the reader informed of our reasoning and logic Soon we will be learning a variety of ``proof techniques.'' It is always important to state the type of argument you are using; for now, the main route we will use is called a ``direct proof.'' . Other key writing conventions are: italicize typeset variables (we use `` '', rather than ``x''); use an active third person voice (``next, we will use algebra to ''); and display (center) important equations in our argument.    If and are odd integers and is any integer, then is an even integer.     .    Two Proofs of the Same Statement Below is a theorem and two proofs. What are the advantages and disadvantages of each? Which is more readable? Are they both correct?    If and are odd integers then is an even integer.     We assume that and are odd integers and will prove that is an even integer. Since and are odd, there exist integers and such that and . By substitution and algebra we obtain \\begin{align*} x+y &= 2m+1 + 2n + 1 &= 2m+2n+2 &=2(m+n+1). \\end{align*} Define . Since and are integers and the integers are closed under addition, we conclude that is an integer. Since for the integer we conclude that is an even integer.     j,k s.t. x=2k+1 and y=2j+1.  x+y=2k+1+2j+1=2(k+j+1) which is even.     With your group, head to the whiteboard to work on the following prompts.   Definition. An integer is said to be a type integer if there exists an integer such that . An integer is said to be a type 1 integer if there exists an integer such that . An integer is said to be a type integer if there exists an integer such that .     Give examples of at least different type integers.      Give examples of at least different type integers.      By multiplying pairs of integers from the list in the first part, does it appear that the following conjecture is true or false? \\begin{quote} Conjecture: If and are both type integers, then is a type integer. \\end{quote}      If the conjecture is false, modify it to make it true. Then, do a pre-proof analysis of the resulting proposition. If time permits, return to your tables and strive to begin writing an actual proof of your proposition. (There is space to do so on the next page.)          We will give a direct proof of the proposition.   "
-},
-{
-  "id": "ch-directproofs-5-2",
+  "id": "ch-directproofs-2-3-2",
   "level": "2",
-  "url": "ch-directproofs-5.html#ch-directproofs-5-2",
+  "url": "ch-directproofs-2.html#ch-directproofs-2-3-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Conjecture. "
 },
 {
-  "id": "ch-directproofs-5-5",
+  "id": "ch-directproofs-2-3-5",
   "level": "2",
-  "url": "ch-directproofs-5.html#ch-directproofs-5-5",
+  "url": "ch-directproofs-2.html#ch-directproofs-2-3-5",
   "type": "Theorem",
   "number": "7",
   "title": "",
   "body": "  If and are odd integers and is any integer, then is an even integer.   "
 },
 {
-  "id": "ch-directproofs-5-6",
+  "id": "ch-directproofs-2-3-6",
   "level": "2",
-  "url": "ch-directproofs-5.html#ch-directproofs-5-6",
+  "url": "ch-directproofs-2.html#ch-directproofs-2-3-6",
   "type": "Proof",
-  "number": "2.4.1",
+  "number": "1",
   "title": "",
   "body": " .  "
 },
 {
-  "id": "ch-directproofs-5-7",
+  "id": "ch-directproofs-2-3-7",
   "level": "2",
-  "url": "ch-directproofs-5.html#ch-directproofs-5-7",
+  "url": "ch-directproofs-2.html#ch-directproofs-2-3-7",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Two Proofs of the Same Statement "
 },
 {
-  "id": "ch-directproofs-5-8",
+  "id": "ch-directproofs-2-3-8",
   "level": "2",
-  "url": "ch-directproofs-5.html#ch-directproofs-5-8",
+  "url": "ch-directproofs-2.html#ch-directproofs-2-3-8",
   "type": "Theorem",
   "number": "8",
   "title": "",
   "body": "  If and are odd integers then is an even integer.   "
 },
 {
-  "id": "ch-directproofs-5-9",
+  "id": "ch-directproofs-2-3-9",
   "level": "2",
-  "url": "ch-directproofs-5.html#ch-directproofs-5-9",
+  "url": "ch-directproofs-2.html#ch-directproofs-2-3-9",
   "type": "Proof",
-  "number": "2.4.2",
+  "number": "2",
   "title": "",
   "body": " We assume that and are odd integers and will prove that is an even integer. Since and are odd, there exist integers and such that and . By substitution and algebra we obtain \\begin{align*} x+y &= 2m+1 + 2n + 1 &= 2m+2n+2 &=2(m+n+1). \\end{align*} Define . Since and are integers and the integers are closed under addition, we conclude that is an integer. Since for the integer we conclude that is an even integer.  "
 },
 {
-  "id": "ch-directproofs-5-10",
+  "id": "ch-directproofs-2-3-10",
   "level": "2",
-  "url": "ch-directproofs-5.html#ch-directproofs-5-10",
+  "url": "ch-directproofs-2.html#ch-directproofs-2-3-10",
   "type": "Proof",
-  "number": "2.4.3",
+  "number": "3",
   "title": "",
   "body": "  j,k s.t. x=2k+1 and y=2j+1.  x+y=2k+1+2j+1=2(k+j+1) which is even.  "
 },
 {
-  "id": "ch-directproofs-5-11",
+  "id": "ch-directproofs-2-3-11",
   "level": "2",
-  "url": "ch-directproofs-5.html#ch-directproofs-5-11",
+  "url": "ch-directproofs-2.html#ch-directproofs-2-3-11",
   "type": "Activity",
   "number": "7",
   "title": "",
   "body": "  With your group, head to the whiteboard to work on the following prompts.   Definition. An integer is said to be a type integer if there exists an integer such that . An integer is said to be a type 1 integer if there exists an integer such that . An integer is said to be a type integer if there exists an integer such that .     Give examples of at least different type integers.      Give examples of at least different type integers.      By multiplying pairs of integers from the list in the first part, does it appear that the following conjecture is true or false? \\begin{quote} Conjecture: If and are both type integers, then is a type integer. \\end{quote}      If the conjecture is false, modify it to make it true. Then, do a pre-proof analysis of the resulting proposition. If time permits, return to your tables and strive to begin writing an actual proof of your proposition. (There is space to do so on the next page.)    "
 },
 {
-  "id": "ch-directproofs-5-12",
+  "id": "ch-directproofs-2-3-12",
   "level": "2",
-  "url": "ch-directproofs-5.html#ch-directproofs-5-12",
+  "url": "ch-directproofs-2.html#ch-directproofs-2-3-12",
   "type": "Proposition",
   "number": "9",
   "title": "",
   "body": "   "
 },
 {
-  "id": "ch-directproofs-5-13",
+  "id": "ch-directproofs-2-3-13",
   "level": "2",
-  "url": "ch-directproofs-5.html#ch-directproofs-5-13",
+  "url": "ch-directproofs-2.html#ch-directproofs-2-3-13",
   "type": "Proof",
-  "number": "2.4.4",
+  "number": "4",
   "title": "",
   "body": " We will give a direct proof of the proposition.  "
 },
