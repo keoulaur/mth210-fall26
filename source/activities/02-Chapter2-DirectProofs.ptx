@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
 <chapter xml:id="ch-directproofs">
   <title> Direct Proofs </title>
 
-  <section>
-    <title>Number Systems and Closure</title>
+  <worksheet>
+    <title> Direct Proofs </title>
 
+
+  <section>
+    <title>Terms and Conditions</title>
+
+    <p> I know most of us typically ignore the Terms and Conditions we are asked to agree to, but for doing mathematics, understanding the terms and conditions is vital. Note I didn't say "agreeing" to the terms and conditions is vital. In fact, changing the terms and conditions is one of the ways we play with math. But in any mathematical dialogue, knowing the terms and conditions of the participants is essential. With that, let's lay out a few things for our mathematical dialogue to get started.</p>
+  
+
+    <subsection>
+        <title>Number Systems</title>
     <p>
-      Here are a few "number systems", or sets of numbers, and their notation.
+      Here are a few "number systems", or sets of numbers with operations, and their notation.
     </p>
 
     <ul>
@@ -47,22 +57,23 @@
       </li>
     </ul>
 
+    </subsection>
+
+    <subsection>
+      <title> Closure of a Set under an Operation </title>
     <p>
-      In Fact 2.1 the author writes ``The sum of integers is an integer, the difference of integers, and the product of integers is an integer." We'll refer to these facts as ``<term>the integers are closed under addition, subtraction, and multiplication</term>". We'll use these closure properties a lot when doing our first proofs.
+      In Fact 2.1 of our textbook, the author writes ``The sum of integers is an integer, the difference of integers, and the product of integers is an integer." We'll refer to these facts as ``<term>the integers are closed under addition, subtraction, and multiplication</term>". We'll use these closure properties a lot when doing our first proofs.
     </p>
 
     <figure xml:id="fig-closure">
           <caption>A comic from Math With Bad Drawings. What's the set and what's the operation here?</caption>
       <image source="images/Closure.jpg">
-      <shortdescription> A presentation shows a family tree that has a bird with two dinosaur parents. A green stick figure
-        points and says "I don't get it, how could birds evolve from dinosaurs?". The purple stick figure responds "Well 
-        dinosaurs aren't closed under reproduction."
+      <shortdescription> A comic. A: "I don't get it, how could birds evolve from dinosaurs?". B: "Well dinosaurs aren't closed under reproduction."
       </shortdescription>
     </image>
     </figure>
 
 
-    <!--  -->
 
     <activity>
       <introduction>
@@ -97,11 +108,48 @@
           </p>
         </statement>
       </task>
+
+      <task workspace="1in">
+        <statement>
+          <p>
+            The even integers are closed under subtraction.
+          </p>
+        </statement>
+      </task>
+
+      <task workspace="1in">
+        <statement>
+          <p>
+            The odd integers are closed under addition.
+          </p>
+        </statement>
+      </task>
     </activity>
-  </section>
 
+    </subsection>
 
-  <section>
+    <subsection>
+      <title>Definitions of Odd and Even</title>
+
+      <p> In the previous activity, to justify your work about evens and odds, you may have used examples. But to be absolutely sure the even integers are closed under subtraction, we need to verify infinitely many examples. But, we don't have infinity time! So instead we will use definitions.  Definitions don't come from thin air - recall from your preclass reading that there are other options for these definitions, and reasons to choose these one. We will use these definitions frequently in our early proofs, and you should be able to recall them from memory.  Here they are: </p>
+    <ul>
+      <li>
+        <p>
+          An integer <m>n</m> is even if <m>n=2k</m> for some integer <m>k</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          An integer <m>n</m> is odd if <m>n=2k+1</m> for some integer <m>k</m>.
+        </p>
+      </li>
+    </ul>
+
+    These definitions, seemingly simple, are quite powerful. They allow us to do infinitely many examples all at once. 
+  </subsection>
+
+  <subsection>
     <title>Mathematical Proof Writing</title>
 
     <p>
@@ -116,33 +164,12 @@
       The author writes his process of the ``Proof Idea" and (later) ``Scratch Work". These are important parts of proof-writing, even if the final polished proof doesn't include all the work you do in this part. I use what we'll call a ``pre-proof analysis,'' which is just a fancy term for <em>trying examples-experimenting-writing down ideas-making mistakes-making connections-trying to find helpful paths-scratch work</em>.  You can see examples of the author's process in your textbook on pages 49, 50, 53, and 56.
     </p>
 
-    <p>
-      _____
-    </p>
+  </subsection>
+
   </section>
 
 
-  <section>
-    <title>Definitions of Odd and Even</title>
 
-    <ul>
-      <li>
-        <p>
-          An integer <m>n</m> is even if <m>n=2k</m> for some integer <m>k</m>.
-        </p>
-      </li>
-
-      <li>
-        <p>
-          An integer <m>n</m> is odd if <m>n=2k+1</m> for some integer <m>j</m>.
-        </p>
-      </li>
-    </ul>
-
-    <p>
-      _____
-    </p>
-  </section>
 
 
   <section>
@@ -266,4 +293,6 @@
       </p>
     </proof>
   </section>
+
+</worksheet>
 </chapter>
