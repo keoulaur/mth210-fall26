@@ -99,10 +99,8 @@
         </image>
     </figure>
     <!-- </subsection> -->
-    <worksheet>
+    <activity>
       <title>Closure properties</title>
-      <exercise>
-        <title>Number systems</title>
         <introduction>
             <p>
                 Determine if each of the following are true or false, and
@@ -149,8 +147,7 @@
                 </p>
             </statement>
         </task>
-      </exercise>
-    </worksheet>
+    </activity>
     <!--<subsection>
         <title>Definitions of Odd and Even</title>-->
     <p>
