@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet xml:id="sec-directproofs">
+<section xml:id="sec-directproofs">
     <title>Direct Proofs</title>
 
     <introduction>
@@ -99,7 +99,10 @@
         </image>
     </figure>
     <!-- </subsection> -->
-    <activity>
+    <worksheet>
+      <title>Closure properties</title>
+      <exercise>
+        <title>Number systems</title>
         <introduction>
             <p>
                 Determine if each of the following are true or false, and
@@ -146,7 +149,8 @@
                 </p>
             </statement>
         </task>
-    </activity>
+      </exercise>
+    </worksheet>
     <!--<subsection>
         <title>Definitions of Odd and Even</title>-->
     <p>
@@ -202,8 +206,8 @@
     </p>
     <!--  </subsection>
 
-    <subsection>-->
-    <activity>
+<subsection>-->
+    <worksheet>
         <title>Even and Odd Integers</title>
 
         <introduction>
@@ -213,30 +217,30 @@
             </p>
         </introduction>
 
-        <task workspace="1in">
+        <exercise workspace="1in">
             <statement>
                 <p>
                     The integer <m> 5000 </m> is even.
                 </p>
             </statement>
-        </task>
+        </exercise>
 
-        <task workspace="1in">
+        <exercise workspace="1in">
             <statement>
                 <p>
                     The integer <m> -5 </m> is odd.
                 </p>
             </statement>
-        </task>
+        </exercise>
 
-        <task workspace="1in">
+        <exercise workspace="1in">
             <statement>
                 <p>
                     The integer <m> 0 </m> is not odd.
                 </p>
             </statement>
-        </task>
-    </activity>
+        </exercise>
+    </worksheet>
     <!-- </subsection>
     <subsection>-->
     <!--<title>Mathematical Proof Writing</title>-->
@@ -283,4 +287,4 @@
         49, 50, 53, and 56.
     </p>
     <!--</subsection>-->
-</worksheet>
+</section>

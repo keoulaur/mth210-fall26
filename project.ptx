@@ -7,7 +7,8 @@
     <target name="course" source="main.ptx" format="html"
             publication="publication.ptx" deploy-dir="course" />
     <target name="print" source="main.ptx" format="pdf"
-            output-filename="course.pdf" publication="publication.ptx" />
+            output-filename="course.pdf" publication="publication.ptx"
+            xsl="custom-latex.xsl" />
 
     <!--
     <target name="slides" source="slides/slides.ptx" format="revealjs"
