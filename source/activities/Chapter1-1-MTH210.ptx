@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<worksheet xml:id="ws-toknow">
+  
+    <title>Course Introduction: Phase 2 Mathematics</title>
+
+   <introduction> 
+  <p>
+      What is Mathematics?  What is a proof?  Why do we prove things? What happens next? Does it always work? How many are there? Why does it work? What if we tried this instead? Questions such as these are at the heart of mathematics, where we seek to identify, understand, and explain patterns. Before we begin, here are 10 Things I Want You to Know.
+    </p>
+</introduction>
+
+
+<activity>
+      <task>
+        <p>
+          Math 210 may be the most important course in the mathematics major.  Many future courses rely heavily on it (315, 331, 350, 408, 441, 450, 495, and more) and it is helpful in many others (204, 205, 304, 360, 402, 498 and more).  <em>More than this, being a critical and independent thinker, creative problem solver, and excellent communicator are incredibly valuable professional skills</em>.  To be a math major, it is important to become reasonably good at the kinds of things we do in Math 210 and to find all of them familiar.
+        </p>
+      </task>
+
+      <task>
+        <p>
+          Get to know your classmates.  Be an active participant in class.  Use class time to build understanding.  Use ``rough draft language.''  Be honest with yourself about your understanding.  Be unafraid to struggle and/or fail.  Ask questions.  Our meetings will be structured to encourage these behaviors.
+        </p>
+      </task>
+
+      <task>
+        <p>
+          On working in small groups with others:  for effective group work, what do you need your group mates to do?  what do you need your group mates <em>not</em> to do?  What do you need Professor Keough to do? What do you need to do? (on a note card, write your thoughts on each question; then share with your group and update as needed, then submit your notecards to me). Random groups will be assigned for the first  month in the course in order to find who you work well with.  Then we will work toward more consistent and stable seating arrangements.
+        </p>
+      </task>
+
+      <task>
+        <p>
+          Use drop-in hours.  Five minutes of conversation with your professor can sometimes be at least as effective as an hour on your own.<em> Use drop-in hours.</em>  Ask for an appointment if drop-in hours don't work for you.
+        </p>
+      </task>
+
+      <task>
+        <p>
+          Work on Math 210 5 days a week, 8-10 hours a week.
+          <ol>
+            <li>
+              <p>
+                Preview activities for each class day (30-60 minutes per class: 1-2 hours each week);
+              </p>
+            </li>
+
+            <li>
+              <p>
+                3-5 ``weekly practice'' homework exercises each week (1.5-2 hours per week: 20-30 minutes per exercise, plus preparing for 3 short presentations over the course of the semester);
+              </p>
+            </li>
+
+            <li>
+              <p>
+                Overall reading, studying, and summarizing, including making a notecard for the check point (2-3 hours each week);
+              </p>
+            </li>
+
+            <li>
+              <p>
+                Proof portfolio problems (3-4 hours a week).  The portfolio project will begin by the end of the 2nd week of class.  During the first two weeks of the course, expect to spend some time invested to learn how to use \LaTeX~(with support from me), which is the typesetting software we will use for all of our professional writing.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <em>Your textbook is designed just for you.  It is made to be read, to be worked on, and to have notes taken.</em>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          GVSU has a Math 210 YouTube Channel: <url href="https://gvsu.edu/s/GW" visual="gvsu.edu/s/GW"/>  (Note - this follows a different order than our textbook!) 
+
+        </p>
+      </task>
+
+      <task>
+        <p>
+          Be certain to fully read the syllabus.  Meet with me, in-person, for 5 minutes, within the first 3 weeks of the semester.  Just to get to know one another a bit and so you know where the PCS is located  If posted drop-in hours don't work, email me for an appointment.
+        </p>
+      </task>
+
+      <task>
+        <p>
+          In the "<m>\checkmark</m> Weekly To Do <m>\checkmark</m>" document on Blackboard I'll post what needs to be done for the following week after class on Thursday.
+        </p>
+      </task>
+
+      <task>
+        <p>
+          I want you to be successful.
+        </p>
+      </task>
+  </activity>
+</worksheet>

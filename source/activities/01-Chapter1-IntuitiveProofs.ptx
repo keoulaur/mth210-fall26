@@ -1,807 +1,759 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-intuitiveproofs">
-  <title> Intuitive Proofs </title>
-
-  <introduction>
-    <p>
-      What is Mathematics?  What is a proof?  Why do we prove things? What happens next? Does it always work? How many are there? Why does it work? What if we tried this instead? Questions such as these are at the heart of mathematics, where we seek to identify, understand, and explain patterns. Before we begin, here are 10 Things I Want You to Know.
-    </p>
-
-    <ol>
-      <li>
-        <p>
-          Math 210 may be the most important course in the mathematics major.  Many future courses rely heavily on it (315, 331, 350, 408, 441, 450, 495, and more) and it is helpful in many others (204, 205, 304, 360, 402, 498 and more).  <em>More than this, being a critical and independent thinker, creative problem solver, and excellent communicator are incredibly valuable professional skills</em>.  To be a math major, it is important to become reasonably good at the kinds of things we do in Math 210 and to find all of them familiar.
-        </p>
-      </li>
-
-      <li>
-        <p>
-          Get to know your classmates.  Be an active participant in class.  Use class time to build understanding.  Use ``rough draft language.''  Be honest with yourself about your understanding.  Be unafraid to struggle and/or fail.  Ask questions.  Our meetings will be structured to encourage these behaviors.
-        </p>
-      </li>
-
-      <li>
-        <p>
-          On working in small groups with others:  for effective group work, what do you need your group mates to do?  what do you need your group mates <em>not</em> to do?  What do you need Professor Keough to do? What do you need to do? (on a note card, write your thoughts on each question; then share with your group and update as needed, then submit your notecards to me). Random groups will be assigned for the first  month in the course in order to find who you work well with.  Then we will work toward more consistent and stable seating arrangements.
-        </p>
-      </li>
-
-      <li>
-        <p>
-          Use drop-in hours.  Five minutes of conversation with your professor can sometimes be at least as effective as an hour on your own.<em> Use drop-in hours.</em>  Ask for an appointment if drop-in hours don't work for you.
-        </p>
-      </li>
-
-      <li>
-        <p>
-          Work on Math 210 5 days a week, 8-10 hours a week.
-          <ol>
-            <li>
-              <p>
-                Preview activities for each class day (30-60 minutes per class: 1-2 hours each week);
-              </p>
-            </li>
-
-            <li>
-              <p>
-                3-5 ``weekly practice'' homework exercises each week (1.5-2 hours per week: 20-30 minutes per exercise, plus preparing for 3 short presentations over the course of the semester);
-              </p>
-            </li>
-
-            <li>
-              <p>
-                Overall reading, studying, and summarizing, including making a notecard for the check point (2-3 hours each week);
-              </p>
-            </li>
-
-            <li>
-              <p>
-                Proof portfolio problems (3-4 hours a week).  The portfolio project will begin by the end of the 2nd week of class.  During the first two weeks of the course, expect to spend some time invested to learn how to use \LaTeX~(with support from me), which is the typesetting software we will use for all of our professional writing.
-              </p>
-            </li>
-          </ol>
-        </p>
-      </li>
-
-      <li>
-        <p>
-          <em>Your textbook is designed just for you.  It is made to be read, to be worked on, and to have notes taken.</em>
-        </p>
-      </li>
-
-      <li>
-        <p>
-          GVSU has a Math 210 YouTube Channel: \href{http://gvsu.edu/s/GW}{\texttt{http://gvsu.edu/s/GW}}. (Note - this follows a different order than our textbook!)
-        </p>
-      </li>
-
-      <li>
-        <p>
-          Be certain to fully read the syllabus.  Meet with me, in-person, for 5 minutes, within the first 3 weeks of the semester.  Just to get to know one another a bit and so you know where the PCS is located  If posted drop-in hours don't work, email me for an appointment: <a href="mailto:keoulaur@gvsu.edu">keoulaur@gvsu.edu</a>.
-        </p>
-      </li>
-
-      <li>
-        <p>
-          In the "<m>\checkmark</m> Weekly To Do <m>\checkmark</m>" document on Blackboard I'll post what needs to be done for the following week after class on Thursday.
-        </p>
-      </li>
-
-      <li>
-        <p>
-          I want you to be successful.
-        </p>
-      </li>
-    </ol>
-  </introduction>
-
-  <section xml:id="sec-chessboardproblems">
+<worksheet xml:id="ws-chessboardproblem7">
     <title>Chessboard Problems</title>
 
     <p>
-      My favorite parts of mathematics are ones that feel like games. The domino covering problem that you read about for today's class is one of them!
+        My favorite parts of mathematics are ones that feel like games.
+        The domino covering problem that you read about for today's class is one
+        of them!
     </p>
 
     <p>
-      Here's reminders of definitions and propositions from your text:
+        Here's reminders of definitions and propositions from your text:
     </p>
 
     <definition>
-      <statement>
-        <p>
-          A <term>perfect cover</term> of an <m>m\times n</m> board with <m>2\times 1</m> dominoes is an arrangement of those dominoes on the chessboard with no squares left uncovered, and no dominoes stacked or left hanging off the end.
-        </p>
-      </statement>
+        <statement>
+            <p>
+                A <term>perfect cover</term> of an <m>m\times n</m> board with
+                <m>2\times 1</m> dominoes is an arrangement of those dominoes on
+                the chessboard with no squares left uncovered, and no dominoes
+                stacked or left hanging off the end.
+            </p>
+        </statement>
     </definition>
 
-
     <proposition>
-      <statement>
-        <p>
-          There exists a perfect cover of an <m>8\times 8</m> chessboard.
-        </p>
-      </statement>
+        <statement>
+            <p>
+                There exists a perfect cover of an <m>8\times 8</m> chessboard.
+            </p>
+        </statement>
     </proposition>
 
     <p>
-      Proof idea:
+        Proof idea:
     </p>
 
-
     <proposition>
-      <statement>
-        <p>
-          If one crosses out the top-left square of an <m>8\times 8</m> chessboard, the remaining squares cannot be perfectly covered by dominoes.
-        </p>
-      </statement>
+        <statement>
+            <p>
+                If one crosses out the top-left square of an <m>8\times 8</m>
+                chessboard, the remaining squares cannot be perfectly covered by
+                dominoes.
+            </p>
+        </statement>
     </proposition>
 
     <p>
-      Proof idea:
+        Proof idea:
     </p>
 
     <p>
-      The author then proceeds to ask the following questions:
+        The author then proceeds to ask the following questions:
     </p>
 
     <ol>
-      <li>
-        <p>
-          <term>Question 1:</term> If I remove two squares of different colors from an <m>8\times 8</m> chessboard, must the result have a perfect cover?
-        </p>
-      </li>
+        <li>
+            <p>
+                <term>Question 1:</term> If I remove two squares of different
+                colors from an <m>8\times 8</m> chessboard, must the result have
+                a perfect cover?
+            </p>
+        </li>
 
-      <li>
-        <p>
-          <term>Question 2:</term> If I remove four squares - two black, two white - from an <m>8\times 8</m> chessboard, must the result have a perfect cover?
-        </p>
-      </li>
+        <li>
+            <p>
+                <term>Question 2:</term> If I remove four squares - two black,
+                two white - from an <m>8\times 8</m> chessboard, must the result
+                have a perfect cover?
+            </p>
+        </li>
 
-      <li>
-        <p>
-          <term>Question 3:</term> For every pair of positive integers <m>m</m> and <m>n</m>, does there exist a perfect cover of the <m>m\times n</m> chessboard by <m>2\times 1</m> dominoes?
-        </p>
-      </li>
+        <li>
+            <p>
+                <term>Question 3:</term> For every pair of positive integers
+                <m>m</m> and <m>n</m>, does there exist a perfect cover of the
+                <m>m\times n</m> chessboard by <m>2\times 1</m> dominoes?
+            </p>
+        </li>
     </ol>
 
     <p>
-      What are some other questions we could ask?
+        What are some other questions we could ask?
     </p>
 
-    <worksheet xml:id="ws-exploringcoverings">
-      <activity workspace="1in">
+    <activity workspace="1in">
         <statement>
-          <p>
-            Explore one of the questions from the previous page with your team!
-          </p>
+            <p>
+                Explore one of the questions from the previous page with your
+                team!
+            </p>
         </statement>
-      </activity>
+    </activity>
 
-      <activity>
+    <activity>
         <introduction>
-          <p>
-            The game <em>Tetris</em> is played with five different shapes - the five shapes that can be obtained by piecing together 4 unit squares:
-          </p>
+            <p>
+                The game <em>Tetris</em> is played with five different shapes -
+                the five shapes that can be obtained by piecing together 4 unit
+                squares:
+            </p>
 
-          <figure xml:id="fig-tetris">
-            <caption>Five <em>Tetris</em> pieces</caption>
-            <sidebyside widths="15% 15% 15% 15% 15%">
-              <image>
-                <shortdescription>
-                  A Tetris piece
-                </shortdescription>
-                <latex-image label="tetris-1">
+            <figure xml:id="fig-tetris">
+                <caption>Five <em>Tetris</em> pieces</caption>
+                <sidebyside widths="15% 15% 15% 15% 15%">
+                    <image>
+                        <shortdescription>A Tetris piece</shortdescription>
+                        <latex-image label="tetris-1">
                 \begin{tikzpicture}
                 \draw[step=1cm] (0,0) grid (1,4);
                 \draw[very thick] (0,0) -- (1,0) -- (1,4) -- (0,4) -- (0,0);
                 \end{tikzpicture}
-                </latex-image>
-              </image>
+                        </latex-image>
+                    </image>
 
-              <image>
-                <shortdescription>
-                  A Tetris piece
-                </shortdescription>
-                <latex-image label="tetris-2">
+                    <image>
+                        <shortdescription>A Tetris piece</shortdescription>
+                        <latex-image label="tetris-2">
                 \begin{tikzpicture}
                 \draw[step=1cm] (0,0) grid (2,2);
                 \draw[very thick] (0,0) -- (2,0) -- (2,2) -- (0,2) -- (0,0);
                 \end{tikzpicture}
-                </latex-image>
-              </image>
+                        </latex-image>
+                    </image>
 
-              <image>
-                <shortdescription>
-                  A Tetris piece
-                </shortdescription>
-                <latex-image label="tetris-3">
+                    <image>
+                        <shortdescription>A Tetris piece</shortdescription>
+                        <latex-image label="tetris-3">
                 \begin{tikzpicture}
                 \draw [very thick] (0,0) -- (3,0) -- (3,1) -- (2,1) -- (2,2)--(1,2) -- (1,1) -- (0,1) -- (0,0);
                 \draw (1,0) -- (1,1);
                 \draw (1,1) -- (2,1);
                 \draw (2,1) -- (2,0);
                 \end{tikzpicture}
-                </latex-image>
-              </image>
+                        </latex-image>
+                    </image>
 
-              <image>
-                <shortdescription>
-                  A Tetris piece
-                </shortdescription>
-                <latex-image label="tetris-4">
+                    <image>
+                        <shortdescription>A Tetris piece</shortdescription>
+                        <latex-image label="tetris-4">
                 \begin{tikzpicture}
                 \draw [very thick] (0,0) -- (2,0) -- (2,1) -- (3,1) -- (3,2)--(1,2) -- (1,1) -- (0,1) -- (0,0);
                 \draw (1,0) -- (1,1);
                 \draw (1,1) -- (2,1);
                 \draw (2,1) -- (2,2);
                 \end{tikzpicture}
-                </latex-image>
-              </image>
+                        </latex-image>
+                    </image>
 
-              <image>
-                <shortdescription>
-                  A Tetris piece
-                </shortdescription>
-                <latex-image label="tetris-5">
+                    <image>
+                        <shortdescription>A Tetris piece</shortdescription>
+                        <latex-image label="tetris-5">
                 \begin{tikzpicture}
                 \draw [very thick] (0,0) -- (2,0) -- (2,1) -- (1,1) --  (1,3) -- (0,3) -- (0,0);
                 \draw (0,1) -- (1,1);
                 \draw (0,2) -- (1,2);
                 \draw (1,0) -- (1,1);
                 \end{tikzpicture}
-                </latex-image>
-              </image>
-            </sidebyside>
-          </figure>
+                        </latex-image>
+                    </image>
+                </sidebyside>
+            </figure>
 
-          <figure xml:id="fig-prefigure-tetris">
-            <caption>Five <em>Tetris</em> pieces in <prefigure/></caption>
-            <sidebyside widths="20% 20% 20% 20% 20%">
-              <image>
-                <shortdescription>
-                  A Tetris piece
-                </shortdescription>
-                <prefigure xmlns="https://prefigure.org"
-                         label="prefig-tetris-1">
-                <diagram dimensions="(75, 100)" margins="5">
-                <coordinates bbox="(0,0,3,4)">
-                <define-shapes>
-                <polygon at="boundary"
-                               points="((1,0),(2,0),(2,4),(1,4))"
-                               closed="yes"
-                               cliptobbox="no"/>
-                </define-shapes>
-                <clip shape="boundary">
-                <grid spacings="((0,1,3),(0,1,4))"
-                            stroke="gray"
-                            thickness="1"/>
-                </clip>
-                <shape shape="boundary"
-                           stroke="black"
-                           thickness="2"/>
-                </coordinates>
-                </diagram>
-                </prefigure>
-              </image>
+            <figure xml:id="fig-prefigure-tetris">
+                <caption>Five <em>Tetris</em> pieces in <prefigure/></caption>
+                <sidebyside widths="20% 20% 20% 20% 20%">
+                    <image>
+                        <shortdescription>A Tetris piece</shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefig-tetris-1">
+                            <diagram dimensions="(75, 100)" margins="5">
+                                <coordinates bbox="(0,0,3,4)">
+                                    <define-shapes>
+                                        <polygon at="boundary" points="((1,0),(2,0),(2,4),(1,4))" closed="yes" cliptobbox="no"/>
+                                    </define-shapes>
+                                    <clip shape="boundary">
+                                        <grid spacings="((0,1,3),(0,1,4))" stroke="gray" thickness="1"/>
+                                    </clip>
+                                    <shape shape="boundary" stroke="black" thickness="2"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
 
-              <image>
-                <shortdescription>
-                  A Tetris piece
-                </shortdescription>
-                <prefigure xmlns="https://prefigure.org"
-                         label="prefig-tetris-2">
-                <diagram dimensions="(75, 100)" margins="5">
-                <coordinates bbox="(0,0,3,4)">
-                <define-shapes>
-                <polygon at="boundary"
-                               points="((1,2),(3,2),(3,4),(1,4))"
-                               closed="yes"
-                               cliptobbox="no"/>
-                </define-shapes>
-                <clip shape="boundary">
-                <grid spacings="((0,1,3),(0,1,4))"
-                            stroke="gray"
-                            thickness="1"/>
-                </clip>
-                <shape shape="boundary"
-                           thickness="2"
-                           stroke="black"/>
-                </coordinates>
-                </diagram>
-                </prefigure>
-              </image>
+                    <image>
+                        <shortdescription>A Tetris piece</shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefig-tetris-2">
+                            <diagram dimensions="(75, 100)" margins="5">
+                                <coordinates bbox="(0,0,3,4)">
+                                    <define-shapes>
+                                        <polygon at="boundary" points="((1,2),(3,2),(3,4),(1,4))" closed="yes" cliptobbox="no"/>
+                                    </define-shapes>
+                                    <clip shape="boundary">
+                                        <grid spacings="((0,1,3),(0,1,4))" stroke="gray" thickness="1"/>
+                                    </clip>
+                                    <shape shape="boundary" thickness="2" stroke="black"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
 
-              <image>
-                <shortdescription>
-                  A Tetris piece
-                </shortdescription>
-                <prefigure xmlns="https://prefigure.org"
-                         label="prefig-tetris-3">
-                <diagram dimensions="(75, 100)" margins="5">
-                <coordinates bbox="(0,0,3,4)">
-                <define-shapes>
-                <polygon at="boundary"
-                               points="((1,2),(3,2),(3,3),(2,3),(2,4),(1,4),(1,3))"
-                               closed="yes"
-                               cliptobbox="no"/>
-                </define-shapes>
-                <clip shape="boundary">
-                <grid spacings="((0,1,3),(0,1,4))"
-                            stroke="gray"
-                            thickness="1"/>
-                </clip>
-                <shape shape="boundary"
-                           thickness="2"
-                           stroke="black"/>
-                </coordinates>
-                </diagram>
-                </prefigure>
-              </image>
+                    <image>
+                        <shortdescription>A Tetris piece</shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefig-tetris-3">
+                            <diagram dimensions="(75, 100)" margins="5">
+                                <coordinates bbox="(0,0,3,4)">
+                                    <define-shapes>
+                                        <polygon at="boundary" points="((1,2),(3,2),(3,3),(2,3),(2,4),(1,4),(1,3))" closed="yes" cliptobbox="no"/>
+                                    </define-shapes>
+                                    <clip shape="boundary">
+                                        <grid spacings="((0,1,3),(0,1,4))" stroke="gray" thickness="1"/>
+                                    </clip>
+                                    <shape shape="boundary" thickness="2" stroke="black"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
 
-              <image>
-                <shortdescription>
-                  A Tetris piece
-                </shortdescription>
-                <prefigure xmlns="https://prefigure.org"
-                         label="prefig-tetris-4">
-                <diagram dimensions="(75, 100)" margins="5">
-                <coordinates bbox="(0,0,3,4)">
-                <define-shapes>
-                <polygon at="boundary"
-                               points="((0,2),(2,2),(2,3),(3,3),(3,4),(1,4),(1,3),(0,3))"
-                               closed="yes"
-                               cliptobbox="no"/>
-                </define-shapes>
-                <clip shape="boundary">
-                <grid spacings="((0,1,3),(0,1,4))"
-                            stroke="gray"
-                            thickness="1"/>
-                </clip>
-                <shape shape="boundary"
-                           thickness="2"
-                           stroke="black"/>
-                </coordinates>
-                </diagram>
-                </prefigure>
-              </image>
+                    <image>
+                        <shortdescription>A Tetris piece</shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefig-tetris-4">
+                            <diagram dimensions="(75, 100)" margins="5">
+                                <coordinates bbox="(0,0,3,4)">
+                                    <define-shapes>
+                                        <polygon at="boundary" points="((0,2),(2,2),(2,3),(3,3),(3,4),(1,4),(1,3),(0,3))" closed="yes" cliptobbox="no"/>
+                                    </define-shapes>
+                                    <clip shape="boundary">
+                                        <grid spacings="((0,1,3),(0,1,4))" stroke="gray" thickness="1"/>
+                                    </clip>
+                                    <shape shape="boundary" thickness="2" stroke="black"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
 
-              <image>
-                <shortdescription>
-                  A Tetris piece
-                </shortdescription>
-                <prefigure xmlns="https://prefigure.org"
-                         label="prefig-tetris-5">
-                <diagram dimensions="(75, 100)" margins="5">
-                <coordinates bbox="(0,0,3,4)">
-                <define-shapes>
-                <polygon at="boundary"
-                               points="((0,1),(2,1),(2,2),(1,2),(1,4),(0,4))"
-                               closed="yes"
-                               cliptobbox="no"/>
-                </define-shapes>
-                <clip shape="boundary">
-                <grid spacings="((0,1,3),(0,1,4))"
-                            stroke="gray"
-                            thickness="1"/>
-                </clip>
-                <shape shape="boundary"
-                           thickness="2"
-                           stroke="black"/>
-                </coordinates>
-                </diagram>
-                </prefigure>
-              </image>
-            </sidebyside>
-          </figure>
+                    <image>
+                        <shortdescription>A Tetris piece</shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefig-tetris-5">
+                            <diagram dimensions="(75, 100)" margins="5">
+                                <coordinates bbox="(0,0,3,4)">
+                                    <define-shapes>
+                                        <polygon at="boundary" points="((0,1),(2,1),(2,2),(1,2),(1,4),(0,4))" closed="yes" cliptobbox="no"/>
+                                    </define-shapes>
+                                    <clip shape="boundary">
+                                        <grid spacings="((0,1,3),(0,1,4))" stroke="gray" thickness="1"/>
+                                    </clip>
+                                    <shape shape="boundary" thickness="2" stroke="black"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                </sidebyside>
+            </figure>
 
-          <p>
-            For the questions below, we also allow these pieces to be ``flipped over."
-          </p>
+            <p>
+                For the questions below, we also allow these pieces to be
+                ``flipped over."
+            </p>
         </introduction>
 
-
         <task workspace="1in">
-          <statement>
-            <p>
-              Is it possible to perfectly cover a <m>4\times 5</m> chessboard using each of these shapes exactly once? Prove that it is impossible, or show by example that it is possible.
-            </p>
-          </statement>
+            <statement>
+                <p>
+                    Is it possible to perfectly cover a <m>4\times 5</m>
+                    chessboard using each of these shapes exactly once?
+                    Prove that it is impossible, or show by example that it is
+                    possible.
+                </p>
+            </statement>
         </task>
-
 
         <task>
-          <statement>
-            <p>
-              Is it possible to perfectly cover an <m>8\times 5</m> chessboard using each of these shapes exactly twice? Prove that it is impossible, or show by example that it is possible.
-            </p>
-          </statement>
+            <statement>
+                <p>
+                    Is it possible to perfectly cover an <m>8\times 5</m>
+                    chessboard using each of these shapes exactly twice?
+                    Prove that it is impossible, or show by example that it is
+                    possible.
+                </p>
+            </statement>
         </task>
-      </activity>
-    </worksheet>
+    </activity>
 
     <p>
-      Sage can do modular arithmetic!
+        Sage can do modular arithmetic!
     </p>
     <sage>
-    <input>
+        <input>
 R = IntegerModRing(7)
 a = R(3)
 b = R(4)
 a * b
-    </input>
+        </input>
     </sage>
-  </section>
-
-  <section>
-    <title>Conjecturing</title>
 
     <p>
-      More advanced mathematics is often considerably different from algebra and calculus.  Rather than using algorithms to solve a collection of similar problems, we are interested in other things:
+        More advanced mathematics is often considerably different from algebra
+        and calculus.
+        Rather than using algorithms to solve a collection of similar problems,
+        we are interested in other things:
     </p>
 
     <blockquote>
-      <p>
-        <em>A mathematician, like a painter or a poet, is a maker of patterns.  If her patterns are more permanent than theirs, it is because they are made with ideas. The mathematician's patterns, like the painter's or the poet's, must be beautiful; the ideas, like the colours or the words, must fit together in a harmonious way. Beauty is the first test: there is no permanent place in the world for ugly mathematics.</em>
-      </p>
-      <attribution>G. H. Hardy  (1877 - 1947)</attribution>
+        <p>
+            <em>A mathematician, like a painter or a poet, is a maker of patterns.  If her patterns are more permanent than theirs, it is because they are made with ideas. The mathematician's patterns, like the painter's or the poet's, must be beautiful; the ideas, like the colours or the words, must fit together in a harmonious way. Beauty is the first test: there is no permanent place in the world for ugly mathematics.</em>
+        </p>
+        <attribution>G. H. Hardy (1877 - 1947)</attribution>
     </blockquote>
 
     <p>
-      <term>On patterns and conjectures.</term>  Go with your group to the whiteboard.  As directed, work on <term>one</term> of the following prompts. (I will take pictures of your work and post.)
+        <term>On patterns and conjectures.</term> Go with your group to the
+        whiteboard.
+        As directed, work on <term>one</term> of the following prompts.
+        (I will take pictures of your work and post.)
     </p>
 
     <ol>
-      <li>
-        <p>
-          Consider the expression
-          <md>
-            1 + (-1)^n (2n-1).
-          </md>
-          Evaluate this expression for at least 10 different integer values of <m>n</m>, including some negative values and 0, as well as positive ones. What conjectures can you make regarding this expression and the related numbers you find?
-        </p>
-      </li>
+        <li>
+            <p>
+                Consider the expression
+                <md>
+                    1 + (-1)^n (2n-1).
+                </md>
+                Evaluate this expression for at least 10 different integer
+                values of <m>n</m>, including some negative values and 0, as
+                well as positive ones.
+                What conjectures can you make regarding this expression and the
+                related numbers you find?
+            </p>
+        </li>
 
-      <li>
-        <p>
-          Consider the equation
-          <md>
-            2x + 5y = 41.
-          </md>
-          Can you find an ordered pair <m>(x,y)</m> of integers that makes the equation true?  If yes, can you characterize all such ordered pairs?  If not, why not? What conjecture(s) can you make about this equation?  About related equations?
-        </p>
-      </li>
+        <li>
+            <p>
+                Consider the equation
+                <md>
+                    2x + 5y = 41.
+                </md>
+                Can you find an ordered pair <m>(x,y)</m> of integers that makes
+                the equation true?
+                If yes, can you characterize all such ordered pairs?
+                If not, why not?
+                What conjecture(s) can you make about this equation?
+                About related equations?
+            </p>
+        </li>
 
-      <li>
-        <p>
-          Consider the expression
-          <md>
-            7^k - 2^k.
-          </md>
-          Evaluate this expression for at least 10 different natural number values of <m>k</m>. What conjectures can you make regarding this expression and the numbers you find?
-        </p>
-      </li>
+        <li>
+            <p>
+                Consider the expression
+                <md>
+                    7^k - 2^k.
+                </md>
+                Evaluate this expression for at least 10 different natural
+                number values of <m>k</m>.
+                What conjectures can you make regarding this expression and the
+                numbers you find?
+            </p>
+        </li>
     </ol>
-  </section>
 
-  <section>
-    <title>The Wason Selection Test - Testing Truth.</title>
+    <p>
+        The Wason Selection Test - Testing Truth.
+    </p>
 
     <ol>
-      <li>
-        <p>
-          A mathematician places a set of four cards on a table, each of which has a number on one side and a colored patch on the other side. She claims the following: if a card shows an even number on one face, then its opposite face is red The visible faces of the cards show 3, 8, red, and blue. Which card(s) must you turn over in order to test the truth of her claim? Carefully explain.
-        </p>
-      </li>
+        <li>
+            <p>
+                A mathematician places a set of four cards on a table, each of
+                which has a number on one side and a colored patch on the other
+                side.
+                She claims the following: if a card shows an even number on one
+                face, then its opposite face is red The visible faces of the
+                cards show 3, 8, red, and blue.
+                Which card(s) must you turn over in order to test the truth of
+                her claim?
+                Carefully explain.
+            </p>
+        </li>
 
-      <li>
-        <p>
-          It is a well known law in the United States that you must be 21 to consume alcohol.  Suppose now that four cards are placed on the table each of which has an age on one side and a beverage on the other.  The visible faces of the cards show 16, 22, coca-cola, and beer. If each card represents a person at the party, which card(s) must you check to make sure everyone at the party is a law abiding citizen.  That is, which card(s) must you turn over to verify the proposition: if one is consuming an alcoholic beverage then one is over the age of 21 How does this relate to the previous problem?
-        </p>
-      </li>
+        <li>
+            <p>
+                It is a well known law in the United States that you must be 21
+                to consume alcohol.
+                Suppose now that four cards are placed on the table each of
+                which has an age on one side and a beverage on the other.
+                The visible faces of the cards show 16, 22, coca-cola, and beer.
+                If each card represents a person at the party, which card(s)
+                must you check to make sure everyone at the party is a law
+                abiding citizen.
+                That is, which card(s) must you turn over to verify the
+                proposition: if one is consuming an alcoholic beverage then one
+                is over the age of 21 How does this relate to the previous
+                problem?
+            </p>
+        </li>
     </ol>
 
     <p>
-      Statements of the form ``If... then..." are called conditional statements. We will explore conditional statements a lot in MTH 210. What must we do to establish that a conditional statement is true?  What is the only way that a conditional statement can be false?
-    </p>
-  </section>
-
-  <section>
-    <title>Counterexamples</title>
-
-    <p>
-      <em>Disproving a conjecture, or showing a statement is false.</em>
+        Statements of the form ``If...
+        then..." are called conditional statements.
+        We will explore conditional statements a lot in MTH 210.
+        What must we do to establish that a conditional statement is true?
+        What is the only way that a conditional statement can be false?
     </p>
 
     <p>
-      There are several types of mathematical statements that we might disprove. Here's 3 types:
+        <em>Disproving a conjecture, or showing a statement is false.</em>
+    </p>
+
+    <p>
+        There are several types of mathematical statements that we might
+        disprove.
+        Here's 3 types:
     </p>
 
     <ul>
-      <li>
-        <p>
-          For all (blah), (bleh).
-        </p>
-      </li>
+        <li>
+            <p>
+                For all (blah), (bleh).
+            </p>
+        </li>
 
-      <li>
-        <p>
-          There exists a (doodle) that (doddles).
-        </p>
-      </li>
+        <li>
+            <p>
+                There exists a (doodle) that (doddles).
+            </p>
+        </li>
 
-      <li>
-        <p>
-          If (loppity), then (luppity).
-        </p>
-      </li>
+        <li>
+            <p>
+                If (loppity), then (luppity).
+            </p>
+        </li>
     </ul>
 
     <p>
-      Disproving each of them is a little different. Let's start, as the chapter title says, with your intuition about how you would disprove these.
+        Disproving each of them is a little different.
+        Let's start, as the chapter title says, with your intuition about how
+        you would disprove these.
     </p>
 
-    <worksheet xml:id="ws-disproofs">
-      <activity>
+    <activity>
         <task workspace="1in">
-          <introduction>
-            <p>
-              Disprove the following statements:
-            </p>
-          </introduction>
+            <introduction>
+                <p>
+                    Disprove the following statements:
+                </p>
+            </introduction>
 
+            <task>
+                <statement>
+                    <p>
+                        For all natural numbers
+                        <fn>The natural numbers, denoted <m>\mathbb{N}</m>, are the set <m>\{1,2,3,\dots\}</m>.</fn>
+                        <m>n</m>, <m>n&lt;n^2</m>.
+                    </p>
+                </statement>
+            </task>
 
-          <task>
-            <statement>
-              <p>
-                For all natural numbers<fn>The natural numbers, denoted <m>\mathbb{N}</m>, are the set <m>\{1,2,3,\dots\}</m>.</fn> <m>n</m>, <m>n&lt;n^2</m>.
-              </p>
-            </statement>
-          </task>
+            <task>
+                <statement>
+                    <p>
+                        There exists a perfect covering of an <m>8\times 8</m>
+                        chessboard with the top left and bottom right corners
+                        removed using dominoes.
+                    </p>
+                </statement>
+            </task>
 
-
-          <task>
-            <statement>
-              <p>
-                There exists a perfect covering of an <m>8\times 8</m> chessboard with the top left and bottom right corners removed using dominoes.
-              </p>
-            </statement>
-          </task>
-
-
-          <task>
-            <statement>
-              <p>
-                If <m>a</m> and <m>b</m> are odd integers, and <m>c</m> is any integer<fn>The integers, denoted <m>\mathbb{Z}</m>, are the set <m>\{\dots,-3,-2,-1,0,1,2,3,\dots\}</m>. The odd integers are <m>\{\dots, -5,-3,-1,1,3,5,\dots\}</m>.</fn>, then <m>cb+ca</m> is an odd integer.
-              </p>
-            </statement>
-          </task>
+            <task>
+                <statement>
+                    <p>
+                        If <m>a</m> and <m>b</m> are odd integers, and <m>c</m>
+                        is any integer
+                        <fn>The integers, denoted <m>\mathbb{Z}</m>, are the set <m>\{\dots,-3,-2,-1,0,1,2,3,\dots\}</m>. The odd integers are <m>\{\dots, -5,-3,-1,1,3,5,\dots\}</m>.</fn>,
+                        then <m>cb+ca</m> is an odd integer.
+                    </p>
+                </statement>
+            </task>
         </task>
 
-
         <task workspace="1in">
-          <statement>
-            <p>
-              How was it different to write a disproof for each type of statement? How was it similar?
-            </p>
-          </statement>
+            <statement>
+                <p>
+                    How was it different to write a disproof for each type of
+                    statement?
+                    How was it similar?
+                </p>
+            </statement>
         </task>
-      </activity>
-    </worksheet>
-  </section>
-
-  <section>
-    <title>Section 1.3 - The Pigeonhole Principle</title>
+    </activity>
 
     <p>
-      As a reminder, here's the statement of the pigeonhole principle:
+        Section 1.3 - The Pigeonhole Principle
     </p>
 
     <p>
-      <term>Principle 1.5</term> (<em>The pigeonhole principle</em>). The principle has a simple form and a general form. Assume <m>k</m> and <m>n</m> are positive integers. <fn>The positive integers are these numbers: 1,2,3,4.... We will call these the natural numbers, and denote <m>\mathbb{N}</m>, but mathematicians disagree about whether <m>0</m> is a natural number, so the author writes positive integers.</fn>
+        As a reminder, here's the statement of the pigeonhole principle:
     </p>
 
     <p>
-      <term>Simple form:</term> If <m>n+1</m> objects are placed into <m>n</m> boxes, then at least one box has at least two objects in it.
+        <term>Principle 1.5</term> ( <em>The pigeonhole principle</em> ).
+        The principle has a simple form and a general form.
+        Assume <m>k</m> and <m>n</m> are positive integers.
+        <fn>The positive integers are these numbers: 1,2,3,4.... We will call these the natural numbers, and denote <m>\mathbb{N}</m>, but mathematicians disagree about whether <m>0</m> is a natural number, so the author writes positive integers.</fn>
     </p>
 
     <p>
-      <term>General form:</term> If <m>kn+1</m> objects are placed into <m>n</m> boxes, then at least one box has at least <m>k+1</m> objects in it.
+        <term>Simple form:</term> If <m>n+1</m> objects are placed into <m>n</m>
+        boxes, then at least one box has at least two objects in it.
     </p>
 
-    <worksheet xml:id="ws-pigeonhole">
-      <activity>
+    <p>
+        <term>General form:</term> If <m>kn+1</m> objects are placed into
+        <m>n</m> boxes, then at least one box has at least <m>k+1</m> objects in
+        it.
+    </p>
+
+    <activity>
         <task>
-          <introduction>
-            <p>
-              Let's begin with some true/false questions. Explain your answers.
-            </p>
-          </introduction>
+            <introduction>
+                <p>
+                    Let's begin with some true/false questions.
+                    Explain your answers.
+                </p>
+            </introduction>
 
+            <task>
+                <statement>
+                    <p>
+                        True/False: If <m>201</m> objects are placed in
+                        <m>100</m> boxes, then every box has at least 2 items.
+                    </p>
+                </statement>
+            </task>
 
-          <task>
-            <statement>
-              <p>
-                True/False: If <m>201</m> objects are placed in <m>100</m> boxes, then every box has at least 2 items.
-              </p>
-            </statement>
-          </task>
+            <task>
+                <statement>
+                    <p>
+                        True/False: If <m>100^2</m> objects are placed in
+                        <m>100</m> boxes, then no box is empty.
+                    </p>
+                </statement>
+            </task>
 
-
-          <task>
-            <statement>
-              <p>
-                True/False: If <m>100^2</m> objects are placed in <m>100</m> boxes, then no box is empty.
-              </p>
-            </statement>
-          </task>
-
-
-          <task>
-            <statement>
-              <p>
-                True/False: Given <m>501</m> objects placed in <m>100</m> boxes, at least one box has <m>5</m> objects in it.
-              </p>
-            </statement>
-          </task>
+            <task>
+                <statement>
+                    <p>
+                        True/False: Given <m>501</m> objects placed in
+                        <m>100</m> boxes, at least one box has <m>5</m> objects
+                        in it.
+                    </p>
+                </statement>
+            </task>
         </task>
-
 
         <task>
-          <statement>
-            <p>
-              Read (aloud) pages 17-18 of your textbook (starting at Mathematical Examples and ending before Proposition 1.10) with your team. Pause every paragraph (at least) to ask questions, and rephrase what you have read.
-            </p>
-          </statement>
+            <statement>
+                <p>
+                    Read (aloud) pages 17-18 of your textbook (starting at
+                    Mathematical Examples and ending before Proposition 1.10)
+                    with your team.
+                    Pause every paragraph (at least) to ask questions, and
+                    rephrase what you have read.
+                </p>
+            </statement>
         </task>
-
 
         <task workspace="1in">
-          <introduction>
-            <p>
-              In the following, identify what version of the pigeonhole principle are you using, what the objects and boxes are, and what any variables are (<m>n</m> and <m>k</m>). Suppose you deal a pile of cards, face down, from a shuffled deck of cards (this is a standard 52-card deck, where each card is one of 4 suits and one of 13 ranks). How many must you deal until you are guaranteed...
-            </p>
-          </introduction>
+            <introduction>
+                <p>
+                    In the following, identify what version of the pigeonhole
+                    principle are you using, what the objects and boxes are, and
+                    what any variables are ( <m>n</m> and <m>k</m> ).
+                    Suppose you deal a pile of cards, face down, from a shuffled
+                    deck of cards (this is a standard 52-card deck, where each
+                    card is one of 4 suits and one of 13 ranks).
+                    How many must you deal until you are guaranteed...
+                </p>
+            </introduction>
 
+            <task>
+                <statement>
+                    <p>
+                        five of the same suit?
+                    </p>
+                </statement>
+            </task>
 
-          <task>
-            <statement>
-              <p>
-                five of the same suit?
-              </p>
-            </statement>
-          </task>
+            <task>
+                <statement>
+                    <p>
+                        two of the same rank?
+                    </p>
+                </statement>
+            </task>
 
+            <task>
+                <statement>
+                    <p>
+                        three of the same rank?
+                    </p>
+                </statement>
+            </task>
 
-          <task>
-            <statement>
-              <p>
-                two of the same rank?
-              </p>
-            </statement>
-          </task>
+            <task>
+                <statement>
+                    <p>
+                        four of the same rank?
+                    </p>
+                </statement>
+            </task>
 
-
-          <task>
-            <statement>
-              <p>
-                three of the same rank?
-              </p>
-            </statement>
-          </task>
-
-
-          <task>
-            <statement>
-              <p>
-                four of the same rank?
-              </p>
-            </statement>
-          </task>
-
-
-          <task>
-            <statement>
-              <p>
-                two of one rank and three of another?
-              </p>
-            </statement>
-          </task>
+            <task>
+                <statement>
+                    <p>
+                        two of one rank and three of another?
+                    </p>
+                </statement>
+            </task>
         </task>
-
 
         <task workspace="1in">
-          <statement>
-            <p>
-              Paul Erd\"{o}s was a Hungarian mathematician famous for problem solving. Here's his favorite problem to give: \begin{quote} Given any 101 integers from <m>\{1,2,3,\dots, 200\}</m> at least one these numbers will divide another. \end{quote} This problem is a challenge and will introduce a few ideas which we have not yet discussed, but the goal for this chapter is to get our feet wet, to have fun proving some interesting things, and to push your problem solving skills. Discuss with your team - what could the boxes be? How do we sort into the boxes?
-            </p>
-          </statement>
+            <statement>
+                <p>
+                    Paul Erd\"{o}s was a Hungarian mathematician famous for
+                    problem solving.
+                    Here's his favorite problem to give: \begin{quote} Given any
+                    101 integers from <m>\{1,2,3,\dots, 200\}</m> at least one
+                    these numbers will divide another.
+                    \end{quote} This problem is a challenge and will introduce a
+                    few ideas which we have not yet discussed, but the goal for
+                    this chapter is to get our feet wet, to have fun proving
+                    some interesting things, and to push your problem solving
+                    skills.
+                    Discuss with your team - what could the boxes be?
+                    How do we sort into the boxes?
+                </p>
+            </statement>
         </task>
-      </activity>
-    </worksheet>
-  </section>
-
-  <section>
-    <title>Play, Conjecture, Prove \#1 - The Game SET</title>
+    </activity>
 
     <p>
-      To provide us with an initial playground for exploring some mathematical ideas, meet the wonderful card game <term>SET</term> (if you've never played it before).  It is filled with superb mathematical ideas.
+        Play, Conjecture, Prove \#1 - The Game SET
     </p>
 
     <p>
-      SET: Each card in the deck has three symbols on it, characterized by four attributes:
+        To provide us with an initial playground for exploring some mathematical
+        ideas, meet the wonderful card game <term>SET</term> (if you've never
+        played it before).
+        It is filled with superb mathematical ideas.
+    </p>
+
+    <p>
+        SET: Each card in the deck has three symbols on it, characterized by
+        four attributes:
     </p>
 
     <ul>
-      <li>
-        <p>
-          <term>number</term>: one, two, or three symbols;
-        </p>
-      </li>
+        <li>
+            <p>
+                <term>number</term>: one, two, or three symbols;
+            </p>
+        </li>
 
-      <li>
-        <p>
-          <term>color</term>: red, purple, or green;
-        </p>
-      </li>
+        <li>
+            <p>
+                <term>color</term>: red, purple, or green;
+            </p>
+        </li>
 
-      <li>
-        <p>
-          <term>shading</term>: empty, striped, or solid;
-        </p>
-      </li>
+        <li>
+            <p>
+                <term>shading</term>: empty, striped, or solid;
+            </p>
+        </li>
 
-      <li>
-        <p>
-          <term>shape</term>: oval, diamond, or squiggle.
-        </p>
-      </li>
+        <li>
+            <p>
+                <term>shape</term>: oval, diamond, or squiggle.
+            </p>
+        </li>
     </ul>
 
     <p>
-      <em>Every possible combination appears in the deck exactly once</em>.  A ``<term>set</term>'' comprises three cards for which each attribute is independently either all the same or all different. It's important to note that the number of attributes that are the same can vary. On the document camera, let's find some examples among the 12 cards present.
+        <em>Every possible combination appears in the deck exactly once</em>.
+        A `` <term>set</term> '' comprises three cards for which each attribute
+        is independently either all the same or all different.
+        It's important to note that the number of attributes that are the same
+        can vary.
+        On the document camera, let's find some examples among the 12 cards
+        present.
     </p>
 
-    <p>
-      \hrulefill
-    </p>
-
-    <worksheet xml:id="ws-SET">
-      <activity workspace="1in">
+    <activity workspace="1in">
         <statement>
-          <p>
-            At your table in your group of 3-4 students, play several hands of SET.
-          </p>
+            <p>
+                At your table in your group of 3-4 students, play several hands
+                of SET.
+            </p>
 
-          <p>
-            After you have each found a couple of sets, stop playing and do the following:  develop some mathematically significant questions about the game SET.  Your main task is to <em>ask questions</em>.
-          </p>
+            <p>
+                After you have each found a couple of sets, stop playing and do
+                the following: develop some mathematically significant questions
+                about the game SET.
+                Your main task is to <em>ask questions</em>.
+            </p>
 
-          <p>
-            After you have stated several questions, choose at least one of them and use your question to make a <em>conjecture</em>.  (A conjecture is a mathematical statement that you think might be true.)
-          </p>
+            <p>
+                After you have stated several questions, choose at least one of
+                them and use your question to make a <em>conjecture</em>.
+                (A conjecture is a mathematical statement that you think might
+                be true.)
+            </p>
 
-          <p>
-            What is a theorem?  What is a proof? What's the difference between a conjecture and a theorem?
-          </p>
+            <p>
+                What is a theorem?
+                What is a proof?
+                What's the difference between a conjecture and a theorem?
+            </p>
 
-          <p>
-            <term>Theorem.</term>  (The Fundamental Theorem of SET)  Given any two cards from the deck in SET, those two cards determine a _____.  Said differently,    \
-          </p>
+            <p>
+                <term>Theorem.</term> (The Fundamental Theorem of SET) Given any
+                two cards from the deck in SET, those two cards determine a
+                _____.
+                Said differently, \
+            </p>
 
-          <p>
-            <em>Proof.</em>  Choose any two cards in the deck.  Consider one of the four attributes.  Either the two cards are _____ in that attribute or they are _____.  If they are the same, then the third card in the set must be _____ in that attribute; if they are different, then the third card in the set must have the _____ _____ of that attribute.
-          </p>
+            <p>
+                <em>Proof.</em> Choose any two cards in the deck.
+                Consider one of the four attributes.
+                Either the two cards are _____ in that attribute or they are
+                _____.
+                If they are the same, then the third card in the set must be
+                _____ in that attribute; if they are different, then the third
+                card in the set must have the _____ _____ of that attribute.
+            </p>
 
-          <p>
-            Since this happens for each of the four attributes, the four traits of the potential third card are _____ determined.  Moreover, since every possible combination of the four attributes appears exactly once in the deck, we know that such a card exists, and hence there is _____ set that contains the original  two given cards.
-          </p>
+            <p>
+                Since this happens for each of the four attributes, the four
+                traits of the potential third card are _____ determined.
+                Moreover, since every possible combination of the four
+                attributes appears exactly once in the deck, we know that such a
+                card exists, and hence there is _____ set that contains the
+                original two given cards.
+            </p>
 
-          <p>
-            For the first ``Play, Conjecture, Prove" problem (Proof Portfolio Problem \#1), you can pick one of the questions you asked with your team, explore an answer, and prove something. I have a deck of SET cards that I keep in my office.  You can borrow it any time you'd like.  Maybe some enterprising student would like to organize a SET tournament sometime this semester <m>\ldots</m>
-          </p>
+            <p>
+                For the first ``Play, Conjecture, Prove" problem (Proof
+                Portfolio Problem \#1), you can pick one of the questions you
+                asked with your team, explore an answer, and prove something.
+                I have a deck of SET cards that I keep in my office.
+                You can borrow it any time you'd like.
+                Maybe some enterprising student would like to organize a SET
+                tournament sometime this semester <m>\ldots</m>
+            </p>
         </statement>
-      </activity>
-    </worksheet>
-  </section>
-</chapter>
+    </activity>
+</worksheet>
