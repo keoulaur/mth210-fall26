@@ -3,7 +3,7 @@
 <section xml:id="sec-directproofs">
     <title>Direct Proofs</title>
 
-    <introduction>
+    <subsection>
         <title>Terms and Conditions</title>
 
         <p>
@@ -18,88 +18,95 @@
             With that, let's lay out a few things for our mathematical dialogue
             to get started.
         </p>
-    </introduction>
-    <!--    <subsection>-->
-    <!--<title>Number Systems</title>-->
-    <p>
-        Here are a few "number systems", or sets of numbers with operations, and
-        their notation.
-        Assume all of the operations are the usual operations you've learned in
-        math class along the way.
-        <ul>
-            <li>
-                <p>
-                    The natural numbers, denoted <m>\mathbb{N}</m>, are the
-                    positive whole numbers.
-                    That is,
-                    <md>
-                        \mathbb{N} = \{1,2,3,4,...\}.
-                    </md>
-                </p>
-            </li>
+    </subsection>
 
-            <li>
-                <p>
-                    The integers, denoted <m>\mathbb{Z}</m>, consist of zero,
-                    the natural numbers, and the negatives of the natural
-                    numbers.
-                    That is,
-                    <md>
-                        \mathbb{Z} = \{...,-3,-2,-1,0,1,2,3,...\}.
-                    </md>
-                    (The Z comes from the German word Zahl, which means
-                    "number")
-                </p>
-            </li>
+    <subsection>
+        <title>Number Systems</title>
 
-            <li>
-                <p>
-                    The rational numbers, denoted <m>\mathbb{Q}</m>, are those
-                    real numbers that can be written as a quotient of two
-                    integers (with a nonzero denominator).
-                    That is,
-                    <md>
-                        \mathbb{Q} = \left\{ \frac{a}{b}: a,b\in\mathbb{Z}, b\neq 0\right\}.
-                    </md>
-                    (The Q is for quotient.)
-                </p>
-            </li>
+        <p>
+            Here are a few "number systems", or sets of numbers with operations,
+            and their notation.
+            Assume all of the operations are the usual operations you've learned
+            in math class along the way.
+            <ul>
+                <li>
+                    <p>
+                        The natural numbers, denoted <m>\mathbb{N}</m>, are the
+                        positive whole numbers.
+                        That is,
+                        <md>
+                            \mathbb{N} = \{1,2,3,4,...\}.
+                        </md>
+                    </p>
+                </li>
 
-            <li>
-                <p>
-                    The real numbers, denoted <m>\mathbb{R}</m>, consist of the
-                    rational numbers and the irrational numbers.
-                </p>
-            </li>
-        </ul>
-    </p>
-    <!--<subsection>
-        <title>Closure of a Set under an Operation</title> -->
-    <p>
-        In Fact 2.1 of our textbook, the author writes ``The sum of integers is
-        an integer, the difference of integers, and the product of integers is
-        an integer." We'll refer to these facts as "
-        <term>the integers are closed under addition, subtraction, and multiplication</term>
-        ".
-        We'll use these closure properties a lot when doing our first proofs.
-    </p>
+                <li>
+                    <p>
+                        The integers, denoted <m>\mathbb{Z}</m>, consist of
+                        zero, the natural numbers, and the negatives of the
+                        natural numbers.
+                        That is,
+                        <md>
+                            \mathbb{Z} = \{...,-3,-2,-1,0,1,2,3,...\}.
+                        </md>
+                        (The Z comes from the German word Zahl, which means
+                        "number")
+                    </p>
+                </li>
 
-    <figure xml:id="fig-closure">
-        <caption>
-            A comic from Math With Bad Drawings.
-            What's the set and what's the operation here?
-        </caption>
+                <li>
+                    <p>
+                        The rational numbers, denoted <m>\mathbb{Q}</m>, are
+                        those real numbers that can be written as a quotient of
+                        two integers (with a nonzero denominator).
+                        That is,
+                        <md>
+                            \mathbb{Q} = \left\{ \frac{a}{b}: a,b\in\mathbb{Z}, b\neq 0\right\}.
+                        </md>
+                        (The Q is for quotient.)
+                    </p>
+                </li>
 
-        <image source="images/Closure.jpg">
-            <shortdescription>
-                A comic.
-                A: "I don't get it, how could birds evolve from dinosaurs?".
-                B: "Well dinosaurs aren't closed under reproduction."
-            </shortdescription>
-        </image>
-    </figure>
-    <!-- </subsection> -->
-    <activity>
+                <li>
+                    <p>
+                        The real numbers, denoted <m>\mathbb{R}</m>, consist of
+                        the rational numbers and the irrational numbers.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </subsection>
+
+    <subsection>
+        <title>Closure of a Set under an Operation</title>
+
+        <p>
+            In Fact 2.1 of our textbook, the author writes ``The sum of integers
+            is an integer, the difference of integers, and the product of
+            integers is an integer." We'll refer to these facts as "
+            <term>the integers are closed under addition, subtraction, and multiplication</term>
+            ".
+            We'll use these closure properties a lot when doing our first
+            proofs.
+        </p>
+
+        <figure xml:id="fig-closure">
+            <caption>
+                A comic from Math With Bad Drawings.
+                What's the set and what's the operation here?
+            </caption>
+
+            <image source="images/Closure.jpg">
+                <shortdescription>
+                    A comic.
+                    A: "I don't get it, how could birds evolve from dinosaurs?".
+                    B: "Well dinosaurs aren't closed under reproduction."
+                </shortdescription>
+            </image>
+        </figure>
+    </subsection>
+
+       <activity>
       <title>Closure properties</title>
         <introduction>
             <p>
@@ -148,62 +155,65 @@
             </statement>
         </task>
     </activity>
-    <!--<subsection>
-        <title>Definitions of Odd and Even</title>-->
-    <p>
-        In the previous activity, to justify your work about evens and odds, you
-        may have used examples.
-        But to be absolutely sure the even integers are closed under
-        subtraction, we need to verify infinitely many examples.
-        But, we don't have infinity time!
-        So instead we will use definitions.
-        Definitions don't come from thin air - recall from your preclass reading
-        that there are other options for these definitions, and reasons to
-        choose these one.
-        We will use these definitions frequently in our early proofs, and you
-        should be able to recall them from memory.
-        Here they are:
-    </p>
 
-    <definition xml:id="def-even">
-        <statement>
-            <p>
-                An integer <m>
+    <subsection>
+        <title>Definitions of Odd and Even</title>
+
+        <p>
+            In the previous activity, to justify your work about evens and odds,
+            you may have used examples.
+            But to be absolutely sure the even integers are closed under
+            subtraction, we need to verify infinitely many examples.
+            But, we don't have infinity time!
+            So instead we will use definitions.
+            Definitions don't come from thin air - recall from your preclass
+            reading that there are other options for these definitions, and
+            reasons to choose these one.
+            We will use these definitions frequently in our early proofs, and
+            you should be able to recall them from memory.
+            Here they are:
+        </p>
+
+        <definition xml:id="def-even">
+            <statement>
+                <p>
+                    An integer <m>
                     n
                 </m> is
-                even if <m>
+                    even if <m>
                     n=2k
-                </m> for
-                some integer <m>
+                </m>
+                    for some integer
+                    <m>
                     k
                 </m>.
-            </p>
-        </statement>
-    </definition>
+                </p>
+            </statement>
+        </definition>
 
-    <definition xml:id="def-odd">
-        <statement>
-            <p>
-                An integer <m>
+        <definition xml:id="def-odd">
+            <statement>
+                <p>
+                    An integer <m>
                     n
-                </m> is odd
-                if <m>
+                </m> is
+                    odd if <m>
                     n=2k+1
-                </m> for some
-                integer <m>
+                </m>
+                    for some integer
+                    <m>
                     k
                 </m>.
-            </p>
-        </statement>
-    </definition>
+                </p>
+            </statement>
+        </definition>
 
-    <p>
-        These definitions, seemingly simple, are quite powerful.
-        They allow us to do infinitely many examples all at once.
-    </p>
-    <!--  </subsection>
+        <p>
+            These definitions, seemingly simple, are quite powerful.
+            They allow us to do infinitely many examples all at once.
+        </p>
+    </subsection>
 
-<subsection>-->
     <worksheet>
         <title>Even and Odd Integers</title>
 
@@ -238,50 +248,51 @@
             </statement>
         </exercise>
     </worksheet>
-    <!-- </subsection>
-    <subsection>-->
-    <!--<title>Mathematical Proof Writing</title>-->
-    <p>
-        Overall, mathematical writing -- particularly writing proofs -- is a mix
-        of being creative, being organized, and honoring conventions of the
-        mathematics community.
-        There are a handful of guidelines (I'm hesitant to call them rules)
-        provided at
-        <url href="https://gvsu.edu/s/3to">https://gvsu.edu/s/3to</url>, but
-        little in the way of algorithms to follow.
-        Writing proofs is absolutely something that you'll learn to do
-        <em>by doing</em>: making mistakes, seeking feedback, struggling,
-        revising, and more.
-    </p>
 
-    <p>
-        From the outset, another key thing to realize is that a part of formal
-        mathematical writing is misleading.
-        What I mean by this is illustrated well by the following comic from
-        Abstruse Goose.
-    </p>
+    <subsection>
+        <title>Mathematical Proof Writing</title>
 
-    <figure xml:id="fig-writing2">
-        <caption>A comic from Abstruse Goose.</caption>
-        <image source="images/ProofWriting.png">
-            <shortdescription>
-                A comic: 2 people lost getting from A to B.
-                Years later, directions are 2 steps.
-                Says "this is how most proofs are written."
-            </shortdescription>
-        </image>
-    </figure>
+        <p>
+            Overall, mathematical writing -- particularly writing proofs -- is a
+            mix of being creative, being organized, and honoring conventions of
+            the mathematics community.
+            There are a handful of guidelines (I'm hesitant to call them rules)
+            provided at
+            <url href="https://gvsu.edu/s/3to">https://gvsu.edu/s/3to</url>, but
+            little in the way of algorithms to follow.
+            Writing proofs is absolutely something that you'll learn to do
+            <em>by doing</em>: making mistakes, seeking feedback, struggling,
+            revising, and more.
+        </p>
 
-    <p>
-        The author writes his process of the ``Proof Idea" and (later) ``Scratch
-        Work".
-        These are important parts of proof-writing, even if the final polished
-        proof doesn't include all the work you do in this part.
-        I use what we'll call a "pre-proof analysis,'' which is just a fancy
-        term for
-        <em>trying examples-experimenting-writing down ideas-making mistakes-making connections-trying to find helpful paths-scratch work</em>.
-        You can see examples of the author's process in your textbook on pages
-        49, 50, 53, and 56.
-    </p>
-    <!--</subsection>-->
+        <p>
+            From the outset, another key thing to realize is that a part of
+            formal mathematical writing is misleading.
+            What I mean by this is illustrated well by the following comic from
+            Abstruse Goose.
+        </p>
+
+        <figure xml:id="fig-writing2">
+            <caption>A comic from Abstruse Goose.</caption>
+            <image source="images/ProofWriting.png">
+                <shortdescription>
+                    A comic: 2 people lost getting from A to B.
+                    Years later, directions are 2 steps.
+                    Says "this is how most proofs are written."
+                </shortdescription>
+            </image>
+        </figure>
+
+        <p>
+            The author writes his process of the ``Proof Idea" and (later)
+            ``Scratch Work".
+            These are important parts of proof-writing, even if the final
+            polished proof doesn't include all the work you do in this part.
+            I use what we'll call a "pre-proof analysis,'' which is just a fancy
+            term for
+            <em>trying examples-experimenting-writing down ideas-making mistakes-making connections-trying to find helpful paths-scratch work</em>.
+            You can see examples of the author's process in your textbook on
+            pages 49, 50, 53, and 56.
+        </p>
+    </subsection>
 </section>
