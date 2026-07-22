@@ -43,6 +43,20 @@
     </xsl:choose>
 </xsl:template>
 
+<!-- Use \vspace instead of \rule for workspace so that LaTeX discards the
+     space automatically when it falls at the top of a new page, causing the
+     next task to start at the top of that page rather than after blank space. -->
+<xsl:template match="*" mode="workspace">
+    <xsl:variable name="vertical-space">
+        <xsl:apply-templates select="." mode="sanitize-workspace"/>
+    </xsl:variable>
+    <xsl:if test="not($vertical-space = '')">
+        <xsl:text>\par\vspace{</xsl:text>
+        <xsl:value-of select="$vertical-space"/>
+        <xsl:text>}%&#xa;</xsl:text>
+    </xsl:if>
+</xsl:template>
+
 <!-- Suppress the \newgeometry/\clearpage page break before worksheets -->
 <xsl:template match="worksheet" mode="new-geometry"/>
 
