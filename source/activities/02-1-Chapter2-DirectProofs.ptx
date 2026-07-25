@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-directproofs">
+<handout xml:id="ho-directproofs">
     <title>Direct Proofs</title>
 
     <subsection>
@@ -10,7 +10,8 @@
             I know most of us typically ignore the Terms and Conditions we are
             asked to agree to, but for doing mathematics, understanding the
             terms and conditions is vital.
-            Note I didn't say "agreeing" to the terms and conditions is vital.
+            Note I didn't say <q>agreeing</q> to the terms and conditions is
+            vital.
             In fact, changing the terms and conditions is one of the ways we
             play with math.
             But in any mathematical dialogue, knowing the terms and conditions
@@ -24,8 +25,8 @@
         <title>Number Systems</title>
 
         <p>
-            Here are a few "number systems", or sets of numbers with operations,
-            and their notation.
+            Here are a few <q>number systems</q>, or sets of numbers with
+            operations, and their notation.
             Assume all of the operations are the usual operations you've learned
             in math class along the way.
             <ul>
@@ -50,7 +51,7 @@
                             \mathbb{Z} = \{...,-3,-2,-1,0,1,2,3,...\}.
                         </md>
                         (The Z comes from the German word Zahl, which means
-                        "number")
+                        <q> number</q>.)
                     </p>
                 </li>
 
@@ -63,7 +64,7 @@
                         <md>
                             \mathbb{Q} = \left\{ \frac{a}{b}: a,b\in\mathbb{Z}, b\neq 0\right\}.
                         </md>
-                        (The Q is for quotient.)
+                        (The Q is for quotient.) The symbol <m>\in</m> means <q>is an element of</q> or <q>is in</q>. So here, this is saying <m>a</m> is an integer.
                     </p>
                 </li>
 
@@ -78,14 +79,17 @@
     </subsection>
 
     <subsection>
-        <title>Closure of a Set under an Operation</title>
+        <title>Closure of a Set Under an Operation</title>
 
         <p>
-            In Fact 2.1 of our textbook, the author writes ``The sum of integers
+            In Fact 2.1 of our textbook, the author writes
+            <q>The sum of integers
             is an integer, the difference of integers, and the product of
-            integers is an integer." We'll refer to these facts as "
+            integers is an integer.</q>
+            We'll refer to these facts as
+            <q>
             <term>the integers are closed under addition, subtraction, and multiplication</term>
-            ".
+            </q>
             We'll use these closure properties a lot when doing our first
             proofs.
         </p>
@@ -96,7 +100,7 @@
                 What's the set and what's the operation here?
             </caption>
 
-            <image source="images/Closure.jpg">
+            <image source="images/Closure.jpg" width="70%">
                 <shortdescription>
                     A comic.
                     A: "I don't get it, how could birds evolve from dinosaurs?".
@@ -106,8 +110,12 @@
         </figure>
     </subsection>
 
-       <activity>
-      <title>Closure properties</title>
+    <p>
+        <title>Closure properties</title>
+
+    </p>
+
+    <activity xml:id="act-closure">
         <introduction>
             <p>
                 Determine if each of the following are true or false, and
@@ -214,9 +222,12 @@
         </p>
     </subsection>
 
-    <worksheet>
+    <p>
         <title>Even and Odd Integers</title>
 
+    </p>
+
+    <activity>
         <introduction>
             <p>
                 Justify the following carefully, using the definitions of even
@@ -224,30 +235,30 @@
             </p>
         </introduction>
 
-        <exercise workspace="1in">
+        <task workspace="1in">
             <statement>
                 <p>
                     The integer <m> 5000 </m> is even.
                 </p>
             </statement>
-        </exercise>
+        </task>
 
-        <exercise workspace="1in">
+        <task workspace="1in">
             <statement>
                 <p>
                     The integer <m> -5 </m> is odd.
                 </p>
             </statement>
-        </exercise>
+        </task>
 
-        <exercise workspace="1in">
+        <task workspace="1in">
             <statement>
                 <p>
                     The integer <m> 0 </m> is not odd.
                 </p>
             </statement>
-        </exercise>
-    </worksheet>
+        </task>
+    </activity>
 
     <subsection>
         <title>Mathematical Proof Writing</title>
@@ -272,9 +283,11 @@
             Abstruse Goose.
         </p>
 
+    
+
         <figure xml:id="fig-writing2">
             <caption>A comic from Abstruse Goose.</caption>
-            <image source="images/ProofWriting.png">
+            <image source="images/ProofWriting.png" width="50%">
                 <shortdescription>
                     A comic: 2 people lost getting from A to B.
                     Years later, directions are 2 steps.
@@ -295,4 +308,4 @@
             pages 49, 50, 53, and 56.
         </p>
     </subsection>
-</section>
+</handout>
