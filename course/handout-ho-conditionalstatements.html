@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Intuitive Proofs</title>
+<title>Conditional Statements</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -135,7 +135,7 @@ eBookConfig.enable_chatcodes =  false;
 <textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
 </div>
 </div>
-<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><a class="up-button button" href="root-1-2.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ho-chessboardproblems.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ch-intuitiveproofs-3.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-intuitiveproofs.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-intuitiveproofs-5.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
@@ -151,10 +151,10 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-intuitiveproofs.html" class="internal"><span class="codenumber">1</span> <span class="title">Intuitive Proofs</span></a></div>
-<ul class="structural toc-item-list active">
+<ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-handout"><div class="toc-title-box"><a href="ho-chessboardproblems.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Chessboard Problems</span></a></div></li>
 <li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-intuitiveproofs-3.html" class="internal"><span class="codenumber">1.2</span> <span class="title">On patterns and conjectures</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="handout-ho-conditionalstatements.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Conditional Statements</span></a></div></li>
+<li class="toc-item toc-handout active"><div class="toc-title-box"><a href="handout-ho-conditionalstatements.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Conditional Statements</span></a></div></li>
 <li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-intuitiveproofs-5.html" class="internal"><span class="codenumber">1.4</span> <span class="title">The Pigeonhole Principle</span></a></div></li>
 <li class="toc-item toc-handout"><div class="toc-title-box"><a href="sec-TheGameSET.html" class="internal"><span class="codenumber">1.5</span> <span class="title">The Game SET</span></a></div></li>
 <li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-intuitiveproofs-7.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Welcome to phase 2 mathematics</span></a></div></li>
@@ -350,20 +350,128 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter"><div class="toc-title-box"><a href="homework.html" class="internal"><span class="codenumber">8</span> <span class="title">Homework</span></a></div></li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="chapter" id="ch-intuitiveproofs">
-<h2 class="heading">
-<span class="type">Chapter</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Intuitive Proofs</span>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<div class="print-controls-toggles">
+<form class="papersize-select" id="papersize-select">
+<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
+        </label><label><input type="radio" name="papersize" value="letter">Letter
+        </label>
+</form>
+<details class="print-options"><summary>Additional printing options</summary><div class="header-footer-options">
+<div class="header-option">
+<span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
+</div>
+<div class="footer-option">
+<span class="title">Print footers</span><label>First page<input type="checkbox" id="print-first-page-footer-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-footer-checkbox" checked></label>
+</div>
+</div>
+<div class="highlight-workspace-option">
+<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
+</div></details>
+</div>
+<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="handout" id="handout-ho-conditionalstatements" data-margins="0.75in 0.75in 0.75in 0.75in">
+<h2 class="heading hide-type">
+<span class="type">Handout</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Conditional Statements</span><div class="print-links"><a href="?printpreview=handout-ho-conditionalstatements" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
 </h2>
-<nav class="summary-links"><ul>
-<li><a href="ho-chessboardproblems.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Chessboard Problems</span></a></li>
-<li><a href="ch-intuitiveproofs-3.html" class="internal"><span class="codenumber">1.2</span> <span class="title">On patterns and conjectures</span></a></li>
-<li><a href="handout-ho-conditionalstatements.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Conditional Statements</span></a></li>
-<li><a href="ch-intuitiveproofs-5.html" class="internal"><span class="codenumber">1.4</span> <span class="title">The Pigeonhole Principle</span></a></li>
-<li><a href="sec-TheGameSET.html" class="internal"><span class="codenumber">1.5</span> <span class="title">The Game SET</span></a></li>
-<li><a href="ch-intuitiveproofs-7.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Welcome to phase 2 mathematics</span></a></li>
-</ul></nav><div class="autopermalink" data-description="Chapter 1: Intuitive Proofs"><a href="#ch-intuitiveproofs" title="Copy heading and permalink for Chapter 1: Intuitive Proofs" aria-label="Copy heading and permalink for Chapter 1: Intuitive Proofs">🔗</a></div></section></div>
+<article class="activity project-like" id="handout-ho-conditionalstatements-2"><h3 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The Wason Selection Test.</span>
+</h3>
+<article class="task exercise-like" id="handout-ho-conditionalstatements-2-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="handout-ho-conditionalstatements-2-2-1">A mathematician places a set of four cards on a table, each of which has a number on one side and a colored patch on the other side. She claims the following: if a card shows an even number on one face, then its opposite face is red The visible faces of the cards show 3, 8, red, and blue. Which card(s) must you turn over in order to test the truth of her claim? Carefully explain.<div class="autopermalink" data-description="Paragraph"><a href="#handout-ho-conditionalstatements-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" data-description="Task 4.a"><a href="#handout-ho-conditionalstatements-2-2" title="Copy heading and permalink for Task 4.a" aria-label="Copy heading and permalink for Task 4.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="handout-ho-conditionalstatements-2-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="handout-ho-conditionalstatements-2-3-1">It is a well known law in the United States that you must be 21 to consume alcohol. Suppose now that four cards are placed on the table each of which has an age on one side and a beverage on the other. The visible faces of the cards show 16, 22, coca-cola, and beer. If each card represents a person at the party, which card(s) must you check to make sure everyone at the party is a law abiding citizen. That is, which card(s) must you turn over to verify the proposition: if one is consuming an alcoholic beverage then one is over the age of 21 How does this relate to the previous problem?<div class="autopermalink" data-description="Paragraph"><a href="#handout-ho-conditionalstatements-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" data-description="Task 4.b"><a href="#handout-ho-conditionalstatements-2-3" title="Copy heading and permalink for Task 4.b" aria-label="Copy heading and permalink for Task 4.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="handout-ho-conditionalstatements-2-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="handout-ho-conditionalstatements-2-4-1">Statements of the form ``If... then..." are called conditional statements. We will explore conditional statements a lot in MTH 210. Based on the previous problems in this activities, answer the following. What must we do to establish that a conditional statement is true? What is the only way that a conditional statement can be false?<div class="autopermalink" data-description="Paragraph"><a href="#handout-ho-conditionalstatements-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1.5in"></div>
+<div class="autopermalink" data-description="Task 4.c"><a href="#handout-ho-conditionalstatements-2-4" title="Copy heading and permalink for Task 4.c" aria-label="Copy heading and permalink for Task 4.c">🔗</a></div>
+</article><div class="autopermalink" data-description="Activity 4: The Wason Selection Test"><a href="#handout-ho-conditionalstatements-2" title="Copy heading and permalink for Activity 4: The Wason Selection Test" aria-label="Copy heading and permalink for Activity 4: The Wason Selection Test">🔗</a></div>
+</article>
+<section class="paragraphs" id="handout-ho-conditionalstatements-3"><h3 class="heading"><span class="title">To do.</span></h3>
+<div class="para" id="handout-ho-conditionalstatements-3-2">Need images for this activity<div class="autopermalink" data-description="Paragraph"><a href="#handout-ho-conditionalstatements-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Paragraphs: To do"><a href="#handout-ho-conditionalstatements-3" title="Copy heading and permalink for Paragraphs: To do" aria-label="Copy heading and permalink for Paragraphs: To do">🔗</a></div>
+</section>
+<section class="paragraphs" id="handout-ho-conditionalstatements-4"><h3 class="heading"><span class="title">Disproving a conjecture, or showing a statement is false.</span></h3>
+<div class="para logical" id="handout-ho-conditionalstatements-4-2">
+<div class="para">There are several types of mathematical statements that we might disprove. Here’s 3 types:</div>
+<ul class="disc" id="handout-ho-conditionalstatements-4-2-1">
+<li id="handout-ho-conditionalstatements-4-2-1-1">
+<div class="para" id="handout-ho-conditionalstatements-4-2-1-1-1">For all (blah), (bleh).<div class="autopermalink" data-description="Paragraph"><a href="#handout-ho-conditionalstatements-4-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#handout-ho-conditionalstatements-4-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="handout-ho-conditionalstatements-4-2-1-2">
+<div class="para" id="handout-ho-conditionalstatements-4-2-1-2-1">There exists a (doodle) that (doddles).<div class="autopermalink" data-description="Paragraph"><a href="#handout-ho-conditionalstatements-4-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#handout-ho-conditionalstatements-4-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="handout-ho-conditionalstatements-4-2-1-3">
+<div class="para" id="handout-ho-conditionalstatements-4-2-1-3-1">If (loppity), then (luppity).<div class="autopermalink" data-description="Paragraph"><a href="#handout-ho-conditionalstatements-4-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#handout-ho-conditionalstatements-4-2-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#handout-ho-conditionalstatements-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="handout-ho-conditionalstatements-4-3">Disproving each of them is a little different. Let’s start, as the chapter title says, with your intuition about how you would disprove these.<div class="autopermalink" data-description="Paragraph"><a href="#handout-ho-conditionalstatements-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Paragraphs: Disproving a conjecture, or showing a statement is false"><a href="#handout-ho-conditionalstatements-4" title="Copy heading and permalink for Paragraphs: Disproving a conjecture, or showing a statement is false" aria-label="Copy heading and permalink for Paragraphs: Disproving a conjecture, or showing a statement is false">🔗</a></div>
+</section>
+<article class="activity project-like" id="handout-ho-conditionalstatements-5"><h3 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="introduction" id="handout-ho-conditionalstatements-5-1">
+<div class="para" id="handout-ho-conditionalstatements-5-1-1">Disprove the following statements.<div class="autopermalink" data-description="Paragraph"><a href="#handout-ho-conditionalstatements-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="handout-ho-conditionalstatements-5-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="handout-ho-conditionalstatements-5-2-1-1">For all natural numbers <details class="ptx-footnote" aria-live="polite" id="handout-ho-conditionalstatements-5-2-1-1-1"><summary class="ptx-footnote__number" title="Footnote 1"><sup> 1 </sup></summary>
+<div class="ptx-footnote__contents" id="handout-ho-conditionalstatements-5-2-1-1-1">The natural numbers, denoted <span class="process-math">\(\mathbb{N}\text{,}\)</span> are the set <span class="process-math">\(\{1,2,3,\dots\}\text{.}\)</span>
+</div></details> <span class="process-math">\(n\text{,}\)</span> <span class="process-math">\(n&lt;n^2\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#handout-ho-conditionalstatements-5-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 5.a"><a href="#handout-ho-conditionalstatements-5-2" title="Copy heading and permalink for Task 5.a" aria-label="Copy heading and permalink for Task 5.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="handout-ho-conditionalstatements-5-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="handout-ho-conditionalstatements-5-3-1-1">There exists a perfect covering of an <span class="process-math">\(8\times 8\)</span> chessboard with the top left and bottom right corners removed using dominoes.<div class="autopermalink" data-description="Paragraph"><a href="#handout-ho-conditionalstatements-5-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 5.b"><a href="#handout-ho-conditionalstatements-5-3" title="Copy heading and permalink for Task 5.b" aria-label="Copy heading and permalink for Task 5.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="handout-ho-conditionalstatements-5-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="handout-ho-conditionalstatements-5-4-1-1">If <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> are odd integers, and <span class="process-math">\(c\)</span> is any integer <details class="ptx-footnote" aria-live="polite" id="handout-ho-conditionalstatements-5-4-1-1-4"><summary class="ptx-footnote__number" title="Footnote 2"><sup> 2 </sup></summary>
+<div class="ptx-footnote__contents" id="handout-ho-conditionalstatements-5-4-1-1-4">The integers, denoted <span class="process-math">\(\mathbb{Z}\text{,}\)</span> are the set <span class="process-math">\(\{\dots,-3,-2,-1,0,1,2,3,\dots\}\text{.}\)</span> The odd integers are <span class="process-math">\(\{\dots, -5,-3,-1,1,3,5,\dots\}\text{.}\)</span>
+</div></details>, then <span class="process-math">\(cb+ca\)</span> is an odd integer.<div class="autopermalink" data-description="Paragraph"><a href="#handout-ho-conditionalstatements-5-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 5.c"><a href="#handout-ho-conditionalstatements-5-4" title="Copy heading and permalink for Task 5.c" aria-label="Copy heading and permalink for Task 5.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="handout-ho-conditionalstatements-5-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="handout-ho-conditionalstatements-5-5-1-1">How was it different to write a disproof for each type of statement? How was it similar?<div class="autopermalink" data-description="Paragraph"><a href="#handout-ho-conditionalstatements-5-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 5.d"><a href="#handout-ho-conditionalstatements-5-5" title="Copy heading and permalink for Task 5.d" aria-label="Copy heading and permalink for Task 5.d">🔗</a></div>
+</article><div class="autopermalink" data-description="Activity 5"><a href="#handout-ho-conditionalstatements-5" title="Copy heading and permalink for Activity 5" aria-label="Copy heading and permalink for Activity 5">🔗</a></div>
+</article><div class="autopermalink" data-description="Handout 1.3: Conditional Statements"><a href="#handout-ho-conditionalstatements" title="Copy heading and permalink for Handout 1.3: Conditional Statements" aria-label="Copy heading and permalink for Handout 1.3: Conditional Statements">🔗</a></div>
+</section>
+</div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ho-chessboardproblems.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="ch-intuitiveproofs-3.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-intuitiveproofs-5.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">

@@ -1,72 +1,72 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "ch-intuitiveproofs-2",
+  "id": "ho-chessboardproblems",
   "level": "1",
-  "url": "ch-intuitiveproofs-2.html",
-  "type": "Section",
+  "url": "ho-chessboardproblems.html",
+  "type": "Handout",
   "number": "1.1",
   "title": "Chessboard Problems",
-  "body": " Chessboard Problems   Some of my favorite parts of mathematics are ones that feel like games or puzzles. The domino covering problem that you read about for today's class is one of them! To start, let's refresh our memories of some definitions and propositions from your text:    A perfect cover of an board with dominoes is an arrangement of those dominoes on the chessboard with no squares left uncovered, and no dominoes stacked or left hanging off the end.      There exists a perfect cover of an chessboard.    Proof idea:    If one crosses out the top-left square. of an chessboard, the remaining squares cannot be perfectly covered by dominoes.    Proof idea:    If one crosses out the top-left square and bottom-right square of an chessboard, the remaining squares cannot be perfectly covered by dominoes.    Proof idea:   Additional questions from the reading      Question 1: If I remove two squares of different colors from an chessboard, must the result have a perfect cover?     Question 2: If I remove four squares - two black, two white - from an chessboard, must the result have a perfect cover?     Question 3: For every pair of positive integers and , does there exist a perfect cover of the chessboard by dominoes?      What are some other questions we could ask?    Explore one of the questions you've asked with your team.  Note that you can use one of these as a play, conjecture, prove problem for your proof portfolio. (More on that later.)      The game Tetris is played with five different shapes - the five shapes that can be obtained by piecing together 4 unit squares:   Five Tetris pieces in     A Tetris piece                 A Tetris piece                 A Tetris piece                 A Tetris piece                 A Tetris piece                  For the questions below, we also allow these pieces to be flipped over.      Is it possible to perfectly cover a chessboard using each of these shapes exactly once? Use an example to show that it is possible, or prove that it is impossible.      Is it possible to perfectly cover an chessboard using each of these shapes exactly twice? Use an example to show that it is possible, or prove that it is impossible.     The author starts with these chessboard problems to demonstrate that more advanced mathematics is often considerably different from algebra and calculus. Rather than using algorithms to solve a collection of similar problems, we are interested in other things.   A mathematician, like a painter or a poet, is a maker of patterns. If her patterns are more permanent than theirs, it is because they are made with ideas. The mathematician's patterns, like the painter's or the poet's, must be beautiful; the ideas, like the colours or the words, must fit together in a harmonious way. Beauty is the first test: there is no permanent place in the world for ugly mathematics.  G. H. Hardy (1877 - 1947)    "
+  "body": " Chessboard Problems  Some of my favorite parts of mathematics are ones that feel like games or puzzles. The domino covering problem that you read about for today's class is one of them! To start, let's refresh our memories of some definitions and propositions from your text:    A perfect cover of an board with dominoes is an arrangement of those dominoes on the chessboard with no squares left uncovered, and no dominoes stacked or left hanging off the end.      There exists a perfect cover of an chessboard.    Proof idea:    If one crosses out the top-left square. of an chessboard, the remaining squares cannot be perfectly covered by dominoes.    Proof idea:    If one crosses out the top-left square and bottom-right square of an chessboard, the remaining squares cannot be perfectly covered by dominoes.    Proof idea:   Additional questions from the reading      Question 1: If I remove two squares of different colors from an chessboard, must the result have a perfect cover?     Question 2: If I remove four squares - two black, two white - from an chessboard, must the result have a perfect cover?     Question 3: For every pair of positive integers and , does there exist a perfect cover of the chessboard by dominoes?      What are some other questions we could ask?    Explore one of the questions you've asked with your team.  Note that you can use one of these as a play, conjecture, prove problem for your proof portfolio. (More on that later.)      The game Tetris is played with five different shapes - the five shapes that can be obtained by piecing together 4 unit squares:   Five Tetris pieces in     A Tetris piece                 A Tetris piece                 A Tetris piece                 A Tetris piece                 A Tetris piece                  For the questions below, we also allow these pieces to be flipped over.      Is it possible to perfectly cover a chessboard using each of these shapes exactly once? Use an example to show that it is possible, or prove that it is impossible.      Is it possible to perfectly cover an chessboard using each of these shapes exactly twice? Use an example to show that it is possible, or prove that it is impossible.     The author starts with these chessboard problems to demonstrate that more advanced mathematics is often considerably different from algebra and calculus. Rather than using algorithms to solve a collection of similar problems, we are interested in other things.   A mathematician, like a painter or a poet, is a maker of patterns. If her patterns are more permanent than theirs, it is because they are made with ideas. The mathematician's patterns, like the painter's or the poet's, must be beautiful; the ideas, like the colours or the words, must fit together in a harmonious way. Beauty is the first test: there is no permanent place in the world for ugly mathematics.  G. H. Hardy (1877 - 1947)   "
 },
 {
-  "id": "ho-chessboardproblems-2",
+  "id": "ho-chessboardproblems-3",
   "level": "2",
-  "url": "ch-intuitiveproofs-2.html#ho-chessboardproblems-2",
+  "url": "ho-chessboardproblems.html#ho-chessboardproblems-3",
   "type": "Definition",
   "number": "1",
   "title": "",
   "body": "  A perfect cover of an board with dominoes is an arrangement of those dominoes on the chessboard with no squares left uncovered, and no dominoes stacked or left hanging off the end.   "
 },
 {
-  "id": "ho-chessboardproblems-3",
+  "id": "ho-chessboardproblems-4",
   "level": "2",
-  "url": "ch-intuitiveproofs-2.html#ho-chessboardproblems-3",
+  "url": "ho-chessboardproblems.html#ho-chessboardproblems-4",
   "type": "Proposition",
   "number": "2",
   "title": "",
   "body": "  There exists a perfect cover of an chessboard.   "
 },
 {
-  "id": "ho-chessboardproblems-5",
+  "id": "ho-chessboardproblems-6",
   "level": "2",
-  "url": "ch-intuitiveproofs-2.html#ho-chessboardproblems-5",
+  "url": "ho-chessboardproblems.html#ho-chessboardproblems-6",
   "type": "Proposition",
   "number": "3",
   "title": "",
   "body": "  If one crosses out the top-left square. of an chessboard, the remaining squares cannot be perfectly covered by dominoes.   "
 },
 {
-  "id": "ho-chessboardproblems-7",
+  "id": "ho-chessboardproblems-8",
   "level": "2",
-  "url": "ch-intuitiveproofs-2.html#ho-chessboardproblems-7",
+  "url": "ho-chessboardproblems.html#ho-chessboardproblems-8",
   "type": "Proposition",
   "number": "4",
   "title": "",
   "body": "  If one crosses out the top-left square and bottom-right square of an chessboard, the remaining squares cannot be perfectly covered by dominoes.   "
 },
 {
-  "id": "ho-chessboardproblems-9-2",
+  "id": "ho-chessboardproblems-10-2",
   "level": "2",
-  "url": "ch-intuitiveproofs-2.html#ho-chessboardproblems-9-2",
+  "url": "ho-chessboardproblems.html#ho-chessboardproblems-10-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Question 1: Question 2: Question 3: "
 },
 {
-  "id": "ho-chessboardproblems-11",
+  "id": "ho-chessboardproblems-12",
   "level": "2",
-  "url": "ch-intuitiveproofs-2.html#ho-chessboardproblems-11",
+  "url": "ho-chessboardproblems.html#ho-chessboardproblems-12",
   "type": "Activity",
   "number": "1",
   "title": "",
   "body": "  Explore one of the questions you've asked with your team.  Note that you can use one of these as a play, conjecture, prove problem for your proof portfolio. (More on that later.)   "
 },
 {
-  "id": "ho-chessboardproblems-12",
+  "id": "ho-chessboardproblems-13",
   "level": "2",
-  "url": "ch-intuitiveproofs-2.html#ho-chessboardproblems-12",
+  "url": "ho-chessboardproblems.html#ho-chessboardproblems-13",
   "type": "Activity",
   "number": "2",
   "title": "",
@@ -76,51 +76,51 @@ var ptx_lunr_docs = [
   "id": "ch-intuitiveproofs-3",
   "level": "1",
   "url": "ch-intuitiveproofs-3.html",
-  "type": "Section",
+  "type": "Handout",
   "number": "1.2",
   "title": "On patterns and conjectures",
-  "body": " On patterns and conjectures   Let's look for patterns and make conjectures or are statements that we think are probably true.    Go with your group to the whiteboard. As directed, work on one of the following prompts. (I will take pictures of your work and post.)    Consider the expression Evaluate this expression for at least 10 different integer values of , including some negative values and 0, as well as positive ones. What conjectures can you make regarding this expression and the related numbers you find?    Consider the equation Can you find an ordered pair of integers that makes the equation true? If yes, can you characterize all such ordered pairs? If not, why not? What conjecture(s) can you make about this equation? About related equations?    Consider the expression Evaluate this expression for at least 10 different natural number values of . What conjectures can you make regarding this expression and the numbers you find?     "
+  "body": " On patterns and conjectures  Let's look for patterns and make conjectures or are statements that we think are probably true.    Go with your group to the whiteboard. As directed, work on one of the following prompts. (I will take pictures of your work and post.)    Consider the expression Evaluate this expression for at least 10 different integer values of , including some negative values and 0, as well as positive ones. What conjectures can you make regarding this expression and the related numbers you find?    Consider the equation Can you find an ordered pair of integers that makes the equation true? If yes, can you characterize all such ordered pairs? If not, why not? What conjecture(s) can you make about this equation? About related equations?    Consider the expression Evaluate this expression for at least 10 different natural number values of . What conjectures can you make regarding this expression and the numbers you find?    "
 },
 {
-  "id": "ch-intuitiveproofs-3-2-1",
+  "id": "ch-intuitiveproofs-3-2",
   "level": "2",
-  "url": "ch-intuitiveproofs-3.html#ch-intuitiveproofs-3-2-1",
+  "url": "ch-intuitiveproofs-3.html#ch-intuitiveproofs-3-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "conjectures "
 },
 {
-  "id": "ch-intuitiveproofs-3-2-2",
+  "id": "ch-intuitiveproofs-3-3",
   "level": "2",
-  "url": "ch-intuitiveproofs-3.html#ch-intuitiveproofs-3-2-2",
+  "url": "ch-intuitiveproofs-3.html#ch-intuitiveproofs-3-3",
   "type": "Activity",
   "number": "3",
   "title": "",
   "body": "  Go with your group to the whiteboard. As directed, work on one of the following prompts. (I will take pictures of your work and post.)    Consider the expression Evaluate this expression for at least 10 different integer values of , including some negative values and 0, as well as positive ones. What conjectures can you make regarding this expression and the related numbers you find?    Consider the equation Can you find an ordered pair of integers that makes the equation true? If yes, can you characterize all such ordered pairs? If not, why not? What conjecture(s) can you make about this equation? About related equations?    Consider the expression Evaluate this expression for at least 10 different natural number values of . What conjectures can you make regarding this expression and the numbers you find?   "
 },
 {
-  "id": "ch-intuitiveproofs-4",
+  "id": "handout-ho-conditionalstatements",
   "level": "1",
-  "url": "ch-intuitiveproofs-4.html",
-  "type": "Section",
+  "url": "handout-ho-conditionalstatements.html",
+  "type": "Handout",
   "number": "1.3",
   "title": "Conditional Statements",
-  "body": " Conditional Statements    The Wason Selection Test   A mathematician places a set of four cards on a table, each of which has a number on one side and a colored patch on the other side. She claims the following: if a card shows an even number on one face, then its opposite face is red The visible faces of the cards show 3, 8, red, and blue. Which card(s) must you turn over in order to test the truth of her claim? Carefully explain.    It is a well known law in the United States that you must be 21 to consume alcohol. Suppose now that four cards are placed on the table each of which has an age on one side and a beverage on the other. The visible faces of the cards show 16, 22, coca-cola, and beer. If each card represents a person at the party, which card(s) must you check to make sure everyone at the party is a law abiding citizen. That is, which card(s) must you turn over to verify the proposition: if one is consuming an alcoholic beverage then one is over the age of 21 How does this relate to the previous problem?    Statements of the form ``If... then...\" are called conditional statements. We will explore conditional statements a lot in MTH 210. Based on the previous problems in this activities, answer the following. What must we do to establish that a conditional statement is true? What is the only way that a conditional statement can be false?     To do  Need images for this activity    Disproving a conjecture, or showing a statement is false  There are several types of mathematical statements that we might disprove. Here's 3 types:   For all (blah), (bleh).    There exists a (doodle) that (doddles).    If (loppity), then (luppity).     Disproving each of them is a little different. Let's start, as the chapter title says, with your intuition about how you would disprove these.     Disprove the following statements.     For all natural numbers The natural numbers, denoted , are the set .  , .      There exists a perfect covering of an chessboard with the top left and bottom right corners removed using dominoes.      If and are odd integers, and is any integer The integers, denoted , are the set . The odd integers are . , then is an odd integer.      How was it different to write a disproof for each type of statement? How was it similar?      "
+  "body": " Conditional Statements   The Wason Selection Test   A mathematician places a set of four cards on a table, each of which has a number on one side and a colored patch on the other side. She claims the following: if a card shows an even number on one face, then its opposite face is red The visible faces of the cards show 3, 8, red, and blue. Which card(s) must you turn over in order to test the truth of her claim? Carefully explain.    It is a well known law in the United States that you must be 21 to consume alcohol. Suppose now that four cards are placed on the table each of which has an age on one side and a beverage on the other. The visible faces of the cards show 16, 22, coca-cola, and beer. If each card represents a person at the party, which card(s) must you check to make sure everyone at the party is a law abiding citizen. That is, which card(s) must you turn over to verify the proposition: if one is consuming an alcoholic beverage then one is over the age of 21 How does this relate to the previous problem?    Statements of the form ``If... then...\" are called conditional statements. We will explore conditional statements a lot in MTH 210. Based on the previous problems in this activities, answer the following. What must we do to establish that a conditional statement is true? What is the only way that a conditional statement can be false?     To do  Need images for this activity    Disproving a conjecture, or showing a statement is false  There are several types of mathematical statements that we might disprove. Here's 3 types:   For all (blah), (bleh).    There exists a (doodle) that (doddles).    If (loppity), then (luppity).     Disproving each of them is a little different. Let's start, as the chapter title says, with your intuition about how you would disprove these.     Disprove the following statements.     For all natural numbers The natural numbers, denoted , are the set .  , .      There exists a perfect covering of an chessboard with the top left and bottom right corners removed using dominoes.      If and are odd integers, and is any integer The integers, denoted , are the set . The odd integers are . , then is an odd integer.      How was it different to write a disproof for each type of statement? How was it similar?     "
 },
 {
-  "id": "handout-ho-conditionalstatements-1",
+  "id": "handout-ho-conditionalstatements-2",
   "level": "2",
-  "url": "ch-intuitiveproofs-4.html#handout-ho-conditionalstatements-1",
+  "url": "handout-ho-conditionalstatements.html#handout-ho-conditionalstatements-2",
   "type": "Activity",
   "number": "4",
   "title": "The Wason Selection Test.",
   "body": " The Wason Selection Test   A mathematician places a set of four cards on a table, each of which has a number on one side and a colored patch on the other side. She claims the following: if a card shows an even number on one face, then its opposite face is red The visible faces of the cards show 3, 8, red, and blue. Which card(s) must you turn over in order to test the truth of her claim? Carefully explain.    It is a well known law in the United States that you must be 21 to consume alcohol. Suppose now that four cards are placed on the table each of which has an age on one side and a beverage on the other. The visible faces of the cards show 16, 22, coca-cola, and beer. If each card represents a person at the party, which card(s) must you check to make sure everyone at the party is a law abiding citizen. That is, which card(s) must you turn over to verify the proposition: if one is consuming an alcoholic beverage then one is over the age of 21 How does this relate to the previous problem?    Statements of the form ``If... then...\" are called conditional statements. We will explore conditional statements a lot in MTH 210. Based on the previous problems in this activities, answer the following. What must we do to establish that a conditional statement is true? What is the only way that a conditional statement can be false?   "
 },
 {
-  "id": "handout-ho-conditionalstatements-4",
+  "id": "handout-ho-conditionalstatements-5",
   "level": "2",
-  "url": "ch-intuitiveproofs-4.html#handout-ho-conditionalstatements-4",
+  "url": "handout-ho-conditionalstatements.html#handout-ho-conditionalstatements-5",
   "type": "Activity",
   "number": "5",
   "title": "",
@@ -130,42 +130,42 @@ var ptx_lunr_docs = [
   "id": "ch-intuitiveproofs-5",
   "level": "1",
   "url": "ch-intuitiveproofs-5.html",
-  "type": "Section",
+  "type": "Handout",
   "number": "1.4",
   "title": "The Pigeonhole Principle",
-  "body": " The Pigeonhole Principle   As a reminder, here's the statement of the pigeonhole principle.   The pigeonhole principle ( Principle 1.5 in your text. ) The principle has a simple form and a general form. Assume and are positive integers. The positive integers are these numbers: 1,2,3,4.... We will call these the natural numbers, and denote , but mathematicians disagree about whether is a natural number, so the author writes positive integers.    Simple form: If objects are placed into boxes, then at least one box has at least two objects in it.   General form: If objects are placed into boxes, then at least one box has at least objects in it.     Let's begin with some true\/false questions. Explain your answers.     True\/False: If objects are placed in boxes, then every box has at least 2 items.      True\/False: If objects are placed in boxes, then no box is empty.      True\/False: Given objects placed in boxes, at least one box has objects in it.       Read (aloud) pages 17-18 of your textbook (starting at Mathematical Examples and ending before Proposition 1.10) with your team. Pause every paragraph (at least) to ask questions, and rephrase what you have read.      In the following, identify what version of the pigeonhole principle are you using, what the objects and boxes are, and the value and meaning of any variables (e.g., and ). Suppose you deal a pile of cards, face down, from a shuffled deck of cards (this is a standard 52-card deck, where each card is one of 4 suits and one of 13 ranks). How many must you deal until you are guaranteed...     five of the same suit?      two of the same rank?      three of the same rank?      four of the same rank?      two of one rank and three of another?       Given any 101 integers from at least one these numbers will divide another.  This is a problem posed by Paul Erdős, who was a Hungarian mathematician famous for problem solving. This problem is a challenge and will introduce a few ideas which we have not yet discussed, but the goal for this chapter is to get our feet wet, to have fun proving some interesting things, and to push your problem solving skills. If time: Discuss with your team - what could the boxes be? How do we sort into the boxes?      "
+  "body": " The Pigeonhole Principle  As a reminder, here's the statement of the pigeonhole principle.   The pigeonhole principle ( Principle 1.5 in your text. ) The principle has a simple form and a general form. Assume and are positive integers. The positive integers are these numbers: 1,2,3,4.... We will call these the natural numbers, and denote , but mathematicians disagree about whether is a natural number, so the author writes positive integers.    Simple form: If objects are placed into boxes, then at least one box has at least two objects in it.   General form: If objects are placed into boxes, then at least one box has at least objects in it.     Let's begin with some true\/false questions. Explain your answers.     True\/False: If objects are placed in boxes, then every box has at least 2 items.      True\/False: If objects are placed in boxes, then no box is empty.      True\/False: Given objects placed in boxes, at least one box has objects in it.       Read (aloud) pages 17-18 of your textbook (starting at Mathematical Examples and ending before Proposition 1.10) with your team. Pause every paragraph (at least) to ask questions, and rephrase what you have read.      In the following, identify what version of the pigeonhole principle are you using, what the objects and boxes are, and the value and meaning of any variables (e.g., and ). Suppose you deal a pile of cards, face down, from a shuffled deck of cards (this is a standard 52-card deck, where each card is one of 4 suits and one of 13 ranks). How many must you deal until you are guaranteed...     five of the same suit?      two of the same rank?      three of the same rank?      four of the same rank?      two of one rank and three of another?       Given any 101 integers from at least one these numbers will divide another.  This is a problem posed by Paul Erdős, who was a Hungarian mathematician famous for problem solving. This problem is a challenge and will introduce a few ideas which we have not yet discussed, but the goal for this chapter is to get our feet wet, to have fun proving some interesting things, and to push your problem solving skills. If time: Discuss with your team - what could the boxes be? How do we sort into the boxes?     "
 },
 {
-  "id": "ch-intuitiveproofs-5-2-2",
+  "id": "ch-intuitiveproofs-5-3",
   "level": "2",
-  "url": "ch-intuitiveproofs-5.html#ch-intuitiveproofs-5-2-2",
+  "url": "ch-intuitiveproofs-5.html#ch-intuitiveproofs-5-3",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "The pigeonhole principle "
 },
 {
-  "id": "ch-intuitiveproofs-5-2-3",
+  "id": "ch-intuitiveproofs-5-4",
   "level": "2",
-  "url": "ch-intuitiveproofs-5.html#ch-intuitiveproofs-5-2-3",
+  "url": "ch-intuitiveproofs-5.html#ch-intuitiveproofs-5-4",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Simple form: "
 },
 {
-  "id": "ch-intuitiveproofs-5-2-4",
+  "id": "ch-intuitiveproofs-5-5",
   "level": "2",
-  "url": "ch-intuitiveproofs-5.html#ch-intuitiveproofs-5-2-4",
+  "url": "ch-intuitiveproofs-5.html#ch-intuitiveproofs-5-5",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "General form: "
 },
 {
-  "id": "ch-intuitiveproofs-5-2-5",
+  "id": "ch-intuitiveproofs-5-6",
   "level": "2",
-  "url": "ch-intuitiveproofs-5.html#ch-intuitiveproofs-5-2-5",
+  "url": "ch-intuitiveproofs-5.html#ch-intuitiveproofs-5-6",
   "type": "Activity",
   "number": "6",
   "title": "",
@@ -175,62 +175,62 @@ var ptx_lunr_docs = [
   "id": "sec-TheGameSET",
   "level": "1",
   "url": "sec-TheGameSET.html",
-  "type": "Section",
+  "type": "Handout",
   "number": "1.5",
   "title": "The Game SET",
-  "body": " The Game SET   To provide us with another initial playground for exploring some mathematical ideas, meet the wonderful card game SET (if you've never played it before). It is filled with superb mathematical ideas. This is another option for a play, conjecture, prove problem for your proof portfolio.  Each card in the deck has three symbols on it, characterized by four attributes:    number : one, two, or three symbols;     color : red, purple, or green;     shading : empty, striped, or solid;     shape : oval, diamond, or squiggle.      Every possible combination appears in the deck exactly once . A  set  comprises three cards for which each attribute is independently either all the same or all different. It's important to note that the number of attributes that are the same can vary. On the document camera, let's find some examples among the 12 cards present.    At your table in your group of 3-4 students, play several hands of SET.    After you have each found a couple of sets, stop playing and do the following: develop some mathematically significant questions about the game SET. Your main task is to ask questions .    After you have stated several questions, choose at least one of them and use your question to make a conjecture .    After you have made a conjecture, try to prove it. If you can prove it, then you have a theorem. If no one can prove it, then you have a conjecture that is still open.     What is math? to do: Why is the text not appearing?  There's some fundamental ideas in the previous activity about doing mathematics. We play, we notice, we conjecture, we prove (or disprove). Let's answer the following questions.  What is a conjecture?  What is a theorem? What's the difference between a conjecture and a theorem?  What is a proof? What is a disproof? What does it mean for a conjecture to be open?     (The Fundamental Theorem of SET) Given any two cards from the deck in SET, those two cards determine a _____.     Choose any two cards in the deck. Consider one of the four attributes. Either the two cards are _____ in that attribute or they are _____. If they are the same, then the third card in the set must be _____ in that attribute; if they are different, then the third card in the set must have the _____ _____ of that attribute.  Since this happens for each of the four attributes, the four traits of the potential third card are _____ determined. Moreover, since every possible combination of the four attributes appears exactly once in the deck, we know that such a card exists, and hence there is _____ set that contains the original two given cards.   For the Play, Conjecture Prove problem (Proof Portfolio #1), you can pick one of the questions you asked with your team, explore an answer, and prove something. There's a deck of SET cards in the PCS, or ask me if you need one. Maybe some enterprising student would like to organize a SET tournament sometime this semester.   "
+  "body": " The Game SET  To provide us with another initial playground for exploring some mathematical ideas, meet the wonderful card game SET (if you've never played it before). It is filled with superb mathematical ideas. This is another option for a play, conjecture, prove problem for your proof portfolio.  Each card in the deck has three symbols on it, characterized by four attributes:    number : one, two, or three symbols;     color : red, purple, or green;     shading : empty, striped, or solid;     shape : oval, diamond, or squiggle.      Every possible combination appears in the deck exactly once . A  set  comprises three cards for which each attribute is independently either all the same or all different. It's important to note that the number of attributes that are the same can vary. On the document camera, let's find some examples among the 12 cards present.    At your table in your group of 3-4 students, play several hands of SET.    After you have each found a couple of sets, stop playing and do the following: develop some mathematically significant questions about the game SET. Your main task is to ask questions .    After you have stated several questions, choose at least one of them and use your question to make a conjecture .    After you have made a conjecture, try to prove it. If you can prove it, then you have a theorem. If no one can prove it, then you have a conjecture that is still open.     What is math? to do: Why is the text not appearing?  There's some fundamental ideas in the previous activity about doing mathematics. We play, we notice, we conjecture, we prove (or disprove). Let's answer the following questions.  What is a conjecture?  What is a theorem? What's the difference between a conjecture and a theorem?  What is a proof? What is a disproof? What does it mean for a conjecture to be open?     (The Fundamental Theorem of SET) Given any two cards from the deck in SET, those two cards determine a _____.     Choose any two cards in the deck. Consider one of the four attributes. Either the two cards are _____ in that attribute or they are _____. If they are the same, then the third card in the set must be _____ in that attribute; if they are different, then the third card in the set must have the _____ _____ of that attribute.  Since this happens for each of the four attributes, the four traits of the potential third card are _____ determined. Moreover, since every possible combination of the four attributes appears exactly once in the deck, we know that such a card exists, and hence there is _____ set that contains the original two given cards.   For the Play, Conjecture Prove problem (Proof Portfolio #1), you can pick one of the questions you asked with your team, explore an answer, and prove something. There's a deck of SET cards in the PCS, or ask me if you need one. Maybe some enterprising student would like to organize a SET tournament sometime this semester.  "
 },
 {
-  "id": "sec-TheGameSET-2-1",
+  "id": "sec-TheGameSET-2",
   "level": "2",
-  "url": "sec-TheGameSET.html#sec-TheGameSET-2-1",
+  "url": "sec-TheGameSET.html#sec-TheGameSET-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "SET "
 },
 {
-  "id": "sec-TheGameSET-2-2",
+  "id": "sec-TheGameSET-3",
   "level": "2",
-  "url": "sec-TheGameSET.html#sec-TheGameSET-2-2",
+  "url": "sec-TheGameSET.html#sec-TheGameSET-3",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "number color shading shape "
 },
 {
-  "id": "sec-TheGameSET-2-3",
+  "id": "sec-TheGameSET-4",
   "level": "2",
-  "url": "sec-TheGameSET.html#sec-TheGameSET-2-3",
+  "url": "sec-TheGameSET.html#sec-TheGameSET-4",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "set "
 },
 {
-  "id": "sec-TheGameSET-2-4",
+  "id": "sec-TheGameSET-5",
   "level": "2",
-  "url": "sec-TheGameSET.html#sec-TheGameSET-2-4",
+  "url": "sec-TheGameSET.html#sec-TheGameSET-5",
   "type": "Activity",
   "number": "7",
   "title": "",
   "body": "  At your table in your group of 3-4 students, play several hands of SET.    After you have each found a couple of sets, stop playing and do the following: develop some mathematically significant questions about the game SET. Your main task is to ask questions .    After you have stated several questions, choose at least one of them and use your question to make a conjecture .    After you have made a conjecture, try to prove it. If you can prove it, then you have a theorem. If no one can prove it, then you have a conjecture that is still open.   "
 },
 {
-  "id": "sec-TheGameSET-2-6",
+  "id": "sec-TheGameSET-7",
   "level": "2",
-  "url": "sec-TheGameSET.html#sec-TheGameSET-2-6",
+  "url": "sec-TheGameSET.html#sec-TheGameSET-7",
   "type": "Theorem",
   "number": "6",
   "title": "",
   "body": "  (The Fundamental Theorem of SET) Given any two cards from the deck in SET, those two cards determine a _____.   "
 },
 {
-  "id": "sec-TheGameSET-2-7",
+  "id": "sec-TheGameSET-8",
   "level": "2",
-  "url": "sec-TheGameSET.html#sec-TheGameSET-2-7",
+  "url": "sec-TheGameSET.html#sec-TheGameSET-8",
   "type": "Proof",
-  "number": "1",
+  "number": "1.5.1",
   "title": "",
   "body": " Choose any two cards in the deck. Consider one of the four attributes. Either the two cards are _____ in that attribute or they are _____. If they are the same, then the third card in the set must be _____ in that attribute; if they are different, then the third card in the set must have the _____ _____ of that attribute.  Since this happens for each of the four attributes, the four traits of the potential third card are _____ determined. Moreover, since every possible combination of the four attributes appears exactly once in the deck, we know that such a card exists, and hence there is _____ set that contains the original two given cards.  "
 },
@@ -238,15 +238,15 @@ var ptx_lunr_docs = [
   "id": "ch-intuitiveproofs-7",
   "level": "1",
   "url": "ch-intuitiveproofs-7.html",
-  "type": "Section",
+  "type": "Handout",
   "number": "1.6",
   "title": "Welcome to phase 2 mathematics",
-  "body": " Welcome to phase 2 mathematics    What is Mathematics? What is a proof? Why do we prove things? What happens next? Does it always work? How many are there? Why does it work? What if we tried this instead? Questions such as these are at the heart of mathematics, where we seek to identify, understand, and explain patterns. Before we begin, here are 10 Things I Want You to Know.     Math 210 may be the most important course in the mathematics major. Many future courses rely heavily on it (315, 331, 350, 408, 441, 450, 495, and more) and it is helpful in many others (204, 205, 304, 360, 402, 498 and more). More than this, being a critical and independent thinker, creative problem solver, and excellent communicator are incredibly valuable professional skills . To be a math major, it is important to become reasonably good at the kinds of things we do in Math 210 and to find all of them familiar.    Get to know your classmates. Be an active participant in class. Use class time to build understanding. Use ``rough draft language.'' Be honest with yourself about your understanding. Be unafraid to struggle and\/or fail. Ask questions. Our meetings will be structured to encourage these behaviors.    On working in small groups with others: for effective group work, what do you need your group mates to do? what do you need your group mates not to do? What do you need Professor Keough to do? What do you need to do? (on a note card, write your thoughts on each question; then share with your group and update as needed, then submit your notecards to me). Random groups will be assigned for the first month in the course in order to find who you work well with. Then we will work toward more consistent and stable seating arrangements.    Use drop-in hours. Five minutes of conversation with your professor can sometimes be at least as effective as an hour on your own. Use drop-in hours. Ask for an appointment if drop-in hours don't work for you.    Work on Math 210 5 days a week, 8-10 hours a week.   Preview activities for each class day (30-60 minutes per class: 1-2 hours each week);    3-5 ``weekly practice'' homework exercises each week (1.5-2 hours per week: 20-30 minutes per exercise, plus preparing for 3 short presentations over the course of the semester);    Overall reading, studying, and summarizing, including making a notecard for the check point (2-3 hours each week);    Proof portfolio problems (3-4 hours a week). The portfolio project will begin by the end of the 2nd week of class. During the first two weeks of the course, expect to spend some time invested to learn how to use \\LaTeX~(with support from me), which is the typesetting software we will use for all of our professional writing.        Your textbook is designed just for you. It is made to be read, to be worked on, and to have notes taken.     GVSU has a Math 210 YouTube Channel: (Note - this follows a different order than our textbook!)    Be certain to fully read the syllabus. Meet with me, in-person, for 5 minutes, within the first 3 weeks of the semester. Just to get to know one another a bit and so you know where the PCS is located If posted drop-in hours don't work, email me for an appointment.    In the \" Weekly To Do \" document on Blackboard I'll post what needs to be done for the following week after class on Thursday.    I want you to be successful.     "
+  "body": " Welcome to phase 2 mathematics   What is Mathematics? What is a proof? Why do we prove things? What happens next? Does it always work? How many are there? Why does it work? What if we tried this instead? Questions such as these are at the heart of mathematics, where we seek to identify, understand, and explain patterns. Before we begin, here are 10 Things I Want You to Know.     Math 210 may be the most important course in the mathematics major. Many future courses rely heavily on it (315, 331, 350, 408, 441, 450, 495, and more) and it is helpful in many others (204, 205, 304, 360, 402, 498 and more). More than this, being a critical and independent thinker, creative problem solver, and excellent communicator are incredibly valuable professional skills . To be a math major, it is important to become reasonably good at the kinds of things we do in Math 210 and to find all of them familiar.    Get to know your classmates. Be an active participant in class. Use class time to build understanding. Use ``rough draft language.'' Be honest with yourself about your understanding. Be unafraid to struggle and\/or fail. Ask questions. Our meetings will be structured to encourage these behaviors.    On working in small groups with others: for effective group work, what do you need your group mates to do? what do you need your group mates not to do? What do you need Professor Keough to do? What do you need to do? (on a note card, write your thoughts on each question; then share with your group and update as needed, then submit your notecards to me). Random groups will be assigned for the first month in the course in order to find who you work well with. Then we will work toward more consistent and stable seating arrangements.    Use drop-in hours. Five minutes of conversation with your professor can sometimes be at least as effective as an hour on your own. Use drop-in hours. Ask for an appointment if drop-in hours don't work for you.    Work on Math 210 5 days a week, 8-10 hours a week.   Preview activities for each class day (30-60 minutes per class: 1-2 hours each week);    3-5 ``weekly practice'' homework exercises each week (1.5-2 hours per week: 20-30 minutes per exercise, plus preparing for 3 short presentations over the course of the semester);    Overall reading, studying, and summarizing, including making a notecard for the check point (2-3 hours each week);    Proof portfolio problems (3-4 hours a week). The portfolio project will begin by the end of the 2nd week of class. During the first two weeks of the course, expect to spend some time invested to learn how to use \\LaTeX~(with support from me), which is the typesetting software we will use for all of our professional writing.        Your textbook is designed just for you. It is made to be read, to be worked on, and to have notes taken.     GVSU has a Math 210 YouTube Channel: (Note - this follows a different order than our textbook!)    Be certain to fully read the syllabus. Meet with me, in-person, for 5 minutes, within the first 3 weeks of the semester. Just to get to know one another a bit and so you know where the PCS is located If posted drop-in hours don't work, email me for an appointment.    In the \" Weekly To Do \" document on Blackboard I'll post what needs to be done for the following week after class on Thursday.    I want you to be successful.    "
 },
 {
-  "id": "ch-intuitiveproofs-7-2-2",
+  "id": "ch-intuitiveproofs-7-3",
   "level": "2",
-  "url": "ch-intuitiveproofs-7.html#ch-intuitiveproofs-7-2-2",
+  "url": "ch-intuitiveproofs-7.html#ch-intuitiveproofs-7-3",
   "type": "Activity",
   "number": "8",
   "title": "",
