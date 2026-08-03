@@ -46,24 +46,7 @@ window.MathJax = {
   },
   "options": {
     "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
-    "processHtmlClass": "process-math",
-    "renderActions": {
-      "findScript": [
-        10,
-        function (doc) {
-            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
-                var display = !!node.type.match(/; *mode=display/);
-                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
-                var text = document.createTextNode('');
-                node.parentNode.replaceChild(text, node);
-                math.start = {node: text, delim: '', n: 0};
-                math.end = {node: text, delim: '', n: 0};
-                doc.math.push(math);
-            });
-        },
-        ""
-      ]
-    }
+    "processHtmlClass": "process-math"
   },
   "chtml": {
     "scale": 0.98,
@@ -118,16 +101,16 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.1.16';
+eBookConfig.runestone_version = '8.2.1';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.279b1f0077454c32.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.db8001875cb726c2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.66fa8a682a32c0ac.css">
-<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+<script src="_static/prefix-runtime.ed2cce180827a7ad.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.1f660864c47fc762.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8086b62682b271d1.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
 <body class="pretext book ignore-math">
@@ -152,7 +135,7 @@ eBookConfig.enable_chatcodes =  false;
 <textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
 </div>
 </div>
-<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ch-3-indirectproofs-16.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="root-1-2.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="activity-01-intro-activity.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ch-3-indirectproofs-16.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="root-1-2.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="handouts.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
@@ -169,23 +152,36 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-intuitiveproofs.html" class="internal"><span class="codenumber">1</span> <span class="title">Intuitive Proofs</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-chessboardproblem7.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Chessboard Problems</span></a></div></li>
-<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-toknow.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Course Introduction: Phase 2 Mathematics</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="ch-intuitiveproofs-2.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Chessboard Problems</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-intuitiveproofs-2.html#ho-chessboardproblems" class="internal"><span class="title">Handout</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="ch-intuitiveproofs-3.html" class="internal"><span class="codenumber">1.2</span> <span class="title">On patterns and conjectures</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-intuitiveproofs-3.html#ch-intuitiveproofs-3-2" class="internal"><span class="title">Handout</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="ch-intuitiveproofs-4.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Conditional Statements</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-intuitiveproofs-4.html#handout-ho-conditionalstatements" class="internal"><span class="title">Handout</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="ch-intuitiveproofs-5.html" class="internal"><span class="codenumber">1.4</span> <span class="title">The Pigeonhole Principle</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-intuitiveproofs-5.html#ch-intuitiveproofs-5-2" class="internal"><span class="title">Handout</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-TheGameSET.html" class="internal"><span class="codenumber">1.5</span> <span class="title">The Game SET</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="sec-TheGameSET.html#sec-TheGameSET-2" class="internal"><span class="title">Handout</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="ch-intuitiveproofs-7.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Welcome to phase 2 mathematics</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-intuitiveproofs-7.html#ch-intuitiveproofs-7-2" class="internal"><span class="title">Handout</span></a></div></li></ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="root-1-2-5.html" class="internal"><span class="codenumber">2</span> <span class="title">Direct Proofs</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-handout">
-<div class="toc-title-box"><a href="ho-directproofs.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Direct Proofs</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ho-directproofs.html#ho-directproofs-2" class="internal"><span class="title">Terms and Conditions</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ho-directproofs.html#ho-directproofs-3" class="internal"><span class="title">Number Systems</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ho-directproofs.html#ho-directproofs-4" class="internal"><span class="title">Closure of a Set Under an Operation</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ho-directproofs.html#ho-directproofs-7" class="internal"><span class="title">Definitions of Odd and Even</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ho-directproofs.html#ho-directproofs-10" class="internal"><span class="title">Mathematical Proof Writing</span></a></div></li>
-</ul>
-</li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ho-directproofs.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Direct Proofs</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="root-1-2-5-3.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Example - Writing a Proof</span></a></div></li>
 <li class="toc-item toc-worksheet">
 <div class="toc-title-box"><a href="root-1-2-5-4.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Chapter 2 - Direct Proofs (Part 2)</span></a></div>
@@ -337,10 +333,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 </ul>
 </li>
-<li class="toc-item toc-chapter contains-active">
-<div class="toc-title-box"><a href="activities.html" class="internal"><span class="codenumber">4</span> <span class="title">In-Class Activities</span></a></div>
-<ul class="structural toc-item-list active"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activity-01-intro-activity.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Introduction Activity</span></a></div></li></ul>
-</li>
+<li class="toc-item toc-chapter active"><div class="toc-title-box"><a href="activities.html" class="internal"><span class="codenumber">4</span> <span class="title">In-Class Activities</span></a></div></li>
 <li class="toc-item toc-chapter"><div class="toc-title-box"><a href="handouts.html" class="internal"><span class="codenumber">5</span> <span class="title">Handouts</span></a></div></li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="course-documents.html" class="internal"><span class="codenumber">6</span> <span class="title">Course Documents</span></a></div>
@@ -375,15 +368,18 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter"><div class="toc-title-box"><a href="homework.html" class="internal"><span class="codenumber">8</span> <span class="title">Homework</span></a></div></li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="chapter" id="activities">
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="chapter" id="activities">
 <h2 class="heading">
 <span class="type">Chapter</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">In-Class Activities</span>
 </h2>
 <section class="introduction" id="activities-2">
 <div class="para" id="activities-2-1">These are copies of the in-class activities distributed during the semester.<div class="autopermalink" data-description="Paragraph"><a href="#activities-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></section><nav class="summary-links"><ul><li><a href="activity-01-intro-activity.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Introduction Activity</span></a></li></ul></nav><div class="autopermalink" data-description="Chapter 4: In-Class Activities"><a href="#activities" title="Copy heading and permalink for Chapter 4: In-Class Activities" aria-label="Copy heading and permalink for Chapter 4: In-Class Activities">🔗</a></div></section></div>
+</div></section><div class="autopermalink" data-description="Chapter 4: In-Class Activities"><a href="#activities" title="Copy heading and permalink for Chapter 4: In-Class Activities" aria-label="Copy heading and permalink for Chapter 4: In-Class Activities">🔗</a></div>
+</section>
+</div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<a class="previous-button button" href="ch-3-indirectproofs-16.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="activity-01-intro-activity.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="ch-3-indirectproofs-16.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="handouts.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">

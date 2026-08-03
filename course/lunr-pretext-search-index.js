@@ -1,218 +1,254 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "ws-chessboardproblem7",
+  "id": "ch-intuitiveproofs-2",
   "level": "1",
-  "url": "ws-chessboardproblem7.html",
-  "type": "Worksheet",
+  "url": "ch-intuitiveproofs-2.html",
+  "type": "Section",
   "number": "1.1",
   "title": "Chessboard Problems",
-  "body": " Chessboard Problems  My favorite parts of mathematics are ones that feel like games. The domino covering problem that you read about for today's class is one of them!  Here's reminders of definitions and propositions from your text:    A perfect cover of an board with dominoes is an arrangement of those dominoes on the chessboard with no squares left uncovered, and no dominoes stacked or left hanging off the end.      There exists a perfect cover of an chessboard.    Proof idea:    If one crosses out the top-left square of an chessboard, the remaining squares cannot be perfectly covered by dominoes.    Proof idea:  The author then proceeds to ask the following questions:     Question 1: If I remove two squares of different colors from an chessboard, must the result have a perfect cover?     Question 2: If I remove four squares - two black, two white - from an chessboard, must the result have a perfect cover?     Question 3: For every pair of positive integers and , does there exist a perfect cover of the chessboard by dominoes?    What are some other questions we could ask?    Explore one of the questions from the previous page with your team!      The game Tetris is played with five different shapes - the five shapes that can be obtained by piecing together 4 unit squares:   Five Tetris pieces    A Tetris piece     A Tetris piece     A Tetris piece     A Tetris piece     A Tetris piece       Five Tetris pieces in    A Tetris piece                 A Tetris piece                 A Tetris piece                 A Tetris piece                 A Tetris piece                  For the questions below, we also allow these pieces to be ``flipped over.\"     Is it possible to perfectly cover a chessboard using each of these shapes exactly once? Prove that it is impossible, or show by example that it is possible.      Is it possible to perfectly cover an chessboard using each of these shapes exactly twice? Prove that it is impossible, or show by example that it is possible.     Sage can do modular arithmetic!   More advanced mathematics is often considerably different from algebra and calculus. Rather than using algorithms to solve a collection of similar problems, we are interested in other things:    A mathematician, like a painter or a poet, is a maker of patterns. If her patterns are more permanent than theirs, it is because they are made with ideas. The mathematician's patterns, like the painter's or the poet's, must be beautiful; the ideas, like the colours or the words, must fit together in a harmonious way. Beauty is the first test: there is no permanent place in the world for ugly mathematics.   G. H. Hardy (1877 - 1947)    On patterns and conjectures. Go with your group to the whiteboard. As directed, work on one of the following prompts. (I will take pictures of your work and post.)    Consider the expression Evaluate this expression for at least 10 different integer values of , including some negative values and 0, as well as positive ones. What conjectures can you make regarding this expression and the related numbers you find?    Consider the equation Can you find an ordered pair of integers that makes the equation true? If yes, can you characterize all such ordered pairs? If not, why not? What conjecture(s) can you make about this equation? About related equations?    Consider the expression Evaluate this expression for at least 10 different natural number values of . What conjectures can you make regarding this expression and the numbers you find?    The Wason Selection Test - Testing Truth.    A mathematician places a set of four cards on a table, each of which has a number on one side and a colored patch on the other side. She claims the following: if a card shows an even number on one face, then its opposite face is red The visible faces of the cards show 3, 8, red, and blue. Which card(s) must you turn over in order to test the truth of her claim? Carefully explain.    It is a well known law in the United States that you must be 21 to consume alcohol. Suppose now that four cards are placed on the table each of which has an age on one side and a beverage on the other. The visible faces of the cards show 16, 22, coca-cola, and beer. If each card represents a person at the party, which card(s) must you check to make sure everyone at the party is a law abiding citizen. That is, which card(s) must you turn over to verify the proposition: if one is consuming an alcoholic beverage then one is over the age of 21 How does this relate to the previous problem?    Statements of the form ``If... then...\" are called conditional statements. We will explore conditional statements a lot in MTH 210. What must we do to establish that a conditional statement is true? What is the only way that a conditional statement can be false?   Disproving a conjecture, or showing a statement is false.   There are several types of mathematical statements that we might disprove. Here's 3 types:    For all (blah), (bleh).    There exists a (doodle) that (doddles).    If (loppity), then (luppity).    Disproving each of them is a little different. Let's start, as the chapter title says, with your intuition about how you would disprove these.     Disprove the following statements:     For all natural numbers The natural numbers, denoted , are the set .  , .      There exists a perfect covering of an chessboard with the top left and bottom right corners removed using dominoes.      If and are odd integers, and is any integer The integers, denoted , are the set . The odd integers are . , then is an odd integer.       How was it different to write a disproof for each type of statement? How was it similar?     Section 1.3 - The Pigeonhole Principle  As a reminder, here's the statement of the pigeonhole principle:   Principle 1.5 ( The pigeonhole principle ). The principle has a simple form and a general form. Assume and are positive integers. The positive integers are these numbers: 1,2,3,4.... We will call these the natural numbers, and denote , but mathematicians disagree about whether is a natural number, so the author writes positive integers.    Simple form: If objects are placed into boxes, then at least one box has at least two objects in it.   General form: If objects are placed into boxes, then at least one box has at least objects in it.     Let's begin with some true\/false questions. Explain your answers.     True\/False: If objects are placed in boxes, then every box has at least 2 items.      True\/False: If objects are placed in boxes, then no box is empty.      True\/False: Given objects placed in boxes, at least one box has objects in it.       Read (aloud) pages 17-18 of your textbook (starting at Mathematical Examples and ending before Proposition 1.10) with your team. Pause every paragraph (at least) to ask questions, and rephrase what you have read.      In the following, identify what version of the pigeonhole principle are you using, what the objects and boxes are, and what any variables are ( and ). Suppose you deal a pile of cards, face down, from a shuffled deck of cards (this is a standard 52-card deck, where each card is one of 4 suits and one of 13 ranks). How many must you deal until you are guaranteed...     five of the same suit?      two of the same rank?      three of the same rank?      four of the same rank?      two of one rank and three of another?       Paul Erd\\\"{o}s was a Hungarian mathematician famous for problem solving. Here's his favorite problem to give: \\begin{quote} Given any 101 integers from at least one these numbers will divide another. \\end{quote} This problem is a challenge and will introduce a few ideas which we have not yet discussed, but the goal for this chapter is to get our feet wet, to have fun proving some interesting things, and to push your problem solving skills. Discuss with your team - what could the boxes be? How do we sort into the boxes?     Play, Conjecture, Prove \\#1 - The Game SET  To provide us with an initial playground for exploring some mathematical ideas, meet the wonderful card game SET (if you've never played it before). It is filled with superb mathematical ideas.  SET: Each card in the deck has three symbols on it, characterized by four attributes:     number : one, two, or three symbols;     color : red, purple, or green;     shading : empty, striped, or solid;     shape : oval, diamond, or squiggle.     Every possible combination appears in the deck exactly once . A `` set '' comprises three cards for which each attribute is independently either all the same or all different. It's important to note that the number of attributes that are the same can vary. On the document camera, let's find some examples among the 12 cards present.    At your table in your group of 3-4 students, play several hands of SET.  After you have each found a couple of sets, stop playing and do the following: develop some mathematically significant questions about the game SET. Your main task is to ask questions .  After you have stated several questions, choose at least one of them and use your question to make a conjecture . (A conjecture is a mathematical statement that you think might be true.)  What is a theorem? What is a proof? What's the difference between a conjecture and a theorem?   Theorem. (The Fundamental Theorem of SET) Given any two cards from the deck in SET, those two cards determine a _____. Said differently, \\   Proof. Choose any two cards in the deck. Consider one of the four attributes. Either the two cards are _____ in that attribute or they are _____. If they are the same, then the third card in the set must be _____ in that attribute; if they are different, then the third card in the set must have the _____ _____ of that attribute.  Since this happens for each of the four attributes, the four traits of the potential third card are _____ determined. Moreover, since every possible combination of the four attributes appears exactly once in the deck, we know that such a card exists, and hence there is _____ set that contains the original two given cards.  For the first ``Play, Conjecture, Prove\" problem (Proof Portfolio Problem \\#1), you can pick one of the questions you asked with your team, explore an answer, and prove something. I have a deck of SET cards that I keep in my office. You can borrow it any time you'd like. Maybe some enterprising student would like to organize a SET tournament sometime this semester     "
+  "body": " Chessboard Problems   Some of my favorite parts of mathematics are ones that feel like games or puzzles. The domino covering problem that you read about for today's class is one of them! To start, let's refresh our memories of some definitions and propositions from your text:    A perfect cover of an board with dominoes is an arrangement of those dominoes on the chessboard with no squares left uncovered, and no dominoes stacked or left hanging off the end.      There exists a perfect cover of an chessboard.    Proof idea:    If one crosses out the top-left square. of an chessboard, the remaining squares cannot be perfectly covered by dominoes.    Proof idea:    If one crosses out the top-left square and bottom-right square of an chessboard, the remaining squares cannot be perfectly covered by dominoes.    Proof idea:   Additional questions from the reading      Question 1: If I remove two squares of different colors from an chessboard, must the result have a perfect cover?     Question 2: If I remove four squares - two black, two white - from an chessboard, must the result have a perfect cover?     Question 3: For every pair of positive integers and , does there exist a perfect cover of the chessboard by dominoes?      What are some other questions we could ask?    Explore one of the questions you've asked with your team.  Note that you can use one of these as a play, conjecture, prove problem for your proof portfolio. (More on that later.)      The game Tetris is played with five different shapes - the five shapes that can be obtained by piecing together 4 unit squares:   Five Tetris pieces in     A Tetris piece                 A Tetris piece                 A Tetris piece                 A Tetris piece                 A Tetris piece                  For the questions below, we also allow these pieces to be flipped over.      Is it possible to perfectly cover a chessboard using each of these shapes exactly once? Use an example to show that it is possible, or prove that it is impossible.      Is it possible to perfectly cover an chessboard using each of these shapes exactly twice? Use an example to show that it is possible, or prove that it is impossible.     The author starts with these chessboard problems to demonstrate that more advanced mathematics is often considerably different from algebra and calculus. Rather than using algorithms to solve a collection of similar problems, we are interested in other things.   A mathematician, like a painter or a poet, is a maker of patterns. If her patterns are more permanent than theirs, it is because they are made with ideas. The mathematician's patterns, like the painter's or the poet's, must be beautiful; the ideas, like the colours or the words, must fit together in a harmonious way. Beauty is the first test: there is no permanent place in the world for ugly mathematics.  G. H. Hardy (1877 - 1947)    "
 },
 {
-  "id": "ws-chessboardproblem7-4",
+  "id": "ho-chessboardproblems-2",
   "level": "2",
-  "url": "ws-chessboardproblem7.html#ws-chessboardproblem7-4",
+  "url": "ch-intuitiveproofs-2.html#ho-chessboardproblems-2",
   "type": "Definition",
   "number": "1",
   "title": "",
   "body": "  A perfect cover of an board with dominoes is an arrangement of those dominoes on the chessboard with no squares left uncovered, and no dominoes stacked or left hanging off the end.   "
 },
 {
-  "id": "ws-chessboardproblem7-5",
+  "id": "ho-chessboardproblems-3",
   "level": "2",
-  "url": "ws-chessboardproblem7.html#ws-chessboardproblem7-5",
+  "url": "ch-intuitiveproofs-2.html#ho-chessboardproblems-3",
   "type": "Proposition",
   "number": "2",
   "title": "",
   "body": "  There exists a perfect cover of an chessboard.   "
 },
 {
-  "id": "ws-chessboardproblem7-7",
+  "id": "ho-chessboardproblems-5",
   "level": "2",
-  "url": "ws-chessboardproblem7.html#ws-chessboardproblem7-7",
+  "url": "ch-intuitiveproofs-2.html#ho-chessboardproblems-5",
   "type": "Proposition",
   "number": "3",
   "title": "",
-  "body": "  If one crosses out the top-left square of an chessboard, the remaining squares cannot be perfectly covered by dominoes.   "
+  "body": "  If one crosses out the top-left square. of an chessboard, the remaining squares cannot be perfectly covered by dominoes.   "
 },
 {
-  "id": "ws-chessboardproblem7-10-1-1",
+  "id": "ho-chessboardproblems-7",
   "level": "2",
-  "url": "ws-chessboardproblem7.html#ws-chessboardproblem7-10-1-1",
+  "url": "ch-intuitiveproofs-2.html#ho-chessboardproblems-7",
+  "type": "Proposition",
+  "number": "4",
+  "title": "",
+  "body": "  If one crosses out the top-left square and bottom-right square of an chessboard, the remaining squares cannot be perfectly covered by dominoes.   "
+},
+{
+  "id": "ho-chessboardproblems-9-2",
+  "level": "2",
+  "url": "ch-intuitiveproofs-2.html#ho-chessboardproblems-9-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Question 1: "
+  "body": "Question 1: Question 2: Question 3: "
 },
 {
-  "id": "ws-chessboardproblem7-10-2-1",
+  "id": "ho-chessboardproblems-11",
   "level": "2",
-  "url": "ws-chessboardproblem7.html#ws-chessboardproblem7-10-2-1",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Question 2: "
-},
-{
-  "id": "ws-chessboardproblem7-10-3-1",
-  "level": "2",
-  "url": "ws-chessboardproblem7.html#ws-chessboardproblem7-10-3-1",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Question 3: "
-},
-{
-  "id": "ws-chessboardproblem7-12",
-  "level": "2",
-  "url": "ws-chessboardproblem7.html#ws-chessboardproblem7-12",
+  "url": "ch-intuitiveproofs-2.html#ho-chessboardproblems-11",
   "type": "Activity",
   "number": "1",
   "title": "",
-  "body": "  Explore one of the questions from the previous page with your team!   "
+  "body": "  Explore one of the questions you've asked with your team.  Note that you can use one of these as a play, conjecture, prove problem for your proof portfolio. (More on that later.)   "
 },
 {
-  "id": "ws-chessboardproblem7-13",
+  "id": "ho-chessboardproblems-12",
   "level": "2",
-  "url": "ws-chessboardproblem7.html#ws-chessboardproblem7-13",
+  "url": "ch-intuitiveproofs-2.html#ho-chessboardproblems-12",
   "type": "Activity",
   "number": "2",
   "title": "",
-  "body": "  The game Tetris is played with five different shapes - the five shapes that can be obtained by piecing together 4 unit squares:   Five Tetris pieces    A Tetris piece     A Tetris piece     A Tetris piece     A Tetris piece     A Tetris piece       Five Tetris pieces in    A Tetris piece                 A Tetris piece                 A Tetris piece                 A Tetris piece                 A Tetris piece                  For the questions below, we also allow these pieces to be ``flipped over.\"     Is it possible to perfectly cover a chessboard using each of these shapes exactly once? Prove that it is impossible, or show by example that it is possible.      Is it possible to perfectly cover an chessboard using each of these shapes exactly twice? Prove that it is impossible, or show by example that it is possible.    "
+  "body": "  The game Tetris is played with five different shapes - the five shapes that can be obtained by piecing together 4 unit squares:   Five Tetris pieces in     A Tetris piece                 A Tetris piece                 A Tetris piece                 A Tetris piece                 A Tetris piece                  For the questions below, we also allow these pieces to be flipped over.      Is it possible to perfectly cover a chessboard using each of these shapes exactly once? Use an example to show that it is possible, or prove that it is impossible.      Is it possible to perfectly cover an chessboard using each of these shapes exactly twice? Use an example to show that it is possible, or prove that it is impossible.    "
 },
 {
-  "id": "ws-chessboardproblem7-18",
+  "id": "ch-intuitiveproofs-3",
+  "level": "1",
+  "url": "ch-intuitiveproofs-3.html",
+  "type": "Section",
+  "number": "1.2",
+  "title": "On patterns and conjectures",
+  "body": " On patterns and conjectures   Let's look for patterns and make conjectures or are statements that we think are probably true.    Go with your group to the whiteboard. As directed, work on one of the following prompts. (I will take pictures of your work and post.)    Consider the expression Evaluate this expression for at least 10 different integer values of , including some negative values and 0, as well as positive ones. What conjectures can you make regarding this expression and the related numbers you find?    Consider the equation Can you find an ordered pair of integers that makes the equation true? If yes, can you characterize all such ordered pairs? If not, why not? What conjecture(s) can you make about this equation? About related equations?    Consider the expression Evaluate this expression for at least 10 different natural number values of . What conjectures can you make regarding this expression and the numbers you find?     "
+},
+{
+  "id": "ch-intuitiveproofs-3-2-1",
   "level": "2",
-  "url": "ws-chessboardproblem7.html#ws-chessboardproblem7-18",
+  "url": "ch-intuitiveproofs-3.html#ch-intuitiveproofs-3-2-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "On patterns and conjectures. one "
+  "body": "conjectures "
 },
 {
-  "id": "ws-chessboardproblem7-27",
+  "id": "ch-intuitiveproofs-3-2-2",
   "level": "2",
-  "url": "ws-chessboardproblem7.html#ws-chessboardproblem7-27",
+  "url": "ch-intuitiveproofs-3.html#ch-intuitiveproofs-3-2-2",
   "type": "Activity",
   "number": "3",
   "title": "",
-  "body": "   Disprove the following statements:     For all natural numbers The natural numbers, denoted , are the set .  , .      There exists a perfect covering of an chessboard with the top left and bottom right corners removed using dominoes.      If and are odd integers, and is any integer The integers, denoted , are the set . The odd integers are . , then is an odd integer.       How was it different to write a disproof for each type of statement? How was it similar?    "
+  "body": "  Go with your group to the whiteboard. As directed, work on one of the following prompts. (I will take pictures of your work and post.)    Consider the expression Evaluate this expression for at least 10 different integer values of , including some negative values and 0, as well as positive ones. What conjectures can you make regarding this expression and the related numbers you find?    Consider the equation Can you find an ordered pair of integers that makes the equation true? If yes, can you characterize all such ordered pairs? If not, why not? What conjecture(s) can you make about this equation? About related equations?    Consider the expression Evaluate this expression for at least 10 different natural number values of . What conjectures can you make regarding this expression and the numbers you find?   "
 },
 {
-  "id": "ws-chessboardproblem7-30",
+  "id": "ch-intuitiveproofs-4",
+  "level": "1",
+  "url": "ch-intuitiveproofs-4.html",
+  "type": "Section",
+  "number": "1.3",
+  "title": "Conditional Statements",
+  "body": " Conditional Statements    The Wason Selection Test   A mathematician places a set of four cards on a table, each of which has a number on one side and a colored patch on the other side. She claims the following: if a card shows an even number on one face, then its opposite face is red The visible faces of the cards show 3, 8, red, and blue. Which card(s) must you turn over in order to test the truth of her claim? Carefully explain.    It is a well known law in the United States that you must be 21 to consume alcohol. Suppose now that four cards are placed on the table each of which has an age on one side and a beverage on the other. The visible faces of the cards show 16, 22, coca-cola, and beer. If each card represents a person at the party, which card(s) must you check to make sure everyone at the party is a law abiding citizen. That is, which card(s) must you turn over to verify the proposition: if one is consuming an alcoholic beverage then one is over the age of 21 How does this relate to the previous problem?    Statements of the form ``If... then...\" are called conditional statements. We will explore conditional statements a lot in MTH 210. Based on the previous problems in this activities, answer the following. What must we do to establish that a conditional statement is true? What is the only way that a conditional statement can be false?     To do  Need images for this activity    Disproving a conjecture, or showing a statement is false  There are several types of mathematical statements that we might disprove. Here's 3 types:   For all (blah), (bleh).    There exists a (doodle) that (doddles).    If (loppity), then (luppity).     Disproving each of them is a little different. Let's start, as the chapter title says, with your intuition about how you would disprove these.     Disprove the following statements.     For all natural numbers The natural numbers, denoted , are the set .  , .      There exists a perfect covering of an chessboard with the top left and bottom right corners removed using dominoes.      If and are odd integers, and is any integer The integers, denoted , are the set . The odd integers are . , then is an odd integer.      How was it different to write a disproof for each type of statement? How was it similar?      "
+},
+{
+  "id": "handout-ho-conditionalstatements-1",
   "level": "2",
-  "url": "ws-chessboardproblem7.html#ws-chessboardproblem7-30",
+  "url": "ch-intuitiveproofs-4.html#handout-ho-conditionalstatements-1",
+  "type": "Activity",
+  "number": "4",
+  "title": "The Wason Selection Test.",
+  "body": " The Wason Selection Test   A mathematician places a set of four cards on a table, each of which has a number on one side and a colored patch on the other side. She claims the following: if a card shows an even number on one face, then its opposite face is red The visible faces of the cards show 3, 8, red, and blue. Which card(s) must you turn over in order to test the truth of her claim? Carefully explain.    It is a well known law in the United States that you must be 21 to consume alcohol. Suppose now that four cards are placed on the table each of which has an age on one side and a beverage on the other. The visible faces of the cards show 16, 22, coca-cola, and beer. If each card represents a person at the party, which card(s) must you check to make sure everyone at the party is a law abiding citizen. That is, which card(s) must you turn over to verify the proposition: if one is consuming an alcoholic beverage then one is over the age of 21 How does this relate to the previous problem?    Statements of the form ``If... then...\" are called conditional statements. We will explore conditional statements a lot in MTH 210. Based on the previous problems in this activities, answer the following. What must we do to establish that a conditional statement is true? What is the only way that a conditional statement can be false?   "
+},
+{
+  "id": "handout-ho-conditionalstatements-4",
+  "level": "2",
+  "url": "ch-intuitiveproofs-4.html#handout-ho-conditionalstatements-4",
+  "type": "Activity",
+  "number": "5",
+  "title": "",
+  "body": "  Disprove the following statements.     For all natural numbers The natural numbers, denoted , are the set .  , .      There exists a perfect covering of an chessboard with the top left and bottom right corners removed using dominoes.      If and are odd integers, and is any integer The integers, denoted , are the set . The odd integers are . , then is an odd integer.      How was it different to write a disproof for each type of statement? How was it similar?    "
+},
+{
+  "id": "ch-intuitiveproofs-5",
+  "level": "1",
+  "url": "ch-intuitiveproofs-5.html",
+  "type": "Section",
+  "number": "1.4",
+  "title": "The Pigeonhole Principle",
+  "body": " The Pigeonhole Principle   As a reminder, here's the statement of the pigeonhole principle.   The pigeonhole principle ( Principle 1.5 in your text. ) The principle has a simple form and a general form. Assume and are positive integers. The positive integers are these numbers: 1,2,3,4.... We will call these the natural numbers, and denote , but mathematicians disagree about whether is a natural number, so the author writes positive integers.    Simple form: If objects are placed into boxes, then at least one box has at least two objects in it.   General form: If objects are placed into boxes, then at least one box has at least objects in it.     Let's begin with some true\/false questions. Explain your answers.     True\/False: If objects are placed in boxes, then every box has at least 2 items.      True\/False: If objects are placed in boxes, then no box is empty.      True\/False: Given objects placed in boxes, at least one box has objects in it.       Read (aloud) pages 17-18 of your textbook (starting at Mathematical Examples and ending before Proposition 1.10) with your team. Pause every paragraph (at least) to ask questions, and rephrase what you have read.      In the following, identify what version of the pigeonhole principle are you using, what the objects and boxes are, and the value and meaning of any variables (e.g., and ). Suppose you deal a pile of cards, face down, from a shuffled deck of cards (this is a standard 52-card deck, where each card is one of 4 suits and one of 13 ranks). How many must you deal until you are guaranteed...     five of the same suit?      two of the same rank?      three of the same rank?      four of the same rank?      two of one rank and three of another?       Given any 101 integers from at least one these numbers will divide another.  This is a problem posed by Paul Erdős, who was a Hungarian mathematician famous for problem solving. This problem is a challenge and will introduce a few ideas which we have not yet discussed, but the goal for this chapter is to get our feet wet, to have fun proving some interesting things, and to push your problem solving skills. If time: Discuss with your team - what could the boxes be? How do we sort into the boxes?      "
+},
+{
+  "id": "ch-intuitiveproofs-5-2-2",
+  "level": "2",
+  "url": "ch-intuitiveproofs-5.html#ch-intuitiveproofs-5-2-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Principle 1.5 "
+  "body": "The pigeonhole principle "
 },
 {
-  "id": "ws-chessboardproblem7-31",
+  "id": "ch-intuitiveproofs-5-2-3",
   "level": "2",
-  "url": "ws-chessboardproblem7.html#ws-chessboardproblem7-31",
+  "url": "ch-intuitiveproofs-5.html#ch-intuitiveproofs-5-2-3",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Simple form: "
 },
 {
-  "id": "ws-chessboardproblem7-32",
+  "id": "ch-intuitiveproofs-5-2-4",
   "level": "2",
-  "url": "ws-chessboardproblem7.html#ws-chessboardproblem7-32",
+  "url": "ch-intuitiveproofs-5.html#ch-intuitiveproofs-5-2-4",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "General form: "
 },
 {
-  "id": "ws-chessboardproblem7-33",
+  "id": "ch-intuitiveproofs-5-2-5",
   "level": "2",
-  "url": "ws-chessboardproblem7.html#ws-chessboardproblem7-33",
+  "url": "ch-intuitiveproofs-5.html#ch-intuitiveproofs-5-2-5",
   "type": "Activity",
-  "number": "4",
+  "number": "6",
   "title": "",
-  "body": "   Let's begin with some true\/false questions. Explain your answers.     True\/False: If objects are placed in boxes, then every box has at least 2 items.      True\/False: If objects are placed in boxes, then no box is empty.      True\/False: Given objects placed in boxes, at least one box has objects in it.       Read (aloud) pages 17-18 of your textbook (starting at Mathematical Examples and ending before Proposition 1.10) with your team. Pause every paragraph (at least) to ask questions, and rephrase what you have read.      In the following, identify what version of the pigeonhole principle are you using, what the objects and boxes are, and what any variables are ( and ). Suppose you deal a pile of cards, face down, from a shuffled deck of cards (this is a standard 52-card deck, where each card is one of 4 suits and one of 13 ranks). How many must you deal until you are guaranteed...     five of the same suit?      two of the same rank?      three of the same rank?      four of the same rank?      two of one rank and three of another?       Paul Erd\\\"{o}s was a Hungarian mathematician famous for problem solving. Here's his favorite problem to give: \\begin{quote} Given any 101 integers from at least one these numbers will divide another. \\end{quote} This problem is a challenge and will introduce a few ideas which we have not yet discussed, but the goal for this chapter is to get our feet wet, to have fun proving some interesting things, and to push your problem solving skills. Discuss with your team - what could the boxes be? How do we sort into the boxes?    "
+  "body": "   Let's begin with some true\/false questions. Explain your answers.     True\/False: If objects are placed in boxes, then every box has at least 2 items.      True\/False: If objects are placed in boxes, then no box is empty.      True\/False: Given objects placed in boxes, at least one box has objects in it.       Read (aloud) pages 17-18 of your textbook (starting at Mathematical Examples and ending before Proposition 1.10) with your team. Pause every paragraph (at least) to ask questions, and rephrase what you have read.      In the following, identify what version of the pigeonhole principle are you using, what the objects and boxes are, and the value and meaning of any variables (e.g., and ). Suppose you deal a pile of cards, face down, from a shuffled deck of cards (this is a standard 52-card deck, where each card is one of 4 suits and one of 13 ranks). How many must you deal until you are guaranteed...     five of the same suit?      two of the same rank?      three of the same rank?      four of the same rank?      two of one rank and three of another?       Given any 101 integers from at least one these numbers will divide another.  This is a problem posed by Paul Erdős, who was a Hungarian mathematician famous for problem solving. This problem is a challenge and will introduce a few ideas which we have not yet discussed, but the goal for this chapter is to get our feet wet, to have fun proving some interesting things, and to push your problem solving skills. If time: Discuss with your team - what could the boxes be? How do we sort into the boxes?    "
 },
 {
-  "id": "ws-chessboardproblem7-35",
+  "id": "sec-TheGameSET",
+  "level": "1",
+  "url": "sec-TheGameSET.html",
+  "type": "Section",
+  "number": "1.5",
+  "title": "The Game SET",
+  "body": " The Game SET   To provide us with another initial playground for exploring some mathematical ideas, meet the wonderful card game SET (if you've never played it before). It is filled with superb mathematical ideas. This is another option for a play, conjecture, prove problem for your proof portfolio.  Each card in the deck has three symbols on it, characterized by four attributes:    number : one, two, or three symbols;     color : red, purple, or green;     shading : empty, striped, or solid;     shape : oval, diamond, or squiggle.      Every possible combination appears in the deck exactly once . A  set  comprises three cards for which each attribute is independently either all the same or all different. It's important to note that the number of attributes that are the same can vary. On the document camera, let's find some examples among the 12 cards present.    At your table in your group of 3-4 students, play several hands of SET.    After you have each found a couple of sets, stop playing and do the following: develop some mathematically significant questions about the game SET. Your main task is to ask questions .    After you have stated several questions, choose at least one of them and use your question to make a conjecture .    After you have made a conjecture, try to prove it. If you can prove it, then you have a theorem. If no one can prove it, then you have a conjecture that is still open.     What is math? to do: Why is the text not appearing?  There's some fundamental ideas in the previous activity about doing mathematics. We play, we notice, we conjecture, we prove (or disprove). Let's answer the following questions.  What is a conjecture?  What is a theorem? What's the difference between a conjecture and a theorem?  What is a proof? What is a disproof? What does it mean for a conjecture to be open?     (The Fundamental Theorem of SET) Given any two cards from the deck in SET, those two cards determine a _____.     Choose any two cards in the deck. Consider one of the four attributes. Either the two cards are _____ in that attribute or they are _____. If they are the same, then the third card in the set must be _____ in that attribute; if they are different, then the third card in the set must have the _____ _____ of that attribute.  Since this happens for each of the four attributes, the four traits of the potential third card are _____ determined. Moreover, since every possible combination of the four attributes appears exactly once in the deck, we know that such a card exists, and hence there is _____ set that contains the original two given cards.   For the Play, Conjecture Prove problem (Proof Portfolio #1), you can pick one of the questions you asked with your team, explore an answer, and prove something. There's a deck of SET cards in the PCS, or ask me if you need one. Maybe some enterprising student would like to organize a SET tournament sometime this semester.   "
+},
+{
+  "id": "sec-TheGameSET-2-1",
   "level": "2",
-  "url": "ws-chessboardproblem7.html#ws-chessboardproblem7-35",
+  "url": "sec-TheGameSET.html#sec-TheGameSET-2-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "SET "
 },
 {
-  "id": "ws-chessboardproblem7-37-1-1",
+  "id": "sec-TheGameSET-2-2",
   "level": "2",
-  "url": "ws-chessboardproblem7.html#ws-chessboardproblem7-37-1-1",
+  "url": "sec-TheGameSET.html#sec-TheGameSET-2-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "number "
+  "body": "number color shading shape "
 },
 {
-  "id": "ws-chessboardproblem7-37-2-1",
+  "id": "sec-TheGameSET-2-3",
   "level": "2",
-  "url": "ws-chessboardproblem7.html#ws-chessboardproblem7-37-2-1",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "color "
-},
-{
-  "id": "ws-chessboardproblem7-37-3-1",
-  "level": "2",
-  "url": "ws-chessboardproblem7.html#ws-chessboardproblem7-37-3-1",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "shading "
-},
-{
-  "id": "ws-chessboardproblem7-37-4-1",
-  "level": "2",
-  "url": "ws-chessboardproblem7.html#ws-chessboardproblem7-37-4-1",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "shape "
-},
-{
-  "id": "ws-chessboardproblem7-38",
-  "level": "2",
-  "url": "ws-chessboardproblem7.html#ws-chessboardproblem7-38",
+  "url": "sec-TheGameSET.html#sec-TheGameSET-2-3",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "set "
 },
 {
-  "id": "ws-chessboardproblem7-39",
+  "id": "sec-TheGameSET-2-4",
   "level": "2",
-  "url": "ws-chessboardproblem7.html#ws-chessboardproblem7-39",
+  "url": "sec-TheGameSET.html#sec-TheGameSET-2-4",
   "type": "Activity",
-  "number": "5",
+  "number": "7",
   "title": "",
-  "body": "  At your table in your group of 3-4 students, play several hands of SET.  After you have each found a couple of sets, stop playing and do the following: develop some mathematically significant questions about the game SET. Your main task is to ask questions .  After you have stated several questions, choose at least one of them and use your question to make a conjecture . (A conjecture is a mathematical statement that you think might be true.)  What is a theorem? What is a proof? What's the difference between a conjecture and a theorem?   Theorem. (The Fundamental Theorem of SET) Given any two cards from the deck in SET, those two cards determine a _____. Said differently, \\   Proof. Choose any two cards in the deck. Consider one of the four attributes. Either the two cards are _____ in that attribute or they are _____. If they are the same, then the third card in the set must be _____ in that attribute; if they are different, then the third card in the set must have the _____ _____ of that attribute.  Since this happens for each of the four attributes, the four traits of the potential third card are _____ determined. Moreover, since every possible combination of the four attributes appears exactly once in the deck, we know that such a card exists, and hence there is _____ set that contains the original two given cards.  For the first ``Play, Conjecture, Prove\" problem (Proof Portfolio Problem \\#1), you can pick one of the questions you asked with your team, explore an answer, and prove something. I have a deck of SET cards that I keep in my office. You can borrow it any time you'd like. Maybe some enterprising student would like to organize a SET tournament sometime this semester    "
+  "body": "  At your table in your group of 3-4 students, play several hands of SET.    After you have each found a couple of sets, stop playing and do the following: develop some mathematically significant questions about the game SET. Your main task is to ask questions .    After you have stated several questions, choose at least one of them and use your question to make a conjecture .    After you have made a conjecture, try to prove it. If you can prove it, then you have a theorem. If no one can prove it, then you have a conjecture that is still open.   "
 },
 {
-  "id": "ws-toknow",
-  "level": "1",
-  "url": "ws-toknow.html",
-  "type": "Worksheet",
-  "number": "1.2",
-  "title": "Course Introduction: Phase 2 Mathematics",
-  "body": " Course Introduction: Phase 2 Mathematics   What is Mathematics? What is a proof? Why do we prove things? What happens next? Does it always work? How many are there? Why does it work? What if we tried this instead? Questions such as these are at the heart of mathematics, where we seek to identify, understand, and explain patterns. Before we begin, here are 10 Things I Want You to Know.     Math 210 may be the most important course in the mathematics major. Many future courses rely heavily on it (315, 331, 350, 408, 441, 450, 495, and more) and it is helpful in many others (204, 205, 304, 360, 402, 498 and more). More than this, being a critical and independent thinker, creative problem solver, and excellent communicator are incredibly valuable professional skills . To be a math major, it is important to become reasonably good at the kinds of things we do in Math 210 and to find all of them familiar.    Get to know your classmates. Be an active participant in class. Use class time to build understanding. Use ``rough draft language.'' Be honest with yourself about your understanding. Be unafraid to struggle and\/or fail. Ask questions. Our meetings will be structured to encourage these behaviors.    On working in small groups with others: for effective group work, what do you need your group mates to do? what do you need your group mates not to do? What do you need Professor Keough to do? What do you need to do? (on a note card, write your thoughts on each question; then share with your group and update as needed, then submit your notecards to me). Random groups will be assigned for the first month in the course in order to find who you work well with. Then we will work toward more consistent and stable seating arrangements.    Use drop-in hours. Five minutes of conversation with your professor can sometimes be at least as effective as an hour on your own. Use drop-in hours. Ask for an appointment if drop-in hours don't work for you.    Work on Math 210 5 days a week, 8-10 hours a week.   Preview activities for each class day (30-60 minutes per class: 1-2 hours each week);    3-5 ``weekly practice'' homework exercises each week (1.5-2 hours per week: 20-30 minutes per exercise, plus preparing for 3 short presentations over the course of the semester);    Overall reading, studying, and summarizing, including making a notecard for the check point (2-3 hours each week);    Proof portfolio problems (3-4 hours a week). The portfolio project will begin by the end of the 2nd week of class. During the first two weeks of the course, expect to spend some time invested to learn how to use \\LaTeX~(with support from me), which is the typesetting software we will use for all of our professional writing.        Your textbook is designed just for you. It is made to be read, to be worked on, and to have notes taken.     GVSU has a Math 210 YouTube Channel: (Note - this follows a different order than our textbook!)    Be certain to fully read the syllabus. Meet with me, in-person, for 5 minutes, within the first 3 weeks of the semester. Just to get to know one another a bit and so you know where the PCS is located If posted drop-in hours don't work, email me for an appointment.    In the \" Weekly To Do \" document on Blackboard I'll post what needs to be done for the following week after class on Thursday.    I want you to be successful.    "
-},
-{
-  "id": "ws-toknow-3",
+  "id": "sec-TheGameSET-2-6",
   "level": "2",
-  "url": "ws-toknow.html#ws-toknow-3",
-  "type": "Activity",
+  "url": "sec-TheGameSET.html#sec-TheGameSET-2-6",
+  "type": "Theorem",
   "number": "6",
+  "title": "",
+  "body": "  (The Fundamental Theorem of SET) Given any two cards from the deck in SET, those two cards determine a _____.   "
+},
+{
+  "id": "sec-TheGameSET-2-7",
+  "level": "2",
+  "url": "sec-TheGameSET.html#sec-TheGameSET-2-7",
+  "type": "Proof",
+  "number": "1",
+  "title": "",
+  "body": " Choose any two cards in the deck. Consider one of the four attributes. Either the two cards are _____ in that attribute or they are _____. If they are the same, then the third card in the set must be _____ in that attribute; if they are different, then the third card in the set must have the _____ _____ of that attribute.  Since this happens for each of the four attributes, the four traits of the potential third card are _____ determined. Moreover, since every possible combination of the four attributes appears exactly once in the deck, we know that such a card exists, and hence there is _____ set that contains the original two given cards.  "
+},
+{
+  "id": "ch-intuitiveproofs-7",
+  "level": "1",
+  "url": "ch-intuitiveproofs-7.html",
+  "type": "Section",
+  "number": "1.6",
+  "title": "Welcome to phase 2 mathematics",
+  "body": " Welcome to phase 2 mathematics    What is Mathematics? What is a proof? Why do we prove things? What happens next? Does it always work? How many are there? Why does it work? What if we tried this instead? Questions such as these are at the heart of mathematics, where we seek to identify, understand, and explain patterns. Before we begin, here are 10 Things I Want You to Know.     Math 210 may be the most important course in the mathematics major. Many future courses rely heavily on it (315, 331, 350, 408, 441, 450, 495, and more) and it is helpful in many others (204, 205, 304, 360, 402, 498 and more). More than this, being a critical and independent thinker, creative problem solver, and excellent communicator are incredibly valuable professional skills . To be a math major, it is important to become reasonably good at the kinds of things we do in Math 210 and to find all of them familiar.    Get to know your classmates. Be an active participant in class. Use class time to build understanding. Use ``rough draft language.'' Be honest with yourself about your understanding. Be unafraid to struggle and\/or fail. Ask questions. Our meetings will be structured to encourage these behaviors.    On working in small groups with others: for effective group work, what do you need your group mates to do? what do you need your group mates not to do? What do you need Professor Keough to do? What do you need to do? (on a note card, write your thoughts on each question; then share with your group and update as needed, then submit your notecards to me). Random groups will be assigned for the first month in the course in order to find who you work well with. Then we will work toward more consistent and stable seating arrangements.    Use drop-in hours. Five minutes of conversation with your professor can sometimes be at least as effective as an hour on your own. Use drop-in hours. Ask for an appointment if drop-in hours don't work for you.    Work on Math 210 5 days a week, 8-10 hours a week.   Preview activities for each class day (30-60 minutes per class: 1-2 hours each week);    3-5 ``weekly practice'' homework exercises each week (1.5-2 hours per week: 20-30 minutes per exercise, plus preparing for 3 short presentations over the course of the semester);    Overall reading, studying, and summarizing, including making a notecard for the check point (2-3 hours each week);    Proof portfolio problems (3-4 hours a week). The portfolio project will begin by the end of the 2nd week of class. During the first two weeks of the course, expect to spend some time invested to learn how to use \\LaTeX~(with support from me), which is the typesetting software we will use for all of our professional writing.        Your textbook is designed just for you. It is made to be read, to be worked on, and to have notes taken.     GVSU has a Math 210 YouTube Channel: (Note - this follows a different order than our textbook!)    Be certain to fully read the syllabus. Meet with me, in-person, for 5 minutes, within the first 3 weeks of the semester. Just to get to know one another a bit and so you know where the PCS is located If posted drop-in hours don't work, email me for an appointment.    In the \" Weekly To Do \" document on Blackboard I'll post what needs to be done for the following week after class on Thursday.    I want you to be successful.     "
+},
+{
+  "id": "ch-intuitiveproofs-7-2-2",
+  "level": "2",
+  "url": "ch-intuitiveproofs-7.html#ch-intuitiveproofs-7-2-2",
+  "type": "Activity",
+  "number": "8",
   "title": "",
   "body": "  Math 210 may be the most important course in the mathematics major. Many future courses rely heavily on it (315, 331, 350, 408, 441, 450, 495, and more) and it is helpful in many others (204, 205, 304, 360, 402, 498 and more). More than this, being a critical and independent thinker, creative problem solver, and excellent communicator are incredibly valuable professional skills . To be a math major, it is important to become reasonably good at the kinds of things we do in Math 210 and to find all of them familiar.    Get to know your classmates. Be an active participant in class. Use class time to build understanding. Use ``rough draft language.'' Be honest with yourself about your understanding. Be unafraid to struggle and\/or fail. Ask questions. Our meetings will be structured to encourage these behaviors.    On working in small groups with others: for effective group work, what do you need your group mates to do? what do you need your group mates not to do? What do you need Professor Keough to do? What do you need to do? (on a note card, write your thoughts on each question; then share with your group and update as needed, then submit your notecards to me). Random groups will be assigned for the first month in the course in order to find who you work well with. Then we will work toward more consistent and stable seating arrangements.    Use drop-in hours. Five minutes of conversation with your professor can sometimes be at least as effective as an hour on your own. Use drop-in hours. Ask for an appointment if drop-in hours don't work for you.    Work on Math 210 5 days a week, 8-10 hours a week.   Preview activities for each class day (30-60 minutes per class: 1-2 hours each week);    3-5 ``weekly practice'' homework exercises each week (1.5-2 hours per week: 20-30 minutes per exercise, plus preparing for 3 short presentations over the course of the semester);    Overall reading, studying, and summarizing, including making a notecard for the check point (2-3 hours each week);    Proof portfolio problems (3-4 hours a week). The portfolio project will begin by the end of the 2nd week of class. During the first two weeks of the course, expect to spend some time invested to learn how to use \\LaTeX~(with support from me), which is the typesetting software we will use for all of our professional writing.        Your textbook is designed just for you. It is made to be read, to be worked on, and to have notes taken.     GVSU has a Math 210 YouTube Channel: (Note - this follows a different order than our textbook!)    Be certain to fully read the syllabus. Meet with me, in-person, for 5 minutes, within the first 3 weeks of the semester. Just to get to know one another a bit and so you know where the PCS is located If posted drop-in hours don't work, email me for an appointment.    In the \" Weekly To Do \" document on Blackboard I'll post what needs to be done for the following week after class on Thursday.    I want you to be successful.   "
 },
@@ -223,7 +259,7 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "2.1",
   "title": "Direct Proofs",
-  "body": " Direct Proofs   Terms and Conditions  I know most of us typically ignore the Terms and Conditions we are asked to agree to, but for doing mathematics, understanding the terms and conditions is vital. Note I didn't say agreeing to the terms and conditions is vital. In fact, changing the terms and conditions is one of the ways we play with math. But in any mathematical dialogue, knowing the terms and conditions of the participants is essential. With that, let's lay out a few things for our mathematical dialogue to get started.    Number Systems  Here are a few number systems , or sets of numbers with operations, and their notation. Assume all of the operations are the usual operations you've learned in math class along the way.    The natural numbers, denoted , are the positive whole numbers. That is,     The integers, denoted , consist of zero, the natural numbers, and the negatives of the natural numbers. That is, (The Z comes from the German word Zahl, which means \"number\")    The rational numbers, denoted , are those real numbers that can be written as a quotient of two integers (with a nonzero denominator). That is, (The Q is for quotient.) The symbol means in or an element of . So here, means a and b are elements of the integers .    The real numbers, denoted , consist of the rational numbers and the irrational numbers.      Closure of a Set Under an Operation  In Fact 2.1 of our textbook, the author writes The sum of integers is an integer, the difference of integers, and the product of integers is an integer. We'll refer to these facts as  the integers are closed under addition, subtraction, and multiplication  We'll use these closure properties a lot when doing our first proofs.   A comic from Math With Bad Drawings. What's the set and what's the operation here?   A comic. A: \"I don't get it, how could birds evolve from dinosaurs?\". B: \"Well dinosaurs aren't closed under reproduction.\"      Closure properties     Determine if each of the following are true or false, and explain.     The natural numbers are closed under subtraction.      The rational numbers are closed under addition.      The integers are closed under division.      The even integers are closed under subtraction.      The odd integers are closed under addition.      Definitions of Odd and Even  In the previous activity, to justify your work about evens and odds, you may have used examples. But to be absolutely sure the even integers are closed under subtraction, we need to verify infinitely many examples. But, we don't have infinity time! So instead we will use definitions. Definitions don't come from thin air - recall from your preclass reading that there are other options for these definitions, and reasons to choose these one. We will use these definitions frequently in our early proofs, and you should be able to recall them from memory. Here they are:    An integer is even if for some integer .      An integer is odd if for some integer .    These definitions, seemingly simple, are quite powerful. They allow us to do infinitely many examples all at once.    Even and Odd Integers     Justify the following carefully, using the definitions of even and odd.     The integer is even.      The integer is odd.      The integer is not odd.      Mathematical Proof Writing  Overall, mathematical writing -- particularly writing proofs -- is a mix of being creative, being organized, and honoring conventions of the mathematics community. There are a handful of guidelines (I'm hesitant to call them rules) provided at https:\/\/gvsu.edu\/s\/3to , but little in the way of algorithms to follow. Writing proofs is absolutely something that you'll learn to do by doing : making mistakes, seeking feedback, struggling, revising, and more.  From the outset, another key thing to realize is that a part of formal mathematical writing is misleading. What I mean by this is illustrated well by the following comic from Abstruse Goose.   A comic from Abstruse Goose.   A comic: 2 people lost getting from A to B. Years later, directions are 2 steps. Says \"this is how most proofs are written.\"    The author writes his process of the ``Proof Idea\" and (later) ``Scratch Work\". These are important parts of proof-writing, even if the final polished proof doesn't include all the work you do in this part. I use what we'll call a \"pre-proof analysis,'' which is just a fancy term for trying examples-experimenting-writing down ideas-making mistakes-making connections-trying to find helpful paths-scratch work . You can see examples of the author's process in your textbook on pages 49, 50, 53, and 56.   "
+  "body": " Direct Proofs   Terms and conditions  I know most of us typically ignore the Terms and Conditions we are asked to agree to, but for doing mathematics, understanding the terms and conditions is vital. Note I didn't say agreeing to the terms and conditions is vital. In fact, changing the terms and conditions is one of the ways we play with math. But in any mathematical dialogue, knowing the terms and conditions of the participants is essential. With that, let's lay out a few things for our mathematical dialogue to get started.    Number systems  Here are a few number systems , or sets of numbers with operations, and their notation. Assume all of the operations are the usual operations you've learned in math class along the way.   The natural numbers, denoted , are the positive whole numbers. That is,     The integers, denoted , consist of zero, the natural numbers, and the negatives of the natural numbers. That is, (The Z comes from the German word Zahl, which means number .)    The rational numbers, denoted , are those real numbers that can be written as a quotient of two integers (with a nonzero denominator). That is, (The Q is for quotient.) The symbol means is an element of or is in . So here, this is saying is an integer and is an integer.    The real numbers, denoted , consist of the rational numbers and the irrational numbers.       Closure of a set under an operation  In Fact 2.1 of our textbook, the author writes The sum of integers is an integer, the difference of integers, and the product of integers is an integer. We'll refer to these facts as  the integers are closed under addition, subtraction, and multiplication  We'll use these closure properties a lot when doing our first proofs.   A comic from Math With Bad Drawings. What's the set and what's the operation here?   A comic. A: \"I don't get it, how could birds evolve from dinosaurs?\". B: \"Well dinosaurs aren't closed under reproduction.\"      Closure properties   Determine if each of the following are true or false, and explain.     The natural numbers are closed under subtraction.      The rational numbers are closed under addition.      The integers are closed under division.      The even integers are closed under subtraction.      The odd integers are closed under addition.      Definitions of odd and even  In the previous activity, to justify your work about evens and odds, you may have used examples. But to be absolutely sure the even integers are closed under subtraction, we need to verify infinitely many examples. But, we don't have infinity time! So instead we will use definitions. Definitions don't come from thin air - recall from your preclass reading that there are other options for these definitions, and reasons to choose these one. We will use these definitions frequently in our early proofs, and you should be able to recall them from memory. Here they are:    An integer is even if for some integer .      An integer is odd if for some integer .    These definitions, seemingly simple, are quite powerful. They allow us to do infinitely many examples all at once.    Even and odd integers   Justify the following carefully, using the definitions of even and odd.     The integer is even.      The integer is odd.      The integer is not odd.      Mathematical Proof Writing  Overall, mathematical writing -- particularly writing proofs -- is a mix of being creative, being organized, and honoring conventions of the mathematics community. There are a handful of guidelines (I'm hesitant to call them rules) provided at https:\/\/gvsu.edu\/s\/3to , but little in the way of algorithms to follow. Writing proofs is absolutely something that you'll learn to do by doing : making mistakes, seeking feedback, struggling, revising, and more.  From the outset, another key thing to realize is that a part of formal mathematical writing is misleading. What I mean by this is illustrated well by the following comic from Abstruse Goose.   A comic from Abstruse Goose.   A comic: 2 people lost getting from A to B. Years later, directions are 2 steps. Says \"this is how most proofs are written.\"     The author writes his process of the Proof Idea and (later) Scratch Work . These are important parts of proof-writing, even if the final polished proof doesn't include all the work you do in this part. I use what we'll call a pre-proof analysis , which is just a fancy term for trying examples-experimenting-writing down ideas-making mistakes-making connections-trying to find helpful paths-scratch work . You can see examples of the author's process in your textbook on pages 49, 50, 53, and 56.   Two proofs of the same statement  Consider the following theorem and two proofs.     If and are odd integers then is an even integer.     We assume that and are odd integers and will prove that is an even integer. Since and are odd, there exist integers and such that and . By substitution and algebra we obtain Define . Since and are integers and the integers are closed under addition, we conclude that is an integer. Since for the integer we conclude that is an even integer.     j,k s.t. x=2k+1 and y=2j+1.  x+y=2k+1+2j+1=2(k+j+1) which is even.     Consider the two proofs given of . What are the advantages and disadvantages of each? Which is more readable? Are they both correct?     Example - Writing a Proof   Conjecture. If and are odd integers and is any integer, then is _____.    Pre-proof analysis    Try some examples to fill in the conjecture. Then sketch      Writing a Proof  Now we will take our ideas from our pre-proof analysis and write a formal proof. In so doing, we will use (and discuss some of) the Professional Writing Guidelines provided at https:\/\/gvsu.edu\/s\/3to . You should read these guidelines carefully on your own time and think about them as you begin writing proofs. Among the things we will do here (and always) are: clearly state the result we are proving, state what we assume to start the proof, declare what we aim to show, and throughout our argument keep the reader informed of our reasoning and logic Soon we will be learning a variety of ``proof techniques.'' It is always important to state the type of argument you are using; for now, the main route we will use is called a ``direct proof.'' . Other key writing conventions are: italicize typeset variables (we use `` '', rather than ``x''); use an active third person voice (``next, we will use algebra to ''); and display (center) important equations in our argument.    If and are odd integers and is any integer, then is an even integer.     .      With your group, head to the whiteboard to work on the following prompts.   Definition. An integer is said to be a type integer if there exists an integer such that . An integer is said to be a type 1 integer if there exists an integer such that . An integer is said to be a type integer if there exists an integer such that .     Give examples of at least different type integers.      Give examples of at least different type integers.      By multiplying pairs of integers from the list in the first part, does it appear that the following conjecture is true or false? \\begin{quote} Conjecture: If and are both type integers, then is a type integer. \\end{quote}      If the conjecture is false, modify it to make it true. Then, do a pre-proof analysis of the resulting proposition. If time permits, return to your tables and strive to begin writing an actual proof of your proposition. (There is space to do so on the next page.)       If and are both type integers, then is a type integer.     We will give a direct proof of the proposition.   "
 },
 {
   "id": "ho-directproofs-4-2",
@@ -239,7 +275,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ho-directproofs.html#fig-closure",
   "type": "Figure",
-  "number": "6",
+  "number": "7",
   "title": "",
   "body": " A comic from Math With Bad Drawings. What's the set and what's the operation here?   A comic. A: \"I don't get it, how could birds evolve from dinosaurs?\". B: \"Well dinosaurs aren't closed under reproduction.\"   "
 },
@@ -248,16 +284,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ho-directproofs.html#act-closure",
   "type": "Activity",
-  "number": "7",
-  "title": "",
-  "body": "  Determine if each of the following are true or false, and explain.     The natural numbers are closed under subtraction.      The rational numbers are closed under addition.      The integers are closed under division.      The even integers are closed under subtraction.      The odd integers are closed under addition.    "
+  "number": "9",
+  "title": "Closure properties.",
+  "body": " Closure properties   Determine if each of the following are true or false, and explain.     The natural numbers are closed under subtraction.      The rational numbers are closed under addition.      The integers are closed under division.      The even integers are closed under subtraction.      The odd integers are closed under addition.    "
 },
 {
   "id": "def-even",
   "level": "2",
   "url": "ho-directproofs.html#def-even",
   "type": "Definition",
-  "number": "7",
+  "number": "8",
   "title": "",
   "body": "  An integer is even if for some integer .   "
 },
@@ -266,27 +302,126 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ho-directproofs.html#def-odd",
   "type": "Definition",
-  "number": "8",
+  "number": "9",
   "title": "",
   "body": "  An integer is odd if for some integer .   "
 },
 {
-  "id": "ho-directproofs-9",
+  "id": "ho-directproofs-7",
   "level": "2",
-  "url": "ho-directproofs.html#ho-directproofs-9",
+  "url": "ho-directproofs.html#ho-directproofs-7",
   "type": "Activity",
-  "number": "8",
-  "title": "",
-  "body": "  Justify the following carefully, using the definitions of even and odd.     The integer is even.      The integer is odd.      The integer is not odd.    "
+  "number": "10",
+  "title": "Even and odd integers.",
+  "body": " Even and odd integers   Justify the following carefully, using the definitions of even and odd.     The integer is even.      The integer is odd.      The integer is not odd.    "
 },
 {
   "id": "fig-writing2",
   "level": "2",
   "url": "ho-directproofs.html#fig-writing2",
   "type": "Figure",
-  "number": "9",
+  "number": "10",
   "title": "",
   "body": " A comic from Abstruse Goose.   A comic: 2 people lost getting from A to B. Years later, directions are 2 steps. Says \"this is how most proofs are written.\"   "
+},
+{
+  "id": "thm-odd-sum",
+  "level": "2",
+  "url": "ho-directproofs.html#thm-odd-sum",
+  "type": "Theorem",
+  "number": "11",
+  "title": "",
+  "body": "  If and are odd integers then is an even integer.   "
+},
+{
+  "id": "ho-directproofs-12",
+  "level": "2",
+  "url": "ho-directproofs.html#ho-directproofs-12",
+  "type": "Proof",
+  "number": "2.1.1",
+  "title": "",
+  "body": " We assume that and are odd integers and will prove that is an even integer. Since and are odd, there exist integers and such that and . By substitution and algebra we obtain Define . Since and are integers and the integers are closed under addition, we conclude that is an integer. Since for the integer we conclude that is an even integer.  "
+},
+{
+  "id": "ho-directproofs-13",
+  "level": "2",
+  "url": "ho-directproofs.html#ho-directproofs-13",
+  "type": "Proof",
+  "number": "2.1.2",
+  "title": "",
+  "body": "  j,k s.t. x=2k+1 and y=2j+1.  x+y=2k+1+2j+1=2(k+j+1) which is even.  "
+},
+{
+  "id": "ho-directproofs-14",
+  "level": "2",
+  "url": "ho-directproofs.html#ho-directproofs-14",
+  "type": "Activity",
+  "number": "11",
+  "title": "",
+  "body": "  Consider the two proofs given of . What are the advantages and disadvantages of each? Which is more readable? Are they both correct?   "
+},
+{
+  "id": "ho-directproofs-15-2",
+  "level": "2",
+  "url": "ho-directproofs.html#ho-directproofs-15-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Conjecture. "
+},
+{
+  "id": "ho-directproofs-16",
+  "level": "2",
+  "url": "ho-directproofs.html#ho-directproofs-16",
+  "type": "Activity",
+  "number": "12",
+  "title": "Pre-proof analysis.",
+  "body": " Pre-proof analysis    Try some examples to fill in the conjecture. Then sketch    "
+},
+{
+  "id": "ho-directproofs-17-3",
+  "level": "2",
+  "url": "ho-directproofs.html#ho-directproofs-17-3",
+  "type": "Theorem",
+  "number": "12",
+  "title": "",
+  "body": "  If and are odd integers and is any integer, then is an even integer.   "
+},
+{
+  "id": "ho-directproofs-17-4",
+  "level": "2",
+  "url": "ho-directproofs.html#ho-directproofs-17-4",
+  "type": "Proof",
+  "number": "1",
+  "title": "",
+  "body": " .  "
+},
+{
+  "id": "ho-directproofs-18",
+  "level": "2",
+  "url": "ho-directproofs.html#ho-directproofs-18",
+  "type": "Activity",
+  "number": "13",
+  "title": "",
+  "body": "  With your group, head to the whiteboard to work on the following prompts.   Definition. An integer is said to be a type integer if there exists an integer such that . An integer is said to be a type 1 integer if there exists an integer such that . An integer is said to be a type integer if there exists an integer such that .     Give examples of at least different type integers.      Give examples of at least different type integers.      By multiplying pairs of integers from the list in the first part, does it appear that the following conjecture is true or false? \\begin{quote} Conjecture: If and are both type integers, then is a type integer. \\end{quote}      If the conjecture is false, modify it to make it true. Then, do a pre-proof analysis of the resulting proposition. If time permits, return to your tables and strive to begin writing an actual proof of your proposition. (There is space to do so on the next page.)    "
+},
+{
+  "id": "ho-directproofs-19",
+  "level": "2",
+  "url": "ho-directproofs.html#ho-directproofs-19",
+  "type": "Proposition",
+  "number": "13",
+  "title": "",
+  "body": "  If and are both type integers, then is a type integer.   "
+},
+{
+  "id": "ho-directproofs-20",
+  "level": "2",
+  "url": "ho-directproofs.html#ho-directproofs-20",
+  "type": "Proof",
+  "number": "2.1.3",
+  "title": "",
+  "body": " We will give a direct proof of the proposition.  "
 },
 {
   "id": "root-1-2-5-3",
@@ -311,7 +446,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "root-1-2-5-3.html#root-1-2-5-3-5",
   "type": "Theorem",
-  "number": "10",
+  "number": "14",
   "title": "",
   "body": "  If and are odd integers and is any integer, then is an even integer.   "
 },
@@ -338,7 +473,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "root-1-2-5-3.html#root-1-2-5-3-8",
   "type": "Theorem",
-  "number": "11",
+  "number": "15",
   "title": "",
   "body": "  If and are odd integers then is an even integer.   "
 },
@@ -365,7 +500,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "root-1-2-5-3.html#root-1-2-5-3-11",
   "type": "Activity",
-  "number": "9",
+  "number": "14",
   "title": "",
   "body": "  With your group, head to the whiteboard to work on the following prompts.   Definition. An integer is said to be a type integer if there exists an integer such that . An integer is said to be a type 1 integer if there exists an integer such that . An integer is said to be a type integer if there exists an integer such that .     Give examples of at least different type integers.      Give examples of at least different type integers.      By multiplying pairs of integers from the list in the first part, does it appear that the following conjecture is true or false? \\begin{quote} Conjecture: If and are both type integers, then is a type integer. \\end{quote}      If the conjecture is false, modify it to make it true. Then, do a pre-proof analysis of the resulting proposition. If time permits, return to your tables and strive to begin writing an actual proof of your proposition. (There is space to do so on the next page.)    "
 },
@@ -374,7 +509,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "root-1-2-5-3.html#root-1-2-5-3-12",
   "type": "Proposition",
-  "number": "12",
+  "number": "16",
   "title": "",
   "body": "   "
 },
@@ -410,7 +545,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "root-1-2-5-4.html#root-1-2-5-4-2-3",
   "type": "Proposition",
-  "number": "13",
+  "number": "17",
   "title": "",
   "body": "  For all integers , is even.   "
 },
@@ -419,7 +554,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "root-1-2-5-4.html#root-1-2-5-4-3-3",
   "type": "Definition",
-  "number": "14",
+  "number": "18",
   "title": "",
   "body": "  For , we define , called the absolute value of , by    "
 },
@@ -428,7 +563,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "root-1-2-5-4.html#root-1-2-5-4-3-4",
   "type": "Activity",
-  "number": "10",
+  "number": "15",
   "title": "",
   "body": "  \\item Check that this definition agrees with your answers for and . \\item Does the following conjecture seem true? Test it out!   "
 },
@@ -437,7 +572,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "root-1-2-5-4.html#root-1-2-5-4-3-5",
   "type": "Conjecture",
-  "number": "15",
+  "number": "19",
   "title": "",
   "body": "  For all real numbers and , .   "
 },
@@ -455,7 +590,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "root-1-2-5-4.html#root-1-2-5-4-4-3",
   "type": "Activity",
-  "number": "11",
+  "number": "16",
   "title": "",
   "body": "  With your team, prove one of the following propositions:     For all integers and , if then .      For all integers and , if , then .      For all integers and , and all integers and , if and then .    "
 },
@@ -464,7 +599,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "root-1-2-5-4.html#root-1-2-5-4-5-2",
   "type": "Theorem",
-  "number": "16",
+  "number": "20",
   "title": "",
   "body": "  If is an odd integer and is an even integer, then is an even integer.   "
 },
@@ -491,7 +626,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "root-1-2-5-5.html#root-1-2-5-5-2-2",
   "type": "Theorem",
-  "number": "17",
+  "number": "21",
   "title": "",
   "body": "  (The Division Algorithm) For all integers and with , there exist unique integers and such that where .   "
 },
@@ -500,7 +635,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "root-1-2-5-5.html#root-1-2-5-5-2-6",
   "type": "Activity",
-  "number": "12",
+  "number": "17",
   "title": "",
   "body": "  In problems where we are concerned with the issue of “divides,” the Division Algorithm provides a natural way to consider cases. Consider the following theorem:   "
 },
@@ -509,7 +644,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "root-1-2-5-5.html#root-1-2-5-5-2-7",
   "type": "Theorem",
-  "number": "18",
+  "number": "22",
   "title": "",
   "body": "  If is an integer then .   "
 },
@@ -518,7 +653,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "root-1-2-5-5.html#root-1-2-5-5-2-10",
   "type": "Theorem",
-  "number": "19",
+  "number": "23",
   "title": "",
   "body": "  If is an integer and , then .   "
 },
@@ -527,7 +662,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "root-1-2-5-5.html#root-1-2-5-5-3-4",
   "type": "Definition",
-  "number": "20",
+  "number": "24",
   "title": "",
   "body": "  For and , we say that is congruent to modulo , and we write , if .   "
 },
@@ -536,7 +671,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "root-1-2-5-5.html#root-1-2-5-5-3-6",
   "type": "Activity",
-  "number": "13",
+  "number": "18",
   "title": "",
   "body": "  (Practice with congruence)     Find two integers and that are congruent modulo . That is, give examples of and such that .      Find all integers such that .      True or false: If is an integer, then there exists a unique integer with such that .      True or false: If then .    "
 },
@@ -545,7 +680,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "root-1-2-5-5.html#root-1-2-5-5-3-7",
   "type": "Activity",
-  "number": "14",
+  "number": "19",
   "title": "",
   "body": "  (Direct Proofs with Modulo) Do a pre-proof analysis of the following theorem.   "
 },
@@ -554,7 +689,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "root-1-2-5-5.html#root-1-2-5-5-3-8",
   "type": "Theorem",
-  "number": "21",
+  "number": "25",
   "title": "",
   "body": "  For all integers and , and all natural numbers , if and then .   "
 },
@@ -572,7 +707,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-2.html#ch-3-indirectproofs-2-3-3",
   "type": "Activity",
-  "number": "15",
+  "number": "20",
   "title": "",
   "body": "   Consider the set .     What are the elements of ? How many are there? (Later we'll refer to the number of elements in the set as the size or the cardinality .)      List 3 different subsets of .       Consider the set .     What are the elements of ? How many are there?      List 3 different subsets of .      Which of the following is correct to say: or ?       Let . Decide whether each of the following statements is true or false.                                         Let , , and . Which of the following statements are true?      Fill in all of the symbols that apply from the list:       (If time:) Challenge Question 1: Can an object ever be both an element and a subset of the same set?      (If time:) Challenge Question 2: How many subsets are there of the set ? Of the set ? How many subsets do you think there will be of the set for ?    "
 },
@@ -581,7 +716,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-2.html#ch-3-indirectproofs-2-4-3",
   "type": "Activity",
-  "number": "16",
+  "number": "21",
   "title": "",
   "body": "  Practice translating between roster notation and set builder notation.     Each of the following sets is written in set builder notation. Use an English sentence to describe what the set means, and then, if possible, write the sets in roster notation.                                  Write down the set of all even integers using roster notation and set builder notation.      Consider the following set written using roster notation:      Determine four elements of the set other than the ones listed above.      Use set builder notation to describe the set.     "
 },
@@ -590,7 +725,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-2.html#ch-3-indirectproofs-2-5-5",
   "type": "Activity",
-  "number": "17",
+  "number": "22",
   "title": "",
   "body": "  Prove the following theorem.   "
 },
@@ -599,7 +734,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-2.html#ch-3-indirectproofs-2-5-6",
   "type": "Theorem",
-  "number": "22",
+  "number": "26",
   "title": "",
   "body": "  If and then .   "
 },
@@ -608,7 +743,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-2.html#ch-3-indirectproofs-2-6-5",
   "type": "Activity",
-  "number": "18",
+  "number": "23",
   "title": "",
   "body": "  Prove the following theorem.   "
 },
@@ -617,7 +752,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-2.html#ch-3-indirectproofs-2-6-6",
   "type": "Theorem",
-  "number": "23",
+  "number": "27",
   "title": "",
   "body": "  The sets and are equal.   "
 },
@@ -635,7 +770,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-3.html#ch-3-indirectproofs-3-2-2",
   "type": "Activity",
-  "number": "19",
+  "number": "24",
   "title": "",
   "body": "  One learning target is ``given two sets and a universal set identify the union, intersection, complement, and set difference. Find the power set of a given set.\" Here's some practice with that, plus a bonus on Cartesian product.     Let . Let and .     Find .      Find .      Find .      Find .      Find .       Let . Let and .     Find at least 3 elements in .      Find at least 3 elements in .      Find at least 3 elements in .      Find at least 3 elements in .      Find at least 3 elements in .     "
 },
@@ -644,7 +779,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-3.html#ch-3-indirectproofs-3-3-2",
   "type": "Activity",
-  "number": "20",
+  "number": "25",
   "title": "",
   "body": "  In each of the following Venn diagrams, shade the given sets.  \\begin{figure}[ht]\\scalebox{0.4}{ \\includegraphics{images\/2Sets.png} \\includegraphics{images\/2Sets.png} } \\end{figure}  \\begin{figure}[ht]\\scalebox{0.4}{ \\includegraphics{images\/2Sets.png} \\includegraphics{images\/2Sets.png} } \\end{figure}  Your book does a proof that two of these sets are equal on pages 114-115. Let's sketch the other one.   "
 },
@@ -653,7 +788,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-3.html#ch-3-indirectproofs-3-3-3",
   "type": "Theorem",
-  "number": "24",
+  "number": "28",
   "title": "",
   "body": "  Suppose and are subsets of a universal set . Then    "
 },
@@ -671,7 +806,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-3.html#ch-3-indirectproofs-3-4-4",
   "type": "Theorem",
-  "number": "25",
+  "number": "29",
   "title": "",
   "body": "  If and then .   "
 },
@@ -689,7 +824,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-4.html#ch-3-indirectproofs-4-2-2",
   "type": "Definition",
-  "number": "26",
+  "number": "30",
   "title": "",
   "body": "  For and , provided that .   "
 },
@@ -707,7 +842,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-4.html#ch-3-indirectproofs-4-2-6",
   "type": "Theorem",
-  "number": "27",
+  "number": "31",
   "title": "",
   "body": "  Suppose , . The following hold:    For all ,     If then .    If and then .    If and then \\begin{enumerate} \\item \\item \\item . \\end{enumerate}     "
 },
@@ -716,7 +851,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-4.html#ch-3-indirectproofs-4-2-7",
   "type": "Activity",
-  "number": "21",
+  "number": "26",
   "title": "",
   "body": "  Practice with congruence, modular arithmetic, and the division algorithm.     If you want practice with proving things about modulo, pick one of the parts of the above theorem and prove it!      In roster notation, write the set of all integers that are congruent to modulo . Include some negative integers!      Find an integer such that but . Can you find all such integers ?      Try to find an intuitive explanation for why there is no integer such that .      One can use cases to prove that if and then . What cases would make sense here? Prove one case.      The division algorithm states that for all integers and with , there exist unique integers and such that where . For each of the following, find and (and use the words quotient and remainder), and write a congruence that results from this. (a) , (b) , , (c) , .      One place congruence shows up is in the childhood way of picking who is ``it\" in tag called ``eeny meeny miny, moe\". Here's the rhyme: \\begin{quote} Eeny, meeny, miny, moe, Catch a tiger by the toe. If he hollers, let him go, Eeny, meeny, miny, moe. \\end{quote} Decide with your group how many people you point to going through the rhyme. Then pick a person in your team to point out first. Use modular arithmetic to decide who will be ``it\" without doing the rhyme. Who can you start with if you don't want to be ``it\"? What if your group had people? ? more?    "
 },
@@ -734,7 +869,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-4.html#ch-3-indirectproofs-4-3-4",
   "type": "Activity",
-  "number": "22",
+  "number": "27",
   "title": "",
   "body": "  There's lots of problems on Learning Targets 5 and 7 practice!     For each set, name 4 elements of the set.                           Let and . How are and related?      How many elements are in the set ? (I.e., what's the cardinality of ?)      Write the following sets in set-builder notation.                                "
 },
@@ -752,7 +887,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-4.html#ch-3-indirectproofs-4-5-2",
   "type": "Theorem",
-  "number": "28",
+  "number": "32",
   "title": "",
   "body": "  If and then .   "
 },
@@ -761,7 +896,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-4.html#ch-3-indirectproofs-4-5-4",
   "type": "Theorem",
-  "number": "29",
+  "number": "33",
   "title": "",
   "body": "  For all subsets of some universal set , .   "
 },
@@ -797,7 +932,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-5.html#ch-3-indirectproofs-5-7",
   "type": "Theorem",
-  "number": "30",
+  "number": "34",
   "title": "",
   "body": "  For all , the sum of the first odd natural numbers is . That is, for all ,    "
 },
@@ -815,7 +950,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-5.html#ch-3-indirectproofs-5-9",
   "type": "Activity",
-  "number": "23",
+  "number": "28",
   "title": "",
   "body": "  Use the principle of mathematical induction to prove the theorem.   "
 },
@@ -824,7 +959,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-5.html#ch-3-indirectproofs-5-10",
   "type": "Theorem",
-  "number": "31",
+  "number": "35",
   "title": "",
   "body": "  For every natural number , the sum of the squares of the first natural numbers is . That is,    "
 },
@@ -833,7 +968,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-5.html#ch-3-indirectproofs-5-13",
   "type": "Activity",
-  "number": "24",
+  "number": "29",
   "title": "",
   "body": "  Work to get the big ideas of the induction argument right first; then, sketch the proof.   "
 },
@@ -842,7 +977,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-5.html#ch-3-indirectproofs-5-14",
   "type": "Theorem",
-  "number": "32",
+  "number": "36",
   "title": "",
   "body": "  For every natural number , .   "
 },
@@ -851,7 +986,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-5.html#ch-3-indirectproofs-5-16",
   "type": "Activity",
-  "number": "25",
+  "number": "30",
   "title": "",
   "body": "   If time: If you finish the activity above, here's one more statement to try to prove, using induction:  \\begin{quote} ``For every natural number , '' \\end{quote}   "
 },
@@ -860,7 +995,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-5.html#ch-3-indirectproofs-5-17",
   "type": "Activity",
-  "number": "26",
+  "number": "31",
   "title": "",
   "body": "   An induction proof from calculus: Find a formula for the derivative of , state your result as a theorem, and prove it using induction.   "
 },
@@ -869,7 +1004,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-5.html#ch-3-indirectproofs-5-18",
   "type": "Activity",
-  "number": "27",
+  "number": "32",
   "title": "",
   "body": "   An induction proof with inequality Recall (or learn for the first time!) that . E.g., and . Determine if the following conjecture is true. If not, modify it by saying which values of it is true for, and then prove by induction.   "
 },
@@ -878,7 +1013,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-5.html#ch-3-indirectproofs-5-19",
   "type": "Conjecture",
-  "number": "33",
+  "number": "37",
   "title": "",
   "body": "  For all , .   "
 },
@@ -905,7 +1040,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-6.html#ch-3-indirectproofs-6-5",
   "type": "Activity",
-  "number": "28",
+  "number": "33",
   "title": "",
   "body": "  In the preview activity, you likely conjectured that, for all , . Let's prove this by induction!   "
 },
@@ -914,7 +1049,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-6.html#ch-3-indirectproofs-6-6",
   "type": "Activity",
-  "number": "29",
+  "number": "34",
   "title": "",
   "body": "  Here are the first several Fibonacci numbers (starting with ):     What is the important thing you notice about every fourth Fibonacci number? State this in the form of a Proposition: ``For all , is '' Then prove your conjecture using induction!   Strong Induction Consider a sequence of mathematical statements .     Suppose is true      Suppose for any , if are all true, then is true.    "
 },
@@ -923,7 +1058,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-6.html#ch-3-indirectproofs-6-7",
   "type": "Activity",
-  "number": "30",
+  "number": "35",
   "title": "",
   "body": "  Suppose you had a chocolate bar, a grid of squares, and you want to break it up completely so that each piece is only one square. No tricks, just break along the grid lines. Try breaking it up - how many breaks did it take? Can you do it more efficiently? Start simple - like with a .   Play, Conjecture, Prove: Option 4:   In a simplified version of the super bowl, teams can score points (for a field goal) or points (for a touchdown). What are the possible scores for one team?   Common Induction Mistakes   Here are some things that you should never ever do. For each one, can you explain why it's a mistake?    Writing something like `` '' or `` .'' A predicate is never equal to anything. It's a sentence!    In the base case: Stating and then forgetting to explain why it is true. Base cases should usually look ``obvious'' but you still need to say something about why they're true.    Forgetting to do the base case at all.    In the inductive step: Saying that ``We assume that is true for all natural numbers .'' If you really did assume this, what would you have left to prove?    Writing ``We assume that is ''. Are you actually assuming anything is true ?     Evaluating a Proof   \\includegraphics[scale=.5]{images\/Dinosaurs}   "
 },
@@ -1058,7 +1193,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-7.html#ch-3-indirectproofs-7-4-19",
   "type": "Theorem",
-  "number": "34",
+  "number": "38",
   "title": "",
   "body": "  Let and be subsets of some universal set . If then .   "
 },
@@ -1094,7 +1229,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-7.html#ch-3-indirectproofs-7-4-24",
   "type": "Theorem",
-  "number": "35",
+  "number": "39",
   "title": "",
   "body": "  Let be a universal set and and be subsets of . If and then .   "
 },
@@ -1130,7 +1265,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-8.html#ch-3-indirectproofs-8-3-2",
   "type": "Activity",
-  "number": "31",
+  "number": "36",
   "title": "",
   "body": "   Fill in the following truth tables:      Suppose is the statement `` is odd\" and is the statement `` is prime\". What are some true statements we can form using .    "
 },
@@ -1139,7 +1274,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-8.html#ch-3-indirectproofs-8-4-2",
   "type": "Activity",
-  "number": "32",
+  "number": "37",
   "title": "",
   "body": "  Let's return to an activity we did on the first day of class.     A mathematician places a set of four cards on a table, each of which has a number on one side and a colored patch on the other side. She claims the following:  if a card shows an even number on one face, then its opposite face is red     The visible faces of the cards show 3, 8, red, and blue. Which card(s) must you turn over in order to test the truth of her claim? Carefully explain out loud to the people at your table.      Let be the statement ``a card shows an even number\" and be the statement ``it's opposite face is red\". Next to the 's and 's above, label T, F, or ? for what you know about that card.      What is\/are the only situation(s) where the mathematician could be lying, i.e., would be false?       It is a well known law in the United States that you must be 21 to consume alcohol. Suppose now that four cards are placed on the table each of which has an age on one side and a beverage on the other. The visible faces of the cards show 16, 22, coca-cola, and beer. If each card represents a person at the party, which card(s) must you check to make sure everyone at the party is a law abiding citizen. That is, which card(s) must you turn over to verify the proposition:  if one is consuming an alcoholic beverage then one is over the age of 21  Complete the same tasks as in part 1, except now is ``one is consuming an alcoholic beverage\" and is ``one is over 21\". What is\/are the situation(s) could be breaking the law? How does this relate to the previous problem?    "
 },
@@ -1148,7 +1283,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-8.html#ch-3-indirectproofs-8-5-2",
   "type": "Activity",
-  "number": "33",
+  "number": "38",
   "title": "",
   "body": "  Based on the logic from the previous page, fill in the following truth tables.   Conditional, implies, or ``If then \":             True  True     True  False     False  True     False  False      Biconditional, if and only if, or :                 True  True       True  False       False  True       False  False       You will encounter many ``if and only if\" statements. E.g., in linear algebra: ``A square matrix is invertible if and only if it has a pivot in every column\" , or in geometry: ``a triangle has a pair of congruent sides if and only if it has a pair of congruent angles\" .   "
 },
@@ -1157,7 +1292,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-8.html#ch-3-indirectproofs-8-6-2",
   "type": "Activity",
-  "number": "34",
+  "number": "39",
   "title": "",
   "body": "   Draw a truth table that includes columns for , , and .                    True  True        True  False        False  True        False  False            Some vocabulary:    The converse of is .    The contrapositive of is .    What do you notice about the converse and the contrapositive from your truth table above?      For each of the following, determine if the statement is true. Then write down the converse and contrapositive and determine if they are true.      Original Statement: If then . True False   Converse: True False   Contrapositive: True False   If false - counterexample:   \\hrulefill       Original Statement: If then . True False   Converse: True False   Contrapositive: True False   If false - counterexample:   \\hrulefill       Original Statement: If is an odd integer then is an odd integer. True False   Converse: True False   Contrapositive: True False   If false - counterexample:        What can you say about the relationship between the original statement and the converse? The original statement and the contrapositive?    "
 },
@@ -1175,7 +1310,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-8.html#ch-3-indirectproofs-8-7-4",
   "type": "Activity",
-  "number": "35",
+  "number": "40",
   "title": "",
   "body": "   In each of your counterexamples on the previous page, what did you do to show the statement was false? What does this suggest about the negation of a conditional statement?      Make a truth table with , , , and . What do you notice? What does this suggest about the negation of a conditional statement?      As the previous exercises suggest, is the statement . Negate each of the statements on the previous page. Are the negations true or false? How does that relate to the truth value of the original statement?    "
 },
@@ -1184,7 +1319,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-8.html#ch-3-indirectproofs-8-8-2",
   "type": "Activity",
-  "number": "36",
+  "number": "41",
   "title": "",
   "body": "   Use the truth table to show that is logically equivalent to .                      True  True  True        True  True  False        True  False  True        True  False  False        False  True  True        False  True  False        False  False  True        False  False  False            Do we have all possible truth values of , , and in the truth table above? What do you notice about how they are arranged?      Draw a truth table to show is logically equivalent to .  Make sure you break down each statement so you aren't doing too many things at once!    "
 },
@@ -1193,7 +1328,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-8.html#ch-3-indirectproofs-8-9-2",
   "type": "Activity",
-  "number": "37",
+  "number": "42",
   "title": "",
   "body": "  Let be a real number and let be a real-valued function defined on an interval containing . Consider the following conditional statement:  If is differentiable at , then is continuous at .  Let be `` is differentiable, and be `` is continuous\". So the above statement is .  For each of the following write in symbols, using , , and logical operators. Then, determine which statements are equivalent to and which are the negation? (Some may be neither.)     If is continuous at , then is differentiable at .      If is not differentiable at , then is not continuous at .      If is not continuous at , then is not differentiable at .       is not differentiable at or is continuous at        is not continuous at or is differentiable at        is differentiable at and is not continuous at .    "
 },
@@ -1202,7 +1337,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-8.html#ch-3-indirectproofs-8-10-2",
   "type": "Activity",
-  "number": "38",
+  "number": "43",
   "title": "",
   "body": "  Following is a statement of a theorem which can be proven using calculus or precalculus mathematics.   "
 },
@@ -1211,7 +1346,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-8.html#ch-3-indirectproofs-8-10-3",
   "type": "Theorem",
-  "number": "36",
+  "number": "40",
   "title": "",
   "body": "  If is a quadratic function of the form where and , then the function has a maximum value when .   "
 },
@@ -1229,7 +1364,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-9.html#ch-3-indirectproofs-9-2-3",
   "type": "Activity",
-  "number": "39",
+  "number": "44",
   "title": "",
   "body": "  Determine if each of the following are true or false.                                                                         "
 },
@@ -1238,7 +1373,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-9.html#ch-3-indirectproofs-9-3-3",
   "type": "Activity",
-  "number": "40",
+  "number": "45",
   "title": "",
   "body": "  Practice Negating. Negate the following statements.     For all integers , if is positive, then is prime.      For all integers and , if and then .      For each real number , if then and .      There are real numbers and such that .      For every pair of real numbers and , if then there exists a rational number such that .      For every line and every point , if is not on , then there exists a unique line through that is parallel to .    "
 },
@@ -1247,7 +1382,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-9.html#ch-3-indirectproofs-9-3-4",
   "type": "Activity",
-  "number": "41",
+  "number": "46",
   "title": "",
   "body": "  (If time:) Negate the statements on page 72 and translate into English.   "
 },
@@ -1274,7 +1409,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-9.html#ch-3-indirectproofs-9-4-7",
   "type": "Activity",
-  "number": "42",
+  "number": "47",
   "title": "",
   "body": "  Here's some statements with hidden quantifiers, hidden conditional statements, or translated into other words. Rewrite the sentences as directed.     If a function is continuous at , then the function is differentiable at . Rewrite with a universal quantifier.       The equation has a solution. Rewrite with an existential quantifier.       Every natural number is a perfect square. Rewrite with a universal and existential quantifier.       Every real number can be squared. Rewrite with a universal and existential quantifier.       No basketball players also play tennis. Rewrite as a conditional statement.       Any prime number is not followed by a perfect square. Rewrite as a conditional statement.     "
 },
@@ -1283,7 +1418,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-9.html#ch-3-indirectproofs-9-5-6",
   "type": "Activity",
-  "number": "43",
+  "number": "48",
   "title": "",
   "body": "  In calculus, we establish that the following conditional statement is true:  \\begin{quote} If is any function such that is differentiable at the real number , then is continuous at . \\end{quote}  What can we conclude, if anything about the following four functions?     A function that we know is differentiable at .      A function that we know is not differentiable at .      A function that we know is continuous at .      A function that we know is not continuous at .    "
 },
@@ -1310,7 +1445,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-9.html#ch-3-indirectproofs-9-6-5",
   "type": "Activity",
-  "number": "44",
+  "number": "49",
   "title": "",
   "body": "   If time: Some exercises to keep you entertain over spring break if you get bored :)     Prove that for all , there exists some such that .      Any prime number is not followed by a perfect square. (Note a prime number is a natural number greater than 1 that has exactly two distinct positive divisors: 1 and itself. A perfect square is a natural number such that there exists a natural number such that .)    "
 },
@@ -1364,7 +1499,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-10.html#ch-3-indirectproofs-10-16",
   "type": "Theorem",
-  "number": "37",
+  "number": "41",
   "title": "",
   "body": "  For all , if is odd, then is odd.   "
 },
@@ -1382,7 +1517,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-10.html#ch-3-indirectproofs-10-18",
   "type": "Activity",
-  "number": "45",
+  "number": "50",
   "title": "",
   "body": "  For each of the following statements, find the contrapositive (turning the statement into an ``if-then\" conditional statement if needed). Then decide which one seems easier to prove - the statement or its contrapositive, and briefly explain why.     For all natural numbers , if then .  {\\tiny Easier to prove the original Easier to prove the contrapositive }      For all integers and , if is even, then is even or is even.  {\\tiny Easier to prove the original Easier to prove the contrapositive }      Let , and let be a prime. If then and .  {\\tiny Easier to prove the original Easier to prove the contrapositive }      For all integers , if is even if and only if is even. (Note there are 2 conditional statements here, write out both conditional statements and their contrapositives.)  {\\tiny Easier to prove the original Easier to prove the contrapositive }      For all integers , if is even, then is even.  {\\tiny Easier to prove the original Easier to prove the contrapositive }      For all , if is even, then is odd.  {\\tiny Easier to prove the original Easier to prove the contrapositive }      No prime number greater than is followed by a perfect square. (Rewrite as a conditional statement first!)  {\\tiny Easier to prove the original Easier to prove the contrapositive }    "
 },
@@ -1391,7 +1526,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-10.html#ch-3-indirectproofs-10-19",
   "type": "Activity",
-  "number": "46",
+  "number": "51",
   "title": "",
   "body": "  Prove the following biconditional theorem. This means you need to prove 2 conditional statements!   "
 },
@@ -1400,7 +1535,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-10.html#ch-3-indirectproofs-10-20",
   "type": "Theorem",
-  "number": "38",
+  "number": "42",
   "title": "",
   "body": "  For all integers , is odd if and only if is event.   "
 },
@@ -1409,7 +1544,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-10.html#ch-3-indirectproofs-10-21",
   "type": "Activity",
-  "number": "47",
+  "number": "52",
   "title": "",
   "body": "  Prove the following biconditional theorem. This means you need to prove 2 conditional statements!   "
 },
@@ -1418,7 +1553,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-10.html#ch-3-indirectproofs-10-22",
   "type": "Theorem",
-  "number": "39",
+  "number": "43",
   "title": "",
   "body": "  For all integers and , if and only if or .   "
 },
@@ -1427,7 +1562,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-10.html#ch-3-indirectproofs-10-23-2",
   "type": "Activity",
-  "number": "48",
+  "number": "53",
   "title": "",
   "body": "  Evaluate the following proof. Is it correct? Should more be explained? Does it meet our writing guidelines?  \\includegraphics{images\/ContrapositiveForCowards.PNG}   "
 },
@@ -1436,7 +1571,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-10.html#ch-3-indirectproofs-10-24-3",
   "type": "Activity",
-  "number": "49",
+  "number": "54",
   "title": "",
   "body": "  Here are two things that sometimes happen in math:    A counterexample comes early, but it turns out to be the only counterexample. E.g., find counterexamples to the following \\begin{itemize} \\item Every prime is odd. \\item No prime number is followed by a perfect square. \\end{itemize} It turns out the first statement is true for any prime greater than 2, and the second is true for any prime greater than 3. If time: Can you prove these?    Sometimes the ``first\" counterexample comes really late, but then there are lots of counterexamples. Consider the following statement \\begin{itemize} \\item If is prime then is prime. \\end{itemize} It turns out this is true for and , but it is not true for . Prime numbers of the form for a prime are know as Mersenne Primes. Currently we know of Mersenne primes and (which is 41,024,320 digits) is the largest known prime number (found in 2024). Also, the following statment \\begin{itemize} \\item For every , \\end{itemize} The first counterexample for this has digits (see page 270 of your textbook). We know one exists because the harmonic series diverges (you'd see this in Calc 2). After the first counterexample, every natural number is a counterexample, do you see why?     "
 },
@@ -1472,7 +1607,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-11.html#ch-3-indirectproofs-11-4-4",
   "type": "Theorem",
-  "number": "40",
+  "number": "44",
   "title": "",
   "body": "  If and . Then .   "
 },
@@ -1499,7 +1634,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-11.html#ch-3-indirectproofs-11-5-3",
   "type": "Activity",
-  "number": "50",
+  "number": "55",
   "title": "",
   "body": "  For each statement below, write its negation to start the proof by contradiction.      Theorem.  For all real numbers and , if and , then .    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For each real number , is irrational or is irrational.    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For each real number , if is irrational, then is irrational.    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For each , if and then .    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For all integers and , if , then and .    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For all integers and , if then or .    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume   If time: When you have each negation completed, go back and try to figure out what the next main step of logic would be. That is, what's the next helpful statement you could make in a contradiction proof?   If time 2: Could you prove any of these with a different proof technique? For example, would any of the proofs be better with contrapositive? Or cases?    "
 },
@@ -1526,7 +1661,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-11.html#ch-3-indirectproofs-11-7-7",
   "type": "Lemma",
-  "number": "41",
+  "number": "45",
   "title": "",
   "body": "  For all integers , is even if and only if is even.   "
 },
@@ -1535,7 +1670,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-11.html#ch-3-indirectproofs-11-7-8",
   "type": "Theorem",
-  "number": "42",
+  "number": "46",
   "title": "",
   "body": "  The real number is irrational.   "
 },
@@ -1553,7 +1688,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-11.html#ch-3-indirectproofs-11-7-12",
   "type": "Conjecture",
-  "number": "43",
+  "number": "47",
   "title": "",
   "body": "  For all integers and , if , then or given integers , , .   "
 },
@@ -1562,7 +1697,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-11.html#ch-3-indirectproofs-11-7-14",
   "type": "Theorem",
-  "number": "44",
+  "number": "48",
   "title": "The Prime Divisor Theorem.",
   "body": " The Prime Divisor Theorem   [The Prime Divisor Theorem] Let , and be natural numbers. If and is prime, then or .   "
 },
@@ -1589,7 +1724,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-11.html#ch-3-indirectproofs-11-8-2",
   "type": "Activity",
-  "number": "51",
+  "number": "56",
   "title": "",
   "body": "  Try to determine if the following conjectures are true on false. If true, work on the proving the following theorems by contradiction.    For each real number , if then .    Let and be integers. If and and then the equation has no solution in which both and are integers.    For each positive real number , if is irrational then is irrational.     "
 },
@@ -1652,7 +1787,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-12.html#ch-3-indirectproofs-12-3-2",
   "type": "Activity",
-  "number": "52",
+  "number": "57",
   "title": "",
   "body": "  Draw an arrow diagram, or write down a function formula, for each of the following.      |p{2.5in}|} Term  Example  Non-example    Function      [55pt] Injection      [55pt] Surjection      [55pt] Bijection      [55pt]       Choose an example from the table above and use the terms ``image\" and ``pre-image\".      Why do we say ``the\" image, but ``a\" pre-image.      What do we call it when all the elements in the range have a unique pre-image? What do we call it when all the elements in the codomain have a unique pre-image?      If and are finite sets, and is an injection, what can you say about vs. ?      If and are finite sets, and is a surjection, what can you say about vs. ?      If and are finite sets, and is a bijection, what can you say about vs. ?    "
 },
@@ -1661,7 +1796,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-12.html#ch-3-indirectproofs-12-3-3",
   "type": "Activity",
-  "number": "53",
+  "number": "58",
   "title": "",
   "body": "  For each of the following functions, in addition to answering the given questions you should determine:    the domain, codomain, and range,    and then determine if they are injections, surjections, or bijections.       For all , . What is the image of ? of ? What is the pre-image of ? of ?      For all people in the world, B(person) = person's birthday. (Just the month and day, e.g., B(DocK) = May 29.) What is the image of each member of your group?   If time: How would this be different if we changed the domain to be just the people in our class?      For all , . (Here we mean the remainder when is divided by .) Determine the images of and under . What is the pre-image of ? What is the pre-image of ?       If time: For all , . What are the images of , and under ? What is the pre-image of under ? What is the pre-image of ?    "
 },
@@ -1688,7 +1823,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-12.html#ch-3-indirectproofs-12-4-5",
   "type": "Activity",
-  "number": "54",
+  "number": "59",
   "title": "",
   "body": "   Disproving is like proving the negation. Negate the definitions above to complete the sentences:     A function is not injective if      A function is not surjective if       Let be the set of all matrices with real entries. That is, Prove that defined by is not an injection.      Prove that defined by is not surjective. Hint: Graph it! What's in the codomain but not in the range?     "
 },
@@ -1697,7 +1832,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-12.html#ch-3-indirectproofs-12-5-2",
   "type": "Activity",
-  "number": "55",
+  "number": "60",
   "title": "",
   "body": "  We'll do the scratch work for proving a function is a bijection.     Let be defined by . (Fill in the blanks, look at \\#3 on page 98!)      Write down the definition of injective here:      What will you assume? What will you try to show?      To start: Pick two arbitrary such that: _____      Now do some algebra to get to what you want to show! That will finish the proof of injective.      Write down the definition of surjective:      In order to show that is surjective, start with an arbitrary . You must show that there exists an such that _____.      Now do some algebra scratch-work to figure out what  should be.      Your work above is not enough to show that (why not?). There are two things to check:     Is your in the domain of ? Verify this.      Does ? Show directly by substituting your into the formula and simplifying.     "
 },
@@ -1706,7 +1841,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-12.html#ch-3-indirectproofs-12-5-3",
   "type": "Theorem",
-  "number": "45",
+  "number": "49",
   "title": "",
   "body": "  Let be defined by for all . Then is a bijection.   "
 },
@@ -1760,7 +1895,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-13.html#ch-3-indirectproofs-13-3-2",
   "type": "Activity",
-  "number": "56",
+  "number": "61",
   "title": "",
   "body": "  For each of the following, draw arrow diagrams for , , and . Then determine if each of those 3 functions is an injection or surjection.     Suppose and are defined by       Suppose and are defined by     "
 },
@@ -1769,7 +1904,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-13.html#ch-3-indirectproofs-13-5-3",
   "type": "Theorem",
-  "number": "46",
+  "number": "50",
   "title": "",
   "body": "  Suppose and are sets, is injective and is injective. Then is injective.   "
 },
@@ -1778,7 +1913,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-13.html#ch-3-indirectproofs-13-5-7",
   "type": "Theorem",
-  "number": "47",
+  "number": "51",
   "title": "",
   "body": "  Suppose and are sets, is injective and is injective. Then is injective.   "
 },
@@ -1796,7 +1931,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-13.html#ch-3-indirectproofs-13-5-11",
   "type": "Theorem",
-  "number": "48",
+  "number": "52",
   "title": "",
   "body": "  Suppose and are sets, is surjective and is surjective. Then is surjective.   "
 },
@@ -1805,7 +1940,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-13.html#ch-3-indirectproofs-13-5-14",
   "type": "Theorem",
-  "number": "49",
+  "number": "53",
   "title": "",
   "body": "  Suppose and are sets, is surjective and is surjective. Then is surjective.   "
 },
@@ -1823,7 +1958,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-13.html#ch-3-indirectproofs-13-5-16",
   "type": "Corollary",
-  "number": "50",
+  "number": "54",
   "title": "",
   "body": "  Suppose and are sets, is bijective and is bijective. Then is bijective.   "
 },
@@ -1832,7 +1967,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-13.html#ch-3-indirectproofs-13-5-18",
   "type": "Theorem",
-  "number": "51",
+  "number": "55",
   "title": "",
   "body": "  Suppose and are sets, and and are functions. If and are surjective, then is surjective.   "
 },
@@ -1841,7 +1976,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-13.html#ch-3-indirectproofs-13-5-21",
   "type": "Theorem",
-  "number": "52",
+  "number": "56",
   "title": "",
   "body": "  Suppose and are sets, and and are functions. If is surjective, then is surjective.   "
 },
@@ -1850,7 +1985,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-13.html#ch-3-indirectproofs-13-5-23",
   "type": "Theorem",
-  "number": "53",
+  "number": "57",
   "title": "",
   "body": "  Suppose and are sets, and and are functions. If and are injective, then is injective.   "
 },
@@ -1859,7 +1994,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-13.html#ch-3-indirectproofs-13-5-25",
   "type": "Theorem",
-  "number": "54",
+  "number": "58",
   "title": "",
   "body": "  Suppose and are sets, and and are functions. If is injective, then is injective.   "
 },
@@ -1868,7 +2003,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-13.html#ch-3-indirectproofs-13-6-2",
   "type": "Theorem",
-  "number": "55",
+  "number": "59",
   "title": "",
   "body": "  A function is invertible if and only if is a bijection.   "
 },
@@ -1877,7 +2012,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-13.html#ch-3-indirectproofs-13-6-6",
   "type": "Activity",
-  "number": "57",
+  "number": "62",
   "title": "",
   "body": "  One of the big ideas of inverse functions is that they allow us to ``undo'' functions. E.g., undoes in the sense that . Similarly, undoes . This activity is going to ask, if we can take square roots and cube roots modulo .     Define by . Then we might say the inverse is where . Is a function? Why or why not? What about if we change to and to ?  Let for the rest of the questions.      Define by . Find for all . Does have an inverse function?      Define by . Find for all . Does have an inverse function?      Define by . Can you find a formula for ?    "
 },
@@ -1931,7 +2066,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-14.html#ch-3-indirectproofs-14-3-6",
   "type": "Activity",
-  "number": "58",
+  "number": "63",
   "title": "",
   "body": "  For the following examples of relations, give a pair and such that and a different pair and such that . (Note, the next activity will require you to work on these same relations, so leave space!)             on such that if and only if        on such that if and only if        from to such that if .       and     "
 },
@@ -1976,7 +2111,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-14.html#ch-3-indirectproofs-14-4-5",
   "type": "Activity",
-  "number": "59",
+  "number": "64",
   "title": "",
   "body": "  For each of the relations defined in the activity earlier on this page, which of the 3 properties reflexive, symmetric, transitive, hold?   "
 },
@@ -1985,7 +2120,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-14.html#ch-3-indirectproofs-14-4-6",
   "type": "Activity",
-  "number": "60",
+  "number": "65",
   "title": "",
   "body": "  Complete the following with your team:     Let and define on by . Is reflexive? Symmetric? Transitive?      Let . Find a relation on such that is symmetric, but not transitive.      Let . Find a relation on such that is symmetric and transitive, but not reflexive.    "
 },
@@ -2003,7 +2138,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-14.html#ch-3-indirectproofs-14-5-3",
   "type": "Theorem",
-  "number": "56",
+  "number": "60",
   "title": "",
   "body": "  Let be the relation on defined by if and only if . Then is an equivalence relation.   "
 },
@@ -2021,7 +2156,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-14.html#ch-3-indirectproofs-14-5-6",
   "type": "Activity",
-  "number": "61",
+  "number": "66",
   "title": "",
   "body": "  Prove or disprove if each relation is reflexive, symmetric, or transitive.   "
 },
@@ -2030,7 +2165,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-14.html#ch-3-indirectproofs-14-5-7",
   "type": "Conjecture",
-  "number": "57",
+  "number": "61",
   "title": "",
   "body": "  Define the relation on as follows: for all , if and only if . Then is reflexive, symmetric, and transitive.   "
 },
@@ -2039,7 +2174,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-14.html#ch-3-indirectproofs-14-5-8",
   "type": "Conjecture",
-  "number": "58",
+  "number": "62",
   "title": "",
   "body": "  Let be some nonempty universal set and define the relation on as follows: for all , if and only if . Then is reflexive, symmetric, and transitive.   "
 },
@@ -2048,7 +2183,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-14.html#ch-3-indirectproofs-14-6-2",
   "type": "Definition",
-  "number": "59",
+  "number": "63",
   "title": "",
   "body": "  Let be an equivalence relation on a nonempty set of . Then the equivalence class of of determined by is    "
 },
@@ -2057,7 +2192,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-14.html#ch-3-indirectproofs-14-6-3",
   "type": "Theorem",
-  "number": "60",
+  "number": "64",
   "title": "Equivalence Classes Partition.",
   "body": " Equivalence Classes Partition   [Equivalence Classes Partition] Let be a nonempty set and let be an equivalence relation on . Then    For each , is nonempty (in particular, ).    For each , if and only if .    For each or .     "
 },
@@ -2066,7 +2201,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-14.html#ch-3-indirectproofs-14-6-4",
   "type": "Activity",
-  "number": "62",
+  "number": "67",
   "title": "",
   "body": "  (Working with equivalence classes)     Let and define by  For , if and only if and have the same number of digits.  This is an equivalence relation (briefly think about why). Determine all the distinct equivalence classes determined by .      Recall that is the set of all matrices and that if then the determinant of is given by . Define by,  For all , if and only if .     Find two matrices and such that .      Is an equivalence relation? (Briefly think about it, don't need to prove.)      Let . Find two elements of . Challenge Question: Can you find the entire equivalence class?      "
 },
@@ -2075,7 +2210,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-14.html#ch-3-indirectproofs-14-8-3",
   "type": "Definition",
-  "number": "61",
+  "number": "65",
   "title": "",
   "body": "  Let and . Then   and .   "
 },
@@ -2093,7 +2228,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-14.html#ch-3-indirectproofs-14-8-10",
   "type": "Activity",
-  "number": "63",
+  "number": "68",
   "title": "",
   "body": "  Complete the addition and multiplication tables for , , and (you don't have to write all the [ ]'s but do pick the representative that is in that . What do you notice? What do you wonder?  Are the following statements true or false? Why?    For all , if and , then .    For all , if and , then .     "
 },
@@ -2102,7 +2237,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-14.html#ch-3-indirectproofs-14-8-11",
   "type": "Activity",
-  "number": "64",
+  "number": "69",
   "title": "",
   "body": "  Sometimes math competition problems will ask seemingly tough questions, like what is the remainder of when divided by . Try to find the answer to this question, by translating into modular arithmetic\/congruence classes and doing some smaller cases. E.g., what's ? ? ? ? What do these tell you about the remainder of when divided by .   "
 },
@@ -2111,7 +2246,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-indirectproofs-14.html#ch-3-indirectproofs-14-8-12",
   "type": "Activity",
-  "number": "65",
+  "number": "70",
   "title": "",
   "body": "  In , solve each of the following equations, keeping in mind that the solution to any equation is the set of all values that make the equation true. (Note: order of operations for and are the same as for ``regular'' addition and multiplication, and , in the following way: in the absence of parentheses, we multiply before we add.)  Find all such that:                        "
 },
@@ -2242,22 +2377,13 @@ var ptx_lunr_docs = [
   "body": "Ambiguous Dates "
 },
 {
-  "id": "activity-01-intro-activity",
+  "id": "activities",
   "level": "1",
-  "url": "activity-01-intro-activity.html",
-  "type": "Worksheet",
-  "number": "4.1",
-  "title": "Introduction Activity",
-  "body": " Introduction Activity    This is the introduction to the activity.      This is the first exercise.    "
-},
-{
-  "id": "activity-01-intro-activity-3",
-  "level": "2",
-  "url": "activity-01-intro-activity.html#activity-01-intro-activity-3",
-  "type": "Worksheet Exercise",
-  "number": "4.1.1",
-  "title": "",
-  "body": "  This is the first exercise.   "
+  "url": "activities.html",
+  "type": "Chapter",
+  "number": "4",
+  "title": "In-Class Activities",
+  "body": " In-Class Activities   These are copies of the in-class activities distributed during the semester.      "
 },
 {
   "id": "handouts",
