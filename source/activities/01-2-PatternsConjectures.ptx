@@ -1,65 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section>
-    <title>On patterns and conjectures</title>
+<handout>
+    <title>Patterns and Conjectures</title>
 
-    <handout>
+    <p>
+        Let's look for patterns and make <term>conjectures</term> or are
+        statements that we think are probably true.
+    </p>
 
-        <p>
-            Let's look for patterns and make <term>conjectures</term> or are
-            statements that we think are probably true.
-        </p>
+    <activity>
+        <introduction>
+            <p>
+                Go with your group to the whiteboard.
+                As directed, work on one of the following prompts.
+                (I will take pictures of your work and post.)
+            </p>
+        </introduction>
 
-        <activity>
-            <introduction>
-                <p>
-                    Go with your group to the whiteboard.
-                    As directed, work on one of the following prompts.
-                    (I will take pictures of your work and post.)
-                </p>
-            </introduction>
+        <task workspace=".5in">
+            <p>
+                Consider the expression
+                <md>
+                    1 + (-1)^n (2n-1).
+                </md>
+                Evaluate this expression for at least 10 different integer
+                values of <m>n</m>, including some negative values and 0, as
+                well as positive ones.
+                What conjectures can you make regarding this expression and the
+                related numbers you find?
+            </p>
+        </task>
 
-            <task workspace=".5in">
-                <p>
-                    Consider the expression
-                    <md>
-                        1 + (-1)^n (2n-1).
-                    </md>
-                    Evaluate this expression for at least 10 different integer
-                    values of <m>n</m>, including some negative values and 0, as
-                    well as positive ones.
-                    What conjectures can you make regarding this expression and
-                    the related numbers you find?
-                </p>
-            </task>
+        <task workspace=".5in">
+            <p>
+                Consider the equation
+                <md>
+                    2x + 5y = 41.
+                </md>
+                Can you find an ordered pair <m>(x,y)</m> of integers that makes
+                the equation true?
+                If yes, can you characterize all such ordered pairs?
+                If not, why not?
+                What conjecture(s) can you make about this equation?
+                About related equations?
+            </p>
+        </task>
 
-            <task workspace=".5in">
-                <p>
-                    Consider the equation
-                    <md>
-                        2x + 5y = 41.
-                    </md>
-                    Can you find an ordered pair <m>(x,y)</m> of integers that
-                    makes the equation true?
-                    If yes, can you characterize all such ordered pairs?
-                    If not, why not?
-                    What conjecture(s) can you make about this equation?
-                    About related equations?
-                </p>
-            </task>
-
-            <task workspace=".5in">
-                <p>
-                    Consider the expression
-                    <md>
-                        7^k - 2^k.
-                    </md>
-                    Evaluate this expression for at least 10 different natural
-                    number values of <m>k</m>.
-                    What conjectures can you make regarding this expression and
-                    the numbers you find?
-                </p>
-            </task>
-        </activity>
-    </handout>
-</section>
+        <task workspace=".5in">
+            <p>
+                Consider the expression
+                <md>
+                    7^k - 2^k.
+                </md>
+                Evaluate this expression for at least 10 different natural
+                number values of <m>k</m>.
+                What conjectures can you make regarding this expression and the
+                numbers you find?
+            </p>
+        </task>
+    </activity>
+</handout>
