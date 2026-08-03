@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-TheGameSET">
+    <title>The Game SET</title>
+
+    <handout>
+        <p>
+            To provide us with another initial playground for exploring some
+            mathematical ideas, meet the wonderful card game <term>SET</term>
+            (if you've never played it before).
+            It is filled with superb mathematical ideas.
+            This is another option for a play, conjecture, prove problem for
+            your proof portfolio.
+        </p>
+
+        <p>
+            Each card in the deck has three symbols on it, characterized by four
+            attributes:
+            <ul>
+                <li>
+                    <p>
+                        <term>number</term>: one, two, or three symbols;
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <term>color</term>: red, purple, or green;
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <term>shading</term>: empty, striped, or solid;
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <term>shape</term>: oval, diamond, or squiggle.
+                    </p>
+                </li>
+            </ul>
+        </p>
+
+        <p>
+            <em>Every possible combination appears in the deck exactly once</em>.
+            A <q> <term>set</term> </q> comprises three cards for which each
+            attribute is independently either all the same or all different.
+            It's important to note that the number of attributes that are the
+            same can vary.
+            On the document camera, let's find some examples among the 12 cards
+            present.
+        </p>
+
+        <activity>
+            <task workspace=".5in">
+                <p>
+                    At your table in your group of 3-4 students, play several
+                    hands of SET.
+                </p>
+            </task>
+
+            <task workspace="2in">
+                <p>
+                    After you have each found a couple of sets, stop playing and
+                    do the following: develop some mathematically significant
+                    questions about the game SET.
+                    Your main task is to
+                    <em>
+                    ask questions
+                </em>.
+                </p>
+            </task>
+
+            <task workspace="1in">
+                <p>
+                    After you have stated several questions, choose at least one
+                    of them and use your question to make a
+                    <em>
+                    conjecture
+                </em>.
+                </p>
+            </task>
+
+            <task workspace="2in">
+                <p>
+                    After you have made a conjecture, try to prove it.
+                    If you can prove it, then you have a theorem.
+                    If no one can prove it, then you have a conjecture that is
+                    still open.
+                </p>
+            </task>
+        </activity>
+
+        <paragraphs>
+            <title>What is math? to do: Why is the text not appearing?</title>
+
+            <p>
+                There's some fundamental ideas in the previous activity about
+                doing mathematics.
+                We play, we notice, we conjecture, we prove (or disprove).
+                Let's answer the following questions.
+            </p>
+
+            <p workspace="1in">
+                What is a conjecture?
+            </p>
+
+            <p workspace="1in">
+                What is a theorem?
+                What's the difference between a conjecture and a theorem?
+            </p>
+
+            <p workspace="1in">
+                What is a proof?
+                What is a disproof?
+                What does it mean for a conjecture to be open?
+            </p>
+        </paragraphs>
+
+        <theorem>
+            <statement>
+                <p>
+                    (The Fundamental Theorem of SET) Given any two cards from
+                    the deck in SET, those two cards determine a _____.
+                </p>
+            </statement>
+        </theorem>
+
+        <proof>
+            <p>
+                Choose any two cards in the deck.
+                Consider one of the four attributes.
+                Either the two cards are _____ in that attribute or they are
+                _____.
+                If they are the same, then the third card in the set must be
+                _____ in that attribute; if they are different, then the third
+                card in the set must have the _____ _____ of that attribute.
+            </p>
+
+            <p>
+                Since this happens for each of the four attributes, the four
+                traits of the potential third card are _____ determined.
+                Moreover, since every possible combination of the four
+                attributes appears exactly once in the deck, we know that such a
+                card exists, and hence there is _____ set that contains the
+                original two given cards.
+            </p>
+        </proof>
+
+        <p>
+            For the Play, Conjecture Prove problem (Proof Portfolio #1), you can
+            pick one of the questions you asked with your team, explore an
+            answer, and prove something.
+            There's a deck of SET cards in the PCS, or ask me if you need one.
+            Maybe some enterprising student would like to organize a SET
+            tournament sometime this semester.
+        </p>
+    </handout>
+</section>

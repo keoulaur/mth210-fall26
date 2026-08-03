@@ -14,8 +14,12 @@
         <chapter xml:id="ch-intuitiveproofs">
             <title>Intuitive Proofs</title>
 
-            <xi:include href="./activities/01-Chapter1-IntuitiveProofs.ptx"/>
-            <xi:include href="./activities/Chapter1-1-MTH210.ptx"/>
+            <xi:include href="./activities/01-1-ChessboardProblems.ptx"/>
+            <xi:include href="./activities/01-2-PatternsConjectures.ptx" />
+            <xi:include href="./activities/01-3-ConditionalStatements.ptx" />
+            <xi:include href="./activities/01-4-PigeonholePrinciple.ptx"/>
+            <xi:include href="./activities/01-5-TheGameSET.ptx"/>
+            <xi:include href="./activities/01-6-Phase2.ptx"/>
         </chapter>
 
         <chapter>
@@ -59,7 +63,7 @@
                 </p>
             </introduction>
             <!-- Remove the example and replace with your own activities -->
-            <xi:include href="./activities/01-intro-activity.ptx"/>
+            <!-- <xi:include href="./activities/01-intro-activity.ptx"/> -->
             <!-- Add more xi:include files here to include them in the main course -->
         </chapter>
 

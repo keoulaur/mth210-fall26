@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section>
+    <title>Chessboard Problems</title>
+
+    <handout xml:id="ho-chessboardproblems">
+        <p>
+            Some of my favorite parts of mathematics are ones that feel like
+            games or puzzles.
+            The domino covering problem that you read about for today's class is
+            one of them!
+            To start, let's refresh our memories of some definitions and
+            propositions from your text:
+        </p>
+
+        <definition>
+            <statement>
+                <p>
+                    A <term>perfect cover</term> of an <m>m\times n</m> board
+                    with <m>2\times 1</m> dominoes is an arrangement of those
+                    dominoes on the chessboard with no squares left uncovered,
+                    and no dominoes stacked or left hanging off the end.
+                </p>
+            </statement>
+        </definition>
+
+        <proposition>
+            <statement>
+                <p>
+                    There exists a perfect cover of an <m>8\times 8</m>
+                    chessboard.
+                </p>
+            </statement>
+        </proposition>
+
+        <p workspace="1in">
+            Proof idea:
+        </p>
+
+        <proposition>
+            <statement>
+                <p>
+                    If one crosses out the top-left square.
+                    of an <m>8\times 8</m> chessboard, the remaining squares
+                    cannot be perfectly covered by dominoes.
+                </p>
+            </statement>
+        </proposition>
+
+        <p workspace="1in">
+            Proof idea:
+        </p>
+
+        <proposition>
+            <statement>
+                <p>
+                    If one crosses out the top-left square and bottom-right
+                    square of an <m>8\times 8</m> chessboard, the remaining
+                    squares cannot be perfectly covered by dominoes.
+                </p>
+            </statement>
+        </proposition>
+
+        <p workspace="1in">
+            Proof idea:
+        </p>
+
+        <paragraphs>
+            <title>Additional questions from the reading</title>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            <term>Question 1:</term> If I remove two squares of
+                            different colors from an <m>8\times 8</m>
+                            chessboard, must the result have a perfect cover?
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <term>Question 2:</term> If I remove four squares -
+                            two black, two white - from an <m>8\times 8</m>
+                            chessboard, must the result have a perfect cover?
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <term>Question 3:</term> For every pair of positive
+                            integers <m>m</m> and <m>n</m>, does there exist a
+                            perfect cover of the <m>m\times n</m> chessboard by
+                            <m>2\times 1</m> dominoes?
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </paragraphs>
+
+        <p workspace="2in">
+            What are some other questions we could ask?
+        </p>
+
+        <activity workspace="5in">
+            <task>
+                <p>
+                    Explore one of the questions you've asked with your team.
+                </p>
+
+                <p> Note that you can use one of these as a play, conjecture, prove problem for your proof portfolio. (More on that later.)</p>
+            </task>
+        </activity>
+
+        <activity>
+            <introduction>
+                <p>
+                    The game <em>Tetris</em> is played with five different
+                    shapes - the five shapes that can be obtained by piecing
+                    together 4 unit squares:
+                </p>
+
+                <figure xml:id="fig-prefigure-tetris">
+                    <caption>
+                        Five <em>Tetris</em> pieces in <prefigure/>
+                    </caption>
+
+                    <sidebyside widths="20% 20% 20% 20% 20%">
+                        <image>
+                            <shortdescription>A Tetris piece</shortdescription>
+                            <prefigure xmlns="https://prefigure.org" label="prefig-tetris-1">
+                                <diagram dimensions="(75, 100)" margins="5">
+                                    <coordinates bbox="(0,0,3,4)">
+                                        <define-shapes>
+                                            <polygon at="boundary" points="((1,0),(2,0),(2,4),(1,4))" closed="yes" cliptobbox="no"/>
+                                        </define-shapes>
+                                        <clip shape="boundary">
+                                            <grid spacings="((0,1,3),(0,1,4))" stroke="gray" thickness="1"/>
+                                        </clip>
+                                        <shape shape="boundary" stroke="black" thickness="2"/>
+                                    </coordinates>
+                                </diagram>
+                            </prefigure>
+                        </image>
+
+                        <image>
+                            <shortdescription>A Tetris piece</shortdescription>
+                            <prefigure xmlns="https://prefigure.org" label="prefig-tetris-2">
+                                <diagram dimensions="(75, 100)" margins="5">
+                                    <coordinates bbox="(0,0,3,4)">
+                                        <define-shapes>
+                                            <polygon at="boundary" points="((1,2),(3,2),(3,4),(1,4))" closed="yes" cliptobbox="no"/>
+                                        </define-shapes>
+                                        <clip shape="boundary">
+                                            <grid spacings="((0,1,3),(0,1,4))" stroke="gray" thickness="1"/>
+                                        </clip>
+                                        <shape shape="boundary" thickness="2" stroke="black"/>
+                                    </coordinates>
+                                </diagram>
+                            </prefigure>
+                        </image>
+
+                        <image>
+                            <shortdescription>A Tetris piece</shortdescription>
+                            <prefigure xmlns="https://prefigure.org" label="prefig-tetris-3">
+                                <diagram dimensions="(75, 100)" margins="5">
+                                    <coordinates bbox="(0,0,3,4)">
+                                        <define-shapes>
+                                            <polygon at="boundary" points="((1,2),(3,2),(3,3),(2,3),(2,4),(1,4),(1,3))" closed="yes" cliptobbox="no"/>
+                                        </define-shapes>
+                                        <clip shape="boundary">
+                                            <grid spacings="((0,1,3),(0,1,4))" stroke="gray" thickness="1"/>
+                                        </clip>
+                                        <shape shape="boundary" thickness="2" stroke="black"/>
+                                    </coordinates>
+                                </diagram>
+                            </prefigure>
+                        </image>
+
+                        <image>
+                            <shortdescription>A Tetris piece</shortdescription>
+                            <prefigure xmlns="https://prefigure.org" label="prefig-tetris-4">
+                                <diagram dimensions="(75, 100)" margins="5">
+                                    <coordinates bbox="(0,0,3,4)">
+                                        <define-shapes>
+                                            <polygon at="boundary" points="((0,2),(2,2),(2,3),(3,3),(3,4),(1,4),(1,3),(0,3))" closed="yes" cliptobbox="no"/>
+                                        </define-shapes>
+                                        <clip shape="boundary">
+                                            <grid spacings="((0,1,3),(0,1,4))" stroke="gray" thickness="1"/>
+                                        </clip>
+                                        <shape shape="boundary" thickness="2" stroke="black"/>
+                                    </coordinates>
+                                </diagram>
+                            </prefigure>
+                        </image>
+
+                        <image>
+                            <shortdescription>A Tetris piece</shortdescription>
+                            <prefigure xmlns="https://prefigure.org" label="prefig-tetris-5">
+                                <diagram dimensions="(75, 100)" margins="5">
+                                    <coordinates bbox="(0,0,3,4)">
+                                        <define-shapes>
+                                            <polygon at="boundary" points="((0,1),(2,1),(2,2),(1,2),(1,4),(0,4))" closed="yes" cliptobbox="no"/>
+                                        </define-shapes>
+                                        <clip shape="boundary">
+                                            <grid spacings="((0,1,3),(0,1,4))" stroke="gray" thickness="1"/>
+                                        </clip>
+                                        <shape shape="boundary" thickness="2" stroke="black"/>
+                                    </coordinates>
+                                </diagram>
+                            </prefigure>
+                        </image>
+                    </sidebyside>
+                </figure>
+
+                <p>
+                    For the questions below, we also allow these pieces to be
+                    <q>flipped over.</q>
+                </p>
+            </introduction>
+
+            <task workspace="2in">
+                <statement>
+                    <p>
+                        Is it possible to perfectly cover a <m>4\times 5</m>
+                        chessboard using each of these shapes exactly once?
+                        Use an example to show that it is possible, or prove
+                        that it is impossible.
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="2in">
+                <statement>
+                    <p>
+                        Is it possible to perfectly cover an <m>8\times 5</m>
+                        chessboard using each of these shapes exactly twice?
+                        Use an example to show that it is possible, or prove
+                        that it is impossible.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <p>
+            The author starts with these chessboard problems to demonstrate that
+            more advanced mathematics is often considerably different from
+            algebra and calculus.
+            Rather than using algorithms to solve a collection of similar
+            problems, we are interested in other things.
+        </p>
+
+        <blockquote>
+            <p>
+                A mathematician, like a painter or a poet, is a maker of
+                patterns.
+                If her patterns are more permanent than theirs, it is because
+                they are made with ideas.
+                The mathematician's patterns, like the painter's or the poet's,
+                must be beautiful; the ideas, like the colours or the words,
+                must fit together in a harmonious way.
+                Beauty is the first test: there is no permanent place in the
+                world for ugly mathematics.
+            </p>
+            <attribution>G. H. Hardy (1877 - 1947)</attribution>
+        </blockquote>
+    </handout>
+</section>
+
