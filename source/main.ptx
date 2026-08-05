@@ -35,11 +35,10 @@
 
         <chapter xml:id="ch-3-sets">
             <title>Sets</title>
-
-            <!--   <xi:include href="./activities/03-1-Chapter3-IndirectProofs.ptx"/>
-        <xi:include href="./activities/03-2-Chapter3-IndirectProofs.ptx"/> -->
             <xi:include href="./activities/03-1-Sets.ptx"/>
-            <xi:include href="./activities/03-2-SetOperations.ptx"/>
+            <xi:include href="./activities/03-2-SetBuilder.ptx"/>
+            <xi:include href="./activities/03-3-ChooseAnElement.ptx"/>
+            <xi:include href="./activities/03-4-SetOperations.ptx"/>
         </chapter>
 
         <chapter xml:id="ch-4-induction">

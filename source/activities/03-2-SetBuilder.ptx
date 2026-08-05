@@ -1,0 +1,120 @@
+
+
+<handout>
+            <title>Roster Notation and Set Builder Notation</title>
+
+
+        <remark>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Roster notation is when we list all the elements, or
+                            list enough elements so that pattern is obvious and
+                            use <m>\dots</m>.
+                            E.g., <m>\{1,4,9,16,25,\dots\}</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Set builder notation is when we define the elements
+                            by a rule.
+                            E.g., <m>\{n^2: n\in\mathbb{N}\}</m>.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </remark>
+
+        <activity>
+            <introduction>
+                <p>
+                    Practice translating between roster notation and set builder
+                    notation.
+                </p>
+            </introduction>
+
+            <task workspace="1in">
+                <introduction>
+                    <p>
+                        Each of the following sets is written in set builder
+                        notation.
+                        Use an English sentence to describe what the set means,
+                        and then, if possible, write the sets in roster
+                        notation.
+                    </p>
+                </introduction>
+
+                <task>
+                    <statement>
+                        <p>
+                            <m>\{x\in\mathbb{N} : x^2&lt;25\}</m>
+                        </p>
+                    </statement>
+                </task>
+
+                <task>
+                    <statement>
+                        <p>
+                            <m>\{ y\in \mathbb{Z}: \, |y-2|=2.5\}</m>
+                        </p>
+                    </statement>
+                </task>
+
+                <task>
+                    <statement>
+                        <p>
+                            <m>\{ x\in \mathbb{R} : -3\leq x \leq 5\}</m>
+                        </p>
+                    </statement>
+                </task>
+
+                <task>
+                    <statement>
+                        <p>
+                            <m>\{ n^3 +1: n\in\mathbb{N}\}</m>
+                        </p>
+                    </statement>
+                </task>
+            </task>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Write down the set of all even integers using roster
+                        notation and set builder notation.
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="1in">
+                <introduction>
+                    <p>
+                        Consider the following set written using roster
+                        notation:
+                        <md>
+                            \{\sqrt{3}^2, \sqrt{3}^4, \sqrt{3}^6,\cdots\}
+                        </md>
+                    </p>
+                </introduction>
+
+                <task>
+                    <statement>
+                        <p>
+                            Determine four elements of the set other than the
+                            ones listed above.
+                        </p>
+                    </statement>
+                </task>
+
+                <task>
+                    <statement>
+                        <p>
+                            Use set builder notation to describe the set.
+                        </p>
+                    </statement>
+                </task>
+            </task>
+        </activity>
+    </handout>
