@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>Congruence</title>
+
+    <paragraphs>
+        <title>Modular Arithmetic</title>
+
+        <p>
+            Modular arithmetic actually shows up lots of places - including in
+            RSA Encryption (which is how your credit card number gets encrypted
+            in an online transactions) and for ``check digits" - a way to make
+            sure a UPC bar code has scanned correctly.
+            We introduce a lot of content in MTH 210 for the sake of learning
+            how to write proofs, but modular arithmetic wins the award for
+            <q> most likely to appear in your future classes </q>.
+            It's worth investing the time to make sense of this topic!
+        </p>
+
+        <p>
+            The metaphors from the text are a helpful of way understanding modular arithmetic,
+            but we want to define the sandwich in a way that even when the
+            metaphor fails us, we can still agree on what it means for two
+            integers to be congruent.
+        </p>
+
+        <definition>
+            <statement>
+                <p>
+                    For <m>a,r\in\mathbb{Z}</m> and <m>m\in \mathbb{N}</m>, we
+                    say that <m>a</m> is congruent to <m>r</m> modulo <m>m</m>,
+                    and we write <m>a\equiv r \pmod{m}</m>, if <m>m\mid a-r</m>.
+                </p>
+            </statement>
+        </definition>
+
+        <p>
+            Note in Definition 2.14 the author says <m>m</m> is an integer, but
+            in practice, we really only think about <m>m</m> being a positive
+            integer.
+        </p>
+
+        <activity>
+            <title>Practice with congruence</title>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Find two integers <m>a</m> and <m>r</m> that are
+                        congruent modulo <m>5</m>.
+                        That is, give examples of <m>a</m> and <m>r</m> such
+                        that <m>a\equiv r \pmod{5}</m>.
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Find all integers <m>x</m> such that
+                        <m>x\equiv -2 \pmod{5}</m>.
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        True or false: If <m>x</m> is an integer, then there
+                        exists a unique integer <m>y</m> with <m>0\le y\le 5</m>
+                        such that <m>x\equiv y \pmod{5}</m>.
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        True or false: If <m>ak \equiv bk \pmod{m}</m> then
+                        <m>a\equiv b\mod{m}</m>.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity>
+            <title>Direct Proofs with Modulo</title>
+            
+            
+            <statement>
+                <p>
+                     Do a pre-proof analysis of the
+                    following theorem.
+                </p>
+            </statement>
+        </activity>
+
+        <theorem>
+            <statement>
+                <p>
+                    For all integers <m>a,b,c,</m> and <m>d</m>, and all natural
+                    numbers <m>m</m>, if <m>a\equiv b \pmod{m}</m> and
+                    <m>c\equiv d\pmod{m}</m> then
+                    <m>a\cdot c \equiv b\cdot d\pmod{m}</m>.
+                </p>
+            </statement>
+        </theorem>
+
+        <p>
+            <em>Pre-proof analysis:</em>
+        </p>
+    </paragraphs>
+</handout>

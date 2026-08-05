@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<handout xml:id="handout-ho-conditionalstatements">
+<handout>
     <title>Conditional Statements</title>
 
     <activity>
@@ -32,7 +32,7 @@
                 abiding citizen.
                 That is, which card(s) must you turn over to verify the
                 proposition: if one is consuming an alcoholic beverage then one
-                is over the age of 21 How does this relate to the previous
+                is over the age of 21. How does this relate to the previous
                 problem?
             </p>
         </task>

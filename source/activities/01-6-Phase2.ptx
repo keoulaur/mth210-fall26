@@ -157,4 +157,48 @@
             </p>
         </task>
     </activity>
+
+    <paragraphs>
+        <title>Duplicate this in Overleaf!</title>
+
+        <theorem>
+            <statement>
+                <p>
+                    If <m>x</m> is an odd integer and <m>y</m> is an even
+                    integer, then <m>x \cdot y</m> is an even integer.
+                </p>
+            </statement>
+        </theorem>
+
+        <proof>
+            <p>
+                Assume that <m>x</m> is an odd integer and <m>y</m> is an even
+                integer.
+                We will show that <m>x \cdot y</m> is an even integer using a
+                direct proof.
+                Since <m>x</m> is an odd integer, by definition of ``odd" there
+                exists some integer <m>k</m> such that <m>x = 2k+1</m>.
+                Since <m>y</m> is an even integer, by definition of ``even"
+                there exists some <m>m \in \Z</m> such that <m>y = 2m</m>.
+            </p>
+
+            <p>
+                Using algebra, we have: \begin{align*} xy &amp;= (2k+1)(2m)
+                &amp;= 4km+2m &amp;= 2(2km+m).
+                \end{align*}
+            </p>
+
+            <p>
+                Because <m>k</m> and <m>m</m> are integers, and the integers are
+                closed under addition and multiplication, we know that
+                <m>f = 2km+m</m> is also an integer.
+                Thus the previous equation has demonstrated how to write
+                <m>xy</m> in the form <m>xy = 2f</m>, where <m>f \in \Z</m>.
+                By definition, this shows that <m>xy</m> is an even integer.
+                Consequently, we have shown that if <m>x</m> is an odd integer
+                and <m>y</m> is an even integer, then <m>x \cdot y</m> is an
+                even integer.
+            </p>
+        </proof>
+    </paragraphs>
 </handout>

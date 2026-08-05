@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet>
+<handout>
   <title>Chapter 3 - Sets (Part 2)</title>
 
-  <subsection>
+  <paragraphs>
     <title>Operations on Sets</title>
 
     <activity>
@@ -121,10 +121,10 @@
         </task>
       </task>
     </activity>
-  </subsection>
+  </paragraphs>
 
 
-  <subsection>
+  <paragraphs>
     <title>DeMorgan's Laws</title>
 
     <activity workspace="1in">
@@ -157,10 +157,10 @@
         </p>
       </statement>
     </theorem>
-  </subsection>
+  </paragraphs>
 
 
-  <subsection>
+  <paragraphs>
     <title>Showing Disjointness</title>
 
     <p>
@@ -178,5 +178,5 @@
         </p>
       </statement>
     </theorem>
-  </subsection>
-</worksheet>
+  </paragraphs>
+</handout>
