@@ -43,18 +43,40 @@
 
         <chapter xml:id="ch-4-induction">
             <title>Induction</title>
-
-            <xi:include href="./activities/08-210-ReviewChapters1-3.ptx"/>
             <xi:include href="./activities/09-210-Sections4.1-4.2.ptx"/>
             <xi:include href="./activities/10-210-Section4.3.ptx"/>
-            <xi:include href="./activities/11-ReviewAssessment1Questions.ptx"/>
+        </chapter>
+
+        <chapter xml:id="ch-logic">
+            <title>Logic</title>
             <xi:include href="./activities/12-210-Sections5.1-5.2.ptx"/>
             <xi:include href="./activities/13-210-Sections5.3-5.4.ptx"/>
+        </chapter>
+        
+        <chapter xml:id="ch-contrapositive">
+            <title>The Contrapositive</title>
             <xi:include href="./activities/14-210-Chapter6.ptx"/>
+        </chapter>
+
+        <chapter xml:id="ch-contradiction">
+            <title>Contradiction</title>
             <xi:include href="./activities/15-210-Chapter7.ptx"/>
-            <xi:include href="./activities/18-210-Chapter8.ptx"/>
+        </chapter>
+            
+        <chapter xml:id="ch-functions">
+            <title>Functions</title>
+             <xi:include href="./activities/18-210-Chapter8.ptx"/>
             <xi:include href="./activities/19-210-Chapter8Part2.ptx"/>
+        </chapter>
+
+        <chapter xml:id="ch-relations">
+            <title>Relations</title>
             <xi:include href="./activities/20-210-Chapter9.ptx"/>
+        </chapter>
+           
+        <chapter xml:id="ch-review">
+            <title>Review Stuff </title>
+            <xi:include href="./activities/08-210-ReviewChapters1-3.ptx"/>
             <xi:include href="./activities/21-210-MathWrangle.ptx"/>
             <xi:include href="./activities/22-210-ReviewAssessment2Review.ptx"/>
         </chapter>
