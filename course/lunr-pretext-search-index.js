@@ -277,7 +277,7 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "2.1",
   "title": "Direct Proofs",
-  "body": " Direct Proofs   Terms and conditions  I know most of us typically ignore the Terms and Conditions we are asked to agree to, but for doing mathematics, understanding the terms and conditions is vital. Note I didn't say agreeing to the terms and conditions is vital. In fact, changing the terms and conditions is one of the ways we play with math. But in any mathematical dialogue, knowing the terms and conditions of the participants is essential. With that, let's lay out a few things for our mathematical dialogue to get started.    Number systems  Here are a few number systems , or sets of numbers with operations, and their notation. Assume all of the operations are the usual operations you've learned in math class along the way.   The natural numbers, denoted , are the positive whole numbers. That is,     The integers, denoted , consist of zero, the natural numbers, and the negatives of the natural numbers. That is, (The Z comes from the German word Zahl, which means number .)    The rational numbers, denoted , are those real numbers that can be written as a quotient of two integers (with a nonzero denominator). That is, (The Q is for quotient.) The symbol means is an element of or is in . So here, this is saying is an integer and is an integer.    The real numbers, denoted , consist of the rational numbers and the irrational numbers.       Closure of a set under an operation  In Fact 2.1 of our textbook, the author writes The sum of integers is an integer, the difference of integers, and the product of integers is an integer. We'll refer to these facts as  the integers are closed under addition, subtraction, and multiplication  We'll use these closure properties a lot when doing our first proofs.   A comic from Math With Bad Drawings. What's the set and what's the operation here?   A comic. A: \"I don't get it, how could birds evolve from dinosaurs?\". B: \"Well dinosaurs aren't closed under reproduction.\"      Closure properties   Determine if each of the following are true or false, and explain.     The natural numbers are closed under subtraction.      The rational numbers are closed under addition.      The integers are closed under division.      The even integers are closed under subtraction.      The odd integers are closed under addition.      The odd integers are closed under multiplication.      Definitions of odd and even  In the previous activity, to justify your work about evens and odds, you may have used examples. But to be absolutely sure the even integers are closed under subtraction, we need to verify infinitely many examples. But, we don't have infinity time! So instead we will use definitions. Definitions don't come from thin air - recall from your preclass reading that there are other options for these definitions, and reasons to choose these one. We will use these definitions frequently in our early proofs, and you should be able to recall them from memory. Here they are:    An integer is even if for some integer .      An integer is odd if for some integer .    These definitions, seemingly simple, are quite powerful. They allow us to do infinitely many examples all at once.    Even and odd integers   Justify the following carefully, using the definitions of even and odd.     The integer is even.      The integer is odd.      The integer is not odd.      Defining a Sandwich    It's actually quite hard to define things that we think we know well. For example, what is a sandwich? In the class preparation, you needed to draw a line between what is a sandwich and what is not a sandwich and try to write a definition of a sandwich that would be acceptable to everyone in the class. Share your definition with people at your table and have them guess where you drew your line!      Pick one of your definitions of sandwiches. Using your defintiion, can you determine if the following things are sandwiches?   Taco    Burrito    Ravioli    Pizza    Bagel    Bagel sliced with cream cheese    A quesadilla    Soup in a bread bowl.        This may seem like a silly exercise, but it is actually very important in mathematics. We will be doing a lot of proofs in this class and we will need to be able to define things very carefully. This exercise is meant to get you thinking about how to define things and how to communicate your definitions clearly. Also, defining a sandwich has actually come up in the legal system!   An Indiana judge ruled a taco is a sandwich .    A Massachusetts judge ruled a burrito is not a sandwich .    A bagel company in New York avoided the sandwich tax by injecting bagels with cream cheese.    Some say the The Cube Rule settles the debate.       "
+  "body": " Direct Proofs   Terms and conditions  I know most of us typically ignore the Terms and Conditions we are asked to agree to, but for doing mathematics, understanding the terms and conditions is vital. Note I didn't say agreeing to the terms and conditions is vital. In fact, changing the terms and conditions is one of the ways we play with math. But in any mathematical dialogue, knowing the terms and conditions of the participants is essential. With that, let's lay out a few things for our mathematical dialogue to get started.    Number systems  Here are a few number systems , or sets of numbers with operations, and their notation. Assume all of the operations are the usual operations you've learned in math class along the way.   The natural numbers, denoted , are the positive whole numbers. That is,     The integers, denoted , consist of zero, the natural numbers, and the negatives of the natural numbers. That is, (The Z comes from the German word Zahl, which means number .)    The rational numbers, denoted , are those real numbers that can be written as a quotient of two integers (with a nonzero denominator). That is, (The Q is for quotient.) The symbol means is an element of or is in . So here, this is saying is an integer and is an integer.    The real numbers, denoted , consist of the rational numbers and the irrational numbers.       Closure of a set under an operation  In Fact 2.1 of our textbook, the author writes The sum of integers is an integer, the difference of integers, and the product of integers is an integer. We'll refer to these facts as  the integers are closed under addition, subtraction, and multiplication  We'll use these closure properties a lot when doing our first proofs.   A comic from Math With Bad Drawings. What's the set and what's the operation here?   A comic. A: \"I don't get it, how could birds evolve from dinosaurs?\". B: \"Well dinosaurs aren't closed under reproduction.\"      Closure properties   Determine if each of the following are true or false, and explain.     The natural numbers are closed under subtraction.      The rational numbers are closed under addition.      The integers are closed under division.      The even integers are closed under subtraction.      The odd integers are closed under addition.      The odd integers are closed under multiplication.      Definitions of odd and even  In the previous activity, to justify your work about evens and odds, you may have used examples. But to be absolutely sure the even integers are closed under subtraction, we need to verify infinitely many examples. But, we don't have infinity time! So instead we will use definitions. Definitions don't come from thin air - recall from your preclass reading that there are other options for these definitions, and reasons to choose these one. We will use these definitions frequently in our early proofs, and you should be able to recall them from memory. Here they are:    An integer is even if for some integer .      An integer is odd if for some integer .    These definitions, seemingly simple, are quite powerful. They allow us to do infinitely many examples all at once.    Even and odd integers   Justify the following carefully, using the definitions of even and odd.     The integer is even.      The integer is odd.      The integer is not odd.      Defining a Sandwich    It's actually quite hard to define things that we think we know well. For example, what is a sandwich? In the class preparation, you needed to draw a line between what is a sandwich and what is not a sandwich and try to write a definition of a sandwich that would be acceptable to everyone in the class. Share your definition with people at your table and have them guess where you drew your line!      Pick one of your definitions of sandwiches. Using your defintiion, can you determine if the following things are sandwiches?   Taco    Burrito    Ravioli    Pizza    Bagel    Bagel sliced with cream cheese    A quesadilla    Soup in a bread bowl.        This may seem like a silly exercise, but having clear definitions is very important in mathematics. This exercise meant to get you thinking about how humans define things, and how it can be very hard to do so, with much disagreement. Also, defining a sandwich has actually come up in the legal system!   An Indiana judge ruled a taco is a sandwich .    A Massachusetts judge ruled a burrito is not a sandwich .    A bagel company in New York avoided the sandwich tax by injecting bagels with cream cheese.    Some say the The Cube Rule settles the debate.       "
 },
 {
   "id": "root-1-2-5-2-4-2",
@@ -340,7 +340,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11",
   "title": "Defining a Sandwich.",
-  "body": " Defining a Sandwich    It's actually quite hard to define things that we think we know well. For example, what is a sandwich? In the class preparation, you needed to draw a line between what is a sandwich and what is not a sandwich and try to write a definition of a sandwich that would be acceptable to everyone in the class. Share your definition with people at your table and have them guess where you drew your line!      Pick one of your definitions of sandwiches. Using your defintiion, can you determine if the following things are sandwiches?   Taco    Burrito    Ravioli    Pizza    Bagel    Bagel sliced with cream cheese    A quesadilla    Soup in a bread bowl.        This may seem like a silly exercise, but it is actually very important in mathematics. We will be doing a lot of proofs in this class and we will need to be able to define things very carefully. This exercise is meant to get you thinking about how to define things and how to communicate your definitions clearly. Also, defining a sandwich has actually come up in the legal system!   An Indiana judge ruled a taco is a sandwich .    A Massachusetts judge ruled a burrito is not a sandwich .    A bagel company in New York avoided the sandwich tax by injecting bagels with cream cheese.    Some say the The Cube Rule settles the debate.      "
+  "body": " Defining a Sandwich    It's actually quite hard to define things that we think we know well. For example, what is a sandwich? In the class preparation, you needed to draw a line between what is a sandwich and what is not a sandwich and try to write a definition of a sandwich that would be acceptable to everyone in the class. Share your definition with people at your table and have them guess where you drew your line!      Pick one of your definitions of sandwiches. Using your defintiion, can you determine if the following things are sandwiches?   Taco    Burrito    Ravioli    Pizza    Bagel    Bagel sliced with cream cheese    A quesadilla    Soup in a bread bowl.        This may seem like a silly exercise, but having clear definitions is very important in mathematics. This exercise meant to get you thinking about how humans define things, and how it can be very hard to do so, with much disagreement. Also, defining a sandwich has actually come up in the legal system!   An Indiana judge ruled a taco is a sandwich .    A Massachusetts judge ruled a burrito is not a sandwich .    A bagel company in New York avoided the sandwich tax by injecting bagels with cream cheese.    Some say the The Cube Rule settles the debate.      "
 },
 {
   "id": "root-1-2-5-3",
@@ -502,7 +502,7 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "2.4",
   "title": "Divisibility and the Division Algorithm",
-  "body": " Divisibility and the Division Algorithm   Definition: A nonzero integer is said to divide an integer if for some integer . When does divide , we write `` \" and when does not divide , we write `` \".    With your team, prove one of the following propositions:     For all integers and , if then .      For all integers and , if , then .      For all integers and , and all integers and , if and then .     Space to work:    (The Division Algorithm) For all integers and with , there exist unique integers and such that where .     Here's some comments about the Division Algorithm:   The Division Algorithm can be proven is not so much an algorithm as it is a theorem. One can prove the Division Algorithm and your textbook does in the Bonus Examples of Chapter 7, and you may see a proof if you take MTH 350.    Though there are several different ways to write there's only ONE way to write with .    We call the quotient and the remainder. (Notice we are using the because the quotient and remainder are unique!)    Be careful with negative numbers. In a calculator . It would be natural to think this means the quotient when dividing by is . However, , giving quotient .    One way to look at the Division Algorithm is that an integer is either going to be a multiple of or between multiples of . Thus, the Division Algorithm helps with cases, e.g., you can do cases based on the remainder. In this way, we might reduce infinitely many integers, down to  types of integers - e.g., what the remainder is when divided by .        In problems where we are concerned with the issue of divides, the Division Algorithm provides a natural way to consider cases. Consider the following theorem:      If is an integer then .    Test the theorem for several values of . (Include both positive and negative, and even and odd values!)  The only hypothesis is  is an integer . This doesn't give us a lot to go on. Suppose instead, we have the theorem:    If is an integer and , then .    Do a pre-proof analysis of this theorem!  I claim that with the proof from the previous question, we are actually 1\/3 of the way to a proof. What are the possibilities for the remainder when is divided by ? How can this lead to cases?  Read the proof below out loud. This proof is from https:\/\/gvsuoer.github.io\/sundstrom-textbook\/S_divalgo.html\\#P\\_3divides . Pause after each sentence to make sure you understand what the sentence means and why it is said. Make notes on the proof of any details that help you make sense of it! Switch who is reading at least every paragraph!   A proof using cases.   A proof of the previous theorem.    What questions do you have on the proof? How does the author set up the structure of a proof using cases? Can you prove the last case? Can you generalize? E.g., is it true that ? ? This theorem is actually a corollary of Fermat's Little Theorem (Theorem 2.19 on page 71 of your textbook).   "
+  "body": " Divisibility and the Division Algorithm   Definition: A nonzero integer is said to divide an integer if for some integer . When does divide , we write   and when does not divide , we write   .    With your team, prove one of the following propositions:     For all integers and , if then .      For all integers and , if , then .      For all integers and , and all integers and , if and then .     Space to work:    (The Division Algorithm) For all integers and with , there exist unique integers and such that where .     Here's some comments about the Division Algorithm:   The Division Algorithm can be proven is not so much an algorithm as it is a theorem. One can prove the Division Algorithm and your textbook does in the Bonus Examples of Chapter 7, and you may see a proof if you take MTH 350.    Though there are several different ways to write there's only ONE way to write with .    We call the quotient and the remainder. (Notice we are using the because the quotient and remainder are unique!)    Be careful with negative numbers. In a calculator . It would be natural to think this means the quotient when dividing by is . However, , giving quotient .    One way to look at the Division Algorithm is that an integer is either going to be a multiple of or between multiples of . Thus, the Division Algorithm helps with cases, e.g., you can do cases based on the remainder. In this way, we might reduce infinitely many integers, down to  types of integers - e.g., what the remainder is when divided by .        In problems where we are concerned with the issue of divides, the Division Algorithm provides a natural way to consider cases. Consider the following theorem:      If is an integer then .    Test the theorem for several values of . (Include both positive and negative, and even and odd values!)  The only hypothesis is  is an integer . This doesn't give us a lot to go on. Suppose instead, we have the theorem:    If is an integer and , then .    Do a pre-proof analysis of this theorem!  I claim that with the proof from the previous question, we are actually 1\/3 of the way to a proof. What are the possibilities for the remainder when is divided by ? How can this lead to cases?  Read the proof below out loud. This proof is from https:\/\/gvsuoer.github.io\/sundstrom-textbook\/S_divalgo.html\\#P\\_3divides . Pause after each sentence to make sure you understand what the sentence means and why it is said. Make notes on the proof of any details that help you make sense of it! Switch who is reading at least every paragraph!   A proof using cases.   A proof of the previous theorem.    What questions do you have on the proof? How does the author set up the structure of a proof using cases? Can you prove the last case? Can you generalize? E.g., is it true that ? ? This theorem is actually a corollary of Fermat's Little Theorem (Theorem 2.19 on page 71 of your textbook).   "
 },
 {
   "id": "root-1-2-5-5-2",
@@ -628,79 +628,25 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "3.1",
   "title": "Sets And Notation",
-  "body": " Sets And Notation   What is a Set?  A set is an unordered collection of distinct objects which are called elements .    The Symbols        If is an element of a set , we write . This is read  in  .    If is not an element of a set , we write . This is read as  is not in  .    If every element of is also an element of then is a subset of , denoted and read as  is a subset of  .    If and , then we write and we say  is a proper subset of  .    If is not a subset of then we write and say  is not a subset of  . This means there exists an such that .    If and have the exact same elements, we write . This is read as  equals  .          Consider the set .     What are the elements of ? How many are there? (Later we'll refer to the number of elements in the set as the size or the cardinality .)      List 3 different subsets of .       Consider the set .     What are the elements of ? How many are there?      List 3 different subsets of .      Which of the following is correct to say: or ?       Let . Decide whether each of the following statements is true or false.                                         Let , , and . Which of the following statements are true?             and                                                  and        Fill in all of the symbols that apply from the list that apply:                                                                                        (If time:) Challenge Question 1: Can an object ever be both an element and a subset of the same set?      (If time:) Challenge Question 2: How many subsets are there of the set ? Of the set ? How many subsets do you think there will be of the set for ?       Proving : The Choose an Element Method   The notation is read  is a subset of  and means that if then , that is, every element of is also an element of .  Thus, if we want to prove that , we are proving a conditional statement, i.e., an if - then statement. We'll do a direct proof of this conditional statement. So, we'll assume the hypothesis, and show the conclusion.  More specifically, we'll start with an arbitrary such that , and we'll show . Let's consider the following theorem.    If and then .      Prove .    Start with a pre-proof analysis. Consider listing the elements in and the elements in to see if you believe the conjecture. Then, choose an arbitrary element of , e.g., ``Let . So and .\" Work to show that this is in , that is .    (If time:) It's actually true that . What would you add to your proof to prove this?      Proving   To say is to say that and contain exactly the same elements. Said differently, it means these two things:   Every element in is also in (which means ), and    Every element in is also in (which means ).   Indeed, a slick way to prove that is to prove both and , both of which can be done using the ``choose an element\" method.     Prove the following theorem.      The sets and are equal.     "
+  "body": " Sets And Notation   What is a Set? What Are the Symbols   There's a lot of notation that comes with sets!     A set is an unordered collection of distinct objects which are called elements .     If is an element of a set , we write . This is read  in  .    If is not an element of a set , we write . This is read as  is not in  .    If every element of is also an element of then is a subset of , denoted and read as  is a subset of  .    If and , then we write and we say  is a proper subset of  .    If is not a subset of then we write and say  is not a subset of  . This means there exists an such that .    If and have the exact same elements, we write . This is read as  equals  .          Consider the set .     What are the elements of ? How many are there? (Later we'll refer to the number of elements in the set as the size or the cardinality .)      List 3 different subsets of .       Consider the set .     What are the elements of ? How many are there?      List 3 different subsets of .      Which of the following is correct to say: or ?       Let . Decide whether each of the following statements is true or false.                                         Let , , and . Which of the following statements are true?             and                                                  and        Fill in all of the symbols that apply from the list that apply:                                                                                        (If time:) Challenge Question 1: Can an object ever be both an element and a subset of the same set?      (If time:) Challenge Question 2: How many subsets are there of the set ? Of the set ? How many subsets do you think there will be of the set for ?     "
 },
 {
-  "id": "ch-3-sets-2-2-2",
+  "id": "ch-3-sets-2-3",
   "level": "2",
-  "url": "ch-3-sets-2.html#ch-3-sets-2-2-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "set elements "
-},
-{
-  "id": "ch-3-sets-2-3-2",
-  "level": "2",
-  "url": "ch-3-sets-2.html#ch-3-sets-2-3-2",
+  "url": "ch-3-sets-2.html#ch-3-sets-2-3",
   "type": "Definition",
   "number": "25",
   "title": "",
-  "body": "     If is an element of a set , we write . This is read  in  .    If is not an element of a set , we write . This is read as  is not in  .    If every element of is also an element of then is a subset of , denoted and read as  is a subset of  .    If and , then we write and we say  is a proper subset of  .    If is not a subset of then we write and say  is not a subset of  . This means there exists an such that .    If and have the exact same elements, we write . This is read as  equals  .      "
+  "body": "  A set is an unordered collection of distinct objects which are called elements .     If is an element of a set , we write . This is read  in  .    If is not an element of a set , we write . This is read as  is not in  .    If every element of is also an element of then is a subset of , denoted and read as  is a subset of  .    If and , then we write and we say  is a proper subset of  .    If is not a subset of then we write and say  is not a subset of  . This means there exists an such that .    If and have the exact same elements, we write . This is read as  equals  .      "
 },
 {
-  "id": "ch-3-sets-2-3-3",
+  "id": "ch-3-sets-2-4",
   "level": "2",
-  "url": "ch-3-sets-2.html#ch-3-sets-2-3-3",
+  "url": "ch-3-sets-2.html#ch-3-sets-2-4",
   "type": "Activity",
   "number": "20",
   "title": "",
   "body": "   Consider the set .     What are the elements of ? How many are there? (Later we'll refer to the number of elements in the set as the size or the cardinality .)      List 3 different subsets of .       Consider the set .     What are the elements of ? How many are there?      List 3 different subsets of .      Which of the following is correct to say: or ?       Let . Decide whether each of the following statements is true or false.                                         Let , , and . Which of the following statements are true?             and                                                  and        Fill in all of the symbols that apply from the list that apply:                                                                                        (If time:) Challenge Question 1: Can an object ever be both an element and a subset of the same set?      (If time:) Challenge Question 2: How many subsets are there of the set ? Of the set ? How many subsets do you think there will be of the set for ?    "
-},
-{
-  "id": "thm-congruence-subset",
-  "level": "2",
-  "url": "ch-3-sets-2.html#thm-congruence-subset",
-  "type": "Theorem",
-  "number": "26",
-  "title": "",
-  "body": "  If and then .   "
-},
-{
-  "id": "ch-3-sets-2-4-6",
-  "level": "2",
-  "url": "ch-3-sets-2.html#ch-3-sets-2-4-6",
-  "type": "Activity",
-  "number": "21",
-  "title": "",
-  "body": "  Prove .    Start with a pre-proof analysis. Consider listing the elements in and the elements in to see if you believe the conjecture. Then, choose an arbitrary element of , e.g., ``Let . So and .\" Work to show that this is in , that is .    (If time:) It's actually true that . What would you add to your proof to prove this?   "
-},
-{
-  "id": "ch-3-sets-2-5-2",
-  "level": "2",
-  "url": "ch-3-sets-2.html#ch-3-sets-2-5-2",
-  "type": "Remark",
-  "number": "27",
-  "title": "",
-  "body": " To say is to say that and contain exactly the same elements. Said differently, it means these two things:   Every element in is also in (which means ), and    Every element in is also in (which means ).   Indeed, a slick way to prove that is to prove both and , both of which can be done using the ``choose an element\" method.  "
-},
-{
-  "id": "ch-3-sets-2-5-3",
-  "level": "2",
-  "url": "ch-3-sets-2.html#ch-3-sets-2-5-3",
-  "type": "Activity",
-  "number": "22",
-  "title": "",
-  "body": "  Prove the following theorem.   "
-},
-{
-  "id": "ch-3-sets-2-5-4",
-  "level": "2",
-  "url": "ch-3-sets-2.html#ch-3-sets-2-5-4",
-  "type": "Theorem",
-  "number": "28",
-  "title": "",
-  "body": "  The sets and are equal.   "
 },
 {
   "id": "ch-3-sets-3",
@@ -709,23 +655,23 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "3.2",
   "title": "Roster Notation and Set Builder Notation",
-  "body": " Roster Notation and Set Builder Notation      Roster notation is when we list all the elements, or list enough elements so that pattern is obvious and use . E.g., .    Set builder notation is when we define the elements by a rule. E.g., .        Practice translating between roster notation and set builder notation.     Each of the following sets is written in set builder notation. Use an English sentence to describe what the set means, and then, if possible, write the sets in roster notation.                                  Write down the set of all even integers using roster notation and set builder notation.      Consider the following set written using roster notation:      Determine four elements of the set other than the ones listed above.      Use set builder notation to describe the set.      "
+  "body": " Roster Notation and Set Builder Notation      Roster notation is when we list all the elements, or list enough elements so that pattern is obvious and use (dots). E.g., .    Set builder notation is when we define the elements by a rule. E.g., .        Practice translating between roster notation and set builder notation.     Each of the following sets is written in set builder notation. Use an English sentence to describe what the set means, and then, if possible, write the sets in roster notation.                                  Write down the set of all even integers using roster notation and set builder notation.      Consider the following set written using roster notation:      Determine four elements of the set other than the ones listed above.      Use set builder notation to describe the set.      "
 },
 {
   "id": "ch-3-sets-3-2",
   "level": "2",
   "url": "ch-3-sets-3.html#ch-3-sets-3-2",
   "type": "Remark",
-  "number": "29",
+  "number": "26",
   "title": "",
-  "body": "    Roster notation is when we list all the elements, or list enough elements so that pattern is obvious and use . E.g., .    Set builder notation is when we define the elements by a rule. E.g., .     "
+  "body": "    Roster notation is when we list all the elements, or list enough elements so that pattern is obvious and use (dots). E.g., .    Set builder notation is when we define the elements by a rule. E.g., .     "
 },
 {
   "id": "ch-3-sets-3-3",
   "level": "2",
   "url": "ch-3-sets-3.html#ch-3-sets-3-3",
   "type": "Activity",
-  "number": "23",
+  "number": "21",
   "title": "",
   "body": "  Practice translating between roster notation and set builder notation.     Each of the following sets is written in set builder notation. Use an English sentence to describe what the set means, and then, if possible, write the sets in roster notation.                                  Write down the set of all even integers using roster notation and set builder notation.      Consider the following set written using roster notation:      Determine four elements of the set other than the ones listed above.      Use set builder notation to describe the set.     "
 },
@@ -736,14 +682,14 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "3.3",
   "title": "Proving <span class=\"process-math\">\\(A\\subseteq B\\text{:}\\)<\/span> The “Choose an Element Method”",
-  "body": " Proving : The Choose an Element Method   The notation is read  is a subset of  and means that if then , that is, every element of is also an element of .  Thus, if we want to prove that , we are proving a conditional statement, i.e., an if - then statement. We'll do a direct proof of this conditional statement. So, we'll assume the hypothesis, and show the conclusion.  More specifically, we'll start with an arbitrary such that , and we'll show . Let's consider the following theorem.    If and then .      Prove .    Start with a pre-proof analysis. Consider listing the elements in and the elements in to see if you believe the conjecture. Then, choose an arbitrary element of , e.g., ``Let . So and .\" Work to show that this is in , that is .    (If time:) It's actually true that . What would you add to your proof to prove this?     To say is to say that and contain exactly the same elements. Said differently, it means these two things:   Every element in is also in (which means ), and    Every element in is also in (which means ).   Indeed, a slick way to prove that is to prove both and , both of which can be done using the ``choose an element\" method.     Prove the following theorem.      The sets and are equal.    "
+  "body": " Proving : The Choose an Element Method   The notation is read  is a subset of  and means that if then , that is, every element of is also an element of .  Thus, if we want to prove that , we are proving a conditional statement, i.e., an if - then statement. We'll do a direct proof of this conditional statement. So, we'll assume the hypothesis, and show the conclusion.  More specifically, we'll start with an arbitrary such that , and we'll show . Let's consider the following theorem.    If and then .      Prove .    Start with a pre-proof analysis. Consider listing the elements in and the elements in to see if you believe the conjecture. Then, choose an arbitrary element of , e.g., Let . So and . Work to show that this is in , that is .    (If time:) It's actually true that . What would you add to your proof to prove this?     To say is to say that and contain exactly the same elements. Said differently, it means these two things:   Every element in is also in (which means ), and    Every element in is also in (which means ).   Indeed, a slick way to prove that is to prove both and , both of which can be done using the ``choose an element\" method.    To Do  Come up with a better theorem below!     The sets and are equal.      Prove the .    "
 },
 {
   "id": "thm-congruence-subset2",
   "level": "2",
   "url": "ch-3-sets-4.html#thm-congruence-subset2",
   "type": "Theorem",
-  "number": "30",
+  "number": "27",
   "title": "",
   "body": "  If and then .   "
 },
@@ -752,36 +698,36 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-sets-4.html#ch-3-sets-4-6",
   "type": "Activity",
-  "number": "24",
+  "number": "22",
   "title": "",
-  "body": "  Prove .    Start with a pre-proof analysis. Consider listing the elements in and the elements in to see if you believe the conjecture. Then, choose an arbitrary element of , e.g., ``Let . So and .\" Work to show that this is in , that is .    (If time:) It's actually true that . What would you add to your proof to prove this?   "
+  "body": "  Prove .    Start with a pre-proof analysis. Consider listing the elements in and the elements in to see if you believe the conjecture. Then, choose an arbitrary element of , e.g., Let . So and . Work to show that this is in , that is .    (If time:) It's actually true that . What would you add to your proof to prove this?   "
 },
 {
   "id": "ch-3-sets-4-7",
   "level": "2",
   "url": "ch-3-sets-4.html#ch-3-sets-4-7",
   "type": "Remark",
-  "number": "31",
+  "number": "28",
   "title": "",
   "body": " To say is to say that and contain exactly the same elements. Said differently, it means these two things:   Every element in is also in (which means ), and    Every element in is also in (which means ).   Indeed, a slick way to prove that is to prove both and , both of which can be done using the ``choose an element\" method.  "
 },
 {
-  "id": "ch-3-sets-4-8",
+  "id": "thm-congruence-equal",
   "level": "2",
-  "url": "ch-3-sets-4.html#ch-3-sets-4-8",
-  "type": "Activity",
-  "number": "25",
-  "title": "",
-  "body": "  Prove the following theorem.   "
-},
-{
-  "id": "ch-3-sets-4-9",
-  "level": "2",
-  "url": "ch-3-sets-4.html#ch-3-sets-4-9",
+  "url": "ch-3-sets-4.html#thm-congruence-equal",
   "type": "Theorem",
-  "number": "32",
+  "number": "29",
   "title": "",
   "body": "  The sets and are equal.   "
+},
+{
+  "id": "ch-3-sets-4-10",
+  "level": "2",
+  "url": "ch-3-sets-4.html#ch-3-sets-4-10",
+  "type": "Activity",
+  "number": "23",
+  "title": "",
+  "body": "  Prove the .   "
 },
 {
   "id": "ch-3-sets-5",
@@ -790,52 +736,61 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "3.4",
   "title": "Operations on Sets",
-  "body": " Operations on Sets    One learning target is ``given two sets and a universal set identify the union, intersection, complement, and set difference. Find the power set of a given set.\" Here's some practice with that, plus a bonus on Cartesian product.     Let . Let and .     Find .      Find .      Find .      Find .      Find .       Let . Let and .     Find at least 3 elements in .      Find at least 3 elements in .      Find at least 3 elements in .      Find at least 3 elements in .      Find at least 3 elements in .       DeMorgan's Laws    In each of the following Venn diagrams, shade the given sets.  \\begin{figure}[ht]\\scalebox{0.4}{ \\includegraphics{images\/2Sets.png} \\includegraphics{images\/2Sets.png} } \\end{figure}  \\begin{figure}[ht]\\scalebox{0.4}{ \\includegraphics{images\/2Sets.png} \\includegraphics{images\/2Sets.png} } \\end{figure}  Your book does a proof that two of these sets are equal on pages 114-115. Let's sketch the other one.      Suppose and are subsets of a universal set . Then       Showing Disjointness   Definition: Two sets and are disjoint provided that .  Typically, if we want to prove two sets are disjoint we will use a proof technique called ``proof by contradiction\". Consider the theorem below. It seems hard to prove that something is equal to the empty set. Instead, we'll assume that . This gives an element . We work from here to a contradiction, or something that can't possibly be true, so the original assumption must have been wrong..    If and then .     "
+  "body": " Operations on Sets    One learning target is given two sets and a universal set identify the union, intersection, complement, and set difference. Find the power set of a given set. Here's some practice with that, plus a bonus on Cartesian product.     Let . Let and .     Find .      Find .      Find .      Find .      Find .       Let . Let and .     Find at least 3 elements in .      Find at least 3 elements in .      Find at least 3 elements in .      Find at least 3 elements in .      Find at least 3 elements in .       DeMorgan's Laws  DeMorgan's Laws are an important notion about taking complements of unions and intersections.    In each of the following Venn diagrams, shade , , , and .   Venn diagrams for shading    A Venn diagram             A    B    U        A Venn diagram             A    B    U        A Venn diagram             A    B    U        A Venn diagram             A    B    U          Your book does a proof that two of these sets are equal on pages 114-115. Let's sketch the other one.    Suppose and are subsets of a universal set . Then      Showing Disjointness  Roughly, two sets are disjoint if they have no elements in common. The official definition is given in .    Two sets and are disjoint provided that .    Typically, if we want to prove two sets are disjoint we will use a proof technique called proof by contradiction . It seems hard to prove that something is equal to the empty set. Instead, we'll assume that . This gives an element . We work from here to a contradiction, or something that can't possibly be true, so the original assumption must have been wrong.     If and then .     Prove .   "
 },
 {
   "id": "ch-3-sets-5-2",
   "level": "2",
   "url": "ch-3-sets-5.html#ch-3-sets-5-2",
   "type": "Activity",
-  "number": "26",
+  "number": "24",
   "title": "",
-  "body": "  One learning target is ``given two sets and a universal set identify the union, intersection, complement, and set difference. Find the power set of a given set.\" Here's some practice with that, plus a bonus on Cartesian product.     Let . Let and .     Find .      Find .      Find .      Find .      Find .       Let . Let and .     Find at least 3 elements in .      Find at least 3 elements in .      Find at least 3 elements in .      Find at least 3 elements in .      Find at least 3 elements in .     "
+  "body": "  One learning target is given two sets and a universal set identify the union, intersection, complement, and set difference. Find the power set of a given set. Here's some practice with that, plus a bonus on Cartesian product.     Let . Let and .     Find .      Find .      Find .      Find .      Find .       Let . Let and .     Find at least 3 elements in .      Find at least 3 elements in .      Find at least 3 elements in .      Find at least 3 elements in .      Find at least 3 elements in .     "
 },
 {
-  "id": "ch-3-sets-5-3-2",
+  "id": "ch-3-sets-5-4",
   "level": "2",
-  "url": "ch-3-sets-5.html#ch-3-sets-5-3-2",
+  "url": "ch-3-sets-5.html#ch-3-sets-5-4",
   "type": "Activity",
-  "number": "27",
+  "number": "25",
   "title": "",
-  "body": "  In each of the following Venn diagrams, shade the given sets.  \\begin{figure}[ht]\\scalebox{0.4}{ \\includegraphics{images\/2Sets.png} \\includegraphics{images\/2Sets.png} } \\end{figure}  \\begin{figure}[ht]\\scalebox{0.4}{ \\includegraphics{images\/2Sets.png} \\includegraphics{images\/2Sets.png} } \\end{figure}  Your book does a proof that two of these sets are equal on pages 114-115. Let's sketch the other one.   "
+  "body": " In each of the following Venn diagrams, shade , , , and .   Venn diagrams for shading    A Venn diagram             A    B    U        A Venn diagram             A    B    U        A Venn diagram             A    B    U        A Venn diagram             A    B    U         "
 },
 {
-  "id": "ch-3-sets-5-3-3",
+  "id": "ch-3-sets-5-6",
   "level": "2",
-  "url": "ch-3-sets-5.html#ch-3-sets-5-3-3",
+  "url": "ch-3-sets-5.html#ch-3-sets-5-6",
   "type": "Theorem",
-  "number": "33",
+  "number": "31",
   "title": "",
   "body": "  Suppose and are subsets of a universal set . Then    "
 },
 {
-  "id": "ch-3-sets-5-4-2",
+  "id": "def-disjoint",
   "level": "2",
-  "url": "ch-3-sets-5.html#ch-3-sets-5-4-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "url": "ch-3-sets-5.html#def-disjoint",
+  "type": "Definition",
+  "number": "32",
   "title": "",
-  "body": "Definition: "
+  "body": "  Two sets and are disjoint provided that .   "
 },
 {
-  "id": "ch-3-sets-5-4-4",
+  "id": "thm-disjoint-congruence",
   "level": "2",
-  "url": "ch-3-sets-5.html#ch-3-sets-5-4-4",
+  "url": "ch-3-sets-5.html#thm-disjoint-congruence",
   "type": "Theorem",
-  "number": "34",
+  "number": "33",
   "title": "",
   "body": "  If and then .   "
+},
+{
+  "id": "ch-3-sets-5-9",
+  "level": "2",
+  "url": "ch-3-sets-5.html#ch-3-sets-5-9",
+  "type": "Activity",
+  "number": "26",
+  "title": "",
+  "body": " Prove .  "
 },
 {
   "id": "ch-4-induction-2",
@@ -851,7 +806,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-2.html#ch-4-induction-2-2-2",
   "type": "Definition",
-  "number": "35",
+  "number": "34",
   "title": "",
   "body": "  For and , provided that .   "
 },
@@ -869,7 +824,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-2.html#ch-4-induction-2-2-6",
   "type": "Theorem",
-  "number": "36",
+  "number": "35",
   "title": "",
   "body": "  Suppose , . The following hold:    For all ,     If then .    If and then .    If and then \\begin{enumerate} \\item \\item \\item . \\end{enumerate}     "
 },
@@ -878,7 +833,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-2.html#ch-4-induction-2-2-7",
   "type": "Activity",
-  "number": "28",
+  "number": "27",
   "title": "",
   "body": "  Practice with congruence, modular arithmetic, and the division algorithm.     If you want practice with proving things about modulo, pick one of the parts of the above theorem and prove it!      In roster notation, write the set of all integers that are congruent to modulo . Include some negative integers!      Find an integer such that but . Can you find all such integers ?      Try to find an intuitive explanation for why there is no integer such that .      One can use cases to prove that if and then . What cases would make sense here? Prove one case.      The division algorithm states that for all integers and with , there exist unique integers and such that where . For each of the following, find and (and use the words quotient and remainder), and write a congruence that results from this. (a) , (b) , , (c) , .      One place congruence shows up is in the childhood way of picking who is ``it\" in tag called ``eeny meeny miny, moe\". Here's the rhyme: \\begin{quote} Eeny, meeny, miny, moe, Catch a tiger by the toe. If he hollers, let him go, Eeny, meeny, miny, moe. \\end{quote} Decide with your group how many people you point to going through the rhyme. Then pick a person in your team to point out first. Use modular arithmetic to decide who will be ``it\" without doing the rhyme. Who can you start with if you don't want to be ``it\"? What if your group had people? ? more?    "
 },
@@ -896,7 +851,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-2.html#ch-4-induction-2-3-4",
   "type": "Activity",
-  "number": "29",
+  "number": "28",
   "title": "",
   "body": "  There's lots of problems on Learning Targets 5 and 7 practice!     For each set, name 4 elements of the set.                           Let and . How are and related?      How many elements are in the set ? (I.e., what's the cardinality of ?)      Write the following sets in set-builder notation.                                "
 },
@@ -914,7 +869,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-2.html#ch-4-induction-2-5-2",
   "type": "Theorem",
-  "number": "37",
+  "number": "36",
   "title": "",
   "body": "  If and then .   "
 },
@@ -923,7 +878,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-2.html#ch-4-induction-2-5-4",
   "type": "Theorem",
-  "number": "38",
+  "number": "37",
   "title": "",
   "body": "  For all subsets of some universal set , .   "
 },
@@ -959,7 +914,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-7",
   "type": "Theorem",
-  "number": "39",
+  "number": "38",
   "title": "",
   "body": "  For all , the sum of the first odd natural numbers is . That is, for all ,    "
 },
@@ -977,7 +932,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-9",
   "type": "Activity",
-  "number": "30",
+  "number": "29",
   "title": "",
   "body": "  Use the principle of mathematical induction to prove the theorem.   "
 },
@@ -986,7 +941,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-10",
   "type": "Theorem",
-  "number": "40",
+  "number": "39",
   "title": "",
   "body": "  For every natural number , the sum of the squares of the first natural numbers is . That is,    "
 },
@@ -995,7 +950,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-13",
   "type": "Activity",
-  "number": "31",
+  "number": "30",
   "title": "",
   "body": "  Work to get the big ideas of the induction argument right first; then, sketch the proof.   "
 },
@@ -1004,7 +959,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-14",
   "type": "Theorem",
-  "number": "41",
+  "number": "40",
   "title": "",
   "body": "  For every natural number , .   "
 },
@@ -1013,7 +968,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-16",
   "type": "Activity",
-  "number": "32",
+  "number": "31",
   "title": "",
   "body": "   If time: If you finish the activity above, here's one more statement to try to prove, using induction:  \\begin{quote} ``For every natural number , '' \\end{quote}   "
 },
@@ -1022,7 +977,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-17",
   "type": "Activity",
-  "number": "33",
+  "number": "32",
   "title": "",
   "body": "   An induction proof from calculus: Find a formula for the derivative of , state your result as a theorem, and prove it using induction.   "
 },
@@ -1031,7 +986,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-18",
   "type": "Activity",
-  "number": "34",
+  "number": "33",
   "title": "",
   "body": "   An induction proof with inequality Recall (or learn for the first time!) that . E.g., and . Determine if the following conjecture is true. If not, modify it by saying which values of it is true for, and then prove by induction.   "
 },
@@ -1040,7 +995,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-19",
   "type": "Conjecture",
-  "number": "42",
+  "number": "41",
   "title": "",
   "body": "  For all , .   "
 },
@@ -1067,7 +1022,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-4.html#ch-4-induction-4-5",
   "type": "Activity",
-  "number": "35",
+  "number": "34",
   "title": "",
   "body": "  In the preview activity, you likely conjectured that, for all , . Let's prove this by induction!   "
 },
@@ -1076,7 +1031,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-4.html#ch-4-induction-4-6",
   "type": "Activity",
-  "number": "36",
+  "number": "35",
   "title": "",
   "body": "  Here are the first several Fibonacci numbers (starting with ):     What is the important thing you notice about every fourth Fibonacci number? State this in the form of a Proposition: ``For all , is '' Then prove your conjecture using induction!   Strong Induction Consider a sequence of mathematical statements .     Suppose is true      Suppose for any , if are all true, then is true.    "
 },
@@ -1085,7 +1040,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-4.html#ch-4-induction-4-7",
   "type": "Activity",
-  "number": "37",
+  "number": "36",
   "title": "",
   "body": "  Suppose you had a chocolate bar, a grid of squares, and you want to break it up completely so that each piece is only one square. No tricks, just break along the grid lines. Try breaking it up - how many breaks did it take? Can you do it more efficiently? Start simple - like with a .   Play, Conjecture, Prove: Option 4:   In a simplified version of the super bowl, teams can score points (for a field goal) or points (for a touchdown). What are the possible scores for one team?   Common Induction Mistakes   Here are some things that you should never ever do. For each one, can you explain why it's a mistake?    Writing something like `` '' or `` .'' A predicate is never equal to anything. It's a sentence!    In the base case: Stating and then forgetting to explain why it is true. Base cases should usually look ``obvious'' but you still need to say something about why they're true.    Forgetting to do the base case at all.    In the inductive step: Saying that ``We assume that is true for all natural numbers .'' If you really did assume this, what would you have left to prove?    Writing ``We assume that is ''. Are you actually assuming anything is true ?     Evaluating a Proof   \\includegraphics[scale=.5]{images\/Dinosaurs}   "
 },
@@ -1220,7 +1175,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-5.html#ch-4-induction-5-4-19",
   "type": "Theorem",
-  "number": "43",
+  "number": "42",
   "title": "",
   "body": "  Let and be subsets of some universal set . If then .   "
 },
@@ -1256,7 +1211,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-5.html#ch-4-induction-5-4-24",
   "type": "Theorem",
-  "number": "44",
+  "number": "43",
   "title": "",
   "body": "  Let be a universal set and and be subsets of . If and then .   "
 },
@@ -1292,7 +1247,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-6.html#ch-4-induction-6-3-2",
   "type": "Activity",
-  "number": "38",
+  "number": "37",
   "title": "",
   "body": "   Fill in the following truth tables:      Suppose is the statement `` is odd\" and is the statement `` is prime\". What are some true statements we can form using .    "
 },
@@ -1301,7 +1256,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-6.html#ch-4-induction-6-4-2",
   "type": "Activity",
-  "number": "39",
+  "number": "38",
   "title": "",
   "body": "  Let's return to an activity we did on the first day of class.     A mathematician places a set of four cards on a table, each of which has a number on one side and a colored patch on the other side. She claims the following:  if a card shows an even number on one face, then its opposite face is red     The visible faces of the cards show 3, 8, red, and blue. Which card(s) must you turn over in order to test the truth of her claim? Carefully explain out loud to the people at your table.      Let be the statement ``a card shows an even number\" and be the statement ``it's opposite face is red\". Next to the 's and 's above, label T, F, or ? for what you know about that card.      What is\/are the only situation(s) where the mathematician could be lying, i.e., would be false?       It is a well known law in the United States that you must be 21 to consume alcohol. Suppose now that four cards are placed on the table each of which has an age on one side and a beverage on the other. The visible faces of the cards show 16, 22, coca-cola, and beer. If each card represents a person at the party, which card(s) must you check to make sure everyone at the party is a law abiding citizen. That is, which card(s) must you turn over to verify the proposition:  if one is consuming an alcoholic beverage then one is over the age of 21  Complete the same tasks as in part 1, except now is ``one is consuming an alcoholic beverage\" and is ``one is over 21\". What is\/are the situation(s) could be breaking the law? How does this relate to the previous problem?    "
 },
@@ -1310,7 +1265,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-6.html#ch-4-induction-6-5-2",
   "type": "Activity",
-  "number": "40",
+  "number": "39",
   "title": "",
   "body": "  Based on the logic from the previous page, fill in the following truth tables.   Conditional, implies, or ``If then \":             True  True     True  False     False  True     False  False      Biconditional, if and only if, or :                 True  True       True  False       False  True       False  False       You will encounter many ``if and only if\" statements. E.g., in linear algebra: ``A square matrix is invertible if and only if it has a pivot in every column\" , or in geometry: ``a triangle has a pair of congruent sides if and only if it has a pair of congruent angles\" .   "
 },
@@ -1319,7 +1274,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-6.html#ch-4-induction-6-6-2",
   "type": "Activity",
-  "number": "41",
+  "number": "40",
   "title": "",
   "body": "   Draw a truth table that includes columns for , , and .                    True  True        True  False        False  True        False  False            Some vocabulary:    The converse of is .    The contrapositive of is .    What do you notice about the converse and the contrapositive from your truth table above?      For each of the following, determine if the statement is true. Then write down the converse and contrapositive and determine if they are true.      Original Statement: If then . True False   Converse: True False   Contrapositive: True False   If false - counterexample:   \\hrulefill       Original Statement: If then . True False   Converse: True False   Contrapositive: True False   If false - counterexample:   \\hrulefill       Original Statement: If is an odd integer then is an odd integer. True False   Converse: True False   Contrapositive: True False   If false - counterexample:        What can you say about the relationship between the original statement and the converse? The original statement and the contrapositive?    "
 },
@@ -1337,7 +1292,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-6.html#ch-4-induction-6-7-4",
   "type": "Activity",
-  "number": "42",
+  "number": "41",
   "title": "",
   "body": "   In each of your counterexamples on the previous page, what did you do to show the statement was false? What does this suggest about the negation of a conditional statement?      Make a truth table with , , , and . What do you notice? What does this suggest about the negation of a conditional statement?      As the previous exercises suggest, is the statement . Negate each of the statements on the previous page. Are the negations true or false? How does that relate to the truth value of the original statement?    "
 },
@@ -1346,7 +1301,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-6.html#ch-4-induction-6-8-2",
   "type": "Activity",
-  "number": "43",
+  "number": "42",
   "title": "",
   "body": "   Use the truth table to show that is logically equivalent to .                      True  True  True        True  True  False        True  False  True        True  False  False        False  True  True        False  True  False        False  False  True        False  False  False            Do we have all possible truth values of , , and in the truth table above? What do you notice about how they are arranged?      Draw a truth table to show is logically equivalent to .  Make sure you break down each statement so you aren't doing too many things at once!    "
 },
@@ -1355,7 +1310,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-6.html#ch-4-induction-6-9-2",
   "type": "Activity",
-  "number": "44",
+  "number": "43",
   "title": "",
   "body": "  Let be a real number and let be a real-valued function defined on an interval containing . Consider the following conditional statement:  If is differentiable at , then is continuous at .  Let be `` is differentiable, and be `` is continuous\". So the above statement is .  For each of the following write in symbols, using , , and logical operators. Then, determine which statements are equivalent to and which are the negation? (Some may be neither.)     If is continuous at , then is differentiable at .      If is not differentiable at , then is not continuous at .      If is not continuous at , then is not differentiable at .       is not differentiable at or is continuous at        is not continuous at or is differentiable at        is differentiable at and is not continuous at .    "
 },
@@ -1364,7 +1319,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-6.html#ch-4-induction-6-10-2",
   "type": "Activity",
-  "number": "45",
+  "number": "44",
   "title": "",
   "body": "  Following is a statement of a theorem which can be proven using calculus or precalculus mathematics.   "
 },
@@ -1373,7 +1328,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-6.html#ch-4-induction-6-10-3",
   "type": "Theorem",
-  "number": "45",
+  "number": "44",
   "title": "",
   "body": "  If is a quadratic function of the form where and , then the function has a maximum value when .   "
 },
@@ -1391,7 +1346,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-7.html#ch-4-induction-7-2-3",
   "type": "Activity",
-  "number": "46",
+  "number": "45",
   "title": "",
   "body": "  Determine if each of the following are true or false.                                                                         "
 },
@@ -1400,7 +1355,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-7.html#ch-4-induction-7-3-3",
   "type": "Activity",
-  "number": "47",
+  "number": "46",
   "title": "",
   "body": "  Practice Negating. Negate the following statements.     For all integers , if is positive, then is prime.      For all integers and , if and then .      For each real number , if then and .      There are real numbers and such that .      For every pair of real numbers and , if then there exists a rational number such that .      For every line and every point , if is not on , then there exists a unique line through that is parallel to .    "
 },
@@ -1409,7 +1364,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-7.html#ch-4-induction-7-3-4",
   "type": "Activity",
-  "number": "48",
+  "number": "47",
   "title": "",
   "body": "  (If time:) Negate the statements on page 72 and translate into English.   "
 },
@@ -1436,7 +1391,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-7.html#ch-4-induction-7-4-7",
   "type": "Activity",
-  "number": "49",
+  "number": "48",
   "title": "",
   "body": "  Here's some statements with hidden quantifiers, hidden conditional statements, or translated into other words. Rewrite the sentences as directed.     If a function is continuous at , then the function is differentiable at . Rewrite with a universal quantifier.       The equation has a solution. Rewrite with an existential quantifier.       Every natural number is a perfect square. Rewrite with a universal and existential quantifier.       Every real number can be squared. Rewrite with a universal and existential quantifier.       No basketball players also play tennis. Rewrite as a conditional statement.       Any prime number is not followed by a perfect square. Rewrite as a conditional statement.     "
 },
@@ -1445,7 +1400,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-7.html#ch-4-induction-7-5-6",
   "type": "Activity",
-  "number": "50",
+  "number": "49",
   "title": "",
   "body": "  In calculus, we establish that the following conditional statement is true:  \\begin{quote} If is any function such that is differentiable at the real number , then is continuous at . \\end{quote}  What can we conclude, if anything about the following four functions?     A function that we know is differentiable at .      A function that we know is not differentiable at .      A function that we know is continuous at .      A function that we know is not continuous at .    "
 },
@@ -1472,7 +1427,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-7.html#ch-4-induction-7-6-5",
   "type": "Activity",
-  "number": "51",
+  "number": "50",
   "title": "",
   "body": "   If time: Some exercises to keep you entertain over spring break if you get bored :)     Prove that for all , there exists some such that .      Any prime number is not followed by a perfect square. (Note a prime number is a natural number greater than 1 that has exactly two distinct positive divisors: 1 and itself. A perfect square is a natural number such that there exists a natural number such that .)    "
 },
@@ -1526,7 +1481,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-8.html#ch-4-induction-8-16",
   "type": "Theorem",
-  "number": "46",
+  "number": "45",
   "title": "",
   "body": "  For all , if is odd, then is odd.   "
 },
@@ -1544,7 +1499,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-8.html#ch-4-induction-8-18",
   "type": "Activity",
-  "number": "52",
+  "number": "51",
   "title": "",
   "body": "  For each of the following statements, find the contrapositive (turning the statement into an ``if-then\" conditional statement if needed). Then decide which one seems easier to prove - the statement or its contrapositive, and briefly explain why.     For all natural numbers , if then .  {\\tiny Easier to prove the original Easier to prove the contrapositive }      For all integers and , if is even, then is even or is even.  {\\tiny Easier to prove the original Easier to prove the contrapositive }      Let , and let be a prime. If then and .  {\\tiny Easier to prove the original Easier to prove the contrapositive }      For all integers , if is even if and only if is even. (Note there are 2 conditional statements here, write out both conditional statements and their contrapositives.)  {\\tiny Easier to prove the original Easier to prove the contrapositive }      For all integers , if is even, then is even.  {\\tiny Easier to prove the original Easier to prove the contrapositive }      For all , if is even, then is odd.  {\\tiny Easier to prove the original Easier to prove the contrapositive }      No prime number greater than is followed by a perfect square. (Rewrite as a conditional statement first!)  {\\tiny Easier to prove the original Easier to prove the contrapositive }    "
 },
@@ -1553,7 +1508,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-8.html#ch-4-induction-8-19",
   "type": "Activity",
-  "number": "53",
+  "number": "52",
   "title": "",
   "body": "  Prove the following biconditional theorem. This means you need to prove 2 conditional statements!   "
 },
@@ -1562,7 +1517,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-8.html#ch-4-induction-8-20",
   "type": "Theorem",
-  "number": "47",
+  "number": "46",
   "title": "",
   "body": "  For all integers , is odd if and only if is event.   "
 },
@@ -1571,7 +1526,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-8.html#ch-4-induction-8-21",
   "type": "Activity",
-  "number": "54",
+  "number": "53",
   "title": "",
   "body": "  Prove the following biconditional theorem. This means you need to prove 2 conditional statements!   "
 },
@@ -1580,7 +1535,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-8.html#ch-4-induction-8-22",
   "type": "Theorem",
-  "number": "48",
+  "number": "47",
   "title": "",
   "body": "  For all integers and , if and only if or .   "
 },
@@ -1589,7 +1544,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-8.html#ch-4-induction-8-23-2",
   "type": "Activity",
-  "number": "55",
+  "number": "54",
   "title": "",
   "body": "  Evaluate the following proof. Is it correct? Should more be explained? Does it meet our writing guidelines?  \\includegraphics{images\/ContrapositiveForCowards.PNG}   "
 },
@@ -1598,7 +1553,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-8.html#ch-4-induction-8-24-3",
   "type": "Activity",
-  "number": "56",
+  "number": "55",
   "title": "",
   "body": "  Here are two things that sometimes happen in math:    A counterexample comes early, but it turns out to be the only counterexample. E.g., find counterexamples to the following \\begin{itemize} \\item Every prime is odd. \\item No prime number is followed by a perfect square. \\end{itemize} It turns out the first statement is true for any prime greater than 2, and the second is true for any prime greater than 3. If time: Can you prove these?    Sometimes the ``first\" counterexample comes really late, but then there are lots of counterexamples. Consider the following statement \\begin{itemize} \\item If is prime then is prime. \\end{itemize} It turns out this is true for and , but it is not true for . Prime numbers of the form for a prime are know as Mersenne Primes. Currently we know of Mersenne primes and (which is 41,024,320 digits) is the largest known prime number (found in 2024). Also, the following statment \\begin{itemize} \\item For every , \\end{itemize} The first counterexample for this has digits (see page 270 of your textbook). We know one exists because the harmonic series diverges (you'd see this in Calc 2). After the first counterexample, every natural number is a counterexample, do you see why?     "
 },
@@ -1634,7 +1589,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-9.html#ch-4-induction-9-4-4",
   "type": "Theorem",
-  "number": "49",
+  "number": "48",
   "title": "",
   "body": "  If and . Then .   "
 },
@@ -1661,7 +1616,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-9.html#ch-4-induction-9-5-3",
   "type": "Activity",
-  "number": "57",
+  "number": "56",
   "title": "",
   "body": "  For each statement below, write its negation to start the proof by contradiction.      Theorem.  For all real numbers and , if and , then .    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For each real number , is irrational or is irrational.    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For each real number , if is irrational, then is irrational.    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For each , if and then .    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For all integers and , if , then and .    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For all integers and , if then or .    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume   If time: When you have each negation completed, go back and try to figure out what the next main step of logic would be. That is, what's the next helpful statement you could make in a contradiction proof?   If time 2: Could you prove any of these with a different proof technique? For example, would any of the proofs be better with contrapositive? Or cases?    "
 },
@@ -1688,7 +1643,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-9.html#ch-4-induction-9-7-7",
   "type": "Lemma",
-  "number": "50",
+  "number": "49",
   "title": "",
   "body": "  For all integers , is even if and only if is even.   "
 },
@@ -1697,7 +1652,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-9.html#ch-4-induction-9-7-8",
   "type": "Theorem",
-  "number": "51",
+  "number": "50",
   "title": "",
   "body": "  The real number is irrational.   "
 },
@@ -1715,7 +1670,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-9.html#ch-4-induction-9-7-12",
   "type": "Conjecture",
-  "number": "52",
+  "number": "51",
   "title": "",
   "body": "  For all integers and , if , then or given integers , , .   "
 },
@@ -1724,7 +1679,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-9.html#ch-4-induction-9-7-14",
   "type": "Theorem",
-  "number": "53",
+  "number": "52",
   "title": "The Prime Divisor Theorem.",
   "body": " The Prime Divisor Theorem   [The Prime Divisor Theorem] Let , and be natural numbers. If and is prime, then or .   "
 },
@@ -1751,7 +1706,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-9.html#ch-4-induction-9-8-2",
   "type": "Activity",
-  "number": "58",
+  "number": "57",
   "title": "",
   "body": "  Try to determine if the following conjectures are true on false. If true, work on the proving the following theorems by contradiction.    For each real number , if then .    Let and be integers. If and and then the equation has no solution in which both and are integers.    For each positive real number , if is irrational then is irrational.     "
 },
@@ -1814,7 +1769,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-10.html#ch-4-induction-10-3-2",
   "type": "Activity",
-  "number": "59",
+  "number": "58",
   "title": "",
   "body": "  Draw an arrow diagram, or write down a function formula, for each of the following.      |p{2.5in}|} Term  Example  Non-example    Function      [55pt] Injection      [55pt] Surjection      [55pt] Bijection      [55pt]       Choose an example from the table above and use the terms ``image\" and ``pre-image\".      Why do we say ``the\" image, but ``a\" pre-image.      What do we call it when all the elements in the range have a unique pre-image? What do we call it when all the elements in the codomain have a unique pre-image?      If and are finite sets, and is an injection, what can you say about vs. ?      If and are finite sets, and is a surjection, what can you say about vs. ?      If and are finite sets, and is a bijection, what can you say about vs. ?    "
 },
@@ -1823,7 +1778,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-10.html#ch-4-induction-10-3-3",
   "type": "Activity",
-  "number": "60",
+  "number": "59",
   "title": "",
   "body": "  For each of the following functions, in addition to answering the given questions you should determine:    the domain, codomain, and range,    and then determine if they are injections, surjections, or bijections.       For all , . What is the image of ? of ? What is the pre-image of ? of ?      For all people in the world, B(person) = person's birthday. (Just the month and day, e.g., B(DocK) = May 29.) What is the image of each member of your group?   If time: How would this be different if we changed the domain to be just the people in our class?      For all , . (Here we mean the remainder when is divided by .) Determine the images of and under . What is the pre-image of ? What is the pre-image of ?       If time: For all , . What are the images of , and under ? What is the pre-image of under ? What is the pre-image of ?    "
 },
@@ -1850,7 +1805,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-10.html#ch-4-induction-10-4-5",
   "type": "Activity",
-  "number": "61",
+  "number": "60",
   "title": "",
   "body": "   Disproving is like proving the negation. Negate the definitions above to complete the sentences:     A function is not injective if      A function is not surjective if       Let be the set of all matrices with real entries. That is, Prove that defined by is not an injection.      Prove that defined by is not surjective. Hint: Graph it! What's in the codomain but not in the range?     "
 },
@@ -1859,7 +1814,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-10.html#ch-4-induction-10-5-2",
   "type": "Activity",
-  "number": "62",
+  "number": "61",
   "title": "",
   "body": "  We'll do the scratch work for proving a function is a bijection.     Let be defined by . (Fill in the blanks, look at \\#3 on page 98!)      Write down the definition of injective here:      What will you assume? What will you try to show?      To start: Pick two arbitrary such that: _____      Now do some algebra to get to what you want to show! That will finish the proof of injective.      Write down the definition of surjective:      In order to show that is surjective, start with an arbitrary . You must show that there exists an such that _____.      Now do some algebra scratch-work to figure out what  should be.      Your work above is not enough to show that (why not?). There are two things to check:     Is your in the domain of ? Verify this.      Does ? Show directly by substituting your into the formula and simplifying.     "
 },
@@ -1868,7 +1823,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-10.html#ch-4-induction-10-5-3",
   "type": "Theorem",
-  "number": "54",
+  "number": "53",
   "title": "",
   "body": "  Let be defined by for all . Then is a bijection.   "
 },
@@ -1922,7 +1877,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-11.html#ch-4-induction-11-3-2",
   "type": "Activity",
-  "number": "63",
+  "number": "62",
   "title": "",
   "body": "  For each of the following, draw arrow diagrams for , , and . Then determine if each of those 3 functions is an injection or surjection.     Suppose and are defined by       Suppose and are defined by     "
 },
@@ -1931,7 +1886,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-11.html#ch-4-induction-11-5-3",
   "type": "Theorem",
-  "number": "55",
+  "number": "54",
   "title": "",
   "body": "  Suppose and are sets, is injective and is injective. Then is injective.   "
 },
@@ -1940,7 +1895,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-11.html#ch-4-induction-11-5-7",
   "type": "Theorem",
-  "number": "56",
+  "number": "55",
   "title": "",
   "body": "  Suppose and are sets, is injective and is injective. Then is injective.   "
 },
@@ -1958,7 +1913,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-11.html#ch-4-induction-11-5-11",
   "type": "Theorem",
-  "number": "57",
+  "number": "56",
   "title": "",
   "body": "  Suppose and are sets, is surjective and is surjective. Then is surjective.   "
 },
@@ -1967,7 +1922,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-11.html#ch-4-induction-11-5-14",
   "type": "Theorem",
-  "number": "58",
+  "number": "57",
   "title": "",
   "body": "  Suppose and are sets, is surjective and is surjective. Then is surjective.   "
 },
@@ -1985,7 +1940,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-11.html#ch-4-induction-11-5-16",
   "type": "Corollary",
-  "number": "59",
+  "number": "58",
   "title": "",
   "body": "  Suppose and are sets, is bijective and is bijective. Then is bijective.   "
 },
@@ -1994,7 +1949,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-11.html#ch-4-induction-11-5-18",
   "type": "Theorem",
-  "number": "60",
+  "number": "59",
   "title": "",
   "body": "  Suppose and are sets, and and are functions. If and are surjective, then is surjective.   "
 },
@@ -2003,7 +1958,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-11.html#ch-4-induction-11-5-21",
   "type": "Theorem",
-  "number": "61",
+  "number": "60",
   "title": "",
   "body": "  Suppose and are sets, and and are functions. If is surjective, then is surjective.   "
 },
@@ -2012,7 +1967,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-11.html#ch-4-induction-11-5-23",
   "type": "Theorem",
-  "number": "62",
+  "number": "61",
   "title": "",
   "body": "  Suppose and are sets, and and are functions. If and are injective, then is injective.   "
 },
@@ -2021,7 +1976,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-11.html#ch-4-induction-11-5-25",
   "type": "Theorem",
-  "number": "63",
+  "number": "62",
   "title": "",
   "body": "  Suppose and are sets, and and are functions. If is injective, then is injective.   "
 },
@@ -2030,7 +1985,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-11.html#ch-4-induction-11-6-2",
   "type": "Theorem",
-  "number": "64",
+  "number": "63",
   "title": "",
   "body": "  A function is invertible if and only if is a bijection.   "
 },
@@ -2039,7 +1994,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-11.html#ch-4-induction-11-6-6",
   "type": "Activity",
-  "number": "64",
+  "number": "63",
   "title": "",
   "body": "  One of the big ideas of inverse functions is that they allow us to ``undo'' functions. E.g., undoes in the sense that . Similarly, undoes . This activity is going to ask, if we can take square roots and cube roots modulo .     Define by . Then we might say the inverse is where . Is a function? Why or why not? What about if we change to and to ?  Let for the rest of the questions.      Define by . Find for all . Does have an inverse function?      Define by . Find for all . Does have an inverse function?      Define by . Can you find a formula for ?    "
 },
@@ -2093,7 +2048,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-12.html#ch-4-induction-12-3-6",
   "type": "Activity",
-  "number": "65",
+  "number": "64",
   "title": "",
   "body": "  For the following examples of relations, give a pair and such that and a different pair and such that . (Note, the next activity will require you to work on these same relations, so leave space!)             on such that if and only if        on such that if and only if        from to such that if .       and     "
 },
@@ -2138,7 +2093,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-12.html#ch-4-induction-12-4-5",
   "type": "Activity",
-  "number": "66",
+  "number": "65",
   "title": "",
   "body": "  For each of the relations defined in the activity earlier on this page, which of the 3 properties reflexive, symmetric, transitive, hold?   "
 },
@@ -2147,7 +2102,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-12.html#ch-4-induction-12-4-6",
   "type": "Activity",
-  "number": "67",
+  "number": "66",
   "title": "",
   "body": "  Complete the following with your team:     Let and define on by . Is reflexive? Symmetric? Transitive?      Let . Find a relation on such that is symmetric, but not transitive.      Let . Find a relation on such that is symmetric and transitive, but not reflexive.    "
 },
@@ -2165,7 +2120,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-12.html#ch-4-induction-12-5-3",
   "type": "Theorem",
-  "number": "65",
+  "number": "64",
   "title": "",
   "body": "  Let be the relation on defined by if and only if . Then is an equivalence relation.   "
 },
@@ -2183,7 +2138,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-12.html#ch-4-induction-12-5-6",
   "type": "Activity",
-  "number": "68",
+  "number": "67",
   "title": "",
   "body": "  Prove or disprove if each relation is reflexive, symmetric, or transitive.   "
 },
@@ -2192,7 +2147,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-12.html#ch-4-induction-12-5-7",
   "type": "Conjecture",
-  "number": "66",
+  "number": "65",
   "title": "",
   "body": "  Define the relation on as follows: for all , if and only if . Then is reflexive, symmetric, and transitive.   "
 },
@@ -2201,7 +2156,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-12.html#ch-4-induction-12-5-8",
   "type": "Conjecture",
-  "number": "67",
+  "number": "66",
   "title": "",
   "body": "  Let be some nonempty universal set and define the relation on as follows: for all , if and only if . Then is reflexive, symmetric, and transitive.   "
 },
@@ -2210,7 +2165,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-12.html#ch-4-induction-12-6-2",
   "type": "Definition",
-  "number": "68",
+  "number": "67",
   "title": "",
   "body": "  Let be an equivalence relation on a nonempty set of . Then the equivalence class of of determined by is    "
 },
@@ -2219,7 +2174,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-12.html#ch-4-induction-12-6-3",
   "type": "Theorem",
-  "number": "69",
+  "number": "68",
   "title": "Equivalence Classes Partition.",
   "body": " Equivalence Classes Partition   [Equivalence Classes Partition] Let be a nonempty set and let be an equivalence relation on . Then    For each , is nonempty (in particular, ).    For each , if and only if .    For each or .     "
 },
@@ -2228,7 +2183,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-12.html#ch-4-induction-12-6-4",
   "type": "Activity",
-  "number": "69",
+  "number": "68",
   "title": "",
   "body": "  (Working with equivalence classes)     Let and define by  For , if and only if and have the same number of digits.  This is an equivalence relation (briefly think about why). Determine all the distinct equivalence classes determined by .      Recall that is the set of all matrices and that if then the determinant of is given by . Define by,  For all , if and only if .     Find two matrices and such that .      Is an equivalence relation? (Briefly think about it, don't need to prove.)      Let . Find two elements of . Challenge Question: Can you find the entire equivalence class?      "
 },
@@ -2237,7 +2192,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-12.html#ch-4-induction-12-8-3",
   "type": "Definition",
-  "number": "70",
+  "number": "69",
   "title": "",
   "body": "  Let and . Then   and .   "
 },
@@ -2255,7 +2210,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-12.html#ch-4-induction-12-8-10",
   "type": "Activity",
-  "number": "70",
+  "number": "69",
   "title": "",
   "body": "  Complete the addition and multiplication tables for , , and (you don't have to write all the [ ]'s but do pick the representative that is in that . What do you notice? What do you wonder?  Are the following statements true or false? Why?    For all , if and , then .    For all , if and , then .     "
 },
@@ -2264,7 +2219,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-12.html#ch-4-induction-12-8-11",
   "type": "Activity",
-  "number": "71",
+  "number": "70",
   "title": "",
   "body": "  Sometimes math competition problems will ask seemingly tough questions, like what is the remainder of when divided by . Try to find the answer to this question, by translating into modular arithmetic\/congruence classes and doing some smaller cases. E.g., what's ? ? ? ? What do these tell you about the remainder of when divided by .   "
 },
@@ -2273,7 +2228,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-12.html#ch-4-induction-12-8-12",
   "type": "Activity",
-  "number": "72",
+  "number": "71",
   "title": "",
   "body": "  In , solve each of the following equations, keeping in mind that the solution to any equation is the set of all values that make the equation true. (Note: order of operations for and are the same as for ``regular'' addition and multiplication, and , in the following way: in the absence of parentheses, we multiply before we add.)  Find all such that:                        "
 },
