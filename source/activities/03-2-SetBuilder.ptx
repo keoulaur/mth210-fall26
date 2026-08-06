@@ -11,7 +11,7 @@
                         <p>
                             Roster notation is when we list all the elements, or
                             list enough elements so that pattern is obvious and
-                            use <m>\dots</m>.
+                            use <m>\dots</m> (dots).
                             E.g., <m>\{1,4,9,16,25,\dots\}</m>.
                         </p>
                     </li>

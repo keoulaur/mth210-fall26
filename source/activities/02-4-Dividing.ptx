@@ -7,8 +7,8 @@
         <term>Definition:</term> A nonzero integer <m>a</m> is said to
         <term>divide</term> an integer <m>b</m> if <m>b = ak</m> for some
         integer <m>k</m>.
-        When <m>a</m> does divide <m>b</m>, we write `` <m>a\mid b</m> " and
-        when <m>a</m> does not divide <m>b</m>, we write `` <m>a\nmid b</m> ".
+        When <m>a</m> does divide <m>b</m>, we write <q> <m>a\mid b</m> </q> and
+        when <m>a</m> does not divide <m>b</m>, we write <q> <m>a\nmid b</m> </q>.
     </p>
 
     <activity>

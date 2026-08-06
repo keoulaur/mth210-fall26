@@ -3,178 +3,326 @@
 <handout>
     <title>Operations on Sets</title>
 
-
-
     <activity>
-      <introduction>
-        <p>
-          One learning target is ``given two sets and a universal set identify the union, intersection, complement, and set difference. Find the power set of a given set." Here's some practice with that, plus a bonus on Cartesian product.
-        </p>
-      </introduction>
-
-
-      <task workspace="1in">
         <introduction>
-          <p>
-            Let <m>U = \{ x \in \mathbb{N}: x \leq 10\}</m>.  Let <m>A = \{2,4,6,8,10\}</m> and <m>B = \{1,3\}</m>.
-          </p>
+            <p>
+                One learning target is
+                <q> given two sets and a universal set identify the union, intersection, complement, and set difference. Find the power set of a given set.</q>
+                Here's some practice with that, plus a bonus on Cartesian
+                product.
+            </p>
         </introduction>
 
+        <task workspace="1in">
+            <introduction>
+                <p>
+                    Let <m>U = \{ x \in \mathbb{N}: x \leq 10\}</m>.
+                    Let <m>A = \{2,4,6,8,10\}</m> and <m>B = \{1,3\}</m>.
+                </p>
+            </introduction>
 
-        <task>
-          <statement>
-            <p>
-              Find <m>A\cap B</m>.
-            </p>
-          </statement>
+            <task>
+                <statement>
+                    <p>
+                        Find <m>A\cap B</m>.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Find <m>A^C</m>.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Find <m>A \setminus B</m>.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Find <m>\mathcal{P}(B)</m>.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Find <m>A \times B</m>.
+                    </p>
+                </statement>
+            </task>
         </task>
 
+        <task workspace="1in">
+            <introduction>
+                <p>
+                    Let <m>U = \mathbb{Z}</m>.
+                    Let <m>X = \{ x\in\mathbb{Z}: x \equiv 0 \pmod{4}</m> and
+                    <m>Y = \{x\in\mathbb{Z}: x \equiv 1\pmod{3}\}</m>.
+                </p>
+            </introduction>
 
-        <task>
-          <statement>
-            <p>
-              Find <m>A^C</m>.
-            </p>
-          </statement>
+            <task>
+                <statement>
+                    <p>
+                        Find at least 3 elements in <m>A\cup B</m>.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Find at least 3 elements in <m>A\cap B</m>.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Find at least 3 elements in <m>A^C</m>.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Find at least 3 elements in <m>A \setminus B</m>.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Find at least 3 elements in <m>B\setminus A</m>.
+                    </p>
+                </statement>
+            </task>
         </task>
-
-
-        <task>
-          <statement>
-            <p>
-              Find <m>A \setminus B</m>.
-            </p>
-          </statement>
-        </task>
-
-
-        <task>
-          <statement>
-            <p>
-              Find <m>\mathcal{P}(B)</m>.
-            </p>
-          </statement>
-        </task>
-
-
-        <task>
-          <statement>
-            <p>
-              Find <m>A \times B</m>.
-            </p>
-          </statement>
-        </task>
-      </task>
-
-
-      <task workspace="1in">
-        <introduction>
-          <p>
-            Let <m>U = \mathbb{Z}</m>. Let <m>X = \{ x\in\mathbb{Z}: x \equiv 0 \pmod{4}</m> and <m>Y = \{x\in\mathbb{Z}: x \equiv 1\pmod{3}\}</m>.
-          </p>
-        </introduction>
-
-
-        <task>
-          <statement>
-            <p>
-              Find at least 3 elements in <m>A\cup B</m>.
-            </p>
-          </statement>
-        </task>
-
-
-        <task>
-          <statement>
-            <p>
-              Find at least 3 elements in <m>A\cap B</m>.
-            </p>
-          </statement>
-        </task>
-
-
-        <task>
-          <statement>
-            <p>
-              Find at least 3 elements in <m>A^C</m>.
-            </p>
-          </statement>
-        </task>
-
-
-        <task>
-          <statement>
-            <p>
-              Find  at least 3 elements in <m>A \setminus B</m>.
-            </p>
-          </statement>
-        </task>
-
-
-        <task>
-          <statement>
-            <p>
-              Find  at least 3 elements in <m>B\setminus A</m>.
-            </p>
-          </statement>
-        </task>
-      </task>
     </activity>
 
+    <paragraphs>
+        <title>DeMorgan's Laws</title>
 
-  <paragraphs>
-    <title>DeMorgan's Laws</title>
+        <p>
+            DeMorgan's Laws are an important notion about taking complements of
+            unions and intersections.
+        </p>
+    </paragraphs>
 
     <activity workspace="1in">
-      <statement>
         <p>
-          In each of the following Venn diagrams, shade the given sets.
+            In each of the following Venn diagrams, shade <m> (A\cap B)^C </m>,
+            <m> A^c \cap B^c </m>, <m> (A\cup B)^C </m>, and
+            <m>A^C \cup B^C</m>.
         </p>
 
-        <p>
-          \begin{figure}[ht]\scalebox{0.4}{   \includegraphics{images/2Sets.png} \includegraphics{images/2Sets.png} } \end{figure}
-        </p>
+        <figure xml:id="fig-venn">
+            <caption>Venn diagrams for shading</caption>
+            <sidebyside widths="25% 25% 25% 25%">
+                <image>
+                    <shortdescription>A Venn diagram</shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="prefig-venn1">
+                        <diagram dimensions="(300,180)" margins="5">
+                            <coordinates bbox="(0,0,10,6)">
+                                <define-shapes>
+                                    <circle at="A" center="(4,3)" radius="2"/>
+                                    <circle at="B" center="(6,3)" radius="2"/>
+                                </define-shapes>
+                                <shape shape="A" stroke="black"/>
+                                <shape shape="B" stroke="black"/>
+                                <rectangle lower-left="(0,0)" dimensions="(10,6)" stroke="black"/>
+                                <label anchor="(2,3)" alignment="nw">
+                                    <m>
+                                        A
+                                    </m>
+                                </label>
+                                <label anchor="(8,3)" alignment="ne">
+                                    <m>
+                                        B
+                                    </m>
+                                </label>
+                                <label anchor="(9,5)" alignment="ne">
+                                    <m>
+                                        U
+                                    </m>
+                                </label>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
 
-        <p>
-          \begin{figure}[ht]\scalebox{0.4}{   \includegraphics{images/2Sets.png} \includegraphics{images/2Sets.png} } \end{figure}
-        </p>
+                <image>
+                    <shortdescription>A Venn diagram</shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="prefig-venn2">
+                        <diagram dimensions="(300,180)" margins="5">
+                            <coordinates bbox="(0,0,10,6)">
+                                <define-shapes>
+                                    <circle at="A" center="(4,3)" radius="2"/>
+                                    <circle at="B" center="(6,3)" radius="2"/>
+                                </define-shapes>
+                                <shape shape="A" stroke="black"/>
+                                <shape shape="B" stroke="black"/>
+                                <rectangle lower-left="(0,0)" dimensions="(10,6)" stroke="black"/>
+                                <label anchor="(2,3)" alignment="nw">
+                                    <m>
+                                        A
+                                    </m>
+                                </label>
+                                <label anchor="(8,3)" alignment="ne">
+                                    <m>
+                                        B
+                                    </m>
+                                </label>
+                                <label anchor="(9,5)" alignment="ne">
+                                    <m>
+                                        U
+                                    </m>
+                                </label>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
 
-        <p>
-          Your book does a proof that two of these sets are equal on pages 114-115. Let's sketch the other one.
-        </p>
-      </statement>
+                <image>
+                    <shortdescription>A Venn diagram</shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="prefig-venn3">
+                        <diagram dimensions="(300,180)" margins="5">
+                            <coordinates bbox="(0,0,10,6)">
+                                <define-shapes>
+                                    <circle at="A" center="(4,3)" radius="2"/>
+                                    <circle at="B" center="(6,3)" radius="2"/>
+                                </define-shapes>
+                                <shape shape="A" stroke="black"/>
+                                <shape shape="B" stroke="black"/>
+                                <rectangle lower-left="(0,0)" dimensions="(10,6)" stroke="black"/>
+                                <label anchor="(2,3)" alignment="nw">
+                                    <m>
+                                        A
+                                    </m>
+                                </label>
+                                <label anchor="(8,3)" alignment="ne">
+                                    <m>
+                                        B
+                                    </m>
+                                </label>
+                                <label anchor="(9,5)" alignment="ne">
+                                    <m>
+                                        U
+                                    </m>
+                                </label>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
+
+                <image>
+                    <shortdescription>A Venn diagram</shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="prefig-venn4">
+                        <diagram dimensions="(300,180)" margins="5">
+                            <coordinates bbox="(0,0,10,6)">
+                                <define-shapes>
+                                    <circle at="A" center="(4,3)" radius="2"/>
+                                    <circle at="B" center="(6,3)" radius="2"/>
+                                </define-shapes>
+                                <shape shape="A" stroke="black"/>
+                                <shape shape="B" stroke="black"/>
+                                <rectangle lower-left="(0,0)" dimensions="(10,6)" stroke="black"/>
+                                <label anchor="(2,3)" alignment="nw">
+                                    <m>
+                                        A
+                                    </m>
+                                </label>
+                                <label anchor="(8,3)" alignment="ne">
+                                    <m>
+                                        B
+                                    </m>
+                                </label>
+                                <label anchor="(9,5)" alignment="ne">
+                                    <m>
+                                        U
+                                    </m>
+                                </label>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
+            </sidebyside>
+        </figure>
     </activity>
 
-    <theorem>
-      <statement>
-        <p>
-          Suppose <m>A</m> and <m>B</m> are subsets of a universal set <m>U</m>. Then
-          <md>
-            (A\cap B)^c = A^c \cup B^c.
-          </md>
-        </p>
-      </statement>
-    </theorem>
-  </paragraphs>
-
-
-  <paragraphs>
-    <title>Showing Disjointness</title>
-
-    <p>
-      <term>Definition:</term> Two sets <m>A</m> and <m>B</m> are <em>disjoint</em> provided that <m>A\cap B = \emptyset</m>.
-    </p>
-
-    <p>
-      Typically, if we want to prove two sets are disjoint we will use a proof technique called ``proof by contradiction".  Consider the theorem below.  It seems hard to prove that something is equal to the empty set.  Instead, we'll assume that <m>A\cap B \neq \emptyset</m>.  This gives an element <m>x\in A\cap B</m>.  We work from here to a contradiction, or something that can't possibly be true, so the original assumption must have been wrong..
+    <p workspace="2in">
+        Your book does a proof that two of these sets are equal on pages
+        114-115.
+        Let's sketch the other one.
     </p>
 
     <theorem>
-      <statement>
-        <p>
-          If <m>A = \{x\in\mathbb{Z} \mid x \equiv 2 \pmod{4} \}</m> and <m>B = \{y\in\mathbb{Z} \mid y\equiv 3 \pmod{6}\}</m> then <m>A\cap B = \emptyset</m>.
-        </p>
-      </statement>
+        <statement>
+            <p>
+                Suppose <m>A</m> and <m>B</m> are subsets of a universal set
+                <m>U</m>.
+                Then
+                <md>
+                    (A\cap B)^c = A^c \cup B^c.
+                </md>
+            </p>
+        </statement>
     </theorem>
-  </paragraphs>
+
+    <paragraphs>
+        <title>Showing Disjointness</title>
+
+        <p>
+            Roughly, two sets are disjoint if they have no elements in common.
+            The official definition is given in <xref ref="def-disjoint"/>.
+        </p>
+
+        <definition xml:id="def-disjoint">
+            <statement>
+                <p>
+                    Two sets <m>A</m> and <m>B</m> are <term>disjoint</term>
+                    provided that <m>A\cap B = \emptyset</m>.
+                </p>
+            </statement>
+        </definition>
+
+        <p>
+            Typically, if we want to prove two sets are disjoint we will use a
+            proof technique called <q>proof by contradiction</q>.
+            It seems hard to prove that something is equal to the empty set.
+            Instead, we'll assume that <m>A\cap B \neq \emptyset</m>.
+            This gives an element <m>x\in A\cap B</m>.
+            We work from here to a contradiction, or something that can't
+            possibly be true, so the original assumption must have been wrong.
+        </p>
+    </paragraphs>
+
+    <theorem xml:id="thm-disjoint-congruence">
+        <statement>
+            <p>
+                If <m>A = \{x\in\mathbb{Z} \mid x \equiv 2 \pmod{4} \}</m> and
+                <m>B = \{y\in\mathbb{Z} \mid y\equiv 3 \pmod{6}\}</m> then
+                <m>A\cap B = \emptyset</m>.
+            </p>
+        </statement>
+    </theorem>
+
+    <activity workspace = "2in">
+      <p>
+        Prove <xref ref="thm-disjoint-congruence"/>.
+      </p>
+    </activity>
 </handout>

@@ -4,392 +4,389 @@
     <title>Sets And Notation</title>
 
     <paragraphs>
-        <title>What is a Set?</title>
+        <title>
+            What is a Set?
+            What Are the Symbols
+            <m>\in, \notin, \subseteq, \subset, \not\subseteq, = ?</m>
+        </title>
 
         <p>
-            A <term>set</term> is an unordered collection of distinct objects
-            which are called <term>elements</term>.
+            There's a lot of notation that comes with sets!
         </p>
     </paragraphs>
 
-    <paragraphs>
-        <title>
-            The Symbols
-            <m>\in, \notin, \subseteq, \subset, \not\subseteq, = </m>
-        </title>
+    <definition>
+        <statement>
+          <p>  A
+            <term>
+                set
+            </term>
+            is an unordered collection of distinct objects
+            which are called
+            <term>
+                elements
+            </term>
+            . </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            If <m>x</m> is an element of a set <m>S</m>, we
+                            write <m>x\in S</m>.
+                            This is read <q> <m>x</m> in <m>S</m> </q>.
+                        </p>
+                    </li>
 
-        <definition>
+                    <li>
+                        <p>
+                            If <m>x</m> is not an element of a set <m>S</m>, we
+                            write <m>x\notin S</m>.
+                            This is read as
+                            <q> <m>x</m> is not in <m>S</m>
+                                </q>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            If every element of <m>A</m> is also an element of
+                            <m>B</m> then <m>A</m> is a subset of <m>B</m>,
+                            denoted <m>A\subseteq B</m> and read as
+                            <q> <m>A</m> is a subset of <m>B</m> </q>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            If <m>A\subseteq B</m> and <m>A\neq B</m>, then we
+                            write <m>A \subset B</m> and we say
+                            <q> <m>A</m> is a
+                                proper subset of <m>B</m> </q>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            If <m>A</m> is not a subset of <m>B</m> then we
+                            write <m>A\not\subseteq B</m> and say
+                            <q> <m>A</m> is not a subset of <m>B</m> </q>.
+                            This means there exists an <m>x\in A</m> such that
+                            <m>x\notin B</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            If <m>A</m> and <m>B</m> have the exact same
+                            elements, we write <m>A=B</m>.
+                            This is read as <q> <m>A</m> equals <m>B</m> </q>.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </statement>
+    </definition>
+
+    <activity>
+        <task workspace="1in">
+            <introduction>
+                <p>
+                    Consider the set <m>A=\{1,2,3,\text{cat}, \star\}</m>.
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
+                    <p>
+                        What are the elements of <m>A</m>?
+                        How many are there?
+                        (Later we'll refer to the number of elements in the set
+                        as the <em>size</em> or the <em>cardinality</em>.)
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        List 3 different subsets of <m>A</m>.
+                    </p>
+                </statement>
+            </task>
+        </task>
+
+        <task workspace="1in">
+            <introduction>
+                <p>
+                    Consider the set <m>B=\{1,2,3,\{4,9\},7\}</m>.
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
+                    <p>
+                        What are the elements of <m>B</m>?
+                        How many are there?
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        List 3 different subsets of <m>B</m>.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Which of the following is correct to say:
+                        <m>\{4,9\}\in B</m> or <m>\{4,9\}\subseteq B</m>?
+                    </p>
+                </statement>
+            </task>
+        </task>
+
+        <task workspace="1in">
+            <introduction>
+                <p>
+                    Let <m>A = \{1, \{2, 3\}\}</m>.
+                    Decide whether each of the following statements is true or
+                    false.
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
+                    <p>
+                        <m>1\in A</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m>1\subseteq A</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m>\{1\} \in A</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m>\{2,3\}\in A</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m>\{2,3\} \subseteq A</m>
+                    </p>
+                </statement>
+            </task>
+        </task>
+
+        <task workspace=".2in">
+            <introduction>
+                <p>
+                    Let <m>A = \{ \ldots, -6, -3, 0, 3, 6, \ldots \}</m>,
+                    <m>B = \{12, 24, 36 \}</m>, and <m>C = \{1, 2, 3\}</m>.
+                    Which of the following statements are true?
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
+                    <p>
+                        <m> 9 \in A</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m> 2\in C</m> and <m> 2\in A </m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m> 5\notin A</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m> 12\subseteq A</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m> B \subseteq A</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m> A \subseteq B</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m> C\not\subseteq A</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m> B=C</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m> \{3\} \subseteq A</m> and <m> 3\subseteq C</m>
+                    </p>
+                </statement>
+            </task>
+        </task>
+
+        <task workspace=".2in">
+            <introduction>
+                <p>
+                    Fill in all of the symbols that apply from the list that
+                    apply:
+                    <m>\in, \notin, \subseteq, \subset, \not\subseteq, = </m>
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
+                    <p>
+                        <m> \{1\} </m> <fillin characters="10"/> <m> \{1,2\}</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m> 1 </m> <fillin characters="10"/> <m> \{1,2\}</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m> \{1\} </m> <fillin characters="10"/>
+                        <m> \{\{1\},\{2\}\}</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m> \{2,1\} </m> <fillin characters="10"/>
+                        <m> \{1,2\}</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m> 1 </m> <fillin characters="10"/> <m> \{\{1\},2\}</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m> 2 </m> <fillin characters="10"/> <m> \{\{1\},2\}</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m> \{1\} </m> <fillin characters="10"/>
+                        <m> \{\{1\},2\}</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m> \{2\} </m> <fillin characters="10"/>
+                        <m> \{\{1\},2\}</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m> \{1,2 \} </m> <fillin characters="10"/>
+                        <m> \{\{1\},2\}</m>
+                    </p>
+                </statement>
+            </task>
+        </task>
+
+        <task workspace="1in">
             <statement>
                 <p>
-                    <ul>
-                        <li>
-                            <p>
-                                If <m>x</m> is an element of a set <m>S</m>, we
-                                write <m>x\in S</m>.
-                                This is read <q> <m>x</m> in <m>S</m> </q>.
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                If <m>x</m> is not an element of a set <m>S</m>,
-                                we write <m>x\notin S</m>.
-                                This is read as
-                                <q> <m>x</m> is not in <m>S</m>
-                                </q>.
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                If every element of <m>A</m> is also an element
-                                of <m>B</m> then <m>A</m> is a subset of
-                                <m>B</m>, denoted <m>A\subseteq B</m> and read
-                                as <q> <m>A</m> is a subset of <m>B</m> </q>.
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                If <m>A\subseteq B</m> and <m>A\neq B</m>, then
-                                we write <m>A \subset B</m> and we say
-                                <q> <m>A</m> is a
-                                proper subset of <m>B</m> </q>.
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                If <m>A</m> is not a subset of <m>B</m> then we
-                                write <m>A\not\subseteq B</m> and say
-                                <q> <m>A</m> is not a subset of <m>B</m> </q>.
-                                This means there exists an <m>x\in A</m> such
-                                that <m>x\notin B</m>.
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                If <m>A</m> and <m>B</m> have the exact same
-                                elements, we write <m>A=B</m>.
-                                This is read as
-                                <q> <m>A</m> equals <m>B</m> </q>.
-                            </p>
-                        </li>
-                    </ul>
+                    (If time:) Challenge Question 1: Can an object ever be both
+                    an element and a subset of the same set?
                 </p>
             </statement>
-        </definition>
+        </task>
 
-        <activity>
-            <task workspace="1in">
-                <introduction>
-                    <p>
-                        Consider the set <m>A=\{1,2,3,\text{cat}, \star\}</m>.
-                    </p>
-                </introduction>
-
-                <task>
-                    <statement>
-                        <p>
-                            What are the elements of <m>A</m>?
-                            How many are there?
-                            (Later we'll refer to the number of elements in the
-                            set as the <em>size</em> or the
-                            <em>cardinality</em>.)
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            List 3 different subsets of <m>A</m>.
-                        </p>
-                    </statement>
-                </task>
-            </task>
-
-            <task workspace="1in">
-                <introduction>
-                    <p>
-                        Consider the set <m>B=\{1,2,3,\{4,9\},7\}</m>.
-                    </p>
-                </introduction>
-
-                <task>
-                    <statement>
-                        <p>
-                            What are the elements of <m>B</m>?
-                            How many are there?
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            List 3 different subsets of <m>B</m>.
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            Which of the following is correct to say:
-                            <m>\{4,9\}\in B</m> or <m>\{4,9\}\subseteq B</m>?
-                        </p>
-                    </statement>
-                </task>
-            </task>
-
-            <task workspace="1in">
-                <introduction>
-                    <p>
-                        Let <m>A = \{1, \{2, 3\}\}</m>.
-                        Decide whether each of the following statements is true
-                        or false.
-                    </p>
-                </introduction>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m>1\in A</m>
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m>1\subseteq A</m>
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m>\{1\} \in A</m>
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m>\{2,3\}\in A</m>
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m>\{2,3\} \subseteq A</m>
-                        </p>
-                    </statement>
-                </task>
-            </task>
-
-            <task workspace=".2in">
-                <introduction>
-                    <p>
-                        Let <m>A = \{ \ldots, -6, -3, 0, 3, 6, \ldots \}</m>,
-                        <m>B = \{12, 24, 36 \}</m>, and <m>C = \{1, 2, 3\}</m>.
-                        Which of the following statements are true?
-                    </p>
-                </introduction>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m> 9 \in A</m>
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m> 2\in C</m> and <m> 2\in A </m>
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m> 5\notin A</m>
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m> 12\subseteq A</m>
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m> B \subseteq A</m>
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m> A \subseteq B</m>
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m> C\not\subseteq A</m>
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m> B=C</m>
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m> \{3\} \subseteq A</m> and <m> 3\subseteq C</m>
-                        </p>
-                    </statement>
-                </task>
-            </task>
-
-            <task workspace=".2in">
-                <introduction>
-                    <p>
-                        Fill in all of the symbols that apply from the list that
-                        apply:
-                        <m>\in, \notin, \subseteq, \subset, \not\subseteq, = </m>
-                    </p>
-                </introduction>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m> \{1\} </m> <fillin characters="10"/>
-                            <m> \{1,2\}</m>
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m> 1 </m> <fillin characters="10"/> <m> \{1,2\}</m>
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m> \{1\} </m> <fillin characters="10"/>
-                            <m> \{\{1\},\{2\}\}</m>
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m> \{2,1\} </m> <fillin characters="10"/>
-                            <m> \{1,2\}</m>
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m> 1 </m> <fillin characters="10"/>
-                            <m> \{\{1\},2\}</m>
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m> 2 </m> <fillin characters="10"/>
-                            <m> \{\{1\},2\}</m>
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m> \{1\} </m> <fillin characters="10"/>
-                            <m> \{\{1\},2\}</m>
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m> \{2\} </m> <fillin characters="10"/>
-                            <m> \{\{1\},2\}</m>
-                        </p>
-                    </statement>
-                </task>
-
-                <task>
-                    <statement>
-                        <p>
-                            <m> \{1,2 \} </m> <fillin characters="10"/>
-                            <m> \{\{1\},2\}</m>
-                        </p>
-                    </statement>
-                </task>
-            </task>
-
-            <task workspace="1in">
-                <statement>
-                    <p>
-                        (If time:) Challenge Question 1: Can an object ever be
-                        both an element and a subset of the same set?
-                    </p>
-                </statement>
-            </task>
-
-            <task workspace="1in">
-                <statement>
-                    <p>
-                        (If time:) Challenge Question 2: How many subsets are
-                        there of the set <m>\{1,2\}</m>?
-                        Of the set <m>\{1,2,3\}</m>?
-                        How many subsets do you think there will be of the set
-                        <m>\{1,2,3,\dots, n\}</m> for <m>n\in\mathbb{N}</m>?
-                    </p>
-                </statement>
-            </task>
-        </activity>
-    </paragraphs>
-
-    
-
-    
+        <task workspace="1in">
+            <statement>
+                <p>
+                    (If time:) Challenge Question 2: How many subsets are there
+                    of the set <m>\{1,2\}</m>?
+                    Of the set <m>\{1,2,3\}</m>?
+                    How many subsets do you think there will be of the set
+                    <m>\{1,2,3,\dots, n\}</m> for <m>n\in\mathbb{N}</m>?
+                </p>
+            </statement>
+        </task>
+    </activity>
 </handout>

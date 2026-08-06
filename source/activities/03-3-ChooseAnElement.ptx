@@ -42,14 +42,14 @@
                 </p>
             </introduction>
 
-            <task workspace="1in">
+            <task workspace="3in">
                 <p>
                     Start with a pre-proof analysis.
                     Consider listing the elements in <m>A</m> and the elements
                     in <m>B</m> to see if you believe the conjecture.
-                    Then, choose an arbitrary element of <m>A</m>, e.g., ``Let
+                    Then, choose an arbitrary element of <m>A</m>, e.g., <q> Let
                     <m>x\in A</m>.
-                    So <m>x\in \mathbb{Z}</m> and <m>x\equiv 2 \pmod{4}</m>."
+                    So <m>x\in \mathbb{Z}</m> and <m>x\equiv 2 \pmod{4}</m>.</q>
                     Work to show that this <m>x</m> is in <m>B</m>, that is
                     <m>x\equiv 0 \pmod {2}</m>.
                 </p>
@@ -89,15 +89,12 @@
             </p>
         </remark>
 
-        <activity workspace="1in">
-            <statement>
-                <p>
-                    Prove the following theorem.
-                </p>
-            </statement>
-        </activity>
+        <paragraphs>
+            <title>To Do</title>
+            <p> Come up with a better theorem below! </p>
+        </paragraphs>
 
-        <theorem>
+        <theorem xml:id="thm-congruence-equal">
             <statement>
                 <p>
                     The sets <m>A = \{5k+1: k\in\mathbb{Z} \}</m> and
@@ -105,4 +102,15 @@
                 </p>
             </statement>
         </theorem>
-    </handout>
+
+
+        <activity workspace="4in">
+            <statement>
+                <p>
+                    Prove the <xref ref="thm-congruence-equal"/>.
+                </p>
+            </statement>
+        </activity>
+
+            </handout>
+        

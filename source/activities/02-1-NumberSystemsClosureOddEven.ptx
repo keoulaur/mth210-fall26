@@ -162,7 +162,7 @@
                 </p>
             </statement>
         </task>
-
+        
         <task workspace="1in">
             <statement>
                 <p>
@@ -332,7 +332,6 @@
                                 A quesadilla
                             </p>
                         </li>
-
                         <li>
                             <p>
                                 Soup in a bread bowl.
@@ -345,42 +344,35 @@
 
         <conclusion>
             <p>
-                This may seem like a silly exercise, but it is actually very
+                This may seem like a silly exercise, but having clear definitions is very
                 important in mathematics.
-                We will be doing a lot of proofs in this class and we will need
-                to be able to define things very carefully.
-                This exercise is meant to get you thinking about how to define
-                things and how to communicate your definitions clearly.
+                This exercise meant to get you thinking about how humans define things, and 
+                how it can be very hard to do so, with much disagreement.
                 Also, defining a sandwich has actually come up in the legal
                 system!
                 <ul>
                     <li>
                         <p>
                             An Indiana judge ruled a
-                            <url href="https://www.nytimes.com/2024/05/18/dining/taco-sandwich-indiana-mexico.html"> taco is a sandwich</url>.
+                            <url href="https://www.nytimes.com/2024/05/18/dining/taco-sandwich-indiana-mexico.html?unlocked_article_code=1.3FA.qsCC.PzJjbbjGB0QV"> taco is a sandwich</url>.
                         </p>
                     </li>
-
                     <li>
                         <p>
                             A Massachusetts judge ruled a
-                            <url href="https://www.nytimes.com/2024/05/18/dining/taco-sandwich-indiana-mexico.html"> burrito is not a sandwich</url>.
+                            <url href="https://www.foxnews.com/story/massachusetts-judge-settles-dispute-by-ruling-burrito-is-not-a-sandwich"> burrito is not a sandwich</url>.
                         </p>
                     </li>
-
                     <li>
                         <p>
-                            A bagel company in New York
-                            <url href="https://www.npr.org/2023/04/18/1170709978/a-tax-loophole-for-bagels-an-nyc-company-added-another-inner-bagel-hole"> avoided the sandwich tax</url>
-                            by injecting bagels with cream cheese.
+                            A bagel company in New York 
+                            <url href="https://www.npr.org/2023/04/18/1170709978/a-tax-loophole-for-bagels-an-nyc-company-added-another-inner-bagel-hole"> avoided the sandwich tax</url> by injecting bagels with cream cheese.
                         </p>
                     </li>
-
                     <li>
                         <p>
-                            Some say the
-                            <url href="https://cuberule.com/"> The Cube Rule</url>
-                            settles the debate.
+                           Some say the 
+                            <url href="https://cuberule.com/"> The Cube Rule</url> settles the debate.
                         </p>
                     </li>
                 </ul>
