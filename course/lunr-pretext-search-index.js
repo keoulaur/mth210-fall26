@@ -796,10 +796,10 @@ var ptx_lunr_docs = [
   "id": "ch-4-induction-2",
   "level": "1",
   "url": "ch-4-induction-2.html",
-  "type": "Worksheet",
+  "type": "Handout",
   "number": "4.1",
   "title": "Chapter 4: Induction (Part 1)",
-  "body": " Chapter 4: Induction (Part 1)   What we'll do:  Procedure for a Proof by Mathematical Induction To prove a series of statements .    _____: Prove _____    _____: Prove _____, if _____ then _____ Then we can conclude that is true for all .    To identify a statement you might prove by induction you might look for...  \\hrulefill   Example Of Formal Writing of a Proof by Mathematical Induction.     For all , the sum of the first odd natural numbers is . That is, for all ,      We will use proof by mathematical induction. For each natural number , we let the statement be For the base case, we prove that is true. In the case where , the left side of is and the right side is . Since , is true and the base case is complete.  For the inductive step, we prove that for each , if is true, then is true. So let be a natural number and assume that is true. That is, assume that \\begin{equation} 1 + 3 + 5 + \\cdots + (2k-1) = k^{2}. \\end{equation} Now we must show that is true. That is, we will show that \\begin{equation} 1 + 3 + 5 + \\cdots + (2k-1) + (2k+1) = (k+1)^{2}. \\end{equation}  To do so, we add to both sides of equation \\eqref{eq1} and factor the right side of the resulting equation. This gives us: \\begin{align*} 1 + 3 + 5 + \\cdots + (2k-1) &= k^{2} 1 + 3 + 5 + \\cdots + (2k-1) + (2k+1) &= k^{2} + 2k + 1 1 + 3 + 5 + \\cdots + (2k-1) + (2k+1) &= (k+1)^{2}. \\end{align*} The result above is exactly the statement , as seen in equation \\eqref{eq2}. This proves that if is true, then is true. Hence, the inductive step has been established.  Thus by the Principle of Mathematical Induction, we have proved that for each natural number , the sum of the first odd natural numbers is .     Use the principle of mathematical induction to prove the theorem.      For every natural number , the sum of the squares of the first natural numbers is . That is,     Here's some things you may do when working to prove by induction:    First, you may want to test a couple of values of to see if the statement even seems true\/you understand what it is. Test . See if you can write down what the statement says when .    What is in this case?    What is and is it true?    Then, let and write at the top of your page and at the bottom. Wiggle your way in between!      Work to get the big ideas of the induction argument right first; then, sketch the proof.      For every natural number , .      First, you may want to test a couple of values of to see if the statement even seems true\/you understand what it is. Test . See if you can write down what the statement says when . Does it seem true?    What is in this case?    What is and is it true?    Then, let and write at the top of your page and at the bottom. Wiggle your way in between! Two approaches here: \\begin{itemize} \\item Use definitions to translate from the definition of congruence, to the definition of divides, and then to an equation. Mess around with some algebra. \\item Recall that we proved that if and then . How could you use that as a Lemma? \\end{itemize}       If time: If you finish the activity above, here's one more statement to try to prove, using induction:  \\begin{quote} ``For every natural number , '' \\end{quote}       An induction proof from calculus: Find a formula for the derivative of , state your result as a theorem, and prove it using induction.       An induction proof with inequality Recall (or learn for the first time!) that . E.g., and . Determine if the following conjecture is true. If not, modify it by saying which values of it is true for, and then prove by induction.      For all , .    "
+  "body": " Chapter 4: Induction (Part 1)   What we'll do:  Procedure for a Proof by Mathematical Induction To prove a series of statements .     _____: Prove _____    _____: Prove _____, if _____ then _____ Then we can conclude that is true for all .     To identify a statement you might prove by induction you might look for...   Example Of Formal Writing of a Proof by Mathematical Induction.     For all , the sum of the first odd natural numbers is . That is, for all ,      We will use proof by mathematical induction. For each natural number , we let the statement be For the base case, we prove that is true. In the case where , the left side of is and the right side is . Since , is true and the base case is complete.  For the inductive step, we prove that for each , if is true, then is true. So let be a natural number and assume that is true. That is, assume that \\begin{equation} 1 + 3 + 5 + \\cdots + (2k-1) = k^{2}. \\end{equation} Now we must show that is true. That is, we will show that \\begin{equation} 1 + 3 + 5 + \\cdots + (2k-1) + (2k+1) = (k+1)^{2}. \\end{equation}  To do so, we add to both sides of equation \\eqref{eq1} and factor the right side of the resulting equation. This gives us: \\begin{align*} 1 + 3 + 5 + \\cdots + (2k-1) &= k^{2} 1 + 3 + 5 + \\cdots + (2k-1) + (2k+1) &= k^{2} + 2k + 1 1 + 3 + 5 + \\cdots + (2k-1) + (2k+1) &= (k+1)^{2}. \\end{align*} The result above is exactly the statement , as seen in equation \\eqref{eq2}. This proves that if is true, then is true. Hence, the inductive step has been established.  Thus by the Principle of Mathematical Induction, we have proved that for each natural number , the sum of the first odd natural numbers is .     Use the principle of mathematical induction to prove the theorem.      For every natural number , the sum of the squares of the first natural numbers is . That is,     Here's some things you may do when working to prove by induction:     First, you may want to test a couple of values of to see if the statement even seems true\/you understand what it is. Test . See if you can write down what the statement says when .    What is in this case?    What is and is it true?    Then, let and write at the top of your page and at the bottom. Wiggle your way in between!       Work to get the big ideas of the induction argument right first; then, sketch the proof.      For every natural number , .       First, you may want to test a couple of values of to see if the statement even seems true\/you understand what it is. Test . See if you can write down what the statement says when . Does it seem true?    What is in this case?    What is and is it true?    Then, let and write at the top of your page and at the bottom. Wiggle your way in between! Two approaches here: \\begin{itemize} \\item Use definitions to translate from the definition of congruence, to the definition of divides, and then to an equation. Mess around with some algebra. \\item Recall that we proved that if and then . How could you use that as a Lemma? \\end{itemize}        If time: If you finish the activity above, here's one more statement to try to prove, using induction:  \\begin{quote} ``For every natural number , '' \\end{quote}       An induction proof from calculus: Find a formula for the derivative of , state your result as a theorem, and prove it using induction.       An induction proof with inequality Recall (or learn for the first time!) that . E.g., and . Determine if the following conjecture is true. If not, modify it by saying which values of it is true for, and then prove by induction.      For all , .    "
 },
 {
   "id": "ch-4-induction-2-2",
@@ -811,99 +811,99 @@ var ptx_lunr_docs = [
   "body": "Procedure for a Proof by Mathematical Induction "
 },
 {
-  "id": "ch-4-induction-2-6",
+  "id": "ch-4-induction-2-5",
   "level": "2",
-  "url": "ch-4-induction-2.html#ch-4-induction-2-6",
+  "url": "ch-4-induction-2.html#ch-4-induction-2-5",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Example Of Formal Writing of a Proof by Mathematical Induction. "
 },
 {
-  "id": "ch-4-induction-2-7",
+  "id": "ch-4-induction-2-6",
   "level": "2",
-  "url": "ch-4-induction-2.html#ch-4-induction-2-7",
+  "url": "ch-4-induction-2.html#ch-4-induction-2-6",
   "type": "Theorem",
   "number": "34",
   "title": "",
   "body": "  For all , the sum of the first odd natural numbers is . That is, for all ,    "
 },
 {
-  "id": "ch-4-induction-2-8",
+  "id": "ch-4-induction-2-7",
   "level": "2",
-  "url": "ch-4-induction-2.html#ch-4-induction-2-8",
+  "url": "ch-4-induction-2.html#ch-4-induction-2-7",
   "type": "Proof",
   "number": "4.1.1",
   "title": "",
   "body": " We will use proof by mathematical induction. For each natural number , we let the statement be For the base case, we prove that is true. In the case where , the left side of is and the right side is . Since , is true and the base case is complete.  For the inductive step, we prove that for each , if is true, then is true. So let be a natural number and assume that is true. That is, assume that \\begin{equation} 1 + 3 + 5 + \\cdots + (2k-1) = k^{2}. \\end{equation} Now we must show that is true. That is, we will show that \\begin{equation} 1 + 3 + 5 + \\cdots + (2k-1) + (2k+1) = (k+1)^{2}. \\end{equation}  To do so, we add to both sides of equation \\eqref{eq1} and factor the right side of the resulting equation. This gives us: \\begin{align*} 1 + 3 + 5 + \\cdots + (2k-1) &= k^{2} 1 + 3 + 5 + \\cdots + (2k-1) + (2k+1) &= k^{2} + 2k + 1 1 + 3 + 5 + \\cdots + (2k-1) + (2k+1) &= (k+1)^{2}. \\end{align*} The result above is exactly the statement , as seen in equation \\eqref{eq2}. This proves that if is true, then is true. Hence, the inductive step has been established.  Thus by the Principle of Mathematical Induction, we have proved that for each natural number , the sum of the first odd natural numbers is .  "
 },
 {
-  "id": "ch-4-induction-2-9",
+  "id": "ch-4-induction-2-8",
   "level": "2",
-  "url": "ch-4-induction-2.html#ch-4-induction-2-9",
+  "url": "ch-4-induction-2.html#ch-4-induction-2-8",
   "type": "Activity",
   "number": "27",
   "title": "",
   "body": "  Use the principle of mathematical induction to prove the theorem.   "
 },
 {
-  "id": "ch-4-induction-2-10",
+  "id": "ch-4-induction-2-9",
   "level": "2",
-  "url": "ch-4-induction-2.html#ch-4-induction-2-10",
+  "url": "ch-4-induction-2.html#ch-4-induction-2-9",
   "type": "Theorem",
   "number": "35",
   "title": "",
   "body": "  For every natural number , the sum of the squares of the first natural numbers is . That is,    "
 },
 {
-  "id": "ch-4-induction-2-13",
+  "id": "ch-4-induction-2-12",
   "level": "2",
-  "url": "ch-4-induction-2.html#ch-4-induction-2-13",
+  "url": "ch-4-induction-2.html#ch-4-induction-2-12",
   "type": "Activity",
   "number": "28",
   "title": "",
   "body": "  Work to get the big ideas of the induction argument right first; then, sketch the proof.   "
 },
 {
-  "id": "ch-4-induction-2-14",
+  "id": "ch-4-induction-2-13",
   "level": "2",
-  "url": "ch-4-induction-2.html#ch-4-induction-2-14",
+  "url": "ch-4-induction-2.html#ch-4-induction-2-13",
   "type": "Theorem",
   "number": "36",
   "title": "",
   "body": "  For every natural number , .   "
 },
 {
-  "id": "ch-4-induction-2-16",
+  "id": "ch-4-induction-2-15",
   "level": "2",
-  "url": "ch-4-induction-2.html#ch-4-induction-2-16",
+  "url": "ch-4-induction-2.html#ch-4-induction-2-15",
   "type": "Activity",
   "number": "29",
   "title": "",
   "body": "   If time: If you finish the activity above, here's one more statement to try to prove, using induction:  \\begin{quote} ``For every natural number , '' \\end{quote}   "
 },
 {
-  "id": "ch-4-induction-2-17",
+  "id": "ch-4-induction-2-16",
   "level": "2",
-  "url": "ch-4-induction-2.html#ch-4-induction-2-17",
+  "url": "ch-4-induction-2.html#ch-4-induction-2-16",
   "type": "Activity",
   "number": "30",
   "title": "",
   "body": "   An induction proof from calculus: Find a formula for the derivative of , state your result as a theorem, and prove it using induction.   "
 },
 {
-  "id": "ch-4-induction-2-18",
+  "id": "ch-4-induction-2-17",
   "level": "2",
-  "url": "ch-4-induction-2.html#ch-4-induction-2-18",
+  "url": "ch-4-induction-2.html#ch-4-induction-2-17",
   "type": "Activity",
   "number": "31",
   "title": "",
   "body": "   An induction proof with inequality Recall (or learn for the first time!) that . E.g., and . Determine if the following conjecture is true. If not, modify it by saying which values of it is true for, and then prove by induction.   "
 },
 {
-  "id": "ch-4-induction-2-19",
+  "id": "ch-4-induction-2-18",
   "level": "2",
-  "url": "ch-4-induction-2.html#ch-4-induction-2-19",
+  "url": "ch-4-induction-2.html#ch-4-induction-2-18",
   "type": "Conjecture",
   "number": "37",
   "title": "",
