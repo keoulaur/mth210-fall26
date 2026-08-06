@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Roster Notation and Set Builder Notation</title>
+<title>Chapter 6: The Contrapositive</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -135,7 +135,7 @@ eBookConfig.enable_chatcodes =  false;
 <textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
 </div>
 </div>
-<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ch-3-sets-2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-3-sets.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-3-sets-4.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ch-contrapositive.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-contrapositive.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-contradiction.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
@@ -170,11 +170,11 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-handout"><div class="toc-title-box"><a href="root-1-2-5-6.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Congruence</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-chapter contains-active">
+<li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-3-sets.html" class="internal"><span class="codenumber">3</span> <span class="title">Sets</span></a></div>
-<ul class="structural toc-item-list contains-active">
+<ul class="structural toc-item-list">
 <li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-3-sets-2.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Sets And Notation</span></a></div></li>
-<li class="toc-item toc-handout active"><div class="toc-title-box"><a href="ch-3-sets-3.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Roster Notation and Set Builder Notation</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-3-sets-3.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Roster Notation and Set Builder Notation</span></a></div></li>
 <li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-3-sets-4.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Proving <span class="process-math">\(A\subseteq B\text{:}\)</span> The “Choose an Element Method”</span></a></div></li>
 <li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-3-sets-5.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Operations on Sets</span></a></div></li>
 </ul>
@@ -215,11 +215,11 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 </ul>
 </li>
-<li class="toc-item toc-chapter">
+<li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-contrapositive.html" class="internal"><span class="codenumber">6</span> <span class="title">The Contrapositive</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-worksheet">
+<ul class="structural toc-item-list contains-active"><li class="toc-item toc-worksheet contains-active">
 <div class="toc-title-box"><a href="ch-contrapositive-2.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Chapter 6: The Contrapositive</span></a></div>
-<ul class="structural toc-item-list">
+<ul class="structural toc-item-list active">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-contrapositive-2.html#ch-contrapositive-2-23" class="internal"><span class="title">Proof Evaluation</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-contrapositive-2.html#ch-contrapositive-2-24" class="internal"><span class="title">Counterexamples</span></a></div></li>
 </ul>
@@ -370,107 +370,223 @@ eBookConfig.enable_chatcodes =  false;
 <button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
 </div>
 </div>
-<section class="handout" id="ch-3-sets-3" data-margins="0.75in 0.75in 0.75in 0.75in">
+<section class="worksheet" id="ch-contrapositive-2" data-margins="0.75in 0.75in 0.75in 0.75in">
 <h2 class="heading hide-type">
-<span class="type">Handout</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Roster Notation and Set Builder Notation</span><div class="print-links"><a href="?printpreview=ch-3-sets-3" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Chapter 6: The Contrapositive</span><div class="print-links"><a href="?printpreview=ch-contrapositive-2" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
 </h2>
-<article class="remark remark-like" id="ch-3-sets-3-2"><h3 class="heading">
-<span class="type">Remark</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">26</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h3>
-<div class="para logical" id="ch-3-sets-3-2-1">
-<ul class="disc" id="ch-3-sets-3-2-1-1">
-<li id="ch-3-sets-3-2-1-1-1">
-<div class="para" id="ch-3-sets-3-2-1-1-1-1">Roster notation is when we list all the elements, or list enough elements so that pattern is obvious and use <span class="process-math">\(\dots\)</span> (dots). E.g., <span class="process-math">\(\{1,4,9,16,25,\dots\}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-3-sets-3-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-3-sets-3-2-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="ch-3-sets-3-2-1-1-2">
-<div class="para" id="ch-3-sets-3-2-1-1-2-1">Set builder notation is when we define the elements by a rule. E.g., <span class="process-math">\(\{n^2: n\in\mathbb{N}\}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-3-sets-3-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-3-sets-3-2-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-</ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#ch-3-sets-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Remark 26"><a href="#ch-3-sets-3-2" title="Copy heading and permalink for Remark 26" aria-label="Copy heading and permalink for Remark 26">🔗</a></div>
-</article>
-<article class="activity project-like" id="ch-3-sets-3-3"><h3 class="heading">
-<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h3>
-<div class="introduction" id="ch-3-sets-3-3-1">
-<div class="para" id="ch-3-sets-3-3-1-1">Practice translating between roster notation and set builder notation.<div class="autopermalink" data-description="Paragraph"><a href="#ch-3-sets-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-</div>
-<article class="task exercise-like" id="ch-3-sets-3-3-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<div class="introduction" id="ch-3-sets-3-3-2-1">
-<div class="para" id="ch-3-sets-3-3-2-1-1">Each of the following sets is written in set builder notation. Use an English sentence to describe what the set means, and then, if possible, write the sets in roster notation.<div class="autopermalink" data-description="Paragraph"><a href="#ch-3-sets-3-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-</div>
-<article class="task exercise-like" id="ch-3-sets-3-3-2-2"><h5 class="heading"><span class="codenumber">(i)</span></h5>
-<div class="para" id="ch-3-sets-3-3-2-2-1-1">
-<span class="process-math">\(\{x\in\mathbb{N} : x^2&lt;25\}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-3-sets-3-3-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="workspace" data-space="1in"></div>
-<div class="autopermalink" data-description="Task 21.a.i"><a href="#ch-3-sets-3-3-2-2" title="Copy heading and permalink for Task 21.a.i" aria-label="Copy heading and permalink for Task 21.a.i">🔗</a></div>
-</article>
-<article class="task exercise-like" id="ch-3-sets-3-3-2-3"><h5 class="heading"><span class="codenumber">(ii)</span></h5>
-<div class="para" id="ch-3-sets-3-3-2-3-1-1">
-<span class="process-math">\(\{ y\in \mathbb{Z}: \, |y-2|=2.5\}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-3-sets-3-3-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="workspace" data-space="1in"></div>
-<div class="autopermalink" data-description="Task 21.a.ii"><a href="#ch-3-sets-3-3-2-3" title="Copy heading and permalink for Task 21.a.ii" aria-label="Copy heading and permalink for Task 21.a.ii">🔗</a></div>
-</article>
-<article class="task exercise-like" id="ch-3-sets-3-3-2-4"><h5 class="heading"><span class="codenumber">(iii)</span></h5>
-<div class="para" id="ch-3-sets-3-3-2-4-1-1">
-<span class="process-math">\(\{ x\in \mathbb{R} : -3\leq x \leq 5\}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-3-sets-3-3-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="workspace" data-space="1in"></div>
-<div class="autopermalink" data-description="Task 21.a.iii"><a href="#ch-3-sets-3-3-2-4" title="Copy heading and permalink for Task 21.a.iii" aria-label="Copy heading and permalink for Task 21.a.iii">🔗</a></div>
-</article>
-<article class="task exercise-like" id="ch-3-sets-3-3-2-5"><h5 class="heading"><span class="codenumber">(iv)</span></h5>
-<div class="para" id="ch-3-sets-3-3-2-5-1-1">
-<span class="process-math">\(\{ n^3 +1: n\in\mathbb{N}\}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-3-sets-3-3-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="workspace" data-space="1in"></div>
-<div class="autopermalink" data-description="Task 21.a.iv"><a href="#ch-3-sets-3-3-2-5" title="Copy heading and permalink for Task 21.a.iv" aria-label="Copy heading and permalink for Task 21.a.iv">🔗</a></div>
-</article><div class="autopermalink" data-description="Task 21.a"><a href="#ch-3-sets-3-3-2" title="Copy heading and permalink for Task 21.a" aria-label="Copy heading and permalink for Task 21.a">🔗</a></div>
-</article>
-<article class="task exercise-like" id="ch-3-sets-3-3-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="para" id="ch-3-sets-3-3-3-1-1">Write down the set of all even integers using roster notation and set builder notation.<div class="autopermalink" data-description="Paragraph"><a href="#ch-3-sets-3-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="workspace" data-space="1in"></div>
-<div class="autopermalink" data-description="Task 21.b"><a href="#ch-3-sets-3-3-3" title="Copy heading and permalink for Task 21.b" aria-label="Copy heading and permalink for Task 21.b">🔗</a></div>
-</article>
-<article class="task exercise-like" id="ch-3-sets-3-3-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
-<div class="introduction" id="ch-3-sets-3-3-4-1">
-<div class="para logical" id="ch-3-sets-3-3-4-1-1">
-<div class="para">Consider the following set written using roster notation:</div>
-<div class="displaymath process-math" id="ch-3-sets-3-3-4-1-1-1">
+<div class="para logical" id="ch-contrapositive-2-2">
+<div class="para">A conditional statement is logically equivalent to its <dfn class="terminology">contrapositive</dfn>. That is,</div>
+<div class="displaymath process-math" id="ch-contrapositive-2-2-2">
 \begin{equation*}
-\{\sqrt{3}^2, \sqrt{3}^4, \sqrt{3}^6,\cdots\}
+(P\implies Q) \leftrightarrow (\sim Q \implies \sim P).
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#ch-3-sets-3-3-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
+<div class="para" id="ch-contrapositive-2-3">We proved this using truth tables on page 66 of class worksheets and in the preview activity for today. This also makes intuitive sense, considering the examples on pages 5 and 65 of class worksheets, and page 262 of your textbook. If we’re following the US law and say<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="task exercise-like" id="ch-3-sets-3-3-4-2"><h5 class="heading"><span class="codenumber">(i)</span></h5>
-<div class="para" id="ch-3-sets-3-3-4-2-1-1">Determine four elements of the set other than the ones listed above.<div class="autopermalink" data-description="Paragraph"><a href="#ch-3-sets-3-3-4-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-contrapositive-2-4">
+<em class="emphasis">if one is consuming an alcoholic beverage then one is at least age 21</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="workspace" data-space="1in"></div>
-<div class="autopermalink" data-description="Task 21.c.i"><a href="#ch-3-sets-3-3-4-2" title="Copy heading and permalink for Task 21.c.i" aria-label="Copy heading and permalink for Task 21.c.i">🔗</a></div>
+<div class="para" id="ch-contrapositive-2-5">then you would agree that<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-contrapositive-2-6">
+<em class="emphasis">if one is under the age of 21 then one is not consuming an alcoholic beverage.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-contrapositive-2-7">If we label the first statement as <span class="process-math">\(P\implies Q\text{,}\)</span> then the second statement is <span class="process-math">\(\sim Q\implies \sim P\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-contrapositive-2-8">In <dfn class="terminology">``proof by contrapositive"</dfn> we will use that a statement and its contrapositive are logically equivalent to our advantage. Instead of proving the original statement, we do a direct proof of the contrapositive. Note that proof by contrapositive is really just another type of direct proof.<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-contrapositive-2-9">
+<dfn class="terminology">Example:</dfn> Suppose we want to do proof by contrapositive of the statement<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-contrapositive-2-10">
+<em class="emphasis">For all <span class="process-math">\(n\in\mathbb{N}\text{,}\)</span> if <span class="process-math">\(n^2\)</span> is odd, then <span class="process-math">\(n\)</span> is odd.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-contrapositive-2-11">Then instead we would prove<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-contrapositive-2-12">
+<em class="emphasis">For all <span class="process-math">\(n\in\mathbb{N}\text{,}\)</span> if <span class="process-math">\(n\)</span> is even, then <span class="process-math">\(n^2\)</span> is odd.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-contrapositive-2-13">Notice that<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="ch-contrapositive-2-14">
+<li id="ch-contrapositive-2-14-1">
+<div class="para" id="ch-contrapositive-2-14-1-1">Taking the contrapositive of the conditional statement does not affect the quantifier at the start. We still need to prove this statement for all <span class="process-math">\(n\in\mathbb{N}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-14-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-contrapositive-2-14-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-contrapositive-2-14-2">
+<div class="para" id="ch-contrapositive-2-14-2-1">When we negate ``<span class="process-math">\(n\)</span> is odd’’ we get ``<span class="process-math">\(n\)</span> is not odd", but every non-odd integer is even, so instead we write ``<span class="process-math">\(n\)</span> is even.<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-14-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-contrapositive-2-14-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para" id="ch-contrapositive-2-15">
+<dfn class="terminology">Proof Writing:</dfn> Here’s a proof by contrapositive of the statement in the example. Underline the parts that would be included in all proofs by contrapositive.<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="theorem theorem-like" id="ch-contrapositive-2-16"><h3 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">39</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="ch-contrapositive-2-16-1-1">For all <span class="process-math">\(n\in\mathbb{N}\text{,}\)</span> if <span class="process-math">\(n^2\)</span> is odd, then <span class="process-math">\(n\)</span> is odd.<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-16-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Theorem 39"><a href="#ch-contrapositive-2-16" title="Copy heading and permalink for Theorem 39" aria-label="Copy heading and permalink for Theorem 39">🔗</a></div>
 </article>
-<article class="task exercise-like" id="ch-3-sets-3-3-4-3"><h5 class="heading"><span class="codenumber">(ii)</span></h5>
-<div class="para" id="ch-3-sets-3-3-4-3-1-1">Use set builder notation to describe the set.<div class="autopermalink" data-description="Paragraph"><a href="#ch-3-sets-3-3-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<details id="ch-contrapositive-2-17" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h3 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3></summary>
+<article class="hiddenproof knowl__content">
+<div class="para" id="ch-contrapositive-2-17-1">We will prove this using the contrapositive, which is: For all <span class="process-math">\(n\in \mathbb{N}\text{,}\)</span> iff <span class="process-math">\(n\)</span> is even, then <span class="process-math">\(n^{2}\)</span> is even. So, let <span class="process-math">\(n\in\mathbb{N}\text{.}\)</span> We begin by assuming that <span class="process-math">\(n\)</span> is even. By definition of even there exists an integer <span class="process-math">\(m\)</span> such that <span class="process-math">\(n = 2m\text{.}\)</span> Substituting, we have \begin{align} n^{2} = (2m)^{2} = 4m^{2} = 2(2m^{2}). \end{align} We know that <span class="process-math">\(m\)</span> and <span class="process-math">\(2\)</span> are integers, and the integers are closed under and multiplication. Thus <span class="process-math">\(p = 2m^{2}+2m\)</span> is also an integer. Thus equation (\ref{eqn:n^2}) shows that <span class="process-math">\(n^{2}\)</span> can be written in the form <span class="process-math">\(2p\)</span> where <span class="process-math">\(p\)</span> is an integer. By definition of even, this shows that <span class="process-math">\(n^{2}\)</span> is even. This completes the proof of the contrapositive, showing that if <span class="process-math">\(n^{2}\)</span> is odd, then <span class="process-math">\(n\)</span> is odd.<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-17-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Proof 6.1.1"><a href="#ch-contrapositive-2-17" title="Copy heading and permalink for Proof 6.1.1" aria-label="Copy heading and permalink for Proof 6.1.1">🔗</a></div>
+</article></details>
+<article class="activity project-like" id="ch-contrapositive-2-18"><h3 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">49</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="introduction" id="ch-contrapositive-2-18-1">
+<div class="para" id="ch-contrapositive-2-18-1-1">For each of the following statements, find the contrapositive (turning the statement into an ``if-then" conditional statement if needed). Then decide which one seems easier to prove - the statement or its contrapositive, and briefly explain why.<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-18-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="ch-contrapositive-2-18-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="ch-contrapositive-2-18-2-1-1">For all natural numbers <span class="process-math">\(n\text{,}\)</span> if <span class="process-math">\(3\nmid n\)</span> then <span class="process-math">\(9\nmid n\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-18-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="ch-contrapositive-2-18-2-1-2">{\tiny  Easier to prove the original  Easier to prove the contrapositive }<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-18-2-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="workspace" data-space="1in"></div>
-<div class="autopermalink" data-description="Task 21.c.ii"><a href="#ch-3-sets-3-3-4-3" title="Copy heading and permalink for Task 21.c.ii" aria-label="Copy heading and permalink for Task 21.c.ii">🔗</a></div>
-</article><div class="autopermalink" data-description="Task 21.c"><a href="#ch-3-sets-3-3-4" title="Copy heading and permalink for Task 21.c" aria-label="Copy heading and permalink for Task 21.c">🔗</a></div>
-</article><div class="autopermalink" data-description="Activity 21"><a href="#ch-3-sets-3-3" title="Copy heading and permalink for Activity 21" aria-label="Copy heading and permalink for Activity 21">🔗</a></div>
-</article><div class="autopermalink" data-description="Handout 3.2: Roster Notation and Set Builder Notation"><a href="#ch-3-sets-3" title="Copy heading and permalink for Handout 3.2: Roster Notation and Set Builder Notation" aria-label="Copy heading and permalink for Handout 3.2: Roster Notation and Set Builder Notation">🔗</a></div>
+<div class="autopermalink" data-description="Task 49.a"><a href="#ch-contrapositive-2-18-2" title="Copy heading and permalink for Task 49.a" aria-label="Copy heading and permalink for Task 49.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-contrapositive-2-18-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="ch-contrapositive-2-18-3-1-1">For all integers <span class="process-math">\(n\)</span> and <span class="process-math">\(m\text{,}\)</span> if <span class="process-math">\(nm\)</span> is even, then <span class="process-math">\(n\)</span> is even or <span class="process-math">\(m\)</span> is even.<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-18-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="ch-contrapositive-2-18-3-1-2">{\tiny  Easier to prove the original  Easier to prove the contrapositive }<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-18-3-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 49.b"><a href="#ch-contrapositive-2-18-3" title="Copy heading and permalink for Task 49.b" aria-label="Copy heading and permalink for Task 49.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-contrapositive-2-18-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="ch-contrapositive-2-18-4-1-1">Let <span class="process-math">\(a,b\in\mathbb{Z}\text{,}\)</span> and let <span class="process-math">\(p\)</span> be a prime. If <span class="process-math">\(p\nmid ab\)</span> then <span class="process-math">\(p\nmid a\)</span> and <span class="process-math">\(p\nmid b\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-18-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="ch-contrapositive-2-18-4-1-2">{\tiny  Easier to prove the original  Easier to prove the contrapositive }<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-18-4-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 49.c"><a href="#ch-contrapositive-2-18-4" title="Copy heading and permalink for Task 49.c" aria-label="Copy heading and permalink for Task 49.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-contrapositive-2-18-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="ch-contrapositive-2-18-5-1-1">For all integers <span class="process-math">\(n\text{,}\)</span> if <span class="process-math">\(n^2\)</span> is even if and only if <span class="process-math">\(n\)</span> is even. (Note there are 2 conditional statements here, write out both conditional statements and their contrapositives.)<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-18-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="ch-contrapositive-2-18-5-1-2">{\tiny  Easier to prove the original  Easier to prove the contrapositive }<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-18-5-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 49.d"><a href="#ch-contrapositive-2-18-5" title="Copy heading and permalink for Task 49.d" aria-label="Copy heading and permalink for Task 49.d">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-contrapositive-2-18-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para" id="ch-contrapositive-2-18-6-1-1">For all integers <span class="process-math">\(n\text{,}\)</span> if <span class="process-math">\(n\)</span> is even, then <span class="process-math">\(n^2-4n+7\)</span> is even.<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-18-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="ch-contrapositive-2-18-6-1-2">{\tiny  Easier to prove the original  Easier to prove the contrapositive }<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-18-6-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 49.e"><a href="#ch-contrapositive-2-18-6" title="Copy heading and permalink for Task 49.e" aria-label="Copy heading and permalink for Task 49.e">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-contrapositive-2-18-7"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<div class="para" id="ch-contrapositive-2-18-7-1-1">For all <span class="process-math">\(n\in\mathbb{Z}\text{,}\)</span> if <span class="process-math">\(n^2-4n+7\)</span> is even, then <span class="process-math">\(n\)</span> is odd.<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-18-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="ch-contrapositive-2-18-7-1-2">{\tiny  Easier to prove the original  Easier to prove the contrapositive }<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-18-7-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 49.f"><a href="#ch-contrapositive-2-18-7" title="Copy heading and permalink for Task 49.f" aria-label="Copy heading and permalink for Task 49.f">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-contrapositive-2-18-8"><h4 class="heading"><span class="codenumber">(g)</span></h4>
+<div class="para" id="ch-contrapositive-2-18-8-1-1">No prime number greater than <span class="process-math">\(3\)</span> is followed by a perfect square. (Rewrite as a conditional statement first!)<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-18-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="ch-contrapositive-2-18-8-1-2">{\tiny  Easier to prove the original  Easier to prove the contrapositive }<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-18-8-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 49.g"><a href="#ch-contrapositive-2-18-8" title="Copy heading and permalink for Task 49.g" aria-label="Copy heading and permalink for Task 49.g">🔗</a></div>
+</article><div class="autopermalink" data-description="Activity 49"><a href="#ch-contrapositive-2-18" title="Copy heading and permalink for Activity 49" aria-label="Copy heading and permalink for Activity 49">🔗</a></div>
+</article>
+<article class="activity project-like" id="ch-contrapositive-2-19"><h3 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">50</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="ch-contrapositive-2-19-1-1">Prove the following <dfn class="terminology">biconditional</dfn> theorem. This means you need to prove 2 conditional statements!<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-19-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Activity 50"><a href="#ch-contrapositive-2-19" title="Copy heading and permalink for Activity 50" aria-label="Copy heading and permalink for Activity 50">🔗</a></div>
+</article>
+<article class="theorem theorem-like" id="ch-contrapositive-2-20"><h3 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">40</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="ch-contrapositive-2-20-1-1">For all integers <span class="process-math">\(n\text{,}\)</span> <span class="process-math">\(n^2-4n+7\)</span> is odd if and only if <span class="process-math">\(n\)</span> is event.<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-20-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Theorem 40"><a href="#ch-contrapositive-2-20" title="Copy heading and permalink for Theorem 40" aria-label="Copy heading and permalink for Theorem 40">🔗</a></div>
+</article>
+<article class="activity project-like" id="ch-contrapositive-2-21"><h3 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">51</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="ch-contrapositive-2-21-1-1">Prove the following <dfn class="terminology">biconditional</dfn> theorem. This means you need to prove 2 conditional statements!<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-21-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Activity 51"><a href="#ch-contrapositive-2-21" title="Copy heading and permalink for Activity 51" aria-label="Copy heading and permalink for Activity 51">🔗</a></div>
+</article>
+<article class="theorem theorem-like" id="ch-contrapositive-2-22"><h3 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">41</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="ch-contrapositive-2-22-1-1">For all integers <span class="process-math">\(m\)</span> and <span class="process-math">\(n\text{,}\)</span> <span class="process-math">\(3\mid mn\)</span>  if and only if <span class="process-math">\(3\mid m\)</span> or <span class="process-math">\(3\mid n\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-22-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Theorem 41"><a href="#ch-contrapositive-2-22" title="Copy heading and permalink for Theorem 41" aria-label="Copy heading and permalink for Theorem 41">🔗</a></div>
+</article>
+<section class="subsection" id="ch-contrapositive-2-23">
+<h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Proof Evaluation</span>
+</h3>
+<article class="activity project-like" id="ch-contrapositive-2-23-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">52</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="ch-contrapositive-2-23-2-1-1">Evaluate the following proof. Is it correct? Should more be explained? Does it meet our writing guidelines?<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-23-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="ch-contrapositive-2-23-2-1-2">\includegraphics{images/ContrapositiveForCowards.PNG}<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-23-2-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Activity 52"><a href="#ch-contrapositive-2-23-2" title="Copy heading and permalink for Activity 52" aria-label="Copy heading and permalink for Activity 52">🔗</a></div>
+</article><div class="autopermalink" data-description="Subsection: Proof Evaluation"><a href="#ch-contrapositive-2-23" title="Copy heading and permalink for Subsection: Proof Evaluation" aria-label="Copy heading and permalink for Subsection: Proof Evaluation">🔗</a></div>
+</section>
+<section class="subsection" id="ch-contrapositive-2-24">
+<h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Counterexamples</span>
+</h3>
+<div class="para" id="ch-contrapositive-2-24-2">This chapter returns to counterexamples, which we’ve done a bunch of (and is Learning Target 11). Here’s an important connection to the chapter on logic - when you are disproving a statement, you are proving its negation. So if you have a statement that has a ``for all" (or an implied for all), the negation has a ``there exists", and so one can just use an example to prove it.<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-24-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="activity project-like" id="ch-contrapositive-2-24-3"><h4 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">53</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="ch-contrapositive-2-24-3-1-1">Here are two things that sometimes happen in math:<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-24-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<ul class="disc" id="ch-contrapositive-2-24-3-1-2">
+<li id="ch-contrapositive-2-24-3-1-2-1">
+<div class="para" id="ch-contrapositive-2-24-3-1-2-1-1">A counterexample comes early, but it turns out to be the <em class="emphasis">only</em> counterexample. E.g., find counterexamples to the following \begin{itemize} \item Every prime is odd. \item No prime number is followed by a perfect square. \end{itemize} It turns out the first statement is true for any prime greater than 2, and the second is true for any prime greater than 3. <em class="emphasis">If time:</em> Can you prove these?<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-24-3-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-contrapositive-2-24-3-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-contrapositive-2-24-3-1-2-2">
+<div class="para logical" id="ch-contrapositive-2-24-3-1-2-2-1">
+<div class="para">Sometimes the ``first" counterexample comes really late, but then there are lots of counterexamples. Consider the following statement \begin{itemize} \item If <span class="process-math">\(p\)</span> is prime then <span class="process-math">\(2^p - 1\)</span> is prime. \end{itemize} It turns out this is true for <span class="process-math">\(p=2, 3, 5,\)</span> and <span class="process-math">\(7\text{,}\)</span> but it is not true for <span class="process-math">\(p=11\text{.}\)</span> Prime numbers of the form <span class="process-math">\(2^p - 1\)</span> for a prime <span class="process-math">\(p\)</span> are know as Mersenne Primes. Currently we know of <span class="process-math">\(52\)</span> Mersenne primes and <span class="process-math">\(2^136279841-1\)</span>  (which is 41,024,320 digits) is the largest known prime number (found in 2024). Also, the following statment \begin{itemize} \item For every <span class="process-math">\(n\in\mathbb{N}\text{,}\)</span>
+</div>
+<div class="displaymath process-math" id="ch-contrapositive-2-24-3-1-2-2-1-11">
+\begin{equation*}
+1+\frac{1}{2} + \frac{1}{3} + \cdots \frac{1}{n}&lt; 100.
+\end{equation*}
+</div>
+<div class="para">\end{itemize} The first counterexample for this has <span class="process-math">\(44\)</span> digits (see page 270 of your textbook). We know one exists because the harmonic series diverges (you’d see this in Calc 2). After the first counterexample, every natural number is a counterexample, do you see why?</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ch-contrapositive-2-24-3-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-contrapositive-2-24-3-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Activity 53"><a href="#ch-contrapositive-2-24-3" title="Copy heading and permalink for Activity 53" aria-label="Copy heading and permalink for Activity 53">🔗</a></div>
+</article><div class="autopermalink" data-description="Subsection: Counterexamples"><a href="#ch-contrapositive-2-24" title="Copy heading and permalink for Subsection: Counterexamples" aria-label="Copy heading and permalink for Subsection: Counterexamples">🔗</a></div>
+</section><div class="autopermalink" data-description="Worksheet 6.1: Chapter 6: The Contrapositive"><a href="#ch-contrapositive-2" title="Copy heading and permalink for Worksheet 6.1: Chapter 6: The Contrapositive" aria-label="Copy heading and permalink for Worksheet 6.1: Chapter 6: The Contrapositive">🔗</a></div>
 </section>
 </div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<a class="previous-button button" href="ch-3-sets-2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-3-sets-4.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="ch-contrapositive.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-contradiction.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
