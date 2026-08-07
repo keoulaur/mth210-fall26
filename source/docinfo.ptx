@@ -8,6 +8,7 @@
     \newcommand{\Z}{\mathbb Z}
     \newcommand{\Q}{\mathbb Q}
     \newcommand{\R}{\mathbb R}
+    \newcommand{\ds}{\displaystyle}
   </macros>
   <!-- If you put any latex-image elements you can include preambles --> <!-- for those in the next element. -->
   <latex-image-preamble>

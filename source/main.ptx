@@ -11,7 +11,7 @@
         <subtitle>MTH 210 Fall 2026</subtitle>
         <!-- Optional: include frontmatter with author info and date -->
         <xi:include href="./frontmatter.ptx"/>
-        <chapter xml:id="ch-intuitiveproofs">
+        <chapter xml:id="ch-1-intuitiveproofs">
             <title>Intuitive Proofs</title>
 
             <xi:include href="./activities/01-1-ChessboardProblems.ptx"/>
@@ -22,7 +22,7 @@
             <xi:include href="./activities/01-6-Phase2.ptx"/>
         </chapter>
 
-        <chapter>
+        <chapter xml:id="ch-2-directproofs">
             <title>Direct Proofs</title>
 
             <xi:include href="./activities/02-1-NumberSystemsClosureOddEven.ptx"/>
@@ -43,8 +43,8 @@
 
         <chapter xml:id="ch-4-induction">
             <title>Induction</title>
-            <xi:include href="./activities/09-210-Sections4.1-4.2.ptx"/>
-            <xi:include href="./activities/10-210-Section4.3.ptx"/>
+            <xi:include href="./activities/04-1-Induction.ptx"/>
+            <xi:include href="./activities/04-2-InductionWithRecursion.ptx"/>
         </chapter>
 
         <chapter xml:id="ch-logic">

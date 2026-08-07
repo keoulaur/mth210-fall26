@@ -42,7 +42,7 @@
         </p>
 
         <tabular>
-          <col halign="center" right="minor"/> <col halign="left"/>
+          <col halign="center" right="minor"/> <col halign="left"/> <col halign="left"/>
           <row bottom="minor">
             <cell>|p{2.5in}|} Term</cell>
             <cell>Example</cell>

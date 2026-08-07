@@ -7,7 +7,7 @@
     <title>Vocabulary and Notation</title>
 
     <tabular>
-      <col halign="left"/>
+      <col halign="left"/> <col halign="left"/> <col halign="left"/>
       <row bottom="minor">
         <cell>|c|p{4.25in}|} Word</cell>
         <cell>Symbol</cell>
