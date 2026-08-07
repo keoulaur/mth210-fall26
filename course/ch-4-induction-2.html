@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Chapter 4: Induction (Part 1)</title>
+<title>Proof by Induction</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -140,6 +140,7 @@ eBookConfig.enable_chatcodes =  false;
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
 \newcommand{\R}{\mathbb R}
+\newcommand{\ds}{\displaystyle}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -150,24 +151,24 @@ eBookConfig.enable_chatcodes =  false;
 <div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-intuitiveproofs.html" class="internal"><span class="codenumber">1</span> <span class="title">Intuitive Proofs</span></a></div>
+<div class="toc-title-box"><a href="ch-1-intuitiveproofs.html" class="internal"><span class="codenumber">1</span> <span class="title">Intuitive Proofs</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-intuitiveproofs-2.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Chessboard Problems</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-intuitiveproofs-3.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Patterns and Conjectures</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-intuitiveproofs-4.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Conditional Statements</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-intuitiveproofs-5.html" class="internal"><span class="codenumber">1.4</span> <span class="title">The Pigeonhole Principle</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-1-intuitiveproofs-2.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Chessboard Problems</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-1-intuitiveproofs-3.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Patterns and Conjectures</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-1-intuitiveproofs-4.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Conditional Statements</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-1-intuitiveproofs-5.html" class="internal"><span class="codenumber">1.4</span> <span class="title">The Pigeonhole Principle</span></a></div></li>
 <li class="toc-item toc-handout"><div class="toc-title-box"><a href="sec-TheGameSET.html" class="internal"><span class="codenumber">1.5</span> <span class="title">The Game SET</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-intuitiveproofs-7.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Welcome to Phase 2 Mathematics</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-1-intuitiveproofs-7.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Welcome to Phase 2 Mathematics</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="root-1-2-5.html" class="internal"><span class="codenumber">2</span> <span class="title">Direct Proofs</span></a></div>
+<div class="toc-title-box"><a href="ch-2-directproofs.html" class="internal"><span class="codenumber">2</span> <span class="title">Direct Proofs</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="root-1-2-5-2.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Direct Proofs</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="root-1-2-5-3.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Example - Writing a Proof</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="root-1-2-5-4.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Proof By Cases</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="root-1-2-5-5.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Divisibility and the Division Algorithm</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="root-1-2-5-6.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Congruence</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-2-directproofs-2.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Direct Proofs</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-2-directproofs-3.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Example - Writing a Proof</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-2-directproofs-4.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Proof By Cases</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-2-directproofs-5.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Divisibility and the Division Algorithm</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-2-directproofs-6.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Congruence</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -182,8 +183,8 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-4-induction.html" class="internal"><span class="codenumber">4</span> <span class="title">Induction</span></a></div>
 <ul class="structural toc-item-list contains-active">
-<li class="toc-item toc-handout active"><div class="toc-title-box"><a href="ch-4-induction-2.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Chapter 4: Induction (Part 1)</span></a></div></li>
-<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ch-4-induction-3.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Chapter 4: Induction (Part 2)</span></a></div></li>
+<li class="toc-item toc-handout active"><div class="toc-title-box"><a href="ch-4-induction-2.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Proof by Induction</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-4-induction-3.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Induction with Recursion</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -372,27 +373,35 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <section class="handout" id="ch-4-induction-2" data-margins="0.75in 0.75in 0.75in 0.75in">
 <h2 class="heading hide-type">
-<span class="type">Handout</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Chapter 4: Induction (Part 1)</span><div class="print-links"><a href="?printpreview=ch-4-induction-2" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+<span class="type">Handout</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Proof by Induction</span><div class="print-links"><a href="?printpreview=ch-4-induction-2" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
 </h2>
 <div class="para" id="ch-4-induction-2-2">
-<em class="emphasis">What we’ll do:</em> <dfn class="terminology">Procedure for a Proof by Mathematical Induction</dfn> To prove a series of statements <span class="process-math">\(S_1, S_2, S_3, \dots \text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dfn class="terminology">Procedure for a Proof by Mathematical Induction</dfn> To prove a series of statements <span class="process-math">\(S_1, S_2, S_3, \dots \text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="ch-4-induction-2-3">
-<ol class="lower-alpha lower-alpha-level-1" id="ch-4-induction-2-3-1">
+<ul class="disc" id="ch-4-induction-2-3-1">
 <li id="ch-4-induction-2-3-1-1">
-<div class="para" id="ch-4-induction-2-3-1-1-1">_____: Prove _____<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-4-induction-2-3-1-1-1">
+<span class="fillin underline" role="img" aria-label="25-character blank" style="width: 11.3636363636364em;"></span>: Prove <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span>.<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item a"><a href="#ch-4-induction-2-3-1-1" title="Copy heading and permalink for Item a" aria-label="Copy heading and permalink for Item a">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-4-induction-2-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-4-induction-2-3-1-2">
-<div class="para" id="ch-4-induction-2-3-1-2-1">_____: Prove _____, if _____ then _____ Then we can conclude that <span class="process-math">\(P(n)\)</span> is true for all <span class="process-math">\(n\in \mathbb{N}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-4-induction-2-3-1-2-1">
+<span class="fillin underline" role="img" aria-label="25-character blank" style="width: 11.3636363636364em;"></span>: Prove <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span>, if <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> then <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>.<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item b"><a href="#ch-4-induction-2-3-1-2" title="Copy heading and permalink for Item b" aria-label="Copy heading and permalink for Item b">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-4-induction-2-3-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-</ol>
+<li id="ch-4-induction-2-3-1-3">
+<div class="para" id="ch-4-induction-2-3-1-3-1">Then we can conclude that <span class="process-math">\(P(n)\)</span> is true <span class="fillin underline" role="img" aria-label="8-character blank" style="width: 3.636363636363636em;"></span>.<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-4-induction-2-3-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
 <div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-4-induction-2-4">To identify a statement you might prove by induction you might look for...<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-4-induction-2-4">To identify a statement you might prove by induction you might look for...<div class="workspace" data-space=".5in"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-4-induction-2-5">
 <dfn class="terminology">Example Of Formal Writing of a Proof by Mathematical Induction.</dfn><div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -424,139 +433,259 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para">For the base case, we prove that <span class="process-math">\(S_1\)</span> is true. In the case where <span class="process-math">\(n = 1\text{,}\)</span> the left side of <span class="process-math">\(S_1\)</span> is <span class="process-math">\(1\)</span> and the right side is <span class="process-math">\(1^2\text{.}\)</span> Since <span class="process-math">\(1=1^2\text{,}\)</span> <span class="process-math">\(S_1\)</span> is true and the base case is complete.</div>
 <div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-4-induction-2-7-2">For the inductive step, we prove that for each <span class="process-math">\(k \in \mathbb{N}\text{,}\)</span> if <span class="process-math">\(S_k\)</span> is true, then <span class="process-math">\(S_{k+1}\)</span> is true. So let <span class="process-math">\(k\)</span> be a natural number and assume that <span class="process-math">\(S_k\)</span> is true. That is, assume that \begin{equation} 1 + 3 + 5 + \cdots + (2k-1) = k^{2}. \end{equation} Now we must show that <span class="process-math">\(S_{k+1}\)</span> is true. That is, we will show that \begin{equation} 1 + 3 + 5 + \cdots + (2k-1) + (2k+1) = (k+1)^{2}. \end{equation}<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-7-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para logical" id="ch-4-induction-2-7-2">
+<div class="para">For the inductive step, we prove that for each <span class="process-math">\(k \in \mathbb{N}\text{,}\)</span> if <span class="process-math">\(S_k\)</span> is true, then <span class="process-math">\(S_{k+1}\)</span> is true. So let <span class="process-math">\(k\)</span> be a natural number and assume that <span class="process-math">\(S_k\)</span> is true. That is, assume that</div>
+<div class="displaymath process-math" id="eqn-Sk">
+\begin{equation}
+1 + 3 + 5 + \cdots + (2k-1) =
+k^{2}.\tag{1}
+\end{equation}
 </div>
-<div class="para" id="ch-4-induction-2-7-3">To do so, we add <span class="process-math">\(2k+1\)</span> to both sides of equation \eqref{eq1} and factor the right side of the resulting equation. This gives us: \begin{align*} 1 + 3 + 5 + \cdots + (2k-1) &amp;= k^{2} 1 + 3 + 5 + \cdots + (2k-1) + (2k+1) &amp;= k^{2} + 2k + 1 1 + 3 + 5 + \cdots + (2k-1) + (2k+1) &amp;= (k+1)^{2}. \end{align*} The result above is exactly the statement <span class="process-math">\(S_{k+1}\text{,}\)</span> as seen in equation \eqref{eq2}. This proves that if <span class="process-math">\(S_k\)</span> is true, then <span class="process-math">\(S_{k+1}\)</span> is true. Hence, the inductive step has been established.<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-7-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para">Now we must show that <span class="process-math">\(S_{k+1}\)</span> is true. That is, we will show that</div>
+<div class="displaymath process-math" id="eqn-Skplus1">
+\begin{equation}
+1 + 3 + 5 + \cdots +
+(2k-1) + (2k+1) = (k+1)^{2}.\tag{2}
+\end{equation}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-7-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="ch-4-induction-2-7-3">
+<div class="para">To do so, we add <span class="process-math">\(2k+1\)</span> to both sides of <a href="ch-4-induction-2.html#eqn-Sk" class="xref" data-knowl="./knowl/xref/eqn-Sk.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1">(1)</a> and factor the right side of the resulting equation. This gives us:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Sk.html ./knowl/xref/eqn-Skplus1.html" id="ch-4-induction-2-7-3-3">
+\begin{align*}
+1 + 3 + 5 + \cdots + (2k-1) +(2k+1) \amp= k^2+ (2k+1) \\
+\amp= (k+1)^{2}. 
+\end{align*}
+</div>
+<div class="para">The result above is exactly the statement <span class="process-math">\(S_{k+1}\text{,}\)</span> as seen in <a href="ch-4-induction-2.html#eqn-Skplus1" class="xref" data-knowl="./knowl/xref/eqn-Skplus1.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 2">(2)</a>. This proves that if <span class="process-math">\(S_k\)</span> is true, then <span class="process-math">\(S_{k+1}\)</span> is true. Hence, the inductive step has been established.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-7-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-4-induction-2-7-4">Thus by the Principle of Mathematical Induction, we have proved that for each natural number <span class="process-math">\(n\text{,}\)</span> the sum of the first <span class="process-math">\(n\)</span> odd natural numbers is <span class="process-math">\(n^{2}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-7-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Proof 4.1.1"><a href="#ch-4-induction-2-7" title="Copy heading and permalink for Proof 4.1.1" aria-label="Copy heading and permalink for Proof 4.1.1">🔗</a></div>
 </article></details>
-<article class="activity project-like" id="ch-4-induction-2-8"><h3 class="heading">
-<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">27</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h3>
-<div class="para" id="ch-4-induction-2-8-1-1">Use the principle of mathematical induction to prove the theorem.<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-4-induction-2-8">There are multiple ways to do the inductive step. Above, we added the same thing to both sides of the inductive hypothesis, as you likely recall doing in algebra We can also start by working with the left hand side of the inductive hypothesis and using substitution, as shown below. Which of these two ways you do this inductive proof is only a matter of preference, both are valid. The vertical dots in the proof below indicate that the rest of the proof is the same as the one above.<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="workspace" data-space="1in"></div>
-<div class="autopermalink" data-description="Activity 27"><a href="#ch-4-induction-2-8" title="Copy heading and permalink for Activity 27" aria-label="Copy heading and permalink for Activity 27">🔗</a></div>
-</article>
-<article class="theorem theorem-like" id="ch-4-induction-2-9"><h3 class="heading">
-<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">35</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<details id="ch-4-induction-2-9" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h3 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3></summary>
+<article class="hiddenproof knowl__content">
+<div class="para logical" id="ch-4-induction-2-9-1">
+<div class="para">We will use a proof by mathematical induction.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Skplus1.html ./knowl/xref/eqn-Sk.html" id="ch-4-induction-2-9-1-1">
+\begin{equation*}
+\vdots
+\end{equation*}
+</div>
+<div class="para">To do so, we begin with the left side of <a href="ch-4-induction-2.html#eqn-Skplus1" class="xref" data-knowl="./knowl/xref/eqn-Skplus1.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 2">(2)</a> and substitute the expression <span class="process-math">\(k^2 \)</span> for <span class="process-math">\(1+ 3 + 5+ \cdots + (2k-1) \)</span> which is true by our assumption from <a href="ch-4-induction-2.html#eqn-Sk" class="xref" data-knowl="./knowl/xref/eqn-Sk.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1">(1)</a>. We find</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Skplus1.html ./knowl/xref/eqn-Sk.html" id="ch-4-induction-2-9-1-6">
+\begin{align*}
+1 + 3 + 5 + \cdots + (2k+1) \amp= 1 + 3 + 5 + \cdots + (2k-1) + (2k+1)\\
+\amp  k^2+ (2k+1) \\
+\amp= (k+1)^{2}. 
+\end{align*}
+</div>
+<div class="para">The result above is exactly the statement <span class="process-math">\(S_{k+1}\text{,}\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Skplus1.html ./knowl/xref/eqn-Sk.html" id="ch-4-induction-2-9-1-8">
+\begin{equation*}
+\vdots
+\end{equation*}
+</div>
+<div class="para">the sum of the first <span class="process-math">\(n\)</span> odd natural numbers is <span class="process-math">\(n^{2}\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Proof 4.1.2"><a href="#ch-4-induction-2-9" title="Copy heading and permalink for Proof 4.1.2" aria-label="Copy heading and permalink for Proof 4.1.2">🔗</a></div>
+</article></details>
+<article class="remark remark-like" id="ch-4-induction-2-10"><h3 class="heading">
+<span class="type">Remark</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">35</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h3>
-<div class="para logical" id="ch-4-induction-2-9-1-1">
+<div class="para" id="ch-4-induction-2-10-1">What is <em class="emphasis">not valid</em> is to start with using <span class="process-math">\(S_{k+1}\text{.}\)</span> This would be assuming the conclusion of the conditional statement that is the inductive step which says “<em class="emphasis">If</em> <span class="process-math">\(S_k\)</span> then <span class="process-math">\(S_{k+1} \text{.}\)</span>”<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-10-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Remark 35"><a href="#ch-4-induction-2-10" title="Copy heading and permalink for Remark 35" aria-label="Copy heading and permalink for Remark 35">🔗</a></div>
+</article>
+<div class="para" id="ch-4-induction-2-11">Here’s some things you may do when working to do any proof by induction:<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="ch-4-induction-2-12">
+<ul class="disc" id="ch-4-induction-2-12-1">
+<li id="ch-4-induction-2-12-1-1">
+<div class="para" id="ch-4-induction-2-12-1-1-1">First, you may want to test a couple of values of <span class="process-math">\(n\)</span> to see if the statement even seems true/you understand what it is. Test <span class="process-math">\(n=1, 2\text{.}\)</span> See if you can write down what the statement says when <span class="process-math">\(n=17\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-12-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-4-induction-2-12-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-4-induction-2-12-1-2">
+<div class="para" id="ch-4-induction-2-12-1-2-1">What is <span class="process-math">\(S_n\)</span> in this case?<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-12-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-4-induction-2-12-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-4-induction-2-12-1-3">
+<div class="para" id="ch-4-induction-2-12-1-3-1">What is <span class="process-math">\(S_1\)</span> and is it true?<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-12-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-4-induction-2-12-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-4-induction-2-12-1-4">
+<div class="para" id="ch-4-induction-2-12-1-4-1">Then, let <span class="process-math">\(k\in \mathbb{N}\)</span> and write <span class="process-math">\(S_k\)</span> at the top of your page and <span class="process-math">\(S_{k+1}\)</span> at the bottom. Wiggle your way in between!<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-12-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-4-induction-2-12-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="theorem theorem-like" id="thm-sumofsquares"><h3 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">36</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para logical" id="thm-sumofsquares-1-1">
 <div class="para">For every natural number <span class="process-math">\(n\text{,}\)</span> the sum of the squares of the first <span class="process-math">\(n\)</span> natural numbers is <span class="process-math">\(\frac{n(n+1)(2n+1)}{6}\text{.}\)</span> That is,</div>
-<div class="displaymath process-math" id="ch-4-induction-2-9-1-1-4">
+<div class="displaymath process-math" id="thm-sumofsquares-1-1-4">
 \begin{equation*}
 \ds \sum_{i=1}^{n} i^2 =  \frac{n(n+1)(2n+1)}{6}.
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-9-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#thm-sumofsquares-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Theorem 35"><a href="#ch-4-induction-2-9" title="Copy heading and permalink for Theorem 35" aria-label="Copy heading and permalink for Theorem 35">🔗</a></div>
+<div class="autopermalink" data-description="Theorem 36"><a href="#thm-sumofsquares" title="Copy heading and permalink for Theorem 36" aria-label="Copy heading and permalink for Theorem 36">🔗</a></div>
 </article>
-<div class="para" id="ch-4-induction-2-10">Here’s some things you may do when working to prove by induction:<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="ch-4-induction-2-11">
-<ul class="disc" id="ch-4-induction-2-11-1">
-<li id="ch-4-induction-2-11-1-1">
-<div class="para" id="ch-4-induction-2-11-1-1-1">First, you may want to test a couple of values of <span class="process-math">\(n\)</span> to see if the statement even seems true/you understand what it is. Test <span class="process-math">\(n=1, 2\text{.}\)</span> See if you can write down what the statement says when <span class="process-math">\(n=17\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-11-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-4-induction-2-11-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="ch-4-induction-2-11-1-2">
-<div class="para" id="ch-4-induction-2-11-1-2-1">What is <span class="process-math">\(S_n\)</span> in this case?<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-11-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-4-induction-2-11-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="ch-4-induction-2-11-1-3">
-<div class="para" id="ch-4-induction-2-11-1-3-1">What is <span class="process-math">\(S_1\)</span> and is it true?<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-11-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-4-induction-2-11-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="ch-4-induction-2-11-1-4">
-<div class="para" id="ch-4-induction-2-11-1-4-1">Then, let <span class="process-math">\(k\in \mathbb{N}\)</span> and write <span class="process-math">\(S_k\)</span> at the top of your page and <span class="process-math">\(S_{k+1}\)</span> at the bottom. Wiggle your way in between!<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-11-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-4-induction-2-11-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-</ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<article class="activity project-like" id="ch-4-induction-2-12"><h3 class="heading">
-<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">28</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<article class="activity project-like" id="ch-4-induction-2-14"><h3 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">27</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h3>
-<div class="para" id="ch-4-induction-2-12-1-1">Work to get the big ideas of the induction argument right first; then, sketch the proof.<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-12-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="introduction" id="ch-4-induction-2-14-1">
+<div class="para" id="ch-4-induction-2-14-1-1">Use the principle of mathematical induction to prove <a href="ch-4-induction-2.html#thm-sumofsquares" class="xref" data-knowl="./knowl/xref/thm-sumofsquares.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 36">Theorem 36</a>.<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-14-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="workspace" data-space="1in"></div>
-<div class="autopermalink" data-description="Activity 28"><a href="#ch-4-induction-2-12" title="Copy heading and permalink for Activity 28" aria-label="Copy heading and permalink for Activity 28">🔗</a></div>
+</div>
+<article class="task exercise-like" id="ch-4-induction-2-14-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="ch-4-induction-2-14-2-1">First, you may want to test a couple of values of <span class="process-math">\(n\)</span> to see if the statement even seems true/you understand what it is. Test <span class="process-math">\(n=1, 2\text{.}\)</span> See if you can write down what the statement says when <span class="process-math">\(n=17\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-14-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1.5in"></div>
+<div class="autopermalink" data-description="Task 27.a"><a href="#ch-4-induction-2-14-2" title="Copy heading and permalink for Task 27.a" aria-label="Copy heading and permalink for Task 27.a">🔗</a></div>
 </article>
-<article class="theorem theorem-like" id="ch-4-induction-2-13"><h3 class="heading">
-<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">36</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h3>
-<div class="para" id="ch-4-induction-2-13-1-1">For every natural number <span class="process-math">\(n\text{,}\)</span> <span class="process-math">\(5^n \equiv 1 \pmod{4}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-13-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="task exercise-like" id="ch-4-induction-2-14-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="ch-4-induction-2-14-3-1">What is <span class="process-math">\(S_n\)</span> in this case?<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-14-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Theorem 36"><a href="#ch-4-induction-2-13" title="Copy heading and permalink for Theorem 36" aria-label="Copy heading and permalink for Theorem 36">🔗</a></div>
+<div class="workspace" data-space=".5in"></div>
+<div class="autopermalink" data-description="Task 27.b"><a href="#ch-4-induction-2-14-3" title="Copy heading and permalink for Task 27.b" aria-label="Copy heading and permalink for Task 27.b">🔗</a></div>
 </article>
-<div class="para logical" id="ch-4-induction-2-14">
-<ul class="disc" id="ch-4-induction-2-14-1">
-<li id="ch-4-induction-2-14-1-1">
-<div class="para" id="ch-4-induction-2-14-1-1-1">First, you may want to test a couple of values of <span class="process-math">\(n\)</span> to see if the statement even seems true/you understand what it is. Test <span class="process-math">\(n=1, 2\text{.}\)</span> See if you can write down what the statement says when <span class="process-math">\(n=17\text{.}\)</span> Does it seem true?<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-14-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="task exercise-like" id="ch-4-induction-2-14-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="ch-4-induction-2-14-4-1">What is <span class="process-math">\(S_1\)</span> and is it true?<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-14-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-4-induction-2-14-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="ch-4-induction-2-14-1-2">
-<div class="para" id="ch-4-induction-2-14-1-2-1">What is <span class="process-math">\(S_n\)</span> in this case?<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-14-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="workspace" data-space=".5in"></div>
+<div class="autopermalink" data-description="Task 27.c"><a href="#ch-4-induction-2-14-4" title="Copy heading and permalink for Task 27.c" aria-label="Copy heading and permalink for Task 27.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-4-induction-2-14-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="ch-4-induction-2-14-5-1">Then, let <span class="process-math">\(k\in \mathbb{N}\)</span> and write <span class="process-math">\(S_k\)</span> at the top of your page and <span class="process-math">\(S_{k+1}\)</span> at the bottom. Wiggle your way in between!<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-14-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-4-induction-2-14-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="ch-4-induction-2-14-1-3">
-<div class="para" id="ch-4-induction-2-14-1-3-1">What is <span class="process-math">\(S_1\)</span> and is it true?<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-14-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" data-description="Task 27.d"><a href="#ch-4-induction-2-14-5" title="Copy heading and permalink for Task 27.d" aria-label="Copy heading and permalink for Task 27.d">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-4-induction-2-14-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para" id="ch-4-induction-2-14-6-1">Here’s some space to put all your thoughts together.<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-14-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-4-induction-2-14-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="ch-4-induction-2-14-1-4">
-<div class="para" id="ch-4-induction-2-14-1-4-1">Then, let <span class="process-math">\(k\in \mathbb{N}\)</span> and write <span class="process-math">\(S_k\)</span> at the top of your page and <span class="process-math">\(S_{k+1}\)</span> at the bottom. Wiggle your way in between! Two approaches here: \begin{itemize} \item Use definitions to translate from the definition of congruence, to the definition of divides, and then to an equation. Mess around with some algebra. \item Recall that we proved that if <span class="process-math">\(a\equiv b\pmod{m}\)</span> and <span class="process-math">\(c\equiv d \pmod{m}\)</span> then <span class="process-math">\(ac \equiv bd \pmod{m}\text{.}\)</span> How could you use that as a Lemma? \end{itemize}<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-14-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-4-induction-2-14-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-</ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<article class="activity project-like" id="ch-4-induction-2-15"><h3 class="heading">
-<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">29</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<div class="workspace" data-space="3in"></div>
+<div class="autopermalink" data-description="Task 27.e"><a href="#ch-4-induction-2-14-6" title="Copy heading and permalink for Task 27.e" aria-label="Copy heading and permalink for Task 27.e">🔗</a></div>
+</article><div class="autopermalink" data-description="Activity 27"><a href="#ch-4-induction-2-14" title="Copy heading and permalink for Activity 27" aria-label="Copy heading and permalink for Activity 27">🔗</a></div>
+</article>
+<article class="theorem theorem-like" id="thm-fermat5"><h3 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">37</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h3>
-<div class="para" id="ch-4-induction-2-15-1-1">
-<em class="emphasis">If time:</em> If you finish the activity above, here’s one more statement to try to prove, using induction:<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-15-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> 
-<div class="para" id="ch-4-induction-2-15-1-2">\begin{quote} ``For every natural number <span class="process-math">\(n\text{,}\)</span> <span class="process-math">\(6 \mid (n^3 - n)\)</span> ’’ \end{quote}<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-15-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="thm-fermat5-1-1">For every natural number <span class="process-math">\(n\text{,}\)</span> <span class="process-math">\(5^n \equiv 1 \pmod{4}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#thm-fermat5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="workspace" data-space="1in"></div>
-<div class="autopermalink" data-description="Activity 29"><a href="#ch-4-induction-2-15" title="Copy heading and permalink for Activity 29" aria-label="Copy heading and permalink for Activity 29">🔗</a></div>
+<div class="autopermalink" data-description="Theorem 37"><a href="#thm-fermat5" title="Copy heading and permalink for Theorem 37" aria-label="Copy heading and permalink for Theorem 37">🔗</a></div>
 </article>
 <article class="activity project-like" id="ch-4-induction-2-16"><h3 class="heading">
-<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">30</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">28</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h3>
-<div class="para" id="ch-4-induction-2-16-1-1">
-<dfn class="terminology">An induction proof from calculus:</dfn> Find a formula for the <span class="process-math">\(n^{th}\)</span> derivative of <span class="process-math">\(e^{2x}\text{,}\)</span> state your result as a theorem, and prove it using induction.<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-16-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="introduction" id="ch-4-induction-2-16-1">
+<div class="para" id="ch-4-induction-2-16-1-1">Use the principle of mathematical induction to prove <a href="ch-4-induction-2.html#thm-fermat5" class="xref" data-knowl="./knowl/xref/thm-fermat5.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 37">Theorem 37</a>. Work to get the big ideas of the induction argument right first; then, sketch the proof.<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-16-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="ch-4-induction-2-16-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="ch-4-induction-2-16-2-1-1">First, you may want to test a couple of values of <span class="process-math">\(n\)</span> to see if the statement even seems true/you understand what it is. Test <span class="process-math">\(n=1, 2\text{.}\)</span> See if you can write down what the statement says when <span class="process-math">\(n=17\text{.}\)</span> Does it seem true?<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-16-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="workspace" data-space="1in"></div>
-<div class="autopermalink" data-description="Activity 30"><a href="#ch-4-induction-2-16" title="Copy heading and permalink for Activity 30" aria-label="Copy heading and permalink for Activity 30">🔗</a></div>
+<div class="autopermalink" data-description="Task 28.a"><a href="#ch-4-induction-2-16-2" title="Copy heading and permalink for Task 28.a" aria-label="Copy heading and permalink for Task 28.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-4-induction-2-16-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="ch-4-induction-2-16-3-1">What is <span class="process-math">\(S_n\)</span> in this case?<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-16-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 28.b"><a href="#ch-4-induction-2-16-3" title="Copy heading and permalink for Task 28.b" aria-label="Copy heading and permalink for Task 28.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-4-induction-2-16-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="ch-4-induction-2-16-4-1">What is <span class="process-math">\(S_1\)</span> and is it true?<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-16-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 28.c"><a href="#ch-4-induction-2-16-4" title="Copy heading and permalink for Task 28.c" aria-label="Copy heading and permalink for Task 28.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-4-induction-2-16-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para logical" id="ch-4-induction-2-16-5-1">
+<div class="para">Then, let <span class="process-math">\(k\in \mathbb{N}\)</span> and write <span class="process-math">\(S_k\)</span> at the top of your page and <span class="process-math">\(S_{k+1}\)</span> at the bottom. Wiggle your way in between! Two approaches here:</div>
+<ul class="disc" id="ch-4-induction-2-16-5-1-4">
+<li id="ch-4-induction-2-16-5-1-4-1">
+<div class="para" id="ch-4-induction-2-16-5-1-4-1-1">Use definitions to translate from the definition of congruence, to the definition of divides, and then to an equation. Mess around with some algebra.<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-16-5-1-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-4-induction-2-16-5-1-4-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-4-induction-2-16-5-1-4-2">
+<div class="para" id="ch-4-induction-2-16-5-1-4-2-1">Recall that we proved that if <span class="process-math">\(a\equiv b\pmod{m}\)</span> and <span class="process-math">\(c\equiv d \pmod{m}\)</span> then <span class="process-math">\(ac \equiv bd \pmod{m}\text{.}\)</span> How could you use that as a Lemma?<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-16-5-1-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-4-induction-2-16-5-1-4-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-16-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" data-description="Task 28.d"><a href="#ch-4-induction-2-16-5" title="Copy heading and permalink for Task 28.d" aria-label="Copy heading and permalink for Task 28.d">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-4-induction-2-16-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para" id="ch-4-induction-2-16-6-1">Here’s some space to put all your thoughts together.<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-16-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="3in"></div>
+<div class="autopermalink" data-description="Task 28.e"><a href="#ch-4-induction-2-16-6" title="Copy heading and permalink for Task 28.e" aria-label="Copy heading and permalink for Task 28.e">🔗</a></div>
+</article><div class="autopermalink" data-description="Activity 28"><a href="#ch-4-induction-2-16" title="Copy heading and permalink for Activity 28" aria-label="Copy heading and permalink for Activity 28">🔗</a></div>
 </article>
 <article class="activity project-like" id="ch-4-induction-2-17"><h3 class="heading">
-<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">31</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">29</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h3>
 <div class="para" id="ch-4-induction-2-17-1-1">
-<dfn class="terminology">An induction proof with inequality</dfn> Recall (or learn for the first time!) that <span class="process-math">\(n! = n(n-1)(n-2)\cdots 3\cdot 2\cdot 1\text{.}\)</span> E.g., <span class="process-math">\(3! = 3\cdot 2 \cdot 1 = 6\)</span> and <span class="process-math">\(4! = 4\cdot 3 \cdot 2 \cdot 1 = 24\text{.}\)</span> Determine if the following conjecture is true. If not, modify it by saying which values of <span class="process-math">\(n\)</span> it is true for, and then prove by induction.<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-17-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">If time:</em> Prove, using induction:<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-17-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="ch-4-induction-2-17-1-2">For every natural number <span class="process-math">\(n\text{,}\)</span> <span class="process-math">\(6 \mid (n^3 - n)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-17-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="5in"></div>
+<div class="autopermalink" data-description="Activity 29"><a href="#ch-4-induction-2-17" title="Copy heading and permalink for Activity 29" aria-label="Copy heading and permalink for Activity 29">🔗</a></div>
+</article>
+<article class="activity project-like" id="ch-4-induction-2-18"><h3 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">30</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="ch-4-induction-2-18-1-1">
+<dfn class="terminology">An induction proof from calculus:</dfn> Find a formula for the <span class="process-math">\(n^{th}\)</span> derivative of <span class="process-math">\(e^{2x}\text{,}\)</span> state your result as a theorem, and prove it using induction.<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-18-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="5in"></div>
+<div class="autopermalink" data-description="Activity 30"><a href="#ch-4-induction-2-18" title="Copy heading and permalink for Activity 30" aria-label="Copy heading and permalink for Activity 30">🔗</a></div>
+</article>
+<article class="conjecture theorem-like" id="conj-factorial"><h3 class="heading">
+<span class="type">Conjecture</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">38</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="conj-factorial-1-1">For all <span class="process-math">\(n\in\mathbb{N}\text{,}\)</span> <span class="process-math">\(2^n &lt; n!\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#conj-factorial-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Conjecture 38"><a href="#conj-factorial" title="Copy heading and permalink for Conjecture 38" aria-label="Copy heading and permalink for Conjecture 38">🔗</a></div>
+</article>
+<article class="activity project-like" id="ch-4-induction-2-20"><h3 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">31</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para logical" id="ch-4-induction-2-20-1-1">
+<div class="para">
+<dfn class="terminology">An induction proof with inequality</dfn> Recall (or learn for the first time!) that</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/conj-factorial.html" id="ch-4-induction-2-20-1-1-2">
+\begin{equation*}
+n! = n(n-1)(n-2)\cdots 3\cdot 2\cdot 1\text{.}
+\end{equation*}
+</div>
+<div class="para">E.g., <span class="process-math">\(3! = 3\cdot 2 \cdot 1 = 6\)</span> and <span class="process-math">\(4! = 4\cdot 3 \cdot 2 \cdot 1 = 24\text{.}\)</span> Determine if <a href="ch-4-induction-2.html#conj-factorial" class="xref" data-knowl="./knowl/xref/conj-factorial.html" data-reveal-label="Reveal" data-close-label="Close" title="Conjecture 38">Conjecture 38</a> is true. If not, modify it to be true, and then prove by induction.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-20-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="workspace" data-space="1in"></div>
-<div class="autopermalink" data-description="Activity 31"><a href="#ch-4-induction-2-17" title="Copy heading and permalink for Activity 31" aria-label="Copy heading and permalink for Activity 31">🔗</a></div>
-</article>
-<article class="conjecture theorem-like" id="ch-4-induction-2-18"><h3 class="heading">
-<span class="type">Conjecture</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">37</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h3>
-<div class="para" id="ch-4-induction-2-18-1-1">For all <span class="process-math">\(n\in\mathbb{N}\text{,}\)</span> <span class="process-math">\(2^n &lt; n!\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-4-induction-2-18-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Conjecture 37"><a href="#ch-4-induction-2-18" title="Copy heading and permalink for Conjecture 37" aria-label="Copy heading and permalink for Conjecture 37">🔗</a></div>
-</article><div class="autopermalink" data-description="Handout 4.1: Chapter 4: Induction (Part 1)"><a href="#ch-4-induction-2" title="Copy heading and permalink for Handout 4.1: Chapter 4: Induction (Part 1)" aria-label="Copy heading and permalink for Handout 4.1: Chapter 4: Induction (Part 1)">🔗</a></div>
+<div class="autopermalink" data-description="Activity 31"><a href="#ch-4-induction-2-20" title="Copy heading and permalink for Activity 31" aria-label="Copy heading and permalink for Activity 31">🔗</a></div>
+</article><div class="autopermalink" data-description="Handout 4.1: Proof by Induction"><a href="#ch-4-induction-2" title="Copy heading and permalink for Handout 4.1: Proof by Induction" aria-label="Copy heading and permalink for Handout 4.1: Proof by Induction">🔗</a></div>
 </section>
 </div>
 <div id="ptx-content-footer" class="ptx-content-footer">
