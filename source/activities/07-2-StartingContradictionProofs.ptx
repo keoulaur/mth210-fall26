@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+<title>Starting A Proof By Contradiction</title>
+
+    <p>
+      One of the most important parts of proof by contradiction is the very first part: Stating the assumptions. This requires writing a clear negation of the theorem to be proven.
+    </p>
+    <activity xml:id="act-contradictionstart">
+      <introduction>
+        <p>
+          For each statement below, write its negation to start the proof by contradiction.
+        </p>
+      </introduction>
+
+
+      <task workspace="1in">
+        <statement>
+          <p>
+            <term>Theorem.</term> <em> For all real numbers <m>a</m> and <m>b</m>, if <m>a&gt;0</m> and <m>b&gt;0</m>, then <m>\frac{2}{a} + \frac{2}{b} \neq \frac{4}{a+b}</m>.</em>
+          </p>
+
+          <p>
+            <em>Proof.</em> We will use a proof by contradiction. So we assume the theorem is false. That is, we assume
+          </p>
+        </statement>
+      </task>
+
+
+      <task workspace="1in">
+        <statement>
+          <p>
+            <term>Theorem.</term> <em> For each real number <m>x</m>, <m>(\sqrt{2}+x)</m> is irrational or <m>(\sqrt{2}-x)</m> is irrational.</em>
+          </p>
+
+          <p>
+            <em>Proof.</em> We will use a proof by contradiction. So we assume the theorem is false. That is, we assume
+          </p>
+        </statement>
+      </task>
+
+
+      <task workspace="1in">
+        <statement>
+          <p>
+            <term>Theorem.</term> <em>For each real number <m>x</m>, if <m>x</m> is irrational, then <m>\sqrt[3]{x}</m> is irrational.</em>
+          </p>
+
+          <p>
+            <em>Proof.</em> We will use a proof by contradiction. So we assume the theorem is false. That is, we assume
+          </p>
+        </statement>
+      </task>
+
+
+      <task workspace="1in">
+        <statement>
+          <p>
+            <term>Theorem.</term> <em>For each <m>a,b\in\mathbb{R}</m>, if <m>a\neq 0</m> and <m>b\neq 0</m> then <m>\sqrt{a^2+b^2} \neq a+b</m>.</em>
+          </p>
+
+          <p>
+            <em>Proof.</em> We will use a proof by contradiction. So we assume the theorem is false. That is, we assume
+          </p>
+        </statement>
+      </task>
+
+
+      <task workspace="1in">
+        <statement>
+          <p>
+            <term>Theorem.</term> <em>For all integers <m>a</m> and <m>b</m>, if <m>5\nmid ab</m>, then <m>5\nmid a</m> and <m>5\nmid b</m>.</em>
+          </p>
+
+          <p>
+            <em>Proof.</em> We will use a proof by contradiction. So we assume the theorem is false. That is, we assume
+          </p>
+        </statement>
+      </task>
+
+
+      <task workspace="1in">
+        <statement>
+          <p>
+            <term>Theorem.</term> <em>For all integers <m>a</m> and <m>b</m>, if <m>5\mid ab</m> then <m>5\mid a</m> or <m>5\mid b</m>.</em>
+          </p>
+
+          <p>
+            <em>Proof.</em> We will use a proof by contradiction. So we assume the theorem is false. That is, we assume
+          </p>
+
+          <p>
+            <em>If time:</em> When you have each negation completed, go back and try to figure out what the next main step of logic would be. That is, what's the next helpful statement you could make in a contradiction proof?
+          </p>
+
+          <p>
+            <em>If time 2:</em> Could you prove any of these with a different proof technique? For example, would any of the proofs be better with contrapositive? Or cases?
+          </p>
+        </statement>
+      </task>
+    </activity>
+
+    </handout>

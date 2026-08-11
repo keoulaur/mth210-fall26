@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>Practicing Whole Proofs By Contradiction</title>
+
+    <p>
+        Recall a real number <m>x</m> is <term>rational</term> if
+        <m>x=\frac{a}{b}</m> for some <m>a,b\in\mathbb{Z}</m> with
+        <m>b\neq 0</m>.
+        Otherwise, we say <m>x</m> is <term>irrational</term>.
+        Recall that the set of rationals is denoted <m>\mathbb{Q}</m> (for
+        quotient).
+    </p>
+
+    <p>
+        You may use any of the following as lemmas without proof. We will prove <xref ref="lem-sqrt2"/> soon.
+    </p>
+
+    <lemma xml:id="lem-sqrt2">
+      <statement>
+        <p>
+           The real number <m>\sqrt{2}</m> is irrational.
+  
+        </p>
+      </statement>
+    </lemma>
+
+    <lemma>
+      <statement>
+        <p>
+          If <m>x,y\in\mathbb{R}</m>, if <m>xy=0</m> then <m>x=0</m> or
+        <m>y=0</m>.
+        </p>
+      </statement>
+    </lemma>
+
+<lemma>
+  <statement>
+    <p>
+      For all <m>a,b,x,y\in\mathbb{Z}</m> and <m>n\in\mathbb{N}</m>, if
+        <m>a\equiv x \pmod{n}</m> and <m>b\equiv y\pmod{n}</m> then
+        <m>ab \equiv xy\pmod{n}</m>.
+    </p>
+  </statement>
+</lemma>
+
+
+    <activity workspace="5in">
+        <p>
+            Work to prove the theorems in <xref ref="act-contradictionstart"/>.
+        </p>
+
+        <p>
+            What are some examples of contradictions you can get?
+        </p>
+    </activity>
+</handout>

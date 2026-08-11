@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>   
+   <title>More Proofs by Contradiction</title>
+
+
+    <activity workspace="1in">
+      <statement>
+        <p>
+          Try to determine if the following conjectures are true on false. If true, work on the proving the following theorems by contradiction.
+        </p>
+
+        <p>
+        <ul>
+          <li>
+            <p>
+              For each real number <m>x</m>, if <m>0&lt;x&lt;1</m> then <m>\frac{1}{x(1-x)}\ge 4</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Let <m>a, b,</m> and <m>c</m> be integers. If <m>3\mid a</m> and <m>3\mid b</m> and <m>c\equiv 1 \pmod{3}</m> then the equation <m>ax+by=c</m> has no solution in which both <m>x</m> and <m>y</m> are integers.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              For each positive real number <m>x</m>, if <m>x</m> is irrational then <m>x^2</m> is irrational.
+            </p>
+          </li>
+        </ul>
+      </p>
+      </statement>
+    </activity>
+
+</handout>

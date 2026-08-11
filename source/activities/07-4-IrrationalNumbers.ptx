@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <handout>
+
+    <title>Irrationals</title>
+
+
+
+    <p>
+      Recall a real number <m>x</m> is <term>rational</term> if <m>x=\frac{a}{b}</m> for some <m>a,b\in\mathbb{Z}</m> with <m>b\neq 0</m>. Otherwise, we say <m>x</m> is <term>irrational</term>.
+    </p>
+
+    <p>
+      Pythagoras, of Pythagorean Theorem fame, did not believe in irrational numbers. Which is wild, because they were right under his nose:
+    </p>
+
+    <p>
+      There is an apocryphal story (that may not be true) that Hippasus of Metapontum, a member of the school of Pythagoreans, proved that <m>\sqrt{2}</m> is irrational, after Pythagoras died. This was upsetting to other Pythagoreans, and Hippasus was drowned at sea.
+    </p>
+
+
+    <p workspace="4in">
+      Let's outline the proof that <m>\sqrt{2}</m> is irrational below.
+    </p>
+
+    <p>
+      Here is a formal proof that <m>\sqrt{2}</m> is irrational. We won't prove the lemma here, but in general you should either prove the lemma, or cite a page from worksheets, homework, or the book. Fill in the blanks.
+    </p>
+
+    <lemma xml:id="lem-squareeven">
+      <statement>
+        <p>
+          For all integers <m>n</m>, <m>n</m> is even if and only if <m>n^2</m> is even.
+        </p>
+      </statement>
+    </lemma>
+
+    <theorem>
+      <statement>
+        <p>
+          The real number <m>\sqrt{2}</m> is irrational.
+        </p>
+      </statement>
+    </theorem>
+
+    <proof>
+      <p workspace=".5in">
+        To prove that <m>\sqrt{2}</m> is irrational, we 
+      </p>
+       <p workspace=".5in"> In particular, we assume
+       </p>
+       <p workspace=".5in">
+         This tells us that there exist integers <m>m</m> and <m>n</m> with <m>n \ne 0</m> such that
+    </p>
+
+    <p>
+      We further assume that <m>m</m> and <m>n</m> have no common factors so that <m>\frac{m}{n}</m> is in lowest terms.   Let us now consider the consequences of assuming that <m>\sqrt{2} = \frac{m}{n}.</m>  Our goal is to show that
+    </p>
+
+    <p>
+      Squaring both sides of <m>\sqrt{2} = \frac{m}{n}</m> , we find that <m>2 = \frac{m^2}{n^2}</m>, so that multiplying by <m>n^2</m>, we have <fillin characters="20" />. Since <m>n^2</m> is an integer, it follows that <fillin characters="5" /> is even.  By <xref ref="lem-squareeven"/>, which states that an integer is even if and only if its square is even, we now know that since <m>m^2</m> is even, it follows that <m>m</m> is also even.  In particular, there exists some integer <m>k</m> such that <fillin characters="20" />. If we now substitute <m>2k</m> for <m>m</m> in Equation~(\ref{Q:m^2}), it follows that <m>(2k)^2 = 2n^2</m>.  Dividing both sides by 2, we find that <fillin characters="20" />> Now Equation~(\ref{Q:n^2}) implies that <m>n^2</m> is even, and therefore by again applying the lemma, <m>n</m> must also be even.  In particular, there exists some integer <m>p</m> such that \<fillin characters="20" />> Now consider Equations~(\ref{Q:m}) and~(\ref{Q:n}).  These show that <m>2 \mid m</m> and <m>2 \mid n</m>, so that <m>m</m> and <m>n</m> share a common factor of <m>2</m>, and thus <m>\frac{m}{n}</m> is not in lowest terms.  This is <fillin characters="20" />.
+  Moreover, this contradiction proves that our assumption that <m>\sqrt{2}</m> is rational <fillin characters="20" />, and therefore <m>\sqrt{2}</m> is irrational. 
+    </p>
+
+    </proof> 
+
+    <conjecture>
+      <statement>
+        <p>
+          For all integers <m>a,b</m> and <m>c</m>, if <m>a \mid (bc)</m>, then <m>a \mid b</m> or <m>a \mid c</m> given integers <m>a</m>, <m>b</m>, <m>c</m>.
+        </p>
+      </statement>
+    </conjecture>
+
+    <p>
+      Disprove this conjecture:
+    </p>
+
+    <theorem>
+      <title>The Prime Divisor Theorem</title>
+
+      <statement>
+        <p>
+          [The Prime Divisor Theorem]  Let <m>a</m>, <m>b</m> and <m>c</m> be natural numbers.  If <m>a \mid (bc)</m> and <m>a</m> is prime, then <m>a \mid b</m> or <m>a \mid c</m>.
+        </p>
+      </statement>
+    </theorem>
+
+    <p>
+      This result enables us to consider additional results on irrational numbers.
+    </p>
+
+    <p>
+      <term>series Theorem.</term>  The real number <m>\sqrt{3}</m> is irrational.
+    </p>
+
+    <p>
+      <term>series Proof.</term>   To prove that <m>\sqrt{3}</m> is irrational, we argue by contradiction.  In particular, we assume to the contrary that <m>\sqrt{3}</m> is rational.  This tells us that there exist integers <m>m</m> and <m>n</m> with <m>n \ne 0</m> such that
+    </p>
+
+
+    <p>
+      We further assume that <m>m</m> and <m>n</m> have no common factors so that <m>\frac{m}{n}</m> is in lowest terms.  Let us now consider the consequences of assuming that <m>\sqrt{3} = \frac{m}{n}.</m>
+    </p>
+
+    <p>
+      Squaring both sides of this equation, we find that <m>3 = \frac{m^2}{n^2}</m>, so that multiplying by <m>n^2</m>, we have \begin{equation} m^2 = 3n^2. \end{equation} Since <m>n^2</m> is an integer, it follows that _____.  By
+    </p>
+
+    <p>
+      In particular, there exists some integer <m>k</m> such that \begin{equation} \ \end{equation} If we now substitute <m>3k</m> for <m>m</m> in Equation~(\ref{Q3:m^2}), it follows that <m>(3k)^2 = 3n^2</m>.  Dividing both sides by 3, we find that \begin{equation} \ \end{equation} Now Equation~(\ref{Q3:n^2}) implies that _____, and therefore by again applying
+    </p>
+
+    <p>
+      In particular, there exists some integer <m>p</m> such that \begin{equation} \ \end{equation} Now consider Equations~(\ref{Q3:m}) and~(\ref{Q3:n}).  These show that _____ and _____ so that <m>m</m> and <m>n</m> share a common factor of _____, and thus <m>\frac{m}{n}</m> is not in lowest terms.  This is _____.  Moreover, this contradiction proves that our assumption that <m>\sqrt{3}</m> is rational _____, and therefore <m>\sqrt{3}</m> is irrational. <m>\Box</m>
+    </p>
+
+    </handout>

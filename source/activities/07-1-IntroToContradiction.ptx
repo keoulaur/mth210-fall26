@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>What is Proof by Contradiction and Why Do It?</title>
+
+    <p>
+        In a <term>proof by contradiction</term>, we
+    </p>
+
+    <p>
+        <ol>
+            <li>
+                <p>
+                    Assume the negation
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Reduce to the absurd
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Conclude the negation could not have been true.
+                </p>
+            </li>
+        </ol>
+    </p>
+
+    <p>
+        Some of the most consequential theorems in history were proved by
+        contradiction.See
+        <url href="https://philosophersguild.com/products/proof-is-in-the-pudding-bowls">https://philosophersguild.com/products/proof-is-in-the-pudding-bowls</url>:
+        2 of the 4 proofs chosen for the bowls are proofs by contradiction.
+    </p>
+
+    <activity workspace="1in">
+      <p>
+            We typically prove the following two theorems by contradiction.
+        </p>
+
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        There are infinitely many prime numbers.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        The number <m>\sqrt{2}</m> is irrational.
+                    </p>
+                </li>
+            </ol>
+        </p>
+
+        
+      <p>      Why would you use proof by contradiction for these theorems?
+      To answer this, you might discuss: (a) What is the negation and how might that be helpful for starting a proof? (b) What other proof techniques could you try and how would those start? </p>
+    </activity>
+
+    <paragraphs>
+        <title>First Example</title>
+
+        <p>
+            You have already seen a proof by contradiction, on page 38 of the
+            worksheets, in Chapter 3 about sets.
+        </p>
+
+        <p>
+            Read the following proof, one sentence at a time, and underline
+            sentences that you think will be in every proof by contradiction.
+        </p>
+    </paragraphs>
+
+    <theorem>
+        <statement>
+            <p>
+                If <m>A = \{x\in\mathbb{Z} : x\equiv 2 \pmod{4}\}</m> and
+                <m>B = \{y\in\Z : y\equiv 3 \pmod{6}\}</m>.
+                Then <m>A\cap B = \emptyset</m>.
+            </p>
+        </statement>
+    </theorem>
+
+    <proof>
+        <p>
+            We will use a proof by contradiction.
+            That is, we assume
+            <m>A =  \{x\in\mathbb{Z} : x\equiv 2 \pmod{4}\}</m> and
+            <m>B = \{y\in\Z : y\equiv 3 \pmod{6}\}</m> and
+            <m>A\cap B \neq \emptyset</m>.
+            Since <m>A\cap B\neq \emptyset</m>, there exists <m>x\in\Z</m> such
+            that <m>x\in A\cap B</m>.
+            Since <m>x\in A</m>, <m>x\equiv 2\pmod{4}</m> and so
+            <m>4\mid (x-2)</m>.
+            This means there exists <m>k\in\mathbb{Z}</m> such that
+            <m>x-2 = 4k</m>, or
+            <md>
+                x= 4k+2.
+            </md>
+        </p>
+
+        <p>
+            Also, since <m>x\in B</m>, we know <m>x\equiv 3\pmod{6}</m>.
+            So <m>6 \mid (x-3)</m> and thus there exists <m>j\in \mathbb{Z}</m>
+            such that <m>x-3=6j</m> or
+            <md>
+                x=6j+3.
+            </md>
+        </p>
+
+        <p>
+            Since <m>x=4k+2</m> and <m>x=6j+3</m>, by substitution and algebra
+            we get,
+            <md>
+                <mrow>
+            4k+2 \amp = 6j+3
+          </mrow>
+                <mrow> 4k \amp = 6j+1 </mrow>
+                <mrow>2 (2k)\amp =2(3j)+1  </mrow>
+            </md>
+            By closure of integers under multiplication, <m>2k\in\mathbb{Z}</m>
+            and <m>3j\in\mathbb{Z}</m>.
+            Therefore <m>2(2k)</m> is an even integer and <m>2(3j)+1</m> is an
+            odd integer.
+            But this is a contradiction - there is no integer that is both even
+            and odd!
+            This contradicts our assumption that <m>x\in A\cap B</m>, and thus
+            we conclude <m>A\cap B = \emptyset</m>.
+        </p>
+    </proof>
+
+    <remark>
+        <p>
+            In a proof by contradiction, you want to work towards something
+            obviously absurd.
+            <q>Even = Odd</q> is one example of a contradiction you might get.
+            You also could get other contradictions in the proof above - can you
+            think of a different one?
+        </p>
+
+        <p>
+            We could have also phrased the above theorem as
+            <q>For each integer <m>n</m>, if <m>n\equiv 2 \pmod{4}</m> then <m>n\not\equiv 3\pmod{6}</m>.</q>
+            Why would it make sense to use contradiction for that theorem
+            statement (and not, say, contrapositive)?
+            What would change about the proof above?
+        </p>
+    </remark>
+</handout>

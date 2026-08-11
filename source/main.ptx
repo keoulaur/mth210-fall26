@@ -60,7 +60,11 @@
 
         <chapter xml:id="ch-contradiction">
             <title>Contradiction</title>
-            <xi:include href="./activities/07-Contradiction.ptx"/>
+            <xi:include href="./activities/07-1-IntroToContradiction.ptx"/>
+            <xi:include href="./activities/07-2-StartingContradictionProofs.ptx" />
+            <xi:include href="./activities/07-3-PracticingWholeProofs.ptx" />
+            <xi:include href="./activities/07-4-IrrationalNumbers.ptx" />
+            <xi:include href="./activities/07-5-MoreProofsByContradiction.ptx" />
         </chapter>
             
         <chapter xml:id="ch-functions">
