@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet>
+
+
+<handout>
   <title>Chapter 7: Contradiction</title>
 
-  <subsection>
+  <paragraphs>
     <title>What Proof by Contradiction Is</title>
 
     <p>
       In a <term>proof by contradiction</term>, we
     </p>
 
+    <p>
+      
+  
     <ol>
       <li>
         <p>
@@ -29,16 +34,18 @@
         </p>
       </li>
     </ol>
-  </subsection>
+      </p>
+  </paragraphs>
 
 
-  <subsection>
+  <paragraphs>
     <title>Why Use Proof by Contradiction</title>
 
     <p>
       Some of the most consequential theorems in history were proved by contradiction.<fn>See <url href="https://philosophersguild.com/products/proof-is-in-the-pudding-bowls">https://philosophersguild.com/products/proof-is-in-the-pudding-bowls</url>: 2 of the 4 proofs chosen for the bowls are proofs by contradiction.</fn>  For example,
     </p>
 
+    <p>
     <ul>
       <li>
         <p>
@@ -52,6 +59,7 @@
         </p>
       </li>
     </ul>
+  </p>
 
     <p>
       are both proved by contradiction.
@@ -62,12 +70,12 @@
     </p>
 
     <p>
-      {\scriptsize To answer this, you might discuss: (a) What is the negation and how might that be helpful for starting a proof? (b) What other proof techniques could you try and how would those start?}
+      To answer this, you might discuss: (a) What is the negation and how might that be helpful for starting a proof? (b) What other proof techniques could you try and how would those start?
     </p>
-  </subsection>
+  </paragraphs>
 
 
-  <subsection>
+  <paragraphs>
     <title>First Example</title>
 
     <p>
@@ -77,6 +85,8 @@
     <p>
       Read the following proof, one sentence at a time, and underline sentences that you think will be in every proof by contradiction.
     </p>
+
+  </paragraphs>
 
     <theorem>
       <statement>
@@ -110,7 +120,6 @@
     <p>
       <term>Note 1:</term> ``Even = Odd" is one example of a contradiction you might get. You also could get other contradictions in the proof above - can you think of a different one? <term>Note 2</term>: We could have also phrased the above theorem as ``For each integer <m>n</m>, if <m>n\equiv 2 \pmod{4}</m> then <m>n\not\equiv 3\pmod{6}</m>." Why would it make sense to use contradiction for that theorem statement (and not, say, contrapositive)? What would change about the proof above?
     </p>
-  </subsection>
 
 
   <subsection>
@@ -216,7 +225,7 @@
   </subsection>
 
 
-  <subsection>
+  <paragraphs>
     <title>Practicing Proofs</title>
 
     <p>
@@ -246,10 +255,10 @@
     <p>
       What are some examples of contradictions you can get?
     </p>
-  </subsection>
+  </paragraphs>
 
 
-  <subsection>
+  <paragarphs>
     <title>Irrationals</title>
 
     <p>
@@ -264,7 +273,9 @@
       There is an apocryphal story (that may not be true) that Hippasus of Metapontum, a member of the school of Pythagoreans, proved that <m>\sqrt{2}</m> is irrational, after Pythagoras died. This was upsetting to other Pythagoreans, and Hippasus was drowned at sea.
     </p>
 
-    <p>
+  </paragraphs>
+
+    <p workspace="4in">
       Let's outline the proof that <m>\sqrt{2}</m> is irrational below.
     </p>
 
@@ -289,7 +300,7 @@
     </theorem>
 
     <p>
-      <term>series Proof.</term>   To prove that <m>\sqrt{2}</m> is irrational, we _____.  In particular, we _____ that _____.  This tells us that there exist integers <m>m</m> and <m>n</m> with <m>n \ne 0</m> such that
+      <term>Proof.</term>   To prove that <m>\sqrt{2}</m> is irrational, we _____.  In particular, we _____ that _____.  This tells us that there exist integers <m>m</m> and <m>n</m> with <m>n \ne 0</m> such that
     </p>
 
     <p>
@@ -334,9 +345,6 @@
       <term>series Proof.</term>   To prove that <m>\sqrt{3}</m> is irrational, we argue by contradiction.  In particular, we assume to the contrary that <m>\sqrt{3}</m> is rational.  This tells us that there exist integers <m>m</m> and <m>n</m> with <m>n \ne 0</m> such that
     </p>
 
-    <p>
-      \ \
-    </p>
 
     <p>
       We further assume that <m>m</m> and <m>n</m> have no common factors so that <m>\frac{m}{n}</m> is in lowest terms.  Let us now consider the consequences of assuming that <m>\sqrt{3} = \frac{m}{n}.</m>
@@ -386,5 +394,5 @@
         </ul>
       </statement>
     </activity>
-  </subsection>
+  </handout>
 </worksheet>

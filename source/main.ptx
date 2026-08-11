@@ -49,18 +49,18 @@
 
         <chapter xml:id="ch-logic">
             <title>Logic</title>
-            <xi:include href="./activities/12-210-Sections5.1-5.2.ptx"/>
-            <xi:include href="./activities/13-210-Sections5.3-5.4.ptx"/>
+            <xi:include href="./activities/05-1-Logic1.ptx"/>
+            <xi:include href="./activities/05-2-Logic2.ptx"/>
         </chapter>
         
         <chapter xml:id="ch-contrapositive">
             <title>The Contrapositive</title>
-            <xi:include href="./activities/14-210-Chapter6.ptx"/>
+            <xi:include href="./activities/06-Contrapositive.ptx"/>
         </chapter>
 
         <chapter xml:id="ch-contradiction">
             <title>Contradiction</title>
-            <xi:include href="./activities/15-210-Chapter7.ptx"/>
+            <xi:include href="./activities/07-Contradiction.ptx"/>
         </chapter>
             
         <chapter xml:id="ch-functions">
