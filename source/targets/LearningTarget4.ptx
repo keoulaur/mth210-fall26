@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>Learning Target 4 Practice</title>
+
+    <p>
+        <em>Identify if a given set of numbers is closed under a given operation. </em>
+    </p>
+
+    <paragraphs>
+        <title>Need to know:</title>
+
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        What it means for a set to be closed under an operation.
+                        See page 13 of class worksheets or Fact 2.1 on page 48
+                        of your textbook.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        You need to know what each of the following symbols
+                        mean:
+                        <m>\mathbb{N}, \mathbb{Z}, \mathbb{Q}, \mathbb{R}</m>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        You need to be able to read sets written in set or
+                        roster notation.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Practice Questions</title>
+
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Is <m>\mathbb{N}</m> closed under addition?
+                        subtraction?
+                        multiplication?
+                        division?
+                        Explain.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Is <m>\mathbb{Z}</m> closed under addition?
+                        subtraction?
+                        multiplication?
+                        division?
+                        Explain.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Is <m>\mathbb{Q}</m> closed under addition?
+                        subtraction?
+                        multiplication?
+                        division?
+                        Explain.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Is the set <m>A = \{2,4,6,8,\dots\}</m> closed under
+                        addition?
+                        subtraction?
+                        multiplication?
+                        division?
+                        Explain.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Is the set <m>B = \{1,3,5,7,\dots\}</m> closed under
+                        addition?
+                        subtraction?
+                        multiplication?
+                        division?
+                        Explain.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Is the set
+                        <m>C = \{x\in \mathbb{Z}: x \equiv 2 \pmod{4}\}</m>
+                        closed under addition?
+                        subtraction?
+                        multiplication?
+                        division?
+                        Explain.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Some Solutions</title>
+
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        The natural numbers are closed under addition and
+                        multiplication, but not subtraction or division.
+                        If <m>a</m> and <m>b</m> are natural numbers, then
+                        <m>a+b</m> and <m>a\cdot b</m> are natural numbers,
+                        which means the natural numbers are closed under
+                        addition and multiplication.
+                        However, <m>3,5\in\mathbb{N}</m> and
+                        <m>3-5 = -2\notin\mathbb{N}</m>, which shows the natural
+                        numbers are not closed under subtraction.
+                        Similarly, <m>3,5\in\mathbb{N}</m>, but
+                        <m>3 \div 5 = \frac{3}{5}\notin \mathbb{N}</m>.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        The set <m>A</m> is closed under addition, since any
+                        element of <m>A</m> has the form <m>2k</m> for some
+                        <m>k\in\mathbb{N}</m>.
+                        Let <m>a,b\in A</m>.
+                        Then <m>a = 2j</m> and <m>b=2k</m> for some
+                        <m>j,k\in \mathbb{N}</m>.
+                        Then <m>a+b = 2j + 2k = 2(j+k)</m> and <m>j+k</m> is a
+                        natural number.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        The set
+                        <m>C = \{x\in \mathbb{Z}: x \equiv 2 \pmod{4}\} = \{ \dots,-6,-2,2,6,10,14,\dots\}</m>
+                        is not closed under any of these operations.
+                        For examples of addition and multiplication, note
+                        <m>2,6\in C</m>, but
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>2+6 = 8\notin C</m> as <m>8\equiv 0 \pmod{4}</m> so
+                        <m>8\not\equiv 2\pmod{4}</m>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>2\cdot 6 =12\notin C</m> as
+                        <m>12\equiv 0 \pmod{4}</m> so
+                        <m>12\not\equiv 2\pmod{4}</m>
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </paragraphs>
+</handout>

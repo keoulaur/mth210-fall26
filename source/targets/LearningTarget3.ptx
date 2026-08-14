@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>Learning Target 3 Practice</title>
+<p>
+    <em>Given a statement to be proven using a direct proof, identify the assumptions to be made and the statements to be proven.</em>
+  </p>
+
+  <p>
+    See the box on page 52 of your textbook for the outline of a direct proof.
+    If we are trying to prove <m>P\implies Q</m>, i.e., a statement of the form
+    <q>if <m>P</m> then <m>Q</m> </q>, we assume <m>P</m> and show <m>Q</m>.
+  </p>
+
+  <paragraphs>
+    <title>Practice</title>
+
+    <p>
+      <ul>
+        <li>
+          <p>
+            Examples with solutions (at bottom of page). For each, state what
+            you would assume in a direct proof and state what you would prove in
+            a direct proof.
+            <ul>
+              <li>
+                <p>
+                  For all integers <m>n</m>, if <m>n</m> is an odd integer, then
+                  <m>n^{2}+1</m> is even.
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  For all integers <m>x</m>, if <m>x</m> is divisible by
+                  <m>6</m>, then <m>x</m> is divisible by <m>3</m>.
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  For all natural numbers <m>p</m> and <m>q</m>, if <m>p</m> and
+                  <m>q</m> are twin primes other than <m>3</m> and <m>5</m>,
+                  then <m>pq+1</m> is a perfect square and <m>36</m> divides
+                  <m>pq+1</m>.
+                </p>
+              </li>
+            </ul>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            More practice:
+            <ul>
+              <li>
+                <p>
+                  For all real numbers <m>x</m> and <m>y</m>, if <m>x&gt;y</m>
+                  then <m>x-7&gt;y-7</m>.
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  For all integers <m>a</m> and <m>b</m>, if <m>a</m> and
+                  <m>b</m> are both even, then <m>4</m> divides <m>ab</m>.
+                </p>
+              </li>
+            </ul>
+          </p>
+        </li>
+      </ul>
+    </p>
+
+</paragraphs>
+
+  <paragraphs>
+    <title>Solutions</title>
+
+    <p>
+      <ul>
+        <li>
+          <p>
+            Since the statement starts ``for all'', we should start with an
+            arbitrary one. So, assume <m>n</m> is an integer. We also assume the
+            hypothesis in a direct proof, so assume <m>n</m> is an odd integer.
+            Prove that <m>n^{2}+1</m> is even.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Again since the statement starts ``for all'', we should start with
+            an arbitrary one. So assume <m>x</m> is an integer. Also assume the
+            hypothesis, so assume <m>x</m> is divisible by <m>6</m>. Then prove
+            that <m>x</m> is divisible by <m>3</m>.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Assume <m>p</m> and <m>q</m> are natural numbers, and that <m>p</m>
+            and <m>q</m> are twin primes other than <m>3</m> and <m>5</m>. Prove
+            that <m>36</m> divides <m>pq+1</m>.
+          </p>
+        </li>
+      </ul>
+    </p>
+</paragraphs>
+</handout>

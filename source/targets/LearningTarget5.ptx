@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+  <title>Learning Target 5 Practice</title>
+
+  <p>
+    <em>State the definition of ``a divides b'' and ``a is congruent to b modulo n'', and correctly apply these definitions in examples.</em>
+  </p>
+
+  <paragraphs>
+    <title>Need to know:</title>
+
+    <p>
+      <ul>
+        <li>
+          <p>
+            The definition of divides and its notation: Definition 2.8 on page
+            55 or page 21 of class worksheets.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            The definition of congruence and its notation: Definition 2.14 on
+            page 62 or page 27 of class worksheets.
+          </p>
+        </li>
+      </ul>
+    </p>
+</paragraphs>
+
+  <paragraphs>
+    <title>Practice:</title>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            Pages 21 and 27 of class worksheets
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Carefully state the definition of <m>a\mid b</m> (for
+            <m>a,b\in\mathbb{Z}, a\neq 0</m> ) and <m>a\equiv b \pmod{n}</m>
+            (for <m>a,b\in\mathbb{Z}</m> and <m>n\in\mathbb{N}</m>.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Given any integer <m>x</m>, does <m>x\mid 0</m>? does
+            <m>0\mid x</m>?
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Give examples of integers <m>a</m> and <m>b</m> such that
+            <m>a\equiv b \pmod{15}</m> and <m>a\not\equiv b\pmod{15}</m>.
+            Explain using the definition.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Give examples of integers <m>a</m> and <m>b</m> such that
+            <m>a\mid b</m> and <m>a\nmid b</m>. Explain using the definition.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            List all integers <m>a</m> such that <m>a\mid 24</m>. Explain using
+            the definition.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            List all integers <m>a</m> such that <m>a\equiv 3\pmod{4}</m>.
+            (Using <m>\dots</m> is okay!)
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Give an example of two integers, <m>a</m> and <m>b</m>, such that
+            <m>a\equiv b \pmod{5}</m>, where one of the integers is negative.
+          </p>
+        </li>
+      </ol>
+    </p>
+</paragraphs>
+
+  <paragraphs>
+    <title>Some Solutions</title>
+
+    <p>
+      <dl>
+        <li>
+          <title>3.</title>
+
+          <p>
+            Yes, for <m>x\in\mathbb{Z}</m>, <m>x\mid 0</m> since <m>0</m> is an
+            integer and <m>a\cdot 0 = 0</m>. However, in the definition of
+            <m>a\mid b</m>, we prohibit <m>a</m> from being <m>0</m>. Moreover,
+            there is no integer <m>k</m> such that <m>0k = x</m>, unless
+            <m>x = 0</m>.
+          </p>
+        </li>
+
+        <li>
+          <title>4.</title>
+
+          <p>
+            Note <m>47 \equiv 17 \pmod{5}</m> since <m>15\cdot 2 = 30= 48-17</m>
+            and <m>2\in \mathbb{Z}</m>, so <m>5 \mid (48-17)</m>. However,
+            <m>47\not\equiv 16\pmod{15}</m> since <m>15\nmid 29 = 47-16.</m>
+            (Lots of correct answers here.)
+          </p>
+        </li>
+
+        <li>
+          <title>8.</title>
+
+          <p>
+            Let <m>a = 7</m> and <m>b = -13</m>. Then <m>a\equiv b \pmod{5}</m>,
+            or <m>7 \equiv -13 \pmod{5}</m> since
+            <m>5\cdot 4 = 20 = 7 - (-13)</m> and <m>4\in\mathbb{Z}</m> so
+            <m>5 \mid 7-(-13)</m>.
+          </p>
+        </li>
+      </dl>
+    </p>
+</paragraphs>
+</handout>

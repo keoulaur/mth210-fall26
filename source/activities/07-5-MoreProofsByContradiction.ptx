@@ -7,11 +7,11 @@
     <activity workspace="1in">
       <statement>
         <p>
-          Try to determine if the following conjectures are true on false. If true, work on the proving the following theorems by contradiction.
+          Try to determine if the following conjectures are true on false. If true, work on the proving them by contradiction. Otherwise, find a counterexample.
         </p>
 
         <p>
-        <ul>
+        <ol>
           <li>
             <p>
               For each real number <m>x</m>, if <m>0&lt;x&lt;1</m> then <m>\frac{1}{x(1-x)}\ge 4</m>.
@@ -29,7 +29,7 @@
               For each positive real number <m>x</m>, if <m>x</m> is irrational then <m>x^2</m> is irrational.
             </p>
           </li>
-        </ul>
+        </ol>
       </p>
       </statement>
     </activity>

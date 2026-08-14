@@ -133,21 +133,21 @@
     <proof>
         <p>
             We will prove this using the contrapositive, which is: For all
-            <m>n\in \mathbb{N}</m>, iff <m>n</m> is even, then <m>n^2</m> is
+            <m>n\in \mathbb{N}</m>, if and only if <m>n</m> is even, then <m>n^2</m> is
             even.
             So, let <m>n\in\mathbb{N}</m>.
             We begin by assuming that <m>n</m> is even.
             By definition of even there exists an integer <m>m</m> such that
             <m>n = 2m</m>.
             Substituting, we have
-            <md number="yes" xml:id="eqn-n2even">
+            <md number="yes" xml:id="ch06-eqn-n2even">
                 n^{2} = (2m)^{2} = 4m^{2} =
             2(2m^{2}).
             </md>
             We know that <m>m</m> and <m>2</m> are integers, and the integers
             are closed under and multiplication.
             Thus <m>p = 2m^{2}</m> is also an integer.
-            Thus equation <xref ref="eqn-n2even"/> shows that <m>n^{2}</m> can
+            Thus equation <xref ref="ch06-eqn-n2even"/> shows that <m>n^{2}</m> can
             be written in the form <m>2p</m> where <m>p</m> is an integer.
             By definition of even, this shows that <m>n^{2}</m> is even.
             This completes the proof of the contrapositive, showing that if

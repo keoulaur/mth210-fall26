@@ -30,11 +30,11 @@
             <xi:include href="./activities/02-3-Cases.ptx"/>
             <xi:include href="./activities/02-4-Dividing.ptx"/>
             <xi:include href="./activities/02-5-Congruence.ptx"/>
-
         </chapter>
 
         <chapter xml:id="ch-3-sets">
             <title>Sets</title>
+
             <xi:include href="./activities/03-1-Sets.ptx"/>
             <xi:include href="./activities/03-2-SetBuilder.ptx"/>
             <xi:include href="./activities/03-3-ChooseAnElement.ptx"/>
@@ -43,43 +43,51 @@
 
         <chapter xml:id="ch-4-induction">
             <title>Induction</title>
+
             <xi:include href="./activities/04-1-Induction.ptx"/>
             <xi:include href="./activities/04-2-InductionWithRecursion.ptx"/>
         </chapter>
 
         <chapter xml:id="ch-logic">
             <title>Logic</title>
+
             <xi:include href="./activities/05-1-Logic1.ptx"/>
             <xi:include href="./activities/05-2-Logic2.ptx"/>
         </chapter>
-        
+
         <chapter xml:id="ch-contrapositive">
             <title>The Contrapositive</title>
+
             <xi:include href="./activities/06-Contrapositive.ptx"/>
         </chapter>
 
         <chapter xml:id="ch-contradiction">
             <title>Contradiction</title>
+
             <xi:include href="./activities/07-1-IntroToContradiction.ptx"/>
-            <xi:include href="./activities/07-2-StartingContradictionProofs.ptx" />
-            <xi:include href="./activities/07-3-PracticingWholeProofs.ptx" />
-            <xi:include href="./activities/07-4-IrrationalNumbers.ptx" />
-            <xi:include href="./activities/07-5-MoreProofsByContradiction.ptx" />
+            <xi:include href="./activities/07-2-StartingContradictionProofs.ptx"/>
+            <xi:include href="./activities/07-3-PracticingWholeProofs.ptx"/>
+            <xi:include href="./activities/07-4-IrrationalNumbers.ptx"/>
+            <xi:include href="./activities/07-5-MoreProofsByContradiction.ptx"/>
         </chapter>
-            
+
         <chapter xml:id="ch-functions">
             <title>Functions</title>
-             <xi:include href="./activities/18-210-Chapter8.ptx"/>
-            <xi:include href="./activities/19-210-Chapter8Part2.ptx"/>
+
+            <xi:include href="./activities/08-1-FunctionsIntroduction.ptx"/>
+            <xi:include href="./activities/08-2-FunctionsDisproving.ptx"/>
+            <xi:include href="./activities/08-3-FunctionsProving.ptx" />
         </chapter>
 
         <chapter xml:id="ch-relations">
             <title>Relations</title>
+
             <xi:include href="./activities/20-210-Chapter9.ptx"/>
         </chapter>
-           
+
         <chapter xml:id="ch-review">
-            <title>Review Stuff </title>
+            <title>Review Stuff</title>
+
             <xi:include href="./activities/08-210-ReviewChapters1-3.ptx"/>
             <xi:include href="./activities/21-210-MathWrangle.ptx"/>
             <xi:include href="./activities/22-210-ReviewAssessment2Review.ptx"/>
@@ -99,13 +107,15 @@
             <!-- Add more xi:include files here to include them in the main course -->
         </chapter>
 
-        <chapter xml:id="handouts">
-            <title>Handouts</title>
+        <chapter xml:id="targets">
+            <title>Learning Targets</title>
 
             <!-- Include handouts -->
-            <!--
-      <xi:include href="./handouts/handout-filename.ptx"/>
-      -->
+            <xi:include href="./targets/LearningTarget1.ptx"/>
+            <xi:include href="./targets/LearningTarget2.ptx"/>
+            <xi:include href="./targets/LearningTarget3.ptx"/>
+            <xi:include href="./targets/LearningTarget4.ptx" />
+            <xi:include href="./targets/LearningTarget5.ptx" />
         </chapter>
 
         <chapter xml:id="course-documents">

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>Disproving Injection and Surjection</title>
+
+    <p>
+        Let's start with disproving.
+        Recall the following definitions.
+    </p>
+
+    <p>
+        A function <m>f: A\to B</m> is <term>injective</term> if for all
+        <m>a_1,a_2\in A</m>, if <m>f(a_1) = f(a_2)</m> then <m>a_1 = a_2</m>.
+    </p>
+
+    <p>
+        A function <m>f: A\to B</m> is <term>surjective</term> if, for every
+        <m>b\in B</m>, there exists some <m>a\in A</m> such that
+        <m>f(a) = b</m>.
+    </p>
+
+    <activity>
+        <task>
+            <introduction>
+                <p>
+                    Disproving is like proving the negation.
+                    Negate the definitions above to complete the sentences:
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
+                    <p workspace=".5in">
+                        A function <m>f: A\to B</m> is
+                        <term>not injective</term> if
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p workspace=".5in">
+                        A function <m>f: A\to B</m> is
+                        <term>not surjective</term> if
+                    </p>
+                </statement>
+            </task>
+        </task>
+    </activity>
+
+    <activity>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Let <m>\mathcal{M}_{2,2} (\mathbb{R})</m> be the set of all
+                    <m>2\times 2</m> matrices with real entries.
+                    That is,
+                    <md>
+                        \mathcal{M}_{2,2}(\mathbb{R}) =\left\{ \begin{bmatrix} a \amp  b\\ c \amp  d\end{bmatrix}: a,b,c,d\in\mathbb{R}\right\}.
+                    </md>
+                    Prove that
+                    <m>\det: \mathcal{M}_{2,2} (\mathbb{R})\to \mathbb{R}</m>
+                    defined by
+                    <m>\det\left(\begin{bmatrix} a \amp  b\\ c \amp  d\end{bmatrix}\right) = ad-bc</m>
+                    is not an injection.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in" xml:id="ch08-task-surjdis">
+            <statement>
+                <p>
+                    Prove that <m>f: \mathbb{R} - \{1 \} \to \mathbb{R}</m>
+                    defined by <m>f(x) = \frac{1}{1-x}</m> is not surjective.
+                    <fn>Hint: Graph it! What's in the codomain but not in the range?</fn>
+                </p>
+            </statement>
+        </task>
+    </activity>
+</handout>

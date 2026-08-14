@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>Proving Injection and Surjection</title>
+
+    <activity>
+        <introduction>
+            <p>
+                We'll do the scratch work for proving a function is a bijection.
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Recall by that <m> f: \mathbb{R} \to \mathbb{R}</m> defined
+                    by <m>f(x) = \frac{1}{1-x}</m> is not a function unless we
+                    modify the domain.
+                    Once we modify the domain, by
+                    <xref ref="ch08-task-surjdis"/> " , <m>f</m> won't be a
+                    surjection.
+                    So, we'll manipulate the codomain of the function.
+                    Fill in the blanks below.
+                    Let
+                    <m>f:<fillin characters="10"/> \to <fillin characters="10"/></m>
+                    be defined by <m>f(x) = \frac{1}{1-x}</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Write down the definition of injective here:
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    What will you assume?
+                    What will you try to show?
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    To start: Pick two arbitrary
+                    <m>x_1, x_2 \in \underline{\hspace{1in}}</m> such that:
+                    <fillin characters="15"/>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Now do some algebra to get to what you want to show!
+                    That will finish the proof of injective.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Write down the definition of surjective:
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    In order to show that <m>f</m> is surjective, start with an
+                    arbitrary <m>z\in <fillin characters="5"/></m>.
+                    You must show that there exists an
+                    <m>x\in <fillin characters="5"/> </m> such that
+                    <m> <fillin characters="10"/> </m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Now do some algebra scratch-work to figure out what <m>x</m>
+                    <em>should</em> be.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <introduction>
+                <p>
+                    Your work above is <em>not enough</em> to show that
+                    <m>f(x) = z</m> (why not?).
+                    There are two things to check:
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
+                    <p>
+                        Is your <m>x</m> in the domain of <m>f</m>?
+                        Verify this.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Does <m>f(x) = z</m>?
+                        Show directly by substituting your <m>x</m> into the
+                        formula and simplifying.
+                    </p>
+                </statement>
+            </task>
+        </task>
+    </activity>
+
+    <theorem>
+        <statement>
+            <p>
+                Let <m>f: \R - \{1\} \to \R - \{0\}</m> be defined by
+                <m>f(x) = \dfrac{1}{1-x}</m> for all <m>x \in \R - \{1\}</m>.
+                Then <m>f</m> is a bijection.
+            </p>
+        </statement>
+    </theorem>
+
+    <proof>
+        <p>
+            Let <m>f: \R - \{1\} \to \R - \{0\}</m> be defined by
+            <m>f(x) = \dfrac{1}{1-x}</m> for all <m>x \in \R - \{1\}</m>.
+            We will prove that <m>f</m> is a bijection by proving that it is
+            both a surjection and an injection.
+        </p>
+
+        <p>
+            We will first show that <m>f</m> is a surjection.
+            So, let <m>z \in \mathbb{R} - \{0\}</m> be any element of the
+            codomain of <m>f</m>.
+            Let <m>x = \frac{z-1}{z}</m>.
+            We will show that <m>x \in \R - \{1\}</m> and that <m>f(x) = z</m>.
+        </p>
+
+        <p>
+            We begin by showing that <m>x</m> is in the domain of <m>f</m>.
+            To do this, we will show that <m>x \in \R</m> and <m>x \neq 1</m>.
+            Real numbers are closed under subtraction and division (as long as
+            they are nonzero), and by assumption <m>z \neq 0</m>, so
+            <m>x \in \mathbb{R}</m>.
+            Next we will show that <m>x \neq 1</m>.
+            To see this, suppose that <m>x = 1</m>.
+            Using algebra, we find that <m>1 = \frac{z-1}{z}</m>, which
+            simplifies to <m>0 = -1</m>, a contradiction.
+            Thus <m>x \neq 1</m>, and so <m>x \in \mathbb{R} - \{1\}</m>.
+        </p>
+
+        <p>
+            Now we will show that <m>f(x) = z</m>.
+            Using algebra,
+            <md>
+                <mrow> f\left(\frac{z-1}{z}\right)
+                \amp= \dfrac{1}{1 - \left(\frac{z-1}{z}\right)}  </mrow>
+                <mrow> \amp=
+                \dfrac{1}{\frac{z}{z} - \frac{z-1}{z}} </mrow>
+                <mrow> \amp= \dfrac{1}{\frac{z- (z-1)}{z}} </mrow>
+                <mrow> \amp= \dfrac{1}{\frac{1}{z}} = z. </mrow>
+            </md>
+        </p>
+
+        <p>
+            Thus for each <m>z</m> in the codomain of <m>f</m>, there exists
+            <m>x = \frac{z-1}{z}</m> in the domain of <m>f</m> such that
+            <m>f(x) = z</m>.
+            Therefore by definition, <m>f</m> is a surjection.
+        </p>
+
+        <p>
+            We will now show that <m>f</m> is an injection.
+            So, suppose that <m>f(x) = f(y)</m> for some
+            <m>x, y \in \mathbb{R} - \{1\}</m>.
+            We will show that <m>x = y</m>.
+            Using algebra,
+            <md>
+                <mrow> f(x) \amp= f(y) </mrow>
+                <mrow> \dfrac{1}{1-x} \amp= \dfrac{1}{1-y} </mrow>
+                <mrow> 1-x \amp= 1-y  </mrow>
+                <mrow> x \amp= y. </mrow>
+            </md>
+            Thus, for all <m>x</m> and <m>y</m> in the domain of <m>f</m>,
+            whenever <m>f(x) = f(y)</m>, we must have <m>x = y</m>.
+            Therefore <m>f</m> is an injection.
+        </p>
+
+        <p>
+            Because we have shown that <m>f</m> is both a surjection and an
+            injection, we have shown that <m>f</m> is a bijection.
+        </p>
+    </proof>
+</handout>

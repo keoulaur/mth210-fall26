@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>Learning Target 2 Practice</title>
+
+    <p>
+        <em>State precisely the definition of an even and odd integer and outline the proof of a statement using these terms.</em>
+    </p>
+
+    <p>
+        <ul>
+            <li>
+                <p>
+                    State the definition of an odd integer.
+                    That is, complete the sentence,
+                </p>
+
+                <p>
+                    An integer <m>n</m> is <term>odd</term> if....
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    State the definition of an even integer.
+                    That is, complete the sentence,
+                </p>
+
+                <p>
+                    An integer <m>n</m> is <term>even</term> if....
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Examples with solutions:
+                    <ul>
+                        <li>
+                            <p>
+                                Proposition 2.5 proof on page 250 of your book.
+                                (The sum of two odd integers is even.)
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                See solutions on Blackboard!
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Weekly Practice 2 #1:
+                    <ul>
+                        <li>
+                            <p>
+                                The sum of an even integer and an odd integer is
+                                odd.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                The product of two odd integers is odd.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Extra Practice: Prove the product of an odd integer and an
+                    even integer is even.
+                </p>
+            </li>
+        </ul>
+    </p>
+</handout>
