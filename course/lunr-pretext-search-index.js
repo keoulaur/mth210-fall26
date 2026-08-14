@@ -14,7 +14,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-1-intuitiveproofs-2.html#ch-1-intuitiveproofs-2-3",
   "type": "Definition",
-  "number": "1",
+  "number": "1.1.1",
   "title": "",
   "body": "  A perfect cover of an board with dominoes is an arrangement of those dominoes on the chessboard with no squares left uncovered, and no dominoes stacked or left hanging off the end.   "
 },
@@ -23,7 +23,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-1-intuitiveproofs-2.html#ch-1-intuitiveproofs-2-4",
   "type": "Proposition",
-  "number": "2",
+  "number": "1.1.2",
   "title": "",
   "body": "  There exists a perfect cover of an chessboard.   "
 },
@@ -32,7 +32,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-1-intuitiveproofs-2.html#ch-1-intuitiveproofs-2-6",
   "type": "Proposition",
-  "number": "3",
+  "number": "1.1.3",
   "title": "",
   "body": "  If one crosses out the top-left square. of an chessboard, the remaining squares cannot be perfectly covered by dominoes.   "
 },
@@ -41,7 +41,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-1-intuitiveproofs-2.html#ch-1-intuitiveproofs-2-8",
   "type": "Proposition",
-  "number": "4",
+  "number": "1.1.4",
   "title": "",
   "body": "  If one crosses out the top-left square and bottom-right square of an chessboard, the remaining squares cannot be perfectly covered by dominoes.   "
 },
@@ -59,7 +59,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-1-intuitiveproofs-2.html#ch-1-intuitiveproofs-2-12",
   "type": "Activity",
-  "number": "1",
+  "number": "1.1.1",
   "title": "",
   "body": "  Explore one of the questions you've asked with your team.  Note that you can use one of these as a play, conjecture, prove problem for your proof portfolio. (More on that later.)   "
 },
@@ -68,7 +68,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-1-intuitiveproofs-2.html#ch-1-intuitiveproofs-2-13",
   "type": "Activity",
-  "number": "2",
+  "number": "1.1.2",
   "title": "",
   "body": "  The game Tetris is played with five different shapes - the five shapes that can be obtained by piecing together 4 unit squares:   Five Tetris pieces in    A Tetris piece                 A Tetris piece                 A Tetris piece                 A Tetris piece                 A Tetris piece                  For the questions below, we also allow these pieces to be flipped over.      Is it possible to perfectly cover a chessboard using each of these shapes exactly once? Use an example to show that it is possible, or prove that it is impossible.      Is it possible to perfectly cover an chessboard using each of these shapes exactly twice? Use an example to show that it is possible, or prove that it is impossible.    "
 },
@@ -95,7 +95,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-1-intuitiveproofs-3.html#ch-1-intuitiveproofs-3-3",
   "type": "Activity",
-  "number": "3",
+  "number": "1.2.1",
   "title": "",
   "body": "  Go with your group to the whiteboard. As directed, work on one of the following prompts. (I will take pictures of your work and post.)    Consider the expression Evaluate this expression for at least 10 different integer values of , including some negative values and 0, as well as positive ones. What conjectures can you make regarding this expression and the related numbers you find?    Consider the equation Can you find an ordered pair of integers that makes the equation true? If yes, can you characterize all such ordered pairs? If not, why not? What conjecture(s) can you make about this equation? About related equations?    Consider the expression Evaluate this expression for at least 10 different natural number values of . What conjectures can you make regarding this expression and the numbers you find?   "
 },
@@ -113,7 +113,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-1-intuitiveproofs-4.html#ch-1-intuitiveproofs-4-2",
   "type": "Activity",
-  "number": "4",
+  "number": "1.3.1",
   "title": "The Wason Selection Test.",
   "body": " The Wason Selection Test   A mathematician places a set of four cards on a table, each of which has a number on one side and a colored patch on the other side. She claims the following: if a card shows an even number on one face, then its opposite face is red The visible faces of the cards show 3, 8, red, and blue. Which card(s) must you turn over in order to test the truth of her claim? Carefully explain.    It is a well known law in the United States that you must be 21 to consume alcohol. Suppose now that four cards are placed on the table each of which has an age on one side and a beverage on the other. The visible faces of the cards show 16, 22, coca-cola, and beer. If each card represents a person at the party, which card(s) must you check to make sure everyone at the party is a law abiding citizen. That is, which card(s) must you turn over to verify the proposition: if one is consuming an alcoholic beverage then one is over the age of 21. How does this relate to the previous problem?    Statements of the form ``If... then...\" are called conditional statements. We will explore conditional statements a lot in MTH 210. Based on the previous problems in this activities, answer the following. What must we do to establish that a conditional statement is true? What is the only way that a conditional statement can be false?   "
 },
@@ -122,7 +122,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-1-intuitiveproofs-4.html#ch-1-intuitiveproofs-4-5",
   "type": "Activity",
-  "number": "5",
+  "number": "1.3.2",
   "title": "",
   "body": "  Disprove the following statements.     For all natural numbers The natural numbers, denoted , are the set .  , .      There exists a perfect covering of an chessboard with the top left and bottom right corners removed using dominoes.      If and are odd integers, and is any integer The integers, denoted , are the set . The odd integers are . , then is an odd integer.      How was it different to write a disproof for each type of statement? How was it similar?    "
 },
@@ -167,7 +167,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-1-intuitiveproofs-5.html#ch-1-intuitiveproofs-5-6",
   "type": "Activity",
-  "number": "6",
+  "number": "1.4.1",
   "title": "",
   "body": "   Let's begin with some true\/false questions. Explain your answers.     True\/False: If objects are placed in boxes, then every box has at least 2 items.      True\/False: If objects are placed in boxes, then no box is empty.      True\/False: Given objects placed in boxes, at least one box has objects in it.       Read (aloud) pages 17-18 of your textbook (starting at Mathematical Examples and ending before Proposition 1.10) with your team. Pause every paragraph (at least) to ask questions, and rephrase what you have read.      In the following, identify what version of the pigeonhole principle are you using, what the objects and boxes are, and the value and meaning of any variables (e.g., and ). Suppose you deal a pile of cards, face down, from a shuffled deck of cards (this is a standard 52-card deck, where each card is one of 4 suits and one of 13 ranks). How many must you deal until you are guaranteed...     five of the same suit?      two of the same rank?      three of the same rank?      four of the same rank?      two of one rank and three of another?       Given any 101 integers from at least one these numbers will divide another.  This is a problem posed by Paul Erdős, who was a Hungarian mathematician famous for problem solving. This problem is a challenge and will introduce a few ideas which we have not yet discussed, but the goal for this chapter is to get our feet wet, to have fun proving some interesting things, and to push your problem solving skills. If time: Discuss with your team - what could the boxes be? How do we sort into the boxes?    "
 },
@@ -212,7 +212,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-TheGameSET.html#sec-TheGameSET-5",
   "type": "Activity",
-  "number": "7",
+  "number": "1.5.1",
   "title": "",
   "body": "  At your table in your group of 3-4 students, play several hands of SET.    After you have each found a couple of sets, stop playing and do the following: develop some mathematically significant questions about the game SET. Your main task is to ask questions .    After you have stated several questions, choose at least one of them and use your question to make a conjecture .    After you have made a conjecture, try to prove it. If you can prove it, then you have a theorem. If no one can prove it, then you have a conjecture that is still open.   "
 },
@@ -221,7 +221,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-TheGameSET.html#sec-TheGameSET-7",
   "type": "Theorem",
-  "number": "6",
+  "number": "1.5.1",
   "title": "",
   "body": "  (The Fundamental Theorem of SET) Given any two cards from the deck in SET, those two cards determine a _____.   "
 },
@@ -248,7 +248,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-1-intuitiveproofs-7.html#ch-1-intuitiveproofs-7-3",
   "type": "Activity",
-  "number": "8",
+  "number": "1.6.1",
   "title": "",
   "body": "  Math 210 may be the most important course in the mathematics major. Many future courses rely heavily on it (315, 331, 350, 408, 441, 450, 495, and more) and it is helpful in many others (204, 205, 304, 360, 402, 498 and more). More than this, being a critical and independent thinker, creative problem solver, and excellent communicator are incredibly valuable professional skills . To be a math major, it is important to become reasonably good at the kinds of things we do in Math 210 and to find all of them familiar.    Get to know your classmates. Be an active participant in class. Use class time to build understanding. Use ``rough draft language.'' Be honest with yourself about your understanding. Be unafraid to struggle and\/or fail. Ask questions. Our meetings will be structured to encourage these behaviors.    On working in small groups with others: for effective group work, what do you need your group mates to do? what do you need your group mates not to do? What do you need Professor Keough to do? What do you need to do? (on a note card, write your thoughts on each question; then share with your group and update as needed, then submit your notecards to me). Random groups will be assigned for the first month in the course in order to find who you work well with. Then we will work toward more consistent and stable seating arrangements.    Use drop-in hours. Five minutes of conversation with your professor can sometimes be at least as effective as an hour on your own. Use drop-in hours. Ask for an appointment if drop-in hours don't work for you.    Work on Math 210 5 days a week, 8-10 hours a week.   Preview activities for each class day (30-60 minutes per class: 1-2 hours each week);    3-5 ``weekly practice'' homework exercises each week (1.5-2 hours per week: 20-30 minutes per exercise, plus preparing for 3 short presentations over the course of the semester);    Overall reading, studying, and summarizing, including making a notecard for the check point (2-3 hours each week);    Proof portfolio problems (3-4 hours a week). The portfolio project will begin by the end of the 2nd week of class. During the first two weeks of the course, expect to spend some time invested to learn how to use \\LaTeX~(with support from me), which is the typesetting software we will use for all of our professional writing.        Your textbook is designed just for you. It is made to be read, to be worked on, and to have notes taken.     GVSU has a Math 210 YouTube Channel: (Note - this follows a different order than our textbook!)    Be certain to fully read the syllabus. Meet with me, in-person, for 5 minutes, within the first 3 weeks of the semester. Just to get to know one another a bit and so you know where the PCS is located If posted drop-in hours don't work, email me for an appointment.    In the \" Weekly To Do \" document on Blackboard I'll post what needs to be done for the following week after class on Thursday.    I want you to be successful.   "
 },
@@ -257,7 +257,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-1-intuitiveproofs-7.html#ch-1-intuitiveproofs-7-4-2",
   "type": "Theorem",
-  "number": "7",
+  "number": "1.6.1",
   "title": "",
   "body": "  If is an odd integer and is an even integer, then is an even integer.   "
 },
@@ -293,7 +293,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-2.html#fig-closure",
   "type": "Figure",
-  "number": "8",
+  "number": "2.1.1",
   "title": "",
   "body": " A comic from Math With Bad Drawings. What's the set and what's the operation here?   A comic. A: \"I don't get it, how could birds evolve from dinosaurs?\". B: \"Well dinosaurs aren't closed under reproduction.\"   "
 },
@@ -302,7 +302,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-2.html#ch-2-directproofs-2-5",
   "type": "Activity",
-  "number": "9",
+  "number": "2.1.1",
   "title": "Closure properties.",
   "body": " Closure properties   Determine if each of the following are true or false, and explain.     The natural numbers are closed under subtraction.      The rational numbers are closed under addition.      The integers are closed under division.      The even integers are closed under subtraction.      The odd integers are closed under addition.      The odd integers are closed under multiplication.    "
 },
@@ -311,7 +311,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-2.html#def-even",
   "type": "Definition",
-  "number": "9",
+  "number": "2.1.2",
   "title": "",
   "body": "  An integer is even if for some integer .   "
 },
@@ -320,7 +320,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-2.html#def-odd",
   "type": "Definition",
-  "number": "10",
+  "number": "2.1.3",
   "title": "",
   "body": "  An integer is odd if for some integer .   "
 },
@@ -329,7 +329,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-2.html#ch-2-directproofs-2-7",
   "type": "Activity",
-  "number": "10",
+  "number": "2.1.2",
   "title": "Even and odd integers.",
   "body": " Even and odd integers   Justify the following carefully, using the definitions of even and odd.     The integer is even.      The integer is odd.      The integer is not odd.    "
 },
@@ -338,7 +338,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-2.html#ch-2-directproofs-2-8",
   "type": "Activity",
-  "number": "11",
+  "number": "2.1.3",
   "title": "Defining a Sandwich.",
   "body": " Defining a Sandwich    It's actually quite hard to define things that we think we know well. For example, what is a sandwich? In the class preparation, you needed to draw a line between what is a sandwich and what is not a sandwich and try to write a definition of a sandwich that would be acceptable to everyone in the class. Share your definition with people at your table and have them guess where you drew your line!      Pick one of your definitions of sandwiches. Using your defintiion, can you determine if the following things are sandwiches?   Taco    Burrito    Ravioli    Pizza    Bagel    Bagel sliced with cream cheese    A quesadilla    Soup in a bread bowl.        This may seem like a silly exercise, but having clear definitions is very important in mathematics. This exercise meant to get you thinking about how humans define things, and how it can be very hard to do so, with much disagreement. Also, defining a sandwich has actually come up in the legal system!   An Indiana judge ruled a taco is a sandwich .    A Massachusetts judge ruled a burrito is not a sandwich .    A bagel company in New York avoided the sandwich tax by injecting bagels with cream cheese.    Some say the The Cube Rule settles the debate.      "
 },
@@ -356,7 +356,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-3.html#fig-writing2",
   "type": "Figure",
-  "number": "11",
+  "number": "2.2.1",
   "title": "",
   "body": " A comic from Abstruse Goose.   A comic: 2 people lost getting from A to B. Years later, directions are 2 steps. Says \"this is how most proofs are written.\"   "
 },
@@ -365,7 +365,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-3.html#ch-2-directproofs-3-4-3",
   "type": "Theorem",
-  "number": "12",
+  "number": "2.2.2",
   "title": "",
   "body": "  The odd integers are closed under multiplication. Equivalently, if and are odd integers, then is an odd integer.   "
 },
@@ -374,7 +374,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-3.html#ch-2-directproofs-3-5",
   "type": "Activity",
-  "number": "12",
+  "number": "2.2.1",
   "title": "",
   "body": "   Let's use what we did in Activity 9, but add the definitions, so we can do infinitely many examples at once!      Now, let's write a proof! We will do our best to follow the guidelines for writing proofs, but since it isn't typed, we can't do all of them!    "
 },
@@ -383,7 +383,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-3.html#ch-2-directproofs-3-7",
   "type": "Theorem",
-  "number": "13",
+  "number": "2.2.3",
   "title": "",
   "body": "  If and are odd integers then is an even integer.   "
 },
@@ -410,7 +410,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-3.html#ch-2-directproofs-3-10",
   "type": "Activity",
-  "number": "13",
+  "number": "2.2.2",
   "title": "",
   "body": "  Compare the two proofs above. What are the advantages and disadvantages of each? Which is more readable? Are they both correct?   "
 },
@@ -419,7 +419,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-3.html#ch-2-directproofs-3-12",
   "type": "Definition",
-  "number": "14",
+  "number": "2.2.4",
   "title": "",
   "body": "  An integer is said to be a type integer if there exists an integer such that . An integer is said to be a type 1 integer if there exists an integer such that . An integer is said to be a type integer if there exists an integer such that .   "
 },
@@ -428,7 +428,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-3.html#ch-2-directproofs-3-13",
   "type": "Activity",
-  "number": "14",
+  "number": "2.2.3",
   "title": "",
   "body": "   Give examples of at least different type integers.      Give examples of at least different type integers.      By multiplying pairs of integers from the list in the first part, does it appear that the following conjecture is true or false? Conjecture: If and are both type integers, then is a type integer.      If the conjecture is false, modify it to make it true. Then, do a pre-proof analysis of the resulting proposition. If time permits, return to your tables and strive to begin writing an actual proof of your proposition.    "
 },
@@ -437,7 +437,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-3.html#ch-2-directproofs-3-14",
   "type": "Theorem",
-  "number": "15",
+  "number": "2.2.5",
   "title": "",
   "body": "  If and are both type integers, then is a type integer.   "
 },
@@ -473,7 +473,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-4.html#ch-2-directproofs-4-3",
   "type": "Proposition",
-  "number": "16",
+  "number": "2.3.1",
   "title": "",
   "body": "  For all integers , is even.   "
 },
@@ -482,7 +482,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-4.html#ch-2-directproofs-4-5-3",
   "type": "Definition",
-  "number": "17",
+  "number": "2.3.2",
   "title": "",
   "body": "  For , we define , called the absolute value of , by    "
 },
@@ -491,7 +491,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-4.html#ch-2-directproofs-4-5-4",
   "type": "Activity",
-  "number": "15",
+  "number": "2.3.1",
   "title": "",
   "body": "   Check that this definition agrees with your answers for and .      Does the following conjecture seem true? Test it out!   Conjecture For all real numbers and , .     What cases might make sense to use here? What should you prove in each case? If time - pick one case and try it!   "
 },
@@ -518,7 +518,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-5.html#ch-2-directproofs-5-3",
   "type": "Activity",
-  "number": "16",
+  "number": "2.4.1",
   "title": "",
   "body": "  With your team, prove one of the following propositions:     For all integers and , if then .      For all integers and , if , then .      For all integers and , and all integers and , if and then .    "
 },
@@ -527,7 +527,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-5.html#ch-2-directproofs-5-5",
   "type": "Theorem",
-  "number": "18",
+  "number": "2.4.1",
   "title": "",
   "body": "  (The Division Algorithm) For all integers and with , there exist unique integers and such that where .   "
 },
@@ -536,7 +536,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-5.html#ch-2-directproofs-5-6",
   "type": "Remark",
-  "number": "19",
+  "number": "2.4.2",
   "title": "",
   "body": " Here's some comments about the Division Algorithm:   The Division Algorithm can be proven is not so much an algorithm as it is a theorem. One can prove the Division Algorithm and your textbook does in the Bonus Examples of Chapter 7, and you may see a proof if you take MTH 350.    Though there are several different ways to write there's only ONE way to write with .    We call the quotient and the remainder. (Notice we are using the because the quotient and remainder are unique!)    Be careful with negative numbers. In a calculator . It would be natural to think this means the quotient when dividing by is . However, , giving quotient .    One way to look at the Division Algorithm is that an integer is either going to be a multiple of or between multiples of . Thus, the Division Algorithm helps with cases, e.g., you can do cases based on the remainder. In this way, we might reduce infinitely many integers, down to  types of integers - e.g., what the remainder is when divided by .     "
 },
@@ -545,7 +545,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-5.html#ch-2-directproofs-5-7",
   "type": "Activity",
-  "number": "17",
+  "number": "2.4.2",
   "title": "",
   "body": "  In problems where we are concerned with the issue of divides, the Division Algorithm provides a natural way to consider cases. Consider the following theorem:   "
 },
@@ -554,7 +554,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-5.html#ch-2-directproofs-5-8",
   "type": "Theorem",
-  "number": "20",
+  "number": "2.4.3",
   "title": "",
   "body": "  If is an integer then .   "
 },
@@ -563,7 +563,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-5.html#ch-2-directproofs-5-11",
   "type": "Theorem",
-  "number": "21",
+  "number": "2.4.4",
   "title": "",
   "body": "  If is an integer and , then .   "
 },
@@ -572,7 +572,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-5.html#fig-casesproof",
   "type": "Figure",
-  "number": "22",
+  "number": "2.4.5",
   "title": "",
   "body": " A proof using cases.   A proof of the previous theorem.   "
 },
@@ -590,7 +590,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-6.html#ch-2-directproofs-6-2-4",
   "type": "Definition",
-  "number": "23",
+  "number": "2.5.1",
   "title": "",
   "body": "  For and , we say that is congruent to modulo , and we write , if .   "
 },
@@ -599,7 +599,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-6.html#ch-2-directproofs-6-2-6",
   "type": "Activity",
-  "number": "18",
+  "number": "2.5.1",
   "title": "Practice with congruence.",
   "body": " Practice with congruence    Find two integers and that are congruent modulo . That is, give examples of and such that .      Find all integers such that .      True or false: If is an integer, then there exists a unique integer with such that .      True or false: If then .    "
 },
@@ -608,7 +608,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-6.html#ch-2-directproofs-6-2-7",
   "type": "Activity",
-  "number": "19",
+  "number": "2.5.2",
   "title": "Direct Proofs with Modulo.",
   "body": " Direct Proofs with Modulo   Do a pre-proof analysis of the following theorem.   "
 },
@@ -617,7 +617,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-2-directproofs-6.html#ch-2-directproofs-6-2-8",
   "type": "Theorem",
-  "number": "24",
+  "number": "2.5.2",
   "title": "",
   "body": "  For all integers and , and all natural numbers , if and then .   "
 },
@@ -635,7 +635,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-sets-2.html#ch-3-sets-2-3",
   "type": "Definition",
-  "number": "25",
+  "number": "3.1.1",
   "title": "",
   "body": "  A set is an unordered collection of distinct objects which are called elements .     If is an element of a set , we write . This is read  in  .    If is not an element of a set , we write . This is read as  is not in  .    If every element of is also an element of then is a subset of , denoted and read as  is a subset of  .    If and , then we write and we say  is a proper subset of  .    If is not a subset of then we write and say  is not a subset of  . This means there exists an such that .    If and have the exact same elements, we write . This is read as  equals  .      "
 },
@@ -644,7 +644,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-sets-2.html#ch-3-sets-2-4",
   "type": "Activity",
-  "number": "20",
+  "number": "3.1.1",
   "title": "",
   "body": "   Consider the set .     What are the elements of ? How many are there? (Later we'll refer to the number of elements in the set as the size or the cardinality .)      List 3 different subsets of .       Consider the set .     What are the elements of ? How many are there?      List 3 different subsets of .      Which of the following is correct to say: or ?       Let . Decide whether each of the following statements is true or false.                                         Let , , and . Which of the following statements are true?             and                                                  and        Fill in all of the symbols that apply from the list that apply:                                                                                        (If time:) Challenge Question 1: Can an object ever be both an element and a subset of the same set?      (If time:) Challenge Question 2: How many subsets are there of the set ? Of the set ? How many subsets do you think there will be of the set for ?    "
 },
@@ -662,7 +662,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-sets-3.html#ch-3-sets-3-2",
   "type": "Remark",
-  "number": "26",
+  "number": "3.2.1",
   "title": "",
   "body": "    Roster notation is when we list all the elements, or list enough elements so that pattern is obvious and use (dots). E.g., .    Set builder notation is when we define the elements by a rule. E.g., .     "
 },
@@ -671,7 +671,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-sets-3.html#ch-3-sets-3-3",
   "type": "Activity",
-  "number": "21",
+  "number": "3.2.1",
   "title": "",
   "body": "  Practice translating between roster notation and set builder notation.     Each of the following sets is written in set builder notation. Use an English sentence to describe what the set means, and then, if possible, write the sets in roster notation.                                  Write down the set of all even integers using roster notation and set builder notation.      Consider the following set written using roster notation:      Determine four elements of the set other than the ones listed above.      Use set builder notation to describe the set.     "
 },
@@ -689,7 +689,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-sets-4.html#thm-congruence-subset2",
   "type": "Theorem",
-  "number": "27",
+  "number": "3.3.1",
   "title": "",
   "body": "  If and then .   "
 },
@@ -698,7 +698,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-sets-4.html#ch-3-sets-4-6",
   "type": "Activity",
-  "number": "22",
+  "number": "3.3.1",
   "title": "",
   "body": "  Prove .    Start with a pre-proof analysis. Consider listing the elements in and the elements in to see if you believe the conjecture. Then, choose an arbitrary element of , e.g., Let . So and . Work to show that this is in , that is .    (If time:) It's actually true that . What would you add to your proof to prove this?   "
 },
@@ -707,7 +707,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-sets-4.html#ch-3-sets-4-7",
   "type": "Remark",
-  "number": "28",
+  "number": "3.3.2",
   "title": "",
   "body": " To say is to say that and contain exactly the same elements. Said differently, it means these two things:   Every element in is also in (which means ), and    Every element in is also in (which means ).   Indeed, a slick way to prove that is to prove both and , both of which can be done using the ``choose an element\" method.  "
 },
@@ -716,7 +716,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-sets-4.html#thm-congruence-equal",
   "type": "Theorem",
-  "number": "29",
+  "number": "3.3.3",
   "title": "",
   "body": "  The sets and are equal.   "
 },
@@ -725,7 +725,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-sets-4.html#ch-3-sets-4-10",
   "type": "Activity",
-  "number": "23",
+  "number": "3.3.2",
   "title": "",
   "body": "  Prove the .   "
 },
@@ -743,7 +743,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-sets-5.html#ch-3-sets-5-2",
   "type": "Activity",
-  "number": "24",
+  "number": "3.4.1",
   "title": "",
   "body": "  One learning target is given two sets and a universal set identify the union, intersection, complement, and set difference. Find the power set of a given set. Here's some practice with that, plus a bonus on Cartesian product.     Let . Let and .     Find .      Find .      Find .      Find .      Find .       Let . Let and .     Find at least 3 elements in .      Find at least 3 elements in .      Find at least 3 elements in .      Find at least 3 elements in .      Find at least 3 elements in .     "
 },
@@ -752,7 +752,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-sets-5.html#ch-3-sets-5-4",
   "type": "Activity",
-  "number": "25",
+  "number": "3.4.2",
   "title": "",
   "body": " In each of the following Venn diagrams, shade , , , and .   Venn diagrams for shading    A Venn diagram             A    B    U        A Venn diagram             A    B    U        A Venn diagram             A    B    U        A Venn diagram             A    B    U         "
 },
@@ -761,7 +761,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-sets-5.html#ch-3-sets-5-6",
   "type": "Theorem",
-  "number": "31",
+  "number": "3.4.2",
   "title": "",
   "body": "  Suppose and are subsets of a universal set . Then    "
 },
@@ -770,7 +770,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-sets-5.html#def-disjoint",
   "type": "Definition",
-  "number": "32",
+  "number": "3.4.3",
   "title": "",
   "body": "  Two sets and are disjoint provided that .   "
 },
@@ -779,7 +779,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-sets-5.html#thm-disjoint-congruence",
   "type": "Theorem",
-  "number": "33",
+  "number": "3.4.4",
   "title": "",
   "body": "  If and then .   "
 },
@@ -788,7 +788,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-3-sets-5.html#ch-3-sets-5-9",
   "type": "Activity",
-  "number": "26",
+  "number": "3.4.3",
   "title": "",
   "body": " Prove .  "
 },
@@ -824,7 +824,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-2.html#ch-4-induction-2-6",
   "type": "Theorem",
-  "number": "34",
+  "number": "4.1.1",
   "title": "",
   "body": "  For all , the sum of the first odd natural numbers is . That is, for all ,    "
 },
@@ -851,7 +851,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-2.html#ch-4-induction-2-10",
   "type": "Remark",
-  "number": "35",
+  "number": "4.1.2",
   "title": "",
   "body": " What is not valid is to start with using . This would be assuming the conclusion of the conditional statement that is the inductive step which says  If  then .   "
 },
@@ -860,7 +860,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-2.html#thm-sumofsquares",
   "type": "Theorem",
-  "number": "36",
+  "number": "4.1.3",
   "title": "",
   "body": "  For every natural number , the sum of the squares of the first natural numbers is . That is,    "
 },
@@ -869,7 +869,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-2.html#ch-4-induction-2-14",
   "type": "Activity",
-  "number": "27",
+  "number": "4.1.1",
   "title": "",
   "body": "  Use the principle of mathematical induction to prove .    First, you may want to test a couple of values of to see if the statement even seems true\/you understand what it is. Test . See if you can write down what the statement says when .    What is in this case?    What is and is it true?    Then, let and write at the top of your page and at the bottom. Wiggle your way in between!    Here's some space to put all your thoughts together.   "
 },
@@ -878,7 +878,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-2.html#thm-fermat5",
   "type": "Theorem",
-  "number": "37",
+  "number": "4.1.4",
   "title": "",
   "body": "  For every natural number , .   "
 },
@@ -887,7 +887,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-2.html#ch-4-induction-2-16",
   "type": "Activity",
-  "number": "28",
+  "number": "4.1.2",
   "title": "",
   "body": "  Use the principle of mathematical induction to prove . Work to get the big ideas of the induction argument right first; then, sketch the proof.     First, you may want to test a couple of values of to see if the statement even seems true\/you understand what it is. Test . See if you can write down what the statement says when . Does it seem true?     What is in this case?    What is and is it true?    Then, let and write at the top of your page and at the bottom. Wiggle your way in between! Two approaches here:   Use definitions to translate from the definition of congruence, to the definition of divides, and then to an equation. Mess around with some algebra.    Recall that we proved that if and then . How could you use that as a Lemma?       Here's some space to put all your thoughts together.   "
 },
@@ -896,7 +896,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-2.html#ch-4-induction-2-17",
   "type": "Activity",
-  "number": "29",
+  "number": "4.1.3",
   "title": "",
   "body": "   If time: Prove, using induction:  For every natural number ,    "
 },
@@ -905,7 +905,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-2.html#ch-4-induction-2-18",
   "type": "Activity",
-  "number": "30",
+  "number": "4.1.4",
   "title": "",
   "body": "   An induction proof from calculus: Find a formula for the derivative of , state your result as a theorem, and prove it using induction.   "
 },
@@ -914,7 +914,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-2.html#conj-factorial",
   "type": "Conjecture",
-  "number": "38",
+  "number": "4.1.5",
   "title": "",
   "body": "  For all , .   "
 },
@@ -923,7 +923,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-2.html#ch-4-induction-2-20",
   "type": "Activity",
-  "number": "31",
+  "number": "4.1.5",
   "title": "",
   "body": "   An induction proof with inequality Recall (or learn for the first time!) that . E.g., and . Determine if is true. If not, modify it to be true, and then prove by induction.   "
 },
@@ -941,7 +941,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-2",
   "type": "Definition",
-  "number": "39",
+  "number": "4.2.1",
   "title": "",
   "body": "  The Fibonacci Numbers are a recursive sequence defined by with    , and    For each natural number , .   A process is recursive if the next step is defined in terms of previous ones.   "
 },
@@ -950,7 +950,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-3",
   "type": "Remark",
-  "number": "40",
+  "number": "4.2.2",
   "title": "",
   "body": " So induction is a great proof technique for statements about recursive sequences - in induction we prove a case based on a previous case, and recursive sequences are defined by previous cases!  "
 },
@@ -959,7 +959,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-4",
   "type": "Activity",
-  "number": "32",
+  "number": "4.2.1",
   "title": "",
   "body": "  In the preview activity, you likely conjectured that, for all , . Let's prove this by induction!   "
 },
@@ -968,7 +968,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-5",
   "type": "Activity",
-  "number": "33",
+  "number": "4.2.2",
   "title": "",
   "body": "  Here are the first several Fibonacci numbers (starting with ):     There are lots of patterns in the Fibonacci numbers. For example, circle every fourth Fibonacci number starting with the fourth one. What do you notice?    State your observation in the form of a Proposition: For all , is Then prove your conjecture using induction!   "
 },
@@ -977,7 +977,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-7",
   "type": "Activity",
-  "number": "34",
+  "number": "4.2.3",
   "title": "",
   "body": "  Suppose you had a chocolate bar, a grid of squares, and you want to break it up completely so that each piece is only one square. No tricks, just break along the grid lines. Try breaking it up - how many breaks did it take? Can you do it more efficiently? Start simple - like with a .   "
 },
@@ -986,7 +986,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-8",
   "type": "Activity",
-  "number": "35",
+  "number": "4.2.4",
   "title": "Play, Conjecture, Prove: Option 4:.",
   "body": " Play, Conjecture, Prove: Option 4:   In a simplified version of the super bowl, teams can score points (for a field goal) or points (for a touchdown). What are the possible scores for one team?   "
 },
@@ -995,7 +995,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-9",
   "type": "Remark",
-  "number": "41",
+  "number": "4.2.3",
   "title": "Common Induction Mistakes.",
   "body": " Common Induction Mistakes  Here are some things that you should never ever do. For each one, can you explain why it's a mistake?     Writing something like `` '' or `` .'' A predicate is never equal to anything. It's a sentence!    In the base case: Stating and then forgetting to explain why it is true. Base cases should usually look ``obvious'' but you still need to say something about why they're true.    Forgetting to do the base case at all.    In the inductive step: Saying that ``We assume that is true for all natural numbers .'' If you really did assume this, what would you have left to prove?    Writing ``We assume that is ''. Are you actually assuming anything is true ?     "
 },
@@ -1004,7 +1004,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-10",
   "type": "Activity",
-  "number": "36",
+  "number": "4.2.5",
   "title": "Evaluating an Induction Proof.",
   "body": " Evaluating an Induction Proof   Explain what the following proof is doing and what theorem it is trying to prove. Do you think the theorem is true? If not, what makes the proof fail?   A comic from Dinosaur Comics .   A comic where one dinosaur claims that they have a proof by induction that all dinos are the same color.     "
 },
@@ -1012,208 +1012,217 @@ var ptx_lunr_docs = [
   "id": "ch-logic-2",
   "level": "1",
   "url": "ch-logic-2.html",
-  "type": "Worksheet",
+  "type": "Handout",
   "number": "5.1",
   "title": "Chapter 5: Logic (Part 1)",
-  "body": " Chapter 5: Logic (Part 1)   Vocabulary and Notation       |c|p{4.25in}|} Word  Symbol  Meaning    Statement   A statement is a sentence or mathematical expression that is true or false.    Open Sentence   An open sentence is a sentence or mathematical expression which does not have a truth value, depends on some unknown, becomes a statement when the unknown is specified.    And      Or   is true when both and are true.    Not (or Negation)   is true when at least one of or is true.    Conditional Statement (``If...then\")   means ``If then \" and is only false in situations where is true and is false.    Hypothesis   In a conditional statement ``If then \", is the hypothesis.    Conclusion   In a conditional statement ``If then \", is the conclusion.    Biconditional Statement ``if and only if\", or iff   A biconditional statement is of the form if and only if . It means and .    Converse   The converse of is .    Logically Equivalent   A statement is logically equivalent to another statement if they have the same truth value on all possible inputs. E.g., by DeMorgan's Laws    For all   Also, ``For ever\", ``For each\"    There exists   Also ``For some\"    Quantifier   Indicates the number or quantity of our objects. is the universal quantifier and is the existential quantifier    Tautology   A statement that is true no matter what, e.g.,    Contradiction   A statement that is never true, e.g.,    Converse   The converse of is .    Contrapositive   The contrapositive of is .      Truth Tables     Fill in the following truth tables:      Suppose is the statement `` is odd\" and is the statement `` is prime\". What are some true statements we can form using .       Conditional Statements, Biconditional Statements    Let's return to an activity we did on the first day of class.     A mathematician places a set of four cards on a table, each of which has a number on one side and a colored patch on the other side. She claims the following:  if a card shows an even number on one face, then its opposite face is red     The visible faces of the cards show 3, 8, red, and blue. Which card(s) must you turn over in order to test the truth of her claim? Carefully explain out loud to the people at your table.      Let be the statement ``a card shows an even number\" and be the statement ``it's opposite face is red\". Next to the 's and 's above, label T, F, or ? for what you know about that card.      What is\/are the only situation(s) where the mathematician could be lying, i.e., would be false?       It is a well known law in the United States that you must be 21 to consume alcohol. Suppose now that four cards are placed on the table each of which has an age on one side and a beverage on the other. The visible faces of the cards show 16, 22, coca-cola, and beer. If each card represents a person at the party, which card(s) must you check to make sure everyone at the party is a law abiding citizen. That is, which card(s) must you turn over to verify the proposition:  if one is consuming an alcoholic beverage then one is over the age of 21  Complete the same tasks as in part 1, except now is ``one is consuming an alcoholic beverage\" and is ``one is over 21\". What is\/are the situation(s) could be breaking the law? How does this relate to the previous problem?       Conditional and Biconditional Statement Truth Tables    Based on the logic from the previous page, fill in the following truth tables.   Conditional, implies, or ``If then \":             True  True     True  False     False  True     False  False      Biconditional, if and only if, or :                 True  True       True  False       False  True       False  False       You will encounter many ``if and only if\" statements. E.g., in linear algebra: ``A square matrix is invertible if and only if it has a pivot in every column\" , or in geometry: ``a triangle has a pair of congruent sides if and only if it has a pair of congruent angles\" .      The Converse and the Contrapositive     Draw a truth table that includes columns for , , and .                    True  True        True  False        False  True        False  False            Some vocabulary:    The converse of is .    The contrapositive of is .    What do you notice about the converse and the contrapositive from your truth table above?      For each of the following, determine if the statement is true. Then write down the converse and contrapositive and determine if they are true.      Original Statement: If then . True False   Converse: True False   Contrapositive: True False   If false - counterexample:   \\hrulefill       Original Statement: If then . True False   Converse: True False   Contrapositive: True False   If false - counterexample:   \\hrulefill       Original Statement: If is an odd integer then is an odd integer. True False   Converse: True False   Contrapositive: True False   If false - counterexample:        What can you say about the relationship between the original statement and the converse? The original statement and the contrapositive?       Negating Conditional Statements  The negation of the statement is the statement ``not \" and is denoted by . The negation of , , is true only when is false, and is false only when is true.  We want to be able to write the negations of statements written in English, so that we can get the statement of opposite truth value. This will be helpful when doing proofs by contradiction.     In each of your counterexamples on the previous page, what did you do to show the statement was false? What does this suggest about the negation of a conditional statement?      Make a truth table with , , , and . What do you notice? What does this suggest about the negation of a conditional statement?      As the previous exercises suggest, is the statement . Negate each of the statements on the previous page. Are the negations true or false? How does that relate to the truth value of the original statement?       More Practice with Truth Tables and Logically Equivalent Statements     Use the truth table to show that is logically equivalent to .                      True  True  True        True  True  False        True  False  True        True  False  False        False  True  True        False  True  False        False  False  True        False  False  False            Do we have all possible truth values of , , and in the truth table above? What do you notice about how they are arranged?      Draw a truth table to show is logically equivalent to .  Make sure you break down each statement so you aren't doing too many things at once!       More Practice with Conditional Statements and Logical Equivalences    Let be a real number and let be a real-valued function defined on an interval containing . Consider the following conditional statement:  If is differentiable at , then is continuous at .  Let be `` is differentiable, and be `` is continuous\". So the above statement is .  For each of the following write in symbols, using , , and logical operators. Then, determine which statements are equivalent to and which are the negation? (Some may be neither.)     If is continuous at , then is differentiable at .      If is not differentiable at , then is not continuous at .      If is not continuous at , then is not differentiable at .       is not differentiable at or is continuous at        is not continuous at or is differentiable at        is differentiable at and is not continuous at .       Applying Conditional Statements    Following is a statement of a theorem which can be proven using calculus or precalculus mathematics.      If is a quadratic function of the form where and , then the function has a maximum value when .    Using only this theorem, what can be concluded about the functions given by the following formulas?                                   "
+  "body": " Chapter 5: Logic (Part 1)   Vocabulary and Notation       Word  Symbol  Meaning    Statement    A statement is a sentence or mathematical expression  that is true or false.     Open Sentence    An open sentence is a sentence or mathematical expression  which does not have a truth value, depends on some unknown,  becomes a statement when the unknown is specified.     And    is true when both and are true.    Or    is true when at least one of or is true.    Not (or Negation)    has the opposite truth value of      Conditional Statement   If...then       means If then  and is only false  in situations where is true and is false.     Hypothesis   In a conditional statement If then  , is the hypothesis.    Conclusion   In a conditional statement If then  , is the conclusion.     Biconditional Statement   if and only if , or iff      A biconditional statement is of the form if and only if .  It means and .     Converse   The converse of is .    Logically Equivalent    A statement is logically equivalent to another statement if they  have the same truth value on all possible inputs.  E.g., by DeMorgan's Laws     For all   Also, ``For ever\", ``For each\"    There exists   Also ``For some\"    Quantifier    Indicates the number or quantity of our objects.   is the universal quantifier and   is the existential quantifier     Tautology   A statement that is true no matter what, e.g.,     Contradiction   A statement that is never true, e.g.,     Converse   The converse of is .    Contrapositive   The contrapositive of is .      Truth Tables  We use truth tables to organize information about the truth value of complicated statements based on the truth values of the pieces of that statement.      Fill in the following truth table.   Tables for And , Or          True       True       False       False            Fill in the following truth table.   Table for Not        True     False          Suppose is the statement  is odd and is the statement  is prime . What are some true statements we can form using .      Conditional Statements, Biconditional Statements  We use conditional and biconditional statements in every day life! E.g., You can only get the math department scholarship if you apply , or You get SWS credit for MTH 210 pass if and only if you earn a C or better .     Let's return to an activity we did on the first day of class.     A mathematician places a set of four cards on a table, each of which has a number on one side and a colored patch on the other side. She claims the following:  if a card shows an even number on one face, then its opposite face is red     The visible faces of the cards show 3, 8, red, and blue. Which card(s) must you turn over in order to test the truth of her claim? Carefully explain out loud to the people at your table.      Let be the statement a card shows an even number and be the statement it's opposite face is red . Next to the 's and 's above, label T, F, or ? for what you know about that card.      What is\/are the only situation(s) where the mathematician could be lying, i.e., would be false?       It is a well known law in the United States that you must be 21 to consume alcohol. Suppose now that four cards are placed on the table each of which has an age on one side and a beverage on the other. The visible faces of the cards show 16, 22, coca-cola, and beer. If each card represents a person at the party, which card(s) must you check to make sure everyone at the party is a law abiding citizen. That is, which card(s) must you turn over to verify the proposition:  if one is consuming an alcoholic beverage then one is over the age of 21  Complete the same tasks as in part 1, except now is one is consuming an alcoholic beverage and is one is over 21 . What is\/are the situation(s) could be breaking the law? How does this relate to the previous problem?      Conditional and Biconditional Statement Truth Tables  Conditional statement truth tables can be a little tricky because we have to think abou the truth value of If then  when is false. Like we could say if the moon is made of cheese then DocK is a millionaire. This statement is considered true no matter what, because the hypothesis is false.     Based on the logic from the previous page, fill in the following truth tables.   Conditional, implies, or If then :             True  True     True  False     False  True     False  False      Biconditional, if and only if, or :                 True  True       True  False       False  True       False  False       You will encounter many ``if and only if\" statements. E.g., in linear algebra: ``A square matrix is invertible if and only if it has a pivot in every column\" , or in geometry: ``a triangle has a pair of congruent sides if and only if it has a pair of congruent angles\" .     The Converse and the Contrapositive  The converse and the contrapositve are similar sounding words, but differ in very important ways.     The converse of is .    The contrapositive of is .         Draw a truth table that includes columns for , , and .                    True  True        True  False        False  True        False  False            What do you notice about the converse and the contrapositive from your truth table above? Do they have the same or different truth values?      What can you say about the relationship between the original statement and the converse? The original statement and the contrapositive?      Negating Conditional Statements  The negation of the statement is the statement not  and is denoted by . The negation of , , is true only when is false, and is false only when is true.  We want to be able to write the negations of statements written in English, so that we can get the statement of opposite truth value. This will be helpful when doing proofs by contradiction.      What have you done in the past to show that a conditional statement is false? What does this suggest about the negation of a conditional statement?      Make a truth table with , , , and . What do you notice? What does this suggest about the negation of a conditional statement?      As the previous exercises suggest, is the statement . Negate the statements from the previous activity. Are the negations true or false? How does that relate to the truth value of the original statement?     Original Statement: If then .  This statement is    Negation:    The negation is      Original Statement: If then .  This statement is    Negation:    The negation is      Original Statement: If is an odd integer then is an odd integer.  This statement is    Negation:    The negation is       More Practice with Truth Tables and Logically Equivalent Statements  This is one of the learning targets!      Use the truth table to show that is logically equivalent to .                      True  True  True        True  True  False        True  False  True        True  False  False        False  True  True        False  True  False        False  False  True        False  False  False            Do we have all possible truth values of , , and in the truth table above? What do you notice about how they are arranged?      Draw a truth table to show is logically equivalent to .  Make sure you break down each statement so you aren't doing too many things at once!      More Practice with Conditional Statements and Logical Equivalences  One hard part about reading and writing mathematics is that there are lots of ways to say the same thing!     Let be a real number and let be a real-valued function defined on an interval containing . Consider the following conditional statement:  If is differentiable at , then is continuous at .  Let be  is differentiable , and be  is continuous . So the above statement is .  For each of the following write in symbols, using , , and logical operators. Then, determine which statements are equivalent to and which are the negation? (Some may be neither.)     If is continuous at , then is differentiable at .      If is not differentiable at , then is not continuous at .      If is not continuous at , then is not differentiable at .       is not differentiable at or is continuous at        is not continuous at or is differentiable at        is differentiable at and is not continuous at .      Applying Conditional Statements  Here, we think about taking a conditional statement that we know is true, and applying it to some other situation. Sometimes this looks like using a lemma in a proof. Following is a statement of a theorem which can be proven using calculus or precalculus mathematics.    If is a quadratic function of the form where and , then the function has a maximum value when .       Using only  , what can be concluded about the functions given by the following formulas?                                  "
 },
 {
-  "id": "ch-logic-2-3-2",
+  "id": "ch-logic-2-4",
   "level": "2",
-  "url": "ch-logic-2.html#ch-logic-2-3-2",
+  "url": "ch-logic-2.html#ch-logic-2-4",
   "type": "Activity",
-  "number": "37",
+  "number": "5.1.1",
   "title": "",
-  "body": "   Fill in the following truth tables:      Suppose is the statement `` is odd\" and is the statement `` is prime\". What are some true statements we can form using .    "
+  "body": "   Fill in the following truth table.   Tables for And , Or          True       True       False       False            Fill in the following truth table.   Table for Not        True     False          Suppose is the statement  is odd and is the statement  is prime . What are some true statements we can form using .    "
 },
 {
-  "id": "ch-logic-2-4-2",
+  "id": "act-Wason2",
   "level": "2",
-  "url": "ch-logic-2.html#ch-logic-2-4-2",
+  "url": "ch-logic-2.html#act-Wason2",
   "type": "Activity",
-  "number": "38",
+  "number": "5.1.2",
   "title": "",
-  "body": "  Let's return to an activity we did on the first day of class.     A mathematician places a set of four cards on a table, each of which has a number on one side and a colored patch on the other side. She claims the following:  if a card shows an even number on one face, then its opposite face is red     The visible faces of the cards show 3, 8, red, and blue. Which card(s) must you turn over in order to test the truth of her claim? Carefully explain out loud to the people at your table.      Let be the statement ``a card shows an even number\" and be the statement ``it's opposite face is red\". Next to the 's and 's above, label T, F, or ? for what you know about that card.      What is\/are the only situation(s) where the mathematician could be lying, i.e., would be false?       It is a well known law in the United States that you must be 21 to consume alcohol. Suppose now that four cards are placed on the table each of which has an age on one side and a beverage on the other. The visible faces of the cards show 16, 22, coca-cola, and beer. If each card represents a person at the party, which card(s) must you check to make sure everyone at the party is a law abiding citizen. That is, which card(s) must you turn over to verify the proposition:  if one is consuming an alcoholic beverage then one is over the age of 21  Complete the same tasks as in part 1, except now is ``one is consuming an alcoholic beverage\" and is ``one is over 21\". What is\/are the situation(s) could be breaking the law? How does this relate to the previous problem?    "
+  "body": "  Let's return to an activity we did on the first day of class.     A mathematician places a set of four cards on a table, each of which has a number on one side and a colored patch on the other side. She claims the following:  if a card shows an even number on one face, then its opposite face is red     The visible faces of the cards show 3, 8, red, and blue. Which card(s) must you turn over in order to test the truth of her claim? Carefully explain out loud to the people at your table.      Let be the statement a card shows an even number and be the statement it's opposite face is red . Next to the 's and 's above, label T, F, or ? for what you know about that card.      What is\/are the only situation(s) where the mathematician could be lying, i.e., would be false?       It is a well known law in the United States that you must be 21 to consume alcohol. Suppose now that four cards are placed on the table each of which has an age on one side and a beverage on the other. The visible faces of the cards show 16, 22, coca-cola, and beer. If each card represents a person at the party, which card(s) must you check to make sure everyone at the party is a law abiding citizen. That is, which card(s) must you turn over to verify the proposition:  if one is consuming an alcoholic beverage then one is over the age of 21  Complete the same tasks as in part 1, except now is one is consuming an alcoholic beverage and is one is over 21 . What is\/are the situation(s) could be breaking the law? How does this relate to the previous problem?    "
 },
 {
-  "id": "ch-logic-2-5-2",
+  "id": "ch-logic-2-8",
   "level": "2",
-  "url": "ch-logic-2.html#ch-logic-2-5-2",
+  "url": "ch-logic-2.html#ch-logic-2-8",
   "type": "Activity",
-  "number": "39",
+  "number": "5.1.3",
   "title": "",
-  "body": "  Based on the logic from the previous page, fill in the following truth tables.   Conditional, implies, or ``If then \":             True  True     True  False     False  True     False  False      Biconditional, if and only if, or :                 True  True       True  False       False  True       False  False       You will encounter many ``if and only if\" statements. E.g., in linear algebra: ``A square matrix is invertible if and only if it has a pivot in every column\" , or in geometry: ``a triangle has a pair of congruent sides if and only if it has a pair of congruent angles\" .   "
+  "body": "  Based on the logic from the previous page, fill in the following truth tables.   Conditional, implies, or If then :             True  True     True  False     False  True     False  False      Biconditional, if and only if, or :                 True  True       True  False       False  True       False  False       You will encounter many ``if and only if\" statements. E.g., in linear algebra: ``A square matrix is invertible if and only if it has a pivot in every column\" , or in geometry: ``a triangle has a pair of congruent sides if and only if it has a pair of congruent angles\" .   "
 },
 {
-  "id": "ch-logic-2-6-2",
+  "id": "ch-logic-2-9-3",
   "level": "2",
-  "url": "ch-logic-2.html#ch-logic-2-6-2",
+  "url": "ch-logic-2.html#ch-logic-2-9-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "converse contrapositive "
+},
+{
+  "id": "act-converse-contrapositive",
+  "level": "2",
+  "url": "ch-logic-2.html#act-converse-contrapositive",
   "type": "Activity",
-  "number": "40",
+  "number": "5.1.4",
   "title": "",
-  "body": "   Draw a truth table that includes columns for , , and .                    True  True        True  False        False  True        False  False            Some vocabulary:    The converse of is .    The contrapositive of is .    What do you notice about the converse and the contrapositive from your truth table above?      For each of the following, determine if the statement is true. Then write down the converse and contrapositive and determine if they are true.      Original Statement: If then . True False   Converse: True False   Contrapositive: True False   If false - counterexample:   \\hrulefill       Original Statement: If then . True False   Converse: True False   Contrapositive: True False   If false - counterexample:   \\hrulefill       Original Statement: If is an odd integer then is an odd integer. True False   Converse: True False   Contrapositive: True False   If false - counterexample:        What can you say about the relationship between the original statement and the converse? The original statement and the contrapositive?    "
+  "body": "   Draw a truth table that includes columns for , , and .                    True  True        True  False        False  True        False  False            What do you notice about the converse and the contrapositive from your truth table above? Do they have the same or different truth values?      What can you say about the relationship between the original statement and the converse? The original statement and the contrapositive?    "
 },
 {
-  "id": "ch-logic-2-7-2",
+  "id": "ch-logic-2-11-2",
   "level": "2",
-  "url": "ch-logic-2.html#ch-logic-2-7-2",
+  "url": "ch-logic-2.html#ch-logic-2-11-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "negation "
 },
 {
-  "id": "ch-logic-2-7-4",
+  "id": "ch-logic-2-12",
   "level": "2",
-  "url": "ch-logic-2.html#ch-logic-2-7-4",
+  "url": "ch-logic-2.html#ch-logic-2-12",
   "type": "Activity",
-  "number": "41",
+  "number": "5.1.5",
   "title": "",
-  "body": "   In each of your counterexamples on the previous page, what did you do to show the statement was false? What does this suggest about the negation of a conditional statement?      Make a truth table with , , , and . What do you notice? What does this suggest about the negation of a conditional statement?      As the previous exercises suggest, is the statement . Negate each of the statements on the previous page. Are the negations true or false? How does that relate to the truth value of the original statement?    "
+  "body": "   What have you done in the past to show that a conditional statement is false? What does this suggest about the negation of a conditional statement?      Make a truth table with , , , and . What do you notice? What does this suggest about the negation of a conditional statement?      As the previous exercises suggest, is the statement . Negate the statements from the previous activity. Are the negations true or false? How does that relate to the truth value of the original statement?     Original Statement: If then .  This statement is    Negation:    The negation is      Original Statement: If then .  This statement is    Negation:    The negation is      Original Statement: If is an odd integer then is an odd integer.  This statement is    Negation:    The negation is     "
 },
 {
-  "id": "ch-logic-2-8-2",
+  "id": "ch-logic-2-14",
   "level": "2",
-  "url": "ch-logic-2.html#ch-logic-2-8-2",
+  "url": "ch-logic-2.html#ch-logic-2-14",
   "type": "Activity",
-  "number": "42",
+  "number": "5.1.6",
   "title": "",
   "body": "   Use the truth table to show that is logically equivalent to .                      True  True  True        True  True  False        True  False  True        True  False  False        False  True  True        False  True  False        False  False  True        False  False  False            Do we have all possible truth values of , , and in the truth table above? What do you notice about how they are arranged?      Draw a truth table to show is logically equivalent to .  Make sure you break down each statement so you aren't doing too many things at once!    "
 },
 {
-  "id": "ch-logic-2-9-2",
+  "id": "ch-logic-2-16",
   "level": "2",
-  "url": "ch-logic-2.html#ch-logic-2-9-2",
+  "url": "ch-logic-2.html#ch-logic-2-16",
   "type": "Activity",
-  "number": "43",
+  "number": "5.1.7",
   "title": "",
-  "body": "  Let be a real number and let be a real-valued function defined on an interval containing . Consider the following conditional statement:  If is differentiable at , then is continuous at .  Let be `` is differentiable, and be `` is continuous\". So the above statement is .  For each of the following write in symbols, using , , and logical operators. Then, determine which statements are equivalent to and which are the negation? (Some may be neither.)     If is continuous at , then is differentiable at .      If is not differentiable at , then is not continuous at .      If is not continuous at , then is not differentiable at .       is not differentiable at or is continuous at        is not continuous at or is differentiable at        is differentiable at and is not continuous at .    "
+  "body": "  Let be a real number and let be a real-valued function defined on an interval containing . Consider the following conditional statement:  If is differentiable at , then is continuous at .  Let be  is differentiable , and be  is continuous . So the above statement is .  For each of the following write in symbols, using , , and logical operators. Then, determine which statements are equivalent to and which are the negation? (Some may be neither.)     If is continuous at , then is differentiable at .      If is not differentiable at , then is not continuous at .      If is not continuous at , then is not differentiable at .       is not differentiable at or is continuous at        is not continuous at or is differentiable at        is differentiable at and is not continuous at .    "
 },
 {
-  "id": "ch-logic-2-10-2",
+  "id": "thm-quadvertex",
   "level": "2",
-  "url": "ch-logic-2.html#ch-logic-2-10-2",
-  "type": "Activity",
-  "number": "44",
-  "title": "",
-  "body": "  Following is a statement of a theorem which can be proven using calculus or precalculus mathematics.   "
-},
-{
-  "id": "ch-logic-2-10-3",
-  "level": "2",
-  "url": "ch-logic-2.html#ch-logic-2-10-3",
+  "url": "ch-logic-2.html#thm-quadvertex",
   "type": "Theorem",
-  "number": "43",
+  "number": "5.1.3",
   "title": "",
   "body": "  If is a quadratic function of the form where and , then the function has a maximum value when .   "
+},
+{
+  "id": "ch-logic-2-18",
+  "level": "2",
+  "url": "ch-logic-2.html#ch-logic-2-18",
+  "type": "Activity",
+  "number": "5.1.8",
+  "title": "",
+  "body": "  Using only  , what can be concluded about the functions given by the following formulas?                                 "
 },
 {
   "id": "ch-logic-3",
   "level": "1",
   "url": "ch-logic-3.html",
-  "type": "Worksheet",
+  "type": "Handout",
   "number": "5.2",
   "title": "Chapter 5: Logic (Part 2)",
-  "body": " Chapter 5: Logic (Part 2)   Quantifiers, in Multiples  Recall that means ``for all\" and means ``there exists\". When we use ``there exists\" we usually follow it with a ``such that\". Also, there exist (no s), but there exists (with an s).    Determine if each of the following are true or false.                                                                            Negations         Logical Connector  \\bf{In words}  \\bf{Negate!}  \\bf{Negation distributed}  \\bf{In words}     For all in    There exists in .     There exists in    For all in     or    Not and not     and    Not or not     If then    and not .     Not         Practice Negating. Negate the following statements.     For all integers , if is positive, then is prime.      For all integers and , if and then .      For each real number , if then and .      There are real numbers and such that .      For every pair of real numbers and , if then there exists a rational number such that .      For every line and every point , if is not on , then there exists a unique line through that is parallel to .       (If time:) Negate the statements on page 72 and translate into English.      English is hard!  As we've seen, there are many many ways to write a conditional statement. For example, ``if then \" can be written as `` implies \" or `` if \" or `` only if \" and more. (See page 211 of your textbook.) This is similar for the universal and existential quantifiers. For example, instead of ``for all\", we might say ``for any\", or ``for each\". And instead of ``there exists\" we could say ``there is\". There's also an idea of ``hidden quantifiers\". E.g., sometimes instead of starting ``for all\" we start with ``if\" and it has the same meaning.  \\begin{quote} In general, to negate a statement, it's a good idea to write the statement using symbols, including any hidden quantifiers. On the other hand, sometimes translating a statement into different words, can be easier to interpret. \\end{quote}   Example:  can be said as  The last statement, is a conditional statement, that ``hides\" the universal quantifier.   Example:  can be said as    Here's some statements with hidden quantifiers, hidden conditional statements, or translated into other words. Rewrite the sentences as directed.     If a function is continuous at , then the function is differentiable at . Rewrite with a universal quantifier.       The equation has a solution. Rewrite with an existential quantifier.       Every natural number is a perfect square. Rewrite with a universal and existential quantifier.       Every real number can be squared. Rewrite with a universal and existential quantifier.       No basketball players also play tennis. Rewrite as a conditional statement.       Any prime number is not followed by a perfect square. Rewrite as a conditional statement.        Applying Conditional Statements  A key component of logical reasoning with conditional statements is known as modus ponens . It works like this:  IF    you have a conditional statement (of the form ``if , then '') that you know is _____, AND    you can establish that the hypothesis is _____, THEN    it necessarily follows that the conclusion _____.    Use this reasoning in what follows.    In calculus, we establish that the following conditional statement is true:  \\begin{quote} If is any function such that is differentiable at the real number , then is continuous at . \\end{quote}  What can we conclude, if anything about the following four functions?     A function that we know is differentiable at .      A function that we know is not differentiable at .      A function that we know is continuous at .      A function that we know is not continuous at .       Proving Quantified Statements  To prove an existentially quantified statement it suffices to provide an example satisfying the criteria. One can do this in two ways:     Constructive: E.g., to prove ``there exists a perfect covering of a chessboard\" we did so by drawing one out.     Non-constructive: E.g., when applying the pigeonhole principle, we said ``if there are 367 people in a stadium, at least two of them are guaranteed to have the same birthday\". We didn't say which two or what the birthday was, just that we know at least two such people exist.    To prove a universally quantified statement you must prove for an arbitrary case. E.g., when we proved that the sum of an even integer and an odd integer is odd, it's not enough to say is odd. We must show for any arbitrary even integer, and any arbitrary odd integer, the sum is odd. We use variables to do infinitely many things at once here!     If time: Some exercises to keep you entertain over spring break if you get bored :)     Prove that for all , there exists some such that .      Any prime number is not followed by a perfect square. (Note a prime number is a natural number greater than 1 that has exactly two distinct positive divisors: 1 and itself. A perfect square is a natural number such that there exists a natural number such that .)      "
+  "body": " Chapter 5: Logic (Part 2)  Recall that means for all and means there exists . When we use there exists we usually follow it with a ``such that\". Also, there exist (no s), but there exists (with an s).   Quantifiers, in Multiples   Determine if each of the following are true or false.                                                                           Negations  Negating a statement should result in the statement having the opposite truth value. Whenever the original statement is true, the negation should be false, and whenever the original statement is false, the negation should be true. Below are some rules for negating statements.          Logical Connector  In words  Negate!  Negation distributed  In words     For all in    There exists in .     There exists in    For all in     or    Not and not     and    Not or not     If then    and not .     Not        Practice negating.   Negate the following statements.     For all integers , if is positive, then is prime.      For all integers and , if and then .      For each real number , if then and .      There are real numbers and such that .      For every pair of real numbers and , if then there exists a rational number such that .      For every line and every point , if is not on , then there exists a unique line through that is parallel to .       (If time:) Negate the statements in and translate into English.     English is hard!  As we've seen, there are many many ways to write a conditional statement. For example, if then can be written as  implies  or  if or  only if  and more. (See page 211 of your textbook.) This is similar for the universal and existential quantifiers. For example, instead of for all , we might say for any , or for each . And instead of there exists we could say there is . There's also an idea of hidden quantifiers . E.g., sometimes instead of starting for all we start with if and it has the same meaning.  \\begin{quote} In general, to negate a statement, it's a good idea to write the statement using symbols, including any hidden quantifiers. On the other hand, sometimes translating a statement into different words, can be easier to interpret. \\end{quote}    The statement can be said as   For each real number , .    The square of every real number is at least $0$.    The square of a real number is at least $0$.    If is a real number, then .     The last statement, is a conditional statement, that hides the universal quantifier.    The statement can be said as     There exists a real number such that .     for some real number     There is some real number whose square is      has a real number solution.        Here's some statements with hidden quantifiers, hidden conditional statements, or translated into other words. Rewrite the sentences as directed.     If a function is continuous at , then the function is differentiable at . Rewrite with a universal quantifier.       The equation has a solution. Rewrite with an existential quantifier.       Every natural number is a perfect square. Rewrite with a universal and existential quantifier.       Every real number can be squared. Rewrite with a universal and existential quantifier.       No basketball players also play tennis. Rewrite as a conditional statement.       Any prime number is not followed by a perfect square. Rewrite as a conditional statement.       Applying Conditional Statements  A key component of logical reasoning with conditional statements is known as modus ponens . It works like this:  IF     you have a conditional statement (of the form if , then ) that you know is _____, AND    you can establish that the hypothesis is _____, THEN    it necessarily follows that the conclusion _____.     Use this reasoning in what follows.     In calculus, we establish that the following conditional statement is true:   If is any function such that is differentiable at the real number , then is continuous at .   What can we conclude, if anything about the following four functions?     A function that we know is differentiable at .      A function that we know is not differentiable at .      A function that we know is continuous at .      A function that we know is not continuous at .      Proving Quantified Statements  To prove an existentially quantified statement it suffices to provide an example satisfying the criteria. One can do this in two ways:       Constructive: E.g., to prove there exists a perfect covering of a chessboard we did so by drawing one out.     Non-constructive: E.g., when applying the pigeonhole principle, we said if there are 367 people in a stadium, at least two of them are guaranteed to have the same birthday . We didn't say which two or what the birthday was, just that we know at least two such people exist.     To prove a universally quantified statement you must prove for an arbitrary case. E.g., when we proved that the sum of an even integer and an odd integer is odd, it is not enough to say is odd. We must show for any arbitrary even integer, and any arbitrary odd integer, the sum is odd. We use variables to do infinitely many things at once here!     If time:      Prove that for all , there exists some such that .      Any prime number is not followed by a perfect square. (Note a prime number is a natural number greater than 1 that has exactly two distinct positive divisors: 1 and itself. A perfect square is a natural number such that there exists a natural number such that .)     "
 },
 {
-  "id": "ch-logic-3-2-3",
+  "id": "act-multipleallexist",
   "level": "2",
-  "url": "ch-logic-3.html#ch-logic-3-2-3",
+  "url": "ch-logic-3.html#act-multipleallexist",
   "type": "Activity",
-  "number": "45",
-  "title": "",
-  "body": "  Determine if each of the following are true or false.                                                                         "
+  "number": "5.2.1",
+  "title": "Quantifiers, in Multiples.",
+  "body": " Quantifiers, in Multiples   Determine if each of the following are true or false.                                                                         "
 },
 {
-  "id": "ch-logic-3-3-3",
+  "id": "ch-logic-3-6",
   "level": "2",
-  "url": "ch-logic-3.html#ch-logic-3-3-3",
+  "url": "ch-logic-3.html#ch-logic-3-6",
   "type": "Activity",
-  "number": "46",
-  "title": "",
-  "body": "  Practice Negating. Negate the following statements.     For all integers , if is positive, then is prime.      For all integers and , if and then .      For each real number , if then and .      There are real numbers and such that .      For every pair of real numbers and , if then there exists a rational number such that .      For every line and every point , if is not on , then there exists a unique line through that is parallel to .    "
+  "number": "5.2.2",
+  "title": "Practice negating..",
+  "body": " Practice negating.   Negate the following statements.     For all integers , if is positive, then is prime.      For all integers and , if and then .      For each real number , if then and .      There are real numbers and such that .      For every pair of real numbers and , if then there exists a rational number such that .      For every line and every point , if is not on , then there exists a unique line through that is parallel to .    "
 },
 {
-  "id": "ch-logic-3-3-4",
+  "id": "ch-logic-3-7",
   "level": "2",
-  "url": "ch-logic-3.html#ch-logic-3-3-4",
+  "url": "ch-logic-3.html#ch-logic-3-7",
   "type": "Activity",
-  "number": "47",
+  "number": "5.2.3",
   "title": "",
-  "body": "  (If time:) Negate the statements on page 72 and translate into English.   "
+  "body": "  (If time:) Negate the statements in and translate into English.   "
 },
 {
-  "id": "ch-logic-3-4-4",
+  "id": "ch-logic-3-9",
   "level": "2",
-  "url": "ch-logic-3.html#ch-logic-3-4-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "url": "ch-logic-3.html#ch-logic-3-9",
+  "type": "Example",
+  "number": "5.2.1",
   "title": "",
-  "body": "Example: "
+  "body": " The statement can be said as   For each real number , .    The square of every real number is at least $0$.    The square of a real number is at least $0$.    If is a real number, then .     The last statement, is a conditional statement, that hides the universal quantifier.  "
 },
 {
-  "id": "ch-logic-3-4-6",
+  "id": "ch-logic-3-10",
   "level": "2",
-  "url": "ch-logic-3.html#ch-logic-3-4-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "url": "ch-logic-3.html#ch-logic-3-10",
+  "type": "Example",
+  "number": "5.2.2",
   "title": "",
-  "body": "Example: "
+  "body": " The statement can be said as     There exists a real number such that .     for some real number     There is some real number whose square is      has a real number solution.     "
 },
 {
-  "id": "ch-logic-3-4-7",
+  "id": "ch-logic-3-11",
   "level": "2",
-  "url": "ch-logic-3.html#ch-logic-3-4-7",
+  "url": "ch-logic-3.html#ch-logic-3-11",
   "type": "Activity",
-  "number": "48",
+  "number": "5.2.4",
   "title": "",
   "body": "  Here's some statements with hidden quantifiers, hidden conditional statements, or translated into other words. Rewrite the sentences as directed.     If a function is continuous at , then the function is differentiable at . Rewrite with a universal quantifier.       The equation has a solution. Rewrite with an existential quantifier.       Every natural number is a perfect square. Rewrite with a universal and existential quantifier.       Every real number can be squared. Rewrite with a universal and existential quantifier.       No basketball players also play tennis. Rewrite as a conditional statement.       Any prime number is not followed by a perfect square. Rewrite as a conditional statement.     "
 },
 {
-  "id": "ch-logic-3-5-6",
+  "id": "ch-logic-3-13",
   "level": "2",
-  "url": "ch-logic-3.html#ch-logic-3-5-6",
+  "url": "ch-logic-3.html#ch-logic-3-13",
   "type": "Activity",
-  "number": "49",
+  "number": "5.2.5",
   "title": "",
-  "body": "  In calculus, we establish that the following conditional statement is true:  \\begin{quote} If is any function such that is differentiable at the real number , then is continuous at . \\end{quote}  What can we conclude, if anything about the following four functions?     A function that we know is differentiable at .      A function that we know is not differentiable at .      A function that we know is continuous at .      A function that we know is not continuous at .    "
+  "body": "  In calculus, we establish that the following conditional statement is true:   If is any function such that is differentiable at the real number , then is continuous at .   What can we conclude, if anything about the following four functions?     A function that we know is differentiable at .      A function that we know is not differentiable at .      A function that we know is continuous at .      A function that we know is not continuous at .    "
 },
 {
-  "id": "ch-logic-3-6-2",
+  "id": "ch-logic-3-14-2",
   "level": "2",
-  "url": "ch-logic-3.html#ch-logic-3-6-2",
+  "url": "ch-logic-3.html#ch-logic-3-14-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "prove an existentially quantified statement "
 },
 {
-  "id": "ch-logic-3-6-4",
+  "id": "ch-logic-3-16",
   "level": "2",
-  "url": "ch-logic-3.html#ch-logic-3-6-4",
+  "url": "ch-logic-3.html#ch-logic-3-16",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "prove a universally quantified statement "
 },
 {
-  "id": "ch-logic-3-6-5",
+  "id": "ch-logic-3-17",
   "level": "2",
-  "url": "ch-logic-3.html#ch-logic-3-6-5",
+  "url": "ch-logic-3.html#ch-logic-3-17",
   "type": "Activity",
-  "number": "50",
+  "number": "5.2.6",
   "title": "",
-  "body": "   If time: Some exercises to keep you entertain over spring break if you get bored :)     Prove that for all , there exists some such that .      Any prime number is not followed by a perfect square. (Note a prime number is a natural number greater than 1 that has exactly two distinct positive divisors: 1 and itself. A perfect square is a natural number such that there exists a natural number such that .)    "
+  "body": "   If time:      Prove that for all , there exists some such that .      Any prime number is not followed by a perfect square. (Note a prime number is a natural number greater than 1 that has exactly two distinct positive divisors: 1 and itself. A perfect square is a natural number such that there exists a natural number such that .)    "
 },
 {
   "id": "ch-contrapositive-2",
   "level": "1",
   "url": "ch-contrapositive-2.html",
-  "type": "Worksheet",
+  "type": "Handout",
   "number": "6.1",
   "title": "Chapter 6: The Contrapositive",
-  "body": " Chapter 6: The Contrapositive  A conditional statement is logically equivalent to its contrapositive . That is,   We proved this using truth tables on page 66 of class worksheets and in the preview activity for today. This also makes intuitive sense, considering the examples on pages 5 and 65 of class worksheets, and page 262 of your textbook. If we're following the US law and say   if one is consuming an alcoholic beverage then one is at least age 21   then you would agree that   if one is under the age of 21 then one is not consuming an alcoholic beverage.   If we label the first statement as , then the second statement is .  In ``proof by contrapositive\" we will use that a statement and its contrapositive are logically equivalent to our advantage. Instead of proving the original statement, we do a direct proof of the contrapositive. Note that proof by contrapositive is really just another type of direct proof.   Example: Suppose we want to do proof by contrapositive of the statement   For all , if is odd, then is odd.   Then instead we would prove   For all , if is even, then is odd.   Notice that    Taking the contrapositive of the conditional statement does not affect the quantifier at the start. We still need to prove this statement for all .    When we negate `` is odd'' we get `` is not odd\", but every non-odd integer is even, so instead we write `` is even.     Proof Writing: Here's a proof by contrapositive of the statement in the example. Underline the parts that would be included in all proofs by contrapositive.    For all , if is odd, then is odd.     We will prove this using the contrapositive, which is: For all , iff is even, then is even. So, let . We begin by assuming that is even. By definition of even there exists an integer such that . Substituting, we have \\begin{align} n^{2} = (2m)^{2} = 4m^{2} = 2(2m^{2}). \\end{align} We know that and are integers, and the integers are closed under and multiplication. Thus is also an integer. Thus equation (\\ref{eqn:n^2}) shows that can be written in the form where is an integer. By definition of even, this shows that is even. This completes the proof of the contrapositive, showing that if is odd, then is odd.     For each of the following statements, find the contrapositive (turning the statement into an ``if-then\" conditional statement if needed). Then decide which one seems easier to prove - the statement or its contrapositive, and briefly explain why.     For all natural numbers , if then .  {\\tiny Easier to prove the original Easier to prove the contrapositive }      For all integers and , if is even, then is even or is even.  {\\tiny Easier to prove the original Easier to prove the contrapositive }      Let , and let be a prime. If then and .  {\\tiny Easier to prove the original Easier to prove the contrapositive }      For all integers , if is even if and only if is even. (Note there are 2 conditional statements here, write out both conditional statements and their contrapositives.)  {\\tiny Easier to prove the original Easier to prove the contrapositive }      For all integers , if is even, then is even.  {\\tiny Easier to prove the original Easier to prove the contrapositive }      For all , if is even, then is odd.  {\\tiny Easier to prove the original Easier to prove the contrapositive }      No prime number greater than is followed by a perfect square. (Rewrite as a conditional statement first!)  {\\tiny Easier to prove the original Easier to prove the contrapositive }       Prove the following biconditional theorem. This means you need to prove 2 conditional statements!      For all integers , is odd if and only if is event.      Prove the following biconditional theorem. This means you need to prove 2 conditional statements!      For all integers and , if and only if or .     Proof Evaluation    Evaluate the following proof. Is it correct? Should more be explained? Does it meet our writing guidelines?  \\includegraphics{images\/ContrapositiveForCowards.PNG}      Counterexamples  This chapter returns to counterexamples, which we've done a bunch of (and is Learning Target 11). Here's an important connection to the chapter on logic - when you are disproving a statement, you are proving its negation. So if you have a statement that has a ``for all\" (or an implied for all), the negation has a ``there exists\", and so one can just use an example to prove it.    Here are two things that sometimes happen in math:    A counterexample comes early, but it turns out to be the only counterexample. E.g., find counterexamples to the following \\begin{itemize} \\item Every prime is odd. \\item No prime number is followed by a perfect square. \\end{itemize} It turns out the first statement is true for any prime greater than 2, and the second is true for any prime greater than 3. If time: Can you prove these?    Sometimes the ``first\" counterexample comes really late, but then there are lots of counterexamples. Consider the following statement \\begin{itemize} \\item If is prime then is prime. \\end{itemize} It turns out this is true for and , but it is not true for . Prime numbers of the form for a prime are know as Mersenne Primes. Currently we know of Mersenne primes and (which is 41,024,320 digits) is the largest known prime number (found in 2024). Also, the following statment \\begin{itemize} \\item For every , \\end{itemize} The first counterexample for this has digits (see page 270 of your textbook). We know one exists because the harmonic series diverges (you'd see this in Calc 2). After the first counterexample, every natural number is a counterexample, do you see why?       "
+  "body": " Chapter 6: The Contrapositive  A conditional statement is logically equivalent to its contrapositive . That is,   We proved this using truth tables in and in the preview activity for today. This also makes intuitive sense, considering the examples in page 262 of your textbook. We also see it in the applied version of the Wason Selection Test (recall ): If we're following the US law and say   if one is consuming an alcoholic beverage then one is at least age 21   then you would agree that   if one is under the age of 21 then one is not consuming an alcoholic beverage.   If we label the first statement as , then the second statement is .    In  proof by contrapositive we will use that a statement and its contrapositive are logically equivalent to our advantage. Instead of proving the original statement, we do a direct proof of the contrapositive. Note that proof by contrapositive is really just another type of direct proof.     Suppose we want to do proof by contrapositive of the statement   For all , if is odd, then is odd.   Then instead we would prove   For all , if is even, then is odd.   Notice that     Taking the contrapositive of the conditional statement does not affect the quantifier at the start. We still need to prove this statement for all .    When we negate  is odd we get  is not odd , but every non-odd integer is even, so instead we write  is even .       Proof Writing  Here's a proof by contrapositive of the statement in the example. Underline the parts that would be included in all proofs by contrapositive.     For all , if is odd, then is odd.     We will prove this using the contrapositive, which is: For all , if and only if is even, then is even. So, let . We begin by assuming that is even. By definition of even there exists an integer such that . Substituting, we have We know that and are integers, and the integers are closed under and multiplication. Thus is also an integer. Thus equation shows that can be written in the form where is an integer. By definition of even, this shows that is even. This completes the proof of the contrapositive, showing that if is odd, then is odd.     For each of the following statements, find the contrapositive (turning the statement into an if-then conditional statement if needed). Then decide which one seems easier to prove - the statement or its contrapositive, and briefly explain why.     For all natural numbers , if then .   Contrapositive:    Circle one and briefly explain:   Easier to prove the original  Easier to prove the contrapositive      For all integers and , if is even, then is even or is even.   Contrapositive:    Circle one and briefly explain:   Easier to prove the original  Easier to prove the contrapositive      Let , and let be a prime. If then and .   Contrapositive:    Circle one and briefly explain:   Easier to prove the original  Easier to prove the contrapositive      For all integers , if is even if and only if is even. (Note there are 2 conditional statements here, write out both conditional statements and their contrapositives.)   Contrapositive:    Circle one and briefly explain:   Easier to prove the original  Easier to prove the contrapositive      For all integers , if is even, then is even.   Contrapositive:    Circle one and briefly explain:   Easier to prove the original  Easier to prove the contrapositive      For all , if is even, then is odd.   Contrapositive:    Circle one and briefly explain:   Easier to prove the original  Easier to prove the contrapositive      No prime number greater than is followed by a perfect square. (Rewrite as a conditional statement first!)   Contrapositive:    Circle one and briefly explain:   Easier to prove the original  Easier to prove the contrapositive       For all integers , is odd if and only if is even.      Prove . Notice the theorem is biconditional . This means you need to prove 2 conditional statements!      For all integers and , if and only if or .      Prove . Note it is again biconditional!     Proof Evaluation  Evaluating reasoning is an important skill!     Evaluate the following proof. Is it correct? Should more be explained? Does it meet our writing guidelines?   A proof, of unknown origin, that for all integers if is even then is even.   A proof, of unknown origin, that if a square integer is even, then the original integer is even.       Counterexamples  This chapter returns to counterexamples, which we've done a bunch of (and is a learning target). Here's an important connection to the chapter on logic - when you are disproving a statement, you are proving its negation. So if you have a statement that has a for all (or an implied for all), the negation has a there exists , and so one can just use an example to prove it.    Here are two things that sometimes happen in math:     A counterexample comes early, but it turns out to be the only counterexample. E.g., find counterexamples to the following   Every prime is odd.    No prime number is followed by a perfect square.   It turns out the first statement is true for any prime greater than 2, and the second is true for any prime greater than 3. If time: Can you prove these?    Sometimes the first counterexample comes really late, but then there are lots of counterexamples. Consider the following statements   If is prime then is prime.    For every ,    It turns out the first is true for and , but it is not true for . Prime numbers of the form for a prime are know as Mersenne Primes. Currently we know of Mersenne primes and (which is 41,024,320 digits) is the largest known prime number (found in 2024). For the second statement, the first counterexample for this has digits (see page 270 of your textbook). We know one exists because the harmonic series diverges (you'd see this in Calc 2). After the first counterexample, every natural number is a counterexample, do you see why?      "
 },
 {
   "id": "ch-contrapositive-2-2",
@@ -1225,553 +1234,481 @@ var ptx_lunr_docs = [
   "body": "contrapositive "
 },
 {
-  "id": "ch-contrapositive-2-8",
+  "id": "def-",
   "level": "2",
-  "url": "ch-contrapositive-2.html#ch-contrapositive-2-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "url": "ch-contrapositive-2.html#def-",
+  "type": "Definition",
+  "number": "6.1.1",
   "title": "",
-  "body": "``proof by contrapositive\" "
+  "body": "  In  proof by contrapositive we will use that a statement and its contrapositive are logically equivalent to our advantage. Instead of proving the original statement, we do a direct proof of the contrapositive. Note that proof by contrapositive is really just another type of direct proof.   "
 },
 {
   "id": "ch-contrapositive-2-9",
   "level": "2",
   "url": "ch-contrapositive-2.html#ch-contrapositive-2-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "type": "Example",
+  "number": "6.1.2",
   "title": "",
-  "body": "Example: "
+  "body": " Suppose we want to do proof by contrapositive of the statement   For all , if is odd, then is odd.   Then instead we would prove   For all , if is even, then is odd.   Notice that     Taking the contrapositive of the conditional statement does not affect the quantifier at the start. We still need to prove this statement for all .    When we negate  is odd we get  is not odd , but every non-odd integer is even, so instead we write  is even .     "
+},
+{
+  "id": "ch-contrapositive-2-11",
+  "level": "2",
+  "url": "ch-contrapositive-2.html#ch-contrapositive-2-11",
+  "type": "Theorem",
+  "number": "6.1.3",
+  "title": "",
+  "body": "  For all , if is odd, then is odd.   "
+},
+{
+  "id": "ch-contrapositive-2-12",
+  "level": "2",
+  "url": "ch-contrapositive-2.html#ch-contrapositive-2-12",
+  "type": "Proof",
+  "number": "6.1.1",
+  "title": "",
+  "body": " We will prove this using the contrapositive, which is: For all , if and only if is even, then is even. So, let . We begin by assuming that is even. By definition of even there exists an integer such that . Substituting, we have We know that and are integers, and the integers are closed under and multiplication. Thus is also an integer. Thus equation shows that can be written in the form where is an integer. By definition of even, this shows that is even. This completes the proof of the contrapositive, showing that if is odd, then is odd.  "
+},
+{
+  "id": "ch-contrapositive-2-13",
+  "level": "2",
+  "url": "ch-contrapositive-2.html#ch-contrapositive-2-13",
+  "type": "Activity",
+  "number": "6.1.1",
+  "title": "",
+  "body": "  For each of the following statements, find the contrapositive (turning the statement into an if-then conditional statement if needed). Then decide which one seems easier to prove - the statement or its contrapositive, and briefly explain why.     For all natural numbers , if then .   Contrapositive:    Circle one and briefly explain:   Easier to prove the original  Easier to prove the contrapositive      For all integers and , if is even, then is even or is even.   Contrapositive:    Circle one and briefly explain:   Easier to prove the original  Easier to prove the contrapositive      Let , and let be a prime. If then and .   Contrapositive:    Circle one and briefly explain:   Easier to prove the original  Easier to prove the contrapositive      For all integers , if is even if and only if is even. (Note there are 2 conditional statements here, write out both conditional statements and their contrapositives.)   Contrapositive:    Circle one and briefly explain:   Easier to prove the original  Easier to prove the contrapositive      For all integers , if is even, then is even.   Contrapositive:    Circle one and briefly explain:   Easier to prove the original  Easier to prove the contrapositive      For all , if is even, then is odd.   Contrapositive:    Circle one and briefly explain:   Easier to prove the original  Easier to prove the contrapositive      No prime number greater than is followed by a perfect square. (Rewrite as a conditional statement first!)   Contrapositive:    Circle one and briefly explain:   Easier to prove the original  Easier to prove the contrapositive    "
+},
+{
+  "id": "thm-evenbicond",
+  "level": "2",
+  "url": "ch-contrapositive-2.html#thm-evenbicond",
+  "type": "Theorem",
+  "number": "6.1.4",
+  "title": "",
+  "body": "  For all integers , is odd if and only if is even.   "
 },
 {
   "id": "ch-contrapositive-2-15",
   "level": "2",
   "url": "ch-contrapositive-2.html#ch-contrapositive-2-15",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "type": "Activity",
+  "number": "6.1.2",
   "title": "",
-  "body": "Proof Writing: "
+  "body": "  Prove . Notice the theorem is biconditional . This means you need to prove 2 conditional statements!   "
 },
 {
-  "id": "ch-contrapositive-2-16",
+  "id": "thm-3dividesbicond",
   "level": "2",
-  "url": "ch-contrapositive-2.html#ch-contrapositive-2-16",
+  "url": "ch-contrapositive-2.html#thm-3dividesbicond",
   "type": "Theorem",
-  "number": "44",
+  "number": "6.1.5",
   "title": "",
-  "body": "  For all , if is odd, then is odd.   "
+  "body": "  For all integers and , if and only if or .   "
 },
 {
   "id": "ch-contrapositive-2-17",
   "level": "2",
   "url": "ch-contrapositive-2.html#ch-contrapositive-2-17",
-  "type": "Proof",
-  "number": "6.1.1",
-  "title": "",
-  "body": " We will prove this using the contrapositive, which is: For all , iff is even, then is even. So, let . We begin by assuming that is even. By definition of even there exists an integer such that . Substituting, we have \\begin{align} n^{2} = (2m)^{2} = 4m^{2} = 2(2m^{2}). \\end{align} We know that and are integers, and the integers are closed under and multiplication. Thus is also an integer. Thus equation (\\ref{eqn:n^2}) shows that can be written in the form where is an integer. By definition of even, this shows that is even. This completes the proof of the contrapositive, showing that if is odd, then is odd.  "
-},
-{
-  "id": "ch-contrapositive-2-18",
-  "level": "2",
-  "url": "ch-contrapositive-2.html#ch-contrapositive-2-18",
   "type": "Activity",
-  "number": "51",
+  "number": "6.1.3",
   "title": "",
-  "body": "  For each of the following statements, find the contrapositive (turning the statement into an ``if-then\" conditional statement if needed). Then decide which one seems easier to prove - the statement or its contrapositive, and briefly explain why.     For all natural numbers , if then .  {\\tiny Easier to prove the original Easier to prove the contrapositive }      For all integers and , if is even, then is even or is even.  {\\tiny Easier to prove the original Easier to prove the contrapositive }      Let , and let be a prime. If then and .  {\\tiny Easier to prove the original Easier to prove the contrapositive }      For all integers , if is even if and only if is even. (Note there are 2 conditional statements here, write out both conditional statements and their contrapositives.)  {\\tiny Easier to prove the original Easier to prove the contrapositive }      For all integers , if is even, then is even.  {\\tiny Easier to prove the original Easier to prove the contrapositive }      For all , if is even, then is odd.  {\\tiny Easier to prove the original Easier to prove the contrapositive }      No prime number greater than is followed by a perfect square. (Rewrite as a conditional statement first!)  {\\tiny Easier to prove the original Easier to prove the contrapositive }    "
+  "body": "  Prove . Note it is again biconditional!   "
 },
 {
   "id": "ch-contrapositive-2-19",
   "level": "2",
   "url": "ch-contrapositive-2.html#ch-contrapositive-2-19",
   "type": "Activity",
-  "number": "52",
+  "number": "6.1.4",
   "title": "",
-  "body": "  Prove the following biconditional theorem. This means you need to prove 2 conditional statements!   "
-},
-{
-  "id": "ch-contrapositive-2-20",
-  "level": "2",
-  "url": "ch-contrapositive-2.html#ch-contrapositive-2-20",
-  "type": "Theorem",
-  "number": "45",
-  "title": "",
-  "body": "  For all integers , is odd if and only if is event.   "
+  "body": "  Evaluate the following proof. Is it correct? Should more be explained? Does it meet our writing guidelines?   A proof, of unknown origin, that for all integers if is even then is even.   A proof, of unknown origin, that if a square integer is even, then the original integer is even.     "
 },
 {
   "id": "ch-contrapositive-2-21",
   "level": "2",
   "url": "ch-contrapositive-2.html#ch-contrapositive-2-21",
-  "type": "Activity",
-  "number": "53",
+  "type": "Remark",
+  "number": "6.1.7",
   "title": "",
-  "body": "  Prove the following biconditional theorem. This means you need to prove 2 conditional statements!   "
-},
-{
-  "id": "ch-contrapositive-2-22",
-  "level": "2",
-  "url": "ch-contrapositive-2.html#ch-contrapositive-2-22",
-  "type": "Theorem",
-  "number": "46",
-  "title": "",
-  "body": "  For all integers and , if and only if or .   "
-},
-{
-  "id": "ch-contrapositive-2-23-2",
-  "level": "2",
-  "url": "ch-contrapositive-2.html#ch-contrapositive-2-23-2",
-  "type": "Activity",
-  "number": "54",
-  "title": "",
-  "body": "  Evaluate the following proof. Is it correct? Should more be explained? Does it meet our writing guidelines?  \\includegraphics{images\/ContrapositiveForCowards.PNG}   "
-},
-{
-  "id": "ch-contrapositive-2-24-3",
-  "level": "2",
-  "url": "ch-contrapositive-2.html#ch-contrapositive-2-24-3",
-  "type": "Activity",
-  "number": "55",
-  "title": "",
-  "body": "  Here are two things that sometimes happen in math:    A counterexample comes early, but it turns out to be the only counterexample. E.g., find counterexamples to the following \\begin{itemize} \\item Every prime is odd. \\item No prime number is followed by a perfect square. \\end{itemize} It turns out the first statement is true for any prime greater than 2, and the second is true for any prime greater than 3. If time: Can you prove these?    Sometimes the ``first\" counterexample comes really late, but then there are lots of counterexamples. Consider the following statement \\begin{itemize} \\item If is prime then is prime. \\end{itemize} It turns out this is true for and , but it is not true for . Prime numbers of the form for a prime are know as Mersenne Primes. Currently we know of Mersenne primes and (which is 41,024,320 digits) is the largest known prime number (found in 2024). Also, the following statment \\begin{itemize} \\item For every , \\end{itemize} The first counterexample for this has digits (see page 270 of your textbook). We know one exists because the harmonic series diverges (you'd see this in Calc 2). After the first counterexample, every natural number is a counterexample, do you see why?     "
+  "body": " Here are two things that sometimes happen in math:     A counterexample comes early, but it turns out to be the only counterexample. E.g., find counterexamples to the following   Every prime is odd.    No prime number is followed by a perfect square.   It turns out the first statement is true for any prime greater than 2, and the second is true for any prime greater than 3. If time: Can you prove these?    Sometimes the first counterexample comes really late, but then there are lots of counterexamples. Consider the following statements   If is prime then is prime.    For every ,    It turns out the first is true for and , but it is not true for . Prime numbers of the form for a prime are know as Mersenne Primes. Currently we know of Mersenne primes and (which is 41,024,320 digits) is the largest known prime number (found in 2024). For the second statement, the first counterexample for this has digits (see page 270 of your textbook). We know one exists because the harmonic series diverges (you'd see this in Calc 2). After the first counterexample, every natural number is a counterexample, do you see why?     "
 },
 {
   "id": "ch-contradiction-2",
   "level": "1",
   "url": "ch-contradiction-2.html",
-  "type": "Worksheet",
+  "type": "Handout",
   "number": "7.1",
-  "title": "Chapter 7: Contradiction",
-  "body": " Chapter 7: Contradiction   What Proof by Contradiction Is  In a proof by contradiction , we    Assume the negation    Reduce to the absurd    Conclude the negation could not have been true      Why Use Proof by Contradiction  Some of the most consequential theorems in history were proved by contradiction. See https:\/\/philosophersguild.com\/products\/proof-is-in-the-pudding-bowls : 2 of the 4 proofs chosen for the bowls are proofs by contradiction. For example,    There are infinitely many prime numbers.    The number is irrational.    are both proved by contradiction.   Question: Why?  {\\scriptsize To answer this, you might discuss: (a) What is the negation and how might that be helpful for starting a proof? (b) What other proof techniques could you try and how would those start?}    First Example  You have already seen a proof by contradiction, on page 38 of the worksheets, in Chapter 3 about sets.  Read the following proof, one sentence at a time, and underline sentences that you think will be in every proof by contradiction.    If and . Then .     We will use a proof by contradiction. That is, we assume and and . Since , there exists such that . Since , and so . This means there exists such that , or   Also, since , we know . So and thus there exists such that or   Since and , by substitution and algebra we get, \\begin{align*} 4k+2 & = 6j+3 4k &= 6j+1 2(2k) &= 2(3j)+1. \\end{align*} By closure of integers under multiplication, and . Therefore is an even integer and is an odd integer. But this is a contradiction - there is no integer that is both even and odd! This contradicts our assumption that , and thus we conclude .    Note 1: ``Even = Odd\" is one example of a contradiction you might get. You also could get other contradictions in the proof above - can you think of a different one? Note 2 : We could have also phrased the above theorem as ``For each integer , if then .\" Why would it make sense to use contradiction for that theorem statement (and not, say, contrapositive)? What would change about the proof above?    Starting A Proof By Contradiction  One of the most important parts of proof by contradiction is the very first part: Stating the assumptions. This requires writing a clear negation of the theorem to be proven.    For each statement below, write its negation to start the proof by contradiction.      Theorem.  For all real numbers and , if and , then .    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For each real number , is irrational or is irrational.    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For each real number , if is irrational, then is irrational.    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For each , if and then .    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For all integers and , if , then and .    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For all integers and , if then or .    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume   If time: When you have each negation completed, go back and try to figure out what the next main step of logic would be. That is, what's the next helpful statement you could make in a contradiction proof?   If time 2: Could you prove any of these with a different proof technique? For example, would any of the proofs be better with contrapositive? Or cases?       Practicing Proofs  Recall a real number is rational if for some with . Otherwise, we say is irrational . Recall that the set of rationals is denoted (for quotient).  You may use any of the following as lemmas without proof:  (a) is irrational. We will prove that on pages 89-90  (b) If , if then or .  (c) For all and , if and then .  Space for notes on your proof(s):  What are some examples of contradictions you can get?    Irrationals  Recall a real number is rational if for some with . Otherwise, we say is irrational .  Pythagoras, of Pythagorean Theorem fame, did not believe in irrational numbers. Which is wild, because they were right under his nose:  There is an apocryphal story (that may not be true) that Hippasus of Metapontum, a member of the school of Pythagoreans, proved that is irrational, after Pythagoras died. This was upsetting to other Pythagoreans, and Hippasus was drowned at sea.  Let's outline the proof that is irrational below.  Here is a formal proof that is irrational. We won't prove the lemma here, but in general you should either prove the lemma, or cite a page from worksheets, homework, or the book. Fill in the blanks.    For all integers , is even if and only if is even.      The real number is irrational.     series Proof. To prove that is irrational, we _____. In particular, we _____ that _____. This tells us that there exist integers and with such that  We further assume that and have no common factors so that is in lowest terms. Let us now consider the consequences of assuming that Our goal is to show that  Squaring both sides of , we find that , so that multiplying by , we have \\begin{equation} _____. \\end{equation} Since is an integer, it follows that _____ is even. By the lemma, which states that an integer is even if and only if its square is even, we now know that since is even, it follows that is also even. In particular, there exists some integer such that \\begin{equation} _____. \\end{equation} If we now substitute for in Equation~(\\ref{Q:m^2}), it follows that . Dividing both sides by 2, we find that \\begin{equation} _____. \\end{equation} Now Equation~(\\ref{Q:n^2}) implies that is even, and therefore by again applying the lemma, must also be even. In particular, there exists some integer such that \\begin{equation} _____. \\end{equation} Now consider Equations~(\\ref{Q:m}) and~(\\ref{Q:n}). These show that and , so that and share a common factor of , and thus is not in lowest terms. This is _____. Moreover, this contradiction proves that our assumption that is rational _____, and therefore is irrational.     For all integers and , if , then or given integers , , .    Disprove this conjecture:   The Prime Divisor Theorem   [The Prime Divisor Theorem] Let , and be natural numbers. If and is prime, then or .    This result enables us to consider additional results on irrational numbers.   series Theorem. The real number is irrational.   series Proof. To prove that is irrational, we argue by contradiction. In particular, we assume to the contrary that is rational. This tells us that there exist integers and with such that  \\ \\  We further assume that and have no common factors so that is in lowest terms. Let us now consider the consequences of assuming that   Squaring both sides of this equation, we find that , so that multiplying by , we have \\begin{equation} m^2 = 3n^2. \\end{equation} Since is an integer, it follows that _____. By  In particular, there exists some integer such that \\begin{equation} \\ \\end{equation} If we now substitute for in Equation~(\\ref{Q3:m^2}), it follows that . Dividing both sides by 3, we find that \\begin{equation} \\ \\end{equation} Now Equation~(\\ref{Q3:n^2}) implies that _____, and therefore by again applying  In particular, there exists some integer such that \\begin{equation} \\ \\end{equation} Now consider Equations~(\\ref{Q3:m}) and~(\\ref{Q3:n}). These show that _____ and _____ so that and share a common factor of _____, and thus is not in lowest terms. This is _____. Moreover, this contradiction proves that our assumption that is rational _____, and therefore is irrational.     More Proofs by Contradiction    Try to determine if the following conjectures are true on false. If true, work on the proving the following theorems by contradiction.    For each real number , if then .    Let and be integers. If and and then the equation has no solution in which both and are integers.    For each positive real number , if is irrational then is irrational.       "
+  "title": "What is Proof by Contradiction and Why Do It?",
+  "body": " What is Proof by Contradiction and Why Do It?  In a proof by contradiction , we     Assume the negation    Reduce to the absurd    Conclude the negation could not have been true.     Some of the most consequential theorems in history were proved by contradiction.See https:\/\/philosophersguild.com\/products\/proof-is-in-the-pudding-bowls : 2 of the 4 proofs chosen for the bowls are proofs by contradiction.   We typically prove the following two theorems by contradiction.     There are infinitely many prime numbers.    The number is irrational.     Why would you use proof by contradiction for these theorems? To answer this, you might discuss: (a) What is the negation and how might that be helpful for starting a proof? (b) What other proof techniques could you try and how would those start?    First Example  You have already seen a proof by contradiction, on page 38 of the worksheets, in Chapter 3 about sets.  Read the following proof, one sentence at a time, and underline sentences that you think will be in every proof by contradiction.     If and . Then .     We will use a proof by contradiction. That is, we assume and and . Since , there exists such that . Since , and so . This means there exists such that , or   Also, since , we know . So and thus there exists such that or   Since and , by substitution and algebra we get, By closure of integers under multiplication, and . Therefore is an even integer and is an odd integer. But this is a contradiction - there is no integer that is both even and odd! This contradicts our assumption that , and thus we conclude .    In a proof by contradiction, you want to work towards something obviously absurd. Even = Odd is one example of a contradiction you might get. You also could get other contradictions in the proof above - can you think of a different one?  We could have also phrased the above theorem as For each integer , if then . Why would it make sense to use contradiction for that theorem statement (and not, say, contrapositive)? What would change about the proof above?   "
 },
 {
-  "id": "ch-contradiction-2-2-2",
+  "id": "ch-contradiction-2-2",
   "level": "2",
-  "url": "ch-contradiction-2.html#ch-contradiction-2-2-2",
+  "url": "ch-contradiction-2.html#ch-contradiction-2-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "proof by contradiction "
 },
 {
-  "id": "ch-contradiction-2-3-5",
+  "id": "ch-contradiction-2-5",
   "level": "2",
-  "url": "ch-contradiction-2.html#ch-contradiction-2-3-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "url": "ch-contradiction-2.html#ch-contradiction-2-5",
+  "type": "Activity",
+  "number": "7.1.1",
   "title": "",
-  "body": "Question: "
+  "body": " We typically prove the following two theorems by contradiction.     There are infinitely many prime numbers.    The number is irrational.     Why would you use proof by contradiction for these theorems? To answer this, you might discuss: (a) What is the negation and how might that be helpful for starting a proof? (b) What other proof techniques could you try and how would those start?  "
 },
 {
-  "id": "ch-contradiction-2-4-4",
+  "id": "ch-contradiction-2-7",
   "level": "2",
-  "url": "ch-contradiction-2.html#ch-contradiction-2-4-4",
+  "url": "ch-contradiction-2.html#ch-contradiction-2-7",
   "type": "Theorem",
-  "number": "47",
+  "number": "7.1.1",
   "title": "",
   "body": "  If and . Then .   "
 },
 {
-  "id": "ch-contradiction-2-4-5",
+  "id": "ch-contradiction-2-8",
   "level": "2",
-  "url": "ch-contradiction-2.html#ch-contradiction-2-4-5",
+  "url": "ch-contradiction-2.html#ch-contradiction-2-8",
   "type": "Proof",
-  "number": "1",
+  "number": "7.1.1",
   "title": "",
-  "body": " We will use a proof by contradiction. That is, we assume and and . Since , there exists such that . Since , and so . This means there exists such that , or   Also, since , we know . So and thus there exists such that or   Since and , by substitution and algebra we get, \\begin{align*} 4k+2 & = 6j+3 4k &= 6j+1 2(2k) &= 2(3j)+1. \\end{align*} By closure of integers under multiplication, and . Therefore is an even integer and is an odd integer. But this is a contradiction - there is no integer that is both even and odd! This contradicts our assumption that , and thus we conclude .  "
+  "body": " We will use a proof by contradiction. That is, we assume and and . Since , there exists such that . Since , and so . This means there exists such that , or   Also, since , we know . So and thus there exists such that or   Since and , by substitution and algebra we get, By closure of integers under multiplication, and . Therefore is an even integer and is an odd integer. But this is a contradiction - there is no integer that is both even and odd! This contradicts our assumption that , and thus we conclude .  "
 },
 {
-  "id": "ch-contradiction-2-4-6",
+  "id": "ch-contradiction-2-9",
   "level": "2",
-  "url": "ch-contradiction-2.html#ch-contradiction-2-4-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "url": "ch-contradiction-2.html#ch-contradiction-2-9",
+  "type": "Remark",
+  "number": "7.1.2",
   "title": "",
-  "body": "Note 1: Note 2 "
+  "body": " In a proof by contradiction, you want to work towards something obviously absurd. Even = Odd is one example of a contradiction you might get. You also could get other contradictions in the proof above - can you think of a different one?  We could have also phrased the above theorem as For each integer , if then . Why would it make sense to use contradiction for that theorem statement (and not, say, contrapositive)? What would change about the proof above?  "
 },
 {
-  "id": "ch-contradiction-2-5-3",
+  "id": "ch-contradiction-3",
+  "level": "1",
+  "url": "ch-contradiction-3.html",
+  "type": "Handout",
+  "number": "7.2",
+  "title": "Starting A Proof By Contradiction",
+  "body": " Starting A Proof By Contradiction  One of the most important parts of proof by contradiction is the very first part: Stating the assumptions. This requires writing a clear negation of the theorem to be proven.    For each statement below, write its negation to start the proof by contradiction.      Theorem.  For all real numbers and , if and , then .    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For each real number , is irrational or is irrational.    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For each real number , if is irrational, then is irrational.    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For each , if and then .    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For all integers and , if , then and .    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For all integers and , if then or .    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume   If time: When you have each negation completed, go back and try to figure out what the next main step of logic would be. That is, what's the next helpful statement you could make in a contradiction proof?   If time 2: Could you prove any of these with a different proof technique? For example, would any of the proofs be better with contrapositive? Or cases?     "
+},
+{
+  "id": "act-contradictionstart",
   "level": "2",
-  "url": "ch-contradiction-2.html#ch-contradiction-2-5-3",
+  "url": "ch-contradiction-3.html#act-contradictionstart",
   "type": "Activity",
-  "number": "56",
+  "number": "7.2.1",
   "title": "",
   "body": "  For each statement below, write its negation to start the proof by contradiction.      Theorem.  For all real numbers and , if and , then .    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For each real number , is irrational or is irrational.    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For each real number , if is irrational, then is irrational.    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For each , if and then .    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For all integers and , if , then and .    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume       Theorem.  For all integers and , if then or .    Proof. We will use a proof by contradiction. So we assume the theorem is false. That is, we assume   If time: When you have each negation completed, go back and try to figure out what the next main step of logic would be. That is, what's the next helpful statement you could make in a contradiction proof?   If time 2: Could you prove any of these with a different proof technique? For example, would any of the proofs be better with contrapositive? Or cases?    "
 },
 {
-  "id": "ch-contradiction-2-6-2",
+  "id": "ch-contradiction-4",
+  "level": "1",
+  "url": "ch-contradiction-4.html",
+  "type": "Handout",
+  "number": "7.3",
+  "title": "Practicing Whole Proofs By Contradiction",
+  "body": " Practicing Whole Proofs By Contradiction  Recall a real number is rational if for some with . Otherwise, we say is irrational . Recall that the set of rationals is denoted (for quotient).  You may use any of the following as lemmas without proof. We will prove soon.    The real number is irrational.      If , if then or .      For all and , if and then .     Work to prove the theorems in .  What are some examples of contradictions you can get?   "
+},
+{
+  "id": "ch-contradiction-4-2",
   "level": "2",
-  "url": "ch-contradiction-2.html#ch-contradiction-2-6-2",
+  "url": "ch-contradiction-4.html#ch-contradiction-4-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "rational irrational "
 },
 {
-  "id": "ch-contradiction-2-7-2",
+  "id": "lem-sqrt2",
   "level": "2",
-  "url": "ch-contradiction-2.html#ch-contradiction-2-7-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "rational irrational "
-},
-{
-  "id": "ch-contradiction-2-7-7",
-  "level": "2",
-  "url": "ch-contradiction-2.html#ch-contradiction-2-7-7",
+  "url": "ch-contradiction-4.html#lem-sqrt2",
   "type": "Lemma",
-  "number": "48",
-  "title": "",
-  "body": "  For all integers , is even if and only if is even.   "
-},
-{
-  "id": "ch-contradiction-2-7-8",
-  "level": "2",
-  "url": "ch-contradiction-2.html#ch-contradiction-2-7-8",
-  "type": "Theorem",
-  "number": "49",
+  "number": "7.3.1",
   "title": "",
   "body": "  The real number is irrational.   "
 },
 {
-  "id": "ch-contradiction-2-7-9",
+  "id": "ch-contradiction-4-5",
   "level": "2",
-  "url": "ch-contradiction-2.html#ch-contradiction-2-7-9",
+  "url": "ch-contradiction-4.html#ch-contradiction-4-5",
+  "type": "Lemma",
+  "number": "7.3.2",
+  "title": "",
+  "body": "  If , if then or .   "
+},
+{
+  "id": "ch-contradiction-4-6",
+  "level": "2",
+  "url": "ch-contradiction-4.html#ch-contradiction-4-6",
+  "type": "Lemma",
+  "number": "7.3.3",
+  "title": "",
+  "body": "  For all and , if and then .   "
+},
+{
+  "id": "ch-contradiction-4-7",
+  "level": "2",
+  "url": "ch-contradiction-4.html#ch-contradiction-4-7",
+  "type": "Activity",
+  "number": "7.3.1",
+  "title": "",
+  "body": " Work to prove the theorems in .  What are some examples of contradictions you can get?  "
+},
+{
+  "id": "ch-contradiction-5",
+  "level": "1",
+  "url": "ch-contradiction-5.html",
+  "type": "Handout",
+  "number": "7.4",
+  "title": "Irrationals",
+  "body": " Irrationals  Recall a real number is rational if for some with . Otherwise, we say is irrational .  Pythagoras, of Pythagorean Theorem fame, did not believe in irrational numbers. Which is wild, because they were right under his nose:  There is an apocryphal story (that may not be true) that Hippasus of Metapontum, a member of the school of Pythagoreans, proved that is irrational, after Pythagoras died. This was upsetting to other Pythagoreans, and Hippasus was drowned at sea.  Let's outline the proof that is irrational below.  Here is a formal proof that is irrational. We won't prove the lemma here, but in general you should either prove the lemma, or cite a page from worksheets, homework, or the book. Fill in the blanks.    For all integers , is even if and only if is even.      The real number is irrational.     To prove that is irrational, we  In particular, we assume  This tells us that there exist integers and with such that  We further assume that and have no common factors so that is in lowest terms. Let us now consider the consequences of assuming that Our goal is to show that  Squaring both sides of , we find that , so that multiplying by , we have   Since is an integer, it follows that is even. By , which states that an integer is even if and only if its square is even, we now know that since is even, it follows that is also even. In particular, there exists some integer such that   If we now substitute for in Equation , it follows that Dividing both sides by 2, we find that Now Equation implies that is even, and therefore by again , must also be even. In particular, there exists some integer such that   Now consider Equations and . These show that and , so that and share a common factor of , and thus is not in lowest terms. This is . Moreover, this contradiction proves that our assumption that is rational , and therefore is irrational.     For all integers and , if , then or given integers , , .      Does seem true or false? Try to prove or disprove. (I think one skill of a mathematician is holding two contradictory ideas at the same time - we don't know if something is true or false yet, so we try to alternate proving and disproving.)     The Prime Divisor Theorem   Let , and be natural numbers. If and is prime, then or .    This result enables us to consider additional results on irrational numbers.    The real number is irrational.     To prove that is irrational, we argue by contradiction. In particular, we assume to the contrary that is rational. This tells us that there exist integers and with such that   We further assume that and have no common factors so that is in lowest terms. Let us now consider the consequences of assuming that   Squaring both sides of this equation, we find that , so that multiplying by , we have   Since is an integer, it follows that . By , we know   In particular, there exists some integer such that If we now substitute for in Equation , it follows that . Dividing both sides by 3, we find that Now Equation implies that _____, and therefore by again applying , we know   In particular, there exists some integer such that Now consider Equations and . These show that and so that and share a common factor of , and thus is not in lowest terms. This is Moreover, this contradiction proves that our assumption that is rational , and therefore is irrational.    We have now proved and are irrational. What other numbers can you prove are irrational using the same strategy and ? Can you prove , , and are all irrational?   "
+},
+{
+  "id": "ch-contradiction-5-2",
+  "level": "2",
+  "url": "ch-contradiction-5.html#ch-contradiction-5-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "series Proof. "
+  "body": "rational irrational "
 },
 {
-  "id": "ch-contradiction-2-7-12",
+  "id": "lem-squareeven",
   "level": "2",
-  "url": "ch-contradiction-2.html#ch-contradiction-2-7-12",
+  "url": "ch-contradiction-5.html#lem-squareeven",
+  "type": "Lemma",
+  "number": "7.4.1",
+  "title": "",
+  "body": "  For all integers , is even if and only if is even.   "
+},
+{
+  "id": "ch-contradiction-5-8",
+  "level": "2",
+  "url": "ch-contradiction-5.html#ch-contradiction-5-8",
+  "type": "Theorem",
+  "number": "7.4.2",
+  "title": "",
+  "body": "  The real number is irrational.   "
+},
+{
+  "id": "ch-contradiction-5-9",
+  "level": "2",
+  "url": "ch-contradiction-5.html#ch-contradiction-5-9",
+  "type": "Proof",
+  "number": "7.4.1",
+  "title": "",
+  "body": " To prove that is irrational, we  In particular, we assume  This tells us that there exist integers and with such that  We further assume that and have no common factors so that is in lowest terms. Let us now consider the consequences of assuming that Our goal is to show that  Squaring both sides of , we find that , so that multiplying by , we have   Since is an integer, it follows that is even. By , which states that an integer is even if and only if its square is even, we now know that since is even, it follows that is also even. In particular, there exists some integer such that   If we now substitute for in Equation , it follows that Dividing both sides by 2, we find that Now Equation implies that is even, and therefore by again , must also be even. In particular, there exists some integer such that   Now consider Equations and . These show that and , so that and share a common factor of , and thus is not in lowest terms. This is . Moreover, this contradiction proves that our assumption that is rational , and therefore is irrational.  "
+},
+{
+  "id": "con-dividesfalse",
+  "level": "2",
+  "url": "ch-contradiction-5.html#con-dividesfalse",
   "type": "Conjecture",
-  "number": "50",
+  "number": "7.4.3",
   "title": "",
   "body": "  For all integers and , if , then or given integers , , .   "
 },
 {
-  "id": "ch-contradiction-2-7-14",
+  "id": "ch-contradiction-5-11",
   "level": "2",
-  "url": "ch-contradiction-2.html#ch-contradiction-2-7-14",
-  "type": "Theorem",
-  "number": "51",
-  "title": "The Prime Divisor Theorem.",
-  "body": " The Prime Divisor Theorem   [The Prime Divisor Theorem] Let , and be natural numbers. If and is prime, then or .   "
-},
-{
-  "id": "ch-contradiction-2-7-16",
-  "level": "2",
-  "url": "ch-contradiction-2.html#ch-contradiction-2-7-16",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "series Theorem. "
-},
-{
-  "id": "ch-contradiction-2-7-17",
-  "level": "2",
-  "url": "ch-contradiction-2.html#ch-contradiction-2-7-17",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "series Proof. "
-},
-{
-  "id": "ch-contradiction-2-8-2",
-  "level": "2",
-  "url": "ch-contradiction-2.html#ch-contradiction-2-8-2",
+  "url": "ch-contradiction-5.html#ch-contradiction-5-11",
   "type": "Activity",
-  "number": "57",
+  "number": "7.4.1",
   "title": "",
-  "body": "  Try to determine if the following conjectures are true on false. If true, work on the proving the following theorems by contradiction.    For each real number , if then .    Let and be integers. If and and then the equation has no solution in which both and are integers.    For each positive real number , if is irrational then is irrational.     "
+  "body": "  Does seem true or false? Try to prove or disprove. (I think one skill of a mathematician is holding two contradictory ideas at the same time - we don't know if something is true or false yet, so we try to alternate proving and disproving.)   "
+},
+{
+  "id": "ch07-thm-primedivisor",
+  "level": "2",
+  "url": "ch-contradiction-5.html#ch07-thm-primedivisor",
+  "type": "Theorem",
+  "number": "7.4.4",
+  "title": "The Prime Divisor Theorem.",
+  "body": " The Prime Divisor Theorem   Let , and be natural numbers. If and is prime, then or .   "
+},
+{
+  "id": "ch-contradiction-5-14",
+  "level": "2",
+  "url": "ch-contradiction-5.html#ch-contradiction-5-14",
+  "type": "Theorem",
+  "number": "7.4.5",
+  "title": "",
+  "body": "  The real number is irrational.   "
+},
+{
+  "id": "ch-contradiction-5-15",
+  "level": "2",
+  "url": "ch-contradiction-5.html#ch-contradiction-5-15",
+  "type": "Proof",
+  "number": "7.4.2",
+  "title": "",
+  "body": " To prove that is irrational, we argue by contradiction. In particular, we assume to the contrary that is rational. This tells us that there exist integers and with such that   We further assume that and have no common factors so that is in lowest terms. Let us now consider the consequences of assuming that   Squaring both sides of this equation, we find that , so that multiplying by , we have   Since is an integer, it follows that . By , we know   In particular, there exists some integer such that If we now substitute for in Equation , it follows that . Dividing both sides by 3, we find that Now Equation implies that _____, and therefore by again applying , we know   In particular, there exists some integer such that Now consider Equations and . These show that and so that and share a common factor of , and thus is not in lowest terms. This is Moreover, this contradiction proves that our assumption that is rational , and therefore is irrational.  "
+},
+{
+  "id": "ch-contradiction-5-16",
+  "level": "2",
+  "url": "ch-contradiction-5.html#ch-contradiction-5-16",
+  "type": "Activity",
+  "number": "7.4.2",
+  "title": "",
+  "body": " We have now proved and are irrational. What other numbers can you prove are irrational using the same strategy and ? Can you prove , , and are all irrational?  "
+},
+{
+  "id": "ch-contradiction-6",
+  "level": "1",
+  "url": "ch-contradiction-6.html",
+  "type": "Handout",
+  "number": "7.5",
+  "title": "More Proofs by Contradiction",
+  "body": " More Proofs by Contradiction    Try to determine if the following conjectures are true on false. If true, work on the proving them by contradiction. Otherwise, find a counterexample.     For each real number , if then .    Let and be integers. If and and then the equation has no solution in which both and are integers.    For each positive real number , if is irrational then is irrational.       "
+},
+{
+  "id": "ch-contradiction-6-2",
+  "level": "2",
+  "url": "ch-contradiction-6.html#ch-contradiction-6-2",
+  "type": "Activity",
+  "number": "7.5.1",
+  "title": "",
+  "body": "  Try to determine if the following conjectures are true on false. If true, work on the proving them by contradiction. Otherwise, find a counterexample.     For each real number , if then .    Let and be integers. If and and then the equation has no solution in which both and are integers.    For each positive real number , if is irrational then is irrational.      "
 },
 {
   "id": "ch-functions-2",
   "level": "1",
   "url": "ch-functions-2.html",
-  "type": "Worksheet",
+  "type": "Handout",
   "number": "8.1",
-  "title": "Chapter 8 (Part 1): Functions - Injections and Surjections",
-  "body": " Chapter 8 (Part 1): Functions - Injections and Surjections   Definitions  Given a pair of sets and , suppose that each element is associated in some way, to a unique element of , which we denote . Then is said to be a function from to . This is often denoted Furthermore, is called the domain of , and is called the codomain of . The set is called the range of .  A function is injective (or one-to-one ) if for all , if then .  A function is surjective (or onto ) if, for every , there exists some such that .  A function is bijective if, is both injective and surjective.  If and then the element that is associated with is denoted by and is called the image of under . If with then is called a pre-image of under . If we say the pre-image of under then we are referring to the set of all pre-images.    Examples:    Draw an arrow diagram, or write down a function formula, for each of the following.       |p{2.5in}|} Term  Example  Non-example    Function      [55pt] Injection      [55pt] Surjection      [55pt] Bijection      [55pt]       Choose an example from the table above and use the terms ``image\" and ``pre-image\".      Why do we say ``the\" image, but ``a\" pre-image.      What do we call it when all the elements in the range have a unique pre-image? What do we call it when all the elements in the codomain have a unique pre-image?      If and are finite sets, and is an injection, what can you say about vs. ?      If and are finite sets, and is a surjection, what can you say about vs. ?      If and are finite sets, and is a bijection, what can you say about vs. ?       For each of the following functions, in addition to answering the given questions you should determine:    the domain, codomain, and range,    and then determine if they are injections, surjections, or bijections.       For all , . What is the image of ? of ? What is the pre-image of ? of ?      For all people in the world, B(person) = person's birthday. (Just the month and day, e.g., B(DocK) = May 29.) What is the image of each member of your group?   If time: How would this be different if we changed the domain to be just the people in our class?      For all , . (Here we mean the remainder when is divided by .) Determine the images of and under . What is the pre-image of ? What is the pre-image of ?       If time: For all , . What are the images of , and under ? What is the pre-image of under ? What is the pre-image of ?       Disproving Injection and Surjection  Let's start with disproving. Recall the following definitions.  A function is injective if for all , if then .  A function is surjective if, for every , there exists some such that .     Disproving is like proving the negation. Negate the definitions above to complete the sentences:     A function is not injective if      A function is not surjective if       Let be the set of all matrices with real entries. That is, Prove that defined by is not an injection.      Prove that defined by is not surjective. Hint: Graph it! What's in the codomain but not in the range?        Proving Injection and Surjection    We'll do the scratch work for proving a function is a bijection.     Let be defined by . (Fill in the blanks, look at \\#3 on page 98!)      Write down the definition of injective here:      What will you assume? What will you try to show?      To start: Pick two arbitrary such that: _____      Now do some algebra to get to what you want to show! That will finish the proof of injective.      Write down the definition of surjective:      In order to show that is surjective, start with an arbitrary . You must show that there exists an such that _____.      Now do some algebra scratch-work to figure out what  should be.      Your work above is not enough to show that (why not?). There are two things to check:     Is your in the domain of ? Verify this.      Does ? Show directly by substituting your into the formula and simplifying.        Let be defined by for all . Then is a bijection.     Let be defined by for all . We will prove that is a bijection by proving that it is both a surjection and an injection.  We will first show that is a surjection. So, let be any element of the codomain of . Let . We will show that and that .  We begin by showing that is in the domain of . To do this, we will show that and . Real numbers are closed under subtraction and division (as long as they are nonzero), and by assumption , so . Next we will show that . To see this, suppose that . Using algebra, we find that , which simplifies to , a contradiction. Thus , and so .  Now we will show that . Using algebra, \\begin{align*} f(x) = f\\left(\\frac{z-1}{z}\\right) &= \\dfrac{1}{1 - \\left(\\frac{z-1}{z}\\right)} &= \\dfrac{1}{\\frac{z}{z} - \\frac{z-1}{z}} &= \\dfrac{1}{\\frac{z - (z-1)}{z}} &= \\dfrac{1}{\\frac{1}{z}} &= z. \\end{align*}  Thus for each in the codomain of , there exists in the domain of such that . Therefore by definition, is a surjection.  We will now show that is an injection. So, suppose that for some . We will show that . Using algebra, \\begin{align*} f(x) &= f(y) \\dfrac{1}{1-x} &= \\dfrac{1}{1-y} 1-y &= 1-x x &= y. \\end{align*} Thus, for all and in the domain of , whenever , we must have . Therefore is an injection.  Because we have shown that is both a surjection and an injection, we have shown that is a bijection.    "
+  "title": "Functions Introduction",
+  "body": " Functions Introduction    Given a pair of sets and , suppose that each element is associated in some way, to a unique element of , which we denote . Then is said to be a function from to . This is often denoted Furthermore, is called the domain of , and is called the codomain of . The set is called the range of .      A function is injective (or one-to-one ) if for all , if then .  A function is surjective (or onto ) if, for every , there exists some such that .  A function is bijective if, is both injective and surjective.      If and then the element that is associated with is denoted by and is called the image of under . If with then is called a pre-image of under . If we say the pre-image of under then we are referring to the set of all pre-images.      Let's do some examples. Draw an arrow diagram, or write down a function formula, for each of the following.   words   A table for giving examples and non-examples      Term  Example  Non-example  Function  Injection  Surjection  Bijection          Choose an example from the table above and use the terms image and pre-image .      Why do we say the image, but a pre-image.      What do we call it when all the elements in the range have a unique pre-image? What do we call it when all the elements in the codomain have a unique pre-image?      If and are finite sets, and is an injection, what can you say about vs. ?      If and are finite sets, and is a surjection, what can you say about vs. ?      If and are finite sets, and is a bijection, what can you say about vs. ?       For each of the following functions, in addition to answering the given questions you should determine:  the domain, codomain, and range,  and then determine if they are injections, surjections, or bijections.     For all , . What is the image of ? of ? What is the pre-image of ? of ?      For all people in the world, B(person) = person's birthday. (Just the month and day, e.g., B(DocK) = May 29.) What is the image of each member of your group?   If time: How would this be different if we changed the domain to be just the people in our class?      For all , . (Here we mean the remainder when is divided by .) Determine the images of and under . What is the pre-image of ? What is the pre-image of ?       If time: For all , . What are the images of , and under ? What is the pre-image of under ? What is the pre-image of ?     "
 },
 {
-  "id": "ch-functions-2-2-2",
+  "id": "ch08-def-function",
   "level": "2",
-  "url": "ch-functions-2.html#ch-functions-2-2-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "url": "ch-functions-2.html#ch08-def-function",
+  "type": "Definition",
+  "number": "8.1.1",
   "title": "",
-  "body": "function domain codomain range "
+  "body": "  Given a pair of sets and , suppose that each element is associated in some way, to a unique element of , which we denote . Then is said to be a function from to . This is often denoted Furthermore, is called the domain of , and is called the codomain of . The set is called the range of .   "
 },
 {
-  "id": "ch-functions-2-2-3",
+  "id": "ch08-def-jection",
   "level": "2",
-  "url": "ch-functions-2.html#ch-functions-2-2-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "url": "ch-functions-2.html#ch08-def-jection",
+  "type": "Definition",
+  "number": "8.1.2",
   "title": "",
-  "body": "injective "
+  "body": "  A function is injective (or one-to-one ) if for all , if then .  A function is surjective (or onto ) if, for every , there exists some such that .  A function is bijective if, is both injective and surjective.   "
 },
 {
-  "id": "ch-functions-2-2-4",
+  "id": "ch08-def-image",
   "level": "2",
-  "url": "ch-functions-2.html#ch-functions-2-2-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "url": "ch-functions-2.html#ch08-def-image",
+  "type": "Definition",
+  "number": "8.1.3",
   "title": "",
-  "body": "surjective "
+  "body": "  If and then the element that is associated with is denoted by and is called the image of under . If with then is called a pre-image of under . If we say the pre-image of under then we are referring to the set of all pre-images.   "
 },
 {
-  "id": "ch-functions-2-2-5",
+  "id": "ch-functions-2-5",
   "level": "2",
-  "url": "ch-functions-2.html#ch-functions-2-2-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "bijective "
-},
-{
-  "id": "ch-functions-2-2-6",
-  "level": "2",
-  "url": "ch-functions-2.html#ch-functions-2-2-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "image of under pre-image of under the pre-image of under "
-},
-{
-  "id": "ch-functions-2-3-2",
-  "level": "2",
-  "url": "ch-functions-2.html#ch-functions-2-3-2",
+  "url": "ch-functions-2.html#ch-functions-2-5",
   "type": "Activity",
-  "number": "58",
+  "number": "8.1.1",
   "title": "",
-  "body": "  Draw an arrow diagram, or write down a function formula, for each of the following.       |p{2.5in}|} Term  Example  Non-example    Function      [55pt] Injection      [55pt] Surjection      [55pt] Bijection      [55pt]       Choose an example from the table above and use the terms ``image\" and ``pre-image\".      Why do we say ``the\" image, but ``a\" pre-image.      What do we call it when all the elements in the range have a unique pre-image? What do we call it when all the elements in the codomain have a unique pre-image?      If and are finite sets, and is an injection, what can you say about vs. ?      If and are finite sets, and is a surjection, what can you say about vs. ?      If and are finite sets, and is a bijection, what can you say about vs. ?    "
+  "body": "  Let's do some examples. Draw an arrow diagram, or write down a function formula, for each of the following.   words   A table for giving examples and non-examples      Term  Example  Non-example  Function  Injection  Surjection  Bijection          Choose an example from the table above and use the terms image and pre-image .      Why do we say the image, but a pre-image.      What do we call it when all the elements in the range have a unique pre-image? What do we call it when all the elements in the codomain have a unique pre-image?      If and are finite sets, and is an injection, what can you say about vs. ?      If and are finite sets, and is a surjection, what can you say about vs. ?      If and are finite sets, and is a bijection, what can you say about vs. ?    "
 },
 {
-  "id": "ch-functions-2-3-3",
+  "id": "ch-functions-2-6",
   "level": "2",
-  "url": "ch-functions-2.html#ch-functions-2-3-3",
+  "url": "ch-functions-2.html#ch-functions-2-6",
   "type": "Activity",
-  "number": "59",
+  "number": "8.1.2",
   "title": "",
-  "body": "  For each of the following functions, in addition to answering the given questions you should determine:    the domain, codomain, and range,    and then determine if they are injections, surjections, or bijections.       For all , . What is the image of ? of ? What is the pre-image of ? of ?      For all people in the world, B(person) = person's birthday. (Just the month and day, e.g., B(DocK) = May 29.) What is the image of each member of your group?   If time: How would this be different if we changed the domain to be just the people in our class?      For all , . (Here we mean the remainder when is divided by .) Determine the images of and under . What is the pre-image of ? What is the pre-image of ?       If time: For all , . What are the images of , and under ? What is the pre-image of under ? What is the pre-image of ?    "
-},
-{
-  "id": "ch-functions-2-4-3",
-  "level": "2",
-  "url": "ch-functions-2.html#ch-functions-2-4-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "injective "
-},
-{
-  "id": "ch-functions-2-4-4",
-  "level": "2",
-  "url": "ch-functions-2.html#ch-functions-2-4-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "surjective "
-},
-{
-  "id": "ch-functions-2-4-5",
-  "level": "2",
-  "url": "ch-functions-2.html#ch-functions-2-4-5",
-  "type": "Activity",
-  "number": "60",
-  "title": "",
-  "body": "   Disproving is like proving the negation. Negate the definitions above to complete the sentences:     A function is not injective if      A function is not surjective if       Let be the set of all matrices with real entries. That is, Prove that defined by is not an injection.      Prove that defined by is not surjective. Hint: Graph it! What's in the codomain but not in the range?     "
-},
-{
-  "id": "ch-functions-2-5-2",
-  "level": "2",
-  "url": "ch-functions-2.html#ch-functions-2-5-2",
-  "type": "Activity",
-  "number": "61",
-  "title": "",
-  "body": "  We'll do the scratch work for proving a function is a bijection.     Let be defined by . (Fill in the blanks, look at \\#3 on page 98!)      Write down the definition of injective here:      What will you assume? What will you try to show?      To start: Pick two arbitrary such that: _____      Now do some algebra to get to what you want to show! That will finish the proof of injective.      Write down the definition of surjective:      In order to show that is surjective, start with an arbitrary . You must show that there exists an such that _____.      Now do some algebra scratch-work to figure out what  should be.      Your work above is not enough to show that (why not?). There are two things to check:     Is your in the domain of ? Verify this.      Does ? Show directly by substituting your into the formula and simplifying.     "
-},
-{
-  "id": "ch-functions-2-5-3",
-  "level": "2",
-  "url": "ch-functions-2.html#ch-functions-2-5-3",
-  "type": "Theorem",
-  "number": "52",
-  "title": "",
-  "body": "  Let be defined by for all . Then is a bijection.   "
-},
-{
-  "id": "ch-functions-2-5-4",
-  "level": "2",
-  "url": "ch-functions-2.html#ch-functions-2-5-4",
-  "type": "Proof",
-  "number": "1",
-  "title": "",
-  "body": " Let be defined by for all . We will prove that is a bijection by proving that it is both a surjection and an injection.  We will first show that is a surjection. So, let be any element of the codomain of . Let . We will show that and that .  We begin by showing that is in the domain of . To do this, we will show that and . Real numbers are closed under subtraction and division (as long as they are nonzero), and by assumption , so . Next we will show that . To see this, suppose that . Using algebra, we find that , which simplifies to , a contradiction. Thus , and so .  Now we will show that . Using algebra, \\begin{align*} f(x) = f\\left(\\frac{z-1}{z}\\right) &= \\dfrac{1}{1 - \\left(\\frac{z-1}{z}\\right)} &= \\dfrac{1}{\\frac{z}{z} - \\frac{z-1}{z}} &= \\dfrac{1}{\\frac{z - (z-1)}{z}} &= \\dfrac{1}{\\frac{1}{z}} &= z. \\end{align*}  Thus for each in the codomain of , there exists in the domain of such that . Therefore by definition, is a surjection.  We will now show that is an injection. So, suppose that for some . We will show that . Using algebra, \\begin{align*} f(x) &= f(y) \\dfrac{1}{1-x} &= \\dfrac{1}{1-y} 1-y &= 1-x x &= y. \\end{align*} Thus, for all and in the domain of , whenever , we must have . Therefore is an injection.  Because we have shown that is both a surjection and an injection, we have shown that is a bijection.  "
+  "body": "  For each of the following functions, in addition to answering the given questions you should determine:  the domain, codomain, and range,  and then determine if they are injections, surjections, or bijections.     For all , . What is the image of ? of ? What is the pre-image of ? of ?      For all people in the world, B(person) = person's birthday. (Just the month and day, e.g., B(DocK) = May 29.) What is the image of each member of your group?   If time: How would this be different if we changed the domain to be just the people in our class?      For all , . (Here we mean the remainder when is divided by .) Determine the images of and under . What is the pre-image of ? What is the pre-image of ?       If time: For all , . What are the images of , and under ? What is the pre-image of under ? What is the pre-image of ?    "
 },
 {
   "id": "ch-functions-3",
   "level": "1",
   "url": "ch-functions-3.html",
-  "type": "Worksheet",
+  "type": "Handout",
   "number": "8.2",
-  "title": "Chapter 8 (Part 2): Functions - Compositions and Inverses",
-  "body": " Chapter 8 (Part 2): Functions - Compositions and Inverses   Definitions  Let , and be sets, and . Then the composition function is denoted and is defined as thus:   This is read as `` composed with '' or `` of ''. Note composed with is usually very different than composed with .  For a set , the identity function on is the function     The inverse of a function , if it exists, is the function such that and .    Examples    For each of the following, draw arrow diagrams for , , and . Then determine if each of those 3 functions is an injection or surjection.     Suppose and are defined by       Suppose and are defined by        Conjectures About Compositions and 'Jections  We will spend some time thinking about compositions effect on injections and surjections.  In each, assume and , so that the composition makes sense.      Conjecture  Guess: True or False?    1. If and are injective, then is injective.     [15pt] 2. If and are surjective, then is surjective.     [15pt] 3. If and are injective, then is injective.     [15pt] 4. If and are injective, then is injective.     [15pt] 5. If and are surjective, then is surjective.     [15pt] 6. If and are surjective, then is surjective.     [15pt]    If you find a counterexample, write it down in the space below.    Theorems About Compositions and 'Jections  1. and 2. from the previous page are true. There are proof sketches and formal proofs in your book (pages 349 - 350). We'll state and sketch 1. here.    Suppose and are sets, is injective and is injective. Then is injective.    We'll prove this directly. When trying to figure out a direct proof, you should always write down what you are assuming, what you are proving, and then definitions of each of those. Here I've outlined the order I would think abou this proof.    Assuming (by hypothesis): is _____ This means for all     Assuming (by hypothesis): is _____ This means for all     The conclusion definition is a conditional statement, so we will assume its hypothesis which is _____ which can be rewritten as _____    Work your way to the conclusion. Hint in footnote! Hint - you know , what can you say about and given that is an injection.     Proving (conclusion): _____ This means:    Here's a fill in the blank proof of the theorem on the previous page:    Suppose and are sets, is injective and is injective. Then is injective.     Suppose and are sets, is injective and is injective. We will show is injective by showing that  To this end, assume and . We aim to show: _____. Applying the definition of composition to we get  Since is _____, if _____ for any , then _____. In particular, observe that and and so _____.  Likewise, is _____ and we just showed that where . This implies _____.  We have shown that for , if then . Thus, is an injection.   \\hrulefill   If time: Do a proof sketch below of 2.    Suppose and are sets, is surjective and is surjective. Then is surjective.    Proof sketch: (Start by writing down what you are assuming at the top and what you are proving at the bottom, then write definitions of each.)  Here's a fill in the blank proof of 2.    Suppose and are sets, is surjective and is surjective. Then is surjective.     We assume that , , are subsets of some universal set. Furthermore, we are given that function is a surjection. By definition, this means that: [1cm]  Also, we are given that is a surjection. By definition, this means that: [1cm]  We want to show that is also a surjection.  That is, we must show that for all , there exists _____ such that _____. Thus, we assume that . Because is a surjection with codomain , and , we know that there exists such that _____.  Because is a surjection with codomain , [.5in]  Putting these facts together, we have: \\begin{align*} (g \\circ f)(_____) &= g(f(_____)) [1ex] &= [.4in] \\end{align*}  Therefore, we have shown that: [.5in]     Suppose and are sets, is bijective and is bijective. Then is bijective.    3. and 6. are also true! We'll restate 6 and work on proving here.    Suppose and are sets, and and are functions. If and are surjective, then is surjective.    Proof sketch: What are you assuming? Write that at the top. What are you proving? Write that at the bottom. Write definitions of each!  Note we didn't actually use the hypothesis that is surjective. So we can state a stronger theorem (stronger because it will have fewer hypotheses).    Suppose and are sets, and and are functions. If is surjective, then is surjective.     If time: Work on the proof of 3. below.    Suppose and are sets, and and are functions. If and are injective, then is injective.    Note we didn't actually use the hypothesis that is injective. So we can state a stronger theorem (stronger because it will have fewer hypotheses).    Suppose and are sets, and and are functions. If is injective, then is injective.      Inverse Functions    A function is invertible if and only if is a bijection.    There's a proof of this theorem on pages 355-356, which I encourage you to read. These 2 pictures from your preview activity reading show the big idea behind why if is not a bijection, then is not a function.  \\includegraphics{images\/InverseNotInj} \\includegraphics{images\/InverseNotSurj}  In college algebra, you were likely asked many times to find the inverse of a function like . Work with your group to try to remember ways you were taught to do that. Then think about how that relates to the definition given on page 103 of these worksheets.    One of the big ideas of inverse functions is that they allow us to ``undo'' functions. E.g., undoes in the sense that . Similarly, undoes . This activity is going to ask, if we can take square roots and cube roots modulo .     Define by . Then we might say the inverse is where . Is a function? Why or why not? What about if we change to and to ?  Let for the rest of the questions.      Define by . Find for all . Does have an inverse function?      Define by . Find for all . Does have an inverse function?      Define by . Can you find a formula for ?       More Practice With 'Jections  For all of the following, start by doing some examples of where a few elements in the domain map to in the codomain. Then ``push'' on it a little bit - try to get elements of the domain to map to the same element in the codomain. Try to find an element that doesn't get mapped to, and do some scratch work to see if it does. For functions that are from ``one dimension'' to ``one dimension'' you might graph (I would use Desmos).    Proving Bijections  Prove that each of the following are both injections and surjections (and hence bijections).     defined by .     defined by , where .     defined by .      Conjecturing, Proving, and Disproving  For each of the following, prove or disprove whether they are injections and\/or surjections. Again, start by doing examples (see the directions at the top of this page!)    Define by .    Define by .    Blank page for work.   "
+  "title": "Disproving Injection and Surjection",
+  "body": " Disproving Injection and Surjection  Let's start with disproving. Recall the following definitions.  A function is injective if for all , if then .  A function is surjective if, for every , there exists some such that .     Disproving is like proving the negation. Negate the definitions above to complete the sentences:     A function is not injective if      A function is not surjective if         Let be the set of all matrices with real entries. That is, Prove that defined by is not an injection.      Prove that defined by is not surjective. Hint: Graph it! What's in the codomain but not in the range?      "
 },
 {
-  "id": "ch-functions-3-2-2",
+  "id": "ch-functions-3-3",
   "level": "2",
-  "url": "ch-functions-3.html#ch-functions-3-2-2",
+  "url": "ch-functions-3.html#ch-functions-3-3",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "composition "
+  "body": "injective "
 },
 {
-  "id": "ch-functions-3-2-4",
+  "id": "ch-functions-3-4",
   "level": "2",
-  "url": "ch-functions-3.html#ch-functions-3-2-4",
+  "url": "ch-functions-3.html#ch-functions-3-4",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "identity function "
+  "body": "surjective "
 },
 {
-  "id": "ch-functions-3-2-6",
+  "id": "ch-functions-3-5",
   "level": "2",
-  "url": "ch-functions-3.html#ch-functions-3-2-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "inverse "
-},
-{
-  "id": "ch-functions-3-3-2",
-  "level": "2",
-  "url": "ch-functions-3.html#ch-functions-3-3-2",
+  "url": "ch-functions-3.html#ch-functions-3-5",
   "type": "Activity",
-  "number": "62",
+  "number": "8.2.1",
   "title": "",
-  "body": "  For each of the following, draw arrow diagrams for , , and . Then determine if each of those 3 functions is an injection or surjection.     Suppose and are defined by       Suppose and are defined by     "
+  "body": "   Disproving is like proving the negation. Negate the definitions above to complete the sentences:     A function is not injective if      A function is not surjective if     "
 },
 {
-  "id": "ch-functions-3-5-3",
+  "id": "ch-functions-3-6",
   "level": "2",
-  "url": "ch-functions-3.html#ch-functions-3-5-3",
-  "type": "Theorem",
-  "number": "53",
-  "title": "",
-  "body": "  Suppose and are sets, is injective and is injective. Then is injective.   "
-},
-{
-  "id": "ch-functions-3-5-7",
-  "level": "2",
-  "url": "ch-functions-3.html#ch-functions-3-5-7",
-  "type": "Theorem",
-  "number": "54",
-  "title": "",
-  "body": "  Suppose and are sets, is injective and is injective. Then is injective.   "
-},
-{
-  "id": "ch-functions-3-5-8",
-  "level": "2",
-  "url": "ch-functions-3.html#ch-functions-3-5-8",
-  "type": "Proof",
-  "number": "1",
-  "title": "",
-  "body": " Suppose and are sets, is injective and is injective. We will show is injective by showing that  To this end, assume and . We aim to show: _____. Applying the definition of composition to we get  Since is _____, if _____ for any , then _____. In particular, observe that and and so _____.  Likewise, is _____ and we just showed that where . This implies _____.  We have shown that for , if then . Thus, is an injection.  "
-},
-{
-  "id": "ch-functions-3-5-11",
-  "level": "2",
-  "url": "ch-functions-3.html#ch-functions-3-5-11",
-  "type": "Theorem",
-  "number": "55",
-  "title": "",
-  "body": "  Suppose and are sets, is surjective and is surjective. Then is surjective.   "
-},
-{
-  "id": "ch-functions-3-5-14",
-  "level": "2",
-  "url": "ch-functions-3.html#ch-functions-3-5-14",
-  "type": "Theorem",
-  "number": "56",
-  "title": "",
-  "body": "  Suppose and are sets, is surjective and is surjective. Then is surjective.   "
-},
-{
-  "id": "ch-functions-3-5-15",
-  "level": "2",
-  "url": "ch-functions-3.html#ch-functions-3-5-15",
-  "type": "Proof",
-  "number": "2",
-  "title": "",
-  "body": " We assume that , , are subsets of some universal set. Furthermore, we are given that function is a surjection. By definition, this means that: [1cm]  Also, we are given that is a surjection. By definition, this means that: [1cm]  We want to show that is also a surjection.  That is, we must show that for all , there exists _____ such that _____. Thus, we assume that . Because is a surjection with codomain , and , we know that there exists such that _____.  Because is a surjection with codomain , [.5in]  Putting these facts together, we have: \\begin{align*} (g \\circ f)(_____) &= g(f(_____)) [1ex] &= [.4in] \\end{align*}  Therefore, we have shown that: [.5in]  "
-},
-{
-  "id": "ch-functions-3-5-16",
-  "level": "2",
-  "url": "ch-functions-3.html#ch-functions-3-5-16",
-  "type": "Corollary",
-  "number": "57",
-  "title": "",
-  "body": "  Suppose and are sets, is bijective and is bijective. Then is bijective.   "
-},
-{
-  "id": "ch-functions-3-5-18",
-  "level": "2",
-  "url": "ch-functions-3.html#ch-functions-3-5-18",
-  "type": "Theorem",
-  "number": "58",
-  "title": "",
-  "body": "  Suppose and are sets, and and are functions. If and are surjective, then is surjective.   "
-},
-{
-  "id": "ch-functions-3-5-21",
-  "level": "2",
-  "url": "ch-functions-3.html#ch-functions-3-5-21",
-  "type": "Theorem",
-  "number": "59",
-  "title": "",
-  "body": "  Suppose and are sets, and and are functions. If is surjective, then is surjective.   "
-},
-{
-  "id": "ch-functions-3-5-23",
-  "level": "2",
-  "url": "ch-functions-3.html#ch-functions-3-5-23",
-  "type": "Theorem",
-  "number": "60",
-  "title": "",
-  "body": "  Suppose and are sets, and and are functions. If and are injective, then is injective.   "
-},
-{
-  "id": "ch-functions-3-5-25",
-  "level": "2",
-  "url": "ch-functions-3.html#ch-functions-3-5-25",
-  "type": "Theorem",
-  "number": "61",
-  "title": "",
-  "body": "  Suppose and are sets, and and are functions. If is injective, then is injective.   "
-},
-{
-  "id": "ch-functions-3-6-2",
-  "level": "2",
-  "url": "ch-functions-3.html#ch-functions-3-6-2",
-  "type": "Theorem",
-  "number": "62",
-  "title": "",
-  "body": "  A function is invertible if and only if is a bijection.   "
-},
-{
-  "id": "ch-functions-3-6-6",
-  "level": "2",
-  "url": "ch-functions-3.html#ch-functions-3-6-6",
+  "url": "ch-functions-3.html#ch-functions-3-6",
   "type": "Activity",
-  "number": "63",
+  "number": "8.2.2",
   "title": "",
-  "body": "  One of the big ideas of inverse functions is that they allow us to ``undo'' functions. E.g., undoes in the sense that . Similarly, undoes . This activity is going to ask, if we can take square roots and cube roots modulo .     Define by . Then we might say the inverse is where . Is a function? Why or why not? What about if we change to and to ?  Let for the rest of the questions.      Define by . Find for all . Does have an inverse function?      Define by . Find for all . Does have an inverse function?      Define by . Can you find a formula for ?    "
+  "body": "   Let be the set of all matrices with real entries. That is, Prove that defined by is not an injection.      Prove that defined by is not surjective. Hint: Graph it! What's in the codomain but not in the range?     "
+},
+{
+  "id": "ch-functions-4",
+  "level": "1",
+  "url": "ch-functions-4.html",
+  "type": "Handout",
+  "number": "8.3",
+  "title": "Proving Injection and Surjection",
+  "body": " Proving Injection and Surjection    We'll do the scratch work for proving a function is a bijection.     Recall by that defined by is not a function unless we modify the domain. Once we modify the domain, by \" , won't be a surjection. So, we'll manipulate the codomain of the function. Fill in the blanks below. Let be defined by .      Write down the definition of injective here:      What will you assume? What will you try to show?      To start: Pick two arbitrary such that:       Now do some algebra to get to what you want to show! That will finish the proof of injective.      Write down the definition of surjective:      In order to show that is surjective, start with an arbitrary . You must show that there exists an such that .      Now do some algebra scratch-work to figure out what  should be.      Your work above is not enough to show that (why not?). There are two things to check:     Is your in the domain of ? Verify this.      Does ? Show directly by substituting your into the formula and simplifying.        Let be defined by for all . Then is a bijection.     Let be defined by for all . We will prove that is a bijection by proving that it is both a surjection and an injection.  We will first show that is a surjection. So, let be any element of the codomain of . Let . We will show that and that .  We begin by showing that is in the domain of . To do this, we will show that and . Real numbers are closed under subtraction and division (as long as they are nonzero), and by assumption , so . Next we will show that . To see this, suppose that . Using algebra, we find that , which simplifies to , a contradiction. Thus , and so .  Now we will show that . Using algebra,   Thus for each in the codomain of , there exists in the domain of such that . Therefore by definition, is a surjection.  We will now show that is an injection. So, suppose that for some . We will show that . Using algebra, Thus, for all and in the domain of , whenever , we must have . Therefore is an injection.  Because we have shown that is both a surjection and an injection, we have shown that is a bijection.   "
+},
+{
+  "id": "ch-functions-4-2",
+  "level": "2",
+  "url": "ch-functions-4.html#ch-functions-4-2",
+  "type": "Activity",
+  "number": "8.3.1",
+  "title": "",
+  "body": "  We'll do the scratch work for proving a function is a bijection.     Recall by that defined by is not a function unless we modify the domain. Once we modify the domain, by \" , won't be a surjection. So, we'll manipulate the codomain of the function. Fill in the blanks below. Let be defined by .      Write down the definition of injective here:      What will you assume? What will you try to show?      To start: Pick two arbitrary such that:       Now do some algebra to get to what you want to show! That will finish the proof of injective.      Write down the definition of surjective:      In order to show that is surjective, start with an arbitrary . You must show that there exists an such that .      Now do some algebra scratch-work to figure out what  should be.      Your work above is not enough to show that (why not?). There are two things to check:     Is your in the domain of ? Verify this.      Does ? Show directly by substituting your into the formula and simplifying.     "
+},
+{
+  "id": "ch-functions-4-3",
+  "level": "2",
+  "url": "ch-functions-4.html#ch-functions-4-3",
+  "type": "Theorem",
+  "number": "8.3.1",
+  "title": "",
+  "body": "  Let be defined by for all . Then is a bijection.   "
+},
+{
+  "id": "ch-functions-4-4",
+  "level": "2",
+  "url": "ch-functions-4.html#ch-functions-4-4",
+  "type": "Proof",
+  "number": "8.3.1",
+  "title": "",
+  "body": " Let be defined by for all . We will prove that is a bijection by proving that it is both a surjection and an injection.  We will first show that is a surjection. So, let be any element of the codomain of . Let . We will show that and that .  We begin by showing that is in the domain of . To do this, we will show that and . Real numbers are closed under subtraction and division (as long as they are nonzero), and by assumption , so . Next we will show that . To see this, suppose that . Using algebra, we find that , which simplifies to , a contradiction. Thus , and so .  Now we will show that . Using algebra,   Thus for each in the codomain of , there exists in the domain of such that . Therefore by definition, is a surjection.  We will now show that is an injection. So, suppose that for some . We will show that . Using algebra, Thus, for all and in the domain of , whenever , we must have . Therefore is an injection.  Because we have shown that is both a surjection and an injection, we have shown that is a bijection.  "
 },
 {
   "id": "ch-relations-2",
@@ -1823,7 +1760,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-relations-2.html#ch-relations-2-3-6",
   "type": "Activity",
-  "number": "64",
+  "number": "9.1.1",
   "title": "",
   "body": "  For the following examples of relations, give a pair and such that and a different pair and such that . (Note, the next activity will require you to work on these same relations, so leave space!)             on such that if and only if        on such that if and only if        from to such that if .       and     "
 },
@@ -1868,7 +1805,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-relations-2.html#ch-relations-2-4-5",
   "type": "Activity",
-  "number": "65",
+  "number": "9.1.2",
   "title": "",
   "body": "  For each of the relations defined in the activity earlier on this page, which of the 3 properties reflexive, symmetric, transitive, hold?   "
 },
@@ -1877,7 +1814,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-relations-2.html#ch-relations-2-4-6",
   "type": "Activity",
-  "number": "66",
+  "number": "9.1.3",
   "title": "",
   "body": "  Complete the following with your team:     Let and define on by . Is reflexive? Symmetric? Transitive?      Let . Find a relation on such that is symmetric, but not transitive.      Let . Find a relation on such that is symmetric and transitive, but not reflexive.    "
 },
@@ -1895,7 +1832,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-relations-2.html#ch-relations-2-5-3",
   "type": "Theorem",
-  "number": "63",
+  "number": "9.1.1",
   "title": "",
   "body": "  Let be the relation on defined by if and only if . Then is an equivalence relation.   "
 },
@@ -1913,7 +1850,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-relations-2.html#ch-relations-2-5-6",
   "type": "Activity",
-  "number": "67",
+  "number": "9.1.4",
   "title": "",
   "body": "  Prove or disprove if each relation is reflexive, symmetric, or transitive.   "
 },
@@ -1922,7 +1859,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-relations-2.html#ch-relations-2-5-7",
   "type": "Conjecture",
-  "number": "64",
+  "number": "9.1.2",
   "title": "",
   "body": "  Define the relation on as follows: for all , if and only if . Then is reflexive, symmetric, and transitive.   "
 },
@@ -1931,7 +1868,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-relations-2.html#ch-relations-2-5-8",
   "type": "Conjecture",
-  "number": "65",
+  "number": "9.1.3",
   "title": "",
   "body": "  Let be some nonempty universal set and define the relation on as follows: for all , if and only if . Then is reflexive, symmetric, and transitive.   "
 },
@@ -1940,7 +1877,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-relations-2.html#ch-relations-2-6-2",
   "type": "Definition",
-  "number": "66",
+  "number": "9.1.4",
   "title": "",
   "body": "  Let be an equivalence relation on a nonempty set of . Then the equivalence class of of determined by is    "
 },
@@ -1949,7 +1886,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-relations-2.html#ch-relations-2-6-3",
   "type": "Theorem",
-  "number": "67",
+  "number": "9.1.5",
   "title": "Equivalence Classes Partition.",
   "body": " Equivalence Classes Partition   [Equivalence Classes Partition] Let be a nonempty set and let be an equivalence relation on . Then    For each , is nonempty (in particular, ).    For each , if and only if .    For each or .     "
 },
@@ -1958,7 +1895,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-relations-2.html#ch-relations-2-6-4",
   "type": "Activity",
-  "number": "68",
+  "number": "9.1.5",
   "title": "",
   "body": "  (Working with equivalence classes)     Let and define by  For , if and only if and have the same number of digits.  This is an equivalence relation (briefly think about why). Determine all the distinct equivalence classes determined by .      Recall that is the set of all matrices and that if then the determinant of is given by . Define by,  For all , if and only if .     Find two matrices and such that .      Is an equivalence relation? (Briefly think about it, don't need to prove.)      Let . Find two elements of . Challenge Question: Can you find the entire equivalence class?      "
 },
@@ -1967,7 +1904,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-relations-2.html#ch-relations-2-8-3",
   "type": "Definition",
-  "number": "68",
+  "number": "9.1.6",
   "title": "",
   "body": "  Let and . Then   and .   "
 },
@@ -1985,7 +1922,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-relations-2.html#ch-relations-2-8-10",
   "type": "Activity",
-  "number": "69",
+  "number": "9.1.6",
   "title": "",
   "body": "  Complete the addition and multiplication tables for , , and (you don't have to write all the [ ]'s but do pick the representative that is in that . What do you notice? What do you wonder?  Are the following statements true or false? Why?    For all , if and , then .    For all , if and , then .     "
 },
@@ -1994,7 +1931,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-relations-2.html#ch-relations-2-8-11",
   "type": "Activity",
-  "number": "70",
+  "number": "9.1.7",
   "title": "",
   "body": "  Sometimes math competition problems will ask seemingly tough questions, like what is the remainder of when divided by . Try to find the answer to this question, by translating into modular arithmetic\/congruence classes and doing some smaller cases. E.g., what's ? ? ? ? What do these tell you about the remainder of when divided by .   "
 },
@@ -2003,7 +1940,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-relations-2.html#ch-relations-2-8-12",
   "type": "Activity",
-  "number": "71",
+  "number": "9.1.8",
   "title": "",
   "body": "  In , solve each of the following equations, keeping in mind that the solution to any equation is the set of all values that make the equation true. (Note: order of operations for and are the same as for ``regular'' addition and multiplication, and , in the following way: in the absence of parentheses, we multiply before we add.)  Find all such that:                        "
 },
@@ -2021,7 +1958,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-review-2.html#ch-review-2-2-2",
   "type": "Definition",
-  "number": "69",
+  "number": "10.1.1",
   "title": "",
   "body": "  For and , provided that .   "
 },
@@ -2039,7 +1976,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-review-2.html#ch-review-2-2-6",
   "type": "Theorem",
-  "number": "70",
+  "number": "10.1.2",
   "title": "",
   "body": "  Suppose , . The following hold:    For all ,     If then .    If and then .    If and then \\begin{enumerate} \\item \\item \\item . \\end{enumerate}     "
 },
@@ -2048,7 +1985,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-review-2.html#ch-review-2-2-7",
   "type": "Activity",
-  "number": "72",
+  "number": "10.1.1",
   "title": "",
   "body": "  Practice with congruence, modular arithmetic, and the division algorithm.     If you want practice with proving things about modulo, pick one of the parts of the above theorem and prove it!      In roster notation, write the set of all integers that are congruent to modulo . Include some negative integers!      Find an integer such that but . Can you find all such integers ?      Try to find an intuitive explanation for why there is no integer such that .      One can use cases to prove that if and then . What cases would make sense here? Prove one case.      The division algorithm states that for all integers and with , there exist unique integers and such that where . For each of the following, find and (and use the words quotient and remainder), and write a congruence that results from this. (a) , (b) , , (c) , .      One place congruence shows up is in the childhood way of picking who is ``it\" in tag called ``eeny meeny miny, moe\". Here's the rhyme: \\begin{quote} Eeny, meeny, miny, moe, Catch a tiger by the toe. If he hollers, let him go, Eeny, meeny, miny, moe. \\end{quote} Decide with your group how many people you point to going through the rhyme. Then pick a person in your team to point out first. Use modular arithmetic to decide who will be ``it\" without doing the rhyme. Who can you start with if you don't want to be ``it\"? What if your group had people? ? more?    "
 },
@@ -2066,7 +2003,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-review-2.html#ch-review-2-3-4",
   "type": "Activity",
-  "number": "73",
+  "number": "10.1.2",
   "title": "",
   "body": "  There's lots of problems on Learning Targets 5 and 7 practice!     For each set, name 4 elements of the set.                           Let and . How are and related?      How many elements are in the set ? (I.e., what's the cardinality of ?)      Write the following sets in set-builder notation.                                "
 },
@@ -2084,7 +2021,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-review-2.html#ch-review-2-5-2",
   "type": "Theorem",
-  "number": "71",
+  "number": "10.1.3",
   "title": "",
   "body": "  If and then .   "
 },
@@ -2093,7 +2030,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-review-2.html#ch-review-2-5-4",
   "type": "Theorem",
-  "number": "72",
+  "number": "10.1.4",
   "title": "",
   "body": "  For all subsets of some universal set , .   "
 },
@@ -2233,13 +2170,58 @@ var ptx_lunr_docs = [
   "body": " In-Class Activities   These are copies of the in-class activities distributed during the semester.      "
 },
 {
-  "id": "handouts",
+  "id": "targets-2",
   "level": "1",
-  "url": "handouts.html",
-  "type": "Chapter",
-  "number": "12",
-  "title": "Handouts",
-  "body": " Handouts    "
+  "url": "targets-2.html",
+  "type": "Handout",
+  "number": "12.1",
+  "title": "Learning Target 1 Practice",
+  "body": " Learning Target 1 Practice   Come to office hours to ask a question or attend a math event. (See the math major emails for available math events, and let me know if you don't get it!)   There's a math event every Friday at 1! There's also other events this semester, that I'll post on Blackboard. Here's a couple upcoming:   Math in Action conference - a conference for teachers on February 28th. Volunteer and go for free! (Volunteer by February 13 at .)    Mosaic Lecture - a talk called ''Mobilizing Mathematics for the Fight Against Cancer'' by Dr Trachette Jackson on March 23 at 7pm.     "
+},
+{
+  "id": "targets-3",
+  "level": "1",
+  "url": "targets-3.html",
+  "type": "Handout",
+  "number": "12.2",
+  "title": "Learning Target 2 Practice",
+  "body": " Learning Target 2 Practice   State precisely the definition of an even and odd integer and outline the proof of a statement using these terms.      State the definition of an odd integer. That is, complete the sentence,  An integer is odd if....    State the definition of an even integer. That is, complete the sentence,  An integer is even if....    Examples with solutions:   Proposition 2.5 proof on page 250 of your book. (The sum of two odd integers is even.)    See solutions on Blackboard!       Weekly Practice 2 #1:   The sum of an even integer and an odd integer is odd.    The product of two odd integers is odd.       Extra Practice: Prove the product of an odd integer and an even integer is even.     "
+},
+{
+  "id": "targets-3-3",
+  "level": "2",
+  "url": "targets-3.html#targets-3-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "odd even "
+},
+{
+  "id": "targets-4",
+  "level": "1",
+  "url": "targets-4.html",
+  "type": "Handout",
+  "number": "12.3",
+  "title": "Learning Target 3 Practice",
+  "body": " Learning Target 3 Practice   Given a statement to be proven using a direct proof, identify the assumptions to be made and the statements to be proven.   See the box on page 52 of your textbook for the outline of a direct proof. If we are trying to prove , i.e., a statement of the form if then  , we assume and show .   Practice     Examples with solutions (at bottom of page). For each, state what you would assume in a direct proof and state what you would prove in a direct proof.   For all integers , if is an odd integer, then is even.    For all integers , if is divisible by , then is divisible by .    For all natural numbers and , if and are twin primes other than and , then is a perfect square and divides .       More practice:   For all real numbers and , if then .    For all integers and , if and are both even, then divides .          Solutions     Since the statement starts ``for all'', we should start with an arbitrary one. So, assume is an integer. We also assume the hypothesis in a direct proof, so assume is an odd integer. Prove that is even.    Again since the statement starts ``for all'', we should start with an arbitrary one. So assume is an integer. Also assume the hypothesis, so assume is divisible by . Then prove that is divisible by .    Assume and are natural numbers, and that and are twin primes other than and . Prove that divides .      "
+},
+{
+  "id": "targets-5",
+  "level": "1",
+  "url": "targets-5.html",
+  "type": "Handout",
+  "number": "12.4",
+  "title": "Learning Target 4 Practice",
+  "body": " Learning Target 4 Practice   Identify if a given set of numbers is closed under a given operation.    Need to know:     What it means for a set to be closed under an operation. See page 13 of class worksheets or Fact 2.1 on page 48 of your textbook.    You need to know what each of the following symbols mean:     You need to be able to read sets written in set or roster notation.       Practice Questions     Is closed under addition? subtraction? multiplication? division? Explain.    Is closed under addition? subtraction? multiplication? division? Explain.    Is closed under addition? subtraction? multiplication? division? Explain.    Is the set closed under addition? subtraction? multiplication? division? Explain.    Is the set closed under addition? subtraction? multiplication? division? Explain.    Is the set closed under addition? subtraction? multiplication? division? Explain.       Some Solutions     The natural numbers are closed under addition and multiplication, but not subtraction or division. If and are natural numbers, then and are natural numbers, which means the natural numbers are closed under addition and multiplication. However, and , which shows the natural numbers are not closed under subtraction. Similarly, , but .    The set is closed under addition, since any element of has the form for some . Let . Then and for some . Then and is a natural number.    The set is not closed under any of these operations. For examples of addition and multiplication, note , but     as so      as so       "
+},
+{
+  "id": "targets-6",
+  "level": "1",
+  "url": "targets-6.html",
+  "type": "Handout",
+  "number": "12.5",
+  "title": "Learning Target 5 Practice",
+  "body": " Learning Target 5 Practice   State the definition of ``a divides b'' and ``a is congruent to b modulo n'', and correctly apply these definitions in examples.    Need to know:     The definition of divides and its notation: Definition 2.8 on page 55 or page 21 of class worksheets.    The definition of congruence and its notation: Definition 2.14 on page 62 or page 27 of class worksheets.       Practice:     Pages 21 and 27 of class worksheets    Carefully state the definition of (for ) and (for and .    Given any integer , does ? does ?    Give examples of integers and such that and . Explain using the definition.    Give examples of integers and such that and . Explain using the definition.    List all integers such that . Explain using the definition.    List all integers such that . (Using is okay!)    Give an example of two integers, and , such that , where one of the integers is negative.       Some Solutions     3.  Yes, for , since is an integer and . However, in the definition of , we prohibit from being . Moreover, there is no integer such that , unless .    4.  Note since and , so . However, since (Lots of correct answers here.)    8.  Let and . Then , or since and so .      "
 },
 {
   "id": "syllabus",
