@@ -1635,8 +1635,8 @@ var ptx_lunr_docs = [
   "url": "ch-functions-3.html",
   "type": "Handout",
   "number": "8.2",
-  "title": "Disproving Injection and Surjection",
-  "body": " Disproving Injection and Surjection  Let's start with disproving. Recall the following definitions.  A function is injective if for all , if then .  A function is surjective if, for every , there exists some such that .     Disproving is like proving the negation. Negate the definitions above to complete the sentences:     A function is not injective if      A function is not surjective if         Let be the set of all matrices with real entries. That is, Prove that defined by is not an injection.      Prove that defined by is not surjective. Hint: Graph it! What's in the codomain but not in the range?      "
+  "title": "Proving and Disproving Injection and Surjection",
+  "body": " Proving and Disproving Injection and Surjection  Let's start with disproving. Recall the following definitions.  A function is injective if for all , if then .  A function is surjective if, for every , there exists some such that .     Disproving is like proving the negation. Negate the definitions above to complete the sentences:     A function is not injective if      A function is not surjective if         Let be the set of all matrices with real entries. That is, Prove that defined by is not an injection.      Prove that defined by is not surjective. Hint: Graph it! What's in the codomain but not in the range?       Proving Injection and Surjection       We'll do the scratch work for proving a function is a bijection.     Recall by that defined by is not a function unless we modify the domain. Once we modify the domain, by \" , won't be a surjection. So, we'll manipulate the codomain of the function. Fill in the blanks below. Let be defined by .      Write down the definition of injective here:      What will you assume? What will you try to show?      To start: Pick two arbitrary such that:       Now do some algebra to get to what you want to show! That will finish the proof of injective.      Write down the definition of surjective:      In order to show that is surjective, start with an arbitrary . You must show that there exists an such that .      Now do some algebra scratch-work to figure out what  should be.      Your work above is not enough to show that (why not?). There are two things to check:     Is your in the domain of ? Verify this.      Does ? Show directly by substituting your into the formula and simplifying.        Let be defined by for all . Then is a bijection.     Let be defined by for all . We will prove that is a bijection by proving that it is both a surjection and an injection.  We will first show that is a surjection. So, let be any element of the codomain of . Let . We will show that and that .  We begin by showing that is in the domain of . To do this, we will show that and . Real numbers are closed under subtraction and division (as long as they are nonzero), and by assumption , so . Next we will show that . To see this, suppose that . Using algebra, we find that , which simplifies to , a contradiction. Thus , and so .  Now we will show that . Using algebra,   Thus for each in the codomain of , there exists in the domain of such that . Therefore by definition, is a surjection.  We will now show that is an injection. So, suppose that for some . We will show that . Using algebra, Thus, for all and in the domain of , whenever , we must have . Therefore is an injection.  Because we have shown that is both a surjection and an injection, we have shown that is a bijection.   "
 },
 {
   "id": "ch-functions-3-3",
@@ -1675,72 +1675,288 @@ var ptx_lunr_docs = [
   "body": "   Let be the set of all matrices with real entries. That is, Prove that defined by is not an injection.      Prove that defined by is not surjective. Hint: Graph it! What's in the codomain but not in the range?     "
 },
 {
+  "id": "ch-functions-3-8",
+  "level": "2",
+  "url": "ch-functions-3.html#ch-functions-3-8",
+  "type": "Activity",
+  "number": "8.2.3",
+  "title": "",
+  "body": "  We'll do the scratch work for proving a function is a bijection.     Recall by that defined by is not a function unless we modify the domain. Once we modify the domain, by \" , won't be a surjection. So, we'll manipulate the codomain of the function. Fill in the blanks below. Let be defined by .      Write down the definition of injective here:      What will you assume? What will you try to show?      To start: Pick two arbitrary such that:       Now do some algebra to get to what you want to show! That will finish the proof of injective.      Write down the definition of surjective:      In order to show that is surjective, start with an arbitrary . You must show that there exists an such that .      Now do some algebra scratch-work to figure out what  should be.      Your work above is not enough to show that (why not?). There are two things to check:     Is your in the domain of ? Verify this.      Does ? Show directly by substituting your into the formula and simplifying.     "
+},
+{
+  "id": "ch-functions-3-9",
+  "level": "2",
+  "url": "ch-functions-3.html#ch-functions-3-9",
+  "type": "Theorem",
+  "number": "8.2.1",
+  "title": "",
+  "body": "  Let be defined by for all . Then is a bijection.   "
+},
+{
+  "id": "ch-functions-3-10",
+  "level": "2",
+  "url": "ch-functions-3.html#ch-functions-3-10",
+  "type": "Proof",
+  "number": "8.2.1",
+  "title": "",
+  "body": " Let be defined by for all . We will prove that is a bijection by proving that it is both a surjection and an injection.  We will first show that is a surjection. So, let be any element of the codomain of . Let . We will show that and that .  We begin by showing that is in the domain of . To do this, we will show that and . Real numbers are closed under subtraction and division (as long as they are nonzero), and by assumption , so . Next we will show that . To see this, suppose that . Using algebra, we find that , which simplifies to , a contradiction. Thus , and so .  Now we will show that . Using algebra,   Thus for each in the codomain of , there exists in the domain of such that . Therefore by definition, is a surjection.  We will now show that is an injection. So, suppose that for some . We will show that . Using algebra, Thus, for all and in the domain of , whenever , we must have . Therefore is an injection.  Because we have shown that is both a surjection and an injection, we have shown that is a bijection.  "
+},
+{
   "id": "ch-functions-4",
   "level": "1",
   "url": "ch-functions-4.html",
   "type": "Handout",
   "number": "8.3",
-  "title": "Proving Injection and Surjection",
-  "body": " Proving Injection and Surjection    We'll do the scratch work for proving a function is a bijection.     Recall by that defined by is not a function unless we modify the domain. Once we modify the domain, by \" , won't be a surjection. So, we'll manipulate the codomain of the function. Fill in the blanks below. Let be defined by .      Write down the definition of injective here:      What will you assume? What will you try to show?      To start: Pick two arbitrary such that:       Now do some algebra to get to what you want to show! That will finish the proof of injective.      Write down the definition of surjective:      In order to show that is surjective, start with an arbitrary . You must show that there exists an such that .      Now do some algebra scratch-work to figure out what  should be.      Your work above is not enough to show that (why not?). There are two things to check:     Is your in the domain of ? Verify this.      Does ? Show directly by substituting your into the formula and simplifying.        Let be defined by for all . Then is a bijection.     Let be defined by for all . We will prove that is a bijection by proving that it is both a surjection and an injection.  We will first show that is a surjection. So, let be any element of the codomain of . Let . We will show that and that .  We begin by showing that is in the domain of . To do this, we will show that and . Real numbers are closed under subtraction and division (as long as they are nonzero), and by assumption , so . Next we will show that . To see this, suppose that . Using algebra, we find that , which simplifies to , a contradiction. Thus , and so .  Now we will show that . Using algebra,   Thus for each in the codomain of , there exists in the domain of such that . Therefore by definition, is a surjection.  We will now show that is an injection. So, suppose that for some . We will show that . Using algebra, Thus, for all and in the domain of , whenever , we must have . Therefore is an injection.  Because we have shown that is both a surjection and an injection, we have shown that is a bijection.   "
+  "title": "Functions - Compositions and Inverses",
+  "body": " Functions - Compositions and Inverses    Let , and be sets, and . Then the composition function is denoted and is defined as thus:   This is read as  composed with or  of  . Note composed with is usually very different than composed with .      For a set , the identity function on is the function. That is,       The inverse of a function , if it exists, is the function such that and .      For each of the following, draw arrow diagrams for , , and . Then determine if each of those 3 functions is an injection or surjection.     Suppose and are defined by       Suppose and are defined by       Conjectures About Compositions and 'Jections   We will spend some time thinking about compositions effect on injections and surjections. In each, assume and , so that the composition makes sense.     Must the composition of two injections be an injection?      Must the composition of two surjections be a surjection?      If is an injection, must both and be injections?      If is a surjection, must both and be surjections?      Theorems About Compositions and 'Jections  The composition of two injections is always an injection, and the composition of two surjections is always a surjection. There are proof sketches and formal proofs in your book (pages 349 - 350). We'll state and prove that the composition of injections is always an injection. here.     Suppose and are sets, is injective and is injective. Then is injective.     We'll prove this directly. When trying to figure out a direct proof, you should always write down what you are assuming, what you are proving, and then definitions of each of those. Here I've outlined the order I would think abou this proof.     FIRST: Assuming (by hypothesis): is This means for all     SECOND: Assuming (by hypothesis): is This means for all     FOURTH: The conclusion definition is a conditional statement, so we will assume its hypothesis which is which can be rewritten as     FIFTH: Work your way to the conclusion. Hint in footnote! Hint - you know , what can you say about and given that is an injection.     THIRD: Proving (conclusion): This means:      Here's a fill in the blank proof of     Suppose and are sets, is injective and is injective. Then is injective.     Suppose and are sets and that is injective. We will show is injective by showing that  To this end, assume and . We aim to show: Applying the definition of composition to we get  Since is , if for any , then . In particular, observe that and and so .  Likewise, is and we just showed that where . This implies .  We have shown that for , if then . Thus, is an injection.     Do a proof sketch that the composition of two surjections is a surjection.    Proof sketch: (Start by writing down what you are assuming at the top and what you are proving at the bottom, then write definitions of each.)    Here's a fill in the blank proof that the composition of two surjections has to be a surjection.    Suppose and are sets, is surjective and is surjective. Then is surjective.     We assume that , , are subsets of some universal set. Furthermore, we are given that function is a surjection. By definition, this means that:  Also, we are given that is a surjection. By definition, this means that:  We want to show that is also a surjection. That is, we must show that for all , there exists such that .  We begin. by assuming that . Because is a surjection with codomain , and , we know that there exists , such that   Because is a surjection with codomain , we know  Putting these facts together, we have:   Therefore, we have shown that:     Suppose and are sets, is bijective and is bijective. Then is bijective.     Suppose and are bijections. Then and are both injections and surjections. So by and , is an injection and a surjection.   It is also true that if is an injection then is an injection, and if is a surjection then is a surjection.    Suppose and are sets, and and are functions. If is surjective, then is surjective.     Sketch a proof of . What are you assuming? Write that at the top. What are you proving? Write that at the bottom. Write definitions of each!     Suppose and are sets, and and are functions. If is injective, then is injective.     Sketch a proof of . What are you assuming? Write that at the top. What are you proving? Write that at the bottom. Write definitions of each!    Inverse Functions      A function is invertible if and only if is a bijection.    There's a proof of this theorem on pages 355-356 of your textbook, which I encourage you to read. These 2 pictures from your preview activity reading show the big idea behind why if is not a bijection, then is not a function.    A function that is not an injection. Why does it not have an inverse?   An arrow diagram showing a non-injective function.     A function that is not a surjection. Why does it not have an inverse?   An arrow diagram showing a non-surjective function.       In college algebra, you were likely asked many times to find the inverse of a function like . Work with your group to try to remember ways you were taught to do that. Then think about how that relates to the definition given in your text.     One of the big ideas of inverse functions is that they allow us to undo functions. E.g., undoes in the sense that . Similarly, undoes . This activity is going to ask, if we can take square roots and cube roots modulo .     Define by . Then we might say the inverse is where . Is a function? Why or why not? What about if we change to and to ?      Let for the rest of the questions.  Define by . Find for all . Does have an inverse function?      Define by . Find for all . Does have an inverse function?      Define by . Can you find a formula for ?     In the following activities, start by doing some examples of where a few elements in the domain map to in the codomain. Then push on it a little bit - try to get elements of the domain to map to the same element in the codomain. Try to find an element that doesn't get mapped to, and do some scratch work to see if it does. For functions that are from one dimension to one dimension you might graph (I would use Desmos).   More Practice With 'Jections   Prove that each of the following are both injections and surjections (and hence bijections).     defined by .     defined by , where .     defined by .     Conjecturing, Proving, and Disproving   For each of the following, prove or disprove whether they are injections and\/or surjections. See the advice before the previous activity!    Define by .    Define by .    Define by .    Define by .    "
 },
 {
   "id": "ch-functions-4-2",
   "level": "2",
   "url": "ch-functions-4.html#ch-functions-4-2",
-  "type": "Activity",
+  "type": "Definition",
   "number": "8.3.1",
   "title": "",
-  "body": "  We'll do the scratch work for proving a function is a bijection.     Recall by that defined by is not a function unless we modify the domain. Once we modify the domain, by \" , won't be a surjection. So, we'll manipulate the codomain of the function. Fill in the blanks below. Let be defined by .      Write down the definition of injective here:      What will you assume? What will you try to show?      To start: Pick two arbitrary such that:       Now do some algebra to get to what you want to show! That will finish the proof of injective.      Write down the definition of surjective:      In order to show that is surjective, start with an arbitrary . You must show that there exists an such that .      Now do some algebra scratch-work to figure out what  should be.      Your work above is not enough to show that (why not?). There are two things to check:     Is your in the domain of ? Verify this.      Does ? Show directly by substituting your into the formula and simplifying.     "
+  "body": "  Let , and be sets, and . Then the composition function is denoted and is defined as thus:   This is read as  composed with or  of  . Note composed with is usually very different than composed with .   "
 },
 {
   "id": "ch-functions-4-3",
   "level": "2",
   "url": "ch-functions-4.html#ch-functions-4-3",
-  "type": "Theorem",
-  "number": "8.3.1",
+  "type": "Definition",
+  "number": "8.3.2",
   "title": "",
-  "body": "  Let be defined by for all . Then is a bijection.   "
+  "body": "  For a set , the identity function on is the function. That is,    "
 },
 {
   "id": "ch-functions-4-4",
   "level": "2",
   "url": "ch-functions-4.html#ch-functions-4-4",
+  "type": "Definition",
+  "number": "8.3.3",
+  "title": "",
+  "body": "  The inverse of a function , if it exists, is the function such that and .   "
+},
+{
+  "id": "ch-functions-4-5",
+  "level": "2",
+  "url": "ch-functions-4.html#ch-functions-4-5",
+  "type": "Activity",
+  "number": "8.3.1",
+  "title": "",
+  "body": "  For each of the following, draw arrow diagrams for , , and . Then determine if each of those 3 functions is an injection or surjection.     Suppose and are defined by       Suppose and are defined by     "
+},
+{
+  "id": "ch-functions-4-6",
+  "level": "2",
+  "url": "ch-functions-4.html#ch-functions-4-6",
+  "type": "Activity",
+  "number": "8.3.2",
+  "title": "Conjectures About Compositions and ’Jections.",
+  "body": " Conjectures About Compositions and 'Jections   We will spend some time thinking about compositions effect on injections and surjections. In each, assume and , so that the composition makes sense.     Must the composition of two injections be an injection?      Must the composition of two surjections be a surjection?      If is an injection, must both and be injections?      If is a surjection, must both and be surjections?    "
+},
+{
+  "id": "ch08-thm-compinj",
+  "level": "2",
+  "url": "ch-functions-4.html#ch08-thm-compinj",
+  "type": "Theorem",
+  "number": "8.3.4",
+  "title": "",
+  "body": "  Suppose and are sets, is injective and is injective. Then is injective.   "
+},
+{
+  "id": "ch-functions-4-9",
+  "level": "2",
+  "url": "ch-functions-4.html#ch-functions-4-9",
   "type": "Proof",
   "number": "8.3.1",
   "title": "",
-  "body": " Let be defined by for all . We will prove that is a bijection by proving that it is both a surjection and an injection.  We will first show that is a surjection. So, let be any element of the codomain of . Let . We will show that and that .  We begin by showing that is in the domain of . To do this, we will show that and . Real numbers are closed under subtraction and division (as long as they are nonzero), and by assumption , so . Next we will show that . To see this, suppose that . Using algebra, we find that , which simplifies to , a contradiction. Thus , and so .  Now we will show that . Using algebra,   Thus for each in the codomain of , there exists in the domain of such that . Therefore by definition, is a surjection.  We will now show that is an injection. So, suppose that for some . We will show that . Using algebra, Thus, for all and in the domain of , whenever , we must have . Therefore is an injection.  Because we have shown that is both a surjection and an injection, we have shown that is a bijection.  "
+  "body": " We'll prove this directly. When trying to figure out a direct proof, you should always write down what you are assuming, what you are proving, and then definitions of each of those. Here I've outlined the order I would think abou this proof.     FIRST: Assuming (by hypothesis): is This means for all     SECOND: Assuming (by hypothesis): is This means for all     FOURTH: The conclusion definition is a conditional statement, so we will assume its hypothesis which is which can be rewritten as     FIFTH: Work your way to the conclusion. Hint in footnote! Hint - you know , what can you say about and given that is an injection.     THIRD: Proving (conclusion): This means:     "
+},
+{
+  "id": "ch08-thm-compisinj",
+  "level": "2",
+  "url": "ch-functions-4.html#ch08-thm-compisinj",
+  "type": "Theorem",
+  "number": "8.3.5",
+  "title": "",
+  "body": "  Suppose and are sets, is injective and is injective. Then is injective.   "
+},
+{
+  "id": "ch-functions-4-12",
+  "level": "2",
+  "url": "ch-functions-4.html#ch-functions-4-12",
+  "type": "Proof",
+  "number": "8.3.2",
+  "title": "",
+  "body": " Suppose and are sets and that is injective. We will show is injective by showing that  To this end, assume and . We aim to show: Applying the definition of composition to we get  Since is , if for any , then . In particular, observe that and and so .  Likewise, is and we just showed that where . This implies .  We have shown that for , if then . Thus, is an injection.  "
+},
+{
+  "id": "ch-functions-4-13",
+  "level": "2",
+  "url": "ch-functions-4.html#ch-functions-4-13",
+  "type": "Activity",
+  "number": "8.3.3",
+  "title": "",
+  "body": "  Do a proof sketch that the composition of two surjections is a surjection.    Proof sketch: (Start by writing down what you are assuming at the top and what you are proving at the bottom, then write definitions of each.)   "
+},
+{
+  "id": "ch08-thm-compissurj",
+  "level": "2",
+  "url": "ch-functions-4.html#ch08-thm-compissurj",
+  "type": "Theorem",
+  "number": "8.3.6",
+  "title": "",
+  "body": "  Suppose and are sets, is surjective and is surjective. Then is surjective.   "
+},
+{
+  "id": "ch-functions-4-16",
+  "level": "2",
+  "url": "ch-functions-4.html#ch-functions-4-16",
+  "type": "Proof",
+  "number": "8.3.3",
+  "title": "",
+  "body": " We assume that , , are subsets of some universal set. Furthermore, we are given that function is a surjection. By definition, this means that:  Also, we are given that is a surjection. By definition, this means that:  We want to show that is also a surjection. That is, we must show that for all , there exists such that .  We begin. by assuming that . Because is a surjection with codomain , and , we know that there exists , such that   Because is a surjection with codomain , we know  Putting these facts together, we have:   Therefore, we have shown that:  "
+},
+{
+  "id": "ch-functions-4-17",
+  "level": "2",
+  "url": "ch-functions-4.html#ch-functions-4-17",
+  "type": "Corollary",
+  "number": "8.3.7",
+  "title": "",
+  "body": "  Suppose and are sets, is bijective and is bijective. Then is bijective.   "
+},
+{
+  "id": "ch-functions-4-18",
+  "level": "2",
+  "url": "ch-functions-4.html#ch-functions-4-18",
+  "type": "Proof",
+  "number": "8.3.4",
+  "title": "",
+  "body": " Suppose and are bijections. Then and are both injections and surjections. So by and , is an injection and a surjection.  "
+},
+{
+  "id": "ch08-thm-compsurjfsurj",
+  "level": "2",
+  "url": "ch-functions-4.html#ch08-thm-compsurjfsurj",
+  "type": "Theorem",
+  "number": "8.3.8",
+  "title": "",
+  "body": "  Suppose and are sets, and and are functions. If is surjective, then is surjective.   "
+},
+{
+  "id": "ch-functions-4-21",
+  "level": "2",
+  "url": "ch-functions-4.html#ch-functions-4-21",
+  "type": "Activity",
+  "number": "8.3.4",
+  "title": "",
+  "body": " Sketch a proof of . What are you assuming? Write that at the top. What are you proving? Write that at the bottom. Write definitions of each!  "
+},
+{
+  "id": "ch08-thm-compinjginj",
+  "level": "2",
+  "url": "ch-functions-4.html#ch08-thm-compinjginj",
+  "type": "Theorem",
+  "number": "8.3.9",
+  "title": "",
+  "body": "  Suppose and are sets, and and are functions. If is injective, then is injective.   "
+},
+{
+  "id": "ch-functions-4-23",
+  "level": "2",
+  "url": "ch-functions-4.html#ch-functions-4-23",
+  "type": "Activity",
+  "number": "8.3.5",
+  "title": "",
+  "body": " Sketch a proof of . What are you assuming? Write that at the top. What are you proving? Write that at the bottom. Write definitions of each!  "
+},
+{
+  "id": "ch-functions-4-25",
+  "level": "2",
+  "url": "ch-functions-4.html#ch-functions-4-25",
+  "type": "Theorem",
+  "number": "8.3.10",
+  "title": "",
+  "body": "  A function is invertible if and only if is a bijection.   "
+},
+{
+  "id": "ch-functions-4-27-1",
+  "level": "2",
+  "url": "ch-functions-4.html#ch-functions-4-27-1",
+  "type": "Figure",
+  "number": "8.3.11",
+  "title": "",
+  "body": " A function that is not an injection. Why does it not have an inverse?   An arrow diagram showing a non-injective function.   "
+},
+{
+  "id": "ch-functions-4-27-2",
+  "level": "2",
+  "url": "ch-functions-4.html#ch-functions-4-27-2",
+  "type": "Figure",
+  "number": "8.3.12",
+  "title": "",
+  "body": " A function that is not a surjection. Why does it not have an inverse?   An arrow diagram showing a non-surjective function.   "
+},
+{
+  "id": "ch-functions-4-29",
+  "level": "2",
+  "url": "ch-functions-4.html#ch-functions-4-29",
+  "type": "Activity",
+  "number": "8.3.6",
+  "title": "",
+  "body": " In college algebra, you were likely asked many times to find the inverse of a function like . Work with your group to try to remember ways you were taught to do that. Then think about how that relates to the definition given in your text.  "
+},
+{
+  "id": "ch-functions-4-30",
+  "level": "2",
+  "url": "ch-functions-4.html#ch-functions-4-30",
+  "type": "Activity",
+  "number": "8.3.7",
+  "title": "",
+  "body": "  One of the big ideas of inverse functions is that they allow us to undo functions. E.g., undoes in the sense that . Similarly, undoes . This activity is going to ask, if we can take square roots and cube roots modulo .     Define by . Then we might say the inverse is where . Is a function? Why or why not? What about if we change to and to ?      Let for the rest of the questions.  Define by . Find for all . Does have an inverse function?      Define by . Find for all . Does have an inverse function?      Define by . Can you find a formula for ?    "
+},
+{
+  "id": "ch-functions-4-32",
+  "level": "2",
+  "url": "ch-functions-4.html#ch-functions-4-32",
+  "type": "Activity",
+  "number": "8.3.8",
+  "title": "More Practice With ’Jections.",
+  "body": " More Practice With 'Jections   Prove that each of the following are both injections and surjections (and hence bijections).     defined by .     defined by , where .     defined by .   "
+},
+{
+  "id": "ch-functions-4-33",
+  "level": "2",
+  "url": "ch-functions-4.html#ch-functions-4-33",
+  "type": "Activity",
+  "number": "8.3.9",
+  "title": "Conjecturing, Proving, and Disproving.",
+  "body": " Conjecturing, Proving, and Disproving   For each of the following, prove or disprove whether they are injections and\/or surjections. See the advice before the previous activity!    Define by .    Define by .    Define by .    Define by .   "
 },
 {
   "id": "ch-relations-2",
   "level": "1",
   "url": "ch-relations-2.html",
-  "type": "Worksheet",
+  "type": "Handout",
   "number": "9.1",
-  "title": "Chapter 9: Relations (Equivalence Relations and Equivalence Classes)",
-  "body": " Chapter 9: Relations (Equivalence Relations and Equivalence Classes)   What's a relation?  Here is the most general definition of relation (which is on page 393 of your textbook):  A relation from to is a subset of .  A relation on is a subset of .  Recall the Cartesian product of and is denoted and means the ordered pairs where the first element is in and the second element is in . E.g.,     Representations and Examples  A relation can be written as    a ``rule'' (typically an if or an if and only if statement),    a set of ordered pairs (either in set-builder or roster notation)    a directed graph     Example: In the first example in Chapter 9, the author defines a relation where we say if . Here's 3 different ways to write that relation on :     if and only if          Notice that it's hard to write the set form in roster notation, we might write something like but even then it might be hard for our reader to see what's going on.    We can't draw the graph neatly on infinitely many things, but here's one if the relation were on :      For the following examples of relations, give a pair and such that and a different pair and such that . (Note, the next activity will require you to work on these same relations, so leave space!)             on such that if and only if        on such that if and only if        from to such that if .       and        More Definitions!  Some relations on a set are special because they act like ``='' (and, IMHO, = is one of the most important symbols in all of math!). They have the following the properties:     Reflexive: For all ,      Symmetric: For all , if then .     Transitive: For all , if and then .    If all three of the properties hold, we call the relation an equivalence relation .    For each of the relations defined in the activity earlier on this page, which of the 3 properties reflexive, symmetric, transitive, hold?      Complete the following with your team:     Let and define on by . Is reflexive? Symmetric? Transitive?      Let . Find a relation on such that is symmetric, but not transitive.      Let . Find a relation on such that is symmetric and transitive, but not reflexive.       Proving and Disproving Equivalence Relations   Example: Congruence is an equivalence relation.    Let be the relation on defined by if and only if . Then is an equivalence relation.     For all say if and only if . We will show is reflexive, symmetric, and transitive and therefore an equivalence relation.   Reflexive: First we will show is reflexive. This means we will show  Let . Note that because _____. Thus and thus is reflexive.   Symmetric: Now we will show is symmetric. This means we will show  Suppose and assume . We will show . Since we know _____ and so _____. By algebra, we see  Since , we know _____ and , as desired. Thus, for all , if then and thus is symmetric.   Transitive: Lastly, we will show is transitive. Suppose and that and . We will show . Since we know  Since we know  By algebra and substitution,  Since , he above shows that _____ and so . Thus, for all, if and then and thus is transitive.   Follow up question: How does this ``partition'' ?    Prove or disprove if each relation is reflexive, symmetric, or transitive.      Define the relation on as follows: for all , if and only if . Then is reflexive, symmetric, and transitive.      Let be some nonempty universal set and define the relation on as follows: for all , if and only if . Then is reflexive, symmetric, and transitive.     Hint: You can try this with as an example warmup.    Challenge Question\/Proof Define the relation on as follows: for all , if and only if .    Equivalence Classes    Let be an equivalence relation on a nonempty set of . Then the equivalence class of of determined by is      Equivalence Classes Partition   [Equivalence Classes Partition] Let be a nonempty set and let be an equivalence relation on . Then    For each , is nonempty (in particular, ).    For each , if and only if .    For each or .        (Working with equivalence classes)     Let and define by  For , if and only if and have the same number of digits.  This is an equivalence relation (briefly think about why). Determine all the distinct equivalence classes determined by .      Recall that is the set of all matrices and that if then the determinant of is given by . Define by,  For all , if and only if .     Find two matrices and such that .      Is an equivalence relation? (Briefly think about it, don't need to prove.)      Let . Find two elements of . Challenge Question: Can you find the entire equivalence class?         Equivalence Classes for Congruence Modulo - MTH 350  This is a preview activity taken from the 5th chapter of the modern algebra text used by many professors at GVSU.   For each integer , let denote the set of all integers that are congruent to modulo . Note this is the equivalence class of under the congruence modulo equivalence relation.     Determine and .    What is the remainder when is divided by ? Which, if any, of the sets , , and contain ?    Which elements belong to ? What about , or ?    What familiar set is equal to, and why?    Based on your answers above, make as many conjectures as you can about  (the equivalence classes of congruence modulo ).      Congruence Classes and Congruence Arithmetic  If the equivalence relation is congruence, then we use the term congruence class rather than equivalence class. The great thing about congruence classes is that you can add and multiply them in a natural way.    Let and . Then   and .    This may seem obvious to you, but there are some very subtle things going on. Perhaps the weirdest is that is really a set, an infinite set. So what you're actually doing is adding and multiplying infinite sets.   Example: What is ? What is ?  Notice that we've only used the congruence classes and since these are the only distinct congruence classes modulo . We typically let . Also, note . However, so we choose to be our representative of that congruence class.  Here are are addition and multiplication tables when we consider congruence modulo :                                                                Complete the addition and multiplication tables for , , and (you don't have to write all the [ ]'s but do pick the representative that is in that . What do you notice? What do you wonder?  Are the following statements true or false? Why?    For all , if and , then .    For all , if and , then .        Sometimes math competition problems will ask seemingly tough questions, like what is the remainder of when divided by . Try to find the answer to this question, by translating into modular arithmetic\/congruence classes and doing some smaller cases. E.g., what's ? ? ? ? What do these tell you about the remainder of when divided by .      In , solve each of the following equations, keeping in mind that the solution to any equation is the set of all values that make the equation true. (Note: order of operations for and are the same as for ``regular'' addition and multiplication, and , in the following way: in the absence of parentheses, we multiply before we add.)  Find all such that:                          "
+  "title": "Relations (Equivalence Relations and Equivalence Classes)",
+  "body": " Relations (Equivalence Relations and Equivalence Classes)   What's a relation?  Here is the most general definition of relation (which is on page 393 of your textbook):    A relation from to is a subset of .  A relation on is a subset of .    Recall the Cartesian product of and is denoted and means the ordered pairs where the first element is in and the second element is in . E.g.,     Representations and Examples  A relation can be written as     a ``rule'' (typically an if or an if and only if statement),    a set of ordered pairs (either in set-builder or roster notation)    a directed graph      Example: In the first example in Chapter 9, the author defines a relation where we say if . Here's 3 different ways to write that relation on :      if and only if          Notice that it's hard to write the set form in roster notation, we might write something like but even then it might be hard for our reader to see what's going on.    We can't draw the graph neatly on infinitely many things, but here's one if the relation were on :      A graph of the relation on   A graph of the relation on a subset.      For the following examples of relations, give a pair and such that and a different pair and such that . (Note, the next activity will require you to work on these same relations, so leave space!)             on such that if and only if        on such that if and only if        from to such that if .       and        More Definitions!  Some relations on a set are special because they act like = (and, IMHO, = is one of the most important symbols in all of math!). One of the reasons = is so important, is that it has all of the properties listed in the next definition.    We say a relation from to is    Reflexive: if for all ,      Symmetric: if for all , if then .     Transitive: if for all , if and then .     If all three of the properties hold, we call the relation an equivalence relation .      For each of the relations defined in , which of the 3 properties reflexive, symmetric, transitive, hold?      Complete the following with your team:     Let and define on by . Is reflexive? Symmetric? Transitive?      Let . Find a relation on such that is symmetric, but not transitive.      Let . Find a relation on such that is symmetric and transitive, but not reflexive.      "
 },
 {
   "id": "ch-relations-2-2-3",
   "level": "2",
   "url": "ch-relations-2.html#ch-relations-2-2-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "type": "Definition",
+  "number": "9.1.1",
   "title": "",
-  "body": "relation from to "
+  "body": "  A relation from to is a subset of .  A relation on is a subset of .   "
 },
 {
   "id": "ch-relations-2-2-4",
   "level": "2",
   "url": "ch-relations-2.html#ch-relations-2-2-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "relation on "
-},
-{
-  "id": "ch-relations-2-2-5",
-  "level": "2",
-  "url": "ch-relations-2.html#ch-relations-2-2-5",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1756,193 +1972,175 @@ var ptx_lunr_docs = [
   "body": "Example: "
 },
 {
-  "id": "ch-relations-2-3-6",
+  "id": "fig-relation",
   "level": "2",
-  "url": "ch-relations-2.html#ch-relations-2-3-6",
+  "url": "ch-relations-2.html#fig-relation",
+  "type": "Figure",
+  "number": "9.1.2",
+  "title": "",
+  "body": " A graph of the relation on   A graph of the relation on a subset.   "
+},
+{
+  "id": "ch09-act-relations",
+  "level": "2",
+  "url": "ch-relations-2.html#ch09-act-relations",
   "type": "Activity",
   "number": "9.1.1",
   "title": "",
   "body": "  For the following examples of relations, give a pair and such that and a different pair and such that . (Note, the next activity will require you to work on these same relations, so leave space!)             on such that if and only if        on such that if and only if        from to such that if .       and     "
 },
 {
-  "id": "ch-relations-2-4-3-1-1",
+  "id": "ch-relations-2-4-3",
   "level": "2",
-  "url": "ch-relations-2.html#ch-relations-2-4-3-1-1",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "url": "ch-relations-2.html#ch-relations-2-4-3",
+  "type": "Definition",
+  "number": "9.1.3",
   "title": "",
-  "body": "Reflexive: "
-},
-{
-  "id": "ch-relations-2-4-3-2-1",
-  "level": "2",
-  "url": "ch-relations-2.html#ch-relations-2-4-3-2-1",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Symmetric: "
-},
-{
-  "id": "ch-relations-2-4-3-3-1",
-  "level": "2",
-  "url": "ch-relations-2.html#ch-relations-2-4-3-3-1",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Transitive: "
+  "body": "  We say a relation from to is    Reflexive: if for all ,      Symmetric: if for all , if then .     Transitive: if for all , if and then .     If all three of the properties hold, we call the relation an equivalence relation .   "
 },
 {
   "id": "ch-relations-2-4-4",
   "level": "2",
   "url": "ch-relations-2.html#ch-relations-2-4-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "type": "Activity",
+  "number": "9.1.2",
   "title": "",
-  "body": "equivalence relation "
+  "body": "  For each of the relations defined in , which of the 3 properties reflexive, symmetric, transitive, hold?   "
 },
 {
   "id": "ch-relations-2-4-5",
   "level": "2",
   "url": "ch-relations-2.html#ch-relations-2-4-5",
   "type": "Activity",
-  "number": "9.1.2",
-  "title": "",
-  "body": "  For each of the relations defined in the activity earlier on this page, which of the 3 properties reflexive, symmetric, transitive, hold?   "
-},
-{
-  "id": "ch-relations-2-4-6",
-  "level": "2",
-  "url": "ch-relations-2.html#ch-relations-2-4-6",
-  "type": "Activity",
   "number": "9.1.3",
   "title": "",
   "body": "  Complete the following with your team:     Let and define on by . Is reflexive? Symmetric? Transitive?      Let . Find a relation on such that is symmetric, but not transitive.      Let . Find a relation on such that is symmetric and transitive, but not reflexive.    "
 },
 {
-  "id": "ch-relations-2-5-2",
-  "level": "2",
-  "url": "ch-relations-2.html#ch-relations-2-5-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example: "
+  "id": "ch-relations-3",
+  "level": "1",
+  "url": "ch-relations-3.html",
+  "type": "Handout",
+  "number": "9.2",
+  "title": "Proving and Disproving Equivalence Relations",
+  "body": " Proving and Disproving Equivalence Relations  Let's prove congruence is an equivalence relation.    Let be the relation on defined by if and only if . Then is an equivalence relation.     For all say if and only if . We will show is reflexive, symmetric, and transitive and therefore an equivalence relation.   Reflexive: First we will show is reflexive. This means we will show  Let . Note that because Thus and thus is reflexive.   Symmetric: Now we will show is symmetric. This means we will show  Suppose and assume . We will show or that . Since we know and so there exists By algebra, we see  Since , we know and , as desired. Thus, for all , if then and thus is symmetric.   Transitive: Lastly, we will show is transitive. Suppose such that and . Then and . We will show or that . Since we know  Since we know  By algebra and substitution,  Since , the above shows that and so . Thus, for all, if and then and thus is transitive.   Follow up question: How does this  partition  ?    Prove or disprove if each relation is reflexive, symmetric, or transitive.     Define the relation on as follows: for all , if and only if . Then is reflexive, symmetric, and transitive.      Let be some nonempty universal set and define the relation on as follows: for all , if and only if . Then is reflexive, symmetric, and transitive. Hint: You can try this with as an example warmup.        Challenge Question\/Proof Define the relation on as follows: for all , if and only if .     "
 },
 {
-  "id": "ch-relations-2-5-3",
+  "id": "ch-relations-3-3",
   "level": "2",
-  "url": "ch-relations-2.html#ch-relations-2-5-3",
+  "url": "ch-relations-3.html#ch-relations-3-3",
   "type": "Theorem",
-  "number": "9.1.1",
+  "number": "9.2.1",
   "title": "",
   "body": "  Let be the relation on defined by if and only if . Then is an equivalence relation.   "
 },
 {
-  "id": "ch-relations-2-5-4",
+  "id": "ch-relations-3-4",
   "level": "2",
-  "url": "ch-relations-2.html#ch-relations-2-5-4",
+  "url": "ch-relations-3.html#ch-relations-3-4",
   "type": "Proof",
-  "number": "1",
+  "number": "9.2.1",
   "title": "",
-  "body": " For all say if and only if . We will show is reflexive, symmetric, and transitive and therefore an equivalence relation.   Reflexive: First we will show is reflexive. This means we will show  Let . Note that because _____. Thus and thus is reflexive.   Symmetric: Now we will show is symmetric. This means we will show  Suppose and assume . We will show . Since we know _____ and so _____. By algebra, we see  Since , we know _____ and , as desired. Thus, for all , if then and thus is symmetric.   Transitive: Lastly, we will show is transitive. Suppose and that and . We will show . Since we know  Since we know  By algebra and substitution,  Since , he above shows that _____ and so . Thus, for all, if and then and thus is transitive.  "
+  "body": " For all say if and only if . We will show is reflexive, symmetric, and transitive and therefore an equivalence relation.   Reflexive: First we will show is reflexive. This means we will show  Let . Note that because Thus and thus is reflexive.   Symmetric: Now we will show is symmetric. This means we will show  Suppose and assume . We will show or that . Since we know and so there exists By algebra, we see  Since , we know and , as desired. Thus, for all , if then and thus is symmetric.   Transitive: Lastly, we will show is transitive. Suppose such that and . Then and . We will show or that . Since we know  Since we know  By algebra and substitution,  Since , the above shows that and so . Thus, for all, if and then and thus is transitive.  "
 },
 {
-  "id": "ch-relations-2-5-6",
+  "id": "ch-relations-3-6",
   "level": "2",
-  "url": "ch-relations-2.html#ch-relations-2-5-6",
+  "url": "ch-relations-3.html#ch-relations-3-6",
   "type": "Activity",
-  "number": "9.1.4",
+  "number": "9.2.1",
   "title": "",
-  "body": "  Prove or disprove if each relation is reflexive, symmetric, or transitive.   "
+  "body": "  Prove or disprove if each relation is reflexive, symmetric, or transitive.     Define the relation on as follows: for all , if and only if . Then is reflexive, symmetric, and transitive.      Let be some nonempty universal set and define the relation on as follows: for all , if and only if . Then is reflexive, symmetric, and transitive. Hint: You can try this with as an example warmup.        Challenge Question\/Proof Define the relation on as follows: for all , if and only if .    "
 },
 {
-  "id": "ch-relations-2-5-7",
-  "level": "2",
-  "url": "ch-relations-2.html#ch-relations-2-5-7",
-  "type": "Conjecture",
-  "number": "9.1.2",
-  "title": "",
-  "body": "  Define the relation on as follows: for all , if and only if . Then is reflexive, symmetric, and transitive.   "
+  "id": "ch-relations-4",
+  "level": "1",
+  "url": "ch-relations-4.html",
+  "type": "Handout",
+  "number": "9.3",
+  "title": "Equivalence Classes",
+  "body": " Equivalence Classes    Let be an equivalence relation on a nonempty set of . Then the equivalence class of of determined by is      Equivalence Classes Partition   Let be a nonempty set and let be an equivalence relation on . Then     For each , is nonempty (in particular, ).    For each , if and only if .    For each or .        (Working with equivalence classes)    Let and define by  For , if and only if and have the same number of digits.  This is an equivalence relation (briefly think about why). Determine all the distinct equivalence classes determined by .      Recall that is the set of all matrices and that if then the determinant of is given by . Define by,  For all , if and only if .     Find two matrices and such that .      Is an equivalence relation? (Briefly think about it, don't need to prove.)      Let . Find two elements of . Challenge Question: Can you find the entire equivalence class?        Equivalence Classes for Congruence Modulo - MTH 350   This is a preview activity taken from the 5th chapter of the modern algebra text used by many professors at GVSU.   For each integer , let denote the set of all integers that are congruent to modulo . Note this is the equivalence class of under the congruence modulo equivalence relation.      Determine and .      What is the remainder when is divided by ? Which, if any, of the sets , , and contain ?      Which elements belong to ? What about , or ?      What familiar set is equal to, and why?      Based on your answers above, make as many conjectures as you can about  (the equivalence classes of congruence modulo ).      Congruence Classes and Congruence Arithmetic  If the equivalence relation is congruence, then we use the term congruence class rather than equivalence class. The great thing about congruence classes is that you can add and multiply them in a natural way.    Let and . Then and .    This may seem obvious to you, but there are some very subtle things going on. Perhaps the weirdest is that is really a set, an infinite set. So what you're actually doing is adding and multiplying infinite sets.    What is ? What is ?   Notice that we've only used the congruence classes and since these are the only distinct congruence classes modulo . We typically let . Also, note . However, so we choose to be our representative of that congruence class.  Here are are addition and multiplication tables when we consider congruence modulo :                                                                 Complete the addition and multiplication tables for , , and (you don't have to write all the [ ]'s but do pick the representative that is in that . What do you notice? What do you wonder?      Are the following statements true or false? Why?    For all , if and , then .    For all , if and , then .       Sometimes math competition problems will ask seemingly tough questions, like what is the remainder of when divided by . Try to find the answer to this question, by translating into modular arithmetic\/congruence classes and doing some smaller cases. E.g., what's ? ? ? ? What do these tell you about the remainder of when divided by .      In , solve each of the following equations, keeping in mind that the solution to any equation is the set of all values that make the equation true. Here, = means equality as congruence classes. Note, order of operations for and are the same as for regular addition and multiplication, and , in the following way: in the absence of parentheses, we multiply before we add.  Find all such that:                         "
 },
 {
-  "id": "ch-relations-2-5-8",
+  "id": "ch-relations-4-2",
   "level": "2",
-  "url": "ch-relations-2.html#ch-relations-2-5-8",
-  "type": "Conjecture",
-  "number": "9.1.3",
-  "title": "",
-  "body": "  Let be some nonempty universal set and define the relation on as follows: for all , if and only if . Then is reflexive, symmetric, and transitive.   "
-},
-{
-  "id": "ch-relations-2-6-2",
-  "level": "2",
-  "url": "ch-relations-2.html#ch-relations-2-6-2",
+  "url": "ch-relations-4.html#ch-relations-4-2",
   "type": "Definition",
-  "number": "9.1.4",
+  "number": "9.3.1",
   "title": "",
   "body": "  Let be an equivalence relation on a nonempty set of . Then the equivalence class of of determined by is    "
 },
 {
-  "id": "ch-relations-2-6-3",
+  "id": "ch-relations-4-3",
   "level": "2",
-  "url": "ch-relations-2.html#ch-relations-2-6-3",
+  "url": "ch-relations-4.html#ch-relations-4-3",
   "type": "Theorem",
-  "number": "9.1.5",
+  "number": "9.3.2",
   "title": "Equivalence Classes Partition.",
-  "body": " Equivalence Classes Partition   [Equivalence Classes Partition] Let be a nonempty set and let be an equivalence relation on . Then    For each , is nonempty (in particular, ).    For each , if and only if .    For each or .     "
+  "body": " Equivalence Classes Partition   Let be a nonempty set and let be an equivalence relation on . Then     For each , is nonempty (in particular, ).    For each , if and only if .    For each or .      "
 },
 {
-  "id": "ch-relations-2-6-4",
+  "id": "ch-relations-4-4",
   "level": "2",
-  "url": "ch-relations-2.html#ch-relations-2-6-4",
+  "url": "ch-relations-4.html#ch-relations-4-4",
   "type": "Activity",
-  "number": "9.1.5",
-  "title": "",
-  "body": "  (Working with equivalence classes)     Let and define by  For , if and only if and have the same number of digits.  This is an equivalence relation (briefly think about why). Determine all the distinct equivalence classes determined by .      Recall that is the set of all matrices and that if then the determinant of is given by . Define by,  For all , if and only if .     Find two matrices and such that .      Is an equivalence relation? (Briefly think about it, don't need to prove.)      Let . Find two elements of . Challenge Question: Can you find the entire equivalence class?      "
+  "number": "9.3.1",
+  "title": "(Working with equivalence classes).",
+  "body": " (Working with equivalence classes)    Let and define by  For , if and only if and have the same number of digits.  This is an equivalence relation (briefly think about why). Determine all the distinct equivalence classes determined by .      Recall that is the set of all matrices and that if then the determinant of is given by . Define by,  For all , if and only if .     Find two matrices and such that .      Is an equivalence relation? (Briefly think about it, don't need to prove.)      Let . Find two elements of . Challenge Question: Can you find the entire equivalence class?      "
 },
 {
-  "id": "ch-relations-2-8-3",
+  "id": "ch-relations-4-5",
   "level": "2",
-  "url": "ch-relations-2.html#ch-relations-2-8-3",
+  "url": "ch-relations-4.html#ch-relations-4-5",
+  "type": "Activity",
+  "number": "9.3.2",
+  "title": "Equivalence Classes for Congruence Modulo <span class=\"process-math\">\\(3\\)<\/span>- MTH 350.",
+  "body": " Equivalence Classes for Congruence Modulo - MTH 350   This is a preview activity taken from the 5th chapter of the modern algebra text used by many professors at GVSU.   For each integer , let denote the set of all integers that are congruent to modulo . Note this is the equivalence class of under the congruence modulo equivalence relation.      Determine and .      What is the remainder when is divided by ? Which, if any, of the sets , , and contain ?      Which elements belong to ? What about , or ?      What familiar set is equal to, and why?      Based on your answers above, make as many conjectures as you can about  (the equivalence classes of congruence modulo ).    "
+},
+{
+  "id": "ch-relations-4-6-3",
+  "level": "2",
+  "url": "ch-relations-4.html#ch-relations-4-6-3",
   "type": "Definition",
-  "number": "9.1.6",
+  "number": "9.3.3",
   "title": "",
-  "body": "  Let and . Then   and .   "
+  "body": "  Let and . Then and .   "
 },
 {
-  "id": "ch-relations-2-8-5",
+  "id": "ch-relations-4-7",
   "level": "2",
-  "url": "ch-relations-2.html#ch-relations-2-8-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "url": "ch-relations-4.html#ch-relations-4-7",
+  "type": "Example",
+  "number": "9.3.4",
   "title": "",
-  "body": "Example: "
+  "body": " What is ? What is ?  "
 },
 {
-  "id": "ch-relations-2-8-10",
+  "id": "ch-relations-4-12",
   "level": "2",
-  "url": "ch-relations-2.html#ch-relations-2-8-10",
+  "url": "ch-relations-4.html#ch-relations-4-12",
   "type": "Activity",
-  "number": "9.1.6",
+  "number": "9.3.3",
   "title": "",
-  "body": "  Complete the addition and multiplication tables for , , and (you don't have to write all the [ ]'s but do pick the representative that is in that . What do you notice? What do you wonder?  Are the following statements true or false? Why?    For all , if and , then .    For all , if and , then .     "
+  "body": "   Complete the addition and multiplication tables for , , and (you don't have to write all the [ ]'s but do pick the representative that is in that . What do you notice? What do you wonder?      Are the following statements true or false? Why?    For all , if and , then .    For all , if and , then .    "
 },
 {
-  "id": "ch-relations-2-8-11",
+  "id": "ch-relations-4-13",
   "level": "2",
-  "url": "ch-relations-2.html#ch-relations-2-8-11",
+  "url": "ch-relations-4.html#ch-relations-4-13",
   "type": "Activity",
-  "number": "9.1.7",
+  "number": "9.3.4",
   "title": "",
   "body": "  Sometimes math competition problems will ask seemingly tough questions, like what is the remainder of when divided by . Try to find the answer to this question, by translating into modular arithmetic\/congruence classes and doing some smaller cases. E.g., what's ? ? ? ? What do these tell you about the remainder of when divided by .   "
 },
 {
-  "id": "ch-relations-2-8-12",
+  "id": "ch-relations-4-14",
   "level": "2",
-  "url": "ch-relations-2.html#ch-relations-2-8-12",
+  "url": "ch-relations-4.html#ch-relations-4-14",
   "type": "Activity",
-  "number": "9.1.8",
+  "number": "9.3.5",
   "title": "",
-  "body": "  In , solve each of the following equations, keeping in mind that the solution to any equation is the set of all values that make the equation true. (Note: order of operations for and are the same as for ``regular'' addition and multiplication, and , in the following way: in the absence of parentheses, we multiply before we add.)  Find all such that:                        "
+  "body": "  In , solve each of the following equations, keeping in mind that the solution to any equation is the set of all values that make the equation true. Here, = means equality as congruence classes. Note, order of operations for and are the same as for regular addition and multiplication, and , in the following way: in the absence of parentheses, we multiply before we add.  Find all such that:                        "
 },
 {
   "id": "ch-review-2",
@@ -2161,13 +2359,22 @@ var ptx_lunr_docs = [
   "body": "Ambiguous Dates "
 },
 {
-  "id": "activities",
+  "id": "syllabus",
   "level": "1",
-  "url": "activities.html",
-  "type": "Chapter",
-  "number": "11",
-  "title": "In-Class Activities",
-  "body": " In-Class Activities   These are copies of the in-class activities distributed during the semester.      "
+  "url": "syllabus.html",
+  "type": "Section",
+  "number": "11.1",
+  "title": "Syllabus",
+  "body": " Syllabus        Course Information  This is the syllabus for course name (MATH xxx, section xxx) for [term] 20xx. It is a [n] credit course.    Instructor  Prof. Lastname, Office Location, prof.lastname@example.edu .    Student Hours  TBD    Class meets  course times and location.    Course Description  course description from catalog    Prerequisite  list of prerequisites    Textbook and course materials   textbook name by textbook author.       Course Overview        Assessments and Grades     "
+},
+{
+  "id": "sec-course-info-2",
+  "level": "2",
+  "url": "syllabus.html#sec-course-info-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "course name (MATH xxx, section xxx) "
 },
 {
   "id": "targets-2",
@@ -2224,29 +2431,11 @@ var ptx_lunr_docs = [
   "body": " Learning Target 5 Practice   State the definition of ``a divides b'' and ``a is congruent to b modulo n'', and correctly apply these definitions in examples.    Need to know:     The definition of divides and its notation: Definition 2.8 on page 55 or page 21 of class worksheets.    The definition of congruence and its notation: Definition 2.14 on page 62 or page 27 of class worksheets.       Practice:     Pages 21 and 27 of class worksheets    Carefully state the definition of (for ) and (for and .    Given any integer , does ? does ?    Give examples of integers and such that and . Explain using the definition.    Give examples of integers and such that and . Explain using the definition.    List all integers such that . Explain using the definition.    List all integers such that . (Using is okay!)    Give an example of two integers, and , such that , where one of the integers is negative.       Some Solutions     3.  Yes, for , since is an integer and . However, in the definition of , we prohibit from being . Moreover, there is no integer such that , unless .    4.  Note since and , so . However, since (Lots of correct answers here.)    8.  Let and . Then , or since and so .      "
 },
 {
-  "id": "syllabus",
-  "level": "1",
-  "url": "syllabus.html",
-  "type": "Section",
-  "number": "13.1",
-  "title": "Syllabus",
-  "body": " Syllabus        Course Information  This is the syllabus for course name (MATH xxx, section xxx) for [term] 20xx. It is a [n] credit course.    Instructor  Prof. Lastname, Office Location, prof.lastname@example.edu .    Student Hours  TBD    Class meets  course times and location.    Course Description  course description from catalog    Prerequisite  list of prerequisites    Textbook and course materials   textbook name by textbook author.       Course Overview        Assessments and Grades     "
-},
-{
-  "id": "sec-course-info-2",
-  "level": "2",
-  "url": "syllabus.html#sec-course-info-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "course name (MATH xxx, section xxx) "
-},
-{
   "id": "notes-week-01",
   "level": "1",
   "url": "notes-week-01.html",
   "type": "Section",
-  "number": "14.1",
+  "number": "13.1",
   "title": "Week 1",
   "body": " Week 1   This is an outline of the topics we covered in the first week of class.     Monday 8\/22      Wednesday 8\/24      Friday 8\/26     "
 },
@@ -2255,18 +2444,9 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "notes-week-02.html",
   "type": "Section",
-  "number": "14.2",
+  "number": "13.2",
   "title": "Week 2",
   "body": " Week 2   Monday      Wednesday      Friday     "
-},
-{
-  "id": "homework",
-  "level": "1",
-  "url": "homework.html",
-  "type": "Chapter",
-  "number": "15",
-  "title": "Homework",
-  "body": " Homework    "
 }
 ]
 
