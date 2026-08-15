@@ -75,14 +75,16 @@
             <title>Functions</title>
 
             <xi:include href="./activities/08-1-FunctionsIntroduction.ptx"/>
-            <xi:include href="./activities/08-2-FunctionsDisproving.ptx"/>
-            <xi:include href="./activities/08-3-FunctionsProving.ptx" />
+            <xi:include href="./activities/08-2-FunctionsProvingAndDisproving.ptx"/>
+            <xi:include href="./activities/08-3-CompositionsAndInverses.ptx" />
         </chapter>
 
         <chapter xml:id="ch-relations">
             <title>Relations</title>
 
-            <xi:include href="./activities/20-210-Chapter9.ptx"/>
+            <xi:include href="./activities/09-1-RelationsAndEquivalenceRelations.ptx"/>
+            <xi:include href="./activities/09-2-ProofsOfEquivalenceRelations.ptx" />
+            <xi:include href="./activities/09-3-EquivalenceClasses.ptx" />
         </chapter>
 
         <chapter xml:id="ch-review">
@@ -93,18 +95,12 @@
             <xi:include href="./activities/22-210-ReviewAssessment2Review.ptx"/>
         </chapter>
 
-        <chapter xml:id="activities">
-            <title>In-Class Activities</title>
+   <chapter xml:id="course-documents">
+            <title>Course Documents</title>
 
-            <introduction>
-                <p>
-                    These are copies of the in-class activities distributed
-                    during the semester.
-                </p>
-            </introduction>
-            <!-- Remove the example and replace with your own activities -->
-            <!-- <xi:include href="./activities/01-intro-activity.ptx"/> -->
-            <!-- Add more xi:include files here to include them in the main course -->
+            <!-- Course syllabus -->
+            <xi:include href="./syllabus/syllabus.ptx"/>
+            <!-- Other documents could go here, like a schedule, project description, etc. -->
         </chapter>
 
         <chapter xml:id="targets">
@@ -118,16 +114,10 @@
             <xi:include href="./targets/LearningTarget5.ptx" />
         </chapter>
 
-        <chapter xml:id="course-documents">
-            <title>Course Documents</title>
+        
 
-            <!-- Course syllabus -->
-            <xi:include href="./syllabus/syllabus.ptx"/>
-            <!-- Other documents could go here, like a schedule, project description, etc. -->
-        </chapter>
-
-        <chapter xml:id="course-notes">
-            <title>Course Notes</title>
+        <chapter xml:id="weekly-practice">
+            <title>Weekly Practice</title>
 
             <introduction>
                 <p>
@@ -143,14 +133,6 @@
             <!-- etc. -->
         </chapter>
 
-        <chapter xml:id="homework">
-            <title>Homework</title>
 
-            <!-- Include homework files -->
-            <!--
-      <xi:include href="./homework/homework01.ptx"/>
-      -->
-        </chapter>
-        <!-- Include additional chapters for other categories -->
     </book>
 </pretext>

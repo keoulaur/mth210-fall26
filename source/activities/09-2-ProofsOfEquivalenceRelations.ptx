@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <handout>
+        <title>Proving and Disproving Equivalence Relations</title>
+
+        <p>
+            Let's prove congruence is an equivalence relation.
+        </p>
+
+        <theorem>
+            <statement>
+                <p>
+                    Let <m>\sim</m> be the relation on <m>\mathbb{Z}</m> defined
+                    by <m>a\sim b</m> if and only if <m>a\equiv b \pmod{3}</m>.
+                    Then <m>\sim</m> is an equivalence relation.
+                </p>
+            </statement>
+        </theorem>
+
+        <proof>
+            <p>
+                For all <m>a,b\in\mathbb{Z}</m> say <m>a\sim b</m> if and only
+                if <m>a\equiv b \pmod{3}</m>.
+                We will show <m>\sim</m> is reflexive, symmetric, and transitive
+                and therefore an equivalence relation.
+            </p>
+
+            <p workspace=".5in">
+                <term>Reflexive:</term> First we will show <m>\sim</m> is
+                reflexive.
+                This means we will show
+            </p>
+
+            <p>
+                Let <m>a \in  <fillin characters="2"/> </m>.
+                Note that
+                <m> <fillin characters="2"/> \equiv  <fillin characters="2"/> \pmod{3}</m>
+                because <m> <fillin characters="10"/>.</m> Thus
+                <m> <fillin characters="2"/> \sim  <fillin characters="2"/></m>
+                and thus <m>\sim</m> is reflexive.
+            </p>
+
+            <p workspace=".5in">
+                <term>Symmetric:</term> Now we will show <m>\sim</m> is
+                symmetric.
+                This means we will show
+            </p>
+
+            <p workspace=".5in">
+                Suppose <m>a,b  \in  <fillin characters="2"/></m> and assume
+                <m> <fillin characters="2"/> \equiv  <fillin characters="2"/> \pmod{3}</m>.
+                We will show <m> <fillin characters="5"/> </m> or that
+                <m> <fillin characters="1"/> \equiv  <fillin characters="1"/> \pmod{3}</m>.
+                Since
+                <m> <fillin characters="2"/> \equiv  <fillin characters="2"/> \pmod{3}</m>
+                we know
+                <m> <fillin characters="2"/>  \mid <fillin characters="5"/> </m>
+                and so there exists <m><fillin characters="20"/>.</m> By
+                algebra, we see
+            </p>
+
+            <p>
+                Since <m> <fillin characters="2"/>\in \mathbb{Z}</m>, we know
+                <m> <fillin characters="2"/> \mid <fillin characters="2"/> </m>
+                and
+                <m> <fillin characters="5"/> \equiv  <fillin characters="5"/> \pmod{3}</m>,
+                as desired.
+                Thus, for all <m>a,b\in <fillin characters="2"/></m>, if
+                <m> <fillin characters="2"/> \sim  <fillin characters="5"/></m>
+                then
+                <m> <fillin characters="2"/> \sim  <fillin characters="2"/></m>
+                and thus <m>\sim</m> is symmetric.
+            </p>
+
+            <p workspace=".5in">
+                <term>Transitive:</term> Lastly, we will show <m>\sim</m> is
+                transitive.
+                Suppose <m>a,b,c\in  <fillin characters="2"/></m> such that
+                <m>a\sim b</m> and <m> b\sim c</m>.
+                Then
+                <m> <fillin characters="2"/> \equiv  <fillin characters="2"/> \pmod{3}</m>
+                and
+                <m> <fillin characters="2"/> \equiv  <fillin characters="2"/> \pmod{3}</m>.
+                We will show <m> <fillin characters="5"/> </m> or that
+                <m> <fillin characters="2"/> \equiv  <fillin characters="2"/> \pmod{3}</m>.
+                Since
+                <m> <fillin characters="2"/> \equiv  <fillin characters="2"/> \pmod{3}</m>
+                we know
+            </p>
+
+            <p workspace=".5in">
+                Since
+                <m> <fillin characters="5"/> \equiv  <fillin characters="5"/> \pmod{3}</m>
+                we know
+            </p>
+
+            <p workspace="1in">
+                By algebra and substitution,
+            </p>
+
+            <p>
+                Since <m><fillin characters="2"/> \in \mathbb{Z}</m>, the above
+                shows that <m> <fillin characters="5"/> </m> and so
+                <m> <fillin characters="2"/> \equiv  <fillin characters="2"/> \pmod{3}</m>.
+                Thus, for all, <m>a,b,c\in <fillin characters="2"/></m> if
+                <m> <fillin characters="2"/> \sim  <fillin characters="2"/></m>
+                and
+                <m> <fillin characters="2"/> \sim  <fillin characters="2"/></m>
+                then
+                <m> <fillin characters="2"/> \sim  <fillin characters="2"/></m>
+                and thus <m>\sim</m> is transitive.
+            </p>
+        </proof>
+
+        <p workspace="1in">
+            Follow up question: How does this <m>\sim</m> <q>partition</q>
+            <m>\mathbb{Z}</m>?
+        </p>
+
+        <activity workspace="1in">
+            <introduction>
+                <p>
+                    Prove or disprove if each relation is reflexive, symmetric,
+                    or transitive.
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
+                    <p>
+                        Define the relation <m>\sim</m> on <m>\mathbb{R}</m> as
+                        follows: for all <m>a,b\in \mathbb{R}</m>,
+                        <m>a\sim b</m> if and only if <m>ab\geq 0</m>.
+                        Then <m>\sim</m> is reflexive, symmetric, and
+                        transitive.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Let <m>U</m> be some nonempty universal set and define
+                        the relation <m>\sim</m> on <m>\mathcal{P}(U)</m> as
+                        follows: for all <m>A,B\in \mathcal{P}(U)</m>,
+                        <m>A\sim B</m> if and only if
+                        <m>A\cap B = \emptyset</m>.
+                        Then <m>\sim</m> is reflexive, symmetric, and
+                        transitive.
+                        <em>Hint: You can try this with  <m>U=\{1,2,3\}</m> as an example warmup.</em>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <em>Challenge Question/Proof</em> Define the relation on
+                        <m>\mathbb{Z}</m> as follows: for all
+                        <m>a,b\in\mathbb{Z}</m>, <m>a\sim b</m> if and only if
+                        <m>2a + 3b\equiv 0\pmod{5}</m>.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+    </handout>
