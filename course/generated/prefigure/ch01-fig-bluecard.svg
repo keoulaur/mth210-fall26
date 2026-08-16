@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ch01-fig-bluecard-figure" width="410" height="410" viewBox="0 0 410 410">
+  <defs>
+    <clipPath id="ch01-fig-bluecard-clipPath-0">
+      <rect x="5.0" y="5.0" width="400.0" height="400.0"/>
+    </clipPath>
+    <clipPath id="ch01-fig-bluecard-clipPath-1">
+      <rect x="5.0" y="5.0" width="400.0" height="400.0"/>
+    </clipPath>
+  </defs>
+  <path id="ch01-fig-bluecard-path-0" d="M 5.0 405.0 L 5.0 5.0 L 271.7 5.0 L 271.7 405.0 Z" stroke="none" stroke-width="2" fill="blue" clip-path="url(#ch01-fig-bluecard-clipPath-1)"/>
+  <g id="ch01-fig-bluecard-label-0" transform="translate(138.3,205.0) scale(7.0,7.0) translate(-14.0,-5.2)">
+    <g id="ch01-fig-bluecard-g-0">
+      <text font-family="sans-serif" font-size="14" x="0.0" y="10.0">Blue</text>
+    </g>
+  </g>
+</svg>
