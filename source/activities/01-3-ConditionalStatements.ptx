@@ -18,6 +18,69 @@
                 her claim?
                 Carefully explain.
             </p>
+
+            <figure xml:id="ch01-fig-wason">
+                <caption>The 4 cards.</caption>
+                <sidebyside widths="25% 25% 25% 25%">
+                    <image>
+                        <shortdescription>3 card</shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="ch01-fig-3card">
+                            <diagram dimensions="(400,400)" margins="5">
+                                <coordinates bbox="(0,0,3,4)">
+                                    <polygon points="((0,0),(0,4),(2,4),(2,0))" closed="yes" stroke="black" thickness="4" />
+                                    <label anchor="(1,2)" alignment="c" scale="15">
+                                        3
+                                    </label>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+
+                
+
+                    <image>
+                        <shortdescription>8 card</shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="ch01-fig-8card">
+                            <diagram dimensions="(400,400)" margins="5">
+                                <coordinates bbox="(0,0,3,4)">
+                                    <polygon points="((0,0),(0,4),(2,4),(2,0))" closed="yes" stroke="black" thickness="4"/>
+                                    <label anchor="(1,2)" alignment="c" scale="15">
+                                        8
+                                    </label>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+
+                    <image>
+                        <shortdescription>red card</shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="ch01-fig-redcard">
+                            <diagram dimensions="(400,400)" margins="5">
+                                <coordinates bbox="(0,0,3,4)">
+                                    <polygon points="((0,0),(0,4),(2,4),(2,0))" closed="yes" fill="red" />
+                                    <label anchor="(1,2)" alignment="c" scale="7">
+                                        Red
+                                    </label>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+
+                     <image>
+                        <shortdescription>blue card</shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="ch01-fig-bluecard">
+                            <diagram dimensions="(400,400)" margins="5">
+                                <coordinates bbox="(0,0,3,4)">
+                                    <polygon points="((0,0),(0,4),(2,4),(2,0))" closed="yes" fill="blue"/>
+                                    <label anchor="(1,2)" alignment="c" scale="7">
+                                        Blue
+                                    </label>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                </sidebyside>
+            </figure>
         </task>
 
         <task workspace="2in">
@@ -32,15 +95,78 @@
                 abiding citizen.
                 That is, which card(s) must you turn over to verify the
                 proposition: if one is consuming an alcoholic beverage then one
-                is over the age of 21. How does this relate to the previous
-                problem?
+                is over the age of 21.
+                How does this relate to the previous problem?
             </p>
+
+             <figure xml:id="ch01-fig-wason21">
+                <caption>4 new cards, in context.</caption>
+                <sidebyside widths="25% 25% 25% 25%">
+                    <image>
+                        <shortdescription>coke card</shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="ch01-fig-cokecard">
+                            <diagram dimensions="(400,400)" margins="5">
+                                <coordinates bbox="(0,0,3,4)">
+                                    <polygon points="((0,0),(0,4),(2,4),(2,0))" closed="yes" stroke="black" thickness="4" />
+                                    <label anchor="(1,2)" alignment="c" scale="3">
+                                        Coca-Cola
+                                    </label>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+
+                
+
+                    <image>
+                        <shortdescription>beer card</shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="ch01-fig-beercard">
+                            <diagram dimensions="(400,400)" margins="5">
+                                <coordinates bbox="(0,0,3,4)">
+                                    <polygon points="((0,0),(0,4),(2,4),(2,0))" closed="yes" stroke="black" thickness="4"/>
+                                    <label anchor="(1,2)" alignment="c" scale="3">
+                                        Beer
+                                    </label>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+
+                    <image>
+                        <shortdescription>22 card</shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="ch01-fig-22card">
+                            <diagram dimensions="(400,400)" margins="5">
+                                <coordinates bbox="(0,0,3,4)">
+                                    <polygon points="((0,0),(0,4),(2,4),(2,0))" closed="yes" stroke="black" thickness="4"  />
+                                    <label anchor="(1,2)" alignment="c" scale="7">
+                                        22
+                                    </label>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+
+                     <image>
+                        <shortdescription>16 card</shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="ch01-fig-16card">
+                            <diagram dimensions="(400,400)" margins="5">
+                                <coordinates bbox="(0,0,3,4)">
+                                    <polygon points="((0,0),(0,4),(2,4),(2,0))" closed="yes" stroke="black" thickness="4"/>
+                                    <label anchor="(1,2)" alignment="c" scale="7">
+                                        16
+                                    </label>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                </sidebyside>
+            </figure>
         </task>
 
         <task workspace="1.5in">
             <p>
-                Statements of the form ``If...
-                then..." are called conditional statements.
+                Statements of the form <q>If...
+                then...</q> are called conditional statements.
                 We will explore conditional statements a lot in MTH 210.
                 Based on the previous problems in this activities, answer the
                 following.
@@ -51,13 +177,6 @@
         </task>
     </activity>
 
-    <paragraphs>
-        <title>To do</title>
-
-        <p>
-            Need images for this activity
-        </p>
-    </paragraphs>
 
     <paragraphs>
         <title>Disproving a conjecture, or showing a statement is false</title>
