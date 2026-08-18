@@ -7,70 +7,70 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "1.1",
   "title": "Chessboard Problems",
-  "body": " Chessboard Problems  Some of my favorite parts of mathematics are ones that feel like games or puzzles. The domino covering problem that you read about for today's class is one of them! To start, let's refresh our memories of some definitions and propositions from your text:    A perfect cover of an board with dominoes is an arrangement of those dominoes on the chessboard with no squares left uncovered, and no dominoes stacked or left hanging off the end.      There exists a perfect cover of an chessboard.    Proof idea:    If one crosses out the top-left square. of an chessboard, the remaining squares cannot be perfectly covered by dominoes.    Proof idea:    If one crosses out the top-left square and bottom-right square of an chessboard, the remaining squares cannot be perfectly covered by dominoes.    Proof idea:   Additional questions from the reading      Question 1: If I remove two squares of different colors from an chessboard, must the result have a perfect cover?     Question 2: If I remove four squares - two black, two white - from an chessboard, must the result have a perfect cover?     Question 3: For every pair of positive integers and , does there exist a perfect cover of the chessboard by dominoes?      What are some other questions we could ask?    Explore one of the questions you've asked with your team.  Note that you can use one of these as a play, conjecture, prove problem for your proof portfolio. (More on that later.)      The game Tetris is played with five different shapes - the five shapes that can be obtained by piecing together 4 unit squares:   Five Tetris pieces in    A Tetris piece                 A Tetris piece                 A Tetris piece                 A Tetris piece                 A Tetris piece                  For the questions below, we also allow these pieces to be flipped over.      Is it possible to perfectly cover a chessboard using each of these shapes exactly once? Use an example to show that it is possible, or prove that it is impossible.      Is it possible to perfectly cover an chessboard using each of these shapes exactly twice? Use an example to show that it is possible, or prove that it is impossible.     The author starts with these chessboard problems to demonstrate that more advanced mathematics is often considerably different from algebra and calculus. Rather than using algorithms to solve a collection of similar problems, we are interested in other things.   A mathematician, like a painter or a poet, is a maker of patterns. If her patterns are more permanent than theirs, it is because they are made with ideas. The mathematician's patterns, like the painter's or the poet's, must be beautiful; the ideas, like the colours or the words, must fit together in a harmonious way. Beauty is the first test: there is no permanent place in the world for ugly mathematics.  G. H. Hardy (1877 - 1947)   "
+  "body": " Chessboard Problems   Some of my favorite parts of mathematics are ones that feel like games or puzzles. The domino covering problem that you read about for today's class is one of them! To start, let's refresh our memories of some definitions and propositions from your text:    A perfect cover of an board with dominoes is an arrangement of those dominoes on the chessboard with no squares left uncovered, and no dominoes stacked or left hanging off the end.      There exists a perfect cover of an chessboard.    Proof idea:    If one crosses out the top-left square. of an chessboard, the remaining squares cannot be perfectly covered by dominoes.    Proof idea:    If one crosses out the top-left square and bottom-right square of an chessboard, the remaining squares cannot be perfectly covered by dominoes.    Proof idea:   Additional questions from the reading      Question 1: If I remove two squares of different colors from an chessboard, must the result have a perfect cover?     Question 2: If I remove four squares - two black, two white - from an chessboard, must the result have a perfect cover?     Question 3: For every pair of positive integers and , does there exist a perfect cover of the chessboard by dominoes?      What are some other questions we could ask?      Explore one of the questions you've asked with your team.  Note that you can use one of these as a play, conjecture, prove problem for your proof portfolio. (More on that later.)        The game Tetris is played with five different shapes - the five shapes that can be obtained by piecing together 4 unit squares:   Five Tetris pieces in     A Tetris piece                 A Tetris piece                 A Tetris piece                 A Tetris piece                 A Tetris piece                  For the questions below, we also allow these pieces to be flipped over.      Is it possible to perfectly cover a chessboard using each of these shapes exactly once? Use an example to show that it is possible, or prove that it is impossible.      Is it possible to perfectly cover an chessboard using each of these shapes exactly twice? Use an example to show that it is possible, or prove that it is impossible.     The author starts with these chessboard problems to demonstrate that more advanced mathematics is often considerably different from algebra and calculus. Rather than using algorithms to solve a collection of similar problems, we are interested in other things.   A mathematician, like a painter or a poet, is a maker of patterns. If her patterns are more permanent than theirs, it is because they are made with ideas. The mathematician's patterns, like the painter's or the poet's, must be beautiful; the ideas, like the colours or the words, must fit together in a harmonious way. Beauty is the first test: there is no permanent place in the world for ugly mathematics.  G. H. Hardy (1877 - 1947)    "
 },
 {
-  "id": "ch-1-intuitiveproofs-2-3",
+  "id": "ch-1-intuitiveproofs-2-2-2",
   "level": "2",
-  "url": "ch-1-intuitiveproofs-2.html#ch-1-intuitiveproofs-2-3",
+  "url": "ch-1-intuitiveproofs-2.html#ch-1-intuitiveproofs-2-2-2",
   "type": "Definition",
   "number": "1.1.1",
   "title": "",
   "body": "  A perfect cover of an board with dominoes is an arrangement of those dominoes on the chessboard with no squares left uncovered, and no dominoes stacked or left hanging off the end.   "
 },
 {
-  "id": "ch-1-intuitiveproofs-2-4",
+  "id": "ch-1-intuitiveproofs-2-2-3",
   "level": "2",
-  "url": "ch-1-intuitiveproofs-2.html#ch-1-intuitiveproofs-2-4",
+  "url": "ch-1-intuitiveproofs-2.html#ch-1-intuitiveproofs-2-2-3",
   "type": "Proposition",
   "number": "1.1.2",
   "title": "",
   "body": "  There exists a perfect cover of an chessboard.   "
 },
 {
-  "id": "ch-1-intuitiveproofs-2-6",
+  "id": "ch-1-intuitiveproofs-2-2-5",
   "level": "2",
-  "url": "ch-1-intuitiveproofs-2.html#ch-1-intuitiveproofs-2-6",
+  "url": "ch-1-intuitiveproofs-2.html#ch-1-intuitiveproofs-2-2-5",
   "type": "Proposition",
   "number": "1.1.3",
   "title": "",
   "body": "  If one crosses out the top-left square. of an chessboard, the remaining squares cannot be perfectly covered by dominoes.   "
 },
 {
-  "id": "ch-1-intuitiveproofs-2-8",
+  "id": "ch-1-intuitiveproofs-2-2-7",
   "level": "2",
-  "url": "ch-1-intuitiveproofs-2.html#ch-1-intuitiveproofs-2-8",
+  "url": "ch-1-intuitiveproofs-2.html#ch-1-intuitiveproofs-2-2-7",
   "type": "Proposition",
   "number": "1.1.4",
   "title": "",
   "body": "  If one crosses out the top-left square and bottom-right square of an chessboard, the remaining squares cannot be perfectly covered by dominoes.   "
 },
 {
-  "id": "ch-1-intuitiveproofs-2-10-2",
+  "id": "ch-1-intuitiveproofs-2-2-9-2",
   "level": "2",
-  "url": "ch-1-intuitiveproofs-2.html#ch-1-intuitiveproofs-2-10-2",
+  "url": "ch-1-intuitiveproofs-2.html#ch-1-intuitiveproofs-2-2-9-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Question 1: Question 2: Question 3: "
 },
 {
-  "id": "ch-1-intuitiveproofs-2-12",
+  "id": "ch-1-intuitiveproofs-2-3-1",
   "level": "2",
-  "url": "ch-1-intuitiveproofs-2.html#ch-1-intuitiveproofs-2-12",
+  "url": "ch-1-intuitiveproofs-2.html#ch-1-intuitiveproofs-2-3-1",
   "type": "Activity",
   "number": "1.1.1",
   "title": "",
   "body": "  Explore one of the questions you've asked with your team.  Note that you can use one of these as a play, conjecture, prove problem for your proof portfolio. (More on that later.)   "
 },
 {
-  "id": "ch-1-intuitiveproofs-2-13",
+  "id": "ch-1-intuitiveproofs-2-4-1",
   "level": "2",
-  "url": "ch-1-intuitiveproofs-2.html#ch-1-intuitiveproofs-2-13",
+  "url": "ch-1-intuitiveproofs-2.html#ch-1-intuitiveproofs-2-4-1",
   "type": "Activity",
   "number": "1.1.2",
   "title": "",
-  "body": "  The game Tetris is played with five different shapes - the five shapes that can be obtained by piecing together 4 unit squares:   Five Tetris pieces in    A Tetris piece                 A Tetris piece                 A Tetris piece                 A Tetris piece                 A Tetris piece                  For the questions below, we also allow these pieces to be flipped over.      Is it possible to perfectly cover a chessboard using each of these shapes exactly once? Use an example to show that it is possible, or prove that it is impossible.      Is it possible to perfectly cover an chessboard using each of these shapes exactly twice? Use an example to show that it is possible, or prove that it is impossible.    "
+  "body": "  The game Tetris is played with five different shapes - the five shapes that can be obtained by piecing together 4 unit squares:   Five Tetris pieces in     A Tetris piece                 A Tetris piece                 A Tetris piece                 A Tetris piece                 A Tetris piece                  For the questions below, we also allow these pieces to be flipped over.      Is it possible to perfectly cover a chessboard using each of these shapes exactly once? Use an example to show that it is possible, or prove that it is impossible.      Is it possible to perfectly cover an chessboard using each of these shapes exactly twice? Use an example to show that it is possible, or prove that it is impossible.    "
 },
 {
   "id": "ch-1-intuitiveproofs-3",
@@ -79,21 +79,21 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "1.2",
   "title": "Patterns and Conjectures",
-  "body": " Patterns and Conjectures  Let's look for patterns and make conjectures or are statements that we think are probably true.    Go with your group to the whiteboard. As directed, work on one of the following prompts. (I will take pictures of your work and post.)    Consider the expression Evaluate this expression for at least 10 different integer values of , including some negative values and 0, as well as positive ones. What conjectures can you make regarding this expression and the related numbers you find?    Consider the equation Can you find an ordered pair of integers that makes the equation true? If yes, can you characterize all such ordered pairs? If not, why not? What conjecture(s) can you make about this equation? About related equations?    Consider the expression Evaluate this expression for at least 10 different natural number values of . What conjectures can you make regarding this expression and the numbers you find?    "
+  "body": " Patterns and Conjectures   Let's look for patterns and make conjectures or are statements that we think are probably true.    Go with your group to the whiteboard. As directed, work on one of the following prompts. (I will take pictures of your work and post.)    Consider the expression Evaluate this expression for at least 10 different integer values of , including some negative values and 0, as well as positive ones. What conjectures can you make regarding this expression and the related numbers you find?    Consider the equation Can you find an ordered pair of integers that makes the equation true? If yes, can you characterize all such ordered pairs? If not, why not? What conjecture(s) can you make about this equation? About related equations?    Consider the expression Evaluate this expression for at least 10 different natural number values of . What conjectures can you make regarding this expression and the numbers you find?      Space for work.   "
 },
 {
-  "id": "ch-1-intuitiveproofs-3-2",
+  "id": "ch-1-intuitiveproofs-3-2-1",
   "level": "2",
-  "url": "ch-1-intuitiveproofs-3.html#ch-1-intuitiveproofs-3-2",
+  "url": "ch-1-intuitiveproofs-3.html#ch-1-intuitiveproofs-3-2-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "conjectures "
 },
 {
-  "id": "ch-1-intuitiveproofs-3-3",
+  "id": "ch-1-intuitiveproofs-3-2-2",
   "level": "2",
-  "url": "ch-1-intuitiveproofs-3.html#ch-1-intuitiveproofs-3-3",
+  "url": "ch-1-intuitiveproofs-3.html#ch-1-intuitiveproofs-3-2-2",
   "type": "Activity",
   "number": "1.2.1",
   "title": "",
@@ -106,23 +106,50 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "1.3",
   "title": "Conditional Statements",
-  "body": " Conditional Statements   The Wason Selection Test   A mathematician places a set of four cards on a table, each of which has a number on one side and a colored patch on the other side. She claims the following: if a card shows an even number on one face, then its opposite face is red The visible faces of the cards show 3, 8, red, and blue. Which card(s) must you turn over in order to test the truth of her claim? Carefully explain.   The 4 cards.    3 card      3       8 card      8       red card      Red       blue card      Blue          It is a well known law in the United States that you must be 21 to consume alcohol. Suppose now that four cards are placed on the table each of which has an age on one side and a beverage on the other. The visible faces of the cards show 16, 22, coca-cola, and beer. If each card represents a person at the party, which card(s) must you check to make sure everyone at the party is a law abiding citizen. That is, which card(s) must you turn over to verify the proposition: if one is consuming an alcoholic beverage then one is over the age of 21. How does this relate to the previous problem?   4 new cards, in context.    coke card      Coca-Cola       beer card      Beer       22 card      22       16 card      16          Statements of the form If... then... are called conditional statements. We will explore conditional statements a lot in MTH 210. Based on the previous problems in this activities, answer the following. What must we do to establish that a conditional statement is true? What is the only way that a conditional statement can be false?     Disproving a conjecture, or showing a statement is false  There are several types of mathematical statements that we might disprove. Here's 3 types:   For all (blah), (bleh).    There exists a (doodle) that (doddles).    If (loppity), then (luppity).     Disproving each of them is a little different. Let's start, as the chapter title says, with your intuition about how you would disprove these.     Disprove the following statements.     For all natural numbers The natural numbers, denoted , are the set .  , .      There exists a perfect covering of an chessboard with the top left and bottom right corners removed using dominoes.      If and are odd integers, and is any integer The integers, denoted , are the set . The odd integers are . , then is an odd integer.      How was it different to write a disproof for each type of statement? How was it similar?     "
+  "body": " Conditional Statements   Theorems often say things like like if this happens then that happens or every one of these is also one of those . They are relating properties of objects, or stating causal events. These are often phrased as conditional statements, otherwise known as if - then statements.    A triangle is isosceles if at least two of its sides are equal in length (congruent).  A triangle is equilateral if all of its dies are equal in length (congruent).  A triangle is scalene if no two of its sides are equal in length (congruent).      Answer the following 4 questions about each pair. On the next page there are some example triangles to guide your discussion.   Is there any triangle that is in both sets?    Does the left set contain all of the members of the right? Does the right set contain all the members on the left?    Can you say anything about the relationship between the sets?    If you use an oval region to represent one set, how would you portray the other set in that pair?                  v                                Some example triangles.   Some example triangles to consider.    Space for notes. In particular, how is this activity related to conditional statements?     The Wason Selection Test   A mathematician places a set of four cards on a table, each of which has a number on one side and a colored patch on the other side. She claims the following: if a card shows an even number on one face, then its opposite face is red The visible faces of the cards show 3, 8, red, and blue. Which card(s) must you turn over in order to test the truth of her claim? Carefully explain.   The 4 cards.    3 card      3       8 card      8       red card      Red       blue card      Blue          It is a well known law in the United States that you must be 21 to consume alcohol. Suppose now that four cards are placed on the table each of which has an age on one side and a beverage on the other. The visible faces of the cards show 16, 22, coca-cola, and beer. If each card represents a person at the party, which card(s) must you check to make sure everyone at the party is a law abiding citizen. That is, which card(s) must you turn over to verify the proposition: if one is consuming an alcoholic beverage then one is over the age of 21. How does this relate to the previous problem?   4 new cards, in context.    coke card      Coca-Cola       beer card      Beer       22 card      22       16 card      16          Statements of the form If... then... are called conditional statements. We will explore conditional statements a lot in MTH 210. Based on the previous problems in these activities, answer the following. What must we do to establish that a conditional statement is true? What is the only way that a conditional statement can be false?       Disproving a conjecture, or showing a statement is false  There are several types of mathematical statements that we might disprove. Here's 3 types:   For all (blah), (bleh).    There exists a (doodle) that (doddles).    If (loppity), then (luppity).     Disproving each of them is a little different. Let's start, as the chapter title says, with your intuition about how you would disprove these.     Disprove the following statements.     For all natural numbers The natural numbers, denoted , are the set .  , .      There exists a perfect covering of an chessboard with the top left and bottom right corners removed using dominoes.      If and are odd integers, and is any integer The integers, denoted , are the set . The odd integers are . , then is an odd integer.      How was it different to write a disproof for each type of statement? How was it similar?      "
 },
 {
-  "id": "ch-1-intuitiveproofs-4-2",
+  "id": "def-triangles",
   "level": "2",
-  "url": "ch-1-intuitiveproofs-4.html#ch-1-intuitiveproofs-4-2",
+  "url": "ch-1-intuitiveproofs-4.html#def-triangles",
+  "type": "Definition",
+  "number": "1.3.1",
+  "title": "",
+  "body": "  A triangle is isosceles if at least two of its sides are equal in length (congruent).  A triangle is equilateral if all of its dies are equal in length (congruent).  A triangle is scalene if no two of its sides are equal in length (congruent).   "
+},
+{
+  "id": "ch-1-intuitiveproofs-4-2-3",
+  "level": "2",
+  "url": "ch-1-intuitiveproofs-4.html#ch-1-intuitiveproofs-4-2-3",
   "type": "Activity",
   "number": "1.3.1",
-  "title": "The Wason Selection Test.",
-  "body": " The Wason Selection Test   A mathematician places a set of four cards on a table, each of which has a number on one side and a colored patch on the other side. She claims the following: if a card shows an even number on one face, then its opposite face is red The visible faces of the cards show 3, 8, red, and blue. Which card(s) must you turn over in order to test the truth of her claim? Carefully explain.   The 4 cards.    3 card      3       8 card      8       red card      Red       blue card      Blue          It is a well known law in the United States that you must be 21 to consume alcohol. Suppose now that four cards are placed on the table each of which has an age on one side and a beverage on the other. The visible faces of the cards show 16, 22, coca-cola, and beer. If each card represents a person at the party, which card(s) must you check to make sure everyone at the party is a law abiding citizen. That is, which card(s) must you turn over to verify the proposition: if one is consuming an alcoholic beverage then one is over the age of 21. How does this relate to the previous problem?   4 new cards, in context.    coke card      Coca-Cola       beer card      Beer       22 card      22       16 card      16          Statements of the form If... then... are called conditional statements. We will explore conditional statements a lot in MTH 210. Based on the previous problems in this activities, answer the following. What must we do to establish that a conditional statement is true? What is the only way that a conditional statement can be false?   "
+  "title": "",
+  "body": "  Answer the following 4 questions about each pair. On the next page there are some example triangles to guide your discussion.   Is there any triangle that is in both sets?    Does the left set contain all of the members of the right? Does the right set contain all the members on the left?    Can you say anything about the relationship between the sets?    If you use an oval region to represent one set, how would you portray the other set in that pair?                  v                            "
 },
 {
-  "id": "ch-1-intuitiveproofs-4-4",
+  "id": "fig-triangles",
   "level": "2",
-  "url": "ch-1-intuitiveproofs-4.html#ch-1-intuitiveproofs-4-4",
+  "url": "ch-1-intuitiveproofs-4.html#fig-triangles",
+  "type": "Figure",
+  "number": "1.3.2",
+  "title": "",
+  "body": " Some example triangles.   Some example triangles to consider.   "
+},
+{
+  "id": "ch-1-intuitiveproofs-4-4-1",
+  "level": "2",
+  "url": "ch-1-intuitiveproofs-4.html#ch-1-intuitiveproofs-4-4-1",
   "type": "Activity",
   "number": "1.3.2",
+  "title": "The Wason Selection Test.",
+  "body": " The Wason Selection Test   A mathematician places a set of four cards on a table, each of which has a number on one side and a colored patch on the other side. She claims the following: if a card shows an even number on one face, then its opposite face is red The visible faces of the cards show 3, 8, red, and blue. Which card(s) must you turn over in order to test the truth of her claim? Carefully explain.   The 4 cards.    3 card      3       8 card      8       red card      Red       blue card      Blue          It is a well known law in the United States that you must be 21 to consume alcohol. Suppose now that four cards are placed on the table each of which has an age on one side and a beverage on the other. The visible faces of the cards show 16, 22, coca-cola, and beer. If each card represents a person at the party, which card(s) must you check to make sure everyone at the party is a law abiding citizen. That is, which card(s) must you turn over to verify the proposition: if one is consuming an alcoholic beverage then one is over the age of 21. How does this relate to the previous problem?   4 new cards, in context.    coke card      Coca-Cola       beer card      Beer       22 card      22       16 card      16          Statements of the form If... then... are called conditional statements. We will explore conditional statements a lot in MTH 210. Based on the previous problems in these activities, answer the following. What must we do to establish that a conditional statement is true? What is the only way that a conditional statement can be false?   "
+},
+{
+  "id": "ch-1-intuitiveproofs-4-5-2",
+  "level": "2",
+  "url": "ch-1-intuitiveproofs-4.html#ch-1-intuitiveproofs-4-5-2",
+  "type": "Activity",
+  "number": "1.3.3",
   "title": "",
   "body": "  Disprove the following statements.     For all natural numbers The natural numbers, denoted , are the set .  , .      There exists a perfect covering of an chessboard with the top left and bottom right corners removed using dominoes.      If and are odd integers, and is any integer The integers, denoted , are the set . The odd integers are . , then is an odd integer.      How was it different to write a disproof for each type of statement? How was it similar?    "
 },
