@@ -3,10 +3,125 @@
 <handout>
     <title>Conditional Statements</title>
 
+    <page>
+        <p>
+            Theorems often say things like like <q>if this happens then that happens</q> or <q> every one of these is also one of those </q>. They are relating properties of objects, or stating causal events. These are often phrased as conditional statements, otherwise known as <q>if - then</q> statements.
+        </p>
+
+    <definition xml:id="def-triangles">
+        <statement>
+            <p>
+                A triangle is <term>isosceles</term> if at least two of its sides are equal in length (congruent).
+            </p>
+            <p>
+                A triangle is <term>equilateral</term> if all of its dies are equal in length (congruent).
+            </p>
+            <p>
+                A triangle is <term>scalene</term> if no two of its sides are equal in length (congruent).
+            </p>
+        </statement>
+    </definition>
+    <activity workspace=".8in">
+        <introduction>
+            <p>
+                Answer the following 4 questions about each pair. On the next page there are some example triangles to guide your discussion.
+                <ul>
+                    <li>
+                        <p>
+                            Is there any triangle that is in both sets?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Does the left set contain all of the members of the right? Does the right set contain all the members on the left?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Can you say anything about the relationship between the sets?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If you use an oval region to represent one set, how would you portray the other set in that pair?
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>\alpha = \{ \text{ triangles } ABC : ABC \text{ is isosceles} \}</m> 
+
+                    <m>\beta = \{ \text{ triangles } XYZ : XYZ \text{ is equilateral} \}</m>
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                      <m>\alpha = \{ \text{ triangles } ABC : ABC \text{ is isosceles} \}</m> 
+
+                    <m>\beta = \{ \text{ triangles } RST : \angle R \cong \angle S \}</m>v
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                      <m>\alpha = \{ \text{ triangles } ABC : ABC \text{ is isosceles} \}</m> 
+
+                    <m>\beta = \{ \text{ triangles } DEF : \angle D \text{ is a right angle} \}</m>
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                      <m>\alpha = \{ \text{ triangles } ABC : ABC \text{ is isosceles} \}</m> 
+
+                    <m>\beta = \{ \text{ triangles } MNO : MNO \text{ is scalene} \}</m>
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                      <m>\alpha = \{ \text{ triangles } ABC : ABC \text{ is isosceles} \}</m> 
+
+                    <m>\eta = \{ \text{ triangles } JKL : JKL \text{ is not isosceles} \}</m>
+                </p>
+            </statement>
+        </task>
+    </activity>
+</page>
+
+<page>
+     <figure xml:id="fig-triangles">
+            <caption>Some example triangles.</caption>
+            <image source="images/Triangles.png" width="70%">
+                <shortdescription>
+                    Some example triangles to consider.
+                </shortdescription>
+            </image>
+        </figure>
+
+        <p>
+            Space for notes. In particular, how is this activity related to conditional statements?
+        </p>
+</page>
+
+<page>        
+   
     <activity>
         <title>The Wason Selection Test</title>
 
-        <task workspace="2in">
+        <task workspace="1.5in">
             <p>
                 A mathematician places a set of four cards on a table, each of
                 which has a number on one side and a colored patch on the other
@@ -83,7 +198,7 @@
             </figure>
         </task>
 
-        <task workspace="2in">
+        <task workspace="1.5in">
             <p>
                 It is a well known law in the United States that you must be 21
                 to consume alcohol.
@@ -168,7 +283,7 @@
                 Statements of the form <q>If...
                 then...</q> are called conditional statements.
                 We will explore conditional statements a lot in MTH 210.
-                Based on the previous problems in this activities, answer the
+                Based on the previous problems in these activities, answer the
                 following.
                 What must we do to establish that a conditional statement is
                 true?
@@ -177,7 +292,9 @@
         </task>
     </activity>
 
-
+</page>
+ 
+ <page>
     <paragraphs>
         <title>Disproving a conjecture, or showing a statement is false</title>
 
@@ -261,4 +378,5 @@
             </statement>
         </task>
     </activity>
+</page>
 </handout>
