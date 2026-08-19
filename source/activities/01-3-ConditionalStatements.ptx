@@ -5,7 +5,7 @@
 
     <page>
         <p>
-            Theorems often say things like like <q>if this happens then that happens</q> or <q> every one of these is also one of those </q>. They are relating properties of objects, or stating causal events. These are often phrased as conditional statements, otherwise known as <q>if - then</q> statements.
+            Theorems often say things like like <q>if this happens then that happens</q> or <q> every one of these is also one of those </q>. They are stating causal events, or relating properties of objects. These are often phrased as conditional statements, otherwise known as <q>if - then</q> statements.
         </p>
 
     <definition xml:id="def-triangles">
@@ -21,7 +21,7 @@
             </p>
         </statement>
     </definition>
-    <activity workspace=".8in">
+    <activity workspace=".8in" xml:id="act-01-3-triangles">
         <introduction>
             <p>
                 Answer the following 4 questions about each pair. On the next page there are some example triangles to guide your discussion.
@@ -118,7 +118,7 @@
 
 <page>        
    
-    <activity>
+    <activity xml:id="act-01-3-wason">
         <title>The Wason Selection Test</title>
 
         <task workspace="1.5in">
@@ -278,19 +278,26 @@
             </figure>
         </task>
 
-        <task workspace="1.5in">
-            <p>
-                Statements of the form <q>If...
-                then...</q> are called conditional statements.
+        </activity>
+
+    </page>
+            
+        <page>
+        <activity>
+            <statement>
+                <p>
+                     Statements of the form <q>If...
+                then...</q> are called <term>conditional statements</term>.
                 We will explore conditional statements a lot in MTH 210.
-                Based on the previous problems in these activities, answer the
+                Based on  <xref ref="act-01-3-triangles"/> and <xref ref="act-01-3-wason"/> , answer the
                 following.
                 What must we do to establish that a conditional statement is
                 true?
                 What is the only way that a conditional statement can be false?
-            </p>
-        </task>
-    </activity>
+                </p>
+            </statement>
+        </activity>
+
 
 </page>
  

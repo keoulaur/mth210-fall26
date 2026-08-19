@@ -3,7 +3,7 @@
 <handout>
     <title>Welcome to Phase 2 Mathematics</title>
 
-    <introduction>
+    <page>
         <p>
             What is Mathematics?
             What is a proof?
@@ -17,188 +17,174 @@
             seek to identify, understand, and explain patterns.
             Before we begin, here are 10 Things I Want You to Know.
         </p>
-    </introduction>
 
-    <activity>
-        <task>
+        <remark>
             <p>
-                Math 210 may be the most important course in the mathematics
-                major.
-                Many future courses rely heavily on it (315, 331, 350, 408, 441,
-                450, 495, and more) and it is helpful in many others (204, 205,
-                304, 360, 402, 498 and more).
-                <em>More than this, being a critical and independent thinker, creative problem solver, and excellent communicator are incredibly valuable professional skills</em>.
-                To be a math major, it is important to become reasonably good at
-                the kinds of things we do in Math 210 and to find all of them
-                familiar.
-            </p>
-        </task>
-
-        <task>
-            <p>
-                Get to know your classmates.
-                Be an active participant in class.
-                Use class time to build understanding.
-                Use ``rough draft language.'' Be honest with yourself about your
-                understanding.
-                Be unafraid to struggle and/or fail.
-                Ask questions.
-                Our meetings will be structured to encourage these behaviors.
-            </p>
-        </task>
-
-        <task>
-            <p>
-                On working in small groups with others: for effective group
-                work, what do you need your group mates to do?
-                what do you need your group mates <em>not</em> to do?
-                What do you need Professor Keough to do?
-                What do you need to do?
-                (on a note card, write your thoughts on each question; then
-                share with your group and update as needed, then submit your
-                notecards to me).
-                Random groups will be assigned for the first month in the course
-                in order to find who you work well with.
-                Then we will work toward more consistent and stable seating
-                arrangements.
-            </p>
-        </task>
-
-        <task>
-            <p>
-                Use drop-in hours.
-                Five minutes of conversation with your professor can sometimes
-                be at least as effective as an hour on your own.
-                <em> Use drop-in hours.</em> Ask for an appointment if drop-in
-                hours don't work for you.
-            </p>
-        </task>
-
-        <task>
-            <p>
-                Work on Math 210 5 days a week, 8-10 hours a week.
                 <ol>
                     <li>
                         <p>
-                            Preview activities for each class day (30-60 minutes
-                            per class: 1-2 hours each week);
+                            Math 210 may be the most important course in the
+                            mathematics major.
+                            Many future courses rely heavily on it (315, 331,
+                            350, 408, 441, 450, 495, and more) and it is helpful
+                            in many others (204, 205, 304, 360, 402, 498 and
+                            more).
+                            <em>More than this, being a critical and independent thinker, creative problem solver, and excellent communicator are incredibly valuable professional skills</em>.
+                            <!-- To be a math major, it is important to become
+                            reasonably good at the kinds of things we do in Math
+                            210 and to find all of them familiar. -->
                         </p>
                     </li>
 
                     <li>
                         <p>
-                            3-5 ``weekly practice'' homework exercises each week
-                            (1.5-2 hours per week: 20-30 minutes per exercise,
-                            plus preparing for 3 short presentations over the
-                            course of the semester);
+                            There are some behaviors I encourage in class that I
+                            think are helpful for learning math.
+                            Get to know your classmates.
+                            Be an active participant in class.
+                            Use <q>ough draft language.</q> Use class time to
+                            build understanding.
+                            Be honest with yourself about your understanding.
+                            Be unafraid to struggle and/or fail.
+                            Ask questions.
                         </p>
                     </li>
 
                     <li>
                         <p>
-                            Overall reading, studying, and summarizing,
-                            including making a notecard for the check point (2-3
-                            hours each week);
+                            On working in small groups with others: for
+                            effective group work, what do you need your group
+                            mates to do?
+                            What do you need Professor Keough to do?
+                            What do you need to do?
+                            (on a note card, write your thoughts on each
+                            question; then share with your group and update as
+                            needed, then submit your notecards to me).
+                            Random groups will be assigned for the first month
+                            in the course in order to find who you work well
+                            with.
+                            Then we will work toward more consistent and stable
+                            seating arrangements.
                         </p>
                     </li>
 
                     <li>
                         <p>
-                            Proof portfolio problems (3-4 hours a week).
-                            The portfolio project will begin by the end of the
-                            2nd week of class.
-                            During the first two weeks of the course, expect to
-                            spend some time invested to learn how to use
-                            \LaTeX~(with support from me), which is the
-                            typesetting software we will use for all of our
-                            professional writing.
+                            Use drop-in hours.
+                            Five minutes of conversation with your professor can
+                            sometimes be at least as effective as an hour on
+                            your own.
+                            <em> Use drop-in hours.</em> Ask for an appointment
+                            if drop-in hours don't work for you.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Work on Math 210 5 days a week, 8-10 hours a week.
+                            <ol>
+                                <li>
+                                    <p>
+                                        Preview activities for each class day
+                                        (30-60 minutes per class: 1-2 hours each
+                                        week);
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        3-5 <q>weekly practice</q> homework
+                                        exercises each week (1.5-2 hours per
+                                        week: 20-30 minutes per exercise, plus
+                                        preparing for 3 short presentations over
+                                        the course of the semester);
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        Overall reading, studying, and
+                                        summarizing, (2-3 hours each week);
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        Proof portfolio problems (3-4 hours a
+                                        week).
+                                        You will learn to use <m>\LaTeX</m>
+                                        (with support from me), which is the
+                                        typesetting software we will use for
+                                        professional writing.
+                                        By the end of the second week, you'll be
+                                        submitting proofs!
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Your textbook is designed to be read, to be worked
+                            on, and to have notes taken.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Avoid using AI to do the work of the course.
+                            More on this later, but you'll miss out on lots of
+                            good things by outsourcing the work!
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Fully read the syllabus.
+                            Come check in at drop in hours for 5 minutes, within
+                            the first 3 weeks of the semester.
+                            Just to get to know one another a bit and so you
+                            know where the PCS is located If posted drop-in
+                            hours don't work, email me for an appointment.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            I'll post due dates on Blackboard via the calendar
+                            and a weekly announcement.
+                            Please check Blackboard regularly!
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            I want you to be successful.
                         </p>
                     </li>
                 </ol>
             </p>
-        </task>
+        </remark>
+    </page>
 
-        <task>
-            <p>
-                <em>Your textbook is designed just for you.  It is made to be read, to be worked on, and to have notes taken.</em>
-            </p>
-        </task>
+    <page>
+        <activity>
+            <title>Duplicate this in Overleaf!</title>
 
-        <task>
-            <p>
-                GVSU has a Math 210 YouTube Channel:
-                <url href="https://gvsu.edu/s/GW" visual="gvsu.edu/s/GW"/> (Note
-                - this follows a different order than our textbook!)
-            </p>
-        </task>
-
-        <task>
-            <p>
-                Be certain to fully read the syllabus.
-                Meet with me, in-person, for 5 minutes, within the first 3 weeks
-                of the semester.
-                Just to get to know one another a bit and so you know where the
-                PCS is located If posted drop-in hours don't work, email me for
-                an appointment.
-            </p>
-        </task>
-
-        <task>
-            <p>
-                In the " <m>\checkmark</m> Weekly To Do <m>\checkmark</m> "
-                document on Blackboard I'll post what needs to be done for the
-                following week after class on Thursday.
-            </p>
-        </task>
-
-        <task>
-            <p>
-                I want you to be successful.
-            </p>
-        </task>
-    </activity>
-
-    <paragraphs>
-        <title>Duplicate this in Overleaf!</title>
-
-        <theorem>
             <statement>
-                <p>
-                    If <m>x</m> is an odd integer and <m>y</m> is an even
-                    integer, then <m>x \cdot y</m> is an even integer.
-                </p>
+                <figure xml:id="fig-overleaf">
+                    <caption>
+                        A typed proof to emulate to practice Overleaf.
+                    </caption>
+
+                    <image source="images/OverleafProof.png">
+                        <shortdescription>
+                            A typed proof to emulate to practice Overleaf.
+                        </shortdescription>
+                    </image>
+                </figure>
             </statement>
-        </theorem>
-
-        <proof>
-            <p>
-                Assume that <m>x</m> is an odd integer and <m>y</m> is an even
-                integer.
-                We will show that <m>x \cdot y</m> is an even integer using a
-                direct proof.
-                Since <m>x</m> is an odd integer, by definition of ``odd" there
-                exists some integer <m>k</m> such that <m>x = 2k+1</m>.
-                Since <m>y</m> is an even integer, by definition of ``even"
-                there exists some <m>m \in \Z</m> such that <m>y = 2m</m>.
-            </p>
-
-            <p>
-                Using algebra, we have: \begin{align*} xy &amp;= (2k+1)(2m)
-                &amp;= 4km+2m &amp;= 2(2km+m).
-                \end{align*}
-            </p>
-
-            <p>
-                Because <m>k</m> and <m>m</m> are integers, and the integers are
-                closed under addition and multiplication, we know that
-                <m>f = 2km+m</m> is also an integer.
-                Thus the previous equation has demonstrated how to write
-                <m>xy</m> in the form <m>xy = 2f</m>, where <m>f \in \Z</m>.
-                By definition, this shows that <m>xy</m> is an even integer.
-                Consequently, we have shown that if <m>x</m> is an odd integer
-                and <m>y</m> is an even integer, then <m>x \cdot y</m> is an
-                even integer.
-            </p>
-        </proof>
-    </paragraphs>
+        </activity>
+    </page>
 </handout>

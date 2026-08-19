@@ -3,6 +3,7 @@
 <handout>
     <title>The Pigeonhole Principle</title>
 
+    <page>
     <p>
         As a reminder, here's the statement of the pigeonhole principle.
     </p>
@@ -26,6 +27,7 @@
         it.
     </p>
 
+    
     <activity>
         <task>
             <introduction>
@@ -35,7 +37,7 @@
                 </p>
             </introduction>
 
-            <task workspace="1in">
+            <task workspace="1.4in">
                 <statement>
                     <p>
                         True/False: If <m>201</m> objects are placed in
@@ -44,7 +46,7 @@
                 </statement>
             </task>
 
-            <task workspace="1in">
+            <task workspace="1.4in">
                 <statement>
                     <p>
                         True/False: If <m>100^2</m> objects are placed in
@@ -53,7 +55,7 @@
                 </statement>
             </task>
 
-            <task workspace="1in">
+            <task workspace="1.4n">
                 <statement>
                     <p>
                         True/False: Given <m>501</m> objects placed in
@@ -63,6 +65,12 @@
                 </statement>
             </task>
         </task>
+
+        </activity>
+    </page>
+    <page>
+
+        <activity>
 
         <task workspace="1in">
             <statement>
@@ -76,7 +84,7 @@
             </statement>
         </task>
 
-        <task workspace="1in">
+        <task workspace=".8in">
             <introduction>
                 <p>
                     In the following, identify what version of the pigeonhole
@@ -131,7 +139,7 @@
             </task>
         </task>
 
-        <task workspace="1in">
+        <task workspace=".8in">
             <statement>
                 <p>
                     Given any 101 integers from <m>\{1,2,3,\dots, 200\}</m> at
@@ -151,4 +159,7 @@
             </statement>
         </task>
     </activity>
+
+</page>
+
 </handout>
