@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>
+      Logically Equivalent Statements
+    </title>
+
+    <page>
+        <activity>
+            <task>
+                <statement>
+                    <p>
+                        Use the truth table to show that
+                        <m>(P\vee Q)\implies R</m> is logically equivalent to
+                        <m>(P\implies R) \wedge (Q\implies R)</m>.
+                    </p>
+
+                    <tabular>
+                        <col halign="center" right="minor"/>
+                        <col halign="center" right="minor"/>
+                        <col halign="center" right="minor"/>
+                        <col halign="center" right="minor"/>
+                        <col halign="center" right="minor"/>
+                        <col halign="center" right="minor"/>
+                        <col halign="center" right="minor"/>
+                        <col halign="center" right="minor"/>
+                        <row bottom="minor">
+                            <cell><m>P</m></cell>
+                            <cell><m>Q</m></cell>
+                            <cell><m>R</m></cell>
+                            <cell><m>P\vee Q</m></cell>
+                            <cell><m>P\vee \implies R</m></cell>
+                            <cell><m>P\implies R</m></cell>
+                            <cell><m>Q\implies R</m></cell>
+                            <cell>
+                                <m>(P\implies R) \wedge (Q\implies R)</m>
+                            </cell>
+                        </row>
+
+                        <row bottom="minor">
+                            <cell>True</cell>
+                            <cell>True</cell>
+                            <cell>True</cell>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+
+                        <row bottom="minor">
+                            <cell>True</cell>
+                            <cell>True</cell>
+                            <cell>False</cell>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+
+                        <row bottom="minor">
+                            <cell>True</cell>
+                            <cell>False</cell>
+                            <cell>True</cell>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+
+                        <row bottom="minor">
+                            <cell>True</cell>
+                            <cell>False</cell>
+                            <cell>False</cell>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+
+                        <row bottom="minor">
+                            <cell>False</cell>
+                            <cell>True</cell>
+                            <cell>True</cell>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+
+                        <row bottom="minor">
+                            <cell>False</cell>
+                            <cell>True</cell>
+                            <cell>False</cell>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+
+                        <row bottom="minor">
+                            <cell>False</cell>
+                            <cell>False</cell>
+                            <cell>True</cell>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+
+                        <row>
+                            <cell>False</cell>
+                            <cell>False</cell>
+                            <cell>False</cell>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+                    </tabular>
+                </statement>
+            </task>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Do we have all possible truth values of <m>P</m>,
+                        <m>Q</m>, and <m>R</m> in the truth table above?
+                        What do you notice about how they are arranged?
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Draw a truth table to show <m>P\implies (Q\vee R)</m> is
+                        logically equivalent to
+                        <m>(P \wedge \sim Q) \implies R</m>.
+                    </p>
+
+                    <p>
+                        Make sure you break down each statement so you aren't
+                        doing too many things at once!
+                    </p>
+                </statement>
+            </task>
+        </activity>
+    </page>
+
+   
+</handout>

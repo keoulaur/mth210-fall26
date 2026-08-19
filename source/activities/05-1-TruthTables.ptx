@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>Logic Notation and Truth Tables</title>
+
+    <page>
+        <paragraphs>
+            <title>Vocabulary and Notation</title>
+
+            <tabular>
+                <col halign="left" width="20%"/>
+                <col halign="left" width="20%"/>
+                <col halign="left" width="60%"/>
+                <row bottom="minor">
+                    <cell>Word</cell>
+                    <cell>Symbol</cell>
+                    <cell>Meaning</cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>Statement</cell>
+                    <cell/>
+                    <cell>
+                        <line>
+                        A <em>statement</em> is a sentence or mathematical expression 
+                        </line>
+                        <line> that is true or false. </line>
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>Open Sentence</cell>
+                    <cell/>
+                    <cell>
+                        <line>    An <em>open sentence</em> is a sentence or mathematical
+                        expression </line>
+                        <line> which does not have a truth value, depends on
+                        some unknown, </line>
+                        <line> becomes a statement  when the unknown is
+                        specified. </line>
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>And</cell>
+                    <cell><m>\wedge</m></cell>
+                    <cell>
+                        <m>P\wedge Q</m> is true when both <m>P</m> and <m>Q</m>
+                        are true.
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>Or</cell>
+                    <cell><m>\vee</m></cell>
+                    <cell>
+                        <m>P \vee Q</m> is true when at least one of <m>P</m> or
+                        <m>Q</m> is true.
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>Not (or Negation)</cell>
+                    <cell><m>\sim</m></cell>
+                    <cell>
+                        <m> \neg P </m> has the opposite truth value of
+                        <m>P </m>
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>
+                        <line> Conditional Statement </line>
+                        <line> <q>If...then</q> </line>
+                    </cell>
+                    <cell><m>\implies</m></cell>
+                    <cell>
+                        <line> <m>P\implies Q</m> means <q> If <m>P</m> then <m>Q</m> </q> and  is only false 
+                      </line>
+                        <line> in situations where <m>P</m> is true and <m>Q</m> is false. </line>
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>Hypothesis</cell>
+                    <cell/>
+                    <cell>
+                        In a conditional statement
+                        <q> If <m>P</m> then <m>Q</m> </q>, <m>P</m> is the
+                        hypothesis.
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>Conclusion</cell>
+                    <cell/>
+                    <cell>
+                        In a conditional statement
+                        <q> If <m>P</m> then <m>Q</m> </q>, <m>Q</m> is the
+                        conclusion.
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>
+                        <line> Biconditional Statement </line>
+                        <line> <q> if and only if</q>, or <q> iff </q> </line>
+                    </cell>
+                    <cell><m>\Leftrightarrow</m></cell>
+                    <cell>
+                        <line> A biconditional statement is of the form <m>P</m> if and
+                    only if <m>Q</m>. </line>
+                        <line> It means <m>P\implies Q</m> and <m>Q\implies P</m>. </line>
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>Converse</cell>
+                    <cell/>
+                    <cell>
+                        The converse of <m>P\implies Q</m> is
+                        <m>Q\implies P</m>.
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>Logically Equivalent</cell>
+                    <cell><m>\Leftrightarrow</m></cell>
+                    <cell>
+                        <line> A statement is <em>logically equivalent</em> to another
+                    statement if they</line>
+                        <line>  have the same truth value on all possible
+                    inputs. </line>
+                        <line> E.g.,
+                    <m>\sim (P \wedge Q) \Leftrightarrow \sim P \,\vee \sim Q</m>
+                    by DeMorgan's Laws </line>
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>For all</cell>
+                    <cell><m>\forall</m></cell>
+                    <cell>Also, ``For ever", ``For each"</cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>There exists</cell>
+                    <cell><m>\exists</m></cell>
+                    <cell>Also ``For some"</cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>Quantifier</cell>
+                    <cell/>
+                    <cell>
+                        <line> Indicates the number or quantity of our objects. </line>
+                        <line>  <m>\forall</m> is the universal quantifier and</line>
+                        <line> <m>\exists</m> is the existential quantifier </line>
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>Tautology</cell>
+                    <cell/>
+                    <cell>
+                        A statement that is true no matter what, e.g.,
+                        <m>S\vee \sim S</m>
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>Contradiction</cell>
+                    <cell/>
+                    <cell>
+                        A statement that is never true, e.g.,
+                        <m>S\wedge \sim S</m>
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>Converse</cell>
+                    <cell/>
+                    <cell>
+                        The converse of <m>P\implies Q</m> is
+                        <m>Q\implies P</m>.
+                    </cell>
+                </row>
+
+                <row>
+                    <cell>Contrapositive</cell>
+                    <cell/>
+                    <cell>
+                        The contrapositive of <m>P\implies Q</m> is
+                        <m>\sim Q \implies \sim P</m>.
+                    </cell>
+                </row>
+            </tabular>
+        </paragraphs>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Truth Tables</title>
+
+            <p>
+                We use truth tables to organize information about the truth
+                value of complicated statements based on the truth values of the
+                pieces of that statement.
+            </p>
+        </paragraphs>
+
+        <activity>
+            <task>
+                <statement>
+                    <p>
+                        Fill in the following truth table.
+                    </p>
+
+                    <table>
+                        <title>Tables for <q>And</q>, <q>Or</q></title>
+
+                        <tabular halign="center">
+                            <col right="minor"/>
+                            <col right="minor"/>
+                            <col right="minor"/>
+                            <col/>
+                            <row bottom="minor">
+                                <cell><m>P</m></cell>
+                                <cell><m>Q</m></cell>
+                                <cell><m>P\wedge Q</m></cell>
+                                <cell><m>P\vee Q</m></cell>
+                            </row>
+
+                            <row bottom="minor">
+                                <cell>True</cell>
+                                <cell>True</cell>
+                                <cell/>
+                                <cell/>
+                            </row>
+
+                            <row bottom="minor">
+                                <cell>True</cell>
+                                <cell/>
+                                <cell/>
+                                <cell/>
+                            </row>
+
+                            <row bottom="minor">
+                                <cell>False</cell>
+                                <cell/>
+                                <cell/>
+                                <cell/>
+                            </row>
+
+                            <row>
+                                <cell>False</cell>
+                                <cell/>
+                                <cell/>
+                                <cell/>
+                            </row>
+                        </tabular>
+                    </table>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Fill in the following truth table.
+                    </p>
+
+                    <table>
+                        <title>Table for <q>Not</q></title>
+
+                        <tabular halign="center">
+                            <col right="minor"/>
+                            <col/>
+                            <row bottom="minor">
+                                <cell><m>P</m></cell>
+                                <cell><m>\neg P\,\,\,\,</m></cell>
+                            </row>
+
+                            <row bottom="minor">
+                                <cell>True</cell>
+                                <cell/>
+                            </row>
+
+                            <row>
+                                <cell>False</cell>
+                                <cell/>
+                            </row>
+                        </tabular>
+                    </table>
+                </statement>
+            </task>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Suppose <m>P</m> is the statement
+                        <q> <m>15</m> is odd</q> and <m>Q</m> is the statement
+                        <q> <m>15</m> is prime</q>.
+                        What are some true statements we can form using
+                        <m>P, Q, \wedge, \vee, \sim</m>.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+     
+
+
+    </page>
+</handout>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>Negating</title>
+
+    <p>
+        The <term>negation</term> of the statement <m>P</m> is the statement
+        <q> not <m>P</m> </q> and is denoted by <m>\sim P</m>.
+        The negation of <m>P</m>, <m>\sim P</m>, is true only when <m>P</m> is
+        false, and <m>\sim P</m> is false only when <m>P</m> is true.
+    </p>
+
+    <p>
+        We want to be able to write the negations of statements written in
+        English, so that we can get the statement of opposite truth value.
+        This will be helpful when doing proofs by contradiction.
+    </p>
+
+    <activity>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    What have you done in the past to show that a conditional
+                    statement is false?
+                    What does this suggest about the negation of a conditional
+                    statement?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Make a truth table with <m>P\implies Q</m>,
+                    <m>\sim (P\implies Q)</m>, <m>\sim P \vee Q</m>, and
+                    <m>P\wedge \sim Q</m>.
+                    What do you notice?
+                    What does this suggest about the negation of a conditional
+                    statement?
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <introduction>
+                <p>
+                    As the previous exercises suggest, <m>\sim(P\implies Q)</m>
+                    is the statement <m>P\vee \sim Q</m>.
+                    Negate the statements from the previous activity.
+                    Are the negations true or false?
+                    How does that relate to the truth value of the original
+                    statement?
+                </p>
+            </introduction>
+
+            <task>
+                <p workspace=".25in">
+                    <term>Original Statement:</term> If <m>a = 5</m> then
+                    <m>a^2 = 25</m>.
+                </p>
+
+                <p workspace=".25in">
+                    This statement is <fillin characters="25"/>
+                </p>
+
+                <p workspace=".25in">
+                    <term>Negation:</term> <fillin characters="100"/>
+                </p>
+
+                <p workspace=".25in">
+                    The negation is <fillin characters="25"/>
+                </p>
+            </task>
+
+            <task>
+                <p workspace=".25in">
+                    <term>Original Statement:</term> If <m>a\neq b</m> then
+                    <m>a^4 \neq b^4</m>.
+                </p>
+
+                <p workspace=".25in">
+                    This statement is <fillin characters="25"/>
+                </p>
+
+                <p workspace=".25in">
+                    <term>Negation:</term> <fillin characters="100"/>
+                </p>
+
+                <p workspace=".25in">
+                    The negation is <fillin characters="25"/>
+                </p>
+            </task>
+
+            <task>
+                <p workspace=".25in">
+                    <term>Original Statement:</term> If <m>a</m> is an odd
+                    integer then <m>3a</m> is an odd integer.
+                </p>
+
+                <p workspace=".25in">
+                    This statement is <fillin characters="25"/>
+                </p>
+
+                <p workspace=".25in">
+                    <term>Negation:</term> <fillin characters="100"/>
+                </p>
+
+                <p workspace=".25in">
+                    The negation is <fillin characters="25"/>
+                </p>
+            </task>
+        </task>
+    </activity>
+
+    <p>
+        Recall that <m>\forall</m> means <q>for all</q> and <m>\exists</m> means
+        <q>there exists</q>.
+        When we use <q>there exists</q> we usually follow it with a
+        <q>such
+        that</q>.
+        Also, there exist <m>x,y</m> (no s), but there exists <m>x</m> (with an
+        s).
+    </p>
+
+    <activity workspace=".5in">
+        <introduction>
+            <p>
+                For the first two parts, write a statement with the opposite truth value.
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    For all integers <m>x</m>, <m>x</m> is a multiple of 2.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    There exists an integer <m>x</m> such that <m>x</m> is a
+                    multiple of 2.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    What do the above say about the negations of <q>for all</q>
+                    and <q>there exists</q>?
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <paragraphs>
+        <title>Negations</title>
+
+        <p>
+            Negating a statement should result in the statement having the
+            opposite truth value.
+            Whenever the original statement is true, the negation should be
+            false, and whenever the original statement is false, the negation
+            should be true.
+            Below are some rules for negating statements.
+        </p>
+    </paragraphs>
+
+    <tabular>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center"/>
+        <row bottom="minor">
+            <cell><term>Logical Connector</term></cell>
+            <cell>In words</cell>
+            <cell>Negate!</cell>
+            <cell>Negation distributed</cell>
+            <cell>In words</cell>
+        </row>
+
+        <row bottom="minor">
+            <cell><m>\forall x\in A</m></cell>
+            <cell>For all <m>x</m> in <m>A</m></cell>
+            <cell><m>\sim(\forall x\in A)</m></cell>
+            <cell><m>\exists x\in A</m></cell>
+            <cell>There exists <m>x</m> in <m>A</m>.</cell>
+        </row>
+
+        <row bottom="minor">
+            <cell><m>\exists x \in A</m></cell>
+            <cell>There exists <m>x</m> in <m>A</m></cell>
+            <cell><m>\sim(\exists x \in A)</m></cell>
+            <cell><m>\forall x\in A</m></cell>
+            <cell>For all <m>x</m> in <m>A</m></cell>
+        </row>
+
+        <row bottom="minor">
+            <cell><m>P\vee Q</m></cell>
+            <cell><m>P</m> or <m>Q</m></cell>
+            <cell><m>\sim (P\vee Q)</m></cell>
+            <cell><m>\sim P \wedge \sim Q</m></cell>
+            <cell>Not <m>P</m> and not <m>Q</m></cell>
+        </row>
+
+        <row bottom="minor">
+            <cell><m>P\wedge Q</m></cell>
+            <cell><m>P</m> and <m>Q</m></cell>
+            <cell><m>\sim(P\wedge Q)</m></cell>
+            <cell><m>\sim P \vee \sim Q</m></cell>
+            <cell>Not <m>P</m> or not <m>Q</m></cell>
+        </row>
+
+        <row bottom="minor">
+            <cell><m>P\implies Q</m></cell>
+            <cell>If <m>P</m> then <m>Q</m></cell>
+            <cell><m>\sim(P\implies Q)</m></cell>
+            <cell><m>P\wedge \sim Q</m></cell>
+            <cell><m>P</m> and not <m>Q</m>.</cell>
+        </row>
+
+        <row>
+            <cell><m>\sim P</m></cell>
+            <cell>Not <m>P</m></cell>
+            <cell><m>\sim(\sim P)</m></cell>
+            <cell><m>P</m></cell>
+            <cell><m>P</m></cell>
+        </row>
+    </tabular>
+
+    <activity>
+        <title>Practice negating</title>
+
+        <introduction>
+            <p>
+                Negate the following statements.
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    For all integers <m>n</m>, if <m>n</m> is positive, then
+                    <m>n^2 - n + 11</m> is prime.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    For all integers <m>a</m> and <m>b</m>, if
+                    <m>a\equiv 1\pmod{3}</m> and <m>b\equiv 2\pmod{3}</m> then
+                    <m>a+b\equiv 0\pmod{3}</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    For each real number <m>x</m>, if <m>x\ge 0</m> then
+                    <m>x^2\ge 0 </m> and <m>\sqrt{x^2} = x</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    There are real numbers <m>a</m> and <m>b</m> such that
+                    <m>ab\neq \sqrt{a^2b^2}</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    For every pair of real numbers <m>x</m> and <m>y</m>, if
+                    <m>x&lt;y</m> then there exists a rational number <m>q</m>
+                    such that <m>x&lt;q&lt;y</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    For every line <m>\ell</m> and every point <m>P</m>, if
+                    <m>P</m> is not on <m>\ell</m>, then there exists a unique
+                    line <m>m</m> through <m>P</m> that is parallel to
+                    <m>\ell</m>.
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+  
+</handout>

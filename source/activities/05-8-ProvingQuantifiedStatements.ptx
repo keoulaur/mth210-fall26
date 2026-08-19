@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+<title>Proving Quantified Statements</title>
+
+
+    <paragraphs>
+        <title>Proving Quantified Statements</title>
+
+        <p>
+            To <term>prove an existentially quantified statement</term> it
+            suffices to provide an example satisfying the criteria.
+            One can do this in two ways:
+        </p>
+    </paragraphs>
+
+    <p>
+        <ul>
+            <li>
+                <p>
+                    <em>Constructive:</em> E.g., to prove
+                    <q> there exists a
+                    perfect covering of a chessboard </q>
+                    we did so by drawing one out.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    <em>Non-constructive:</em> E.g., when applying the
+                    pigeonhole principle, we said
+                    <q>if there are 367 people in a
+                    stadium, at least two of them are guaranteed to have the
+                    same birthday</q>.
+                    We didn't say which two or what the birthday was, just that
+                    we know at least two such people exist.
+                </p>
+            </li>
+        </ul>
+    </p>
+
+    <p>
+        To <term>prove a universally quantified statement</term> you must prove
+        for an arbitrary case.
+        E.g., when we proved that the sum of an even integer and an odd integer
+        is odd, it is not enough to say <m>2+3</m> is odd.
+        We must show for any arbitrary even integer, and any arbitrary odd
+        integer, the sum is odd.
+        We use variables to do infinitely many things at once here!
+    </p>
+
+    <activity>
+        <introduction>
+            <p>
+                <em>If time:</em>
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Prove that for all <m>x,y\in\mathbb{Q}</m>, there exists
+                    some <m>z\in \mathbb{Q}</m> such that <m>x&lt;z&lt;y</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Any prime number <m>p\neq 3</m> is not followed by a perfect
+                    square.
+                    (Note a prime number is a natural number greater than 1 that
+                    has exactly two distinct positive divisors: 1 and itself.
+                    A perfect square is a natural number <m>n</m> such that
+                    there exists a natural number <m>k</m> such that
+                    <m>n=k^2</m>.)
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+   
+</handout>

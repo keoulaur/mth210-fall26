@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<handout>
+<title>The Contrapositive and The Converse</title>
+
+    <page>
+            <p>
+                The converse and the contrapositve are similar sounding words,
+                but differ in very important ways.
+            </p>
+
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            The <term>converse</term> of <m>P\implies Q</m> is
+                            <m>Q\implies P</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            The <term>contrapositive</term> of
+                            <m>P\implies Q</m> is <m>Q\implies P</m>.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+
+
+        <activity xml:id="act-converse-contrapositive">
+            <task>
+                <statement>
+                    <p>
+                        Draw a truth table that includes columns for
+                        <m>P\implies Q</m>, <m>Q\implies P</m>, and
+                        <m>\sim Q \implies \sim P</m>.
+                    </p>
+
+                    <tabular>
+                        <col halign="center" right="minor"/>
+                        <col halign="center" right="minor"/>
+                        <col halign="center" right="minor"/>
+                        <col halign="center" right="minor"/>
+                        <col halign="center" right="minor"/>
+                        <col halign="center" right="minor"/>
+                        <col halign="center"/>
+                        <row bottom="minor">
+                            <cell><m>P</m></cell>
+                            <cell><m>Q</m></cell>
+                            <cell><m>P\implies Q</m></cell>
+                            <cell><m>Q\implies P</m></cell>
+                            <cell><m>\sim Q</m></cell>
+                            <cell><m>\sim P</m></cell>
+                            <cell><m>\sim Q \implies \sim P</m></cell>
+                        </row>
+
+                        <row bottom="minor">
+                            <cell>True</cell>
+                            <cell>True</cell>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+
+                        <row bottom="minor">
+                            <cell>True</cell>
+                            <cell>False</cell>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+
+                        <row bottom="minor">
+                            <cell>False</cell>
+                            <cell>True</cell>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+
+                        <row>
+                            <cell>False</cell>
+                            <cell>False</cell>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+                    </tabular>
+                </statement>
+            </task>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        What do you notice about the converse and the
+                        contrapositive from your truth table above?
+                        Do they have the same or different truth values?
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        What can you say about the relationship between the
+                        original statement and the converse?
+                        The original statement and the contrapositive?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+      </page>
+
+</handout>

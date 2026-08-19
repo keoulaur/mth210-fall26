@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>Applying Conditional Statements (Using Lemmas)</title>
+
+            <p>
+                Here, we think about taking a conditional statement that we know
+                is true, and applying it to some other situation.
+                Sometimes this looks like using a lemma in a proof.
+                Following is a statement of a theorem which can be proven using
+                calculus or precalculus mathematics.
+            </p>
+
+        <p>
+            A key component of logical reasoning with conditional statements is
+            known as <em>modus ponens</em>.
+            It works like this:
+        </p>
+
+        <p>
+            IF
+        </p>
+
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        you have a conditional statement (of the form <q> if
+                        <m>P</m>, then <m>Q</m></q>) that you know is _____, AND
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        you can establish that the hypothesis <m>P</m> is _____,
+                        THEN
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        it necessarily follows that the conclusion <m>Q</m>
+                        _____.
+                    </p>
+                </li>
+            </ul>
+        </p>
+
+        <p>
+            Use this reasoning in what follows.
+        </p>
+
+
+    <activity>
+        <introduction>
+            <p>
+                In calculus, we establish that the following conditional
+                statement is true:
+            </p>
+
+
+                <blockquote>
+                  <p>
+                    If <m>f</m> is any function such that <m>f</m> is
+                differentiable at the real number <m>x = a</m>, then <m>f</m> is
+                continuous at <m>x = a</m>.
+                  </p>
+                </blockquote>
+
+
+            <p>
+                What can we conclude, if anything about the following four
+                functions?
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    A function <m>g</m> that we know is differentiable at
+                    <m>x = 2</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    A function <m>r</m> that we know is not differentiable at
+                    <m>x=-5</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    A function <m>h</m> that we know is continuous at
+                    <m>x = 3</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    A function <m>h</m> that we know is not continuous at
+                    <m>x = -1</m>.
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+
+
+            <theorem xml:id="thm-quadvertex">
+                <statement>
+                    <p>
+                        If <m>f</m> is a quadratic function of the form
+                        <m>f(x) = ax^2 +bx + c</m> where
+                        <m>a,b,c\in\mathbb{R}</m> and <m>a&lt;0</m>, then the
+                        function <m>f</m> has a maximum value when
+                        <m>x= \frac{-b}{2a}</m>.
+                    </p>
+                </statement>
+            </theorem>
+
+
+        <activity workspace=".5in">
+            <introduction>
+                <p>
+                    Using <em>only</em> <xref ref="thm-quadvertex"/>, what can
+                    be concluded about the functions given by the following
+                    formulas?
+                </p>
+            </introduction>
+
+            <task>
+                <p>
+                    <m>g(x) = -8x^2 +5x-2</m>
+                </p>
+            </task>
+
+            <task>
+                <p>
+                    <m>h(x)=-\frac{1}{3}x^2 + 3x</m>
+                </p>
+            </task>
+
+            <task>
+                <p>
+                    <m>k(x) = 8x^2 -5x-7</m>
+                </p>
+            </task>
+
+            <task>
+                <p>
+                    <m>f(x) = -4x+2</m>
+                </p>
+            </task>
+
+            <task>
+                <p>
+                    <m>j(x) = -\frac{71}{99}x^2 + 210</m>
+                </p>
+            </task>
+
+            <task>
+                <p>
+                    <m>f(x) = -x^4 + x^3 + 9</m>
+                </p>
+            </task>
+    
+</activity>
+
+
+
+</handout>

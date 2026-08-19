@@ -51,8 +51,14 @@
         <chapter xml:id="ch-logic">
             <title>Logic</title>
 
-            <xi:include href="./activities/05-1-Logic1.ptx"/>
-            <xi:include href="./activities/05-2-Logic2.ptx"/>
+            <xi:include href="./activities/05-1-TruthTables.ptx"/>
+            <xi:include href="./activities/05-2-MoreConditional.ptx" />
+            <xi:include href="./activities/05-3-ContrapositiveAndConverse.ptx" />
+            <xi:include href="./activities/05-4-PracticeWithTruthTables.ptx"/>
+            <xi:include href="./activities/05-5-Negating.ptx" />
+            <xi:include href="./activities/05-6-EnglishIsHard.ptx" />
+            <xi:include href="./activities/05-7-ApplyingConditionalStatements.ptx" />
+            <xi:include href="./activities/05-8-ProvingQuantifiedStatements.ptx" />
         </chapter>
 
         <chapter xml:id="ch-contrapositive">

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>Conditional Statement Truth Values</title>
+
+    <paragraphs>
+        <title>Conditional Statements, Biconditional Statements</title>
+
+        <p>
+            We use conditional and biconditional statements in every day life!
+            E.g.,
+            <q>You can only get the math department scholarship if you apply </q>,
+            or
+            <q> You get SWS credit for MTH 210 pass if and only if you earn a C or better</q>.
+        </p>
+    </paragraphs>
+
+    <activity workspace=".5in" xml:id="act-05-2-setsconditional">
+        <introduction>
+            <p>
+                Please read the following sentences and determine which are
+                true/false.
+                Explain how you can tell.
+                Recall <xref ref="act-01-3-triangles"/> and
+                <xref ref="act-02-4-SetsDivides"/>!
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    For every integer <m>x</m>, if <m>x</m> is a multiple of 6,
+                    then <m>x</m> is a multiple of 3.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    For every integer <m>x</m>, if <m>x</m> is a multiple of 3,
+                    then <m>x</m> is a multiple of 6.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    For every integer <m>x</m>, if <m>x</m> is not a multiple of
+                    3, then <m>x</m> is not a multiple of 6.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    For every triangle <m>\triangle ABC </m>, if
+                    <m>\triangle ABC </m> is an isosceles triangle, then
+                    <m>\triangle ABC </m> is a right triangle.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    For every triangle <m>\triangle DEF </m>, if
+                    <m>\triangle DEF </m> is a right triangle, then
+                    <m>\triangle DEF </m> is an isosceles triangle.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    For any integer <m>x</m>, if <m>x</m> is a multiple of 2 and
+                    a multiple of 7, then <m>x</m> is a multiple of 14.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    For any integer <m>x</m>, if <m>x</m> is a multiple of 14,
+                    then <m>x</m> is a multiple of 2 and a multiple of 7.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    For any integer <m>x</m>, if <m>x</m> is a multiple of 6, then <m>2x</m> is a multiple of 6.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    For any integer <m>x</m>, if <m>2x</m> is a multiple of 6, then <m>x</m> is a multiple of 6.
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+
+        <activity workspace="1in">
+            <introduction>
+                <p>
+                    Consider your answers in <xref ref="act-05-2-setsconditional"/>. Imagine forming the set of all the things (numbers/ shapes)
+                    that make the first part of each sentence true.
+                    Also imagine forming the set of all things that make the
+                    second part of each sentence true.
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
+                    <p>
+                        For the true statements, what is the relationship between
+                    the two sets?
+                    How would you express this in set notation?
+                    How would you represent this in a diagram?
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        For the false statements, what is the relationship between
+                    the two sets?
+                    How would you express this in set notation?
+                    How would you represent this in a diagram?
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        For each true statement, can you write another “For all…
+                    if… then…” statement that must also be true because this
+                    statement is true?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+      
+
+
+    <activity>
+        <statement>
+            <p>
+                Based on the our work in the course so far, fill in the following
+                truth tables.
+            </p>
+
+            <p>
+                <term>Conditional, implies, or <q> If <m>P</m> then <m>Q</m></q>:</term>
+            </p>
+
+            <tabular>
+                <col halign="center" right="minor"/>
+                <col halign="center" right="minor"/>
+                <col halign="center"/>
+                <row bottom="minor">
+                    <cell><m>P</m></cell>
+                    <cell><m>Q</m></cell>
+                    <cell><m>P\implies Q</m></cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>True</cell>
+                    <cell>True</cell>
+                    <cell/>
+                </row>
+
+                <row bottom="minor">
+                    <cell>True</cell>
+                    <cell>False</cell>
+                    <cell/>
+                </row>
+
+                <row bottom="minor">
+                    <cell>False</cell>
+                    <cell>True</cell>
+                    <cell/>
+                </row>
+
+                <row>
+                    <cell>False</cell>
+                    <cell>False</cell>
+                    <cell/>
+                </row>
+            </tabular>
+
+            <p>
+                <term>Biconditional, if and only if, or <m>P\Leftrightarrow Q</m>:</term>
+            </p>
+
+            <tabular>
+                <col halign="center" right="minor"/>
+                <col halign="center" right="minor"/>
+                <col halign="center" right="minor"/>
+                <col halign="center" right="minor"/>
+                <col halign="center"/>
+                <row bottom="minor">
+                    <cell><m>P</m></cell>
+                    <cell><m>Q</m></cell>
+                    <cell><m>P\implies Q</m></cell>
+                    <cell><m>Q\implies P</m></cell>
+                    <cell><m>(P\implies Q)\wedge (Q\implies P)</m></cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>True</cell>
+                    <cell>True</cell>
+                    <cell/>
+                    <cell/>
+                    <cell/>
+                </row>
+
+                <row bottom="minor">
+                    <cell>True</cell>
+                    <cell>False</cell>
+                    <cell/>
+                    <cell/>
+                    <cell/>
+                </row>
+
+                <row bottom="minor">
+                    <cell>False</cell>
+                    <cell>True</cell>
+                    <cell/>
+                    <cell/>
+                    <cell/>
+                </row>
+
+                <row>
+                    <cell>False</cell>
+                    <cell>False</cell>
+                    <cell/>
+                    <cell/>
+                    <cell/>
+                </row>
+            </tabular>
+
+            <p>
+                You will encounter many <q>if and only if</q> statements.
+                E.g., in linear algebra:
+                <em><q>A square matrix is invertible if and only if it has a pivot in every column</q></em>,
+                or in geometry:
+                <em><q>a triangle has a pair of congruent sides if and only if it has a pair of congruent angles</q></em>.
+            </p>
+        </statement>
+    </activity>
+</handout>

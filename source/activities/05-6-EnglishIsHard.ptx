@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>English is hard!</title>
+    
+    
+ 
+
+    <paragraphs>
+        <title>English is hard!</title>
+
+        <p>
+            As we've seen, there are many many ways to write a conditional
+            statement.
+            For example, <q> if <m>P</m> then <m>Q</m></q> can be written as
+            <q>
+            <m>P</m> implies <m>Q</m> </q> or
+            <q> <m>Q</m> if <m>P</m></q> or
+            <q>
+            <m>P</m> only if <m>Q</m> </q> and more.
+            (See page 211 of your textbook.) This is similar for the universal
+            and existential quantifiers.
+            For example, instead of <q> for all</q>, we might say
+            <q>for any</q>, or <q> for each</q>.
+            And instead of <q> there exists</q> we could say <q> there is</q>.
+            There's also an idea of <q> hidden quantifiers</q>.
+            E.g., sometimes instead of starting <q> for all</q> we start with
+            <q>if</q> and it has the same meaning.
+        </p>
+
+        <p>
+            \begin{quote} In general, to negate a statement, it's a good idea to
+            write the statement using symbols, including any hidden quantifiers.
+            On the other hand, sometimes translating a statement into different
+            words, can be easier to interpret.
+            \end{quote}
+        </p>
+    </paragraphs>
+
+    <example>
+        <p>
+            The statement <m>(\forall x\in\mathbb{R})(x^2\ge 0)</m> can be said
+            as
+            <ul>
+                <li>
+                    <p>
+                        For each real number <m>x</m>, <m>x^2\ge 0</m>.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        The square of every real number is at least $0$.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        The square of a real number is at least $0$.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        If <m>x</m> is a real number, then <m>x^2\ge 0</m>.
+                    </p>
+                </li>
+            </ul>
+        </p>
+
+        <p>
+            The last statement, is a conditional statement, that <q> hides</q>
+            the universal quantifier.
+        </p>
+    </example>
+
+    <example>
+        <p>
+            The statement <m>(\exists x\in \mathbb{R})(x^2 = 5)</m> can be said
+            as
+        </p>
+
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        There exists a real number <m>x</m> such that
+                        <m>x^2=5</m>.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>x^2=5</m> for some real number <m>x</m>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        There is some real number whose square is <m>5</m>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>x^2=5</m> has a real number solution.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </example>
+
+    <activity>
+        <introduction>
+            <p>
+                Here's some statements with hidden quantifiers, hidden
+                conditional statements, or translated into other words.
+                Rewrite the sentences as directed.
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    If a function <m>y=f(x)</m> is continuous at <m>x=a</m>,
+                    then the function is differentiable at <m>x=a</m>.
+                    <em>Rewrite with a universal quantifier.</em>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    The equation <m>x^3 + x =0 </m> has a solution.
+                    <em>Rewrite with an existential quantifier.</em>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Every natural number is a perfect square.
+                    <em>Rewrite with a universal and existential quantifier.</em>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Every real number can be squared.
+                    <em>Rewrite with a universal and existential quantifier.</em>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    No basketball players also play tennis.
+                    <em>Rewrite as a conditional statement.</em>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Any prime number is not followed by a perfect square.
+                    <em>Rewrite as a conditional statement.</em>
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+
+    <activity workspace=".5in">
+        <introduction>
+            <p workspace=".2in">
+                Let <m>a</m> be a real number and let <m>f</m> be a real-valued
+                function defined on an interval containing <m>x=a</m>.
+                Consider the following conditional statement:
+            </p>
+
+            <p workspace=".2in">
+                If <m>f</m> is differentiable at <m>x=a</m>, then <m>f</m> is
+                continuous at <m>x=a</m>.
+            </p>
+
+            <p>
+                Let <m>P</m> be <q> <m>f</m> is differentiable </q>, and
+                <m>Q</m> be <q> <m>f</m> is continuous</q>.
+                So the above statement is <m>P\implies Q</m>.
+                For each of the following write in symbols, using <m>P</m>,
+                <m>Q</m>, and logical operators.
+                Then, determine which statements are equivalent to
+                <m>P\implies Q</m> and which are the negation?
+                (Some may be neither.)
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    If <m>f</m> is continuous at <m>x=a</m>, then <m>f</m> is
+                    differentiable at <m>x=a</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    If <m>f</m> is not differentiable at <m>x=a</m>, then
+                    <m>f</m> is not continuous at <m>x=a</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    If <m>f</m> is not continuous at <m>x=a</m>, then <m>f</m>
+                    is not differentiable at <m>x=a</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    <m>f</m> is not differentiable at <m>x=a</m> or <m>f</m> is
+                    continuous at <m>x=a</m>
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    <m>f</m> is not continuous at <m>x=a</m> or <m>f</m> is
+                    differentiable at <m>x=a</m>
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    <m>f</m> is differentiable at <m>x=a</m> and <m>f</m> is not
+                    continuous at <m>x=a</m>.
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+     <activity xml:id="act-multipleallexist">
+        <title>Quantifiers, in Multiples</title>
+
+        <introduction>
+            <p>
+                Determine if each of the following are true or false.
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>(\forall n\in\mathbb{N})(n \text{ is odd})</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>(\exists n\in\mathbb{N})(n \text{ is odd})</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>(\forall x\in \mathbb{R})(\forall y\in\mathbb{R})(xy=1)</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>(\exists x\in \mathbb{R})(\exists y\in\mathbb{R})(xy=1)</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>(\forall x\in \mathbb{R})(\exists y\in\mathbb{R})(xy=1)</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>(\exists x\in \mathbb{R})(\forall y\in\mathbb{R})(xy=1)</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>(\forall x\in \mathbb{R})(\exists y\in\mathbb{R})(x+y=0)</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>(\exists x\in \mathbb{R})(\forall y\in\mathbb{R})(x+y=0)</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>(\forall x\in \mathbb{R})(\exists y\in\mathbb{R})(xy=0)</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>(\exists x\in \mathbb{R})(\forall y\in\mathbb{R})(xy=0)</m>
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <activity workspace="1in">
+        <statement>
+            <p>
+                (If time:) Negate the statements in
+                <xref ref="act-multipleallexist"/> and translate into English.
+            </p>
+        </statement>
+    </activity>
+</handout>
