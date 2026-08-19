@@ -3,214 +3,231 @@
 <handout>
     <title>Induction with Recursion</title>
 
-    <definition>
-        <statement>
+    <page>
+        <definition>
+            <statement>
+                <p>
+                    The <term>Fibonacci Numbers</term> are a recursive sequence
+                    defined by <m>(f_n)_{n=1}^\infty</m> with
+                    <ul>
+                        <li>
+                            <p>
+                                <m>f_1 = 1</m>, and
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                For each natural number <m>n</m>,
+                                <m>f_{n+2} = f_{n+1}+f_n</m>.
+                            </p>
+                        </li>
+                    </ul>
+                    A process is <term>recursive</term> if the <q> next step</q>
+                    is defined in terms of previous ones.
+                </p>
+            </statement>
+        </definition>
+
+        <remark>
             <p>
-                The <term>Fibonacci Numbers</term> are a recursive sequence
-                defined by <m>(f_n)_{n=1}^\infty</m> with
+                So induction is a great proof technique for statements about
+                recursive sequences - in induction we prove a case based on a
+                previous case, and recursive sequences are defined by previous
+                cases!
+            </p>
+        </remark>
+
+        <activity workspace="5in">
+            <statement>
+                <p>
+                    In the preview activity, you likely conjectured that, for
+                    all <m>n \in \mathbb{N}</m>,
+                    <m>f_1^2 + f_2^2 + \cdots + f_{n}^2 = f_{n} f_{n+1}</m>.
+                    Let's prove this by induction!
+                </p>
+            </statement>
+        </activity>
+    </page>
+
+    <page>
+        <activity>
+            <introduction>
+                <p>
+                    Here are the first several Fibonacci numbers (starting with
+                    <m>f_1</m> ):
+                    <md>
+                        1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584,\dots
+                    </md>
+                </p>
+            </introduction>
+
+            <task workspace="1in">
+                <p>
+                    There are lots of patterns in the Fibonacci numbers.
+                    For example, circle every fourth Fibonacci number starting
+                    with the fourth one.
+                    What do you notice?
+                </p>
+            </task>
+
+            <task workspace="3in">
+                <p>
+                    State your observation in the form of a Proposition:
+                    <q> For all <m>n \in \mathbb{N}</m>, <m>f_{4n}</m> is <m>\ldots</m></q>
+                    Then prove your conjecture using induction!
+                </p>
+            </task>
+        </activity>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Strong Induction</title>
+
+            <p>
+                Strong induction is very similar.
+                The only change is that instead of assuming only <m>S_k</m> in
+                the inductive hypothesis, you assume <m>S_1, S_2 \dots S_k</m>.
+                In regular induction, we assume the previous domino has fallen
+                to show the next one falls.
+                In strong induction, we assume
+                <em>all of the previous dominoes</em> have fallen.
+                Which...we might as well!
+                Here is the procedure:
+            </p>
+
+            <p>
                 <ul>
                     <li>
                         <p>
-                            <m>f_1 = 1</m>, and
+                            Suppose <m>S_1</m> is true.
                         </p>
                     </li>
 
                     <li>
                         <p>
-                            For each natural number <m>n</m>,
-                            <m>f_{n+2} = f_{n+1}+f_n</m>.
+                            Suppose for any <m>k\in\mathbb{N}</m>, if
+                            <m>S_1, S_2,\dots, S_k</m> are all true, then
+                            <m>S_{k+1}</m> is true.
                         </p>
                     </li>
                 </ul>
-                A process is <term>recursive</term> if the <q> next step</q> is
-                defined in terms of previous ones.
             </p>
-        </statement>
-    </definition>
+        </paragraphs>
 
-    <remark>
-        <p>
-            So induction is a great proof technique for statements about
-            recursive sequences - in induction we prove a case based on a
-            previous case, and recursive sequences are defined by previous
-            cases!
-        </p>
-    </remark>
+        <activity workspace="3in">
+            <statement>
+                <p>
+                    Suppose you had a chocolate bar, a grid of squares, and you
+                    want to break it up completely so that each piece is only
+                    one square.
+                    No tricks, just break along the grid lines.
+                    Try breaking it up - how many breaks did it take?
+                    Can you do it more efficiently?
+                    Start simple - like with a <m>2\times 3</m>.
+                </p>
+            </statement>
+        </activity>
+    </page>
 
-    <activity workspace="5in">
-        <statement>
+    <page>
+        <activity workspace="2in">
+            <title>Play, Conjecture, Prove Option</title>
+
+            <statement>
+                <p>
+                    In a simplified version of the super bowl, teams can score
+                    <m>3</m> points (for a field goal) or <m>7</m> points (for a
+                    touchdown).
+                    What are the possible scores for one team?
+                </p>
+            </statement>
+        </activity>
+    </page>
+
+    <page>
+        <remark>
+            <title>Common Induction Mistakes</title>
+
             <p>
-                In the preview activity, you likely conjectured that, for all
-                <m>n \in \mathbb{N}</m>,
-                <m>f_1^2 + f_2^2 + \cdots + f_{n}^2 = f_{n} f_{n+1}</m>.
-                Let's prove this by induction!
+                Here are some things that you should never ever do.
+                For each one, can you explain why it's a mistake?
             </p>
-        </statement>
-    </activity>
 
-    <activity>
-        <introduction>
             <p>
-                Here are the first several Fibonacci numbers (starting with
-                <m>f_1</m> ):
-                <md>
-                    1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584,\dots
-                </md>
+                <ul>
+                    <li>
+                        <p workspace=".25in">
+                            Writing something like `` <m>S_n = n^{2}</m> '' or
+                            `` <m>S_1= 1^{2}</m>.'' A predicate is never
+                            <em>equal</em> to anything.
+                            It's a sentence!
+                        </p>
+                    </li>
+
+                    <li>
+                        <p workspace=".25in">
+                            In the base case: Stating <m>S_1</m> and then
+                            forgetting to explain why it is true.
+                            Base cases should usually look ``obvious'' but you
+                            still need to say <em>something</em> about why
+                            they're true.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p workspace=".25in">
+                            Forgetting to do the base case at all.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p workspace=".25in">
+                            In the inductive step: Saying that ``We assume that
+                            <m>S_k</m> is true for all natural numbers
+                            <m>k</m>.'' If you really did assume this, what
+                            would you have left to prove?
+                        </p>
+                    </li>
+
+                    <li>
+                        <p workspace=".25in">
+                            Writing ``We assume that <m>S_n</m> is
+                            <m>1 + 2 + \cdots + n = \frac{n(n+1)}{2}</m> ''.
+                            Are you actually assuming anything is <em>true</em>?
+                        </p>
+                    </li>
+                </ul>
             </p>
-        </introduction>
+        </remark>
 
-        <task workspace="1in">
-            <p>
-                There are lots of patterns in the Fibonacci numbers.
-                For example, circle every fourth Fibonacci number starting with
-                the fourth one.
-                What do you notice?
-            </p>
-        </task>
+        <activity>
+            <title>Evaluating an Induction Proof</title>
 
-        <task workspace="3in">
-            <p>
-                State your observation in the form of a Proposition:
-                <q> For all <m>n \in \mathbb{N}</m>, <m>f_{4n}</m> is <m>\ldots</m></q>
-                Then prove your conjecture using induction!
-            </p>
-        </task>
-    </activity>
+            <statement>
+                <p>
+                    Explain what the following <q>proof </q> is doing and what
+                    <q>theorem</q> it is trying to prove.
+                    Do you think the <q>theorem</q> is true?
+                    If not, what makes the <q>proof</q> fail?
+                </p>
 
-    <paragraphs>
-        <title>Strong Induction</title>
+                <figure xml:id="fig-dinoinduction">
+                    <caption>
+                        A comic from Dinosaur Comics
+                        <url href="https://qwantz.com"/>.
+                    </caption>
 
-        <p>
-            Strong induction is very similar.
-            The only change is that instead of assuming only <m>S_k</m> in the
-            inductive hypothesis, you assume <m>S_1, S_2 \dots S_k</m>.
-            In regular induction, we assume the previous domino has fallen to
-            show the next one falls.
-            In strong induction, we assume <em>all of the previous dominoes</em>
-            have fallen.
-            Which...we might as well!
-            Here is the procedure:
-        </p>
-
-        <p>
-            <ul>
-                <li>
-                    <p>
-                        Suppose <m>S_1</m> is true.
-                    </p>
-                </li>
-
-                <li>
-                    <p>
-                        Suppose for any <m>k\in\mathbb{N}</m>, if
-                        <m>S_1, S_2,\dots, S_k</m> are all true, then
-                        <m>S_{k+1}</m> is true.
-                    </p>
-                </li>
-            </ul>
-        </p>
-    </paragraphs>
-
-    <activity workspace="3in">
-        <statement>
-            <p>
-                Suppose you had a chocolate bar, a grid of squares, and you want
-                to break it up completely so that each piece is only one square.
-                No tricks, just break along the grid lines.
-                Try breaking it up - how many breaks did it take?
-                Can you do it more efficiently?
-                Start simple - like with a <m>2\times 3</m>.
-            </p>
-        </statement>
-    </activity>
-
-    <activity workspace="2in">
-        <title>Play, Conjecture, Prove: Option 4:</title>
-
-        <statement>
-            <p>
-                In a simplified version of the super bowl, teams can score
-                <m>3</m> points (for a field goal) or <m>7</m> points (for a
-                touchdown).
-                What are the possible scores for one team?
-            </p>
-        </statement>
-    </activity>
-
-    <remark>
-        <title>Common Induction Mistakes</title>
-
-        <p>
-            Here are some things that you should never ever do.
-            For each one, can you explain why it's a mistake?
-        </p>
-
-        <p>
-            <ul>
-                <li>
-                    <p workspace=".25in">
-                        Writing something like `` <m>S_n = n^{2}</m> '' or ``
-                        <m>S_1= 1^{2}</m>.'' A predicate is never <em>equal</em>
-                        to anything.
-                        It's a sentence!
-                    </p>
-                </li>
-
-                <li>
-                    <p workspace=".25in">
-                        In the base case: Stating <m>S_1</m> and then forgetting
-                        to explain why it is true.
-                        Base cases should usually look ``obvious'' but you still
-                        need to say <em>something</em> about why they're true.
-                    </p>
-                </li>
-
-                <li>
-                    <p workspace=".25in">
-                        Forgetting to do the base case at all.
-                    </p>
-                </li>
-
-                <li>
-                    <p workspace=".25in">
-                        In the inductive step: Saying that ``We assume that
-                        <m>S_k</m> is true for all natural numbers <m>k</m>.''
-                        If you really did assume this, what would you have left
-                        to prove?
-                    </p>
-                </li>
-
-                <li>
-                    <p workspace=".25in">
-                        Writing ``We assume that <m>S_n</m> is
-                        <m>1 + 2 + \cdots + n = \frac{n(n+1)}{2}</m> ''.
-                        Are you actually assuming anything is <em>true</em>?
-                    </p>
-                </li>
-            </ul>
-        </p>
-    </remark>
-
-    <activity>
-        <title>Evaluating an Induction Proof</title>
-
-        <statement>
-            <p>
-                Explain what the following <q>proof </q> is doing and what
-                <q>theorem</q> it is trying to prove.
-                Do you think the <q>theorem</q> is true?
-                If not, what makes the <q>proof</q> fail?
-            </p>
-
-            <figure xml:id="fig-dinoinduction">
-                <caption>A comic from Dinosaur Comics <url href="https://qwantz.com"></url>.</caption>
-                <image source="images/Dinosaurs.png" width="70%">
-                    <shortdescription>
-                        A comic where one dinosaur claims that they have a proof
-                        by induction that all dinos are the same color.
-                    </shortdescription>
-                </image>
-            </figure>
-        </statement>
-    </activity>
+                    <image source="images/Dinosaurs.png" width="70%">
+                        <shortdescription>
+                            A comic where one dinosaur claims that they have a
+                            proof by induction that all dinos are the same
+                            color.
+                        </shortdescription>
+                    </image>
+                </figure>
+            </statement>
+        </activity>
+    </page>
 </handout>

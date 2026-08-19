@@ -3,163 +3,233 @@
 <handout>
     <title>Proof by Induction</title>
 
-    <p>
-        <term>Procedure for a Proof by Mathematical Induction</term> To prove a
-        series of statements <m>S_1, S_2, S_3, \dots </m>.
-    </p>
+    <page>
+        <p>
+            <term>Procedure for a Proof by Mathematical Induction</term> To
+            prove a series of statements <m>S_1, S_2, S_3, \dots </m>.
+        </p>
 
-    <p>
-        <ul>
-            <li>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        <fillin characters="25"/>: Prove
+                        <fillin characters="5"/>.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <fillin characters="25"/>: Prove
+                        <fillin characters="15"/>, if <fillin characters="10"/>
+                        then <fillin characters="10"/>.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Then we can conclude that <m>P(n)</m> is true
+                        <fillin characters="8"/>.
+                    </p>
+                </li>
+            </ul>
+        </p>
+
+        <p workspace=".5in">
+            To identify a statement you might prove by induction you might look
+            for...
+        </p>
+
+        <p>
+            <term>Example Of Formal Writing of a Proof by Mathematical Induction.</term>
+        </p>
+
+        <theorem>
+            <statement>
                 <p>
-                    <fillin characters="25"/>: Prove <fillin characters="5"/>.
+                    For all <m>n \in \mathbb{N}</m>, the sum of the first
+                    <m>n</m> odd natural numbers is <m>n^{2}</m>.
+                    That is, for all <m>n\in\mathbb{N}</m>,
+                    <md>
+                        1 + 3 + 5 + ... + 2(n-1)+1  = n^2.
+                    </md>
                 </p>
-            </li>
+            </statement>
+        </theorem>
 
-            <li>
-                <p>
-                    <fillin characters="25"/>: Prove <fillin characters="15"/>,
-                    if <fillin characters="10"/> then <fillin characters="10"/>.
-                </p>
-            </li>
-
-            <li>
-                <p>
-                    Then we can conclude that <m>P(n)</m> is true
-                    <fillin characters="8"/>.
-                </p>
-            </li>
-        </ul>
-    </p>
-
-    <p workspace=".5in">
-        To identify a statement you might prove by induction you might look
-        for...
-    </p>
-
-    <p>
-        <term>Example Of Formal Writing of a Proof by Mathematical Induction.</term>
-    </p>
-
-    <theorem>
-        <statement>
+        <proof>
             <p>
-                For all <m>n \in \mathbb{N}</m>, the sum of the first <m>n</m>
-                odd natural numbers is <m>n^{2}</m>.
-                That is, for all <m>n\in\mathbb{N}</m>,
+                We will use proof by mathematical induction.
+                For each natural number <m>n</m>, we let the statement
+                <m>S_n</m> be
                 <md>
-                    1 + 3 + 5 + ... + 2(n-1)+1  = n^2.
+                    1 + 3 + 5 + \cdots + (2n-1) = n^{2}.
+                </md>
+                For the base case, we prove that <m>S_1</m> is true.
+                In the case where <m>n = 1</m>, the left side of <m>S_1</m> is
+                <m>1</m> and the right side is <m>1^2</m>.
+                Since <m>1=1^2</m>, <m>S_1</m> is true and the base case is
+                complete.
+            </p>
+
+            <p>
+                For the inductive step, we prove that for each
+                <m>k \in \mathbb{N}</m>, if <m>S_k</m> is true, then
+                <m>S_{k+1}</m> is true.
+                So let <m>k</m> be a natural number and assume that <m>S_k</m>
+                is true.
+                That is, assume that
+                <md xml:id="eqn-Sk" number="yes">
+                    1 + 3 + 5 + \cdots + (2k-1) =
+            k^{2}.
+                </md>
+                Now we must show that <m>S_{k+1}</m> is true.
+                That is, we will show that
+                <md xml:id="eqn-Skplus1" number="yes">
+                    1 + 3 + 5 + \cdots +
+            (2k-1) + (2k+1) = (k+1)^{2}.
                 </md>
             </p>
-        </statement>
-    </theorem>
 
-    <proof>
+            <p>
+                To do so, we add <m>2k+1</m> to both sides of
+                <xref ref="eqn-Sk"/> and factor the right side of the resulting
+                equation.
+                This gives us:
+                <md>
+                    <mrow> 1 + 3 + 5 + \cdots + (2k-1) +(2k+1) \amp= k^2+ (2k+1) </mrow>
+                    <mrow> \amp= (k+1)^{2}. </mrow>
+                </md>
+                The result above is exactly the statement <m>S_{k+1}</m>, as
+                seen in <xref ref="eqn-Skplus1"/>.
+                This proves that if <m>S_k</m> is true, then <m>S_{k+1}</m> is
+                true.
+                Hence, the inductive step has been established.
+            </p>
+
+            <p>
+                Thus by the Principle of Mathematical Induction, we have proved
+                that for each natural number <m>n</m>, the sum of the first
+                <m>n</m> odd natural numbers is <m>n^{2}</m>.
+            </p>
+        </proof>
+
+        <p workspace=".5in"/>
         <p>
-            We will use proof by mathematical induction.
-            For each natural number <m>n</m>, we let the statement <m>S_n</m> be
-            <md>
-                1 + 3 + 5 + \cdots + (2n-1) = n^{2}.
-            </md>
-            For the base case, we prove that <m>S_1</m> is true.
-            In the case where <m>n = 1</m>, the left side of <m>S_1</m> is
-            <m>1</m> and the right side is <m>1^2</m>.
-            Since <m>1=1^2</m>, <m>S_1</m> is true and the base case is
-            complete.
+            There are multiple ways to do the inductive step.
+            Above, we added the same thing to both sides of the inductive
+            hypothesis, as you likely recall doing in algebra We can also start
+            by working with the left hand side of the inductive hypothesis and
+            using substitution, as shown below.
+            Which of these two ways you do this inductive proof is only a matter
+            of preference, both are valid.
+            The vertical dots in the proof below indicate that the rest of the
+            proof is the same as the one above.
+        </p>
+    </page>
+
+    <page>
+        <proof>
+            <p>
+                We will use a proof by mathematical induction.
+                <md>
+                    \vdots
+                </md>
+                To do so, we begin with the left side of
+                <xref ref="eqn-Skplus1"/> and substitute the expression
+                <m> k^2 </m> for <m> 1+ 3 + 5+ \cdots + (2k-1) </m> which is
+                true by our assumption from <xref ref="eqn-Sk"/>.
+                We find
+                <md>
+                    <mrow> 1 + 3 + 5 + \cdots + (2k+1) \amp= 1 + 3 + 5 + \cdots + (2k-1) + (2k+1)</mrow>
+                    <mrow> \amp  k^2+ (2k+1) </mrow>
+                    <mrow> \amp= (k+1)^{2}. </mrow>
+                </md>
+                The result above is exactly the statement <m>S_{k+1}</m>,
+                <md>
+                    \vdots
+                </md>
+                the sum of the first <m>n</m> odd natural numbers is
+                <m>n^{2}</m>.
+            </p>
+        </proof>
+
+        <p workspace=".5in"/>
+        <remark>
+            <p>
+                What is <em>not valid</em> is to start with using
+                <m>S_{k+1}</m>.
+                This would be assuming the conclusion of the conditional
+                statement that is the inductive step which says
+                <q> <em> If </em> <m> S_k</m> then <m> S_{k+1} </m>. </q>
+            </p>
+        </remark>
+
+        <p>
+            Here's some things you may do when working to do any proof by
+            induction:
         </p>
 
         <p>
-            For the inductive step, we prove that for each
-            <m>k \in \mathbb{N}</m>, if <m>S_k</m> is true, then <m>S_{k+1}</m>
-            is true.
-            So let <m>k</m> be a natural number and assume that <m>S_k</m> is
-            true.
-            That is, assume that
-            <md xml:id="eqn-Sk" number="yes">
-                1 + 3 + 5 + \cdots + (2k-1) =
-            k^{2}.
-            </md>
-            Now we must show that <m>S_{k+1}</m> is true.
-            That is, we will show that
-            <md xml:id="eqn-Skplus1" number="yes">
-                1 + 3 + 5 + \cdots +
-            (2k-1) + (2k+1) = (k+1)^{2}.
-            </md>
+            <ul>
+                <li>
+                    <p>
+                        First, you may want to test a couple of values of
+                        <m>n</m> to see if the statement even seems true/you
+                        understand what it is.
+                        Test <m>n=1, 2</m>.
+                        See if you can write down what the statement says when
+                        <m>n=17</m>.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        What is <m>S_n</m> in this case?
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        What is <m>S_1</m> and is it true?
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Then, let <m>k\in \mathbb{N}</m> and write <m>S_k</m> at
+                        the top of your page and <m>S_{k+1}</m> at the bottom.
+                        Wiggle your way in between!
+                    </p>
+                </li>
+            </ul>
         </p>
+    </page>
 
-        <p>
-            To do so, we add <m>2k+1</m> to both sides of <xref ref="eqn-Sk"/>
-            and factor the right side of the resulting equation.
-            This gives us:
-            <md>
-                <mrow> 1 + 3 + 5 + \cdots + (2k-1) +(2k+1) \amp= k^2+ (2k+1) </mrow>
-                <mrow> \amp= (k+1)^{2}. </mrow>
-            </md>
-            The result above is exactly the statement <m>S_{k+1}</m>, as seen in
-            <xref ref="eqn-Skplus1"/>.
-            This proves that if <m>S_k</m> is true, then <m>S_{k+1}</m> is true.
-            Hence, the inductive step has been established.
-        </p>
+    <page>
+        <theorem xml:id="thm-sumofsquares">
+            <statement>
+                <p>
+                    For every natural number <m>n</m>, the sum of the squares of
+                    the first <m>n</m> natural numbers is
+                    <m>\frac{n(n+1)(2n+1)}{6}</m>.
+                    That is,
+                    <md>
+                        \ds \sum_{i=1}^{n} i^2 =  \frac{n(n+1)(2n+1)}{6}.
+                    </md>
+                </p>
+            </statement>
+        </theorem>
 
-        <p>
-            Thus by the Principle of Mathematical Induction, we have proved that
-            for each natural number <m>n</m>, the sum of the first <m>n</m> odd
-            natural numbers is <m>n^{2}</m>.
-        </p>
-    </proof>
+        <activity>
+            <introduction>
+                <p>
+                    Use the principle of mathematical induction to prove
+                    <xref ref="thm-sumofsquares"/>.
+                </p>
+            </introduction>
 
-    <p>
-        There are multiple ways to do the inductive step.
-        Above, we added the same thing to both sides of the inductive
-        hypothesis, as you likely recall doing in algebra We can also start by
-        working with the left hand side of the inductive hypothesis and using
-        substitution, as shown below.
-        Which of these two ways you do this inductive proof is only a matter of
-        preference, both are valid.
-        The vertical dots in the proof below indicate that the rest of the proof
-        is the same as the one above.
-    </p>
-
-    <proof>
-        <p>
-            We will use a proof by mathematical induction.
-            <md>
-                \vdots
-            </md>
-            To do so, we begin with the left side of <xref ref="eqn-Skplus1"/>
-            and substitute the expression <m> k^2 </m> for
-            <m> 1+ 3 + 5+ \cdots + (2k-1) </m> which is true by our assumption
-            from <xref ref="eqn-Sk"/>.
-            We find
-            <md>
-                <mrow> 1 + 3 + 5 + \cdots + (2k+1) \amp= 1 + 3 + 5 + \cdots + (2k-1) + (2k+1)</mrow>
-                <mrow> \amp  k^2+ (2k+1) </mrow>
-                <mrow> \amp= (k+1)^{2}. </mrow>
-            </md>
-            The result above is exactly the statement <m>S_{k+1}</m>,
-            <md>
-                \vdots
-            </md>
-            the sum of the first <m>n</m> odd natural numbers is <m>n^{2}</m>.
-        </p>
-    </proof>
-
-    <remark>
-        <p>
-            What is <em>not valid</em> is to start with using <m>S_{k+1}</m>.
-            This would be assuming the conclusion of the conditional statement
-            that is the inductive step which says
-            <q> <em> If </em> <m> S_k</m> then <m> S_{k+1} </m>. </q>
-        </p>
-    </remark>
-
-    <p>
-        Here's some things you may do when working to do any proof by induction:
-    </p>
-
-    <p>
-        <ul>
-            <li>
+            <task workspace="1.5in">
                 <p>
                     First, you may want to test a couple of values of <m>n</m>
                     to see if the statement even seems true/you understand what
@@ -168,213 +238,169 @@
                     See if you can write down what the statement says when
                     <m>n=17</m>.
                 </p>
-            </li>
+            </task>
 
-            <li>
+            <task workspace=".5in">
                 <p>
                     What is <m>S_n</m> in this case?
                 </p>
-            </li>
+            </task>
 
-            <li>
+            <task workspace=".5in">
                 <p>
                     What is <m>S_1</m> and is it true?
                 </p>
-            </li>
+            </task>
 
-            <li>
+            <task workspace="2in">
                 <p>
                     Then, let <m>k\in \mathbb{N}</m> and write <m>S_k</m> at the
                     top of your page and <m>S_{k+1}</m> at the bottom.
                     Wiggle your way in between!
                 </p>
-            </li>
-        </ul>
-    </p>
+            </task>
 
-    <theorem xml:id="thm-sumofsquares">
-        <statement>
-            <p>
-                For every natural number <m>n</m>, the sum of the squares of the
-                first <m>n</m> natural numbers is <m>\frac{n(n+1)(2n+1)}{6}</m>.
-                That is,
-                <md>
-                    \ds \sum_{i=1}^{n} i^2 =  \frac{n(n+1)(2n+1)}{6}.
-                </md>
-            </p>
-        </statement>
-    </theorem>
+            <task workspace="3in">
+                <p>
+                    Here's some space to put all your thoughts together.
+                </p>
+            </task>
+        </activity>
+    </page>
 
-    <activity>
-        <introduction>
-            <p>
-                Use the principle of mathematical induction to prove
-                <xref ref="thm-sumofsquares"/>.
-            </p>
-        </introduction>
-
-        <task workspace="1.5in">
-            <p>
-                First, you may want to test a couple of values of <m>n</m> to
-                see if the statement even seems true/you understand what it is.
-                Test <m>n=1, 2</m>.
-                See if you can write down what the statement says when
-                <m>n=17</m>.
-            </p>
-        </task>
-
-        <task workspace=".5in">
-            <p>
-                What is <m>S_n</m> in this case?
-            </p>
-        </task>
-
-        <task workspace=".5in">
-            <p>
-                What is <m>S_1</m> and is it true?
-            </p>
-        </task>
-
-        <task workspace="2in">
-            <p>
-                Then, let <m>k\in \mathbb{N}</m> and write <m>S_k</m> at the top
-                of your page and <m>S_{k+1}</m> at the bottom.
-                Wiggle your way in between!
-            </p>
-        </task>
-
-        <task workspace="3in">
-            <p>
-                Here's some space to put all your thoughts together.
-            </p>
-        </task>
-    </activity>
-
-    <theorem xml:id="thm-fermat5">
-        <statement>
-            <p>
-                For every natural number <m>n</m>, <m>5^n \equiv 1 \pmod{4}</m>.
-            </p>
-        </statement>
-    </theorem>
-
-    <activity>
-        <introduction>
-            <p>
-                Use the principle of mathematical induction to prove
-                <xref ref="thm-fermat5"/>.
-                Work to get the big ideas of the induction argument right first;
-                then, sketch the proof.
-            </p>
-        </introduction>
-
-        <task workspace="1in">
+    <page>
+        <theorem xml:id="thm-fermat5">
             <statement>
                 <p>
-                    First, you may want to test a couple of values of <m>n</m>
-                    to see if the statement even seems true/you understand what
-                    it is.
-                    Test <m>n=1, 2</m>.
-                    See if you can write down what the statement says when
-                    <m>n=17</m>.
-                    Does it seem true?
+                    For every natural number <m>n</m>,
+                    <m>5^n \equiv 1 \pmod{4}</m>.
                 </p>
             </statement>
-        </task>
+        </theorem>
 
-        <task workspace="1in">
-            <p>
-                What is <m>S_n</m> in this case?
-            </p>
-        </task>
+        <activity>
+            <introduction>
+                <p>
+                    Use the principle of mathematical induction to prove
+                    <xref ref="thm-fermat5"/>.
+                    Work to get the big ideas of the induction argument right
+                    first; then, sketch the proof.
+                </p>
+            </introduction>
 
-        <task workspace="1in">
-            <p>
-                What is <m>S_1</m> and is it true?
-            </p>
-        </task>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        First, you may want to test a couple of values of
+                        <m>n</m> to see if the statement even seems true/you
+                        understand what it is.
+                        Test <m>n=1, 2</m>.
+                        See if you can write down what the statement says when
+                        <m>n=17</m>.
+                        Does it seem true?
+                    </p>
+                </statement>
+            </task>
 
-        <task workspace="2in">
-            <p>
-                Then, let <m>k\in \mathbb{N}</m> and write <m>S_k</m> at the top
-                of your page and <m>S_{k+1}</m> at the bottom.
-                Wiggle your way in between!
-                Two approaches here:
-                <ul>
-                    <li>
-                        <p>
-                            Use definitions to translate from the definition of
-                            congruence, to the definition of divides, and then
-                            to an equation.
-                            Mess around with some algebra.
-                        </p>
-                    </li>
+            <task workspace="1in">
+                <p>
+                    What is <m>S_n</m> in this case?
+                </p>
+            </task>
 
-                    <li>
-                        <p>
-                            Recall that we proved that if
-                            <m>a\equiv b\pmod{m}</m> and
-                            <m>c\equiv d \pmod{m}</m> then
-                            <m>ac \equiv bd \pmod{m}</m>.
-                            How could you use that as a Lemma?
-                        </p>
-                    </li>
-                </ul>
-            </p>
-        </task>
+            <task workspace="1in">
+                <p>
+                    What is <m>S_1</m> and is it true?
+                </p>
+            </task>
 
-        <task workspace="3in">
-            <p>
-                Here's some space to put all your thoughts together.
-            </p>
-        </task>
-    </activity>
+            <task workspace="2in">
+                <p>
+                    Then, let <m>k\in \mathbb{N}</m> and write <m>S_k</m> at the
+                    top of your page and <m>S_{k+1}</m> at the bottom.
+                    Wiggle your way in between!
+                    Two approaches here:
+                    <ul>
+                        <li>
+                            <p>
+                                Use definitions to translate from the definition
+                                of congruence, to the definition of divides, and
+                                then to an equation.
+                                Mess around with some algebra.
+                            </p>
+                        </li>
 
-    <activity workspace="5in">
-        <statement>
-            <p>
-                <em>If time:</em> Prove, using induction:
-            </p>
+                        <li>
+                            <p>
+                                Recall that we proved that if
+                                <m>a\equiv b\pmod{m}</m> and
+                                <m>c\equiv d \pmod{m}</m> then
+                                <m>ac \equiv bd \pmod{m}</m>.
+                                How could you use that as a Lemma?
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </task>
 
-            <p>
-                For every natural number <m>n</m>, <m>6 \mid (n^3 - n)</m>
-            </p>
-        </statement>
-    </activity>
+            <task workspace="3in">
+                <p>
+                    Here's some space to put all your thoughts together.
+                </p>
+            </task>
+        </activity>
+    </page>
 
-    <activity workspace="5in">
-        <statement>
-            <p>
-                <term>An induction proof from calculus:</term> Find a formula
-                for the <m>n^{th}</m> derivative of <m>e^{2x}</m>, state your
-                result as a theorem, and prove it using induction.
-            </p>
-        </statement>
-    </activity>
+    <page>
+        <activity workspace="5in">
+            <statement>
+                <p>
+                    <em>If time:</em> Prove, using induction:
+                </p>
 
+                <p>
+                    For every natural number <m>n</m>, <m>6 \mid (n^3 - n)</m>
+                </p>
+            </statement>
+        </activity>
+    </page>
+
+    <page>
+        <activity workspace="5in">
+            <statement>
+                <p>
+                    <term>An induction proof from calculus:</term> Find a
+                    formula for the <m>n^{th}</m> derivative of <m>e^{2x}</m>,
+                    state your result as a theorem, and prove it using
+                    induction.
+                </p>
+            </statement>
+        </activity>
+    </page>
+
+    <page>
         <conjecture xml:id="conj-factorial">
-        <statement>
-            <p>
-                For all <m>n\in\mathbb{N}</m>, <m>2^n &lt; n!</m>.
-            </p>
-        </statement>
-    </conjecture>
+            <statement>
+                <p>
+                    For all <m>n\in\mathbb{N}</m>, <m>2^n &lt; n!</m>.
+                </p>
+            </statement>
+        </conjecture>
 
-    <activity workspace="1in">
-        <statement>
-            <p>
-                <term>An induction proof with inequality</term> Recall (or learn
-                for the first time!) that
-                <md>
-                    n! = n(n-1)(n-2)\cdots 3\cdot 2\cdot 1
-                </md>.
-                E.g., <m>3! = 3\cdot 2 \cdot 1 = 6</m> and
-                <m>4! = 4\cdot 3 \cdot 2 \cdot 1 = 24</m>.
-                Determine if <xref ref="conj-factorial"/> is true.
-                If not, modify it to be true, and then prove by induction.
-            </p>
-        </statement>
-    </activity>
-
-
+        <activity workspace="1in">
+            <statement>
+                <p>
+                    <term>An induction proof with inequality</term> Recall (or
+                    learn for the first time!) that
+                    <md>
+                        n! = n(n-1)(n-2)\cdots 3\cdot 2\cdot 1
+                    </md>.
+                    E.g., <m>3! = 3\cdot 2 \cdot 1 = 6</m> and
+                    <m>4! = 4\cdot 3 \cdot 2 \cdot 1 = 24</m>.
+                    Determine if <xref ref="conj-factorial"/> is true.
+                    If not, modify it to be true, and then prove by induction.
+                </p>
+            </statement>
+        </activity>
+    </page>
 </handout>
