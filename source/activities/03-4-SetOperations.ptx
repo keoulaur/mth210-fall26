@@ -13,7 +13,7 @@
             </p>
         </introduction>
 
-        <task workspace="1in">
+        <task workspace=".5in">
             <introduction>
                 <p>
                     Let <m>U = \{ x \in \mathbb{N}: x \leq 10\}</m>.
@@ -62,7 +62,7 @@
             </task>
         </task>
 
-        <task workspace="1in">
+        <task workspace=".5in">
             <introduction>
                 <p>
                     Let <m>U = \mathbb{Z}</m>.
@@ -122,7 +122,7 @@
         </p>
     </paragraphs>
 
-    <activity workspace="1in">
+    <activity>
         <p>
             In each of the following Venn diagrams, shade <m> (A\cap B)^C </m>,
             <m> A^c \cap B^c </m>, <m> (A\cup B)^C </m>, and
@@ -263,13 +263,13 @@
         </figure>
     </activity>
 
-    <p workspace="2in">
+    <p>
         Your book does a proof that two of these sets are equal on pages
         114-115.
         Let's sketch the other one.
     </p>
 
-    <theorem>
+    <theorem workspace="6.2in">
         <statement>
             <p>
                 Suppose <m>A</m> and <m>B</m> are subsets of a universal set

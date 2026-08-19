@@ -13,6 +13,103 @@
             <q> <m>a\nmid b</m> </q>.
         </p>
 
+        <activity workspace=".8in">
+            <introduction>
+                <p>
+                    Answer the following 4 questions about each pair.
+                    On the next page there are some example triangles to guide
+                    your discussion.
+                    <ul>
+                        <li>
+                            <p>
+                                Is there any integer that is in both sets?
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Does the left set contain all of the members of
+                                the right?
+                                Does the right set contain all the members on
+                                the left?
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Can you say anything about the relationship
+                                between the sets?
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                If you use an oval region to represent one set,
+                                how would you portray the other set in that
+                                pair?
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
+                    <p>
+                        <m>A = \{ x\in\mathbb{Z}: 3\mid x \}</m>
+                        <m>B = \{ x\in\mathbb{Z} : 2\mid x\}</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m>A = \{ x\in\mathbb{Z}: 3\mid x \}</m>
+                        <m>C = \{ x\in\mathbb{Z} : 3\mid 2x\}</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m>A = \{ x\in\mathbb{Z}: 3\mid x \}</m>
+                        <m>D = \{ x\in\mathbb{Z} : 6\mid x\}</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m>A = \{ x\in\mathbb{Z}: 3\mid x \}</m>
+                        <m>E = \{ 2x\in\mathbb{Z} :x \text{ is prime}\}</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m>A = \{ x\in\mathbb{Z}: 3\mid x \}</m>
+                        <m>F = \{ x\in\mathbb{Z} : 3 \nmid x^2-1\}</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m>A = \{ x\in\mathbb{Z}: 3\mid x \}</m>
+                        <m>G = \{ x^2-1\in\mathbb{Z} : 3 \mid x\}</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+    </page>
+
+    <page>
         <activity>
             <introduction>
                 <p>
