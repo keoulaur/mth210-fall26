@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
+
+
+
 <handout>
     <title>Congruence</title>
 
+    <page>
+        
+   
     <paragraphs>
         <title>Modular Arithmetic</title>
 
         <p>
             Modular arithmetic actually shows up lots of places - including in
             RSA Encryption (which is how your credit card number gets encrypted
-            in an online transactions) and for ``check digits" - a way to make
+            in an online transactions) and for <q>check digits</q> - a way to make
             sure a UPC bar code has scanned correctly.
             We introduce a lot of content in MTH 210 for the sake of learning
             how to write proofs, but modular arithmetic wins the award for
@@ -24,6 +31,8 @@
             integers to be congruent.
         </p>
 
+        </paragraphs>
+
         <definition>
             <statement>
                 <p>
@@ -35,7 +44,7 @@
         </definition>
 
         <p>
-            Note in Definition 2.14 the author says <m>m</m> is an integer, but
+            Note in Definition 2.14 of your text the author says <m>m</m> is an integer, but
             in practice, we really only think about <m>m</m> being a positive
             integer.
         </p>
@@ -83,6 +92,10 @@
             </task>
         </activity>
 
+         </page>
+
+         <page>
+
         <activity>
             <title>Direct Proofs with Modulo</title>
             
@@ -109,5 +122,7 @@
         <p>
             <em>Pre-proof analysis:</em>
         </p>
-    </paragraphs>
+  
+
+</page>
 </handout>

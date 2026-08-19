@@ -3,201 +3,213 @@
 <handout>
     <title>Divisibility and the Division Algorithm</title>
 
-    <p>
-        <term>Definition:</term> A nonzero integer <m>a</m> is said to
-        <term>divide</term> an integer <m>b</m> if <m>b = ak</m> for some
-        integer <m>k</m>.
-        When <m>a</m> does divide <m>b</m>, we write <q> <m>a\mid b</m> </q> and
-        when <m>a</m> does not divide <m>b</m>, we write <q> <m>a\nmid b</m> </q>.
-    </p>
-
-    <activity>
-        <introduction>
-            <p>
-                With your team, prove one of the following propositions:
-            </p>
-        </introduction>
-
-        <task>
-            <statement>
-                <p>
-                    For all integers <m>m</m> and <m>n</m>, if <m>m\mid n</m>
-                    then <m>m\mid (7n^3 + 13n^2 - n)</m>.
-                </p>
-            </statement>
-        </task>
-
-        <task>
-            <statement>
-                <p>
-                    For all integers <m>m</m> and <m>n</m>, if <m>m\mid n</m>,
-                    then <m>m^2\mid n^2</m>.
-                </p>
-            </statement>
-        </task>
-
-        <task>
-            <statement>
-                <p>
-                    For all integers <m>a, b</m> and <m>c</m>, and all integers
-                    <m>m</m> and <m>n</m>, if <m>a\mid b</m> and <m>a\mid c</m>
-                    then <m>a\mid bm+cn</m>.
-                </p>
-            </statement>
-        </task>
-    </activity>
-
-    <p workspace="5in">
-        Space to work:
-    </p>
-
-    <theorem>
-        <statement>
-            <p>
-                (The Division Algorithm) For all integers <m>a</m> and <m>m</m>
-                with <m>m&gt;0</m>, there exist unique integers <m>q</m> and
-                <m>r</m> such that
-                <md>
-                    a = mq + r
-                </md>
-                where <m>0 \le r &lt; m</m>.
-            </p>
-        </statement>
-    </theorem>
-
-    <remark>
+    <page>
         <p>
-            Here's some comments about the Division Algorithm:
-            <ol>
-                <li>
-                    <p>
-                        The Division Algorithm can be proven is not so much an
-                        algorithm as it is a theorem.
-                        One can prove the Division Algorithm and your textbook
-                        does in the Bonus Examples of Chapter 7, and you may see
-                        a proof if you take MTH 350.
-                    </p>
-                </li>
-
-                <li>
-                    <p>
-                        Though there are several different ways to write
-                        <m>a=bq+r</m> there's only ONE way to write
-                        <m>a=bq+r</m> with <m>0\le r &lt; b</m>.
-                    </p>
-                </li>
-
-                <li>
-                    <p>
-                        We call <m>q</m> the quotient and <m>r</m> the
-                        remainder.
-                        (Notice we are using <q>the</q> because the quotient and
-                        remainder are unique!)
-                    </p>
-                </li>
-
-                <li>
-                    <p>
-                        Be careful with negative numbers.
-                        In a calculator <m>-17/5 = -3.4</m>.
-                        It would be natural to think this means the quotient
-                        when dividing <m>-17</m> by <m>5</m> is <m>3</m>.
-                        However, <m>-17=5(-4)+3</m>, giving quotient <m>-4</m>.
-                    </p>
-                </li>
-
-                <li>
-                    <p>
-                        One way to look at the Division Algorithm is that an
-                        integer is either going to be a multiple of <m>b</m> or
-                        between multiples of <m>b</m>.
-                        Thus, the Division Algorithm helps with cases, e.g., you
-                        can do cases based on the remainder.
-                        In this way, we might reduce infinitely many integers,
-                        down to <m>3</m> <q>types</q> of integers - e.g., what
-                        the remainder is when divided by <m>3</m>.
-                    </p>
-                </li>
-            </ol>
+            <term>Definition:</term> A nonzero integer <m>a</m> is said to
+            <term>divide</term> an integer <m>b</m> if <m>b = ak</m> for some
+            integer <m>k</m>.
+            When <m>a</m> does divide <m>b</m>, we write <q> <m>a\mid b</m> </q>
+            and when <m>a</m> does not divide <m>b</m>, we write
+            <q> <m>a\nmid b</m> </q>.
         </p>
-    </remark>
 
-    <activity>
-        <statement>
+        <activity>
+            <introduction>
+                <p>
+                    With your team, prove one of the following propositions:
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
+                    <p>
+                        For all integers <m>m</m> and <m>n</m>, if
+                        <m>m\mid n</m> then <m>m\mid (7n^3 + 13n^2 - n)</m>.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        For all integers <m>m</m> and <m>n</m>, if
+                        <m>m\mid n</m>, then <m>m^2\mid n^2</m>.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        For all integers <m>a, b</m> and <m>c</m>, and all
+                        integers <m>m</m> and <m>n</m>, if <m>a\mid b</m> and
+                        <m>a\mid c</m> then <m>a\mid bm+cn</m>.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <p workspace="5in">
+            Space to work:
+        </p>
+    </page>
+
+    <page>
+        <theorem>
+            <statement>
+                <p>
+                    (The Division Algorithm) For all integers <m>a</m> and
+                    <m>m</m> with <m>m&gt;0</m>, there exist unique integers
+                    <m>q</m> and <m>r</m> such that
+                    <md>
+                        a = mq + r
+                    </md>
+                    where <m>0 \le r &lt; m</m>.
+                </p>
+            </statement>
+        </theorem>
+
+        <remark>
             <p>
-                In problems where we are concerned with the issue of
-                <q>divides,</q> the Division Algorithm provides a natural way to
-                consider cases.
-                Consider the following theorem:
+                Here's some comments about the Division Algorithm:
+                <ol>
+                    <li>
+                        <p>
+                            The Division Algorithm can be proven is not so much
+                            an algorithm as it is a theorem.
+                            One can prove the Division Algorithm and your
+                            textbook does in the Bonus Examples of Chapter 7,
+                            and you may see a proof if you take MTH 350.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Though there are several different ways to write
+                            <m>a=bq+r</m> there's only ONE way to write
+                            <m>a=bq+r</m> with <m>0\le r &lt; b</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            We call <m>q</m> the quotient and <m>r</m> the
+                            remainder.
+                            (Notice we are using <q>the</q> because the quotient
+                            and remainder are unique!)
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Be careful with negative numbers.
+                            In a calculator <m>-17/5 = -3.4</m>.
+                            It would be natural to think this means the quotient
+                            when dividing <m>-17</m> by <m>5</m> is <m>-3</m>.
+                            However, <m>-17=5(-4)+3</m>, giving quotient
+                            <m>-4</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            One way to look at the Division Algorithm is that an
+                            integer is either going to be a multiple of <m>b</m>
+                            or between multiples of <m>b</m>.
+                            Thus, the Division Algorithm helps with cases, e.g.,
+                            you can do cases based on the remainder.
+                            In this way, we might reduce infinitely many
+                            integers, down to <m>3</m> <q>types</q> of integers
+                            - e.g., what the remainder is when divided by
+                            <m>3</m>.
+                        </p>
+                    </li>
+                </ol>
             </p>
-        </statement>
-    </activity>
+        </remark>
+    </page>
 
-    <theorem>
-        <statement>
-            <p>
-                If <m>n</m> is an integer then <m>3\mid n^3-n</m>.
-            </p>
-        </statement>
-    </theorem>
+    <page>
+        <activity>
+            <statement>
+                <p>
+                    In problems where we are concerned with the issue of
+                    <q>divides,</q> the Division Algorithm provides a natural
+                    way to consider cases.
+                    Consider <xref ref="thm-02-4-littlefermat3"/>
+                </p>
+            </statement>
+        </activity>
 
-    <p workspace="1in">
-        Test the theorem for several values of <m>n</m>.
-        (Include both positive and negative, and even and odd values!)
-    </p>
+        <theorem xml:id="thm-02-4-littlefermat3">
+            <statement>
+                <p>
+                    If <m>n</m> is an integer then <m>3\mid n^3-n</m>.
+                </p>
+            </statement>
+        </theorem>
 
-    <p>
-        The only hypothesis is <q> <m>n</m> is an integer</q>.
-        This doesn't give us a lot to go on.
-        Suppose instead, we have the theorem:
-    </p>
+        <p workspace="1in">
+            Test the theorem for several values of <m>n</m>.
+            (Include both positive and negative, and even and odd values!)
+        </p>
 
-    <theorem>
-        <statement>
-            <p>
-                If <m>n</m> is an integer and <m>3\mid n</m>, then
-                <m>3\mid n^3-n</m>.
-            </p>
-        </statement>
-    </theorem>
+        <p>
+            The only hypothesis is <q> <m>n</m> is an integer</q>.
+            This doesn't give us a lot to go on.
+            Suppose instead, we have the theorem:
+        </p>
 
-    <p workspace="3in">
-        Do a <q>pre-proof analysis</q> of this theorem!
-    </p>
+        <theorem>
+            <statement>
+                <p>
+                    If <m>n</m> is an integer and <m>3\mid n</m>, then
+                    <m>3\mid n^3-n</m>.
+                </p>
+            </statement>
+        </theorem>
 
-    <p>
-        I claim that with the proof from the previous question, we are actually
-        1/3 of the way to a proof.
-        What are the possibilities for the remainder when <m>n</m> is divided by
-        <m>3</m>?
-        How can this lead to cases?
-    </p>
+        <p workspace="3in">
+            Do a <q>pre-proof analysis</q> of this theorem!
+        </p>
+    </page>
 
-    <p>
-        Read the proof below out loud.
-        <fn>This proof is from <url href="https://gvsuoer.github.io/sundstrom-textbook/S_divalgo.html\#P\_3divides">https://gvsuoer.github.io/sundstrom-textbook/S_divalgo.html\#P\_3divides</url></fn>.
-        Pause after each sentence to make sure you understand what the sentence
-        means and why it is said.
-        Make notes on the proof of any details that help you make sense of it!
-        Switch who is reading at least every paragraph!
-    </p>
+    <page>
+        <p>
+            I claim that with the proof from the previous question, we are
+            actually 1/3 of the way to a proof.
+            What are the possibilities for the remainder when <m>n</m> is
+            divided by <m>3</m>?
+            How can this lead to cases?
+        </p>
 
-    <figure xml:id="fig-casesproof">
-        <caption>A proof using cases.</caption>
-        <image source="images/CasesProof.png" width="70%">
-            <shortdescription>
-                A proof of the previous theorem.
-            </shortdescription>
-        </image>
-    </figure>
+        <p>
+            Read the proof below out loud.
+            <fn>This proof is from <url href="https://gvsuoer.github.io/sundstrom-textbook/S_divalgo.html\#P\_3divides">https://gvsuoer.github.io/sundstrom-textbook/S_divalgo.html\#P\_3divides</url></fn>.
+            Pause after each sentence to make sure you understand what the
+            sentence means and why it is said.
+            Make notes on the proof of any details that help you make sense of
+            it!
+            Switch who is reading at least every paragraph!
+        </p>
 
-    <p>
-        What questions do you have on the proof?
-        How does the author set up the structure of a proof using cases?
-        Can you prove the last case?
-        Can you generalize?
-        E.g., is it true that <m>2\mid n^2 - n</m>?
-        <m>4\mid n^4-n</m>?
-        <fn>This theorem is actually a corollary of Fermat's Little Theorem (Theorem 2.19 on page 71 of your textbook).</fn>
-    </p>
+        <figure xml:id="fig-casesproof">
+            <caption>A proof using cases.</caption>
+            <image source="images/CasesProof.png" width="70%">
+                <shortdescription>
+                    A proof of the previous theorem.
+                </shortdescription>
+            </image>
+        </figure>
+
+        <p>
+            What questions do you have on the proof?
+            How does the author set up the structure of a proof using cases?
+            Can you prove the last case?
+            Can you generalize?
+            E.g., is it true that <m>2\mid n^2 - n</m>?
+            <m>4\mid n^4-n</m>?
+            <fn>This theorem is actually a corollary of Fermat's Little Theorem (Theorem 2.19 on page 71 of your textbook).</fn>
+        </p>
+    </page>
 </handout>

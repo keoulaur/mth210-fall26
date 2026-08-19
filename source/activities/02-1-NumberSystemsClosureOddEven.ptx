@@ -3,380 +3,413 @@
 <handout>
     <title>Direct Proofs</title>
 
-    <paragraphs>
-        <title>Terms and conditions</title>
+    <page>
+        <paragraphs>
+            <title>Terms and conditions</title>
 
-        <p>
-            I know most of us typically ignore the Terms and Conditions we are
-            asked to agree to, but for doing mathematics, understanding the
-            terms and conditions is vital.
-            Note I didn't say <q>agreeing</q> to the terms and conditions is
-            vital.
-            In fact, changing the terms and conditions is one of the ways we
-            play with math.
-            But in any mathematical dialogue, knowing the terms and conditions
-            of the participants is essential.
-            With that, let's lay out a few things for our mathematical dialogue
-            to get started.
-        </p>
-    </paragraphs>
-
-    <paragraphs>
-        <title>Number systems</title>
-
-        <p>
-            Here are a few <q>number systems</q>, or sets of numbers with
-            operations, and their notation.
-            Assume all of the operations are the usual operations you've learned
-            in math class along the way.
-            <ul>
-                <li>
-                    <p>
-                        The natural numbers, denoted <m>\mathbb{N}</m>, are the
-                        positive whole numbers.
-                        That is,
-                        <md>
-                            \mathbb{N} = \{1,2,3,4,...\}.
-                        </md>
-                    </p>
-                </li>
-
-                <li>
-                    <p>
-                        The integers, denoted <m>\mathbb{Z}</m>, consist of
-                        zero, the natural numbers, and the negatives of the
-                        natural numbers.
-                        That is,
-                        <md>
-                            \mathbb{Z} = \{...,-3,-2,-1,0,1,2,3,...\}.
-                        </md>
-                        (The Z comes from the German word Zahl, which means
-                        <q> number</q>.)
-                    </p>
-                </li>
-
-                <li>
-                    <p>
-                        The rational numbers, denoted <m>\mathbb{Q}</m>, are
-                        those real numbers that can be written as a quotient of
-                        two integers (with a nonzero denominator).
-                        That is,
-                        <md>
-                            \mathbb{Q} = \left\{ \frac{a}{b}: a,b\in\mathbb{Z}, b\neq 0\right\}.
-                        </md>
-                        (The Q is for quotient.) The symbol <m>\in</m> means
-                        <q>is an element of</q> or <q>is in</q>.
-                        So here, this is saying <m>a</m> is an integer and
-                        <m>b</m> is an integer.
-                    </p>
-                </li>
-
-                <li>
-                    <p>
-                        The real numbers, denoted <m>\mathbb{R}</m>, consist of
-                        the rational numbers and the irrational numbers.
-                    </p>
-                </li>
-            </ul>
-        </p>
-    </paragraphs>
-
-    <paragraphs>
-        <title>Closure of a set under an operation</title>
-
-        <p>
-            In Fact 2.1 of our textbook, the author writes
-            <q>The sum of integers
-            is an integer, the difference of integers, and the product of
-            integers is an integer.</q>
-            We'll refer to these facts as
-            <q>
-            <term>the integers are closed under addition, subtraction, and multiplication</term>
-            </q>
-            We'll use these closure properties a lot when doing our first
-            proofs.
-        </p>
-
-        <figure xml:id="fig-closure">
-            <caption>
-                A comic from Math With Bad Drawings.
-                What's the set and what's the operation here?
-            </caption>
-
-            <image source="images/Closure.jpg" width="70%">
-                <shortdescription>
-                    A comic.
-                    A: "I don't get it, how could birds evolve from dinosaurs?".
-                    B: "Well dinosaurs aren't closed under reproduction."
-                </shortdescription>
-            </image>
-        </figure>
-    </paragraphs>
-
-    <activity>
-        <title>Closure properties</title>
-
-        <introduction>
             <p>
-                Determine if each of the following are true or false, and
-                explain.
+                I know most of us typically ignore the Terms and Conditions we
+                are asked to agree to, but for doing mathematics, understanding
+                the terms and conditions is vital.
+                Note I didn't say <q>agreeing</q> to the terms and conditions is
+                vital.
+                In fact, changing the terms and conditions is one of the ways we
+                play with math.
+                But in any mathematical dialogue, knowing the terms and
+                conditions of the participants is essential.
+                With that, let's lay out a few things for our mathematical
+                dialogue to get started.
             </p>
-        </introduction>
+        </paragraphs>
 
-        <task workspace="1in">
-            <statement>
-                <p>
-                    The natural numbers are closed under subtraction.
-                </p>
-            </statement>
-        </task>
+        <paragraphs>
+            <title>Number systems</title>
 
-        <task workspace="1in">
-            <statement>
-                <p>
-                    The rational numbers are closed under addition.
-                </p>
-            </statement>
-        </task>
-
-        <task workspace="1in">
-            <statement>
-                <p>
-                    The integers are closed under division.
-                </p>
-            </statement>
-        </task>
-
-        <task workspace="1in">
-            <statement>
-                <p>
-                    The even integers are closed under subtraction.
-                </p>
-            </statement>
-        </task>
-
-        <task workspace="1in">
-            <statement>
-                <p>
-                    The odd integers are closed under addition.
-                </p>
-            </statement>
-        </task>
-        
-        <task workspace="1in">
-            <statement>
-                <p>
-                    The odd integers are closed under multiplication.
-                </p>
-            </statement>
-        </task>
-    </activity>
-
-    <paragraphs>
-        <title>Definitions of odd and even</title>
-
-        <p>
-            In the previous activity, to justify your work about evens and odds,
-            you may have used examples.
-            But to be absolutely sure the even integers are closed under
-            subtraction, we need to verify infinitely many examples.
-            But, we don't have infinity time!
-            So instead we will use definitions.
-            Definitions don't come from thin air - recall from your preclass
-            reading that there are other options for these definitions, and
-            reasons to choose these one.
-            We will use these definitions frequently in our early proofs, and
-            you should be able to recall them from memory.
-            Here they are:
-        </p>
-
-        <definition xml:id="def-even">
-            <statement>
-                <p>
-                    An integer <m>
-                    n
-                </m> is
-                    even if <m>
-                    n=2k
-                </m>
-                    for some integer
-                    <m>
-                    k
-                </m>.
-                </p>
-            </statement>
-        </definition>
-
-        <definition xml:id="def-odd">
-            <statement>
-                <p>
-                    An integer <m>
-                    n
-                </m> is
-                    odd if <m>
-                    n=2k+1
-                </m>
-                    for some integer
-                    <m>
-                    k
-                </m>.
-                </p>
-            </statement>
-        </definition>
-
-        <p>
-            These definitions, seemingly simple, are quite powerful.
-            They allow us to do infinitely many examples all at once.
-        </p>
-    </paragraphs>
-
-    <activity>
-        <title>Even and odd integers</title>
-
-        <introduction>
             <p>
-                Justify the following carefully, using the definitions of even
-                and odd.
-            </p>
-        </introduction>
-
-        <task workspace="1in">
-            <statement>
-                <p>
-                    The integer <m> 5000 </m> is even.
-                </p>
-            </statement>
-        </task>
-
-        <task workspace="1in">
-            <statement>
-                <p>
-                    The integer <m> -5 </m> is odd.
-                </p>
-            </statement>
-        </task>
-
-        <task workspace="1in">
-            <statement>
-                <p>
-                    The integer <m> 0 </m> is not odd.
-                </p>
-            </statement>
-        </task>
-    </activity>
-
-    <activity>
-        <title>Defining a Sandwich</title>
-
-        <task>
-            <statement>
-                <p>
-                    It's actually quite hard to define things that we think we
-                    know well.
-                    For example, what is a sandwich?
-                    In the class preparation, you needed to draw a line between
-                    what is a sandwich and what is not a sandwich and try to
-                    write a definition of a sandwich that would be acceptable to
-                    everyone in the class.
-                    Share your definition with people at your table and have
-                    them guess where you drew your line!
-                </p>
-            </statement>
-        </task>
-
-        <task>
-            <statement>
-                <p>
-                    Pick one of your definitions of sandwiches.
-                    Using your defintiion, can you determine if the following
-                    things are sandwiches?
-                    <ul>
-                        <li>
-                            <p>
-                                Taco
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Burrito
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Ravioli
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Pizza
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Bagel
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Bagel sliced with cream cheese
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                A quesadilla
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Soup in a bread bowl.
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </statement>
-        </task>
-
-        <conclusion>
-            <p>
-                This may seem like a silly exercise, but having clear definitions is very
-                important in mathematics.
-                This exercise meant to get you thinking about how humans define things, and 
-                how it can be very hard to do so, with much disagreement.
-                Also, defining a sandwich has actually come up in the legal
-                system!
+                Here are a few <q>number systems</q>, or sets of numbers with
+                operations, and their notation.
+                Assume all of the operations are the usual operations you've
+                learned in math class along the way.
                 <ul>
                     <li>
                         <p>
-                            An Indiana judge ruled a
-                            <url href="https://www.nytimes.com/2024/05/18/dining/taco-sandwich-indiana-mexico.html?unlocked_article_code=1.3FA.qsCC.PzJjbbjGB0QV"> taco is a sandwich</url>.
+                            The natural numbers, denoted <m>\mathbb{N}</m>, are
+                            the positive whole numbers.
+                            That is,
+                            <md>
+                                \mathbb{N} = \{1,2,3,4,...\}.
+                            </md>
                         </p>
                     </li>
+
                     <li>
                         <p>
-                            A Massachusetts judge ruled a
-                            <url href="https://www.foxnews.com/story/massachusetts-judge-settles-dispute-by-ruling-burrito-is-not-a-sandwich"> burrito is not a sandwich</url>.
+                            The integers, denoted <m>\mathbb{Z}</m>, consist of
+                            zero, the natural numbers, and the negatives of the
+                            natural numbers.
+                            That is,
+                            <md>
+                                \mathbb{Z} = \{...,-3,-2,-1,0,1,2,3,...\}.
+                            </md>
+                            (The Z comes from the German word Zahl, which means
+                            <q> number</q>.)
                         </p>
                     </li>
+
                     <li>
                         <p>
-                            A bagel company in New York 
-                            <url href="https://www.npr.org/2023/04/18/1170709978/a-tax-loophole-for-bagels-an-nyc-company-added-another-inner-bagel-hole"> avoided the sandwich tax</url> by injecting bagels with cream cheese.
+                            The rational numbers, denoted <m>\mathbb{Q}</m>, are
+                            those real numbers that can be written as a quotient
+                            of two integers (with a nonzero denominator).
+                            That is,
+                            <md>
+                                \mathbb{Q} = \left\{ \frac{a}{b}: a,b\in\mathbb{Z}, b\neq 0\right\}.
+                            </md>
+                            (The Q is for quotient.) The symbol <m>\in</m> means
+                            <q>is an element of</q> or <q>is in</q>.
+                            So here, this is saying <m>a</m> is an integer and
+                            <m>b</m> is an integer.
                         </p>
                     </li>
+
                     <li>
                         <p>
-                           Some say the 
-                            <url href="https://cuberule.com/"> The Cube Rule</url> settles the debate.
+                            The real numbers, denoted <m>\mathbb{R}</m>, consist
+                            of the rational numbers and the irrational numbers.
                         </p>
                     </li>
                 </ul>
             </p>
-        </conclusion>
-    </activity>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Closure of a set under an operation</title>
+
+            <p>
+                In Fact 2.1 of our textbook, the author writes
+                <q>The sum of integers
+            is an integer, the difference of integers, and the product of
+            integers is an integer.</q>
+                We'll refer to these facts as
+                <q>
+            <term>the integers are closed under addition, subtraction, and multiplication</term>
+            </q>
+                We'll use these closure properties a lot when doing our first
+                proofs.
+            </p>
+
+            <figure xml:id="fig-closure">
+                <caption>
+                    A comic from Math With Bad Drawings.
+                    What's the set and what's the operation here?
+                </caption>
+
+                <image source="images/Closure.jpg" width="50%">
+                    <shortdescription>
+                        A comic.
+                        A: "I don't get it, how could birds evolve from
+                        dinosaurs?".
+                        B: "Well dinosaurs aren't closed under reproduction."
+                    </shortdescription>
+                </image>
+            </figure>
+        </paragraphs>
+    </page>
+
+    <page>
+        <activity xml:id="act-02-1-closure">
+            <title>Closure properties</title>
+
+            <introduction>
+                <p>
+                    Determine if each of the following are true or false, and
+                    explain.
+                </p>
+            </introduction>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        The natural numbers are closed under subtraction.
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        The rational numbers are closed under addition.
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        The integers are closed under division.
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        The even integers are closed under subtraction.
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        The odd integers are closed under addition.
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        The odd integers are closed under multiplication.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Definitions of odd and even</title>
+
+            <p>
+                In the previous activity, to justify your work about evens and
+                odds, you may have used examples.
+                But to be absolutely sure the even integers are closed under
+                subtraction, we need to verify infinitely many examples.
+                But, we don't have infinity time!
+                So instead we will use definitions.
+                Definitions don't come from thin air - recall from your preclass
+                reading that there are other options for these definitions, and
+                reasons to choose these one.
+                We will use these definitions frequently in our early proofs,
+                and you should be able to recall them from memory.
+                Here they are:
+            </p>
+
+            <definition xml:id="def-even">
+                <statement>
+                    <p>
+                        An integer
+                        <m>
+                    n
+                </m> is even
+                        if <m>
+                    n=2k
+                </m> for
+                        some integer
+                        <m>
+                    k
+                </m>.
+                    </p>
+                </statement>
+            </definition>
+
+            <definition xml:id="def-odd">
+                <statement>
+                    <p>
+                        An integer
+                        <m>
+                    n
+                </m> is odd if
+                        <m>
+                    n=2k+1
+                </m> for
+                        some integer
+                        <m>
+                    k
+                </m>.
+                    </p>
+                </statement>
+            </definition>
+
+            <p>
+                These definitions, seemingly simple, are quite powerful.
+                They allow us to do infinitely many examples all at once.
+            </p>
+        </paragraphs>
+
+        <activity>
+            <title>Even and odd integers</title>
+
+            <introduction>
+                <p>
+                    Justify the following carefully, using the definitions of
+                    even and odd.
+                </p>
+            </introduction>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        The integer <m> 5000 </m> is even.
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        The integer <m> -5 </m> is odd.
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        The integer <m> 0 </m> is not odd.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+    </page>
+
+    <page>
+       
+        <figure xml:id="fig-sandwich">
+            <caption>
+               A set of things some people may or may not consider sandwiches.
+            </caption>
+
+            <image source="images/Sandwiches.png" width="50%">
+                <shortdescription>
+                    A list of potential sandwiches with their pictures.
+                </shortdescription>
+            </image>
+        </figure>
+ 
+
+
+        <activity>
+            <title>Defining a Sandwich</title>
+
+            <task>
+                <statement>
+                    <p>
+                        It's actually quite hard to define things that we think
+                        we know well.
+                        For example, what is a sandwich?
+                        In the class preparation, you needed to draw a line
+                        between what is a sandwich and what is not a sandwich
+                        and try to write a definition of a sandwich that would
+                        be acceptable to everyone in the class.
+                        Share your definition with people at your table and have
+                        them guess where you drew your line!
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace=".5in">
+                <statement>
+                    <p>
+                        Pick one of your definitions of sandwiches.
+                        Using your definition, can you determine if the
+                        following things are sandwiches?
+                        <ul>
+                            <li>
+                                <p>
+                                    Taco
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Burrito
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Ravioli
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Pizza
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Bagel
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Bagel sliced with cream cheese
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    A quesadilla
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Soup in a bread bowl.
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </statement>
+            </task>
+
+            <conclusion>
+                <p>
+                    This may seem like a silly exercise, but having clear
+                    definitions is very important in mathematics.
+                    This exercise meant to get you thinking about how humans
+                    define things, and how it can be very hard to do so, with
+                    much disagreement.
+                    Also, defining a sandwich has actually come up in the legal
+                    system!
+                    <ul>
+                        <li>
+                            <p>
+                                An Indiana judge ruled a
+                                <url href="https://www.nytimes.com/2024/05/18/dining/taco-sandwich-indiana-mexico.html?unlocked_article_code=1.3FA.qsCC.PzJjbbjGB0QV"> taco is a sandwich</url>.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                A Massachusetts judge ruled a
+                                <url href="https://www.foxnews.com/story/massachusetts-judge-settles-dispute-by-ruling-burrito-is-not-a-sandwich"> burrito is not a sandwich</url>.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                A bagel company in New York
+                                <url href="https://www.npr.org/2023/04/18/1170709978/a-tax-loophole-for-bagels-an-nyc-company-added-another-inner-bagel-hole"> avoided the sandwich tax</url>
+                                by injecting bagels with cream cheese.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Some say the
+                                <url href="https://cuberule.com/"> The Cube Rule</url>
+                                settles the debate.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </conclusion>
+        </activity>
+    </page>
 </handout>

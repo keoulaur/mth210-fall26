@@ -1,221 +1,241 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <handout>
-    <title>Example - Writing a Proof</title>
+    <title>Writing a Proof</title>
 
-    <paragraphs>
-        <title>Mathematical Proof Writing</title>
+    <page>
+        <paragraphs>
+            <title>Mathematical Proof Writing</title>
+
+            <p>
+                Overall, mathematical writing -- particularly writing proofs --
+                is a mix of being creative, being organized, and honoring
+                conventions of the mathematics community.
+                I will provide you with a handful of guidelines (I'm hesitant to
+                call them rules) and there's more in Appendix C of your
+                textbook, but little in the way of algorithms to follow.
+                Writing proofs is absolutely something that you'll learn to do
+                <em>by doing</em>: making mistakes, seeking feedback,
+                struggling, revising, and more.
+            </p>
+
+            <p>
+                From the outset, another key thing to realize is that a part of
+                formal mathematical writing is misleading.
+                What I mean by this is illustrated well by the following comic
+                from Abstruse Goose.
+            </p>
+
+            <figure xml:id="fig-writing2">
+                <caption>A comic from Abstruse Goose.</caption>
+                <image source="images/ProofWriting.png" width="70%">
+                    <shortdescription>
+                        A comic: 2 people lost getting from A to B.
+                        Years later, directions are 2 steps.
+                        Says "this is how most proofs are written."
+                    </shortdescription>
+                </image>
+            </figure>
+        </paragraphs>
 
         <p>
-            Overall, mathematical writing -- particularly writing proofs -- is a
-            mix of being creative, being organized, and honoring conventions of
-            the mathematics community.
-            There are a handful of guidelines (I'm hesitant to call them rules)
-            provided at
-            <url href="https://gvsu.edu/s/3to">https://gvsu.edu/s/3to</url>, but
-            little in the way of algorithms to follow.
-            Writing proofs is absolutely something that you'll learn to do
-            <em>by doing</em>: making mistakes, seeking feedback, struggling,
-            revising, and more.
+            The author writes his process of the <q>Proof Idea</q> and (later)
+            <q>Scratch Work</q>.
+            These are important parts of proof-writing, even if the final
+            polished proof doesn't include all the work you do in this part.
+            I use what we'll call a <q>pre-proof analysis</q>, which is just a
+            fancy term for
+            <em>trying examples-experimenting-writing down ideas-making mistakes-making connections-trying to find helpful paths-scratch work</em>.
+            You can see examples of the author's process in your textbook on
+            pages 49, 50, 53, and 56.
         </p>
 
         <p>
-            From the outset, another key thing to realize is that a part of
-            formal mathematical writing is misleading.
-            What I mean by this is illustrated well by the following comic from
-            Abstruse Goose.
+            This idea of pre-proof analysis is one that applies more broadly in life, rather than just in mathematical proof writing.
+            It takes a long time to go from first draft to polished product! What can you do to help? 
+            Think about examples, experiment, write down ideas, make mistakes, make connections, try to find a helpful path, write and edit.
         </p>
+    </page>
 
-        <figure xml:id="fig-writing2">
-            <caption>A comic from Abstruse Goose.</caption>
-            <image source="images/ProofWriting.png" width="70%">
-                <shortdescription>
-                    A comic: 2 people lost getting from A to B.
-                    Years later, directions are 2 steps.
-                    Says "this is how most proofs are written."
-                </shortdescription>
-            </image>
-        </figure>
-    </paragraphs>
+    <page>
+        <paragraphs>
+            <title>Example - Writing a Proof</title>
 
-    <p>
-        The author writes his process of the <q>Proof Idea</q> and (later)
-        <q>Scratch Work</q>.
-        These are important parts of proof-writing, even if the final polished
-        proof doesn't include all the work you do in this part.
-        I use what we'll call a <q>pre-proof analysis</q>, which is just a fancy
-        term for
-        <em>trying examples-experimenting-writing down ideas-making mistakes-making connections-trying to find helpful paths-scratch work</em>.
-        You can see examples of the author's process in your textbook on pages
-        49, 50, 53, and 56.
-    </p>
+            <p>
+                To focus on writing, let's use an example that's familiar from
+                <xref ref="act-02-1-closure"/>.
+                We've already done a bit of pre-proof analysis by exploring
+                examples.
+            </p>
 
-    <paragraphs>
-        <title>Example - Writing a Proof</title>
+            <theorem xml:id="thm-oddintegersclosed">
+                <statement>
+                    <p>
+                        The odd integers are closed under multiplication.
+                        Equivalently, if <m>a</m> and <m>b</m> are odd integers,
+                        then <m>ab</m> is an odd integer.
+                    </p>
+                </statement>
+            </theorem>
+        </paragraphs>
 
-        <p>
-            To focus on writing, let's use an example that's familiar from
-            Activity 9.
-            We've already done a bit of pre-proof analysis by exploring
-            examples.
-        </p>
-
-        <theorem>
+        <activity workspace="3in">
             <statement>
                 <p>
-                    The odd integers are closed under multiplication.
-                    Equivalently, if <m>a</m> and <m>b</m> are odd integers,
-                    then <m>ab</m> is an odd integer.
+                    Let's use what we did in <xref ref="act-02-1-closure"/>, but
+                    add the definitions, so we can do infinitely many examples
+                    at once!
+                    This will constitute a proof of
+                    <xref ref="thm-oddintegersclosed"/> as we will know for
+                    every possible example.
                 </p>
             </statement>
-        </theorem>
-    </paragraphs>
-
-    <activity>
-        <task workspace="2in">
-            <statement>
-                <p>
-                    Let's use what we did in Activity 9, but add the
-                    definitions, so we can do infinitely many examples at once!
-                </p>
-            </statement>
-        </task>
-
-        <task workspace="2in">
+            <!-- <task workspace="2in">
             <statement>
                 <p>
                     Now, let's write a proof! We will do our best to follow the guidelines for writing proofs, but since it isn't typed, we can't do all of them!
                 </p>
             </statement>
-        </task>
-    </activity>
+        </task> -->
+        </activity>
+    </page>
 
+    <page>
+        <paragraphs>
+            <title>Two Proofs of the Same Statement</title>
 
-    <paragraphs> <title> Two Proofs of the Same Statement</title>  <p>
-       Below is a theorem and two
-        proofs. Read them carefully with your team. Usually for me this means marking them up!
-    </p> </paragraphs>
-
-    <theorem>
-        <statement>
             <p>
-                If <m>x</m> and <m>y</m> are odd integers then <m>x+y</m> is an
-                even integer.
+                Below are two proofs of <xref ref="thm-oddintegersclosed"/>.
+                Read them carefully with your team.
+                Usually for me this means marking them up!
             </p>
-        </statement>
-    </theorem>
+        </paragraphs>
 
-    <proof>
-        <p>
-            We assume that <m>x</m> and <m>y</m> are odd integers and will prove
-            that <m>x+y</m> is an even integer.
-            Since <m>x</m> and <m>y</m> are odd, there exist integers <m>m</m>
-            and <m>n</m> such that <m>x=2m+1</m> and <m>y=2n+1</m>.
-            By substitution and algebra we obtain \begin{align*} x+y &amp;= 2m+1
-            + 2n + 1 &amp;= 2m+2n+2 &amp;=2(m+n+1).
-            \end{align*} Define <m>q=m+n+1</m>.
-            Since <m>m</m> and <m>n</m> are integers and the integers are closed
-            under addition, we conclude that <m>q</m> is an integer.
-            Since <m>x+y=2q</m> for the integer <m>q</m> we conclude that
-            <m>x+y</m> is an even integer.
-        </p>
-    </proof>
-
-    <proof>
-        <p>
-            <m>\exists</m> j,k s.t.
-            x=2k+1 and y=2j+1.
-        </p>
-
-        <p>
-            x+y=2k+1+2j+1=2(k+j+1) which is even.
-        </p>
-    </proof>
-  
-<activity workspace="2in">
-        <statement>
+        <proof>
             <p>
-                Compare the two proofs above. What are the advantages and
-                disadvantages of each? Which is more readable? Are they both
-                correct?
+                We assume that <m>x</m> and <m>y</m> are odd integers and will
+                prove that <m>xy</m> is an even integer.
+                Since <m>x</m> and <m>y</m> are odd, there exist integers
+                <m>m</m> and <m>n</m> such that <m>x=2m+1</m> and <m>y=2n+1</m>.
+                By substitution and algebra we obtain
+                <md>
+                    <mrow>xy \amp=(2m+1)(2n+1) </mrow>
+                    <mrow> \amp=4mn+2m+2n+1 </mrow>
+                    <mrow> \amp = 2(2mn+m+n)+1. </mrow>
+                </md>
+                Define <m>q=2mn+m+n</m>.
+                Since <m>2,m</m> and <m>n</m> are integers and the integers are
+                closed under addition and multiplication, we conclude that
+                <m>q</m> is an integer.
+                Since <m>x+y=2q+1</m> for the integer <m>q</m> we conclude that
+                <m>xy</m> is an odd integer.
             </p>
-        </statement>
-</activity>
+        </proof>
 
-  <p> To try another proof, from pre-proof analysis to a formal proof, we will use the following definitions of type 0, type 1, and type 2 integers.
-  </p>
-
-
-    <definition>
-        <statement>
+        <proof>
             <p>
-                An integer <m>a</m> is said to be a
-                <term>type <m>0</m> integer</term> if there exists an integer
-                <m>n</m> such that <m>a=3n</m>.
-                An integer <m>a</m> is said to be a <term>type 1 integer</term>
-                if there exists an integer <m>n</m> such that <m>a = 3n+1</m>.
-                An integer <m>a</m> is said to be a type <m>2</m> integer if
-                there exists an integer <m>n</m> such that <m>a=3n+2</m>.
+                <m>\exists</m> j,k s.t.
+                x=2k+1 and y=2j+1.
             </p>
-        </statement>
-    </definition>
 
-    <activity>
-        <task workspace=".5in">
+            <p>
+                xy=(2k+1)(2j+1)=2(2kj+j+k)+1 which is even.
+            </p>
+        </proof>
+
+        <activity workspace="2in">
             <statement>
                 <p>
-                    Give examples of at least <m>4</m> different type <m>1</m>
-                    integers.
+                    Compare the two proofs above.
+                    What are the advantages and disadvantages of each?
+                    Which is more readable?
+                    Are they both correct?
                 </p>
             </statement>
-        </task>
+        </activity>
+    </page>
 
-        <task workspace=".5in">
-            <statement>
-                <p>
-                    Give examples of at least <m>4</m> different type <m>2</m>
-                    integers.
-                </p>
-            </statement>
-        </task>
-
-        <task workspace="1in">
-            <statement>
-                <p>
-                    By multiplying pairs of integers from the list in the first
-                    part, does it appear that the following conjecture is true
-                    or false?
-                   <term>Conjecture:</term> If <m>a</m> and
-                    <m>b</m> are both type <m>1</m> integers, then
-                    <m>a\cdot b </m> is a type <m>2</m> integer.
-                </p>
-            </statement>
-        </task>
-
-        <task workspace="1in">
-            <statement>
-                <p>
-                    If the conjecture is false, modify it to make it true.
-                    Then, do a pre-proof analysis of the resulting proposition.
-                    If time permits, return to your tables and strive to begin
-                    writing an actual proof of your proposition.
-                </p>
-            </statement>
-        </task>
-    </activity>
-
-    <theorem>
-        <statement>
-            <p>
-                If <m>a</m> and <m>b</m> are both type <m>1</m> integers, then
-                <m>a\cdot b </m> is a type <fillin characters="2"/>integer.
-            </p>
-        </statement>
-    </theorem>
-
-    <proof>
+    <page>
         <p>
-            We will give a direct proof of the proposition.
+            To try another proof, from pre-proof analysis to a formal proof, we
+            will use the following definitions of type 0, type 1, and type 2
+            integers.
         </p>
-    </proof>
+
+        <definition>
+            <statement>
+                <p>
+                    An integer <m>a</m> is said to be a
+                    <term>type <m>0</m> integer</term> if there exists an
+                    integer <m>n</m> such that <m>a=3n</m>.
+                    An integer <m>a</m> is said to be a
+                    <term>type 1 integer</term> if there exists an integer
+                    <m>n</m> such that <m>a = 3n+1</m>.
+                    An integer <m>a</m> is said to be a type <m>2</m> integer if
+                    there exists an integer <m>n</m> such that <m>a=3n+2</m>.
+                </p>
+            </statement>
+        </definition>
+
+        <activity>
+            <task workspace=".5in">
+                <statement>
+                    <p>
+                        Give examples of at least <m>4</m> different type
+                        <m>1</m> integers.
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace=".5in">
+                <statement>
+                    <p>
+                        Give examples of at least <m>4</m> different type
+                        <m>2</m> integers.
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        By multiplying pairs of integers from the list in the
+                        first part, does it appear that the following conjecture
+                        is true or false?
+                        <term>Conjecture:</term> If <m>a</m> and <m>b</m> are
+                        both type <m>1</m> integers, then <m>a\cdot b </m> is a
+                        type <m>2</m> integer.
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        If the conjecture is false, modify it to make it true.
+                        Then, do a pre-proof analysis of the resulting
+                        proposition.
+                        If time permits, return to your tables and strive to
+                        begin writing an actual proof of your proposition below.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <theorem>
+            <statement>
+                <p>
+                    If <m>a</m> and <m>b</m> are both type <m>1</m> integers,
+                    then <m>a\cdot b </m> is a type <fillin characters="2"/>
+                    integer.
+                </p>
+            </statement>
+        </theorem>
+
+        <proof workspace="2in">
+            <p>
+                We will give a direct proof of the proposition.
+            </p>
+        </proof>
+    </page>
 </handout>
