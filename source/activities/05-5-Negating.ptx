@@ -3,6 +3,7 @@
 <handout>
     <title>Negating</title>
 
+    <page> 
     <p>
         The <term>negation</term> of the statement <m>P</m> is the statement
         <q> not <m>P</m> </q> and is denoted by <m>\sim P</m>.
@@ -17,7 +18,7 @@
     </p>
 
     <activity>
-        <task workspace="1in">
+        <task workspace=".8in">
             <statement>
                 <p>
                     What have you done in the past to show that a conditional
@@ -28,7 +29,7 @@
             </statement>
         </task>
 
-        <task workspace="1in">
+        <task workspace=".8in">
             <statement>
                 <p>
                     Make a truth table with <m>P\implies Q</m>,
@@ -45,7 +46,7 @@
             <introduction>
                 <p>
                     As the previous exercises suggest, <m>\sim(P\implies Q)</m>
-                    is the statement <m>P\vee \sim Q</m>.
+                    is the statement <m>P\wedge \sim Q</m>.
                     Negate the statements from the previous activity.
                     Are the negations true or false?
                     How does that relate to the truth value of the original
@@ -54,63 +55,67 @@
             </introduction>
 
             <task>
-                <p workspace=".25in">
+                <p workspace=".05in">
                     <term>Original Statement:</term> If <m>a = 5</m> then
                     <m>a^2 = 25</m>.
                 </p>
 
-                <p workspace=".25in">
+                <p workspace=".05in">
                     This statement is <fillin characters="25"/>
                 </p>
 
-                <p workspace=".25in">
+                <p workspace=".05in">
                     <term>Negation:</term> <fillin characters="100"/>
                 </p>
 
-                <p workspace=".25in">
+                <p workspace=".05in">
                     The negation is <fillin characters="25"/>
                 </p>
             </task>
 
             <task>
-                <p workspace=".25in">
+                <p workspace=".05in">
                     <term>Original Statement:</term> If <m>a\neq b</m> then
                     <m>a^4 \neq b^4</m>.
                 </p>
 
-                <p workspace=".25in">
+                <p workspace=".05in">
                     This statement is <fillin characters="25"/>
                 </p>
 
-                <p workspace=".25in">
+                <p workspace=".05in">
                     <term>Negation:</term> <fillin characters="100"/>
                 </p>
 
-                <p workspace=".25in">
+                <p workspace=".05in">
                     The negation is <fillin characters="25"/>
                 </p>
             </task>
 
             <task>
-                <p workspace=".25in">
+                <p workspace=".05in">
                     <term>Original Statement:</term> If <m>a</m> is an odd
                     integer then <m>3a</m> is an odd integer.
                 </p>
 
-                <p workspace=".25in">
+                <p workspace=".05in">
                     This statement is <fillin characters="25"/>
                 </p>
 
-                <p workspace=".25in">
+                <p workspace=".05in">
                     <term>Negation:</term> <fillin characters="100"/>
                 </p>
 
-                <p workspace=".25in">
+                <p workspace=".05in">
                     The negation is <fillin characters="25"/>
                 </p>
             </task>
         </task>
     </activity>
+
+</page>
+
+<page>
 
     <p>
         Recall that <m>\forall</m> means <q>for all</q> and <m>\exists</m> means
@@ -156,6 +161,8 @@
         </task>
     </activity>
 
+
+
     <paragraphs>
         <title>Negations</title>
 
@@ -169,6 +176,7 @@
         </p>
     </paragraphs>
 
+ 
     <tabular>
         <col halign="center" right="minor"/>
         <col halign="center" right="minor"/>
@@ -231,6 +239,14 @@
             <cell><m>P</m></cell>
         </row>
     </tabular>
+
+<p workspace="2in">
+
+</p>
+
+</page>
+
+<page>
 
     <activity>
         <title>Practice negating</title>
@@ -300,5 +316,5 @@
         </task>
     </activity>
 
-  
+</page>
 </handout>

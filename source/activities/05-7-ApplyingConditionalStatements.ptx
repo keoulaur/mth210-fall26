@@ -3,6 +3,9 @@
 <handout>
     <title>Applying Conditional Statements (Using Lemmas)</title>
 
+    <page>
+        
+   
             <p>
                 Here, we think about taking a conditional statement that we know
                 is true, and applying it to some other situation.
@@ -26,13 +29,13 @@
                 <li>
                     <p>
                         you have a conditional statement (of the form <q> if
-                        <m>P</m>, then <m>Q</m></q>) that you know is _____, AND
+                        <m>P</m>, then <m>Q</m></q>) that you know is <fillin characters="10" />, AND
                     </p>
                 </li>
 
                 <li>
                     <p>
-                        you can establish that the hypothesis <m>P</m> is _____,
+                        you can establish that the hypothesis <m>P</m> is <fillin characters="10" />,
                         THEN
                     </p>
                 </li>
@@ -40,7 +43,7 @@
                 <li>
                     <p>
                         it necessarily follows that the conclusion <m>Q</m>
-                        _____.
+                        <fillin characters="10" />.
                     </p>
                 </li>
             </ul>
@@ -111,6 +114,10 @@
         </task>
     </activity>
 
+ </page>
+
+ <page>
+    
 
 
             <theorem xml:id="thm-quadvertex">
@@ -172,6 +179,47 @@
             </task>
     
 </activity>
+
+ <p>
+            There is also <em>modus tollens</em>.
+            Which works like this:
+        </p>
+
+        <p>
+            IF
+        </p>
+
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        you have a conditional statement (of the form <q> if
+                        <m>P</m>, then <m>Q</m></q>) that you know is <fillin characters="10" />, AND
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        you can establish that the conclusion <m>P</m> is <fillin characters="10" />,
+                        THEN
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        it necessarily follows that the hypothesis  <m>Q</m> is
+                        <fillin characters="10" />>.
+                    </p>
+                </li>
+            </ul>
+        </p>
+
+        <p>
+            Can you apply modus tollens to any of the problems in the activity on this page?
+        </p>
+
+         </page>
+
 
 
 

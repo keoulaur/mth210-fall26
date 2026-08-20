@@ -1,507 +1,567 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <handout>
-    <title>Chapter 6: The Contrapositive</title>
+    <title>The Contrapositive</title>
 
-    <p>
-        A conditional statement is logically equivalent to its
-        <term>contrapositive</term>.
-        That is,
-        <md>
-            (P\implies Q) \leftrightarrow (\sim Q \implies \sim P).
-        </md>
-    </p>
-
-    <p>
-        We proved this using truth tables in
-        <xref ref="act-converse-contrapositive"/> and in the preview activity
-        for today.
-        This also makes intuitive sense, considering the examples in page 262 of
-        your textbook.
-        We also see it in the applied version of the Wason Selection Test
-        (recall <xref ref="act-01-3-wason"/> ): If we're following the US law and
-        say
-    </p>
-
-    <blockquote>
+    <page>
         <p>
-            if one is consuming an alcoholic beverage then one is at least age
-            21
-        </p>
-    </blockquote>
-
-    <p>
-        then you would agree that
-    </p>
-
-    <blockquote>
-        <p>
-            if one is under the age of 21 then one is not consuming an alcoholic
-            beverage.
-        </p>
-    </blockquote>
-
-    <p>
-        If we label the first statement as <m>P\implies Q</m>, then the second
-        statement is <m>\sim Q\implies \sim P</m>.
-    </p>
-
-    <definition xml:id="def-">
-        <statement>
-            <p>
-                In <q> <term>proof by contrapositive</term></q> we will use that
-                a statement and its contrapositive are logically equivalent to
-                our advantage.
-                Instead of proving the original statement, we do a direct proof
-                of the contrapositive.
-                Note that proof by contrapositive is really just another type of
-                direct proof.
-            </p>
-        </statement>
-    </definition>
-
-    <example>
-        <p>
-            Suppose we want to do proof by contrapositive of the statement
-        </p>
-
-        <blockquote>
-            <p>
-                For all <m>n\in\mathbb{N}</m>, if <m>n^2</m> is odd, then
-                <m>n</m> is odd.
-            </p>
-        </blockquote>
-
-        <p>
-            Then instead we would prove
-        </p>
-
-        <blockquote>
-            <p>
-                For all <m>n\in\mathbb{N}</m>, if <m>n</m> is even, then
-                <m>n^2</m> is odd.
-            </p>
-        </blockquote>
-
-        <p>
-            Notice that
-        </p>
-
-        <p>
-            <ul>
-                <li>
-                    <p>
-                        Taking the contrapositive of the conditional statement
-                        does not affect the quantifier at the start.
-                        We still need to prove this statement for all
-                        <m>n\in\mathbb{N}</m>.
-                    </p>
-                </li>
-
-                <li>
-                    <p>
-                        When we negate <q> <m>n</m> is odd</q> we get
-                        <q> <m>n</m> is
-                    not odd</q>, but
-                        every non-odd integer is even, so instead we write
-                        <q> <m>n</m> is even </q>.
-                    </p>
-                </li>
-            </ul>
-        </p>
-    </example>
-
-    <paragraphs>
-        <title>Proof Writing</title>
-
-        <p>
-            Here's a proof by contrapositive of the statement in the example.
-            Underline the parts that would be included in all proofs by
-            contrapositive.
-        </p>
-    </paragraphs>
-
-    <theorem>
-        <statement>
-            <p>
-                For all <m>n\in\mathbb{N}</m>, if <m>n^2</m> is odd, then
-                <m>n</m> is odd.
-            </p>
-        </statement>
-    </theorem>
-
-    <proof>
-        <p>
-            We will prove this using the contrapositive, which is: For all
-            <m>n\in \mathbb{N}</m>, if and only if <m>n</m> is even, then <m>n^2</m> is
-            even.
-            So, let <m>n\in\mathbb{N}</m>.
-            We begin by assuming that <m>n</m> is even.
-            By definition of even there exists an integer <m>m</m> such that
-            <m>n = 2m</m>.
-            Substituting, we have
-            <md number="yes" xml:id="ch06-eqn-n2even">
-                n^{2} = (2m)^{2} = 4m^{2} =
-            2(2m^{2}).
+            A conditional statement is logically equivalent to its
+            <term>contrapositive</term>.
+            That is,
+            <md>
+                (P\implies Q) \leftrightarrow (\sim Q \implies \sim P).
             </md>
-            We know that <m>m</m> and <m>2</m> are integers, and the integers
-            are closed under and multiplication.
-            Thus <m>p = 2m^{2}</m> is also an integer.
-            Thus equation <xref ref="ch06-eqn-n2even"/> shows that <m>n^{2}</m> can
-            be written in the form <m>2p</m> where <m>p</m> is an integer.
-            By definition of even, this shows that <m>n^{2}</m> is even.
-            This completes the proof of the contrapositive, showing that if
-            <m>n^{2}</m> is odd, then <m>n</m> is odd.
-        </p>
-    </proof>
-
-    <activity>
-        <introduction>
-            <p>
-                For each of the following statements, find the contrapositive
-                (turning the statement into an <q> if-then</q> conditional
-                statement if needed).
-                Then decide which one seems easier to prove - the statement or
-                its contrapositive, and briefly explain why.
-            </p>
-        </introduction>
-
-        <task>
-            <statement>
-                <p>
-                    For all natural numbers <m>n</m>, if <m>3\nmid n</m> then
-                    <m>9\nmid n</m>.
-                </p>
-
-                <p workspace=".5in">
-                    <em> Contrapositive: </em>
-                </p>
-
-                <p>
-                    <em> Circle one and briefly explain: </em>
-                </p>
-
-                <p>
-                    Easier to prove the original
-                </p>
-
-                <p workspace=".5in">
-                    Easier to prove the contrapositive
-                </p>
-            </statement>
-        </task>
-
-        <task>
-            <statement>
-                <p>
-                    For all integers <m>n</m> and <m>m</m>, if <m>nm</m> is
-                    even, then <m>n</m> is even or <m>m</m> is even.
-                </p>
-
-                <p workspace=".5in">
-                    <em> Contrapositive: </em>
-                </p>
-
-                <p>
-                    <em> Circle one and briefly explain: </em>
-                </p>
-
-                <p>
-                    Easier to prove the original
-                </p>
-
-                <p workspace=".5in">
-                    Easier to prove the contrapositive
-                </p>
-            </statement>
-        </task>
-
-        <task>
-            <statement>
-                <p>
-                    Let <m>a,b\in\mathbb{Z}</m>, and let <m>p</m> be a prime.
-                    If <m>p\nmid ab</m> then <m>p\nmid a</m> and
-                    <m>p\nmid b</m>.
-                </p>
-
-                <p workspace=".5in">
-                    <em> Contrapositive: </em>
-                </p>
-
-                <p>
-                    <em> Circle one and briefly explain: </em>
-                </p>
-
-                <p>
-                    Easier to prove the original
-                </p>
-
-                <p workspace=".5in">
-                    Easier to prove the contrapositive
-                </p>
-            </statement>
-        </task>
-
-        <task>
-            <statement>
-                <p>
-                    For all integers <m>n</m>, if <m>n^2</m> is even if and only
-                    if <m>n</m> is even.
-                    (Note there are 2 conditional statements here, write out
-                    both conditional statements and their contrapositives.)
-                </p>
-
-                <p workspace=".5in">
-                    <em> Contrapositive: </em>
-                </p>
-
-                <p>
-                    <em> Circle one and briefly explain: </em>
-                </p>
-
-                <p>
-                    Easier to prove the original
-                </p>
-
-                <p workspace=".5in">
-                    Easier to prove the contrapositive
-                </p>
-            </statement>
-        </task>
-
-        <task>
-            <statement>
-                <p>
-                    For all integers <m>n</m>, if <m>n</m> is even, then
-                    <m>n^2-4n+7</m> is even.
-                </p>
-
-                <p workspace=".5in">
-                    <em> Contrapositive: </em>
-                </p>
-
-                <p>
-                    <em> Circle one and briefly explain: </em>
-                </p>
-
-                <p>
-                    Easier to prove the original
-                </p>
-
-                <p workspace=".5in">
-                    Easier to prove the contrapositive
-                </p>
-            </statement>
-        </task>
-
-        <task>
-            <statement>
-                <p>
-                    For all <m>n\in\mathbb{Z}</m>, if <m>n^2-4n+7</m> is even,
-                    then <m>n</m> is odd.
-                </p>
-
-                <p workspace=".5in">
-                    <em> Contrapositive: </em>
-                </p>
-
-                <p>
-                    <em> Circle one and briefly explain: </em>
-                </p>
-
-                <p>
-                    Easier to prove the original
-                </p>
-
-                <p workspace=".5in">
-                    Easier to prove the contrapositive
-                </p>
-            </statement>
-        </task>
-
-        <task>
-            <statement>
-                <p>
-                    No prime number greater than <m>3</m> is followed by a
-                    perfect square.
-                    (Rewrite as a conditional statement first!)
-                </p>
-
-                <p workspace=".5in">
-                    <em> Contrapositive: </em>
-                </p>
-
-                <p>
-                    <em> Circle one and briefly explain: </em>
-                </p>
-
-                <p>
-                    Easier to prove the original
-                </p>
-
-                <p workspace=".5in">
-                    Easier to prove the contrapositive
-                </p>
-            </statement>
-        </task>
-    </activity>
-
-    <theorem xml:id="thm-evenbicond">
-        <statement>
-            <p>
-                For all integers <m>n</m>, <m>n^2-4n+7</m> is odd if and only if
-                <m>n</m> is even.
-            </p>
-        </statement>
-    </theorem>
-
-    <activity workspace="1in">
-        <statement>
-            <p>
-                Prove <xref ref="thm-evenbicond"/>.
-                Notice the theorem is <em>biconditional</em>.
-                This means you need to prove 2 conditional statements!
-            </p>
-        </statement>
-    </activity>
-
-    <theorem xml:id="thm-3dividesbicond">
-        <statement>
-            <p>
-                For all integers <m>m</m> and <m>n</m>, <m>3\mid mn</m> if and
-                only if <m>3\mid m</m> or <m>3\mid n</m>.
-            </p>
-        </statement>
-    </theorem>
-
-    <activity workspace="1in">
-        <statement>
-            <p>
-                Prove <xref ref="thm-3dividesbicond"/>.
-                Note it is again biconditional!
-            </p>
-        </statement>
-    </activity>
-
-    <paragraphs>
-        <title>Proof Evaluation</title>
-
-        <p>
-            Evaluating reasoning is an important skill!
-        </p>
-    </paragraphs>
-
-    <activity workspace="1in">
-        <statement>
-            <p>
-                Evaluate the following proof.
-                Is it correct?
-                Should more be explained?
-                Does it meet our writing guidelines?
-            </p>
-
-            <figure xml:id="fig-contrapositiveisforcowards">
-                <caption>
-                    A proof, of unknown origin, that for all integers <m>n</m>
-                    if <m>n^2</m> is even then <m>n</m> is even.
-                </caption>
-
-                <image source="images/ContrapositiveForCowards.PNG" width="70%">
-                    <shortdescription>
-                        A proof, of unknown origin, that if a square integer is
-                        even, then the original integer is even.
-                    </shortdescription>
-                </image>
-            </figure>
-        </statement>
-    </activity>
-
-    <paragraphs>
-        <title>Counterexamples</title>
-
-        <p>
-            This chapter returns to counterexamples, which we've done a bunch of
-            (and is a learning target).
-            Here's an important connection to the chapter on logic - when you
-            are disproving a statement, you are proving its negation.
-            So if you have a statement that has a <q> for all</q> (or an implied
-            for all), the negation has a <q> there exists</q>, and so one can
-            just use an example to prove it.
-        </p>
-    </paragraphs>
-
-    <remark>
-        <p>
-            Here are two things that sometimes happen in math:
         </p>
 
         <p>
-            <ul>
-                <li>
+            We proved this using truth tables in
+            <xref ref="act-converse-contrapositive"/> and in the preview
+            activity for today.
+            This also makes intuitive sense, considering the examples in page
+            262 of your textbook.
+            We also see it in the applied version of the Wason Selection Test
+            (recall <xref ref="act-01-3-wason"/> ): If we're following the US
+            law and say
+        </p>
+
+        <blockquote>
+            <p>
+                if one is consuming an alcoholic beverage then one is at least
+                age 21
+            </p>
+        </blockquote>
+
+        <p>
+            then you would agree that
+        </p>
+
+        <blockquote>
+            <p>
+                if one is under the age of 21 then one is not consuming an
+                alcoholic beverage.
+            </p>
+        </blockquote>
+
+        <p>
+            If we label the first statement as <m>P\implies Q</m>, then the
+            second statement is <m>\sim Q\implies \sim P</m>.
+        </p>
+
+        <definition xml:id="def-">
+            <statement>
+                <p>
+                    In <q> <term>proof by contrapositive</term></q> we will use
+                    that a statement and its contrapositive are logically
+                    equivalent to our advantage.
+                    Instead of proving the original statement, we do a direct
+                    proof of the contrapositive.
+                    Note that proof by contrapositive is really just another
+                    type of direct proof.
+                </p>
+            </statement>
+        </definition>
+
+        <example>
+            <p>
+                Suppose we want to do proof by contrapositive of the statement
+            </p>
+
+            <blockquote>
+                <p>
+                    For all <m>n\in\mathbb{N}</m>, if <m>n^2</m> is odd, then
+                    <m>n</m> is odd.
+                </p>
+            </blockquote>
+
+            <p>
+                Then instead we would prove
+            </p>
+
+            <blockquote>
+                <p>
+                    For all <m>n\in\mathbb{N}</m>, if <m>n</m> is even, then
+                    <m>n^2</m> is odd.
+                </p>
+            </blockquote>
+
+            <p>
+                Notice that
+            </p>
+
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Taking the contrapositive of the conditional
+                            statement does not affect the quantifier at the
+                            start.
+                            We still need to prove this statement for all
+                            <m>n\in\mathbb{N}</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            When we negate <q> <m>n</m> is odd</q> we get
+                            <q> <m>n</m> is
+                    not odd</q>, but
+                            every non-odd integer is even, so instead we write
+                            <q> <m>n</m> is even </q>.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </example>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Proof Writing</title>
+
+            <p>
+                Here's a proof by contrapositive of the statement in the
+                example.
+                Underline the parts that would be included in all proofs by
+                contrapositive.
+            </p>
+        </paragraphs>
+
+        <theorem>
+            <statement>
+                <p>
+                    For all <m>n\in\mathbb{N}</m>, if <m>n^2</m> is odd, then
+                    <m>n</m> is odd.
+                </p>
+            </statement>
+        </theorem>
+
+        <proof>
+            <p>
+                We will prove this using the contrapositive, which is: For all
+                <m>n\in \mathbb{N}</m>, if and only if <m>n</m> is even, then
+                <m>n^2</m> is even.
+                So, let <m>n\in\mathbb{N}</m>.
+                We begin by assuming that <m>n</m> is even.
+                By definition of even there exists an integer <m>m</m> such that
+                <m>n = 2m</m>.
+                Substituting, we have
+                <md number="yes" xml:id="ch06-eqn-n2even">
+                    n^{2} = (2m)^{2} = 4m^{2} =
+            2(2m^{2}).
+                </md>
+                We know that <m>m</m> and <m>2</m> are integers, and the
+                integers are closed under and multiplication.
+                Thus <m>p = 2m^{2}</m> is also an integer.
+                Thus equation <xref ref="ch06-eqn-n2even"/> shows that
+                <m>n^{2}</m> can be written in the form <m>2p</m> where <m>p</m>
+                is an integer.
+                By definition of even, this shows that <m>n^{2}</m> is even.
+                This completes the proof of the contrapositive, showing that if
+                <m>n^{2}</m> is odd, then <m>n</m> is odd.
+            </p>
+        </proof>
+    </page>
+
+    <page>
+        <activity xml:id="act-06-contraeasier">
+            <introduction>
+                <p>
+                    For each of the following statements, find the
+                    contrapositive (turning the statement into an
+                    <q> if-then</q> conditional statement if needed).
+                    Then decide which one seems easier to prove - the statement
+                    or its contrapositive, and briefly explain why.
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
                     <p>
-                        A counterexample comes early, but it turns out to be the
-                        <em>only</em> counterexample.
-                        E.g., find counterexamples to the following
-                        <ul>
-                            <li>
-                                <p>
-                                    Every prime is odd.
-                                </p>
-                            </li>
-
-                            <li>
-                                <p>
-                                    No prime number is followed by a perfect
-                                    square.
-                                </p>
-                            </li>
-                        </ul>
-                        It turns out the first statement is true for any prime
-                        greater than 2, and the second is true for any prime
-                        greater than 3.
-                        <em>If time:</em> Can you prove these?
+                        For all natural numbers <m>n</m>, if <m>3\nmid n</m>
+                        then <m>9\nmid n</m>.
                     </p>
-                </li>
 
-                <li>
+                    <p workspace=".25in">
+                        <em> Contrapositive: </em>
+                    </p>
+
                     <p>
-                        Sometimes the <q>first </q> counterexample comes really
-                        late, but then there are lots of counterexamples.
-                        Consider the following statements
-                        <ul>
-                            <li>
-                                <p>
-                                    If <m>p</m> is prime then <m>2^p - 1</m> is
-                                    prime.
-                                </p>
-                            </li>
-
-                            <li>
-                                <p>
-                                    For every <m>n\in\mathbb{N}</m>,
-                                    <md>
-                                        1+\frac{1}{2} + \frac{1}{3} + \cdots \frac{1}{n} &lt; 100.
-                                    </md>
-                                </p>
-                            </li>
-                        </ul>
-                        It turns out the first is true for <m>p=2, 3, 5,</m> and
-                        <m>7</m>, but it is not true for <m>p=11</m>.
-                        Prime numbers of the form <m>2^p - 1</m> for a prime
-                        <m>p</m> are know as Mersenne Primes.
-                        Currently we know of <m>52</m> Mersenne primes and
-                        <m>2^136279841-1</m> (which is 41,024,320 digits) is the
-                        largest known prime number (found in 2024).
-                        For the second statement, the first counterexample for
-                        this has <m>44</m> digits (see page 270 of your
-                        textbook).
-                        We know one exists because the harmonic series diverges
-                        (you'd see this in Calc 2).
-                        After the first counterexample, every natural number is
-                        a counterexample, do you see why?
+                        <em> Circle one and briefly explain: </em>
                     </p>
-                </li>
-            </ul>
+
+                    <sidebyside>
+                        <p>
+                            Easier to prove the original
+                        </p>
+
+                        <p workspace=".25in">
+                            Easier to prove the contrapositive
+                        </p>
+                    </sidebyside>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        For all integers <m>n</m> and <m>m</m>, if <m>nm</m> is
+                        even, then <m>n</m> is even or <m>m</m> is even.
+                    </p>
+
+                    <p workspace=".25in">
+                        <em> Contrapositive: </em>
+                    </p>
+
+                    <p>
+                        <em> Circle one and briefly explain: </em>
+                    </p>
+
+                    <sidebyside>
+                        <p>
+                            Easier to prove the original
+                        </p>
+
+                        <p workspace=".25in">
+                            Easier to prove the contrapositive
+                        </p>
+                    </sidebyside>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Let <m>a,b\in\mathbb{Z}</m>, and let <m>p</m> be a
+                        prime.
+                        If <m>p\nmid ab</m> then <m>p\nmid a</m> and
+                        <m>p\nmid b</m>.
+                    </p>
+
+                    <p workspace=".25in">
+                        <em> Contrapositive: </em>
+                    </p>
+
+                    <p>
+                        <em> Circle one and briefly explain: </em>
+                    </p>
+
+                    <sidebyside>
+                        <p>
+                            Easier to prove the original
+                        </p>
+
+                        <p workspace=".25in">
+                            Easier to prove the contrapositive
+                        </p>
+                    </sidebyside>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        For all integers <m>n</m>, if <m>n^2</m> is even if and
+                        only if <m>n</m> is even.
+                        (Note there are 2 conditional statements here, write out
+                        both conditional statements and their contrapositives.)
+                    </p>
+
+                    <p workspace=".25in">
+                        <em> Contrapositive: </em>
+                    </p>
+
+                    <p>
+                        <em> Circle one and briefly explain: </em>
+                    </p>
+
+                    <sidebyside>
+                        <p>
+                            Easier to prove the original
+                        </p>
+
+                        <p workspace=".25in">
+                            Easier to prove the contrapositive
+                        </p>
+                    </sidebyside>
+
+                    <p workspace=".25in">
+                        <em> Contrapositive: </em>
+                    </p>
+
+                    <p>
+                        <em> Circle one and briefly explain: </em>
+                    </p>
+
+                    <sidebyside>
+                        <p>
+                            Easier to prove the original
+                        </p>
+
+                        <p workspace=".25in">
+                            Easier to prove the contrapositive
+                        </p>
+                    </sidebyside>
+                </statement>
+            </task>
+   </activity>
+        </page>
+<page>
+        <activity>
+            
+     <introduction>
+        <p>
+            Same instructions as <xref ref="act-06-contraeasier"/>
         </p>
-    </remark>
+     </introduction>
+            <task>
+                <statement>
+                    <p>
+                        For all integers <m>n</m>, if <m>n</m> is even, then
+                        <m>n^2-4n+7</m> is even.
+                    </p>
+
+                    <p workspace=".25in">
+                        <em> Contrapositive: </em>
+                    </p>
+
+                    <p>
+                        <em> Circle one and briefly explain: </em>
+                    </p>
+
+                    <sidebyside>
+                        <p>
+                            Easier to prove the original
+                        </p>
+
+                        <p workspace=".25in">
+                            Easier to prove the contrapositive
+                        </p>
+                    </sidebyside>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        For all <m>n\in\mathbb{Z}</m>, if <m>n^2-4n+7</m> is
+                        even, then <m>n</m> is odd.
+                    </p>
+
+                    <p workspace=".25in">
+                        <em> Contrapositive: </em>
+                    </p>
+
+                    <p>
+                        <em> Circle one and briefly explain: </em>
+                    </p>
+
+                   <sidebyside>
+                        <p>
+                            Easier to prove the original
+                        </p>
+
+                        <p workspace=".25in">
+                            Easier to prove the contrapositive
+                        </p>
+                    </sidebyside>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        No prime number greater than <m>3</m> is followed by a
+                        perfect square.
+                        (Rewrite as a conditional statement first!)
+                    </p>
+
+                    <p workspace=".25in">
+                        <em> Contrapositive: </em>
+                    </p>
+
+                    <p>
+                        <em> Circle one and briefly explain: </em>
+                    </p>
+
+                  <sidebyside>
+                        <p>
+                            Easier to prove the original
+                        </p>
+
+                        <p workspace=".25in">
+                            Easier to prove the contrapositive
+                        </p>
+                    </sidebyside>
+                </statement>
+            </task>
+        </activity>
+    </page>
+
+    <page>
+        <theorem xml:id="thm-evenbicond">
+            <statement>
+                <p>
+                    For all integers <m>n</m>, <m>n^2-4n+7</m> is odd if and
+                    only if <m>n</m> is even.
+                </p>
+            </statement>
+        </theorem>
+
+        <activity workspace="1in">
+            <statement>
+                <p>
+                    Prove <xref ref="thm-evenbicond"/>.
+                    Notice the theorem is <em>biconditional</em>.
+                    This means you need to prove 2 conditional statements!
+                </p>
+            </statement>
+        </activity>
+    </page>
+
+    <page>
+        <theorem xml:id="thm-3dividesbicond">
+            <statement>
+                <p>
+                    For all integers <m>m</m> and <m>n</m>, <m>3\mid mn</m> if
+                    and only if <m>3\mid m</m> or <m>3\mid n</m>.
+                </p>
+            </statement>
+        </theorem>
+
+        <activity workspace="1in">
+            <statement>
+                <p>
+                    Prove <xref ref="thm-3dividesbicond"/>.
+                    Note it is again biconditional!
+                </p>
+            </statement>
+        </activity>
+
+        <paragraphs>
+            <title>Proof Evaluation</title>
+
+            <p>
+                Evaluating reasoning is an important skill!
+            </p>
+        </paragraphs>
+    </page>
+
+    <page>
+        <activity workspace="1in">
+            <statement>
+                <p>
+                    Evaluate the following proof.
+                    Is it correct?
+                    Should more be explained?
+                    Does it meet our writing guidelines?
+                </p>
+
+                <figure xml:id="fig-contrapositiveisforcowards">
+                    <caption>
+                        A proof, of unknown origin, that for all integers
+                        <m>n</m> if <m>n^2</m> is even then <m>n</m> is even.
+                    </caption>
+
+                    <image source="images/ContrapositiveForCowards.PNG" width="70%">
+                        <shortdescription>
+                            A proof, of unknown origin, that if a square integer
+                            is even, then the original integer is even.
+                        </shortdescription>
+                    </image>
+                </figure>
+            </statement>
+        </activity>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Counterexamples</title>
+
+            <p>
+                This chapter returns to counterexamples, which we've done a
+                bunch of (and is a learning target).
+                Here's an important connection to the chapter on logic - when
+                you are disproving a statement, you are proving its negation.
+                So if you have a statement that has a <q> for all</q> (or an
+                implied for all), the negation has a <q> there exists</q>, and
+                so one can just use an example to prove it.
+            </p>
+        </paragraphs>
+
+        <remark>
+            <p>
+                Here are two things that sometimes happen in math:
+            </p>
+
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            A counterexample comes early, but it turns out to be
+                            the <em>only</em> counterexample.
+                            E.g., find counterexamples to the following
+                            <ul>
+                                <li>
+                                    <p>
+                                        Every prime is odd.
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        No prime number is followed by a perfect
+                                        square.
+                                    </p>
+                                </li>
+                            </ul>
+                            It turns out the first statement is true for any
+                            prime greater than 2, and the second is true for any
+                            prime greater than 3.
+                            <em>If time:</em> Can you prove these?
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Sometimes the <q>first </q> counterexample comes
+                            really late, but then there are lots of
+                            counterexamples.
+                            Consider the following statements
+                            <ul>
+                                <li>
+                                    <p>
+                                        If <m>p</m> is prime then <m>2^p - 1</m>
+                                        is prime.
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        For every <m>n\in\mathbb{N}</m>,
+                                        <md>
+                                            1+\frac{1}{2} + \frac{1}{3} + \cdots \frac{1}{n} &lt; 100.
+                                        </md>
+                                    </p>
+                                </li>
+                            </ul>
+                            It turns out the first is true for <m>p=2, 3, 5,</m>
+                            and <m>7</m>, but it is not true for <m>p=11</m>.
+                            Prime numbers of the form <m>2^p - 1</m> for a prime
+                            <m>p</m> are know as Mersenne Primes.
+                            Currently we know of <m>52</m> Mersenne primes and
+                            <m>2^136279841-1</m> (which is 41,024,320 digits) is
+                            the largest known prime number (found in 2024).
+                            For the second statement, the first counterexample
+                            for this has <m>44</m> digits (see page 270 of your
+                            textbook).
+                            We know one exists because the harmonic series
+                            diverges (you'd see this in Calc 2).
+                            After the first counterexample, every natural number
+                            is a counterexample, do you see why?
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </remark>
+    </page>
 </handout>
