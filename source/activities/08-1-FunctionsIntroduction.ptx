@@ -3,6 +3,9 @@
 <handout>
     <title>Functions Introduction</title>
 
+    <page>
+        
+   
     <definition xml:id="ch08-def-function">
         <statement>
             <p>
@@ -59,59 +62,66 @@
         </statement>
     </definition>
 
-   
-
     <activity>
-        <introduction>
+        <statement>
             <p>
                 Let's do some examples.
                 Draw an arrow diagram, or write down a function formula, for
                 each of the following.
             </p>
 
-            <figure xml:id="ch08-fig-jectionexs" >
-        <caption>words</caption>
-        <image width="75%">
-            <shortdescription>A table for giving examples and non-examples</shortdescription>
-            <prefigure xmlns="https://prefigure.org" label="ch08-table-jections">
-                <diagram dimensions="(300,300)" margins="5">
-                    <coordinates bbox="(0,0,9,10)">
-                        <grid spacings="((0,3,9),(0,2,10))" thickness="1"/>
-                        <label anchor="(3/2,9)" alignment="c">
-                            Term
-                        </label>
-                        <label anchor="(9/2,9)" alignment="c">
-                            Example
-                        </label>
-                        <label anchor="(15/2,9)" alignment="c">
-                            Non-example
-                        </label>
+            <figure xml:id="ch08-fig-jectionexs">
+                <caption>
+                    A table to give examples and non-examples of functions,
+                    injections, surjections, and bijections.
+                </caption>
 
-                        <label anchor="(3/2,7)" alignment="c">
-                            Function
-                        </label>
+                <image width="60%">
+                    <shortdescription>
+                        A table for giving examples and non-examples
+                    </shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="ch08-table-jections">
+                        <diagram dimensions="(300,300)" margins="5">
+                            <coordinates bbox="(0,0,9,10)">
+                                <grid spacings="((0,3,9),(0,2,10))" thickness="1"/>
+                                <label anchor="(3/2,9)" alignment="c">
+                                    Term
+                                </label>
+                                <label anchor="(9/2,9)" alignment="c">
+                                    Example
+                                </label>
+                                <label anchor="(15/2,9)" alignment="c">
+                                    Non-example
+                                </label>
+                                <label anchor="(3/2,7)" alignment="c">
+                                    Function
+                                </label>
+                                <label anchor="(3/2,5)" alignment="c">
+                                    Injection
+                                </label>
+                                <label anchor="(3/2,3)" alignment="c">
+                                    Surjection
+                                </label>
+                                <label anchor="(3/2,1)" alignment="c">
+                                    Bijection
+                                </label>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
+            </figure>
+        </statement>
+    </activity>
 
-                         <label anchor="(3/2,5)" alignment="c">
-                            Injection
-                        </label>
+     </page>
 
-                         <label anchor="(3/2,3)" alignment="c">
-                            Surjection
-                        </label>
-                         <label anchor="(3/2,1)" alignment="c">
-                            Bijection
-                        </label>
-                    </coordinates>
-                </diagram>
-            </prefigure>
-        </image>
-    </figure>
-        </introduction>
+     <page>
 
+    <activity>
         <task workspace="1in">
             <statement>
                 <p>
-                    Choose an example from the table above and use the terms
+                    Choose an example from the <xref ref="ch08-fig-jectionexs"/> and use the terms
                     <q>image</q> and <q>pre-image</q>.
                 </p>
             </statement>
@@ -158,7 +168,7 @@
             </statement>
         </task>
 
-        <task workspace="1in">
+        <task workspace="1.5in">
             <statement>
                 <p>
                     If <m>A</m> and <m>B</m> are finite sets, and
@@ -169,6 +179,13 @@
             </statement>
         </task>
     </activity>
+
+            
+     </page>
+
+     <page>
+        
+
 
     <activity>
         <introduction>
@@ -243,7 +260,5 @@
         </task>
     </activity>
 
-  
-
-  
+         </page>
 </handout>

@@ -3,618 +3,651 @@
 <handout>
     <title>Functions - Compositions and Inverses</title>
 
-    <definition>
-        <statement>
-            <p>
-                Let <m>A,B</m>, and <m>C</m> be sets, <m>g: A\to B</m> and
-                <m>f:B\to C</m>.
-                Then the <term>composition</term> function is denoted
-                <m>f\circ g</m> and is defined as thus:
-                <md>
-                    (f\circ g): A\to C \hspace{.2in} \text{    where    }  \hspace{.2in} (f\circ g)(a) = f(g(a)).
-                </md>
-            </p>
+    <page>
+        <definition>
+            <statement>
+                <p>
+                    Let <m>A,B</m>, and <m>C</m> be sets, <m>g: A\to B</m> and
+                    <m>f:B\to C</m>.
+                    Then the <term>composition</term> function is denoted
+                    <m>f\circ g</m> and is defined as thus:
+                    <md>
+                        (f\circ g): A\to C \hspace{.2in} \text{    where    }  \hspace{.2in} (f\circ g)(a) = f(g(a)).
+                    </md>
+                </p>
 
-            <p>
-                This is read as <q> <m>f</m> composed with <m>g</m></q> or
-                <q>
+                <p>
+                    This is read as <q> <m>f</m> composed with <m>g</m></q> or
+                    <q>
                 <m>f</m> of <m>g</m> </q>.
-                Note <m>g</m> composed with <m>f</m> is usually very different
-                than <m>f</m> composed with <m>g</m>.
-            </p>
-        </statement>
-    </definition>
+                    Note <m>g</m> composed with <m>f</m> is usually very
+                    different than <m>f</m> composed with <m>g</m>.
+                </p>
+            </statement>
+        </definition>
 
-    <definition>
-        <statement>
+        <definition>
+            <statement>
+                <p>
+                    For a set <m>A</m>, the <term>identity function</term> on
+                    <m>A</m> is the function.
+                    That is,
+                    <md>
+                        i_A: A\to A   \,\,\text{    where    } \,\, i_A(x) = x \text{ for every } x\in A.
+                    </md>
+                </p>
+            </statement>
+        </definition>
+
+        <definition>
+            <statement>
+                <p>
+                    The <term>inverse</term> of a function <m>f: A\to B</m>, if
+                    it exists, is the function <m>f^{-1}: B\to A</m> such that
+                    <m>f^{-1}\circ f = i_A</m> and <m>f\circ f^{-1} = i_B</m>.
+                </p>
+            </statement>
+        </definition>
+
+        <activity>
+            <introduction>
+                <p>
+                    For each of the following, draw arrow diagrams for <m>f</m>,
+                    <m>g</m>, and <m>f\circ g</m>.
+                    Then determine if each of those 3 functions is an injection
+                    or surjection.
+                </p>
+            </introduction>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Suppose <m>g: \{1,2,3\} \to \{a,b,c,d\}</m> and
+                        <m>f: \{a,b,c,d\} \to \{\star, \bigcirc, \bigtriangleup\}</m>
+                        are defined by
+                        <md>
+                            g(1) = a; \,\,\, g(2) = b; \,\,\, g(3) = a \hspace{.2in} \text{ and } \hspace{.2in} f(a) = \bigcirc; \,\,\, f(b) = \bigcirc;\,\,\, f(c) = \star; \,\,\, f(d) = \bigtriangleup;
+                        </md>
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Suppose <m>g: \{1,2,3\} \to \{a,b,c,d\}</m> and
+                        <m>f: \{a,b,c,d\} \to \{\star, \bigcirc, \bigtriangleup\}</m>
+                        are defined by
+                        <md>
+                            g(1) = a; \,\,\, g(2) = b; \,\,\, g(3) = c \hspace{.2in} \text{ and } \hspace{.2in} f(a) = \bigcirc; \,\,\, f(b) = \star;\,\,\, f(c) = \bigtriangleup; \,\,\, f(d) = \bigtriangleup;
+                        </md>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+    </page>
+
+    <page>
+        <activity workspace="1in">
+            <title>Conjectures About Compositions and 'Jections</title>
+
+            <introduction>
+                <p>
+                    We will spend some time thinking about compositions effect
+                    on injections and surjections.
+                    In each, assume <m>g: A\to B</m> and <m>f: B\to C</m>, so
+                    that the composition makes sense.
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
+                    <p>
+                        Must the composition of two injections be an injection?
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Must the composition of two surjections be a surjection?
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        If <m>f\circ g</m> is an injection, must both <m>f</m>
+                        and <m>g</m> be injections?
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        If <m>f\circ g</m> is a surjection, must both <m>f</m>
+                        and <m>g</m> be surjections?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Theorems About Compositions and 'Jections</title>
+
             <p>
-                For a set <m>A</m>, the <term>identity function</term> on
-                <m>A</m> is the function.
-                That is,
+                The composition of two injections is always an injection, and
+                the composition of two surjections is always a surjection.
+                There are proof sketches and formal proofs in your book (pages
+                349 - 350).
+                We'll state and prove that the composition of injections is
+                always an injection.
+                here.
+            </p>
+        </paragraphs>
+
+        <theorem xml:id="ch08-thm-compinj">
+            <statement>
+                <p>
+                    Suppose <m>A,B,</m> and <m>C</m> are sets, <m>g:A \to B</m>
+                    is injective and <m>f:B\to C</m> is injective.
+                    Then <m>f\circ g</m> is injective.
+                </p>
+            </statement>
+        </theorem>
+
+        <proof>
+            <p>
+                We'll prove this directly.
+                When trying to figure out a direct proof, you should always
+                write down what you are assuming, what you are proving, and then
+                definitions of each of those.
+                Here I've outlined the order I would think abou this proof.
+            </p>
+
+            <p>
+                <ul>
+                    <li>
+                        <p workspace=".5in">
+                            FIRST: Assuming (by hypothesis): <m>f</m> is
+                            <fillin characters="20"/> This means for all
+                            <m>b_1, b_2 \in B</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p workspace=".5in">
+                            SECOND: Assuming (by hypothesis): <m>g</m> is
+                            <fillin characters="20"/> This means for all
+                            <m>b_1, b_2 \in B</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            FOURTH: The conclusion definition is a conditional
+                            statement, so we will assume its hypothesis which is
+                            <fillin characters="20"/> which can be rewritten as
+                            <fillin characters="20"/>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p workspace="2in">
+                            FIFTH: Work your way to the conclusion.
+                            Hint in footnote!
+                            <fn>Hint - you know <m>f(g(a_1))= f(g(a_2))</m>, what can you say about <m>g(a_1)</m> and <m>g(a_2)</m> given that <m>f</m> is an injection. </fn>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p workspace=".5in">
+                            THIRD: Proving (conclusion):
+                            <fillin characters="30"/> This means:
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </proof>
+    </page>
+
+    <page>
+        <p>
+            Here's a fill in the blank proof of <xref ref="ch08-thm-compinj"/>
+        </p>
+
+        <theorem xml:id="ch08-thm-compisinj">
+            <statement>
+                <p>
+                    Suppose <m>A,B,</m> and <m>C</m> are sets, <m>g:A \to B</m>
+                    is injective and <m>f:B\to C</m> is injective.
+                    Then <m>f\circ g</m> is injective.
+                </p>
+            </statement>
+        </theorem>
+
+        <proof>
+            <p workspace=".5in">
+                Suppose <m>A,B,</m> and <m>C</m> are sets and that
+                <m>f: B\to C</m> is injective.
+                We will show <m>f\circ g</m> is injective by showing that
+            </p>
+
+            <p workspace=".5in">
+                To this end, assume <m>a_1,a_2\in A</m> and
+                <m>(f \circ g)(a_1) = (f\circ g)(a_2)</m>.
+                We aim to show: <fillin characters="20"/> Applying the
+                definition of composition to
+                <m>(f \circ g)(a_1) = (f\circ g)(a_2)</m> we get
+            </p>
+
+            <p>
+                Since <m>f: B\to C</m> is <fillin characters="20"/>, if
+                <fillin characters="20"/> for any <m>b_1, b_2 \in B</m>, then
+                <fillin characters="20"/>.
+                In particular, observe that <m>g(a_1), g(a_2)\in B</m> and
+                <m>f(g(a_1))=f(g(a_2))</m> and so <fillin characters="20"/>.
+            </p>
+
+            <p>
+                Likewise, <m>g: A\to B</m> is <fillin characters="20"/> and we
+                just showed that <m>g(a_1)=g(a_2)</m> where
+                <m>a_1, a_2\in A</m>.
+                This implies <fillin characters="20"/>.
+            </p>
+
+            <p>
+                We have shown that for <m>a_1,a_2 \in A</m>, if
+                <m>(f\circ g)(a_1) = (f\circ g)(a_2)</m> then <m>a_1 = a_2</m>.
+                Thus, <m>f\circ g</m> is an injection.
+            </p>
+        </proof>
+    </page>
+
+    <page>
+        <activity workspace="4in">
+            <statement>
+                <p>
+                    Do a proof sketch that the composition of two surjections is
+                    a surjection. (Start by writing down what you are assuming
+                    at the top and what you are proving at the bottom, then
+                    write definitions of each.)
+                </p>
+            </statement>
+
+        </activity>
+    </page>
+
+    <page>
+        <p>
+            Here's a fill in the blank proof that the composition of two
+            surjections has to be a surjection.
+        </p>
+
+        <theorem xml:id="ch08-thm-compissurj">
+            <statement>
+                <p>
+                    Suppose <m>A,B,</m> and <m>C</m> are sets, <m>g:A \to B</m>
+                    is surjective and <m>f:B\to C</m> is surjective.
+                    Then <m>f\circ g</m> is surjective.
+                </p>
+            </statement>
+        </theorem>
+
+        <proof>
+            <p workspace=".5in">
+                We assume that <m>A</m>, <m>B</m>, <m>C</m> are subsets of some
+                universal set.
+                Furthermore, we are given that function <m>f: A \to B</m> is a
+                surjection.
+                By definition, this means that:
+            </p>
+
+            <p workspace=".5in">
+                Also, we are given that <m>g: B \to C</m> is a surjection.
+                By definition, this means that:
+            </p>
+
+            <p>
+                We want to show that <m>g \circ f : A \to C</m> is also a
+                surjection.
+                That is, we must show that for all
+                <m> <fillin characters="5"/> \in <fillin characters="5"/></m>,
+                there exists <m> c \in <fillin characters="5"/> </m> such that
+                <m> <fillin characters="5"/> = <fillin characters="5"/> </m>.
+            </p>
+
+            <p>
+                We begin.
+                by assuming that <m>c \in C</m>.
+                Because <m>g</m> is a surjection with codomain <m>C</m>, and
+                <m>c \in C</m>, we know that there exists
+                <m> <fillin characters="5"/> \in <fillin characters="5"/></m>,
+                such that <m> <fillin characters="10"/>.</m>
+            </p>
+
+            <p workspace="1in">
+                Because <m>f</m> is a surjection with codomain <m>B</m>, we know
+            </p>
+
+            <p>
+                Putting these facts together, we have:
                 <md>
-                    i_A: A\to A   \,\,\text{    where    } \,\, i_A(x) = x \text{ for every } x\in A.
+                    (g \circ
+            f)(
+                    <fillin characters="5"/>
+                    ) = g(f(
+                    <fillin characters="5"/>
+                    ))  =
+                    <fillin characters="5"/>
                 </md>
             </p>
-        </statement>
-    </definition>
 
-    <definition>
-        <statement>
-            <p>
-                The <term>inverse</term> of a function <m>f: A\to B</m>, if it
-                exists, is the function <m>f^{-1}: B\to A</m> such that
-                <m>f^{-1}\circ f = i_A</m> and <m>f\circ f^{-1} = i_B</m>.
+            <p workspace=".5in">
+                Therefore, we have shown that:
             </p>
-        </statement>
-    </definition>
+        </proof>
 
-    <activity>
-        <introduction>
+        <corollary>
+            <statement>
+                <p>
+                    Suppose <m>A,B,</m> and <m>C</m> are sets, <m>g:A \to B</m>
+                    is bijective and <m>f:B\to C</m> is bijective.
+                    Then <m>f\circ g</m> is bijective.
+                </p>
+            </statement>
+        </corollary>
+
+        <proof>
             <p>
-                For each of the following, draw arrow diagrams for <m>f</m>,
-                <m>g</m>, and <m>f\circ g</m>.
-                Then determine if each of those 3 functions is an injection or
-                surjection.
+                Suppose <m>f</m> and <m>g</m> are bijections.
+                Then <m>f</m> and <m>g</m> are both injections and surjections.
+                So by <xref ref="ch08-thm-compisinj"/> and
+                <xref ref="ch08-thm-compissurj"/>, <m>f\circ g</m> is an
+                injection and a surjection.
             </p>
-        </introduction>
+        </proof>
+    </page>
 
-        <task workspace="1in">
-            <statement>
-                <p>
-                    Suppose <m>g: \{1,2,3\} \to \{a,b,c,d\}</m> and
-                    <m>f: \{a,b,c,d\} \to \{\star, \bigcirc, \bigtriangleup\}</m>
-                    are defined by
-                    <md>
-                        g(1) = a; \,\,\, g(2) = b; \,\,\, g(3) = a \hspace{.2in} \text{ and } \hspace{.2in} f(a) = \bigcirc; \,\,\, f(b) = \bigcirc;\,\,\, f(c) = \star; \,\,\, f(d) = \bigtriangleup;
-                    </md>
-                </p>
-            </statement>
-        </task>
-
-        <task workspace="1in">
-            <statement>
-                <p>
-                    Suppose <m>g: \{1,2,3\} \to \{a,b,c,d\}</m> and
-                    <m>f: \{a,b,c,d\} \to \{\star, \bigcirc, \bigtriangleup\}</m>
-                    are defined by
-                    <md>
-                        g(1) = a; \,\,\, g(2) = b; \,\,\, g(3) = c \hspace{.2in} \text{ and } \hspace{.2in} f(a) = \bigcirc; \,\,\, f(b) = \star;\,\,\, f(c) = \bigtriangleup; \,\,\, f(d) = \bigtriangleup;
-                    </md>
-                </p>
-            </statement>
-        </task>
-    </activity>
-
-    <activity workspace="1in">
-        <title>Conjectures About Compositions and 'Jections</title>
-
-        <introduction>
-            <p>
-                We will spend some time thinking about compositions effect on
-                injections and surjections.
-                In each, assume <m>g: A\to B</m> and <m>f: B\to C</m>, so that
-                the composition makes sense.
-            </p>
-        </introduction>
-
-        <task>
-            <statement>
-                <p>
-                    Must the composition of two injections be an injection?
-                </p>
-            </statement>
-        </task>
-
-        <task>
-            <statement>
-                <p>
-                    Must the composition of two surjections be a surjection?
-                </p>
-            </statement>
-        </task>
-
-        <task>
-            <statement>
-                <p>
-                    If <m>f\circ g</m> is an injection, must both <m>f</m> and
-                    <m>g</m> be injections?
-                </p>
-            </statement>
-        </task>
-
-        <task>
-            <statement>
-                <p>
-                    If <m>f\circ g</m> is a surjection, must both <m>f</m> and
-                    <m>g</m> be surjections?
-                </p>
-            </statement>
-        </task>
-    </activity>
-
-    <paragraphs>
-        <title>Theorems About Compositions and 'Jections</title>
-
+    <page>
         <p>
-            The composition of two injections is always an injection, and the
-            composition of two surjections is always a surjection.
-            There are proof sketches and formal proofs in your book (pages 349 -
-            350).
-            We'll state and prove that the composition of injections is always
-            an injection.
-            here.
-        </p>
-    </paragraphs>
-
-    <theorem xml:id="ch08-thm-compinj">
-        <statement>
-            <p>
-                Suppose <m>A,B,</m> and <m>C</m> are sets, <m>g:A \to B</m> is
-                injective and <m>f:B\to C</m> is injective.
-                Then <m>f\circ g</m> is injective.
-            </p>
-        </statement>
-    </theorem>
-
-    <proof>
-        <p>
-            We'll prove this directly.
-            When trying to figure out a direct proof, you should always write
-            down what you are assuming, what you are proving, and then
-            definitions of each of those.
-            Here I've outlined the order I would think abou this proof.
+            It is also true that if <m>f\circ g</m> is an injection then
+            <m>g</m> is an injection, and if <m>f\circ g</m> is a surjection
+            then <m>f</m> is a surjection.
         </p>
 
+        <theorem xml:id="ch08-thm-compsurjfsurj">
+            <statement>
+                <p>
+                    Suppose <m>A,B,</m> and <m>C</m> are sets, and
+                    <m>g: A\to B</m> and <m>f: B\to C</m> are functions.
+                    If <m>f\circ g</m> is surjective, then <m>f</m> is
+                    surjective.
+                </p>
+            </statement>
+        </theorem>
+
+        <activity>
+            <p>
+                Sketch a proof of <xref ref="ch08-thm-compsurjfsurj"/>.
+                What are you assuming?
+                Write that at the top.
+                What are you proving?
+                Write that at the bottom.
+                Write definitions of each!
+            </p>
+        </activity>
+
+        <theorem xml:id="ch08-thm-compinjginj">
+            <statement>
+                <p>
+                    Suppose <m>A,B,</m> and <m>C</m> are sets, and
+                    <m>g: A\to B</m> and <m>f: B\to C</m> are functions.
+                    If <m>f\circ g</m> is injective, then <m>g</m> is injective.
+                </p>
+            </statement>
+        </theorem>
+
+        <activity>
+            <p>
+                Sketch a proof of <xref ref="ch08-thm-compinjginj"/>.
+                What are you assuming?
+                Write that at the top.
+                What are you proving?
+                Write that at the bottom.
+                Write definitions of each!
+            </p>
+        </activity>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Inverse Functions</title>
+
+            <p/>
+        </paragraphs>
+
+        <theorem>
+            <statement>
+                <p>
+                    A function <m>f: A\to B</m> is invertible if and only if
+                    <m>f</m> is a bijection.
+                </p>
+            </statement>
+        </theorem>
+
         <p>
-            <ul>
-                <li>
-                    <p workspace=".5in">
-                        FIRST: Assuming (by hypothesis): <m>f</m> is
-                        <fillin characters="20"/> This means for all
-                        <m>b_1, b_2 \in B</m>
-                    </p>
-                </li>
+            There's a proof of this theorem on pages 355-356 of your textbook,
+            which I encourage you to read.
+            These 2 pictures from your preview activity reading show the big
+            idea behind why if <m>f</m> is not a bijection, then <m>f^{-1}</m>
+            is not a function.
+        </p>
 
-                <li>
-                    <p workspace=".5in">
-                        SECOND: Assuming (by hypothesis): <m>g</m> is
-                        <fillin characters="20"/> This means for all
-                        <m>b_1, b_2 \in B</m>
-                    </p>
-                </li>
+        <sidebyside widths="40% 40%">
+            <figure>
+                <caption>
+                    A function that is not an injection.
+                    Why does it not have an inverse?
+                </caption>
 
-                <li>
+                <image source="images/InverseNotInj.png">
+                    <shortdescription>
+                        An arrow diagram showing a non-injective function.
+                    </shortdescription>
+                </image>
+            </figure>
+
+            <figure>
+                <caption>
+                    A function that is not a surjection.
+                    Why does it not have an inverse?
+                </caption>
+
+                <image source="images/InverseNotSurj.png">
+                    <shortdescription>
+                        An arrow diagram showing a non-surjective function.
+                    </shortdescription>
+                </image>
+            </figure>
+        </sidebyside>
+
+        <p workspace="1in"/>
+        <activity workspace="1in">
+            <p>
+                In college algebra, you were likely asked many times to find the
+                inverse of a function like <m>f(x)=x^3-5</m>.
+                Work with your group to try to remember ways you were taught to
+                do that.
+                Then think about how that relates to the definition given in
+                your text.
+            </p>
+        </activity>
+    </page>
+
+    <page>
+        <activity>
+            <introduction>
+                <p>
+                    One of the big ideas of inverse functions is that they allow
+                    us to <q>undo</q> functions.
+                    E.g., <m>\log_2(x)</m> undoes <m>2^x</m> in the sense that
+                    <m>\log_2(2^x) = x = 2^{\log_2(x)}</m>.
+                    Similarly, <m>\arcsin(x)</m> undoes <m>\sin(x)</m>.
+                    This activity is going to ask, if we can take square roots
+                    and cube roots modulo <m>5</m>.
+                </p>
+            </introduction>
+
+            <task workspace="1in">
+                <statement>
                     <p>
-                        FOURTH: The conclusion definition is a conditional
-                        statement, so we will assume its hypothesis which is
-                        <fillin characters="20"/> which can be rewritten as
-                        <fillin characters="20"/>
+                        Define <m>f: \mathbb{R} \to \mathbb{R}</m> by
+                        <m>f(x) = x^2</m>.
+                        Then we might say the inverse is
+                        <m>g: \mathbb{R} \to\mathbb{R}</m> where
+                        <m>g(x) = \sqrt{x}</m>.
+                        Is <m>g</m> a function?
+                        Why or why not?
+                        What about if we change <m>f</m> to <m>x^3</m> and
+                        <m>g</m> to <m>\sqrt[3]{x}</m>?
                     </p>
-                </li>
+                </statement>
+            </task>
 
-                <li>
-                    <p workspace="2in">
-                        FIFTH: Work your way to the conclusion.
-                        Hint in footnote!
-                        <fn>Hint - you know <m>f(g(a_1))= f(g(a_2))</m>, what can you say about <m>g(a_1)</m> and <m>g(a_2)</m> given that <m>f</m> is an injection. </fn>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Let <m>R_5 = \{0,1,2,3,4\}</m> for the rest of the
+                        questions.
                     </p>
-                </li>
 
-                <li>
-                    <p workspace=".5in">
-                        THIRD: Proving (conclusion): <fillin characters="30"/>
-                        This means:
+                    <p>
+                        Define <m>h: R_5 \to R_5</m> by
+                        <m>h(x)=x^2 \pmod{5}</m>.
+                        Find <m>h(a)</m> for all <m>a\in R_5</m>.
+                        Does <m>h</m> have an inverse function?
                     </p>
-                </li>
-            </ul>
-        </p>
-    </proof>
+                </statement>
+            </task>
 
-    <p>
-        Here's a fill in the blank proof of <xref ref="ch08-thm-compinj"/>
-    </p>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Define <m>j: R_5 \to R_5</m> by
+                        <m>j(x)=x^3 \pmod{5}</m>.
+                        Find <m>j(a)</m> for all <m>a\in R_5</m>.
+                        Does <m>j</m> have an inverse function?
+                    </p>
+                </statement>
+            </task>
 
-    <theorem xml:id="ch08-thm-compisinj">
-        <statement>
-            <p>
-                Suppose <m>A,B,</m> and <m>C</m> are sets, <m>g:A \to B</m> is
-                injective and <m>f:B\to C</m> is injective.
-                Then <m>f\circ g</m> is injective.
-            </p>
-        </statement>
-    </theorem>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Define <m>k: R_5 \to R_5</m> by
+                        <m>k(x)=x^3 -2 \pmod{5}</m>.
+                        Can you find a formula for <m>k^{-1}(x)</m>?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+    </page>
 
-    <proof>
-        <p workspace=".5in">
-            Suppose <m>A,B,</m> and <m>C</m> are sets and that <m>f: B\to C</m>
-            is injective.
-            We will show <m>f\circ g</m> is injective by showing that
-        </p>
-
-        <p workspace=".5in">
-            To this end, assume <m>a_1,a_2\in A</m> and
-            <m>(f \circ g)(a_1) = (f\circ g)(a_2)</m>.
-            We aim to show: <fillin characters="20"/> Applying the definition of
-            composition to <m>(f \circ g)(a_1) = (f\circ g)(a_2)</m> we get
-        </p>
-
+    <page>
         <p>
-            Since <m>f: B\to C</m> is <fillin characters="20"/>, if
-            <fillin characters="20"/> for any <m>b_1, b_2 \in B</m>, then
-            <fillin characters="20"/>.
-            In particular, observe that <m>g(a_1), g(a_2)\in B</m> and
-            <m>f(g(a_1))=f(g(a_2))</m> and so <fillin characters="20"/>.
-        </p>
-
-        <p>
-            Likewise, <m>g: A\to B</m> is <fillin characters="20"/> and we just
-            showed that <m>g(a_1)=g(a_2)</m> where <m>a_1, a_2\in A</m>.
-            This implies <fillin characters="20"/>.
-        </p>
-
-        <p>
-            We have shown that for <m>a_1,a_2 \in A</m>, if
-            <m>(f\circ g)(a_1) = (f\circ g)(a_2)</m> then <m>a_1 = a_2</m>.
-            Thus, <m>f\circ g</m> is an injection.
-        </p>
-    </proof>
-
-  
-
-    <activity workspace="4in">
-        <task>
-            <p>
-                Do a proof sketch that the composition of two surjections is a
-                surjection. 
-            </p>
-        </task>
-
-        <task>
-            <p>
-                Proof sketch: (Start by writing down what you are assuming at
-                the top and what you are proving at the bottom, then write
-                definitions of each.)
-            </p>
-        </task>
-    </activity>
-
-    <p>
-        Here's a fill in the blank proof that the composition of two surjections
-        has to be a surjection.
-    </p>
-
-    <theorem xml:id="ch08-thm-compissurj">
-        <statement>
-            <p>
-                Suppose <m>A,B,</m> and <m>C</m> are sets, <m>g:A \to B</m> is
-                surjective and <m>f:B\to C</m> is surjective.
-                Then <m>f\circ g</m> is surjective.
-            </p>
-        </statement>
-    </theorem>
-
-    <proof>
-        <p workspace=".5in">
-            We assume that <m>A</m>, <m>B</m>, <m>C</m> are subsets of some
-            universal set.
-            Furthermore, we are given that function <m>f: A \to B</m> is a
-            surjection.
-            By definition, this means that: 
-            
-        </p>
-
-        <p workspace=".5in">
-            Also, we are given that <m>g: B \to C</m> is a surjection.
-            By definition, this means that: 
-        </p>
-
-        <p>
-            We want to show that <m>g \circ f : A \to C</m> is also a
-            surjection.
-            That is, we must show that for all
-            <m> <fillin characters="5" /> \in <fillin characters="5" /></m>,
-            there exists <m> c \in <fillin characters="5" /> </m> such that <m> <fillin characters="5" /> = <fillin characters="5" /> </m>.
-        </p>
-        <p>
-            We begin. by assuming that <m>c \in C</m>.
-            Because <m>g</m> is a surjection with codomain <m>C</m>, and
-            <m>c \in C</m>, we know that there exists
-            <m> <fillin characters="5" /> \in <fillin characters="5" /></m>, such
-            that  <m> <fillin characters="10" />.</m>
-        </p>
-
-        <p workspace="1in">
-            Because <m>f</m> is a surjection with codomain <m>B</m>, we know
-        </p>
-
-        <p>
-            Putting these facts together, we have: <md>
-              (g \circ
-            f)( <fillin characters="5" /> ) = g(f( <fillin characters="5" /> ))  = <fillin characters="5" />
-            </md>
-
-        </p>
-
-        <p workspace=".5in">
-            Therefore, we have shown that: 
-        </p>
-    </proof>
-
-    <corollary>
-        <statement>
-            <p>
-                Suppose <m>A,B,</m> and <m>C</m> are sets, <m>g:A \to B</m> is
-                bijective and <m>f:B\to C</m> is bijective.
-                Then <m>f\circ g</m> is bijective.
-            </p>
-        </statement>
-    </corollary>
-
-    <proof>
-      <p>
-        Suppose <m>f</m> and <m>g</m> are bijections. Then <m>f</m> and <m>g</m> are both injections and surjections. So by <xref ref="ch08-thm-compisinj"/> and <xref ref="ch08-thm-compissurj"/>, <m>f\circ g</m> is an injection and a surjection.
-      </p>
-    </proof>
-
-    <p>
-        It is also true that if <m>f\circ g</m> is an injection then <m>g</m> is
-        an injection, and if <m>f\circ g</m> is a surjection then <m>f</m> is a
-        surjection.
-    </p>
-
-    <theorem xml:id="ch08-thm-compsurjfsurj">
-        <statement>
-            <p>
-                Suppose <m>A,B,</m> and <m>C</m> are sets, and <m>g: A\to B</m>
-                and <m>f: B\to C</m> are functions.
-                If <m>f\circ g</m> is surjective, then <m>f</m> is surjective.
-            </p>
-        </statement>
-    </theorem>
-
-<activity>
-  <p> Sketch a proof of <xref ref="ch08-thm-compsurjfsurj"/>.
-        What are you assuming?
-        Write that at the top.
-        What are you proving?
-        Write that at the bottom.
-        Write definitions of each!
-    </p>
-
-</activity>
-
-    
-    <theorem xml:id="ch08-thm-compinjginj">
-        <statement>
-            <p>
-                Suppose <m>A,B,</m> and <m>C</m> are sets, and <m>g: A\to B</m>
-                and <m>f: B\to C</m> are functions.
-                If <m>f\circ g</m> is injective, then <m>g</m> is injective.
-            </p>
-        </statement>
-    </theorem>
-
-    <activity>
-  <p> Sketch a proof of <xref ref="ch08-thm-compinjginj"/>.
-        What are you assuming?
-        Write that at the top.
-        What are you proving?
-        Write that at the bottom.
-        Write definitions of each!
-    </p>
-
-</activity>
-
-    <paragraphs>
-        <title>Inverse Functions</title>
-
-        <p/>
-    </paragraphs>
-
-    <theorem>
-        <statement>
-            <p>
-                A function <m>f: A\to B</m> is invertible if and only if
-                <m>f</m> is a bijection.
-            </p>
-        </statement>
-    </theorem>
-
-    <p>
-        There's a proof of this theorem on pages 355-356 of your textbook, which
-        I encourage you to read.
-        These 2 pictures from your preview activity reading show the big idea
-        behind why if <m>f</m> is not a bijection, then <m>f^{-1}</m> is not a
-        function.
-    </p>
-
-    <sidebyside widths="40% 40%">
-        <figure>
-            <caption>
-                A function that is not an injection.
-                Why does it not have an inverse?
-            </caption>
-
-            <image source="images/InverseNotInj.png">
-                <shortdescription>
-                    An arrow diagram showing a non-injective function.
-                </shortdescription>
-            </image>
-        </figure>
-
-        <figure>
-            <caption>
-                A function that is not a surjection.
-                Why does it not have an inverse?
-            </caption>
-
-            <image source="images/InverseNotSurj.png">
-                <shortdescription>
-                    An arrow diagram showing a non-surjective function.
-                </shortdescription>
-            </image>
-        </figure>
-    </sidebyside>
-
-    <p workspace="1in"/>
-    <activity workspace="1in">
-        <p>
-            In college algebra, you were likely asked many times to find the
-            inverse of a function like <m>f(x)=x^3-5</m>.
-            Work with your group to try to remember ways you were taught to do
-            that.
-            Then think about how that relates to the definition given in your
-            text.
-        </p>
-    </activity>
-
-    <activity>
-        <introduction>
-            <p>
-                One of the big ideas of inverse functions is that they allow us
-                to <q>undo</q> functions.
-                E.g., <m>\log_2(x)</m> undoes <m>2^x</m> in the sense that
-                <m>\log_2(2^x) = x = 2^{\log_2(x)}</m>.
-                Similarly, <m>\arcsin(x)</m> undoes <m>\sin(x)</m>.
-                This activity is going to ask, if we can take square roots and
-                cube roots modulo <m>5</m>.
-            </p>
-        </introduction>
-
-        <task workspace="1in">
-            <statement>
-                <p>
-                    Define <m>f: \mathbb{R} \to \mathbb{R}</m> by
-                    <m>f(x) = x^2</m>.
-                    Then we might say the inverse is
-                    <m>g: \mathbb{R} \to\mathbb{R}</m> where
-                    <m>g(x) = \sqrt{x}</m>.
-                    Is <m>g</m> a function?
-                    Why or why not?
-                    What about if we change <m>f</m> to <m>x^3</m> and <m>g</m>
-                    to <m>\sqrt[3]{x}</m>?
-                </p>
-            </statement>
-        </task>
-
-        <task workspace="1in">
-            <statement>
-                <p>
-                    Let <m>R_5 = \{0,1,2,3,4\}</m> for the rest of the
-                    questions.
-                </p>
-
-                <p>
-                    Define <m>h: R_5 \to R_5</m> by <m>h(x)=x^2 \pmod{5}</m>.
-                    Find <m>h(a)</m> for all <m>a\in R_5</m>.
-                    Does <m>h</m> have an inverse function?
-                </p>
-            </statement>
-        </task>
-
-        <task workspace="1in">
-            <statement>
-                <p>
-                    Define <m>j: R_5 \to R_5</m> by <m>j(x)=x^3 \pmod{5}</m>.
-                    Find <m>j(a)</m> for all <m>a\in R_5</m>.
-                    Does <m>j</m> have an inverse function?
-                </p>
-            </statement>
-        </task>
-
-        <task workspace="1in">
-            <statement>
-                <p>
-                    Define <m>k: R_5 \to R_5</m> by <m>k(x)=x^3 -2 \pmod{5}</m>.
-                    Can you find a formula for <m>k^{-1}(x)</m>?
-                </p>
-            </statement>
-        </task>
-    </activity>
-
-    <p>
-        In the following activities, start by doing some examples of where a few
-        elements in the domain map to in the codomain.
-        Then <q> push</q> on it a little bit - try to get elements of the domain
-        to map to the same element in the codomain.
-        Try to find an element that doesn't get mapped to, and do some scratch
-        work to see if it does.
-        For functions that are from <q> one dimension</q> to
-        <q> one
+            In the following activities, start by doing some examples of where a
+            few elements in the domain map to in the codomain.
+            Then <q> push</q> on it a little bit - try to get elements of the
+            domain to map to the same element in the codomain.
+            Try to find an element that doesn't get mapped to, and do some
+            scratch work to see if it does.
+            For functions that are from <q> one dimension</q> to
+            <q> one
                 dimension</q> you might graph (I would use
-        Desmos).
-    </p>
+            Desmos).
+        </p>
 
-    <activity>
-        <title>More Practice With 'Jections</title>
+        <activity>
+            <title>More Practice With 'Jections</title>
 
-        <introduction>
-            <p>
-                Prove that each of the following are both injections and
-                surjections (and hence bijections).
-            </p>
-        </introduction>
+            <introduction>
+                <p>
+                    Prove that each of the following are both injections and
+                    surjections (and hence bijections).
+                </p>
+            </introduction>
 
-        <task workspace="2in">
-            <p>
-                <m>g: \mathbb{R}-\{1\} \to \mathbb{R}-\{1\}</m> defined by
-                <m>g(x) = \frac{x}{x-1}</m>.
-            </p>
-        </task>
+            <task workspace="2in">
+                <p>
+                    <m>g: \mathbb{R}-\{1\} \to \mathbb{R}-\{1\}</m> defined by
+                    <m>g(x) = \frac{x}{x-1}</m>.
+                </p>
+            </task>
 
-        <task workspace="2in">
-            <p>
-                <m>f: \mathbb{R} \to S</m> defined by
-                <m>f(x) = 2\cdot 3^{4x-1} + 7</m>, where
-                <m>S = \{y\in\mathbb{R}: y&gt;7\}</m>.
-            </p>
-        </task>
+            <task workspace="2in">
+                <p>
+                    <m>f: \mathbb{R} \to S</m> defined by
+                    <m>f(x) = 2\cdot 3^{4x-1} + 7</m>, where
+                    <m>S = \{y\in\mathbb{R}: y&gt;7\}</m>.
+                </p>
+            </task>
 
-        <task workspace="2in">
-            <p>
-                <m>h: \mathbb{R}\times \mathbb{R} \to \mathbb{R} \times \mathbb{R}</m>
-                defined by <m>h(x,y) = (-x+y, 2y)</m>.
-            </p>
-        </task>
-    </activity>
+            <task workspace="2in">
+                <p>
+                    <m>h: \mathbb{R}\times \mathbb{R} \to \mathbb{R} \times \mathbb{R}</m>
+                    defined by <m>h(x,y) = (-x+y, 2y)</m>.
+                </p>
+            </task>
+        </activity>
+    </page>
 
-    <activity workspace="2in">
-        <title>Conjecturing, Proving, and Disproving</title>
+    <page>
+        <activity workspace="2in">
+            <title>Conjecturing, Proving, and Disproving</title>
 
-        <introduction>
-            <p>
-                For each of the following, prove or disprove whether they are
-                injections and/or surjections.
-                See the advice before the previous activity!
-            </p>
-        </introduction>
+            <introduction>
+                <p>
+                    For each of the following, prove or disprove whether they
+                    are injections and/or surjections.
+                    See the advice before the previous activity!
+                </p>
+            </introduction>
 
-        <task>
-            <p>
-                Define
-                <m>f: \mathbb{R}\times\mathbb{R} \to \mathbb{R}\times \mathbb{R}</m>
-                by <m>f(a,b) = (2a+b,2a-b)</m>.
-            </p>
-        </task>
+            <task>
+                <p>
+                    Define
+                    <m>f: \mathbb{R}\times\mathbb{R} \to \mathbb{R}\times \mathbb{R}</m>
+                    by <m>f(a,b) = (2a+b,2a-b)</m>.
+                </p>
+            </task>
 
-        <task>
-            <p>
-                Define <m>f: \mathbb{Z} \to\mathbb{Z}</m> by <m>f(x) = 2x-4</m>.
-            </p>
-        </task>
+            <task>
+                <p>
+                    Define <m>f: \mathbb{Z} \to\mathbb{Z}</m> by
+                    <m>f(x) = 2x-4</m>.
+                </p>
+            </task>
 
-        <task>
-            <p>
-                Define
-                <m>f: \mathbb{R}\times\mathbb{R} \to \mathbb{R}\times \mathbb{R}</m>
-                by <m>f(a,b) = (2a+b,2a-b)</m>.
-            </p>
-        </task>
+            <task>
+                <p>
+                    Define
+                    <m>f: \mathbb{R}\times\mathbb{R} \to \mathbb{R}\times \mathbb{R}</m>
+                    by <m>f(a,b) = (2a+b,2a-b)</m>.
+                </p>
+            </task>
 
-        <task>
-            <p>
-                Define <m>f: \mathbb{Z} \to\mathbb{Z}</m> by <m>f(x) = 2x-4</m>.
-            </p>
-        </task>
-    </activity>
+            <task>
+                <p>
+                    Define <m>f: \mathbb{Z} \to\mathbb{Z}</m> by
+                    <m>f(x) = 2x-4</m>.
+                </p>
+            </task>
+        </activity>
+    </page>
 </handout>

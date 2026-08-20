@@ -3,6 +3,9 @@
 <handout>
     <title>Proving and Disproving Injection and Surjection</title>
 
+    <page>
+        
+
     <p>
         Let's start with disproving.
         Recall the following definitions.
@@ -78,6 +81,11 @@
         </task>
     </activity>
 
+        </page>
+
+        <page>
+            
+ 
     <paragraphs>
         <title>Proving Injection and Surjection</title>
         <p>
@@ -205,6 +213,10 @@
         </task>
     </activity>
 
+           </page>
+
+           <page>
+
     <theorem>
         <statement>
             <p>
@@ -286,4 +298,6 @@
             injection, we have shown that <m>f</m> is a bijection.
         </p>
     </proof>
+
+</page>
 </handout>
