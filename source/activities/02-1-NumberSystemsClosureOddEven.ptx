@@ -275,10 +275,9 @@
     </page>
 
     <page>
-       
         <figure xml:id="fig-sandwich">
             <caption>
-               A set of things some people may or may not consider sandwiches.
+                A set of things some people may or may not consider sandwiches.
             </caption>
 
             <image source="images/Sandwiches.png" width="50%">
@@ -287,11 +286,15 @@
                 </shortdescription>
             </image>
         </figure>
- 
-
 
         <activity>
             <title>Defining a Sandwich</title>
+
+            <introduction>
+                <p>
+                    Based upon the awesome original by Matt Salomone.
+                </p>
+            </introduction>
 
             <task>
                 <statement>

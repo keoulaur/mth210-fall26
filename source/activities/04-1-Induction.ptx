@@ -42,6 +42,10 @@
 
         <p>
             <term>Example Of Formal Writing of a Proof by Mathematical Induction.</term>
+
+            In the proof below, read one sentence at a time, trying to make sense of the steps and the logic. 
+            Underline the parts that you think 
+            will be in every proof by induction.
         </p>
 
         <theorem>
@@ -114,6 +118,9 @@
             </p>
         </proof>
 
+            </page>
+
+    <page>
         <p workspace=".5in"/>
         <p>
             There are multiple ways to do the inductive step.
@@ -126,9 +133,7 @@
             The vertical dots in the proof below indicate that the rest of the
             proof is the same as the one above.
         </p>
-    </page>
 
-    <page>
         <proof>
             <p>
                 We will use a proof by mathematical induction.

@@ -2,6 +2,8 @@
 
 <handout>
     <title>What is Proof by Contradiction and Why Do It?</title>
+<page>
+    
 
     <p>
         In a <term>proof by contradiction</term>, we
@@ -62,16 +64,22 @@
       To answer this, you might discuss: (a) What is the negation and how might that be helpful for starting a proof? (b) What other proof techniques could you try and how would those start? </p>
     </activity>
 
+    </page>
+
+    <page>
+        
+
     <paragraphs>
         <title>First Example</title>
 
         <p>
-            You have already seen a proof by contradiction, on page 38 of the
-            worksheets, in Chapter 3 about sets.
+            You have already seen a proof by contradiction!  See <xref ref="thm-disjoint-congruence"/>
+            which is a theorem about disjoint subsets. 
         </p>
 
         <p>
-            Read the following proof, one sentence at a time, and underline
+            The theorem and proof are repeated below. Read them, one sentence at a time, 
+            and underline
             sentences that you think will be in every proof by contradiction.
         </p>
     </paragraphs>
@@ -151,4 +159,6 @@
             What would change about the proof above?
         </p>
     </remark>
+
+        </page>
 </handout>

@@ -1,0 +1,83 @@
+<worksheet xml:id="ws-what-is-a-sandwich">
+	<title>What is a Sandwich?!</title>
+
+  <page>
+    <exercise>
+      <title>Well?</title>
+
+      <statement>
+        <p>
+          Circle the food items below that you would consider to be a
+          "sandwich":
+        </p>
+        <plus:image ref="sandwiches"/>
+      </statement>
+    </exercise>
+
+    <p>
+      Then <alert>turn the page</alert>, leaving the questions below blank.
+    </p>
+
+    <exercise workspace="1in">
+      <title>What did they mean?</title>
+
+      <statement>
+        <p>
+          If another student has given you this worksheet, use the space below
+          to guess their definition of a sandwich.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise workspace="1in">
+      <title>And what else?</title>
+
+      <statement>
+        <p>
+          If another student has given you this worksheet, use this space below
+          to guess what else they might consider to be a sandwich.
+        </p>
+      </statement>
+    </exercise>
+
+    <p>
+      Now <alert>turn the page</alert> to see what the other student wrote.
+    </p>
+  </page>
+
+  <page>
+    <exercise workspace="1in">
+      <title>And what do you really mean by that?</title>
+
+      <statement>
+        <p>
+          If you circled the images on the other side of the sheet, use this
+          space to write a careful definition of what makes a "sandwich" a
+          "sandwich".
+        </p>
+      </statement>
+      <hint>
+        <p>
+            For example: "A sandwich is any food that uses two slices of bread."
+        </p>
+      </hint>
+    </exercise>
+
+    <p>
+      Then <alert>do not answer the below question</alert>,
+      and wait for further instructions.
+    </p>
+
+    <exercise workspace="1in">
+      <title>Oh really, huh?</title>
+
+      <statement>
+        <p>
+          If another student has given you this worksheet, look at how they
+          defined a sandwich above. Describe a (ridiculous, if you can) food
+          item that is <em>technically</em> a sandwich by their definition.
+        </p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

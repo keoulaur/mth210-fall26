@@ -303,16 +303,17 @@
                     </sidebyside>
                 </statement>
             </task>
-   </activity>
-        </page>
-<page>
+        </activity>
+    </page>
+
+    <page>
         <activity>
-            
-     <introduction>
-        <p>
-            Same instructions as <xref ref="act-06-contraeasier"/>
-        </p>
-     </introduction>
+            <introduction>
+                <p>
+                    Same instructions as <xref ref="act-06-contraeasier"/>
+                </p>
+            </introduction>
+
             <task>
                 <statement>
                     <p>
@@ -355,7 +356,7 @@
                         <em> Circle one and briefly explain: </em>
                     </p>
 
-                   <sidebyside>
+                    <sidebyside>
                         <p>
                             Easier to prove the original
                         </p>
@@ -383,7 +384,7 @@
                         <em> Circle one and briefly explain: </em>
                     </p>
 
-                  <sidebyside>
+                    <sidebyside>
                         <p>
                             Easier to prove the original
                         </p>
@@ -436,7 +437,9 @@
                 </p>
             </statement>
         </activity>
+    </page>
 
+    <page>
         <paragraphs>
             <title>Proof Evaluation</title>
 
@@ -444,9 +447,7 @@
                 Evaluating reasoning is an important skill!
             </p>
         </paragraphs>
-    </page>
 
-    <page>
         <activity workspace="1in">
             <statement>
                 <p>

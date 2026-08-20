@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <handout>
-    <title>Practicing Whole Proofs By Contradiction</title>
+  <title>Practicing Whole Proofs By Contradiction</title>
+  
+  
 
+  <page>
+    
     <p>
         Recall a real number <m>x</m> is <term>rational</term> if
         <m>x=\frac{a}{b}</m> for some <m>a,b\in\mathbb{Z}</m> with
@@ -45,7 +49,7 @@
 </lemma>
 
 
-    <activity workspace="5in">
+    <activity>
         <p>
             Work to prove the theorems in <xref ref="act-contradictionstart"/>.
         </p>
@@ -54,4 +58,12 @@
             What are some examples of contradictions you can get?
         </p>
     </activity>
+
+      </page>
+      <page>
+
+    <p>
+      Additional space to work.
+    </p>
+  </page>
 </handout>
