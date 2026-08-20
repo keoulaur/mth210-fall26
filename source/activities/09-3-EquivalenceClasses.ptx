@@ -3,426 +3,441 @@
 <handout>
     <title>Equivalence Classes</title>
 
-    <definition>
-        <statement>
-            <p>
-                Let <m>\sim</m> be an equivalence relation on a nonempty set of
-                <m>A</m>.
-                Then the
-                <term>equivalence class of of <m>a</m> determined by <m>\sim</m></term>
-                is
-                <md>
-                    [a]_{\sim} = \{x\in A \mid x \sim a \} .
-                </md>
-            </p>
-        </statement>
-    </definition>
-
-    <theorem>
-        <title>Equivalence Classes Partition</title>
-
-        <statement>
-            <p>
-                Let <m>A</m> be a nonempty set and let <m>\sim</m> be an
-                equivalence relation on <m>A</m>.
-                Then
-            </p>
-
-            <p>
-                <ol>
-                    <li>
-                        <p>
-                            For each <m>a\in A</m>, <m>[a]</m> is nonempty (in
-                            particular, <m>a\in [a]</m> ).
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            For each <m>a,b\in A</m>, <m>a\sim b</m> if and only
-                            if <m>[a]=[b]</m>.
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            For each <m>a,b\in A, [a] =[b]</m> or
-                            <m>[a] \cap [b] = \emptyset</m>.
-                        </p>
-                    </li>
-                </ol>
-            </p>
-        </statement>
-    </theorem>
-
-    <activity>
-        <title>(Working with equivalence classes)</title>
-
-        <task workspace="1in">
-            <statement>
-                <p>
-                    Let <m>A = \{0,1,2,3,\dots, 999, 1000\}</m> and define
-                    <m>\sim</m> by
-                </p>
-
-                <p>
-                    For <m>x,y\in A</m>, <m>x\sim y</m> if and only if <m>x</m>
-                    and <m>y</m> have the same number of digits.
-                </p>
-
-                <p>
-                    This is an equivalence relation (briefly think about why).
-                    Determine all the distinct equivalence classes determined by
-                    <m>\sim</m>.
-                </p>
-            </statement>
-        </task>
-
-        <task workspace="1in">
-            <introduction>
-                <p>
-                    Recall that <m>\mathcal{M}_{2\times 2}(\mathbb{R})</m> is
-                    the set of all <m>2\times 2</m> matrices and that if
-                    <m>A = \begin{bmatrix} a \amp b \\ c \amp d\end{bmatrix}</m>
-                    then the determinant of <m>A</m> is given by
-                    <m>\det(A) = ad-bc</m>.
-                    Define <m>\sim</m> by,
-                </p>
-
-                <p>
-                    For all <m>A,B \in \mathcal{M}_{2\times 2}(\mathbb{R})</m>,
-                    <m>A\sim B</m> if and only if <m>\det(A) = \det(B)</m>.
-                </p>
-            </introduction>
-
-            <task>
-                <statement>
-                    <p>
-                        Find two matrices <m>A</m> and <m>B</m> such that
-                        <m>A\sim B</m>.
-                    </p>
-                </statement>
-            </task>
-
-            <task>
-                <statement>
-                    <p>
-                        Is <m>\sim</m> an equivalence relation?
-                        (Briefly think about it, don't need to prove.)
-                    </p>
-                </statement>
-            </task>
-
-            <task>
-                <statement>
-                    <p>
-                        Let
-                        <m>X = \begin{bmatrix} 0 \amp 0 \\ 0 \amp 0 \end{bmatrix}</m>.
-                        Find two elements of <m>[X]_{\sim}</m>.
-                        <fn><em>Challenge Question:</em> Can you find the entire equivalence class?</fn>
-                    </p>
-                </statement>
-            </task>
-        </task>
-    </activity>
-
-    <activity workspace="1in">
-        <title>
-            Equivalence Classes for Congruence Modulo <m>3</m>- MTH 350
-        </title>
-
-        <introduction>
-            <p>
-                This is a preview activity taken from the 5th chapter of the
-                modern algebra text used by many professors at GVSU.
-            </p>
-
-            <p>
-                <em>For each integer <m>a</m>, let <m>[a]_3</m> denote the set of all integers that are congruent to <m>a</m> modulo <m>3</m>.  Note this is the equivalence class of <m>a</m> under the congruence modulo <m>3</m> equivalence relation.</em>
-            </p>
-        </introduction>
-
-        <task>
-            <statement>
-                <p>
-                    Determine <m>[0]_3, [1]_3, [2]_3, [3]_3, [4]_3,</m> and
-                    <m>[5]_3</m>.
-                </p>
-            </statement>
-        </task>
-
-        <task>
-            <statement>
-                <p>
-                    What is the remainder when <m>734</m> is divided by
-                    <m>3</m>?
-                    Which, if any, of the sets <m>[0]_3</m>, <m>[1]_3</m>, and
-                    <m>[2]_3</m> contain <m>734</m>?
-                </p>
-            </statement>
-        </task>
-
-        <task>
-            <statement>
-                <p>
-                    Which elements belong to <m>[0]_3\cap [1]_3</m>?
-                    What about <m>[0]_3\cap [2]_3</m>, or
-                    <m>[1]_3\cap [2]_3</m>?
-                </p>
-            </statement>
-        </task>
-
-        <task>
-            <statement>
-                <p>
-                    What familiar set is <m>[0]_3\cup [1]_3 \cup [2]_3</m> equal
-                    to, and why?
-                </p>
-            </statement>
-        </task>
-
-        <task>
-            <statement>
-                <p>
-                    Based on your answers above, make as many conjectures as you
-                    can about <m>[0]_3, [1]_3, [2]_3, [3]_3, </m>
-                    <m>[4]_3,[5]_3,\dots</m> (the equivalence classes of
-                    congruence modulo <m>3</m> ).
-                </p>
-            </statement>
-        </task>
-    </activity>
-
-    <paragraphs>
-        <title>Congruence Classes and Congruence Arithmetic</title>
-
-        <p>
-            If the equivalence relation is congruence, then we use the term
-            <em>congruence class</em> rather than equivalence class.
-            The great thing about congruence classes is that you can add and
-            multiply them in a natural way.
-        </p>
-
+    <page>
         <definition>
             <statement>
                 <p>
-                    Let <m>a,b\in\mathbb{Z}</m> and <m>n\in\mathbb{N}</m>.
-                    Then
+                    Let <m>\sim</m> be an equivalence relation on a nonempty set
+                    of <m>A</m>.
+                    Then the
+                    <term>equivalence class of of <m>a</m> determined by <m>\sim</m></term>
+                    is
                     <md>
-                        [a]_n +_n [b]_n = [a+b]_n
+                        [a]_{\sim} = \{x\in A \mid x \sim a \} .
                     </md>
-                    and
-                    <md>
-                        [a]_n\cdot_n [b]_n = [a \cdot b]_n
-                    </md>.
                 </p>
             </statement>
         </definition>
 
-        <p>
-            This may seem obvious to you, but there are some very subtle things
-            going on.
-            Perhaps the weirdest is that <m>[a]_n</m> is really a set, an
-            infinite set.
-            So what you're actually doing is adding and multiplying infinite
-            sets.
-        </p>
-    </paragraphs>
+        <theorem>
+            <title>Equivalence Classes Partition</title>
 
-    <example workspace="1in">
-        <p>
-            What is <m>
-            [1]_3 +_3 [2]_3
-        </m>?
-            What is <m>
-            [2]_3 \cdot_3 [2]_3
-        </m>?
-        </p>
-    </example>
-
-    <p>
-        Notice that we've only used the congruence classes <m>[0]_3, [1]_3,</m>
-        and <m>[2]_3</m> since these are the only distinct congruence classes
-        modulo <m>3</m>.
-        We typically let <m>\Z_3 = \{[0]_3, [1]_3,[2]_3\}</m>.
-        Also, note <m>[2]_3 \cdot [2]_3 = [4]_3</m>.
-        However, <m>[4]_3=[1]_3</m> so we choose <m>1</m> to be our
-        representative of that congruence class.
-    </p>
-
-    <p>
-        Here are are addition and multiplication tables when we consider
-        congruence modulo <m>3</m>:
-    </p>
-
-    <tabular>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center"/>
-        <row bottom="minor">
-            <cell><m>+_{3}</m></cell>
-            <cell><m>[0]_{3}</m></cell>
-            <cell><m>[1]_{3}</m></cell>
-            <cell><m>[2]_{3}</m></cell>
-        </row>
-
-        <row bottom="minor">
-            <cell><m>[0]_{3}</m></cell>
-            <cell><m>[0]_3</m></cell>
-            <cell><m>[1]_3</m></cell>
-            <cell><m>[2]_3</m></cell>
-        </row>
-
-        <row bottom="minor">
-            <cell><m>[1]_{3}</m></cell>
-            <cell><m>[1]_3</m></cell>
-            <cell><m>[2]_3</m></cell>
-            <cell><m>[0]_3</m></cell>
-        </row>
-
-        <row>
-            <cell><m>[2]_{3}</m></cell>
-            <cell><m>[2]_3</m></cell>
-            <cell><m>[0]_3</m></cell>
-            <cell><m>[1]_3</m></cell>
-        </row>
-    </tabular>
-
-    <tabular>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center"/>
-        <row bottom="minor">
-            <cell><m>\cdot_{3}</m></cell>
-            <cell><m>[0]_{3}</m></cell>
-            <cell><m>[1]_{3}</m></cell>
-            <cell><m>[2]_{3}</m></cell>
-        </row>
-
-        <row bottom="minor">
-            <cell><m>[0]_{3}</m></cell>
-            <cell><m>[0]_3</m></cell>
-            <cell><m>[0]_3</m></cell>
-            <cell><m>[0]_3</m></cell>
-        </row>
-
-        <row bottom="minor">
-            <cell><m>[1]_{3}</m></cell>
-            <cell><m>[0]_3</m></cell>
-            <cell><m>[1]_3</m></cell>
-            <cell><m>[2]_3</m></cell>
-        </row>
-
-        <row>
-            <cell><m>[2]_{3}</m></cell>
-            <cell><m>[0]_3</m></cell>
-            <cell><m>[2]_3</m></cell>
-            <cell><m>[1]_3</m></cell>
-        </row>
-    </tabular>
-
-    <activity workspace="2in">
-        <task>
             <statement>
                 <p>
-                    Complete the addition and multiplication tables for
-                    <m>\mathbb{Z}_4</m>, <m>\mathbb{Z}_5</m>,
-                    <m>\mathbb{Z}_6</m> and <m>\mathbb{Z}_7</m> (you don't have
-                    to write all the [ ]'s but do pick the representative that
-                    is in that <m>\mathbb{Z}_n</m>.
-                    What do you notice?
-                    What do you wonder?
+                    Let <m>A</m> be a nonempty set and let <m>\sim</m> be an
+                    equivalence relation on <m>A</m>.
+                    Then
+                </p>
+
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                For each <m>a\in A</m>, <m>[a]</m> is nonempty
+                                (in particular, <m>a\in [a]</m> ).
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                For each <m>a,b\in A</m>, <m>a\sim b</m> if and
+                                only if <m>[a]=[b]</m>.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                For each <m>a,b\in A, [a] =[b]</m> or
+                                <m>[a] \cap [b] = \emptyset</m>.
+                            </p>
+                        </li>
+                    </ol>
                 </p>
             </statement>
-        </task>
+        </theorem>
 
-        <task>
+        <activity>
+            <title>Finding equivalence classes</title>
+
+            <task workspace=".8in">
+                <statement>
+                    <p>
+                        Let <m>A = \{0,1,2,3,\dots, 999, 1000\}</m> and define
+                        <m>\sim</m> by
+                    </p>
+
+                    <p>
+                        For <m>x,y\in A</m>, <m>x\sim y</m> if and only if
+                        <m>x</m> and <m>y</m> have the same number of digits.
+                    </p>
+
+                    <p>
+                        This is an equivalence relation (briefly think about
+                        why).
+                        Determine all the distinct equivalence classes
+                        determined by <m>\sim</m>.
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace=".6in">
+                <introduction>
+                    <p>
+                        Recall that <m>\mathcal{M}_{2\times 2}(\mathbb{R})</m>
+                        is the set of all <m>2\times 2</m> matrices and that if
+                        <m>A = \begin{bmatrix} a \amp b \\ c \amp d\end{bmatrix}</m>
+                        then the determinant of <m>A</m> is given by
+                        <m>\det(A) = ad-bc</m>.
+                        Define <m>\sim</m> by,
+                    </p>
+
+                    <p>
+                        For all
+                        <m>A,B \in \mathcal{M}_{2\times 2}(\mathbb{R})</m>,
+                        <m>A\sim B</m> if and only if <m>\det(A) = \det(B)</m>.
+                    </p>
+                </introduction>
+
+                <task>
+                    <statement>
+                        <p>
+                            Find two matrices <m>A</m> and <m>B</m> such that
+                            <m>A\sim B</m>.
+                        </p>
+                    </statement>
+                </task>
+
+                <task>
+                    <statement>
+                        <p>
+                            Is <m>\sim</m> an equivalence relation?
+                            (Briefly think about it, don't need to prove.)
+                        </p>
+                    </statement>
+                </task>
+
+                <task>
+                    <statement>
+                        <p>
+                            Let
+                            <m>X = \begin{bmatrix} 0 \amp 0 \\ 0 \amp 0 \end{bmatrix}</m>.
+                            Find two elements of <m>[X]_{\sim}</m>.
+                            <fn><em>Challenge Question:</em> Can you find the entire equivalence class?</fn>
+                        </p>
+                    </statement>
+                </task>
+            </task>
+        </activity>
+    </page>
+
+    <page>
+        <activity workspace="1in">
+            <title>
+                Equivalence Classes for Congruence Modulo <m>3</m>- MTH 350
+            </title>
+
             <introduction>
                 <p>
-                    Are the following statements true or false?
-                    Why?
+                    This is a preview activity taken from the 5th chapter of the
+                    modern algebra text used by many professors at GVSU.
+                </p>
+
+                <p>
+                    <em>For each integer <m>a</m>, let <m>[a]_3</m> denote the set of all integers that are congruent to <m>a</m> modulo <m>3</m>.  Note this is the equivalence class of <m>a</m> under the congruence modulo <m>3</m> equivalence relation.</em>
                 </p>
             </introduction>
 
             <task>
-                <p>
-                    For all <m>[a], [b] \in \mathbb{Z}_5</m>, if
-                    <m>[a] \ne [0]</m> and <m>[b] \ne [0]</m>, then
-                    <m>[a] \cdot_5 [b] \ne [0]</m>.
-                </p>
+                <statement>
+                    <p>
+                        Determine <m>[0]_3, [1]_3, [2]_3, [3]_3, [4]_3,</m> and
+                        <m>[5]_3</m>.
+                    </p>
+                </statement>
             </task>
 
             <task>
-                <p>
-                    For all <m>[a], [b] \in \mathbb{Z}_6</m>, if
-                    <m>[a] \ne [0]</m> and <m>[b] \ne [0]</m>, then
-                    <m>[a] \cdot_6 [b] \ne [0]</m>.
-                </p>
+                <statement>
+                    <p>
+                        What is the remainder when <m>734</m> is divided by
+                        <m>3</m>?
+                        Which, if any, of the sets <m>[0]_3</m>, <m>[1]_3</m>,
+                        and <m>[2]_3</m> contain <m>734</m>?
+                    </p>
+                </statement>
             </task>
-        </task>
-    </activity>
 
-    <activity workspace="2in">
-        <statement>
+            <task>
+                <statement>
+                    <p>
+                        Which elements belong to <m>[0]_3\cap [1]_3</m>?
+                        What about <m>[0]_3\cap [2]_3</m>, or
+                        <m>[1]_3\cap [2]_3</m>?
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        What familiar set is <m>[0]_3\cup [1]_3 \cup [2]_3</m>
+                        equal to, and why?
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Based on your answers above, make as many conjectures as
+                        you can about <m>[0]_3, [1]_3, [2]_3, [3]_3, </m>
+                        <m>[4]_3,[5]_3,\dots</m> (the equivalence classes of
+                        congruence modulo <m>3</m> ).
+                    </p>
+                </statement>
+            </task>
+        </activity>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Congruence Classes and Congruence Arithmetic</title>
+
             <p>
-                Sometimes math competition problems will ask seemingly tough
-                questions, like what is the remainder of <m>2^{100}</m> when
-                divided by <m>6</m>.
-                Try to find the answer to this question, by translating into
-                modular arithmetic/congruence classes and doing some smaller
-                cases.
-                E.g., what's <m>[2]_{6}^1</m>?
-                <m>[2]_{6}^2</m>?
-                <m>[2]_{6}^3</m>?
-                <m>[2]_{6}^4</m>?
-                What do these tell you about the remainder of <m>2^x</m> when
-                divided by <m>6</m>.
+                If the equivalence relation is congruence, then we use the term
+                <em>congruence class</em> rather than equivalence class.
+                The great thing about congruence classes is that you can add and
+                multiply them in a natural way.
             </p>
-        </statement>
-    </activity>
 
-    <activity workspace="1in">
-        <introduction>
-            <p>
-                In <m>\mathbb{Z}_5</m>, solve each of the following equations,
-                keeping in mind that the solution to any equation is the set of
-                all values that make the equation true.
-                Here, <q>=</q> means equality as congruence classes.
-                Note, order of operations for <m>+_5</m> and <m>\cdot_5</m> are
-                the same as for <q>regular</q> addition and multiplication,
-                <m>+</m> and <m>\cdot</m>, in the following way: in the absence
-                of parentheses, we multiply before we add.
-            </p>
+            <definition>
+                <statement>
+                    <p>
+                        Let <m>a,b\in\mathbb{Z}</m> and <m>n\in\mathbb{N}</m>.
+                        Then
+                        <md>
+                            [a]_n +_n [b]_n = [a+b]_n
+                        </md>
+                        and
+                        <md>
+                            [a]_n\cdot_n [b]_n = [a \cdot b]_n
+                        </md>.
+                    </p>
+                </statement>
+            </definition>
 
             <p>
-                Find all <m>x\in\mathbb{Z}_5</m> such that:
+                This may seem obvious to you, but there are some very subtle
+                things going on.
+                Perhaps the weirdest is that <m>[a]_n</m> is really a set, an
+                infinite set.
+                So what you're actually doing is adding and multiplying infinite
+                sets.
             </p>
-        </introduction>
+        </paragraphs>
 
-        <task>
+        <example workspace="1in">
+            <p>
+                What is <m>
+            [1]_3 +_3 [2]_3
+        </m>?
+                What is <m>
+            [2]_3 \cdot_3 [2]_3
+        </m>?
+            </p>
+        </example>
+
+        <p>
+            Notice that we've only used the congruence classes
+            <m>[0]_3, [1]_3,</m> and <m>[2]_3</m> since these are the only
+            distinct congruence classes modulo <m>3</m>.
+            We typically let <m>\Z_3 = \{[0]_3, [1]_3,[2]_3\}</m>.
+            Also, note <m>[2]_3 \cdot [2]_3 = [4]_3</m>.
+            However, <m>[4]_3=[1]_3</m> so we choose <m>1</m> to be our
+            representative of that congruence class.
+        </p>
+
+        <p>
+            Here are are addition and multiplication tables when we consider
+            congruence modulo <m>3</m>:
+        </p>
+
+        <sidebyside>
+            <tabular>
+                <col halign="center" right="minor"/>
+                <col halign="center" right="minor"/>
+                <col halign="center" right="minor"/>
+                <col halign="center"/>
+                <row bottom="minor">
+                    <cell><m>+_{3}</m></cell>
+                    <cell><m>[0]_{3}</m></cell>
+                    <cell><m>[1]_{3}</m></cell>
+                    <cell><m>[2]_{3}</m></cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell><m>[0]_{3}</m></cell>
+                    <cell><m>[0]_3</m></cell>
+                    <cell><m>[1]_3</m></cell>
+                    <cell><m>[2]_3</m></cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell><m>[1]_{3}</m></cell>
+                    <cell><m>[1]_3</m></cell>
+                    <cell><m>[2]_3</m></cell>
+                    <cell><m>[0]_3</m></cell>
+                </row>
+
+                <row>
+                    <cell><m>[2]_{3}</m></cell>
+                    <cell><m>[2]_3</m></cell>
+                    <cell><m>[0]_3</m></cell>
+                    <cell><m>[1]_3</m></cell>
+                </row>
+            </tabular>
+
+            <tabular>
+                <col halign="center" right="minor"/>
+                <col halign="center" right="minor"/>
+                <col halign="center" right="minor"/>
+                <col halign="center"/>
+                <row bottom="minor">
+                    <cell><m>\cdot_{3}</m></cell>
+                    <cell><m>[0]_{3}</m></cell>
+                    <cell><m>[1]_{3}</m></cell>
+                    <cell><m>[2]_{3}</m></cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell><m>[0]_{3}</m></cell>
+                    <cell><m>[0]_3</m></cell>
+                    <cell><m>[0]_3</m></cell>
+                    <cell><m>[0]_3</m></cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell><m>[1]_{3}</m></cell>
+                    <cell><m>[0]_3</m></cell>
+                    <cell><m>[1]_3</m></cell>
+                    <cell><m>[2]_3</m></cell>
+                </row>
+
+                <row>
+                    <cell><m>[2]_{3}</m></cell>
+                    <cell><m>[0]_3</m></cell>
+                    <cell><m>[2]_3</m></cell>
+                    <cell><m>[1]_3</m></cell>
+                </row>
+            </tabular>
+        </sidebyside>
+    </page>
+
+    <page>
+        <activity workspace="1in">
+            <task>
+                <statement>
+                    <p>
+                        Complete the addition and multiplication tables for
+                        <m>\mathbb{Z}_4</m>, <m>\mathbb{Z}_5</m>,
+                        <m>\mathbb{Z}_6</m> and <m>\mathbb{Z}_7</m> (you don't
+                        have to write all the [ ]'s but do pick the
+                        representative that is in that <m>\mathbb{Z}_n</m>.
+                        What do you notice?
+                        What do you wonder?
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <introduction>
+                    <p>
+                        Are the following statements true or false?
+                        Why?
+                    </p>
+                </introduction>
+
+                <task>
+                    <p>
+                        For all <m>[a], [b] \in \mathbb{Z}_5</m>, if
+                        <m>[a] \ne [0]</m> and <m>[b] \ne [0]</m>, then
+                        <m>[a] \cdot_5 [b] \ne [0]</m>.
+                    </p>
+                </task>
+
+                <task>
+                    <p>
+                        For all <m>[a], [b] \in \mathbb{Z}_6</m>, if
+                        <m>[a] \ne [0]</m> and <m>[b] \ne [0]</m>, then
+                        <m>[a] \cdot_6 [b] \ne [0]</m>.
+                    </p>
+                </task>
+            </task>
+        </activity>
+
+        <activity workspace="1in">
             <statement>
                 <p>
-                    <m>x^2 +_5 [1] = [0]</m>
+                    Sometimes math competition problems will ask seemingly tough
+                    questions, like what is the remainder of <m>2^{100}</m> when
+                    divided by <m>6</m>.
+                    Try to find the answer to this question, by translating into
+                    modular arithmetic/congruence classes and doing some smaller
+                    cases.
+                    E.g., what's <m>[2]_{6}^1</m>?
+                    <m>[2]_{6}^2</m>?
+                    <m>[2]_{6}^3</m>?
+                    <m>[2]_{6}^4</m>?
+                    What do these tell you about the remainder of <m>2^x</m>
+                    when divided by <m>6</m>.
                 </p>
             </statement>
-        </task>
+        </activity>
+    </page>
 
-        <task>
-            <statement>
+    <page>
+        <activity workspace="1in">
+            <introduction>
                 <p>
-                    <m>[3] \cdot_5 x +_5 [2] = [0]</m>
+                    In <m>\mathbb{Z}_5</m>, solve each of the following
+                    equations, keeping in mind that the solution to any equation
+                    is the set of all values that make the equation true.
+                    Here, <q>=</q> means equality as congruence classes.
+                    Note, order of operations for <m>+_5</m> and <m>\cdot_5</m>
+                    are the same as for <q>regular</q> addition and
+                    multiplication, <m>+</m> and <m>\cdot</m>, in the following
+                    way: in the absence of parentheses, we multiply before we
+                    add.
                 </p>
-            </statement>
-        </task>
 
-        <task>
-            <statement>
                 <p>
-                    <m>x^2 +_5 [3] \cdot_5 x= [3]</m>
+                    Find all <m>x\in\mathbb{Z}_5</m> such that:
                 </p>
-            </statement>
-        </task>
-    </activity>
+            </introduction>
+
+            <task>
+                <statement>
+                    <p>
+                        <m>x^2 +_5 [1] = [0]</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m>[3] \cdot_5 x +_5 [2] = [0]</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m>x^2 +_5 [3] \cdot_5 x= [3]</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+    </page>
 </handout>

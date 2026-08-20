@@ -3,123 +3,133 @@
 <handout>
     <title>Relations (Equivalence Relations and Equivalence Classes)</title>
 
-    <paragraphs>
-        <title>What's a relation?</title>
+    <page>
+        <paragraphs>
+            <title>What's a relation?</title>
 
-        <p>
-            Here is the most general definition of relation (which is on page
-            393 of your textbook):
-        </p>
+            <p>
+                Here is the most general definition of relation (which is on
+                page 393 of your textbook):
+            </p>
 
-        <definition>
-            <statement>
-                <p>
-                    A <term>relation from <m>A</m> to <m>B</m></term> is a
-                    subset <m>\sim</m> of <m>A\times B</m>.
-                </p>
-
-                <p>
-                    A <term>relation on <m>A</m></term> is a subset <m>\sim</m>
-                    of <m>A\times A</m>.
-                </p>
-            </statement>
-        </definition>
-
-        <p>
-            Recall the <term>Cartesian product of <m>A</m> and <m>B</m></term>
-            is denoted <m>A\times B</m> and means the ordered pairs where the
-            first element is in <m>A</m> and the second element is in <m>B</m>.
-            E.g.,
-            <md>
-                A\times B = \{ (a,b): a\in A \text{ and } b\in B\}.
-            </md>
-        </p>
-    </paragraphs>
-
-    <paragraphs>
-        <title>Representations and Examples</title>
-
-        <p>
-            A relation can be written as
-        </p>
-
-        <p>
-            <ul>
-                <li>
+            <definition>
+                <statement>
                     <p>
-                        a ``rule'' (typically an if or an if and only if
-                        statement),
+                        A <term>relation from <m>A</m> to <m>B</m></term> is a
+                        subset <m>\sim</m> of <m>A\times B</m>.
                     </p>
-                </li>
 
-                <li>
                     <p>
-                        a set of ordered pairs (either in set-builder or roster
-                        notation)
+                        A <term>relation on <m>A</m></term> is a subset
+                        <m>\sim</m> of <m>A\times A</m>.
                     </p>
-                </li>
+                </statement>
+            </definition>
 
-                <li>
-                    <p>
-                        a directed graph
-                    </p>
-                </li>
-            </ul>
-        </p>
+            <p>
+                Recall the
+                <term>Cartesian product of <m>A</m> and <m>B</m></term> is
+                denoted <m>A\times B</m> and means the ordered pairs where the
+                first element is in <m>A</m> and the second element is in
+                <m>B</m>.
+                E.g.,
+                <md>
+                    A\times B = \{ (a,b): a\in A \text{ and } b\in B\}.
+                </md>
+            </p>
+        </paragraphs>
 
-        <p>
-            <term>Example:</term> In the first example in Chapter 9, the author
-            defines a relation <m>A = \mathbb{N}</m> where we say <m>a\sim b</m>
-            if <m>a\le b</m>.
-            Here's 3 different ways to write that relation on <m>\mathbb{N}</m>:
-        </p>
+        <paragraphs>
+            <title>Representations and Examples</title>
 
-        <p>
-            <ul>
-                <li>
-                    <p>
-                        <m>a\sim b</m> if and only if <m>a\le b</m>
-                    </p>
-                </li>
+            <p>
+                A relation can be written as
+            </p>
 
-                <li>
-                    <p>
-                        <m>\{(a,b)\in\mathbb{N}\times\mathbb{N}: a\le b\}</m>
-                    </p>
-                </li>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            a <q>rule</q> (typically an if or an if and only if
+                            statement),
+                        </p>
+                    </li>
 
-                <li>
-                    <p>
-                        Notice that it's hard to write the set form in roster
-                        notation, we might write something like
-                        <md>
-                            \{(1,2), (1,3), (1,4),\dots, (2,3), (2,4), (2,5), \dots, (3,4), (3,5), (3,6),\dots \}
-                        </md>
-                        but even then it might be hard for our reader to see
-                        what's going on.
-                    </p>
-                </li>
+                    <li>
+                        <p>
+                            a set of ordered pairs (either in set-builder or
+                            roster notation)
+                        </p>
+                    </li>
 
-                <li>
-                    <p>
-                        We can't draw the graph neatly on infinitely many
-                        things, but here's one if the relation were on
-                        <m>\{1,2,3,4,5\}</m>:
-                    </p>
-                </li>
-            </ul>
-        </p>
+                    <li>
+                        <p>
+                            a directed graph
+                        </p>
+                    </li>
+                </ul>
+            </p>
 
-        <figure xml:id="fig-relation">
-            <caption>A graph of the relation on <m>\{1,2,3,4,5\}</m></caption>
-            <image source="images/Relation.png" width="40%">
-                <shortdescription>
-                    A graph of the relation on a subset.
-                </shortdescription>
-            </image>
-        </figure>
+            <p>
+                <term>Example:</term> In the first example in Chapter 9, the
+                author defines a relation <m>A = \mathbb{N}</m> where we say
+                <m>a\sim b</m> if <m>a\le b</m>.
+                Here's 3 different ways to write that relation on
+                <m>\mathbb{N}</m>:
+            </p>
 
-        <activity xml:id="ch09-act-relations" workspace="2in">
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            <m>a\sim b</m> if and only if <m>a\le b</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <m>\{(a,b)\in\mathbb{N}\times\mathbb{N}: a\le b\}</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Notice that it's hard to write the set form in
+                            roster notation, we might write something like
+                            <md>
+                                \{(1,2), (1,3), (1,4),\dots, (2,3), (2,4), (2,5), \dots, (3,4), (3,5), (3,6),\dots \}
+                            </md>
+                            but even then it might be hard for our reader to see
+                            what's going on.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            We can't draw the graph neatly on infinitely many
+                            things, but here's one if the relation were on
+                            <m>\{1,2,3,4,5\}</m>:
+                        </p>
+                    </li>
+                </ul>
+            </p>
+
+            <figure xml:id="fig-relation">
+                <caption>
+                    A graph of the relation on <m>\{1,2,3,4,5\}</m>
+                </caption>
+
+                <image source="images/Relation.png" width="40%">
+                    <shortdescription>
+                        A graph of the relation on a subset.
+                    </shortdescription>
+                </image>
+            </figure>
+        </paragraphs>
+    </page>
+
+    <page>
+        <activity xml:id="ch09-act-relations" workspace="1.5in">
             <introduction>
                 <p>
                     For the following examples of relations, give a pair
@@ -176,108 +186,108 @@
                 </statement>
             </task>
         </activity>
-    </paragraphs>
+    </page>
 
-    <paragraphs>
-        <title>More Definitions!</title>
+    <page>
+        <paragraphs>
+            <title>More Definitions!</title>
 
-        <p>
-            Some relations on a set <m>A</m> are special because they act like
-            <q>=</q> (and, IMHO, = is one of the most important symbols in all
-            of math!).
-            One of the reasons <q>=</q> is so important, is that it has all of
-            the properties listed in the next definition.
-        </p>
+            <p>
+                Some relations on a set <m>A</m> are special because they act
+                like <q>=</q> (and, IMHO, = is one of the most important symbols
+                in all of math!).
+                One of the reasons <q>=</q> is so important, is that it has all
+                of the properties listed in the next definition.
+            </p>
 
-        <definition>
-            <statement>
-                <p>
-                    We say a relation <m>\sim </m> from <m>A</m> to <m>B</m> is
-                    <ul>
-                        <li>
-                            <p>
-                                <term>Reflexive:</term> if for all
-                                <m>a\in A</m>, <m>a\sim a</m>
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                <term>Symmetric:</term> if for all
-                                <m>a,b\in A</m>, if <m>a\sim b</m> then
-                                <m>b\sim a</m>.
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                <term>Transitive:</term> if for all
-                                <m>a,b,c \in A</m>, if <m>a\sim b</m> and
-                                <m>b\sim c</m> then <m>a\sim c</m>.
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-
-                <p>
-                    If all three of the properties hold, we call the relation an
-                    <term>equivalence relation</term>.
-                </p>
-            </statement>
-        </definition>
-
-        <activity workspace=".5in">
-            <statement>
-                <p>
-                    For each of the relations defined in
-                    <xref ref="ch09-act-relations"/>, which of the 3 properties
-                    reflexive, symmetric, transitive, hold?
-                </p>
-            </statement>
-        </activity>
-
-        <activity>
-            <introduction>
-                <p>
-                    Complete the following with your team:
-                </p>
-            </introduction>
-
-            <task workspace="1in">
+            <definition>
                 <statement>
                     <p>
-                        Let <m>A = \{1,2,3\}</m> and define <m>\sim</m> on
-                        <m>A</m> by <m>\sim = \{ (1,1), (1,2), (3,1)\}</m>.
-                        Is <m>R</m> reflexive?
-                        Symmetric?
-                        Transitive?
+                        We say a relation <m>\sim </m> from <m>A</m> to <m>B</m>
+                        is
+                        <ul>
+                            <li>
+                                <p>
+                                    <term>Reflexive:</term> if for all
+                                    <m>a\in A</m>, <m>a\sim a</m>
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <term>Symmetric:</term> if for all
+                                    <m>a,b\in A</m>, if <m>a\sim b</m> then
+                                    <m>b\sim a</m>.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <term>Transitive:</term> if for all
+                                    <m>a,b,c \in A</m>, if <m>a\sim b</m> and
+                                    <m>b\sim c</m> then <m>a\sim c</m>.
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+
+                    <p>
+                        If all three of the properties hold, we call the
+                        relation an <term>equivalence relation</term>.
                     </p>
                 </statement>
-            </task>
+            </definition>
 
-            <task workspace="1in">
+            <activity workspace=".5in">
                 <statement>
                     <p>
-                        Let <m>A = \{1,2,3\}</m>.
-                        Find a relation <m>R</m> on <m>A</m> such that <m>R</m>
-                        is symmetric, but not transitive.
+                        For each of the relations defined in
+                        <xref ref="ch09-act-relations"/>, which of the 3
+                        properties reflexive, symmetric, transitive, hold?
                     </p>
                 </statement>
-            </task>
+            </activity>
 
-            <task workspace="1in">
-                <statement>
+            <activity>
+                <introduction>
                     <p>
-                        Let <m>A =  \{1,2,3\}</m>.
-                        Find a relation <m>R</m> on <m>A</m> such that <m>R</m>
-                        is symmetric and transitive, but not reflexive.
+                        Complete the following with your team:
                     </p>
-                </statement>
-            </task>
-        </activity>
-    </paragraphs>
+                </introduction>
 
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            Let <m>A = \{1,2,3\}</m> and define <m>\sim</m> on
+                            <m>A</m> by <m>\sim = \{ (1,1), (1,2), (3,1)\}</m>.
+                            Is <m>R</m> reflexive?
+                            Symmetric?
+                            Transitive?
+                        </p>
+                    </statement>
+                </task>
 
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            Let <m>A = \{1,2,3\}</m>.
+                            Find a relation <m>R</m> on <m>A</m> such that
+                            <m>R</m> is symmetric, but not transitive.
+                        </p>
+                    </statement>
+                </task>
 
-  
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            Let <m>A =  \{1,2,3\}</m>.
+                            Find a relation <m>R</m> on <m>A</m> such that
+                            <m>R</m> is symmetric and transitive, but not
+                            reflexive.
+                        </p>
+                    </statement>
+                </task>
+            </activity>
+        </paragraphs>
+    </page>
 </handout>

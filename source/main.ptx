@@ -93,13 +93,14 @@
             <xi:include href="./activities/09-3-EquivalenceClasses.ptx" />
         </chapter>
 
-        <!-- <chapter xml:id="ch-review">
+
+       <chapter xml:id="ch-review">
             <title>Review Stuff</title>
 
             <xi:include href="./activities/08-210-ReviewChapters1-3.ptx"/>
             <xi:include href="./activities/21-210-MathWrangle.ptx"/>
             <xi:include href="./activities/22-210-ReviewAssessment2Review.ptx"/>
-        </chapter> -->
+        </chapter> 
 
    <chapter xml:id="course-documents">
             <title>Course Documents</title>
@@ -139,6 +140,6 @@
             <!-- etc. -->
         </chapter>
 
-
+        
     </book>
 </pretext>
