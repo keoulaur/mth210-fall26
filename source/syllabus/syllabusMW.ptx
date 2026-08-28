@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Syllabus</title>
+
+    <introduction>
+        <p/>
+    </introduction>
+    <!-- Include Chap.s -->
+    <subsection xml:id="sec-course-info">
+        <title>Course Information</title>
+
+        <p>
+            This is the syllabus for
+            <term>Communicating in Mathematics (MATH 210, section 03)</term> for
+            Fall 2026.
+            It is a 4 credit course.
+            <!-- use a description list (dl) for short items -->
+            <dl>
+                <li>
+                    <title>Instructor</title>
+
+                    <p>
+                        <term>Name: </term> Dr.
+                        Keough (call me Dr.
+                        Keough, Professor Keough, or DocK for short!)
+                    </p>
+
+                    <p>
+                        <term>Office location:</term> MAK C-2-513 (but drop in
+                        hours in the PCS MAK A-2-610!)
+                    </p>
+
+                    <p>
+                        <term>Email:</term>
+                        <url href="mailto:keoulaur@gvsu.edu">keoulaur@gvsu.edu</url>.
+                        (Email me whenever!
+                        I typically respond to emails between 9AM and 5PM
+                        Monday-Friday.)
+                    </p>
+
+                    <p>
+                        <term>Phone:</term> 616-331-3632.
+                        (but email is the best way to contact me!)
+                    </p>
+                </li>
+
+                <li>
+                    <title>Class meets</title>
+
+                    <p>
+                        Mondays and Wednesdays 2-3:50PM in Mackinac Hall
+                        B-1-122.
+                    </p>
+                </li>
+
+                <li>
+                    <title>Drop in Hours</title>
+
+                    <p>
+                        Drop in hours are for you to come and ask questions!
+                        They will all be held in the Peer Collaboration Space
+                        (or <q>the PCS</q> MAK A-2-610).
+                        Come any time during:
+                    </p>
+
+                    <p>
+                        <ul>
+                            <li>
+                                <p>
+                                    Mondays 4-5PM
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Wednesdays 10-11AM
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Thursdays 1-2PM
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Fridays 10-11AM
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    And by appointment!
+                                    Email
+                                    <url href="mailto:keoulaur@gvsu.edu">keoulaur@gvsu.edu</url>
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+
+                <li>
+                    <title>Course Description</title>
+
+                    <p>
+                        A study of proof techniques used in mathematics.
+                        Intensive practice in reading mathematics, expository
+                        writing in mathematics, and constructing and writing
+                        mathematical proofs.
+                        Mathematical content includes elementary logic,
+                        congruence arithmetic, set theory, functions,
+                        equivalence relations, and equivalence classes.
+                        Offered fall and winter semesters.
+                    </p>
+                </li>
+
+                <li>
+                    <title>Prerequisite</title>
+
+                    <p>
+                        MTH 201 and fulfillment of general education Foundations
+                        - Writing.
+                    </p>
+                </li>
+
+                <li>
+                    <title>Textbook and course materials</title>
+
+                    <p>
+                        <pubtitle>Proofs: A Long-Form Mathematics Textbook </pubtitle>
+                        by Jay Cummings.
+                        Available on Amazon:
+                        <url href="https://a.co/d/agiWS2b"/>.
+                    </p>
+
+                    <p>
+                        Please get a binder for organization!
+                    </p>
+
+                    <p>
+                        Announcements, assignments, and due dates are all on
+                        Blackboard: <url href="https://lms.gvsu.edu/"/>.
+                    </p>
+                </li>
+            </dl>
+        </p>
+        <!-- Use paragraphs to break apart subsections -->
+        <paragraphs>
+            <title>Why am I in this class?</title>
+
+            <p>
+                This course is required for all types of math majors -
+                theoretical, applied, secondary education, as well as the minor
+                in mathematics middle grade teaching: 5-9.
+                You may also be taking this class for SWS (Supplemental Writing
+                Skills Credit).
+                Plus, MTH 210 is a prerequisite for proof-based 300 and 400
+                level mathematics courses.
+            </p>
+
+            <p>
+                But why did the powers that be decide this class was required
+                for all those majors and that minor?
+                In the end, this course is about
+                <term> <em> solving problems, convincing other people that you're
+            right, and deciding whether other people are right.</em></term>
+                How do we do that?
+                We create, write, and read mathematical proofs.
+                This requires us to think about logic, reasoning, creativity,
+                patterns, critical thinking, and communication -- skills that
+                are key to living in the modern world.
+            </p>
+
+            <p>
+                I am well aware that you may never write a mathematical proof in
+                your life after this class.
+                But, consider this quote from GVSU Math alumni 2016:
+            </p>
+
+            <blockquote>
+                <p>
+                    Majors and job titles change; the ability to think clearly,
+                    solve problems, communicate, and adapt doesn't.
+                    Investing in these areas will always keep the most
+                    opportunity doors open for you.
+                </p>
+                <attribution>
+                    Nick Deanes, GVSU MTH '16 MBA, Western Michigan Univ Global
+                    Director of Talent Management at JR Automation
+                </attribution>
+            </blockquote>
+
+            <p>
+                The skills Nick mentions are skills of a math major, and many of
+                them are honed in this course.
+                Though we will focus on very math-y proofs, I will do my best to
+                make what you're doing in this course feel connected to the
+                ability to think clearly, solve problems, communicate, and
+                adapt.
+            </p>
+
+            <p>
+                This class may feel very different from previous math classes to
+                you.
+                In fact, many schools even call this course “Transitions”.
+                If you can, do your best to trust the process.
+                Additionally, please talk to me when you're feeling frustrated,
+                or a little at sea.
+                This is the course where I fell in love with mathematics,
+                because I learned math is creative and social.
+                I hope you will enjoy it just as much as I did.
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>What should I know about my instructor?</title>
+
+            <p>
+                Hi!
+                I'm Dr.
+                Keough, many students call me DocK for short.
+                I've been teaching at GVSU for 10 years.
+                My main priority in this course is for you to grow as a
+                mathematician: to be able to understand and apply complex
+                statements, to solve challenging problems, and to communicate
+                orally and in writing, and to have fun while doing it.
+            </p>
+
+            <p>
+                My teaching philosophy is that
+                <em> Everyone has the right to
+                understand and enjoy mathematics, and to feel part of a
+                mathematical community.</em>
+            </p>
+
+            <p>
+                I like math because I love the feeling of solving a really hard
+                problem.
+                I sometimes say that a mathematician is a person who has
+                productive ways to deal with infinite amounts of frustration to
+                get to that “aha” moment.
+                MTH 210 is one of my favorite courses to teach because I like
+                helping students through a hard transition.
+                In all aspects of the course, please understand that I am always
+                willing to discuss problems with you, and that I am trying to
+                push you just the right amount.
+                I will never simply give you an answer, but I will offer
+                direction and guidance that will assist you in coming up with a
+                solution on your own.
+                This is by far the most satisfying way to solve a problem, and
+                the difficulty is well worth it.
+                I hope you will make frequent use of my drop-in hours and email
+                (keoulaur@gvsu.edu).
+                I care a lot about your overall success in this course, but
+                first comes your well-being as a human.
+            </p>
+
+            <p>
+                I want you to succeed, whatever that means to you.
+                Please see me when you need help.
+            </p>
+        </paragraphs>
+    </subsection>
+
+    <subsection xml:id="subsec-Weekly-Assignments">
+        <title>Assignments</title>
+
+        <table>
+            <title>A Typical Week</title>
+
+            <tabular>
+                <row bottom="major">
+                    <cell colspan="2"/>
+                </row>
+
+                <row>
+                    <cell colspan="2" halign="center">
+                        <term>Monday Preview Activity </term> (due at start of
+                        class)
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell colspan="2">
+                        <em>Prime your brain for Monday's class. Some reading and answering questions.</em>
+                    </cell>
+                </row>
+
+                <row bottom="major">
+                    <cell>
+                        Submit: Via Blackboard.
+                        I will check for questions Monday morning.
+                    </cell>
+                    <cell>Spend: ~30-60 minutes.</cell>
+                </row>
+
+                <row>
+                    <cell colspan="2" halign="center">
+                        <term> Monday Learning Target Quiz </term> (in class)
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell colspan="2">
+                        <em>Will assess your progress on learning targets. Will be done at the end of class. Study before class :)</em>
+                    </cell>
+                </row>
+
+                <row bottom="major">
+                    <cell>Submit: In class. (Study before!)</cell>
+                    <cell>Spend: ~30 minutes studying.</cell>
+                </row>
+
+                <row>
+                    <cell colspan="2" halign="center">
+                        <term> Wednesday Preview Activity </term> (due at start
+                        of class)
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell colspan="2">
+                        <em>Prime your brain for Wednesday's class. Some reading and answering questions.</em>
+                    </cell>
+                </row>
+
+                <row bottom="major">
+                    <cell>
+                        Submit: Via Blackboard.
+                        I will check for questions Monday morning.
+                    </cell>
+                    <cell>Spend: ~30-60 minutes.</cell>
+                </row>
+
+                <row>
+                    <cell colspan="2" halign="center">
+                        <term> Wednesday Weekly Practice </term> (due at start
+                        of class)
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell colspan="2">
+                        <em>Will help you test yourself on the week's content. These will be presented by classmates and you have the opportunity to correct your work in a different color pen.</em>
+                    </cell>
+                </row>
+
+                <row bottom="major">
+                    <cell>
+                        Submit: Via Blackboard.
+                        I will check for questions Monday morning.
+                    </cell>
+                    <cell>
+                        Spend: ~1.5 hours over the week.
+                        Material based on the previous Monday/Wednesday.
+                    </cell>
+                </row>
+
+                <row>
+                    <cell colspan="2" halign="center">
+                        <term> Friday Proof Portfolio Drafts and Reflection </term>
+                        (by 5PM)
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell colspan="2">
+                        <em>Will help you practice your writing. This is the SWS part of the course. You'll draft and revise and learn to professionally communicate mathematics. You automatically get a 48 hour grace period on these (so turn in by Sunday at 5PM), but note that I don't check email after 5PM or on weekends.</em>
+                    </cell>
+                </row>
+
+                <row bottom="major">
+                    <cell>Submit: Via Blackboard.</cell>
+                    <cell>Spend: ~3-4 hours over the week.</cell>
+                </row>
+            </tabular>
+        </table>
+
+        <paragraphs>
+            <title>Other Assignments</title>
+
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            <term>Presentations:</term> You are expected to
+                            present a weekly practice or in-class activity three
+                            times during the semester.
+                            If you are nervous about presenting, please talk to
+                            me - I'm happy to talk through your work before you
+                            present.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <term> Review Assessments: </term> There will be 2
+                            review assessments throughout the semester.
+                            This will allow you to put together all the things
+                            you've learned so far.
+                            There will be opportunities for oral revisions.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <term>Final Proof Portfolio:</term> As the
+                            culminating experience you'll submit a proof
+                            portfolio with final drafts, along with reflections,
+                            and hwo the work demonstrates the objectives.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </paragraphs>
+    </subsection>
+
+    <subsection xml:id="subsec-schedule">
+        <title>(Tentative) Course Schedule</title>
+
+        <table>
+            <title>A Typical Week</title>
+
+            <tabular>
+                <row bottom="major">
+                    <cell colspan="4"/>
+                </row>
+
+                <row bottom="major">
+                    <cell>Week</cell>
+                    <cell>Textbook</cell>
+                    <cell>Topics</cell>
+                    <cell>Assignments</cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>1 (Aug. 31)</cell>
+                    <cell>Chap. 1</cell>
+                    <cell>Chessboard problems, naming results</cell>
+                    <cell>PA1, PA2</cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>2 (Sep. 7)</cell>
+                    <cell>Chap. 2</cell>
+                    <cell>No classes Monday! Direct proofs, definitions</cell>
+                    <cell>PA3, WP1</cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>3 (Sep. 14)</cell>
+                    <cell>Chap. 2</cell>
+                    <cell>  Writing, LaTex, proofs by cases, divisibility</cell>
+                    <cell>PA4, PA5, Q1, PP2, WP2</cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>4 (Sep. 21)</cell>
+                    <cell>Chap. 2</cell>
+                    <cell>Modular arithmetic</cell>
+                    <cell>PA6, PA7, Q2, PP3,2, WP3</cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>5 (Sep. 28)</cell>
+                    <cell>Chap. 3</cell>
+                    <cell>Sets - subsets (choose an element method)</cell>
+                    <cell>PA8, PA9, Q3, PP4,3, WP4</cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>6 (Oct. 5)</cell>
+                     <cell>Chap. 4</cell>
+                    <cell>Set operations</cell>
+
+                    <cell>PA10, PA11, Q4, PP5,4, WP2</cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>7 (Oct. 12)</cell>
+                    <cell>Chap. 5</cell>
+                    <cell>Induction</cell>
+                    <cell>PA12, PA13, Q5, PP6,5, WP2</cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>8 (Oct. 19)</cell>
+                    <cell>Chap. 5</cell>
+                    <cell> Catch up, review, review assessment 1</cell>
+                    <cell>PA14, PA15, Q6, PP7,6, WP2</cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>9 (Oct. 26)</cell>
+                    <cell>Chap. 6</cell>
+                    <cell>No classes Monday! (Fall break.) Logic. </cell>
+                    <cell>PA16, PP8,7, WP2</cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>10 (Nov. 2)</cell>
+                    <cell>Chap. 7</cell>
+                    <cell>Proof by contrapositive. </cell>
+                    <cell>PA17, PA18, Q7, PP9,8, WP2</cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>11 (Nov. 9)</cell>
+                    <cell>Chap. 8</cell>
+                    <cell>Proof by contradiction. </cell>
+                    <cell>PA19, PA20, Q8, PP10,9, WP2</cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>12 (Nov. 16)</cell>
+                    <cell>Chap. 9</cell>
+                    <cell>Functions - Injections, Surjections, Bijections. </cell>
+                    <cell>PA21, 22, Q9, PP2, WP2</cell>
+                </row>
+
+                 <row bottom="minor">
+                    <cell>13 (Nov. 23)</cell>
+                    <cell>Chap. 9</cell>
+                    <cell>Equivalence relations, No class Wednesday (Thanksgiving)</cell>
+                    <cell>PA23, Q10, PP2, WP2</cell>
+                </row>
+
+                 <row bottom="minor">
+                    <cell>14 (Nov. 30)</cell>
+                    <cell>Chap. 9</cell>
+                    <cell>Equivalence relations.</cell>
+                    <cell>PA24, PA25, Q11, PP2, WP2</cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>15 (Dec. 7)</cell>
+                    <cell></cell>
+                    <cell>Catch up/review</cell>
+                    <cell>PA26, Q12, PP2</cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell>Finals</cell>
+                    <cell></cell>
+                    <cell>Final Exam</cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
+    </subsection>
+    <!-- Other subsections for larger dividers -->
+    <subsection xml:id="sec-assessments">
+        <title>Assessments and Grades</title>
+
+        <p/>
+    </subsection>
+
+    <subsection xml:id="subsec-ohter">
+        <title/>
+        <p>
+            Weekly Assignments Tuesday preview activity (9AM) Access here.
+            Prime your brain for Tuesday's class.
+            Videos or reading and answer questions.
+            Submit: Tuesday before class via Blackboard.
+            I will check at 9AM for questions.
+            Spend: ~30-60 minutes Tuesday checkpoint (in class) Will assess your
+            progress on learning targets.
+            Will be done in class.
+            Study before class :) Submit: Tuesday in class in person Spend: ~30
+            minutes studying Thursday preview activity (9AM) Access here.
+            Prime your brain for Thursday's class.
+            Videos or reading and answer questions.
+            Submit: Thursday before class via Blackboard.
+            I will check at 9AM for questions.
+            Spend: ~30-60 minutes Thursday weekly practice (11AM) Will help you
+            test yourself on what you've learned for the week.
+            These will be presented by your classmates and you have the
+            opportunity to correct your work in a different color pen.
+            Submit: Thursday in class after presentations, in person.
+            Spend: ~1.5 hours over the week.
+            Material based on previous Tuesday/Thursday Friday portfolio drafts
+            (5PM) Will help you practice your writing.
+            This is the SWS course part - you'll draft and revise and learn to
+            professionally communicate in mathematics.
+            Submit: Friday by 5PM on Blackboard.
+            Spend: ~3-4 hours over the week.
+            Other Assignments Presentations: You are expected to present a
+            weekly practice or in-class activity three times during the
+            semester.
+            If you are nervous about presenting, please talk to me - I'm happy
+            to talk through your work before you present.
+            Review Assessments: There will be 2 review assessments throughout
+            the semester.
+            This will allow you to put together all the things you've learned so
+            far.
+            We'll spend 1 hour in class and there will be opportunities for oral
+            revisions.
+            Final Proof Portfolio: As the culminating experience, you'll submit
+            a proof portfolio with final drafts, along with reflections, and how
+            the work demonstrates you've met objectives.
+        </p>
+
+        <p>
+            (Tentative) Course Schedule Week Textbook sections Topics
+            Assignments (A Guess!) Week 1, January 12 Chap. 1 Chessboard
+            problems, naming results PA1, PA2 Week 2, January 19 Chap. 2
+            (2.1-2.3), LaTeX Direct proofs, definitions, proof by cases,
+            divisibility PA3, PA4, WP1 Week 3, January 26 Chap. 2 (2.4-2.5),
+            Prof.
+            Writing Specs GCD's, modular arithmetic PA5, PA6, CP1, PP2, WP2 Week
+            4, February 2 Chap. 3 (3.1-3.3) Sets - subsets (choose an element
+            method) PA7, PA8, CP2, PP3,2, WP3 Week 5, February 9 Chap. 3 (3.4)
+            Set Operations + catch up PA9, PA10, CP3, PP4,3, WP4 Week 6,
+            February 16 Chap. 4 Induction PA11, PA 12, CP4, PP5,4, WP5 Week 7,
+            February 23 Chap. 5 Logic PA13, PA14, PP 6,5, CP5, WP6 Week 8,
+            March 2 Chap. 5, Catch up/review Review Assessment 1 (Thurs.)
+            PA15, PA16 CP6, PP 7,6, WP7 March 9 No class this week!
+            (Spring Break) Week 9, March 16 Chap. 6 Proof by contrapositive,
+            counterexamples PA17, PA18 CP7, PP8,7, WP8 Week 10, March 23 Chap.
+            7 Proof by contradiction PA19, PA20, CP8, PP9,8, WP 9 Week 11, March
+            30 Chap. 8 (8.1.-8.2) Functions - Injections, Surjections,
+            Bijections PA21, PA22, CP9, PP10,9, WP10 Week 12, April 6 Chap. 8
+            (8.3-8.4) Functions - Compositions, Invertibility PA23, PA24 CP10,
+            WP11 Week 13, April 13 Chap. 9 - Relations Equivalence relations
+            PA25, PA26 CP11, PP10,1, WP12 Week 14, April 20 Review/Catch Up
+            WP13, CP12, PP1 Final exam Tuesday, April 28, 10-11:50 AM in MAK
+            A-2-155 (Review Assessment 2) Final PP due at 10AM Tuesday, 4/28
+            Grades Your final grade will be based on 5 components, each weighted
+            differently as shown in the chart at right.
+            All grades will be posted on Blackboard and you should check them
+            for accuracy.
+            After about the first month of class, I'll post an estimated grade
+            on Blackboard.
+            Please ask if you have any questions!
+            Your final weighted average is translated to a letter grade as
+            follows.
+            There is no rounding.
+            As an example, a final percentage of 92.8% is an A-.
+            Grade A A- B+ B B- C+ C C- D+ D F Percentage 93% 90% 87% 83% 80% 77%
+            73% 70% 67% 63% &lt; 63% Components: Portfolio (35%): You will
+            complete 10 problems/proofs for the portfolio.
+            The second draft of a portfolio problem will be given a grade, but
+            you may continue to revise this work and give yourself a higher
+            grade (with justification) in the final portfolio.
+            The final portfolio grade will be based on your proofs, a
+            reflection, and how the portfolio met given objectives.
+            Learning Targets (30%): You will earn an “S” (Satisfactory) or an
+            “NY” (Not Yet) on each target.
+            Your overall Learning Target grade will be based on the percentage
+            of Learning Targets you earn an “S” on throughout the semester (e.g.
+            earning an S on 17 out of 20 Learning Targets would result in a
+            17/20=85% Learning Target grade).
+            Weekly Practice (15%): The problems will count for 10% and will be
+            graded based on effort and completion with with a ✓ or an ✗.
+            Only a ✓ earns you credit toward your grade.
+            Your overall Activity grade will be based on the percentage of
+            Activities you earn a ✓ on throughout the semester (e.g.
+            earning a ✓ on 18 out of 20 Activities would result in a 18/20 = 90%
+            of the weekly practice grade that's 15% of your course grade).
+            In addition, presentations will be graded solely based on effort and
+            completion with with a ✓ or an ✗.
+            Only a ✓ earns you credit toward your grade.
+            Your overall presentation grade will be based on the following table
+            (3✓ = 100%, 2✓=80%, 1✓=60%, 0✓=0%.
+            Review Assessments (15%): There will be 2 review assessments this
+            semester.
+            You will have 1 hour in class.
+            You'll be given a preliminary percentage, and then have the
+            opportunity to revise orally.
+            You can earn all the points back during the oral revision.
+            Preview Activities (5%): There will typically be 2 preview
+            activities per week.
+            These will be graded solely based on effort and completion with with
+            a ✓ or an ✗.
+            Only a ✓ earns you credit toward your grade.
+            Your overall Preview Activity grade will be based on the percentage
+            of Activities you earn a ✓ on throughout the semester (e.g.
+            earning a ✓ on 24 out of 26 Activities would result in a 24/26 =
+            92.3% Preview Activity grade).
+            Learning Targets and Checkpoints Goals: There are a number of basic
+            skills that you should demonstrate fluency with in an introduction
+            to proofs course.
+            These checkpoints are intended to emphasize a few things.
+            One is that learning is a process.
+            You will not be penalized for not demonstrating fluency with a skill
+            the first time, but you are expected to eventually get there.
+            Another is that fluency with basic skills and knowing definitions is
+            an important part of doing mathematics.
+            For example, you shouldn't expect to be able to complete a complex
+            proof about the notion of divides if you don't know the definition
+            of divides.
+            These checkpoints also provide individual assessment so you know
+            whether or not you are keeping up with course material.
+            Structure: We will have a closed book/closed note checkpoint each
+            Tuesday at the end of class assessing the following learning
+            targets.
+            While each target will be graded as only either ``S" for
+            ``Satisfactory" or ``NY" for ``does Not Yet meet the standard" each
+            target appears on 3 consecutive checkpoints.
+            Once you have earned an “S” on a target you do not need to do so
+            again.
+            Blackboard will be updated weekly to reflect your “S”s and “NY”s.
+            You will be notified which targets will be on a checkpoint, but it
+            is your responsibility to know which targets you have yet to earn
+            satisfactory.
+            You may bring a 3x5 notecard with notes for each checkpoint.
+            Each target will be on three checkpoints.
+            Your grade for this component will be the percentage of the 20
+            targets listed below that you have earned an S on.
+            Learning Targets: Come to office hours to ask a question or attend a
+            math event.
+            (See the math major emails for available math events, and let me
+            know if you don't get it!) State precisely the definition of an even
+            and odd integer and outline the proof of a statement using these
+            terms.
+            Given a statement to be proven using a direct proof, identify the
+            assumptions to be made and the statements to be proven.
+            Evaluate if a given proof is valid and adheres to our writing
+            guidelines.
+            Create and translate sets using set builder notation and fluently
+            work with sets written in set builder notation.
+            Identify if a given set of numbers is closed under a given
+            operation.
+            Use the symbols related to sets (like ∈, ∉, ⊆, ⊂, =, ⊈) correctly.
+            Given two sets and a universal set identify the union, intersection,
+            complement, and set difference and find the power set of a given
+            set.
+            State the definition of ``a divides b" and ``a is congruent to b
+            modulo n", and correctly apply these definitions in examples.
+            Identify situations in which it is appropriate to use induction and
+            state the procedure for proving a statement by induction.
+            Clearly and correctly disprove a statement using a counterexample.
+            Construct truth tables for statements that use the logical operators
+            and, or, not, and implies, and make conclusions about the truth
+            values of these statements.
+            Given a conditional statement, identify the hypothesis and
+            conclusion, determine its truth value, and apply it.
+            Negate a statement with and, or, not, implies, exists, and/or for
+            all.
+            Given a statement to be proven using a proof by contrapositive,
+            identify the assumptions to be made and the statements to be proven.
+            Given a statement to be proven using a proof by contradiction,
+            identify the assumptions to be made and the statements to be proven.
+            Correctly use function terminology such as domain, codomain, range,
+            dependent variable, independent variable, image, and preimage.
+            State the definition of injection, surjection, and bijection, create
+            examples of each, and identify if a given function is an injection,
+            surjection, or bijection.
+            Prove or disprove that a given relation is reflexive, symmetric,
+            and/or transitive and identify if the relation is an equivalence
+            relation.
+            Given an equivalence relation, I can determine the equivalence class
+            of an element.
+            I can list the distinct equivalence classes determined by the
+            relation.
+            Proof Portfolio At the end of the semester, you will submit a proof
+            portfolio containing at least 10 proofs.
+            Purpose There are a number of reasons why this exercise is important
+            in an introduction to proofs class: Written communication.
+            Perhaps one of the most important goals of the proof portfolio is to
+            work on your ability to write well.
+            I don't know anyone who was born a good mathematical writer.
+            Writing mathematics is decidedly different from writing an essay
+            (just as, you may have noticed, reading a math text is different
+            from reading a novel) and it will take some time to get good at it.
+            The proof portfolio gives you many opportunities to learn from
+            mistakes.
+            Learning LaTeX.
+            Mathematical typesetting in LaTeX is an important goal in this
+            course.
+            In future courses you'll be able to do your homework faster and
+            better, and it will look more professional.
+            You'll be glad you learned it, trust me!
+            The opportunity to act on feedback.
+            You will get lots of feedback on assignments in this course,
+            especially on proof drafts.
+            This is a chance for you and me to make sure you understand my
+            feedback and correct mistakes.
+            Seeing a proof through to perfection and celebrating your progress.
+            I hope this will be satisfying!
+            A resource later.
+            You will have 10 typed proofs and at least one example of every
+            proof technique we've learned in the course.
+            This could be of use in the event that you ever forget, say, how
+            induction works.
+            Collaboration and Resources You may use your textbook and class
+            notes.
+            You may brainstorm and discuss solutions in groups, but you may not
+            take any notes from these discussions in any form (including video
+            recording).
+            You must write your solutions individually.
+            You may only discuss your ideas with others in our section of MTH
+            210 who are at the same point in solving the problem, as well as me.
+            See academic integrity for more information and examples,
+            particularly the golden rule.
+            Drafts Drafts and deadlines: Each proof will have two deadlines
+            during the semester: First a rough draft, then a revised copy that
+            focuses on writing.
+            Each is due Friday at 5:00 pm on Blackboard with a 48 hour grace
+            period.
+            Exact due dates posted on Blackboard and announced in class.
+            Estimated due dates are in the schedule.
+            Rough draft: First, complete a rough draft of your portfolio
+            solution.
+            This could be in “know-show table” format or bullet points.
+            Your goal is to include all key mathematical ideas and work, with
+            just enough writing and detail to make it understandable.
+            Focus on the central ideas and don't try to make it beautiful (yet)!
+            Due: Friday at 5:00 pm (plus a 48 hour grace period).
+            Writing revision: I'll give feedback on your rough draft very
+            quickly, focusing only on the mathematical ideas.
+            Spend the next week revising it and bringing the writing up to meet
+            the professional communication specifications.
+            This writing revision is due the following Friday at 5:00 pm (plus a
+            48 hour grace period).
+            Here's an example of a well done rough draft and writing revision.
+            How to submit your work: Upload to the corresponding assignment on
+            Blackboard.
+            Upload a PDF of your work.
+            Submit writing revisions to the same assignment.
+            For the writing revision, you may want to Include a “read only” link
+            to your Overleaf document in the comments field so I can help with
+            LaTeX Grades on drafts: The rough draft will not receive a grade.
+            Blackboard insists I give one, so I will enter a 0.
+            You did NOT get a 0 on the assignment.
+            For the written revision, I will assign a grade according to this
+            Proof Portfolio Rubric.
+            This grade is not final, you may continue to revise your work, see
+            final grading.
+            Final Product Final product: You will put together all of your final
+            proofs into one Overleaf file.
+            Here's a template.
+            (See Blackboard for how to get an Overleaf file of your own.) In
+            addition to the problems, the final product will contain a short
+            reflection.
+            The reflection should be a paragraph (say 4-5 sentences) and include
+            an answer to what what you learned from doing (or redoing) a
+            problem.
+            Here are some questions to guide your reflection: did you learn a
+            particular strategy?
+            Did you make a mistake and what did you learn from it?
+            What vocabulary was important to know to do the problem?
+            What was a key insight you had to have to do the problem?
+            Was this problem particularly challenging for you?
+            If so, why?
+            what portfolio objectives the problem addresses (along with a
+            justification).
+            See proof portfolio objectives for the list.
+            Final deadline: The whole portfolio is due, with reflections and
+            objectives at the start of our final exam time (Tuesday, April 28 at
+            10:00AM).
+            Final grading: These final submissions are the only ones whose
+            grades count.
+            Everything up until then is feedback to help you write the best
+            possible proofs.
+            After feedback on the writing revision, you can continue to revise
+            as much as you would like.
+            I'm happy to meet with you during drop-in hours to talk about
+            subsequent revisions.
+            In the Overleaf template for the final portfolio there is a table to
+            fill out where you will assign yourself a grade for each of the
+            problems, justifying if your grade is different from the one on the
+            writing revision, as well as a grade for reflections and overall
+            meeting of the portfolio objectives.
+            Here are the point values: Problems/proofs (100 points): You will
+            complete 10 problems/proofs, 10 points each.
+            Reflections (10 points): Each reflection is worth 1 point.
+            Assign yourself 1 point for a well thought out reflection, half a
+            point if you started a reflection, and 0 points if you didn't do a
+            reflection for that problem.
+            Portfolio Objectives (20 points): Assign yourself a grade out of 20
+            points based on how many of the portfolio objectives you met.
+            The final portfolio is out of 130 points.
+            Proof Portfolio Objectives Proof methods: PM1 Write a correct direct
+            proof.
+            PM2 Write a correct proof using the contrapositive or other logical
+            equivalence.
+            PM3 Write a correct proof by contradiction.
+            PM4 Use cases correctly in a proof.
+            PM5 Write a correct proof using mathematical induction.
+            PM6 Correctly prove a biconditional statement in which both
+            directions are true.
+            PM7 Clearly and correctly disprove a statement using a
+            counterexample.
+            PM8 Correctly prove a set relation using element-chasing or set
+            algebra.
+            PM9 Correctly prove that a function is injective, surjective, or
+            bijective.
+            PM10 Correctly cite a previously proved theorem in the proof of
+            another theorem.
+            Content: Co1 Correctly use the idea of closure.
+            Co2 Correctly use the definitions of odd and even or divisibility.
+            Co3 Correctly use the definitions of rational and irrational.
+            Co4 Correctly use congruences, modular arithmetic, and modular
+            arithmetic shortcuts.
+            Co5 Fluently work with set builder notation and an arbitrary element
+            from a set.
+            Co6 Correctly use function terminology (domain, codomain, range,
+            image, and preimage).
+            Co7 Correctly use the definition of equivalence relation and its
+            parts (symmetric, reflexive, transitive).
+            Mathematical Strategies MS1 Correctly use appropriate mathematical
+            ideas from previous classes (such as Algebra and Calculus) to solve
+            problems.
+            MS2 Create a variety of concrete examples that illustrate the use of
+            a theorem.
+            MS3 Create a variety of concrete examples that illustrate the use of
+            a definition.
+            Proof Portfolio Rubric Score Characteristics 10 (Distinguished) A 10
+            is reserved for completely correct and well written proofs or
+            solutions.
+            Includes: Clearly communicated understanding of key ideas
+            Explanations and justifications are complete, correct, and easy to
+            follow.
+            Mathematical terminology and notation are used correctly.
+            Reasoning flows logically.
+            Computations are essentially correct (could contain one or two minor
+            errors that do not detract from the solution), well organized, and
+            easy to follow.
+            Adheres to all writing guidelines.
+            8 (Proficient) For an 8 the proof or solution has the main flow of
+            logic correct, but misses one of the high standards of a 10
+            Communication of key ideas is essentially correct but may contain
+            minor flaws that do not subtract significantly from the solution.
+            Explanations and justifications are essentially complete, correct,
+            and can be followed, but may contain minor errors that subtract, but
+            not significantly, from the solution.
+            Mathematical terminology and notation are used at least mostly
+            correctly.
+            Reasoning flows logically.
+            Computations are essentially correct, but may contain minor errors
+            that subtract, but not significantly, from the solution.
+            Adheres to at least most of the writing guidelines.
+            6 (Progressing significantly) A 6 is earned for proofs or solutions
+            that show significant progress towards a solution, but have a key
+            error.
+            Communication contains many of the key ideas but also may contain
+            errors that subtract significantly from the solution.
+            Explanations and justifications exist, but are not always clear and
+            easy to follow or they do not match the work done.
+            Mathematical terminology and notation are at least sometimes used
+            correctly.
+            Work done has some logical foundation, but flow of ideas may not
+            easily be followed.
+            A computation may contain an error that subtracts significantly from
+            the solution.
+            Adheres to at least some of the writing guidelines.
+            3 (Progressing) A 3 is earned for proofs or solutions that have the
+            basics, but have a major flaw that make it invalid.
+            Communication demonstrates understanding of some key ideas, but also
+            demonstrates a lack of understanding of other ideas.
+            Some claims have sufficient explanations or justifications, but some
+            are missing entirely or are hard to follow.
+            There may be a significant logical error.
+            The solution is disorganized or contains irrelevant information or
+            arguments.
+            Mathematical terminology or notation may be nonsensical or
+            incorrectly used.
+            Adheres to at least a few of the writing guidelines.
+            0 (Inadequate) A 0 is given to a proof or solution that is invalid
+            and demonstrates no understanding or is work that is not your own.
+            The reasoning is logically invalid.
+            Claims are not justified or the explanations are incomprehensible.
+            In addition to these grades, I may assign a “9.9”.
+            A 9.9 means there are errors that should be fixed, but I believe
+            that you can fix them on your own.
+            Supplemental Writing Skills Course This course is designated SWS.
+            Completion of WRT 150 with a grade of C or better (not C-) is a
+            prerequisite.
+            SWS credit will not be given to a student who completes this course
+            before completing the prerequisite.
+            SWS courses adhere to certain guidelines.
+            Students turn in a total of at least 3000 words of writing.
+            Part of that total may be essay exams, but a substantial amount of
+            it is made up of essays, reports, or research papers.
+            The instructor works with the students on revising drafts of papers,
+            rather than simply grading the finished piece of writing.
+            At least four hours of class time will be devoted to writing
+            instruction.
+            At least one third of the final grade in the course is based on the
+            writing assignments.
+            Students must complete the course with a grade of "C" or better in
+            order to receive SWS credit.
+            Students may receive SWS credit for taking the course as Credit/No
+            Credit provided the student passes the course with a "Credit" grade.
+            Math Center and Writing Center: The math center is NOT to be used
+            for this class.
+            The Fred Meijer Center for Writing and Michigan Authors
+            (gvsu.edu/wc) MAY be used.
+            The Writing Center provides writing assistance to all GVSU students,
+            on any type of project and at any stage of the process.
+            The Writing Center employs both undergraduate and graduate writing
+            consultants from a variety of majors and disciplines.
+            Consultants are trained to help writers brainstorm, organize, and/or
+            develop their ideas; and they can help writers edit their own work
+            and document sources correctly.
+            The Center's services are free and students can work with an idea or
+            assignment prompt all the way through drafting and finalizing their
+            paper.
+            Writing Center services are available in-person and online during
+            all hours: (Mon-Thurs 9 a.m.-11 p.m., Friday 9 a.m.-3 p.m., Sunday 2
+            p.m.- 11 p.m.).
+            Students can schedule appointments in advance via Book It or drop-in
+            (first-come/first-serve) at any service location or virtually.
+            Hours vary by location so please check Book It and our program
+            website for up-to-date information - gvsu.edu/wc.
+            Writing Instruction and Revision: We will spend at least 4 hours in
+            class discussing math writing via discussing the professional
+            writing specifications, how to typeset in Overleaf, and by
+            evaluating proofs.
+            The type of writing we will learn is mathematical proof.
+            You will practice writing on the weekly practice and by completing
+            the proof portfolio.
+            The proof portfolio is 35% (which counts for more than ⅓ of your
+            grade, as required by SWS), is the main artifact of writing.
+            You will receive feedback on first drafts, and the writing revision
+            weekly, and then additional feedback as asked for.
+            See the proof portfolio description for more details.
+            There is no specific word count for any one proof - in mathematics
+            being concise but thorough is the main goal.
+            No AI tools are to be used for this class.
+            The goal of this course is to learn to problem solve and write well.
+            Using AI can be helpful for making some things more efficient, there
+            is no shortcut to learning how to problem solve and find your
+            mathematical writing voice.
+            Course Policies This course is subject to the GVSU policies listed
+            at http://www.gvsu.edu/coursepolicies/.
+            Here are some additional course specific policies.
+            Class Norms: We will come up with these as a class.
+            Here is one I'll add though Step up and fall back: If you are likely
+            to contribute a lot, try to “fall back” to make space for others to
+            do so.
+            If you tend to be quieter, try to “step up”, we want to hear from
+            you!
+            Attendance: Attendance does not count towards your final grade.
+            That being said attendance is crucial to success in this class.
+            Your best chance to discuss new material, ask questions, and avoid
+            confusion is during class.
+            So, don't miss class if you can avoid it!
+            You are responsible for all material and announcements from class,
+            even in case of absence.
+            Much of this information will be available on Blackboard.
+            I understand that life happens.
+            We get sick.
+            Relatives or friends or kids need your help.
+            Cars break down.
+            Here's what to do: Email Dr.
+            Keough (in advance if you can).
+            I worry about you!
+            Check Blackboard.
+            Use the class notes and worksheets to catch up.
+            Get in touch with a classmate to see what you missed.
+            Check in with Dr.
+            Keough when you return.
+            If you are sick, do not come to class.
+            I promise we will work to catch you up.
+            Late Work: Preview activities will not be accepted late.
+            They are meant to prepare you for class, and thus will not be
+            counted if they are not done by 9AM on class days (I need them by
+            that hour so I can look before class!).
+            Checkpoints will not be accepted late and there are no makeups.
+            They must be done in class.
+            You have multiple attempts and thus you will not be penalized for
+            missing one (though it may become a problem if you miss multiple).
+            Weekly practice will not be accepted late since the problems will be
+            presented in class.
+            sIf you won't be in class, you can email me your weekly practice
+            before class.
+            Proof portfolio deadlines have an automatic grace period.
+            While the proof portfolio deadline is Friday at 5PM, you
+            automatically get a 48 hour grace period and can turn in by Sunday
+            at 5PM.
+            Note though that I do not check email between Friday at 5PM and
+            Monday at 8AM, so start early and get help!
+            On missing a lot: if something happens that causes you to miss a
+            lot, please talk to me as soon as possible.
+            I will try to be flexible, but know this course moves quickly and it
+            may be too difficult to catch up.
+            The sooner you can contact me the better!
+            On usual deadlines: If the usual deadlines are bad for your
+            schedule, I want to help, and I urge you to contact me so we can
+            work something out.
+            Your health and your familys health should be your priority.
+            If you are dealing with illness, sick family members, travel
+            difficulties, a bad internet connection, increased anxiety,
+            childcare challenges, or any other issues, please reach out and we
+            will figure out accommodations.
+            Technology Expectations: You will need a computer and access to the
+            internet.
+            You will regularly access Blackboard, watch videos, read your
+            textbook, and type proofs using the website Overleaf.
+            A phone is not enough to do this!
+            If you do not have a computer, the library does laptop checkouts for
+            up to 8 hours (4 hours + 4 hour renewal) and there are computer labs
+            on campus.
+            You can also apply for a laptop loan through the Replenish Basic
+            Needs Center Student Accessibility Resources: Grand Valley State
+            University strives to provide an inclusive environment across campus
+            that is accessible to all individuals with a diverse range of
+            abilities.
+            As your instructor, it is my objective to facilitate opportunities
+            within all class activities and programs because your success is
+            important to me.
+            If you are encountering difficulties that are interrupting your
+            learning experience please feel free to make those known to me as
+            soon as possible, as early planning is essential.
+            If you feel that you need accommodations in this course, you must
+            present a memo to me from Student Accessibility Resources,
+            indicating the existence of a disability and the approved
+            accommodations.
+            If the class meets in person, you should schedule a meeting with me
+            during office hours to discuss your accommodations.
+            If your class is online or hybrid, please forward your memo to me in
+            an email and schedule a virtual or phone appointment with me to
+            discuss your accommodations.
+            Accommodations are not retroactive.
+            If you have not already done so, please contact the Student
+            Accessibility Resources office (215 CON) by calling (616) 331-2490
+            or by email access@gvsu.edu.
+            Please note that I cannot provide accommodations based upon
+            disability until I have received a copy of the Accessibility
+            Resources issued memo.
+            Furthermore, if you have a disability and think you will need
+            assistance evacuating this classroom and/or building in an
+            emergency, please make me aware so that the university and I can
+            develop a plan to assist you.
+            All discussions will remain confidential.
+            Remote Days: In the event that GVSU institutes a remote day, we will
+            meet online via Zoom.
+            If this happens during finals week, your class presentations will be
+            online.
+            I expect that you have the technology requirements listed here, as
+            well as the ability to access Zoom.
+            If this may be an issue, please let me know as soon as possible.
+            Student Well Being As an instructor, I will strive to create an
+            equitable and inclusive learning environment in our class.
+            Your well-being is an important prerequisite for learning.
+            Please make sure that you are taking care of yourself and reach out
+            for help when you need it.
+            GVSU provides a number of resources for students.
+            Here are two websites that may be helpful during your time at GVSU:
+            gvsu.edu/support - list of GVSU resources organized by categories:
+            academic, social, financial, health and well-being
+            gvsu.edu/studentwellness - college is a great time to learn about
+            your wellness!
+            GVSU provides academic and social supports for students, and these
+            supports are there to let students achieve the academic success they
+            are truly capable of.
+            Here are some specific resources.
+            University Counseling Center - Free confidential mental health
+            services for GV students.
+            CARE Report - If you or a student you know needs help, but you
+            aren't sure where to start, you can fill out a CARE report and the
+            CARE Team will follow up.
+            I may file one of these about you, it's because I care about you and
+            want to connect you with university resources!
+            Recreation \amp Wellness | Fitness - Offers a variety of services to
+            support students' physical health, including group exercise,
+            nutrition, personal training, and more.
+            Many services are free or reduced cost for students.
+            Basic Needs at GVSU - Helps support students in times of hardship by
+            providing meals to meet immediate needs for food and other
+            necessities.
+            Victim and Survivor Advocacy The mission of Victim and Survivor
+            Advocacy at Grand Valley State University is to provide victims and
+            survivors of intimate partner and sexual violence with confidential,
+            non-judgmental, compassionate support, access to critical resources,
+            and the tools necessary to build a path to healing.
+            Facilities (Restrooms, Etc.) - A list of single stall bathrooms,
+            rooms for nursing mothers, rooms with baby changing tables, etc.
+            on the Allendale campus.
+            Military and Veterans Resource Center - Veteran-specific support
+            resources.
+            Milt Ford Legacy Collective: The Rainbow Resource Center- Supports
+            LGBTQIA+ and allied students.
+            Trans resources.
+            Student Accessibility Resources: If you have special needs because
+            of a learning, physical or other disability, please contact Student
+            Accessibility Resources (SAR).
+            If you have registered with DSR, please make an appointment with me
+            to discuss your specific needs.
+            Chosen name: I will ask for your pronouns in the welcome survey.
+            If your chosen name does not match your state issued identification
+            you may have your chosen name on their GVSU ID card, the name
+            associated with their student email account and in Blackboard.
+            Instructions here.
+            Campus Climate Reports: You can report any instance where someone
+            felt belittled, disrespected, or isolated based on their identity at
+            this link and someone will follow up with you.
+            There's more info at this page.
+            In addition, for faculty/staff related complaints, you can file an
+            informal complaint with the Division of Inclusion and Equity at
+            inclusion@gvsu.edu or 616-331-3296.
+            For student related complaints, you can also contact the Dean of
+            Students office at 616-331-3585.
+            Academic Integrity I believe that collaboration can lead to greater
+            mathematical growth and appropriate collaboration is encouraged.
+            It is your responsibility to make sure you are using any
+            collaboration to gain a greater understanding of course content and
+            that you are academically honest at all times.
+            Because the academic system relies heavily on integrity any
+            instances of academic dishonesty or plagiarism will not be
+            tolerated.
+            I trust you to be honest and want you to learn.
+            Policies Specific to this Course Here's a summary of the types of
+            assignments and what is allowed: Assignment Allowed Not Allowed
+            Preview activities Collaboration with classmates, use of our
+            textbook and notes.
+            Copying any answer from a resource besides our textbook, turning in
+            things you don't understand.
+            Weekly Practice Collaboration with classmates, textbook, notes.
+            Collaboration with students outside of our class, math center, any
+            other resources (like anything on the internet or AI).
+            Proof Portfolio Collaboration with classmates ON FIRST DRAFT with
+            nothing written down, collaboration with Dr.
+            Keough, notes, textbook, anything posted on Blackboard.
+            Also see the golden rule!
+            Collaboration with any other student or person outside our class.
+            Collaboration with other students on written revision.
+            Any resources besides our textbook, Blackboard (and things posted
+            there) and your notes (like anything on the internet or AI).
+            Checkpoints Your own brain!
+            Collaboration with classmates, any resources.
+            Review Assessments Full page of notes (front and back).
+            Copying from any resource, turning in anything you don't understand,
+            collaboration with classmates.
+            Golden Rule Any submitted solution to any assignment must be your
+            own writing about your own understanding in your own words,
+            regardless of collaboration.
+            This means that at no point should you turn in work you do not
+            understand.
+            A note on Generative AI (e.g.
+            ChatGPT): In this course, we'll be developing skills that are
+            important to practice on your own.
+            Using generative AI can inhibit the development of those skills -
+            even if you just use it for hints or suggestions.
+            So, please refrain from employing AI tools in this course.
+            Using such tools for any purposes, or attempting to represent
+            AI-generated work as your own, will violate our academic integrity
+            policy.
+            (Side note: ChatGPT and similar LLMs are good at writing
+            nice-sounding but logically incorrect proofs that don't follow our
+            professional communication specifications.
+            Don't waste your time.) Some Examples (Not Exhaustive) Examples for
+            Collaboration on portfolio: Every sentence that you write should be
+            one that you have generated yourself and that you fully understand.
+            You are permitted to collaborate on generating big ideas for
+            solutions with classmates, but you must work alone when writing your
+            solutions.
+            All collaboration with individual problems must occur with students
+            who are at the same stage of the problem solution as you.
+            Here are two illustrative examples.
+            These do not cover all situations.
+            You have not made any individual progress on a problem.
+            You ask several students, “How did you do portfolio problem 4?”
+            until you find someone who has completed the problem and is willing
+            to describe a route to the solution.
+            This is academic dishonesty: the work is not your own.
+            You have not made any individual progress on a problem.
+            Together with peers who also have not started the problem, you
+            attempt to work out a route to the solution on a whiteboard.
+            You don't take any notes, or a picture of the whiteboard.
+            You write up your solution on your own later, away from the
+            whiteboard.
+            This is fine - as long as you respect the Golden Rule when writing
+            your solution.
+            The internet/googling/generative AI: This is strictly off limits for
+            any assignment in this course.
+            Example: You aren't sure how to start, so you ask chatGPT the
+            problem to see if you can get a hint.
+            This is academic dishonesty: You can't write up your own solution
+            once you've seen a solution.
+            Use me as your google, I will help!
+            Past students and solution sites: This is strictly off limits too.
+            Any assignment basing your work on the efforts of another student,
+            or a solution site like Chegg/StackExchange is considered academic
+            dishonesty.
+            Posting or using a solution is grounds for failure of the course.
+            Class materials are all copyrighted and may not be shared beyond
+            other students in this class, including posting your solutions
+            anywhere online.
+            Sharing Overleaf documents: This is strictly off limits.
+            Example: You aren't sure how to type something in Overleaf so you
+            ask your friend to share their Overleaf.
+            This is academic dishonesty.
+            Use the LaTeX cheat sheet or DeTeXify, or ask Dr.
+            Keough (keoulaur@gvsu.edu).
+            Recommendations Start early: I don't believe any of you intend to go
+            into this class and be academically dishonest.
+            Procrastination can put you in desperate situations, but this is not
+            an excuse for misconduct.
+            Do not procrastinate on any assignments.
+            Remember there are redos/grades based on effort: I'm not trying to
+            “get you” in any part of your grade, my goal is for you to learn.
+            Take advantage of redoing problems for the portfolio and extra
+            attempts on checkpoints.
+            Use me as your google: If you are ever tempted to google something
+            for work you plan to turn in, just email me (keoulaur@gvsu.edu) and
+            ask what you would ask google.
+            I don't respond in .02 seconds as google often does, but I do
+            typically respond quickly (within a couple of hours if between 9-5
+            M-F, or next business day if not) and my algorithm for advice is
+            better since I can meet you where you're at.
+            Student Code Make sure you are familiar with Section 5.1 of the
+            student code.
+            Penalties The principles of truth and honesty are recognized as
+            fundamental to a community of teachers and scholars.
+            If I suspect you of academic dishonesty I will notify you and meet
+            with you to discuss the incident.
+            I may ask you to explain your work (recall anything you turn in
+            should be a representation of your own understanding!).
+            In order to uphold these principles, any instances of academic
+            dishonesty will be penalized and reported to the office of student
+            conduct and conflict resolution.
+            Remember, I trust you to be honest and want you to learn.
+            Ask me for help.
+            Syllabus of Record Course description A study of proof techniques
+            used in mathematics.
+            Intensive practice in reading mathematics, expository writing in
+            mathematics, and constructing and writing mathematical proofs.
+            Mathematical content includes elementary logic, congruence
+            arithmetic, set theory, functions, equivalence relations, and
+            equivalence classes.
+            Learning Objectives After successful completion of the course,
+            students will be able to: Explain standard methods of mathematical
+            proof (including direct proofs, logical equivalencies, proof by
+            contradiction, mathematical induction, case analysis, and
+            counterexamples).
+            Create mathematical proofs using standard methods of mathematical
+            proof.
+            Solve and generalize mathematical problems.
+            Critique mathematical proofs.
+            Determine appropriate method of proof for a given conjecture or
+            argument.
+            This course is subject to the GVSU policies listed at
+            http://www.gvsu.edu/coursepolicies/.
+            This syllabus may be updated!
+            Any changes will be announced clearly on Blackboard or via email and
+            the changes will show in the google doc version of the syllabus.
+        </p>
+    </subsection>
+</section>
