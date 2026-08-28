@@ -31,11 +31,11 @@
                 <title>Learning Targets</title>
 
                 <!-- Include handouts -->
-                <xi:include href="./targets/LearningTarget1.ptx"/>
-                <xi:include href="./targets/LearningTarget2.ptx"/>
-                <xi:include href="./targets/LearningTarget3.ptx"/>
-                <xi:include href="./targets/LearningTarget4.ptx"/>
-                <xi:include href="./targets/LearningTarget5.ptx"/>
+                <xi:include href="./LearningTargets/LearningTarget1.ptx"/>
+                <xi:include href="./LearningTargets/LearningTarget2.ptx"/>
+                <xi:include href="./LearningTargets/LearningTarget3.ptx"/>
+                <xi:include href="./LearningTargets/LearningTarget4.ptx"/>
+                <xi:include href="./LearningTargets/LearningTarget5.ptx"/>
             </chapter>
 
             <chapter xml:id="weekly-practice">
