@@ -9,7 +9,7 @@
 <!--******************************************-->
 <!--*  Authored with PreTeXt                 *-->
 <!--*  pretextbook.org                       *-->
-<!--*  Theme: denver                         *-->
+<!--*  Theme: default-modern                 *-->
 <!--*  Palette:                              *-->
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
@@ -19,67 +19,27 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 <link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
-<script>
-var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
-window.MathJax = {
-  "tex": {
-    "inlineMath": [
-      [
-        "\\(",
-        "\\)"
-      ]
-    ],
-    "tags": "none",
-    "tagSide": "right",
-    "tagIndent": ".8em",
-    "packages": {
-      "[+]": [
-        "base",
-        "ams",
-        "amscd",
-        "color",
-        "newcommand",
-        "textmacros",
-        "knowl"
-      ]
-    }
-  },
-  "options": {
-    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
-    "processHtmlClass": "process-math"
-  },
-  "chtml": {
-    "scale": 0.98,
-    "mtextInheritFont": true
-  },
-  "loader": {
-    "load": [
-      "input/asciimath",
-      "[tex]/amscd",
-      "[tex]/color",
-      "[tex]/newcommand",
-      "[tex]/textmacros",
-      "[pretext]/mathjaxknowl3.js"
-    ],
-    "paths": {
-      "pretext": "_static/pretext/js"
-    }
-  },
-  "startup": {
-    pageReady() {
-      return MathJax.startup.defaultPageReady().then(function () {
-      console.log("in ready function");
-      rsMathReady();
-      }
-    )}
-  }
-};
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<style>
+@counter-style ptx-marker-0 { system: extends lower-alpha; prefix: '('; suffix: ') '; }
+</style>
+<script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+lang: "en-US",
+});
+</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
+<meta name="twitter:title" content="Communicating in Mathematics">
+<meta property="og:title" content="Communicating in Mathematics">
 <meta property="book:title" content="Communicating in Mathematics">
-<meta property="book:author" content="Lauren Keough">
-<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<meta name="twitter:description" content="MTH 210 Fall 2026">
+<meta property="og:description" content="MTH 210 Fall 2026">
+<meta name="twitter:card" content="summary">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.50"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.50"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -101,41 +61,62 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.2.6';
+eBookConfig.runestone_version = '8.2.9';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.86d8a68ed7481f7e.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.bb5ac777721d4056.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8086b62682b271d1.css">
-<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+<script src="_static/prefix-runtime.5ef53875c58b216b.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.c5ba0ffa5f963084.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.efe427683fc41f98.css">
+<script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
 <body class="pretext book ignore-math">
-<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
-<h1 class="heading"><a href="root-1-2.html"><span class="title">Communicating in Mathematics</span> <span class="subtitle">MTH 210 Fall 2026</span></a></h1>
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead" role="banner"><div class="ptx-banner"><div class="title-container">
+<div class="heading ptx-banner-heading"><a href="root-1-2.html"><span class="title">Communicating in Mathematics</span> <span class="subtitle">MTH 210 Fall 2026</span></a></div>
 <p class="byline">Lauren Keough</p>
 </div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
-<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
-<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
-<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
-<div class="search-results-controls">
-<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+<button id="ptx-toc-toggle" type="button" aria-controls="ptx-sidebar" class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="ptx-search-box">
+<div class="ptx-search-widget"><button id="ptx-search-button" type="button" class="ptx-search-button button" title="Search Book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<dialog id="ptx-search-dialog" class="ptx-dialog ptx-search-dialog"><div class="ptx-search-dialog-controls">
+<input aria-label="Search term" id="ptx-search-terms" class="ptx-search-terms" type="text" name="terms" placeholder="Search terms"><button aria-label="Close" id="ptx-search-close" class="ptx-search-close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
 </div>
-<h2 class="search-results-heading">Search Results: </h2>
-<div id="searchempty" class="searchempty"><span>No results.</span></div>
-<ol id="searchresults" class="searchresults"></ol>
+<div id="ptx-search-status" class="ptx-search-status" aria-live="polite" aria-atomic="true"></div>
+<h2 class="heading ptx-search-results-heading">Search Results: </h2>
+<div id="ptx-search-empty" class="ptx-search-empty"><span>No results.</span></div>
+<ol id="ptx-search-results" class="ptx-search-results"></ol></dialog>
 </div>
+<span class="nav-other-controls"><button id="ptx-read-aloud-button" class="ptx-read-aloud-button button" title="Read aloud" aria-expanded="false"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf1bc;</span><span class="name">Read aloud</span></button><div id="ptx-read-aloud-player" class="ptx-read-aloud-player" hidden="hidden" role="group" aria-label="Read aloud">
+<button id="ptx-read-aloud-prev" class="button" title="Previous sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe045;</span></button><button id="ptx-read-aloud-toggle" class="ptx-read-aloud-toggle button" title="Play"><span class="ptx-read-aloud-icon-play"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></span><span class="ptx-read-aloud-icon-pause"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe034;</span></span></button><button id="ptx-read-aloud-next" class="button" title="Next sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe044;</span></button><a id="ptx-read-aloud-continue" class="ptx-read-aloud-continue button" hidden="hidden">Continue<span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></a><button id="ptx-read-aloud-settings-button" class="ptx-read-aloud-settings-button button" title="Reading settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe429;</span></button>
 </div>
-<span class="nav-other-controls"><button id="embed-button" class="embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><div class="embed-popup hidden" id="embed-popup">
-<p>Copy the code below to embed this page in your own website or LMS page.</p>
-<div class="embed-code-container">
-<textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+<dialog class="ptx-dialog ptx-read-aloud-settings-popup" id="ptx-read-aloud-settings-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Read aloud settings</h2>
+<button class="ptx-read-aloud-settings-close-button button" id="ptx-read-aloud-settings-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
 </div>
+<div class="ptx-readability-options-group">
+<label for="ptx-read-aloud-voice"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe91f;</span><span>Voice</span></label><select id="ptx-read-aloud-voice"></select><label class="ptx-readability-slider-label" for="ptx-read-aloud-rate"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe9e4;</span><span>Reading speed</span><output id="ptx-read-aloud-rate-value" for="ptx-read-aloud-rate">1×</output></label><input type="range" id="ptx-read-aloud-rate" min="0.5" max="2" step="0.1" value="1"><label for="ptx-read-aloud-asides"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d7;</span><span>Collapsed content</span></label><select id="ptx-read-aloud-asides"><option value="skip">Announce, do not read</option>
+<option value="read">Read automatically</option></select><label for="ptx-read-aloud-autoscroll"><input type="checkbox" id="ptx-read-aloud-autoscroll" checked><span>Follow along (auto-scroll)</span></label><label for="ptx-read-aloud-autocontinue"><input type="checkbox" id="ptx-read-aloud-autocontinue"><span>Continue to the next page automatically</span></label>
+</div></dialog><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Readability settings</h2>
+<button class="ptx-readability-options-close-button button" id="ptx-readability-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
 </div>
-<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ch-1-intuitiveproofs-7.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="root-1-2.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-2-directproofs-2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-line-height"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe240;</span><span>Line height</span><output id="ptx-readability-line-height-value" for="ptx-readability-line-height">1.35</output></label><input type="range" id="ptx-readability-line-height" min="1.10" max="3" step="0.05" value="1.35">
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-font-size"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe245;</span><span>Content font size</span><output id="ptx-readability-font-size-value" for="ptx-readability-font-size">100%</output></label><input type="range" id="ptx-readability-font-size" min="0.8" max="1.5" step="0.05" value="1">
+</div>
+<fieldset class="ptx-readability-options-group ptx-readability-options-group-theme">
+<legend>Theme</legend>
+<label for="ptx-readability-theme-system"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-system" value="system"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe1ab;</span><span>System</span></label><label for="ptx-readability-theme-light"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-light" value="light"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe518;</span><span>Light</span></label><label for="ptx-readability-theme-dark"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-dark" value="dark"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span>Dark</span></label>
+</fieldset>
+<fieldset class="ptx-readability-options-group">
+<legend>Assistive technologies</legend>
+<label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
+</fieldset>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="ch-1-intuitiveproofs.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="part-.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-3-sets.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
@@ -148,143 +129,909 @@ eBookConfig.enable_chatcodes =  false;
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth3 parts focused" data-preexpanded-levels="0" data-max-levels="3"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="root-1-2-4.html" class="internal"><span class="codenumber">I</span> <span class="title">Course and Assignment Information</span></a></div>
+<ul id="ptx-toc-group-root-1-2-4" class="structural toc-item-list">
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="course-documents.html" class="internal"><span class="codenumber">1</span> <span class="title">Getting Started</span></a></div>
+<ul id="ptx-toc-group-course-documents" class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="course-documents.html#syllabus" class="internal"><span class="title">Syllabus Sections 02 (TR) and 03 (MW)</span></a></div>
+<ul id="ptx-toc-group-syllabus" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="course-documents.html#sec-course-info" class="internal"><span class="title">Course Information</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="course-documents.html#subsec-SupplementalWritingSkills" class="internal"><span class="title">Supplemental Writing Skills</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="course-documents.html#subsec-SOR" class="internal"><span class="title">Course Objectives (Syllabus of Record)</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="course-documents.html#subsec-Weekly-Assignments" class="internal"><span class="title">Weekly Assignments</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="course-documents.html#subsec-schedule" class="internal"><span class="title">(Tentative) Course Schedule</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="course-documents.html#sec-Grades" class="internal"><span class="title">Grades</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="course-documents.html#sec-AcademicHonesty" class="internal"><span class="title">Academic Honesty Policies</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="targets.html" class="internal"><span class="codenumber">2</span> <span class="title">Learning Targets</span></a></div>
+<ul id="ptx-toc-group-targets" class="structural toc-item-list">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="targets.html#targets-2" class="internal"><span class="title">Learning Target 1 Practice</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="targets.html#targets-3" class="internal"><span class="title">Learning Target 2 Practice</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="targets.html#targets-4" class="internal"><span class="title">Learning Target 3 Practice</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="targets.html#targets-5" class="internal"><span class="title">Learning Target 4 Practice</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="targets.html#targets-6" class="internal"><span class="title">Learning Target 5 Practice</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="weekly-practice.html" class="internal"><span class="codenumber">3</span> <span class="title">Weekly Practice</span></a></div>
+<ul id="ptx-toc-group-weekly-practice" class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="weekly-practice.html#notes-week-01" class="internal"><span class="title">Week 1</span></a></div>
+<ul id="ptx-toc-group-notes-week-01" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="weekly-practice.html#notes-week-01-3" class="internal"><span class="title">Monday 8/22</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="weekly-practice.html#notes-week-01-4" class="internal"><span class="title">Wednesday 8/24</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="weekly-practice.html#notes-week-01-5" class="internal"><span class="title">Friday 8/26</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="weekly-practice.html#notes-week-02" class="internal"><span class="title">Week 2</span></a></div>
+<ul id="ptx-toc-group-notes-week-02" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="weekly-practice.html#notes-week-02-2" class="internal"><span class="title">Monday</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="weekly-practice.html#notes-week-02-3" class="internal"><span class="title">Wednesday</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="weekly-practice.html#notes-week-02-4" class="internal"><span class="title">Friday</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-part contains-active">
+<div class="toc-title-box"><a href="part-.html" class="internal"><span class="codenumber">II</span> <span class="title">Handouts</span></a></div>
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-part-">
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-1-intuitiveproofs.html" class="internal"><span class="codenumber">1</span> <span class="title">Intuitive Proofs</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-1-intuitiveproofs-2.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Chessboard Problems</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-1-intuitiveproofs-3.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Patterns and Conjectures</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-1-intuitiveproofs-4.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Conditional Statements</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-1-intuitiveproofs-5.html" class="internal"><span class="codenumber">1.4</span> <span class="title">The Pigeonhole Principle</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="sec-TheGameSET.html" class="internal"><span class="codenumber">1.5</span> <span class="title">The Game SET</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-1-intuitiveproofs-7.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Welcome to Phase 2 Mathematics</span></a></div></li>
+<ul id="ptx-toc-group-ch-1-intuitiveproofs" class="structural toc-item-list">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-1-intuitiveproofs.html#ch-1-intuitiveproofs-2" class="internal"><span class="title">Chessboard Problems</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-1-intuitiveproofs.html#ch-1-intuitiveproofs-3" class="internal"><span class="title">Patterns and Conjectures</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-1-intuitiveproofs.html#ch-1-intuitiveproofs-4" class="internal"><span class="title">Conditional Statements</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-1-intuitiveproofs.html#ch-1-intuitiveproofs-5" class="internal"><span class="title">The Pigeonhole Principle</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-1-intuitiveproofs.html#sec-TheGameSET" class="internal"><span class="title">The Game SET</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-1-intuitiveproofs.html#ch-1-intuitiveproofs-7" class="internal"><span class="title">Welcome to Phase 2 Mathematics</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-2-directproofs.html" class="internal"><span class="codenumber">2</span> <span class="title">Direct Proofs</span></a></div>
-<ul class="structural toc-item-list active">
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-2-directproofs-2.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Direct Proofs</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-2-directproofs-3.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Writing a Proof</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-2-directproofs-4.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Proof By Cases</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-2-directproofs-5.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Divisibility and the Division Algorithm</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-2-directproofs-6.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Congruence</span></a></div></li>
+<ul class="structural toc-item-list active" id="ptx-toc-group-ch-2-directproofs">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-2-directproofs.html#ch-2-directproofs-2" class="internal"><span class="title">Direct Proofs</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-2-directproofs.html#ch-2-directproofs-3" class="internal"><span class="title">Writing a Proof</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-2-directproofs.html#ch-2-directproofs-4" class="internal"><span class="title">Proof By Cases</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-2-directproofs.html#ch-2-directproofs-5" class="internal"><span class="title">Divisibility and the Division Algorithm</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-2-directproofs.html#ch-2-directproofs-6" class="internal"><span class="title">Congruence</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-3-sets.html" class="internal"><span class="codenumber">3</span> <span class="title">Sets</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-3-sets-2.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Sets And Notation</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-3-sets-3.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Roster Notation and Set Builder Notation</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-3-sets-4.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Proving <span class="process-math">\(A\subseteq B\text{:}\)</span> The “Choose an Element Method”</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-3-sets-5.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Operations on Sets</span></a></div></li>
+<ul id="ptx-toc-group-ch-3-sets" class="structural toc-item-list">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-3-sets.html#ch-3-sets-2" class="internal"><span class="title">Sets And Notation</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-3-sets.html#ch-3-sets-3" class="internal"><span class="title">Roster Notation and Set Builder Notation</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-3-sets.html#ch-3-sets-4" class="internal"><span class="title">Proving <span class="process-math">\(A\subseteq B\text{:}\)</span> The “Choose an Element Method”</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-3-sets.html#ch-3-sets-5" class="internal"><span class="title">Operations on Sets</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-4-induction.html" class="internal"><span class="codenumber">4</span> <span class="title">Induction</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-4-induction-2.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Proof by Induction</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-4-induction-3.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Induction with Recursion</span></a></div></li>
+<ul id="ptx-toc-group-ch-4-induction" class="structural toc-item-list">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-4-induction.html#ch-4-induction-2" class="internal"><span class="title">Proof by Induction</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-4-induction.html#ch-4-induction-3" class="internal"><span class="title">Induction with Recursion</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-logic.html" class="internal"><span class="codenumber">5</span> <span class="title">Logic</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-logic-2.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Logic Notation and Truth Tables</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-logic-3.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Conditional Statement Truth Values</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-logic-4.html" class="internal"><span class="codenumber">5.3</span> <span class="title">The Contrapositive and The Converse</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-logic-5.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Logically Equivalent Statements</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-logic-6.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Negating</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-logic-7.html" class="internal"><span class="codenumber">5.6</span> <span class="title">English is hard!</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-logic-8.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Applying Conditional Statements (Using Lemmas)</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-logic-9.html" class="internal"><span class="codenumber">5.8</span> <span class="title">Proving Quantified Statements</span></a></div></li>
+<ul id="ptx-toc-group-ch-logic" class="structural toc-item-list">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-logic.html#ch-logic-2" class="internal"><span class="title">Logic Notation and Truth Tables</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-logic.html#ch-logic-3" class="internal"><span class="title">Conditional Statement Truth Values</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-logic.html#ch-logic-4" class="internal"><span class="title">The Contrapositive and The Converse</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-logic.html#ch-logic-5" class="internal"><span class="title">Logically Equivalent Statements</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-logic.html#ch-logic-6" class="internal"><span class="title">Negating</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-logic.html#ch-logic-7" class="internal"><span class="title">English is hard!</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-logic.html#ch-logic-8" class="internal"><span class="title">Applying Conditional Statements (Using Lemmas)</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-logic.html#ch-logic-9" class="internal"><span class="title">Proving Quantified Statements</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-contrapositive.html" class="internal"><span class="codenumber">6</span> <span class="title">The Contrapositive</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-contrapositive-2.html" class="internal"><span class="codenumber">6.1</span> <span class="title">The Contrapositive</span></a></div></li></ul>
+<ul id="ptx-toc-group-ch-contrapositive" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-contrapositive.html#ch-contrapositive-2" class="internal"><span class="title">The Contrapositive</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-contradiction.html" class="internal"><span class="codenumber">7</span> <span class="title">Contradiction</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-contradiction-2.html" class="internal"><span class="codenumber">7.1</span> <span class="title">What is Proof by Contradiction and Why Do It?</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-contradiction-3.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Starting A Proof By Contradiction</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-contradiction-4.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Practicing Whole Proofs By Contradiction</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-contradiction-5.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Irrationals</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-contradiction-6.html" class="internal"><span class="codenumber">7.5</span> <span class="title">More Proofs by Contradiction</span></a></div></li>
+<ul id="ptx-toc-group-ch-contradiction" class="structural toc-item-list">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-contradiction.html#ch-contradiction-2" class="internal"><span class="title">What is Proof by Contradiction and Why Do It?</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-contradiction.html#ch-contradiction-3" class="internal"><span class="title">Starting A Proof By Contradiction</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-contradiction.html#ch-contradiction-4" class="internal"><span class="title">Practicing Whole Proofs By Contradiction</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-contradiction.html#ch-contradiction-5" class="internal"><span class="title">Irrationals</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-contradiction.html#ch-contradiction-6" class="internal"><span class="title">More Proofs by Contradiction</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-functions.html" class="internal"><span class="codenumber">8</span> <span class="title">Functions</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-functions-2.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Functions Introduction</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-functions-3.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Proving and Disproving Injection and Surjection</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-functions-4.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Functions - Compositions and Inverses</span></a></div></li>
+<ul id="ptx-toc-group-ch-functions" class="structural toc-item-list">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-functions.html#ch-functions-2" class="internal"><span class="title">Functions Introduction</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-functions.html#ch-functions-3" class="internal"><span class="title">Proving and Disproving Injection and Surjection</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-functions.html#ch-functions-4" class="internal"><span class="title">Functions - Compositions and Inverses</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-relations.html" class="internal"><span class="codenumber">9</span> <span class="title">Relations</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-relations-2.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Relations (Equivalence Relations and Equivalence Classes)</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-relations-3.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Proving and Disproving Equivalence Relations</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-relations-4.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Equivalence Classes</span></a></div></li>
-</ul>
-</li>
-<li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="course-documents.html" class="internal"><span class="codenumber">10</span> <span class="title">Course Documents</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-section">
-<div class="toc-title-box"><a href="syllabus.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Syllabus</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#sec-course-info" class="internal"><span class="title">Course Information</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#sec-assessments" class="internal"><span class="title">Assessments and Grades</span></a></div></li>
-</ul>
-</li></ul>
-</li>
-<li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="targets.html" class="internal"><span class="codenumber">11</span> <span class="title">Learning Targets</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="targets-2.html" class="internal"><span class="codenumber">11.1</span> <span class="title">Learning Target 1 Practice</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="targets-3.html" class="internal"><span class="codenumber">11.2</span> <span class="title">Learning Target 2 Practice</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="targets-4.html" class="internal"><span class="codenumber">11.3</span> <span class="title">Learning Target 3 Practice</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="targets-5.html" class="internal"><span class="codenumber">11.4</span> <span class="title">Learning Target 4 Practice</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="targets-6.html" class="internal"><span class="codenumber">11.5</span> <span class="title">Learning Target 5 Practice</span></a></div></li>
-</ul>
-</li>
-<li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="weekly-practice.html" class="internal"><span class="codenumber">12</span> <span class="title">Weekly Practice</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="notes-week-01.html" class="internal"><span class="codenumber">12.1</span> <span class="title">Week 1</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-01.html#notes-week-01-3" class="internal"><span class="title">Monday 8/22</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-01.html#notes-week-01-4" class="internal"><span class="title">Wednesday 8/24</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-01.html#notes-week-01-5" class="internal"><span class="title">Friday 8/26</span></a></div></li>
-</ul>
-</li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="notes-week-02.html" class="internal"><span class="codenumber">12.2</span> <span class="title">Week 2</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-02.html#notes-week-02-2" class="internal"><span class="title">Monday</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-02.html#notes-week-02-3" class="internal"><span class="title">Wednesday</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-02.html#notes-week-02-4" class="internal"><span class="title">Friday</span></a></div></li>
+<ul id="ptx-toc-group-ch-relations" class="structural toc-item-list">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-relations.html#ch-relations-2" class="internal"><span class="title">Relations (Equivalence Relations and Equivalence Classes)</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-relations.html#ch-relations-3" class="internal"><span class="title">Proving and Disproving Equivalence Relations</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-relations.html#ch-relations-4" class="internal"><span class="title">Equivalence Classes</span></a></div></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="chapter" id="ch-2-directproofs">
-<h2 class="heading">
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<div class="print-controls-toggles">
+<form class="papersize-select" id="papersize-select">
+<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
+        </label><label><input type="radio" name="papersize" value="letter">Letter
+        </label>
+</form>
+<details class="print-options"><summary>Additional printing options</summary><div class="header-footer-options">
+<div class="header-option">
+<span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
+</div>
+<div class="footer-option">
+<span class="title">Print footers</span><label>First page<input type="checkbox" id="print-first-page-footer-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-footer-checkbox" checked></label>
+</div>
+</div>
+<div class="highlight-workspace-option">
+<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
+</div></details>
+</div>
+<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="chapter" id="ch-2-directproofs">
+<h1 class="heading">
 <span class="type">Chapter</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Direct Proofs</span>
+</h1>
+<section class="handout" id="ch-2-directproofs-2" data-margins="0.75in 0.75in 0.75in 0.75in">
+<h2 class="heading hide-type">
+<span class="type">Handout</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Direct Proofs</span><div class="print-links"><a href="?printpreview=ch-2-directproofs-2" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
 </h2>
-<nav class="summary-links"><ul>
-<li><a href="ch-2-directproofs-2.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Direct Proofs</span></a></li>
-<li><a href="ch-2-directproofs-3.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Writing a Proof</span></a></li>
-<li><a href="ch-2-directproofs-4.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Proof By Cases</span></a></li>
-<li><a href="ch-2-directproofs-5.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Divisibility and the Division Algorithm</span></a></li>
-<li><a href="ch-2-directproofs-6.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Congruence</span></a></li>
-</ul></nav><div class="autopermalink" data-description="Chapter 2: Direct Proofs"><a href="#ch-2-directproofs" title="Copy heading and permalink for Chapter 2: Direct Proofs" aria-label="Copy heading and permalink for Chapter 2: Direct Proofs">🔗</a></div></section></div>
+<section class="onepage" id="ch-2-directproofs-2-2">
+<section class="paragraphs" id="ch-2-directproofs-2-2-1"><h3 class="heading"><span class="title">Terms and conditions.</span></h3>
+<div class="para" id="ch-2-directproofs-2-2-1-2">I know most of us typically ignore the Terms and Conditions we are asked to agree to, but for doing mathematics, understanding the terms and conditions is vital. Note I didn’t say “agreeing” to the terms and conditions is vital. In fact, changing the terms and conditions is one of the ways we play with math. But in any mathematical dialogue, knowing the terms and conditions of the participants is essential. With that, let’s lay out a few things for our mathematical dialogue to get started.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-2-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Terms and conditions"><a tabindex="-1" href="#ch-2-directproofs-2-2-1" title="Copy heading and permalink for Paragraphs: Terms and conditions" aria-label="Copy heading and permalink for Paragraphs: Terms and conditions">🔗</a></div>
+</section>
+<section class="paragraphs" id="ch-2-directproofs-2-2-2"><h3 class="heading"><span class="title">Number systems.</span></h3>
+<div class="para logical" id="ch-2-directproofs-2-2-2-2">
+<div class="para">Here are a few “number systems”, or sets of numbers with operations, and their notation. Assume all of the operations are the usual operations you’ve learned in math class along the way.</div>
+<ul class="disc" id="ch-2-directproofs-2-2-2-2-2">
+<li id="ch-2-directproofs-2-2-2-2-2-1">
+<div class="para logical" id="ch-2-directproofs-2-2-2-2-2-1-1">
+<div class="para">The natural numbers, denoted <span class="process-math">\(\mathbb{N}\text{,}\)</span> are the positive whole numbers. That is,</div>
+<div class="displaymath process-math" id="ch-2-directproofs-2-2-2-2-2-1-1-2">
+\begin{equation*}
+\mathbb{N} = \{1,2,3,4,...\}.
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-2-2-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ch-2-directproofs-2-2-2-2-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-2-directproofs-2-2-2-2-2-2">
+<div class="para logical" id="ch-2-directproofs-2-2-2-2-2-2-1">
+<div class="para">The integers, denoted <span class="process-math">\(\mathbb{Z}\text{,}\)</span> consist of zero, the natural numbers, and the negatives of the natural numbers. That is,</div>
+<div class="displaymath process-math" id="ch-2-directproofs-2-2-2-2-2-2-1-2">
+\begin{equation*}
+\mathbb{Z} = \{...,-3,-2,-1,0,1,2,3,...\}.
+\end{equation*}
+</div>
+<div class="para">(The Z comes from the German word Zahl, which means “number”.)</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-2-2-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ch-2-directproofs-2-2-2-2-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-2-directproofs-2-2-2-2-2-3">
+<div class="para logical" id="ch-2-directproofs-2-2-2-2-2-3-1">
+<div class="para">The rational numbers, denoted <span class="process-math">\(\mathbb{Q}\text{,}\)</span> are those real numbers that can be written as a quotient of two integers (with a nonzero denominator). That is,</div>
+<div class="displaymath process-math" id="ch-2-directproofs-2-2-2-2-2-3-1-2">
+\begin{equation*}
+\mathbb{Q} = \left\{ \frac{a}{b}: a,b\in\mathbb{Z}, b\neq 0\right\}.
+\end{equation*}
+</div>
+<div class="para">(The Q is for quotient.) The symbol <span class="process-math">\(\in\)</span> means “is an element of” or “is in”. So here, this is saying <span class="process-math">\(a\)</span> is an integer and <span class="process-math">\(b\)</span> is an integer.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-2-2-2-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ch-2-directproofs-2-2-2-2-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-2-directproofs-2-2-2-2-2-4">
+<div class="para" id="ch-2-directproofs-2-2-2-2-2-4-1">The real numbers, denoted <span class="process-math">\(\mathbb{R}\text{,}\)</span> consist of the rational numbers and the irrational numbers.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-2-2-2-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ch-2-directproofs-2-2-2-2-2-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-2-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Number systems"><a tabindex="-1" href="#ch-2-directproofs-2-2-2" title="Copy heading and permalink for Paragraphs: Number systems" aria-label="Copy heading and permalink for Paragraphs: Number systems">🔗</a></div>
+</section>
+<section class="paragraphs" id="ch-2-directproofs-2-2-3"><h3 class="heading"><span class="title">Closure of a set under an operation.</span></h3>
+<div class="para" id="ch-2-directproofs-2-2-3-2">In Fact 2.1 of our textbook, the author writes “The sum of integers is an integer, the difference of integers, and the product of integers is an integer.” We’ll refer to these facts as “<dfn class="terminology">the integers are closed under addition, subtraction, and multiplication</dfn>” We’ll use these closure properties a lot when doing our first proofs.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-2-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig-closure"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/images/Closure.jpg" class="contained" alt='A comic. A: "I don’t get it, how could birds evolve from dinosaurs?". B: "Well dinosaurs aren’t closed under reproduction."'></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A comic from Math With Bad Drawings. What’s the set and what’s the operation here?<div class="autopermalink" aria-hidden="true" data-description="Figure 2.1"><a tabindex="-1" href="#fig-closure" title="Copy heading and permalink for Figure 2.1" aria-label="Copy heading and permalink for Figure 2.1">🔗</a></div></figcaption>
+</figure><div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Closure of a set under an operation"><a tabindex="-1" href="#ch-2-directproofs-2-2-3" title="Copy heading and permalink for Paragraphs: Closure of a set under an operation" aria-label="Copy heading and permalink for Paragraphs: Closure of a set under an operation">🔗</a></div>
+</section></section><section class="onepage" id="ch-2-directproofs-2-3">
+<article class="activity project-like" id="act-02-1-closure"><h3 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Closure properties.</span>
+</h3>
+<div class="introduction" id="act-02-1-closure-2">
+<div class="para" id="act-02-1-closure-2-1">Determine if each of the following are true or false, and explain.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#act-02-1-closure-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="act-02-1-closure-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="act-02-1-closure-3-1-1">The natural numbers are closed under subtraction.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#act-02-1-closure-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.2.a"><a tabindex="-1" href="#act-02-1-closure-3" title="Copy heading and permalink for Task 2.2.a" aria-label="Copy heading and permalink for Task 2.2.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="act-02-1-closure-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="act-02-1-closure-4-1-1">The rational numbers are closed under addition.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#act-02-1-closure-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.2.b"><a tabindex="-1" href="#act-02-1-closure-4" title="Copy heading and permalink for Task 2.2.b" aria-label="Copy heading and permalink for Task 2.2.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="act-02-1-closure-5"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="act-02-1-closure-5-1-1">The integers are closed under division.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#act-02-1-closure-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.2.c"><a tabindex="-1" href="#act-02-1-closure-5" title="Copy heading and permalink for Task 2.2.c" aria-label="Copy heading and permalink for Task 2.2.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="act-02-1-closure-6"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="act-02-1-closure-6-1-1">The even integers are closed under subtraction.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#act-02-1-closure-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.2.d"><a tabindex="-1" href="#act-02-1-closure-6" title="Copy heading and permalink for Task 2.2.d" aria-label="Copy heading and permalink for Task 2.2.d">🔗</a></div>
+</article>
+<article class="task exercise-like" id="act-02-1-closure-7"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para" id="act-02-1-closure-7-1-1">The odd integers are closed under addition.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#act-02-1-closure-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.2.e"><a tabindex="-1" href="#act-02-1-closure-7" title="Copy heading and permalink for Task 2.2.e" aria-label="Copy heading and permalink for Task 2.2.e">🔗</a></div>
+</article>
+<article class="task exercise-like" id="act-02-1-closure-8"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<div class="para" id="act-02-1-closure-8-1-1">The odd integers are closed under multiplication.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#act-02-1-closure-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.2.f"><a tabindex="-1" href="#act-02-1-closure-8" title="Copy heading and permalink for Task 2.2.f" aria-label="Copy heading and permalink for Task 2.2.f">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Activity 2.2: Closure properties"><a tabindex="-1" href="#act-02-1-closure" title="Copy heading and permalink for Activity 2.2: Closure properties" aria-label="Copy heading and permalink for Activity 2.2: Closure properties">🔗</a></div>
+</article></section><section class="onepage" id="ch-2-directproofs-2-4">
+<section class="paragraphs" id="ch-2-directproofs-2-4-1"><h3 class="heading"><span class="title">Definitions of odd and even.</span></h3>
+<div class="para" id="ch-2-directproofs-2-4-1-2">In the previous activity, to justify your work about evens and odds, you may have used examples. But to be absolutely sure the even integers are closed under subtraction, we need to verify infinitely many examples. But, we don’t have infinity time! So instead we will use definitions. Definitions don’t come from thin air - recall from your preclass reading that there are other options for these definitions, and reasons to choose these one. We will use these definitions frequently in our early proofs, and you should be able to recall them from memory. Here they are:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-4-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="def-even"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="def-even-1-1">An integer <span class="process-math">\(n\)</span> is even if <span class="process-math">\(n=2k\)</span> for some integer <span class="process-math">\(k
+\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-even-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 2.3"><a tabindex="-1" href="#def-even" title="Copy heading and permalink for Definition 2.3" aria-label="Copy heading and permalink for Definition 2.3">🔗</a></div>
+</article>
+<article class="definition definition-like" id="def-odd"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="def-odd-1-1">An integer <span class="process-math">\(n\)</span> is odd if <span class="process-math">\(n=2k+1\)</span> for some integer <span class="process-math">\(k
+\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-odd-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 2.4"><a tabindex="-1" href="#def-odd" title="Copy heading and permalink for Definition 2.4" aria-label="Copy heading and permalink for Definition 2.4">🔗</a></div>
+</article>
+<div class="para" id="ch-2-directproofs-2-4-1-5">These definitions, seemingly simple, are quite powerful. They allow us to do infinitely many examples all at once.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-4-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Definitions of odd and even"><a tabindex="-1" href="#ch-2-directproofs-2-4-1" title="Copy heading and permalink for Paragraphs: Definitions of odd and even" aria-label="Copy heading and permalink for Paragraphs: Definitions of odd and even">🔗</a></div>
+</section>
+<article class="activity project-like" id="ch-2-directproofs-2-4-2"><h3 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Even and odd integers.</span>
+</h3>
+<div class="introduction" id="ch-2-directproofs-2-4-2-2">
+<div class="para" id="ch-2-directproofs-2-4-2-2-1">Justify the following carefully, using the definitions of even and odd.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-4-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="ch-2-directproofs-2-4-2-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="ch-2-directproofs-2-4-2-3-1-1">The integer <span class="process-math">\(5000 \)</span> is even.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-4-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.5.a"><a tabindex="-1" href="#ch-2-directproofs-2-4-2-3" title="Copy heading and permalink for Task 2.5.a" aria-label="Copy heading and permalink for Task 2.5.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-2-directproofs-2-4-2-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="ch-2-directproofs-2-4-2-4-1-1">The integer <span class="process-math">\(-5 \)</span> is odd.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-4-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.5.b"><a tabindex="-1" href="#ch-2-directproofs-2-4-2-4" title="Copy heading and permalink for Task 2.5.b" aria-label="Copy heading and permalink for Task 2.5.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-2-directproofs-2-4-2-5"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="ch-2-directproofs-2-4-2-5-1-1">The integer <span class="process-math">\(0 \)</span> is not odd.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-4-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.5.c"><a tabindex="-1" href="#ch-2-directproofs-2-4-2-5" title="Copy heading and permalink for Task 2.5.c" aria-label="Copy heading and permalink for Task 2.5.c">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Activity 2.5: Even and odd integers"><a tabindex="-1" href="#ch-2-directproofs-2-4-2" title="Copy heading and permalink for Activity 2.5: Even and odd integers" aria-label="Copy heading and permalink for Activity 2.5: Even and odd integers">🔗</a></div>
+</article></section><section class="onepage" id="ch-2-directproofs-2-5">
+<figure class="figure figure-like" id="fig-sandwich"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/images/Sandwiches.png" class="contained" alt="A list of potential sandwiches with their pictures."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A set of things some people may or may not consider sandwiches.<div class="autopermalink" aria-hidden="true" data-description="Figure 2.6"><a tabindex="-1" href="#fig-sandwich" title="Copy heading and permalink for Figure 2.6" aria-label="Copy heading and permalink for Figure 2.6">🔗</a></div></figcaption>
+</figure>
+<article class="activity project-like" id="ch-2-directproofs-2-5-2"><h3 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Defining a Sandwich.</span>
+</h3>
+<div class="introduction" id="ch-2-directproofs-2-5-2-2">
+<div class="para" id="ch-2-directproofs-2-5-2-2-1">Based upon the awesome original by Matt Salomone.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="ch-2-directproofs-2-5-2-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="ch-2-directproofs-2-5-2-3-1-1">It’s actually quite hard to define things that we think we know well. For example, what is a sandwich? In the class preparation, you needed to draw a line between what is a sandwich and what is not a sandwich and try to write a definition of a sandwich that would be acceptable to everyone in the class. Share your definition with people at your table and have them guess where you drew your line!<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.7.a"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-3" title="Copy heading and permalink for Task 2.7.a" aria-label="Copy heading and permalink for Task 2.7.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-2-directproofs-2-5-2-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para logical" id="ch-2-directproofs-2-5-2-4-1-1">
+<div class="para">Pick one of your definitions of sandwiches. Using your definition, can you determine if the following things are sandwiches?</div>
+<ul class="disc" id="ch-2-directproofs-2-5-2-4-1-1-1">
+<li id="ch-2-directproofs-2-5-2-4-1-1-1-1">
+<div class="para" id="ch-2-directproofs-2-5-2-4-1-1-1-1-1">Taco<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-4-1-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-4-1-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-2-directproofs-2-5-2-4-1-1-1-2">
+<div class="para" id="ch-2-directproofs-2-5-2-4-1-1-1-2-1">Burrito<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-4-1-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-4-1-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-2-directproofs-2-5-2-4-1-1-1-3">
+<div class="para" id="ch-2-directproofs-2-5-2-4-1-1-1-3-1">Ravioli<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-4-1-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-4-1-1-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-2-directproofs-2-5-2-4-1-1-1-4">
+<div class="para" id="ch-2-directproofs-2-5-2-4-1-1-1-4-1">Pizza<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-4-1-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-4-1-1-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-2-directproofs-2-5-2-4-1-1-1-5">
+<div class="para" id="ch-2-directproofs-2-5-2-4-1-1-1-5-1">Bagel<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-4-1-1-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-4-1-1-1-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-2-directproofs-2-5-2-4-1-1-1-6">
+<div class="para" id="ch-2-directproofs-2-5-2-4-1-1-1-6-1">Bagel sliced with cream cheese<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-4-1-1-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-4-1-1-1-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-2-directproofs-2-5-2-4-1-1-1-7">
+<div class="para" id="ch-2-directproofs-2-5-2-4-1-1-1-7-1">A quesadilla<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-4-1-1-1-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-4-1-1-1-7" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-2-directproofs-2-5-2-4-1-1-1-8">
+<div class="para" id="ch-2-directproofs-2-5-2-4-1-1-1-8-1">Soup in a bread bowl.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-4-1-1-1-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-4-1-1-1-8" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space=".5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.7.b"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-4" title="Copy heading and permalink for Task 2.7.b" aria-label="Copy heading and permalink for Task 2.7.b">🔗</a></div>
+</article>
+<div class="conclusion" id="ch-2-directproofs-2-5-2-5">
+<div class="para logical" id="ch-2-directproofs-2-5-2-5-1">
+<div class="para">This may seem like a silly exercise, but having clear definitions is very important in mathematics. This exercise meant to get you thinking about how humans define things, and how it can be very hard to do so, with much disagreement. Also, defining a sandwich has actually come up in the legal system!</div>
+<ul class="disc" id="ch-2-directproofs-2-5-2-5-1-1">
+<li id="ch-2-directproofs-2-5-2-5-1-1-1">
+<div class="para" id="ch-2-directproofs-2-5-2-5-1-1-1-1">An Indiana judge ruled a <a class="external" href="https://www.nytimes.com/2024/05/18/dining/taco-sandwich-indiana-mexico.html?unlocked_article_code=1.3FA.qsCC.PzJjbbjGB0QV" target="_blank">taco is a sandwich</a>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-5-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-5-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-2-directproofs-2-5-2-5-1-1-2">
+<div class="para" id="ch-2-directproofs-2-5-2-5-1-1-2-1">A Massachusetts judge ruled a <a class="external" href="https://www.foxnews.com/story/massachusetts-judge-settles-dispute-by-ruling-burrito-is-not-a-sandwich" target="_blank">burrito is not a sandwich</a>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-5-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-5-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-2-directproofs-2-5-2-5-1-1-3">
+<div class="para" id="ch-2-directproofs-2-5-2-5-1-1-3-1">A bagel company in New York <a class="external" href="https://www.npr.org/2023/04/18/1170709978/a-tax-loophole-for-bagels-an-nyc-company-added-another-inner-bagel-hole" target="_blank">avoided the sandwich tax</a> by injecting bagels with cream cheese.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-5-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-5-1-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-2-directproofs-2-5-2-5-1-1-4">
+<div class="para" id="ch-2-directproofs-2-5-2-5-1-1-4-1">Some say the <a class="external" href="https://cuberule.com/" target="_blank">The Cube Rule</a> settles the debate.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-5-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-5-1-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-2-5-2-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Activity 2.7: Defining a Sandwich"><a tabindex="-1" href="#ch-2-directproofs-2-5-2" title="Copy heading and permalink for Activity 2.7: Defining a Sandwich" aria-label="Copy heading and permalink for Activity 2.7: Defining a Sandwich">🔗</a></div>
+</article></section><div class="autopermalink" aria-hidden="true" data-description="Handout: Direct Proofs"><a tabindex="-1" href="#ch-2-directproofs-2" title="Copy heading and permalink for Handout: Direct Proofs" aria-label="Copy heading and permalink for Handout: Direct Proofs">🔗</a></div>
+</section>
+<section class="handout" id="ch-2-directproofs-3" data-margins="0.75in 0.75in 0.75in 0.75in">
+<h2 class="heading hide-type">
+<span class="type">Handout</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Writing a Proof</span><div class="print-links"><a href="?printpreview=ch-2-directproofs-3" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h2>
+<section class="onepage" id="ch-2-directproofs-3-2">
+<section class="paragraphs" id="ch-2-directproofs-3-2-1"><h3 class="heading"><span class="title">Mathematical Proof Writing.</span></h3>
+<div class="para" id="ch-2-directproofs-3-2-1-2">Overall, mathematical writing -- particularly writing proofs -- is a mix of being creative, being organized, and honoring conventions of the mathematics community. I will provide you with a handful of guidelines (I’m hesitant to call them rules) and there’s more in Appendix C of your textbook, but little in the way of algorithms to follow. Writing proofs is absolutely something that you’ll learn to do <em class="emphasis">by doing</em>: making mistakes, seeking feedback, struggling, revising, and more.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-3-2-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-2-directproofs-3-2-1-3">From the outset, another key thing to realize is that a part of formal mathematical writing is misleading. What I mean by this is illustrated well by the following comic from Abstruse Goose.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-3-2-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig-writing2"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/images/ProofWriting.png" class="contained" alt='A comic: 2 people lost getting from A to B. Years later, directions are 2 steps. Says "this is how most proofs are written."'></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A comic from Abstruse Goose.<div class="autopermalink" aria-hidden="true" data-description="Figure 2.8"><a tabindex="-1" href="#fig-writing2" title="Copy heading and permalink for Figure 2.8" aria-label="Copy heading and permalink for Figure 2.8">🔗</a></div></figcaption>
+</figure><div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Mathematical Proof Writing"><a tabindex="-1" href="#ch-2-directproofs-3-2-1" title="Copy heading and permalink for Paragraphs: Mathematical Proof Writing" aria-label="Copy heading and permalink for Paragraphs: Mathematical Proof Writing">🔗</a></div>
+</section>
+<div class="para" id="ch-2-directproofs-3-2-2">The author writes his process of the “Proof Idea” and (later) “Scratch Work”. These are important parts of proof-writing, even if the final polished proof doesn’t include all the work you do in this part. I use what we’ll call a “pre-proof analysis”, which is just a fancy term for <em class="emphasis">trying examples-experimenting-writing down ideas-making mistakes-making connections-trying to find helpful paths-scratch work</em>. You can see examples of the author’s process in your textbook on pages 49, 50, 53, and 56.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-3-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-2-directproofs-3-2-3">This idea of pre-proof analysis is one that applies more broadly in life, rather than just in mathematical proof writing. It takes a long time to go from first draft to polished product! What can you do to help? Think about examples, experiment, write down ideas, make mistakes, make connections, try to find a helpful path, write and edit.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-3-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="onepage" id="ch-2-directproofs-3-3">
+<section class="paragraphs" id="ch-2-directproofs-3-3-1"><h3 class="heading"><span class="title">Example - Writing a Proof.</span></h3>
+<div class="para" id="ch-2-directproofs-3-3-1-2">To focus on writing, let’s use an example that’s familiar from <a href="ch-2-directproofs.html#act-02-1-closure" class="xref" data-knowl="./knowl/xref/act-02-1-closure.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 2.2: Closure properties">Activity 2.2</a>. We’ve already done a bit of pre-proof analysis by exploring examples.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-3-3-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="theorem theorem-like" id="thm-oddintegersclosed"><h4 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="thm-oddintegersclosed-1-1">The odd integers are closed under multiplication. Equivalently, if <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> are odd integers, then <span class="process-math">\(ab\)</span> is an odd integer.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm-oddintegersclosed-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 2.9"><a tabindex="-1" href="#thm-oddintegersclosed" title="Copy heading and permalink for Theorem 2.9" aria-label="Copy heading and permalink for Theorem 2.9">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Example - Writing a Proof"><a tabindex="-1" href="#ch-2-directproofs-3-3-1" title="Copy heading and permalink for Paragraphs: Example - Writing a Proof" aria-label="Copy heading and permalink for Paragraphs: Example - Writing a Proof">🔗</a></div>
+</section>
+<article class="activity project-like" id="ch-2-directproofs-3-3-2"><h3 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.10</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="ch-2-directproofs-3-3-2-1-1">Let’s use what we did in <a href="ch-2-directproofs.html#act-02-1-closure" class="xref" data-knowl="./knowl/xref/act-02-1-closure.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 2.2: Closure properties">Activity 2.2</a>, but add the definitions, so we can do infinitely many examples at once! This will constitute a proof of <a href="ch-2-directproofs.html#thm-oddintegersclosed" class="xref" data-knowl="./knowl/xref/thm-oddintegersclosed.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 2.9">Theorem 2.9</a> as we will know for every possible example.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-3-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="3in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Activity 2.10"><a tabindex="-1" href="#ch-2-directproofs-3-3-2" title="Copy heading and permalink for Activity 2.10" aria-label="Copy heading and permalink for Activity 2.10">🔗</a></div>
+</article></section><section class="onepage" id="ch-2-directproofs-3-4">
+<section class="paragraphs" id="ch-2-directproofs-3-4-1"><h3 class="heading"><span class="title">Two Proofs of the Same Statement.</span></h3>
+<div class="para" id="ch-2-directproofs-3-4-1-2">Below are two proofs of <a href="ch-2-directproofs.html#thm-oddintegersclosed" class="xref" data-knowl="./knowl/xref/thm-oddintegersclosed.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 2.9">Theorem 2.9</a>. Read them carefully with your team. Usually for me this means marking them up!<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-3-4-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Two Proofs of the Same Statement"><a tabindex="-1" href="#ch-2-directproofs-3-4-1" title="Copy heading and permalink for Paragraphs: Two Proofs of the Same Statement" aria-label="Copy heading and permalink for Paragraphs: Two Proofs of the Same Statement">🔗</a></div>
+</section>
+<details id="ch-2-directproofs-3-4-2" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h3 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3></summary>
+<article class="hiddenproof knowl__content">
+<div class="para logical" id="ch-2-directproofs-3-4-2-1">
+<div class="para">We assume that <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> are odd integers and will prove that <span class="process-math">\(xy\)</span> is an even integer. Since <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> are odd, there exist integers <span class="process-math">\(m\)</span> and <span class="process-math">\(n\)</span> such that <span class="process-math">\(x=2m+1\)</span> and <span class="process-math">\(y=2n+1\text{.}\)</span> By substitution and algebra we obtain</div>
+<div class="displaymath process-math" id="ch-2-directproofs-3-4-2-1-10">
+\begin{align*}
+xy \amp=(2m+1)(2n+1) \\
+\amp=4mn+2m+2n+1 \\
+\amp = 2(2mn+m+n)+1. 
+\end{align*}
+</div>
+<div class="para">Define <span class="process-math">\(q=2mn+m+n\text{.}\)</span> Since <span class="process-math">\(2,m\)</span> and <span class="process-math">\(n\)</span> are integers and the integers are closed under addition and multiplication, we conclude that <span class="process-math">\(q\)</span> is an integer. Since <span class="process-math">\(x+y=2q+1\)</span> for the integer <span class="process-math">\(q\)</span> we conclude that <span class="process-math">\(xy\)</span> is an odd integer.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-3-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Proof 1"><a tabindex="-1" href="#ch-2-directproofs-3-4-2" title="Copy heading and permalink for Proof 1" aria-label="Copy heading and permalink for Proof 1">🔗</a></div>
+</article></details>
+<details id="ch-2-directproofs-3-4-3" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h3 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3></summary>
+<article class="hiddenproof knowl__content">
+<div class="para" id="ch-2-directproofs-3-4-3-1">
+<span class="process-math">\(\exists\)</span> j,k s.t. x=2k+1 and y=2j+1.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-3-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-2-directproofs-3-4-3-2">xy=(2k+1)(2j+1)=2(2kj+j+k)+1 which is even.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-3-4-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Proof 2"><a tabindex="-1" href="#ch-2-directproofs-3-4-3" title="Copy heading and permalink for Proof 2" aria-label="Copy heading and permalink for Proof 2">🔗</a></div>
+</article></details>
+<article class="activity project-like" id="ch-2-directproofs-3-4-4"><h3 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.11</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="ch-2-directproofs-3-4-4-1-1">Compare the two proofs above. What are the advantages and disadvantages of each? Which is more readable? Are they both correct?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-3-4-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Activity 2.11"><a tabindex="-1" href="#ch-2-directproofs-3-4-4" title="Copy heading and permalink for Activity 2.11" aria-label="Copy heading and permalink for Activity 2.11">🔗</a></div>
+</article></section><section class="onepage" id="ch-2-directproofs-3-5">
+<div class="para" id="ch-2-directproofs-3-5-1">To try another proof, from pre-proof analysis to a formal proof, we will use the following definitions of type 0, type 1, and type 2 integers.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-3-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="ch-2-directproofs-3-5-2"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.12</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="ch-2-directproofs-3-5-2-1-1">An integer <span class="process-math">\(a\)</span> is said to be a <dfn class="terminology">type <span class="process-math">\(0\)</span> integer</dfn> if there exists an integer <span class="process-math">\(n\)</span> such that <span class="process-math">\(a=3n\text{.}\)</span> An integer <span class="process-math">\(a\)</span> is said to be a <dfn class="terminology">type 1 integer</dfn> if there exists an integer <span class="process-math">\(n\)</span> such that <span class="process-math">\(a = 3n+1\text{.}\)</span> An integer <span class="process-math">\(a\)</span> is said to be a type <span class="process-math">\(2\)</span> integer if there exists an integer <span class="process-math">\(n\)</span> such that <span class="process-math">\(a=3n+2\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-3-5-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 2.12"><a tabindex="-1" href="#ch-2-directproofs-3-5-2" title="Copy heading and permalink for Definition 2.12" aria-label="Copy heading and permalink for Definition 2.12">🔗</a></div>
+</article>
+<article class="activity project-like" id="ch-2-directproofs-3-5-3"><h3 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.13</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<article class="task exercise-like" id="ch-2-directproofs-3-5-3-1"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="ch-2-directproofs-3-5-3-1-1-1">Give examples of at least <span class="process-math">\(4\)</span> different type <span class="process-math">\(1\)</span> integers.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-3-5-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space=".5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.13.a"><a tabindex="-1" href="#ch-2-directproofs-3-5-3-1" title="Copy heading and permalink for Task 2.13.a" aria-label="Copy heading and permalink for Task 2.13.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-2-directproofs-3-5-3-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="ch-2-directproofs-3-5-3-2-1-1">Give examples of at least <span class="process-math">\(4\)</span> different type <span class="process-math">\(2\)</span> integers.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-3-5-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space=".5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.13.b"><a tabindex="-1" href="#ch-2-directproofs-3-5-3-2" title="Copy heading and permalink for Task 2.13.b" aria-label="Copy heading and permalink for Task 2.13.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-2-directproofs-3-5-3-3"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="ch-2-directproofs-3-5-3-3-1-1">By multiplying pairs of integers from the list in the first part, does it appear that the following conjecture is true or false? <dfn class="terminology">Conjecture:</dfn> If <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> are both type <span class="process-math">\(1\)</span> integers, then <span class="process-math">\(a\cdot b \)</span> is a type <span class="process-math">\(2\)</span> integer.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-3-5-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.13.c"><a tabindex="-1" href="#ch-2-directproofs-3-5-3-3" title="Copy heading and permalink for Task 2.13.c" aria-label="Copy heading and permalink for Task 2.13.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-2-directproofs-3-5-3-4"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="ch-2-directproofs-3-5-3-4-1-1">If the conjecture is false, modify it to make it true. Then, do a pre-proof analysis of the resulting proposition. If time permits, return to your tables and strive to begin writing an actual proof of your proposition below.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-3-5-3-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.13.d"><a tabindex="-1" href="#ch-2-directproofs-3-5-3-4" title="Copy heading and permalink for Task 2.13.d" aria-label="Copy heading and permalink for Task 2.13.d">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Activity 2.13"><a tabindex="-1" href="#ch-2-directproofs-3-5-3" title="Copy heading and permalink for Activity 2.13" aria-label="Copy heading and permalink for Activity 2.13">🔗</a></div>
+</article>
+<article class="theorem theorem-like" id="ch-2-directproofs-3-5-4"><h3 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.14</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="ch-2-directproofs-3-5-4-1-1">If <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> are both type <span class="process-math">\(1\)</span> integers, then <span class="process-math">\(a\cdot b \)</span> is a type <span class="fillin underline" role="img" aria-label="2-character blank" style="width: 0.909090909090909em;"></span> integer.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-3-5-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 2.14"><a tabindex="-1" href="#ch-2-directproofs-3-5-4" title="Copy heading and permalink for Theorem 2.14" aria-label="Copy heading and permalink for Theorem 2.14">🔗</a></div>
+</article>
+<details id="ch-2-directproofs-3-5-5" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h3 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3></summary>
+<article class="hiddenproof knowl__content">
+<div class="para" id="ch-2-directproofs-3-5-5-1">We will give a direct proof of the proposition.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-3-5-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Proof 1"><a tabindex="-1" href="#ch-2-directproofs-3-5-5" title="Copy heading and permalink for Proof 1" aria-label="Copy heading and permalink for Proof 1">🔗</a></div>
+</article></details></section><div class="autopermalink" aria-hidden="true" data-description="Handout: Writing a Proof"><a tabindex="-1" href="#ch-2-directproofs-3" title="Copy heading and permalink for Handout: Writing a Proof" aria-label="Copy heading and permalink for Handout: Writing a Proof">🔗</a></div>
+</section>
+<section class="handout" id="ch-2-directproofs-4" data-margins="0.75in 0.75in 0.75in 0.75in">
+<h2 class="heading hide-type">
+<span class="type">Handout</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Proof By Cases</span><div class="print-links"><a href="?printpreview=ch-2-directproofs-4" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h2>
+<section class="onepage" id="ch-2-directproofs-4-2">
+<section class="paragraphs" id="ch-2-directproofs-4-2-1"><h3 class="heading"><span class="title">Big Idea.</span></h3>
+<div class="para" id="ch-2-directproofs-4-2-1-2">“Proof by Cases” is a type of direct proof. We use proof by cases when we might not have enough hypotheses (like the whole hypothesis is “<span class="process-math">\(n\)</span> is an integer” ), or if the conclusion suggests cases (like “...is even” or “...is a type 1 integer” ). Proof by Cases works when you break down the problem and do “sub proofs” that will “cover” the whole hypothesis. E.g.., if the hypothesis is “<span class="process-math">\(n\)</span> is an integer” then you could do 2 sub proofs - one where <span class="process-math">\(n\)</span> is an even integer and one where <span class="process-math">\(n\)</span> is an odd integer. Since all integers are either even or odd, you’ve proven the result for all integers!<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-4-2-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Big Idea"><a tabindex="-1" href="#ch-2-directproofs-4-2-1" title="Copy heading and permalink for Paragraphs: Big Idea" aria-label="Copy heading and permalink for Paragraphs: Big Idea">🔗</a></div>
+</section>
+<article class="proposition theorem-like" id="ch-2-directproofs-4-2-2"><h3 class="heading">
+<span class="type">Proposition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.15</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para logical" id="ch-2-directproofs-4-2-2-1-1">
+<div class="para">For all integers <span class="process-math">\(n\text{,}\)</span>
+</div>
+<div class="displaymath process-math" id="ch-2-directproofs-4-2-2-1-1-2">
+\begin{equation*}
+1+(-1)^n(2n-1)
+\end{equation*}
+</div>
+<div class="para">is even.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-4-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Proposition 2.15"><a tabindex="-1" href="#ch-2-directproofs-4-2-2" title="Copy heading and permalink for Proposition 2.15" aria-label="Copy heading and permalink for Proposition 2.15">🔗</a></div>
+</article>
+<div class="para" id="ch-2-directproofs-4-2-3">
+<em class="emphasis">Pre-proof analysis:</em><div class="workspace" data-space="3in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-4-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="onepage" id="ch-2-directproofs-4-3">
+<section class="paragraphs" id="ch-2-directproofs-4-3-1"><h3 class="heading"><span class="title">Definition Uses Cases? Try Proof by Cases!</span></h3>
+<div class="para" id="ch-2-directproofs-4-3-1-2">What is <span class="process-math">\(|7|\text{?}\)</span> What is <span class="process-math">\(|-4|\text{?}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-4-3-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="ch-2-directproofs-4-3-1-3"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.16</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para logical" id="ch-2-directproofs-4-3-1-3-1-1">
+<div class="para">For <span class="process-math">\(x\in\mathbb{R}\text{,}\)</span> we define <span class="process-math">\(|x|\text{,}\)</span> called the <dfn class="terminology">absolute value of <span class="process-math">\(x\)</span></dfn>, by</div>
+<div class="displaymath process-math" id="ch-2-directproofs-4-3-1-3-1-1-4">
+\begin{equation*}
+|x| = \begin{cases} x \amp \text{ if } x\geq 0\\ -x \amp \text{ if } x&lt;0 \end{cases}.
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-4-3-1-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 2.16"><a tabindex="-1" href="#ch-2-directproofs-4-3-1-3" title="Copy heading and permalink for Definition 2.16" aria-label="Copy heading and permalink for Definition 2.16">🔗</a></div>
+</article>
+<article class="activity project-like" id="ch-2-directproofs-4-3-1-4"><h4 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.17</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<article class="task exercise-like" id="ch-2-directproofs-4-3-1-4-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="ch-2-directproofs-4-3-1-4-1-1-1">Check that this definition agrees with your answers for <span class="process-math">\(|7|\)</span> and <span class="process-math">\(|-4|\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-4-3-1-4-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.17.a"><a tabindex="-1" href="#ch-2-directproofs-4-3-1-4-1" title="Copy heading and permalink for Task 2.17.a" aria-label="Copy heading and permalink for Task 2.17.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-2-directproofs-4-3-1-4-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="ch-2-directproofs-4-3-1-4-2-1-1">Does the following conjecture seem true? Test it out!<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-4-3-1-4-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="ch-2-directproofs-4-3-1-4-2-1-2">
+<dfn class="terminology">Conjecture</dfn> For all real numbers <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{,}\)</span> <span class="process-math">\(|xy| = |x||y|\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-4-3-1-4-2-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.17.b"><a tabindex="-1" href="#ch-2-directproofs-4-3-1-4-2" title="Copy heading and permalink for Task 2.17.b" aria-label="Copy heading and permalink for Task 2.17.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-2-directproofs-4-3-1-4-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="ch-2-directproofs-4-3-1-4-3-1">What cases might make sense to use here? What should you prove in each case? If time - pick one case and try it!<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-4-3-1-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.17.c"><a tabindex="-1" href="#ch-2-directproofs-4-3-1-4-3" title="Copy heading and permalink for Task 2.17.c" aria-label="Copy heading and permalink for Task 2.17.c">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Activity 2.17"><a tabindex="-1" href="#ch-2-directproofs-4-3-1-4" title="Copy heading and permalink for Activity 2.17" aria-label="Copy heading and permalink for Activity 2.17">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Definition Uses Cases? Try Proof by Cases!"><a tabindex="-1" href="#ch-2-directproofs-4-3-1" title="Copy heading and permalink for Paragraphs: Definition Uses Cases? Try Proof by Cases!" aria-label="Copy heading and permalink for Paragraphs: Definition Uses Cases? Try Proof by Cases!">🔗</a></div>
+</section></section><div class="autopermalink" aria-hidden="true" data-description="Handout: Proof By Cases"><a tabindex="-1" href="#ch-2-directproofs-4" title="Copy heading and permalink for Handout: Proof By Cases" aria-label="Copy heading and permalink for Handout: Proof By Cases">🔗</a></div>
+</section>
+<section class="handout" id="ch-2-directproofs-5" data-margins="0.75in 0.75in 0.75in 0.75in">
+<h2 class="heading hide-type">
+<span class="type">Handout</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Divisibility and the Division Algorithm</span><div class="print-links"><a href="?printpreview=ch-2-directproofs-5" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h2>
+<section class="onepage" id="ch-2-directproofs-5-2">
+<div class="para" id="ch-2-directproofs-5-2-1">
+<dfn class="terminology">Definition:</dfn> A nonzero integer <span class="process-math">\(a\)</span> is said to <dfn class="terminology">divide</dfn> an integer <span class="process-math">\(b\)</span> if <span class="process-math">\(b = ak\)</span> for some integer <span class="process-math">\(k\text{.}\)</span> When <span class="process-math">\(a\)</span> does divide <span class="process-math">\(b\text{,}\)</span> we write “<span class="process-math">\(a\mid b\)</span>” and when <span class="process-math">\(a\)</span> does not divide <span class="process-math">\(b\text{,}\)</span> we write “<span class="process-math">\(a\nmid b\)</span>”.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="activity project-like" id="act-02-4-SetsDivides"><h3 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.18</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="introduction" id="act-02-4-SetsDivides-1">
+<div class="para logical" id="act-02-4-SetsDivides-1-1">
+<div class="para">Answer the following 4 questions about each pair. On the next page there are some example triangles to guide your discussion.</div>
+<ul class="disc" id="act-02-4-SetsDivides-1-1-1">
+<li id="act-02-4-SetsDivides-1-1-1-1">
+<div class="para" id="act-02-4-SetsDivides-1-1-1-1-1">Is there any integer that is in both sets?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#act-02-4-SetsDivides-1-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#act-02-4-SetsDivides-1-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="act-02-4-SetsDivides-1-1-1-2">
+<div class="para" id="act-02-4-SetsDivides-1-1-1-2-1">Does the left set contain all of the members of the right? Does the right set contain all the members on the left?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#act-02-4-SetsDivides-1-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#act-02-4-SetsDivides-1-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="act-02-4-SetsDivides-1-1-1-3">
+<div class="para" id="act-02-4-SetsDivides-1-1-1-3-1">Can you say anything about the relationship between the sets?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#act-02-4-SetsDivides-1-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#act-02-4-SetsDivides-1-1-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="act-02-4-SetsDivides-1-1-1-4">
+<div class="para" id="act-02-4-SetsDivides-1-1-1-4-1">If you use an oval region to represent one set, how would you portray the other set in that pair?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#act-02-4-SetsDivides-1-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#act-02-4-SetsDivides-1-1-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#act-02-4-SetsDivides-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="act-02-4-SetsDivides-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="act-02-4-SetsDivides-2-1-1">
+<span class="process-math">\(A = \{ x\in\mathbb{Z}: 3\mid x \}\)</span> <span class="process-math">\(B = \{ x\in\mathbb{Z} : 2\mid x\}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#act-02-4-SetsDivides-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space=".8in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.18.a"><a tabindex="-1" href="#act-02-4-SetsDivides-2" title="Copy heading and permalink for Task 2.18.a" aria-label="Copy heading and permalink for Task 2.18.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="act-02-4-SetsDivides-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="act-02-4-SetsDivides-3-1-1">
+<span class="process-math">\(A = \{ x\in\mathbb{Z}: 3\mid x \}\)</span> <span class="process-math">\(C = \{ x\in\mathbb{Z} : 3\mid 2x\}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#act-02-4-SetsDivides-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space=".8in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.18.b"><a tabindex="-1" href="#act-02-4-SetsDivides-3" title="Copy heading and permalink for Task 2.18.b" aria-label="Copy heading and permalink for Task 2.18.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="act-02-4-SetsDivides-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="act-02-4-SetsDivides-4-1-1">
+<span class="process-math">\(A = \{ x\in\mathbb{Z}: 3\mid x \}\)</span> <span class="process-math">\(D = \{ x\in\mathbb{Z} : 6\mid x\}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#act-02-4-SetsDivides-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space=".8in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.18.c"><a tabindex="-1" href="#act-02-4-SetsDivides-4" title="Copy heading and permalink for Task 2.18.c" aria-label="Copy heading and permalink for Task 2.18.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="act-02-4-SetsDivides-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="act-02-4-SetsDivides-5-1-1">
+<span class="process-math">\(A = \{ x\in\mathbb{Z}: 3\mid x \}\)</span> <span class="process-math">\(E = \{ 2x\in\mathbb{Z} :x \text{ is prime}\}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#act-02-4-SetsDivides-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space=".8in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.18.d"><a tabindex="-1" href="#act-02-4-SetsDivides-5" title="Copy heading and permalink for Task 2.18.d" aria-label="Copy heading and permalink for Task 2.18.d">🔗</a></div>
+</article>
+<article class="task exercise-like" id="act-02-4-SetsDivides-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para" id="act-02-4-SetsDivides-6-1-1">
+<span class="process-math">\(A = \{ x\in\mathbb{Z}: 3\mid x \}\)</span> <span class="process-math">\(F = \{ x\in\mathbb{Z} : 3 \nmid x^2-1\}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#act-02-4-SetsDivides-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space=".8in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.18.e"><a tabindex="-1" href="#act-02-4-SetsDivides-6" title="Copy heading and permalink for Task 2.18.e" aria-label="Copy heading and permalink for Task 2.18.e">🔗</a></div>
+</article>
+<article class="task exercise-like" id="act-02-4-SetsDivides-7"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<div class="para" id="act-02-4-SetsDivides-7-1-1">
+<span class="process-math">\(A = \{ x\in\mathbb{Z}: 3\mid x \}\)</span> <span class="process-math">\(G = \{ x^2-1\in\mathbb{Z} : 3 \mid x\}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#act-02-4-SetsDivides-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space=".8in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.18.f"><a tabindex="-1" href="#act-02-4-SetsDivides-7" title="Copy heading and permalink for Task 2.18.f" aria-label="Copy heading and permalink for Task 2.18.f">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Activity 2.18"><a tabindex="-1" href="#act-02-4-SetsDivides" title="Copy heading and permalink for Activity 2.18" aria-label="Copy heading and permalink for Activity 2.18">🔗</a></div>
+</article></section><section class="onepage" id="ch-2-directproofs-5-3">
+<article class="activity project-like" id="ch-2-directproofs-5-3-1"><h3 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.19</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="introduction" id="ch-2-directproofs-5-3-1-1">
+<div class="para" id="ch-2-directproofs-5-3-1-1-1">With your team, prove one of the following propositions:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-5-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="ch-2-directproofs-5-3-1-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="ch-2-directproofs-5-3-1-2-1-1">For all integers <span class="process-math">\(m\)</span> and <span class="process-math">\(n\text{,}\)</span> if <span class="process-math">\(m\mid n\)</span> then <span class="process-math">\(m\mid (7n^3 + 13n^2 - n)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-5-3-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.19.a"><a tabindex="-1" href="#ch-2-directproofs-5-3-1-2" title="Copy heading and permalink for Task 2.19.a" aria-label="Copy heading and permalink for Task 2.19.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-2-directproofs-5-3-1-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="ch-2-directproofs-5-3-1-3-1-1">For all integers <span class="process-math">\(m\)</span> and <span class="process-math">\(n\text{,}\)</span> if <span class="process-math">\(m\mid n\text{,}\)</span> then <span class="process-math">\(m^2\mid n^2\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-5-3-1-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.19.b"><a tabindex="-1" href="#ch-2-directproofs-5-3-1-3" title="Copy heading and permalink for Task 2.19.b" aria-label="Copy heading and permalink for Task 2.19.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-2-directproofs-5-3-1-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="ch-2-directproofs-5-3-1-4-1-1">For all integers <span class="process-math">\(a, b\)</span> and <span class="process-math">\(c\text{,}\)</span> and all integers <span class="process-math">\(m\)</span> and <span class="process-math">\(n\text{,}\)</span> if <span class="process-math">\(a\mid b\)</span> and <span class="process-math">\(a\mid c\)</span> then <span class="process-math">\(a\mid bm+cn\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-5-3-1-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.19.c"><a tabindex="-1" href="#ch-2-directproofs-5-3-1-4" title="Copy heading and permalink for Task 2.19.c" aria-label="Copy heading and permalink for Task 2.19.c">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Activity 2.19"><a tabindex="-1" href="#ch-2-directproofs-5-3-1" title="Copy heading and permalink for Activity 2.19" aria-label="Copy heading and permalink for Activity 2.19">🔗</a></div>
+</article>
+<div class="para" id="ch-2-directproofs-5-3-2">Space to work:<div class="workspace" data-space="5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-5-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="onepage" id="ch-2-directproofs-5-4">
+<article class="theorem theorem-like" id="ch-2-directproofs-5-4-1"><h3 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.20</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para logical" id="ch-2-directproofs-5-4-1-1-1">
+<div class="para">(The Division Algorithm) For all integers <span class="process-math">\(a\)</span> and <span class="process-math">\(m\)</span> with <span class="process-math">\(m&gt;0\text{,}\)</span> there exist unique integers <span class="process-math">\(q\)</span> and <span class="process-math">\(r\)</span> such that</div>
+<div class="displaymath process-math" id="ch-2-directproofs-5-4-1-1-1-6">
+\begin{equation*}
+a = mq + r
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(0 \le r &lt; m\text{.}\)</span>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-5-4-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 2.20"><a tabindex="-1" href="#ch-2-directproofs-5-4-1" title="Copy heading and permalink for Theorem 2.20" aria-label="Copy heading and permalink for Theorem 2.20">🔗</a></div>
+</article>
+<article class="remark remark-like" id="ch-2-directproofs-5-4-2"><h3 class="heading">
+<span class="type">Remark</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.21</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para logical" id="ch-2-directproofs-5-4-2-1">
+<div class="para">Here’s some comments about the Division Algorithm:</div>
+<ol class="decimal" id="ch-2-directproofs-5-4-2-1-1">
+<li id="ch-2-directproofs-5-4-2-1-1-1">
+<div class="para" id="ch-2-directproofs-5-4-2-1-1-1-1">The Division Algorithm can be proven is not so much an algorithm as it is a theorem. One can prove the Division Algorithm and your textbook does in the Bonus Examples of Chapter 7, and you may see a proof if you take MTH 350.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-5-4-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 1"><a tabindex="-1" href="#ch-2-directproofs-5-4-2-1-1-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="ch-2-directproofs-5-4-2-1-1-2">
+<div class="para" id="ch-2-directproofs-5-4-2-1-1-2-1">Though there are several different ways to write <span class="process-math">\(a=bq+r\)</span> there’s only ONE way to write <span class="process-math">\(a=bq+r\)</span> with <span class="process-math">\(0\le r &lt; b\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-5-4-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 2"><a tabindex="-1" href="#ch-2-directproofs-5-4-2-1-1-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="ch-2-directproofs-5-4-2-1-1-3">
+<div class="para" id="ch-2-directproofs-5-4-2-1-1-3-1">We call <span class="process-math">\(q\)</span> the quotient and <span class="process-math">\(r\)</span> the remainder. (Notice we are using “the” because the quotient and remainder are unique!)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-5-4-2-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 3"><a tabindex="-1" href="#ch-2-directproofs-5-4-2-1-1-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+<li id="ch-2-directproofs-5-4-2-1-1-4">
+<div class="para" id="ch-2-directproofs-5-4-2-1-1-4-1">Be careful with negative numbers. In a calculator <span class="process-math">\(-17/5 = -3.4\text{.}\)</span> It would be natural to think this means the quotient when dividing <span class="process-math">\(-17\)</span> by <span class="process-math">\(5\)</span> is <span class="process-math">\(-3\text{.}\)</span> However, <span class="process-math">\(-17=5(-4)+3\text{,}\)</span> giving quotient <span class="process-math">\(-4\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-5-4-2-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 4"><a tabindex="-1" href="#ch-2-directproofs-5-4-2-1-1-4" title="Copy heading and permalink for Item 4" aria-label="Copy heading and permalink for Item 4">🔗</a></div>
+</li>
+<li id="ch-2-directproofs-5-4-2-1-1-5">
+<div class="para" id="ch-2-directproofs-5-4-2-1-1-5-1">One way to look at the Division Algorithm is that an integer is either going to be a multiple of <span class="process-math">\(b\)</span> or between multiples of <span class="process-math">\(b\text{.}\)</span> Thus, the Division Algorithm helps with cases, e.g., you can do cases based on the remainder. In this way, we might reduce infinitely many integers, down to <span class="process-math">\(3\)</span> “types” of integers - e.g., what the remainder is when divided by <span class="process-math">\(3\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-5-4-2-1-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 5"><a tabindex="-1" href="#ch-2-directproofs-5-4-2-1-1-5" title="Copy heading and permalink for Item 5" aria-label="Copy heading and permalink for Item 5">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-5-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Remark 2.21"><a tabindex="-1" href="#ch-2-directproofs-5-4-2" title="Copy heading and permalink for Remark 2.21" aria-label="Copy heading and permalink for Remark 2.21">🔗</a></div>
+</article></section><section class="onepage" id="ch-2-directproofs-5-5">
+<article class="activity project-like" id="ch-2-directproofs-5-5-1"><h3 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.22</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="ch-2-directproofs-5-5-1-1-1">In problems where we are concerned with the issue of “divides,” the Division Algorithm provides a natural way to consider cases. Consider <a href="ch-2-directproofs.html#thm-02-4-littlefermat3" class="xref" data-knowl="./knowl/xref/thm-02-4-littlefermat3.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 2.23">Theorem 2.23</a><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-5-5-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Activity 2.22"><a tabindex="-1" href="#ch-2-directproofs-5-5-1" title="Copy heading and permalink for Activity 2.22" aria-label="Copy heading and permalink for Activity 2.22">🔗</a></div>
+</article>
+<article class="theorem theorem-like" id="thm-02-4-littlefermat3"><h3 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.23</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="thm-02-4-littlefermat3-1-1">If <span class="process-math">\(n\)</span> is an integer then <span class="process-math">\(3\mid n^3-n\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm-02-4-littlefermat3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 2.23"><a tabindex="-1" href="#thm-02-4-littlefermat3" title="Copy heading and permalink for Theorem 2.23" aria-label="Copy heading and permalink for Theorem 2.23">🔗</a></div>
+</article>
+<div class="para" id="ch-2-directproofs-5-5-3">Test the theorem for several values of <span class="process-math">\(n\text{.}\)</span> (Include both positive and negative, and even and odd values!)<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-5-5-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-2-directproofs-5-5-4">The only hypothesis is “<span class="process-math">\(n\)</span> is an integer”. This doesn’t give us a lot to go on. Suppose instead, we have the theorem:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-5-5-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="theorem theorem-like" id="ch-2-directproofs-5-5-5"><h3 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.24</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="ch-2-directproofs-5-5-5-1-1">If <span class="process-math">\(n\)</span> is an integer and <span class="process-math">\(3\mid n\text{,}\)</span> then <span class="process-math">\(3\mid n^3-n\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-5-5-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 2.24"><a tabindex="-1" href="#ch-2-directproofs-5-5-5" title="Copy heading and permalink for Theorem 2.24" aria-label="Copy heading and permalink for Theorem 2.24">🔗</a></div>
+</article>
+<div class="para" id="ch-2-directproofs-5-5-6">Do a “pre-proof analysis” of this theorem!<div class="workspace" data-space="3in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-5-5-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="onepage" id="ch-2-directproofs-5-6">
+<div class="para" id="ch-2-directproofs-5-6-1">I claim that with the proof from the previous question, we are actually 1/3 of the way to a proof. What are the possibilities for the remainder when <span class="process-math">\(n\)</span> is divided by <span class="process-math">\(3\text{?}\)</span> How can this lead to cases?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-5-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-2-directproofs-5-6-2">Read the proof below out loud. <details class="ptx-footnote" aria-live="polite" id="ch-2-directproofs-5-6-2-1"><summary class="ptx-footnote__number" title="Footnote 4"><sup> 4 </sup></summary>
+<div class="ptx-footnote__contents" id="ch-2-directproofs-5-6-2-1">This proof is from <a class="external" href="https://gvsuoer.github.io/sundstrom-textbook/S_divalgo.html\#P\_3divides" target="_blank">https://gvsuoer.github.io/sundstrom-textbook/S_divalgo.html\#P\_3divides</a>
+</div></details>. Pause after each sentence to make sure you understand what the sentence means and why it is said. Make notes on the proof of any details that help you make sense of it! Switch who is reading at least every paragraph!<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-5-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig-casesproof"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/images/CasesProof.png" class="contained" alt="A proof of the previous theorem."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.25<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A proof using cases.<div class="autopermalink" aria-hidden="true" data-description="Figure 2.25"><a tabindex="-1" href="#fig-casesproof" title="Copy heading and permalink for Figure 2.25" aria-label="Copy heading and permalink for Figure 2.25">🔗</a></div></figcaption>
+</figure>
+<div class="para" id="ch-2-directproofs-5-6-4">What questions do you have on the proof? How does the author set up the structure of a proof using cases? Can you prove the last case? Can you generalize? E.g., is it true that <span class="process-math">\(2\mid n^2 - n\text{?}\)</span> <span class="process-math">\(4\mid n^4-n\text{?}\)</span> <details class="ptx-footnote" aria-live="polite" id="ch-2-directproofs-5-6-4-3"><summary class="ptx-footnote__number" title="Footnote 5"><sup> 5 </sup></summary>
+<div class="ptx-footnote__contents" id="ch-2-directproofs-5-6-4-3">This theorem is actually a corollary of Fermat’s Little Theorem (Theorem 2.19 on page 71 of your textbook).
+</div></details><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-5-6-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><div class="autopermalink" aria-hidden="true" data-description="Handout: Divisibility and the Division Algorithm"><a tabindex="-1" href="#ch-2-directproofs-5" title="Copy heading and permalink for Handout: Divisibility and the Division Algorithm" aria-label="Copy heading and permalink for Handout: Divisibility and the Division Algorithm">🔗</a></div>
+</section>
+<section class="handout" id="ch-2-directproofs-6" data-margins="0.75in 0.75in 0.75in 0.75in">
+<h2 class="heading hide-type">
+<span class="type">Handout</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Congruence</span><div class="print-links"><a href="?printpreview=ch-2-directproofs-6" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h2>
+<section class="onepage" id="ch-2-directproofs-6-2">
+<section class="paragraphs" id="ch-2-directproofs-6-2-1"><h3 class="heading"><span class="title">Modular Arithmetic.</span></h3>
+<div class="para" id="ch-2-directproofs-6-2-1-2">Modular arithmetic actually shows up lots of places - including in RSA Encryption (which is how your credit card number gets encrypted in an online transactions) and for “check digits” - a way to make sure a UPC bar code has scanned correctly. We introduce a lot of content in MTH 210 for the sake of learning how to write proofs, but modular arithmetic wins the award for “most likely to appear in your future classes”. It’s worth investing the time to make sense of this topic!<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-6-2-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-2-directproofs-6-2-1-3">The metaphors from the text are a helpful of way understanding modular arithmetic, but we want to define the sandwich in a way that even when the metaphor fails us, we can still agree on what it means for two integers to be congruent.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-6-2-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Modular Arithmetic"><a tabindex="-1" href="#ch-2-directproofs-6-2-1" title="Copy heading and permalink for Paragraphs: Modular Arithmetic" aria-label="Copy heading and permalink for Paragraphs: Modular Arithmetic">🔗</a></div>
+</section>
+<article class="definition definition-like" id="ch-2-directproofs-6-2-2"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.26</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="ch-2-directproofs-6-2-2-1-1">For <span class="process-math">\(a,r\in\mathbb{Z}\)</span> and <span class="process-math">\(m\in \mathbb{N}\text{,}\)</span> we say that <span class="process-math">\(a\)</span> is congruent to <span class="process-math">\(r\)</span> modulo <span class="process-math">\(m\text{,}\)</span> and we write <span class="process-math">\(a\equiv r \pmod{m}\text{,}\)</span> if <span class="process-math">\(m\mid a-r\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-6-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 2.26"><a tabindex="-1" href="#ch-2-directproofs-6-2-2" title="Copy heading and permalink for Definition 2.26" aria-label="Copy heading and permalink for Definition 2.26">🔗</a></div>
+</article>
+<div class="para" id="ch-2-directproofs-6-2-3">Note in Definition 2.14 of your text the author says <span class="process-math">\(m\)</span> is an integer, but in practice, we really only think about <span class="process-math">\(m\)</span> being a positive integer.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-6-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="activity project-like" id="ch-2-directproofs-6-2-4"><h3 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.27</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Practice with congruence.</span>
+</h3>
+<article class="task exercise-like" id="ch-2-directproofs-6-2-4-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="ch-2-directproofs-6-2-4-2-1-1">Find two integers <span class="process-math">\(a\)</span> and <span class="process-math">\(r\)</span> that are congruent modulo <span class="process-math">\(5\text{.}\)</span> That is, give examples of <span class="process-math">\(a\)</span> and <span class="process-math">\(r\)</span> such that <span class="process-math">\(a\equiv r \pmod{5}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-6-2-4-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.27.a"><a tabindex="-1" href="#ch-2-directproofs-6-2-4-2" title="Copy heading and permalink for Task 2.27.a" aria-label="Copy heading and permalink for Task 2.27.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-2-directproofs-6-2-4-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="ch-2-directproofs-6-2-4-3-1-1">Find all integers <span class="process-math">\(x\)</span> such that <span class="process-math">\(x\equiv -2 \pmod{5}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-6-2-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.27.b"><a tabindex="-1" href="#ch-2-directproofs-6-2-4-3" title="Copy heading and permalink for Task 2.27.b" aria-label="Copy heading and permalink for Task 2.27.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-2-directproofs-6-2-4-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="ch-2-directproofs-6-2-4-4-1-1">True or false: If <span class="process-math">\(x\)</span> is an integer, then there exists a unique integer <span class="process-math">\(y\)</span> with <span class="process-math">\(0\le y\le 5\)</span> such that <span class="process-math">\(x\equiv y \pmod{5}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-6-2-4-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.27.c"><a tabindex="-1" href="#ch-2-directproofs-6-2-4-4" title="Copy heading and permalink for Task 2.27.c" aria-label="Copy heading and permalink for Task 2.27.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ch-2-directproofs-6-2-4-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="ch-2-directproofs-6-2-4-5-1-1">True or false: If <span class="process-math">\(ak \equiv bk \pmod{m}\)</span> then <span class="process-math">\(a\equiv b\mod{m}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-6-2-4-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.27.d"><a tabindex="-1" href="#ch-2-directproofs-6-2-4-5" title="Copy heading and permalink for Task 2.27.d" aria-label="Copy heading and permalink for Task 2.27.d">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Activity 2.27: Practice with congruence"><a tabindex="-1" href="#ch-2-directproofs-6-2-4" title="Copy heading and permalink for Activity 2.27: Practice with congruence" aria-label="Copy heading and permalink for Activity 2.27: Practice with congruence">🔗</a></div>
+</article></section><section class="onepage" id="ch-2-directproofs-6-3">
+<article class="activity project-like" id="ch-2-directproofs-6-3-1"><h3 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.28</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Direct Proofs with Modulo.</span>
+</h3>
+<div class="para" id="ch-2-directproofs-6-3-1-2-1">Do a pre-proof analysis of the following theorem.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-6-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Activity 2.28: Direct Proofs with Modulo"><a tabindex="-1" href="#ch-2-directproofs-6-3-1" title="Copy heading and permalink for Activity 2.28: Direct Proofs with Modulo" aria-label="Copy heading and permalink for Activity 2.28: Direct Proofs with Modulo">🔗</a></div>
+</article>
+<article class="theorem theorem-like" id="ch-2-directproofs-6-3-2"><h3 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.29</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="ch-2-directproofs-6-3-2-1-1">For all integers <span class="process-math">\(a,b,c,\)</span> and <span class="process-math">\(d\text{,}\)</span> and all natural numbers <span class="process-math">\(m\text{,}\)</span> if <span class="process-math">\(a\equiv b \pmod{m}\)</span> and <span class="process-math">\(c\equiv d\pmod{m}\)</span> then <span class="process-math">\(a\cdot c \equiv b\cdot d\pmod{m}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-6-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 2.29"><a tabindex="-1" href="#ch-2-directproofs-6-3-2" title="Copy heading and permalink for Theorem 2.29" aria-label="Copy heading and permalink for Theorem 2.29">🔗</a></div>
+</article>
+<div class="para" id="ch-2-directproofs-6-3-3">
+<em class="emphasis">Pre-proof analysis:</em><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-2-directproofs-6-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><div class="autopermalink" aria-hidden="true" data-description="Handout: Congruence"><a tabindex="-1" href="#ch-2-directproofs-6" title="Copy heading and permalink for Handout: Congruence" aria-label="Copy heading and permalink for Handout: Congruence">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Chapter 2: Direct Proofs"><a tabindex="-1" href="#ch-2-directproofs" title="Copy heading and permalink for Chapter 2: Direct Proofs" aria-label="Copy heading and permalink for Chapter 2: Direct Proofs">🔗</a></div>
+</section>
+</div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<a class="previous-button button" href="ch-1-intuitiveproofs-7.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-2-directproofs-2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="ch-1-intuitiveproofs.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-3-sets.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">

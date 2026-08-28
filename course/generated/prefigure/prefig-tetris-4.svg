@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" id="prefig-tetris-4-figure" width="85" height="110" viewBox="0 0 85 110">
   <defs>
-    <clipPath id="prefig-tetris-4-clipPath-0">
+    <clipPath id="prefig-tetris-4-__clipPath-0">
       <rect x="5.0" y="5.0" width="75.0" height="100.0"/>
     </clipPath>
-    <clipPath id="prefig-tetris-4-clipPath-1">
+    <clipPath id="prefig-tetris-4-__clipPath-1">
       <rect x="5.0" y="5.0" width="75.0" height="100.0"/>
     </clipPath>
     <clipPath id="prefig-tetris-4-boundary-clip">
-      <path id="prefig-tetris-4-boundary" d="M 5.0 55.0 L 55.0 55.0 L 55.0 30.0 L 80.0 30.0 L 80.0 5.0 L 30.0 5.0 L 30.0 30.0 L 5.0 30.0 Z" stroke-width="2"/>
+      <path id="prefig-tetris-4-boundary" d="M 5.0 55.0 L 55.0 55.0 L 55.0 30.0 L 80.0 30.0 L 80.0 5.0 L 30.0 5.0 L 30.0 30.0 L 5.0 30.0 Z"/>
     </clipPath>
   </defs>
   <g clip-path="url(#prefig-tetris-4-boundary-clip)">
@@ -23,5 +23,5 @@
       <line x1="5.0" y1="5.0" x2="80.0" y2="5.0"/>
     </g>
   </g>
-  <use href="#prefig-tetris-4-boundary" id="prefig-tetris-4-use-0" stroke="black" stroke-width="2" fill="none"/>
+  <use href="#prefig-tetris-4-boundary" id="prefig-tetris-4-__use-0" stroke="black" stroke-width="2" fill="none"/>
 </svg>
