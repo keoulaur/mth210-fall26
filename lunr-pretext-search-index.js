@@ -151,7 +151,7 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "3",
   "title": "Weekly Practice",
-  "body": " Weekly Practice   The following notes are intended to remind you what we covered each week. They are not a substitute for attending class and not a substitute for reading the textbook.    Week 1   This is an outline of the topics we covered in the first week of class.     Monday 8\/22      Wednesday 8\/24      Friday 8\/26       Week 2   Monday      Wednesday      Friday       "
+  "body": " Weekly Practice   The following notes are intended to remind you what we covered each week. They are not a substitute for attending class and not a substitute for reading the textbook.    Week 1   Coming Soon!    Week 1   Coming Soon!    "
 },
 {
   "id": "ch-1-intuitiveproofs",
