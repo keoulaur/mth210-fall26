@@ -11,127 +11,137 @@
         <subtitle>MTH 210 Fall 2026</subtitle>
         <!-- Optional: include frontmatter with author info and date -->
         <xi:include href="./frontmatter.ptx"/>
-        <chapter xml:id="ch-1-intuitiveproofs">
-            <title>Intuitive Proofs</title>
 
-            <xi:include href="./activities/01-1-ChessboardProblems.ptx"/>
-            <xi:include href="./activities/01-2-PatternsConjectures.ptx"/>
-            <xi:include href="./activities/01-3-ConditionalStatements.ptx"/>
-            <xi:include href="./activities/01-4-PigeonholePrinciple.ptx"/>
-            <xi:include href="./activities/01-5-TheGameSET.ptx"/>
-            <xi:include href="./activities/01-6-Phase2.ptx"/>
-        </chapter>
+           <part>
+            <title>Course and Assignment Information</title>
 
-        <chapter xml:id="ch-2-directproofs">
-            <title>Direct Proofs</title>
+            <chapter xml:id="course-documents">
+                <title>Getting Started</title>
 
-            <xi:include href="./activities/02-1-NumberSystemsClosureOddEven.ptx"/>
-            <xi:include href="./activities/02-2-WritingDirectProofs.ptx"/>
-            <xi:include href="./activities/02-3-Cases.ptx"/>
-            <xi:include href="./activities/02-4-Dividing.ptx"/>
-            <xi:include href="./activities/02-5-Congruence.ptx"/>
-        </chapter>
+                <!-- Course syllabus -->
+                <xi:include href="./syllabus/syllabus.ptx"/>
+                <xi:include href="./syllabus/assignments.ptx" />
+                <xi:include href="./syllabus/TentativeCourseSchedule.ptx" />
+                <xi:include href="./syllabus/grades.ptx" />
+                <xi:include href="./syllabus/AcademicHonesty.ptx" />
+                <!-- Other documents could go here, like a schedule, project description, etc. -->
+            </chapter>
 
-        <chapter xml:id="ch-3-sets">
-            <title>Sets</title>
+            <chapter xml:id="targets">
+                <title>Learning Targets</title>
 
-            <xi:include href="./activities/03-1-Sets.ptx"/>
-            <xi:include href="./activities/03-2-SetBuilder.ptx"/>
-            <xi:include href="./activities/03-3-ChooseAnElement.ptx"/>
-            <xi:include href="./activities/03-4-SetOperations.ptx"/>
-        </chapter>
+                <!-- Include handouts -->
+                <xi:include href="./targets/LearningTarget1.ptx"/>
+                <xi:include href="./targets/LearningTarget2.ptx"/>
+                <xi:include href="./targets/LearningTarget3.ptx"/>
+                <xi:include href="./targets/LearningTarget4.ptx"/>
+                <xi:include href="./targets/LearningTarget5.ptx"/>
+            </chapter>
 
-        <chapter xml:id="ch-4-induction">
-            <title>Induction</title>
+            <chapter xml:id="weekly-practice">
+                <title>Weekly Practice</title>
 
-            <xi:include href="./activities/04-1-Induction.ptx"/>
-            <xi:include href="./activities/04-2-InductionWithRecursion.ptx"/>
-        </chapter>
+                <introduction>
+                    <p>
+                        The following notes are intended to remind you what we
+                        covered each week.
+                        They are not a substitute for attending class and not a
+                        substitute for reading the textbook.
+                    </p>
+                </introduction>
 
-        <chapter xml:id="ch-logic">
-            <title>Logic</title>
+                <xi:include href="./WeeklyPractice/week01.ptx"/>
+                <xi:include href="./WeeklyPractice/week02.ptx"/>
+                <!-- etc. -->
+            </chapter>
+        </part>
 
-            <xi:include href="./activities/05-1-TruthTables.ptx"/>
-            <xi:include href="./activities/05-2-MoreConditional.ptx" />
-            <xi:include href="./activities/05-3-ContrapositiveAndConverse.ptx" />
-            <xi:include href="./activities/05-4-PracticeWithTruthTables.ptx"/>
-            <xi:include href="./activities/05-5-Negating.ptx" />
-            <xi:include href="./activities/05-6-EnglishIsHard.ptx" />
-            <xi:include href="./activities/05-7-ApplyingConditionalStatements.ptx" />
-            <xi:include href="./activities/05-8-ProvingQuantifiedStatements.ptx" />
-        </chapter>
+        <part xml:id="part-">
+            <title>Handouts</title>
 
-        <chapter xml:id="ch-contrapositive">
-            <title>The Contrapositive</title>
+            <chapter xml:id="ch-1-intuitiveproofs">
+                <title>Intuitive Proofs</title>
 
-            <xi:include href="./activities/06-Contrapositive.ptx"/>
-        </chapter>
+                <xi:include href="./activities/01-1-ChessboardProblems.ptx"/>
+                <xi:include href="./activities/01-2-PatternsConjectures.ptx"/>
+                <xi:include href="./activities/01-3-ConditionalStatements.ptx"/>
+                <xi:include href="./activities/01-4-PigeonholePrinciple.ptx"/>
+                <xi:include href="./activities/01-5-TheGameSET.ptx"/>
+                <xi:include href="./activities/01-6-Phase2.ptx"/>
+            </chapter>
 
-        <chapter xml:id="ch-contradiction">
-            <title>Contradiction</title>
+            <chapter xml:id="ch-2-directproofs">
+                <title>Direct Proofs</title>
 
-            <xi:include href="./activities/07-1-IntroToContradiction.ptx"/>
-            <xi:include href="./activities/07-2-StartingContradictionProofs.ptx"/>
-            <xi:include href="./activities/07-3-PracticingWholeProofs.ptx"/>
-            <xi:include href="./activities/07-4-IrrationalNumbers.ptx"/>
-            <xi:include href="./activities/07-5-MoreProofsByContradiction.ptx"/>
-        </chapter>
+                <xi:include href="./activities/02-1-NumberSystemsClosureOddEven.ptx"/>
+                <xi:include href="./activities/02-2-WritingDirectProofs.ptx"/>
+                <xi:include href="./activities/02-3-Cases.ptx"/>
+                <xi:include href="./activities/02-4-Dividing.ptx"/>
+                <xi:include href="./activities/02-5-Congruence.ptx"/>
+            </chapter>
 
-        <chapter xml:id="ch-functions">
-            <title>Functions</title>
+            <chapter xml:id="ch-3-sets">
+                <title>Sets</title>
 
-            <xi:include href="./activities/08-1-FunctionsIntroduction.ptx"/>
-            <xi:include href="./activities/08-2-FunctionsProvingAndDisproving.ptx"/>
-            <xi:include href="./activities/08-3-CompositionsAndInverses.ptx" />
-        </chapter>
+                <xi:include href="./activities/03-1-Sets.ptx"/>
+                <xi:include href="./activities/03-2-SetBuilder.ptx"/>
+                <xi:include href="./activities/03-3-ChooseAnElement.ptx"/>
+                <xi:include href="./activities/03-4-SetOperations.ptx"/>
+            </chapter>
 
-        <chapter xml:id="ch-relations">
-            <title>Relations</title>
+            <chapter xml:id="ch-4-induction">
+                <title>Induction</title>
 
-            <xi:include href="./activities/09-1-RelationsAndEquivalenceRelations.ptx"/>
-            <xi:include href="./activities/09-2-ProofsOfEquivalenceRelations.ptx" />
-            <xi:include href="./activities/09-3-EquivalenceClasses.ptx" />
-        </chapter>
+                <xi:include href="./activities/04-1-Induction.ptx"/>
+                <xi:include href="./activities/04-2-InductionWithRecursion.ptx"/>
+            </chapter>
 
+            <chapter xml:id="ch-logic">
+                <title>Logic</title>
 
-   <chapter xml:id="course-documents">
-            <title>Course Documents</title>
+                <xi:include href="./activities/05-1-TruthTables.ptx"/>
+                <xi:include href="./activities/05-2-MoreConditional.ptx"/>
+                <xi:include href="./activities/05-3-ContrapositiveAndConverse.ptx"/>
+                <xi:include href="./activities/05-4-PracticeWithTruthTables.ptx"/>
+                <xi:include href="./activities/05-5-Negating.ptx"/>
+                <xi:include href="./activities/05-6-EnglishIsHard.ptx"/>
+                <xi:include href="./activities/05-7-ApplyingConditionalStatements.ptx"/>
+                <xi:include href="./activities/05-8-ProvingQuantifiedStatements.ptx"/>
+            </chapter>
 
-            <!-- Course syllabus -->
-            <xi:include href="./syllabus/syllabusMW.ptx"/>
-            <!-- Other documents could go here, like a schedule, project description, etc. -->
-        </chapter>
+            <chapter xml:id="ch-contrapositive">
+                <title>The Contrapositive</title>
 
-        <chapter xml:id="targets">
-            <title>Learning Targets</title>
+                <xi:include href="./activities/06-Contrapositive.ptx"/>
+            </chapter>
 
-            <!-- Include handouts -->
-            <xi:include href="./targets/LearningTarget1.ptx"/>
-            <xi:include href="./targets/LearningTarget2.ptx"/>
-            <xi:include href="./targets/LearningTarget3.ptx"/>
-            <xi:include href="./targets/LearningTarget4.ptx" />
-            <xi:include href="./targets/LearningTarget5.ptx" />
-        </chapter>
+            <chapter xml:id="ch-contradiction">
+                <title>Contradiction</title>
 
-        
+                <xi:include href="./activities/07-1-IntroToContradiction.ptx"/>
+                <xi:include href="./activities/07-2-StartingContradictionProofs.ptx"/>
+                <xi:include href="./activities/07-3-PracticingWholeProofs.ptx"/>
+                <xi:include href="./activities/07-4-IrrationalNumbers.ptx"/>
+                <xi:include href="./activities/07-5-MoreProofsByContradiction.ptx"/>
+            </chapter>
 
-        <chapter xml:id="weekly-practice">
-            <title>Weekly Practice</title>
+            <chapter xml:id="ch-functions">
+                <title>Functions</title>
 
-            <introduction>
-                <p>
-                    The following notes are intended to remind you what we
-                    covered each week.
-                    They are not a substitute for attending class and not a
-                    substitute for reading the textbook.
-                </p>
-            </introduction>
+                <xi:include href="./activities/08-1-FunctionsIntroduction.ptx"/>
+                <xi:include href="./activities/08-2-FunctionsProvingAndDisproving.ptx"/>
+                <xi:include href="./activities/08-3-CompositionsAndInverses.ptx"/>
+            </chapter>
 
-            <xi:include href="./notes/week01.ptx"/>
-            <xi:include href="./notes/week02.ptx"/>
-            <!-- etc. -->
-        </chapter>
+            <chapter xml:id="ch-relations">
+                <title>Relations</title>
 
-        
+                <xi:include href="./activities/09-1-RelationsAndEquivalenceRelations.ptx"/>
+                <xi:include href="./activities/09-2-ProofsOfEquivalenceRelations.ptx"/>
+                <xi:include href="./activities/09-3-EquivalenceClasses.ptx"/>
+            </chapter>
+        </part>
+
+     
     </book>
 </pretext>

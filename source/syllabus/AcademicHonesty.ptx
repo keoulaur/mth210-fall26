@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="sec-AcademicHonesty">
+    <title>Academic Honesty Policies</title>
+
+    <p>
+        Here's a summary of the types of assignments and what is allowed:
+    </p>
+
+    <table>
+        <title>What's allowed on each type of assignment.</title>
+
+        <tabular>
+            <row bottom="major">
+                <cell>
+                    <p>
+                        Assignment
+                    </p>
+                </cell>
+                <cell>
+                    <p>
+                        Allowed
+                    </p>
+                </cell>
+                <cell>
+                    <p>
+                        Not Allowed
+                    </p>
+                </cell>
+            </row>
+
+            <row bottom="minor">
+                <cell>
+                    <p>
+                        Preview Activities
+                    </p>
+                </cell>
+                <cell>
+                    <p>
+                        Collaboration with classmates, use of our textbook and
+                        notes.
+                    </p>
+                </cell>
+                <cell>
+                    <p>
+                        Copying any answer from a resource besides our textbook,
+                        turning in things you don't understand.
+                    </p>
+                </cell>
+            </row>
+
+            <row bottom="minor">
+                <cell>
+                    <p>
+                        Weekly Practice
+                    </p>
+                </cell>
+                <cell>
+                    <p>
+                        Collaboration with classmates, textbook, notes.
+                    </p>
+                </cell>
+                <cell>
+                    <p>
+                        Collaboration with students outside of our class, math
+                        center, any other resources (like anything on the
+                        internet or AI).
+                    </p>
+                </cell>
+            </row>
+
+            <row bottom="minor">
+                <cell>
+                    <p>
+                        Proof Portfolio
+                    </p>
+                </cell>
+                <cell>
+                    <p>
+                        Collaboration with classmates ON FIRST DRAFT with
+                        nothing written down, collaboration with Dr.
+                        Keough, notes, textbook, anything posted on Blackboard.
+                        Also see the golden rule!
+                    </p>
+                </cell>
+                <cell>
+                    <p>
+                        Collaboration with any other student or person outside
+                        our class.
+                        Collaboration with other students on written revision.
+                        Any resources besides our textbook, Blackboard (and
+                        things posted there) and your notes (like anything on
+                        the internet or AI).
+                    </p>
+                </cell>
+            </row>
+
+            <row bottom="minor">
+                <cell>
+                    <p>
+                        Learning Target Quizzes
+                    </p>
+                </cell>
+                <cell>
+                    <p>
+                        Your own brain!
+                    </p>
+                </cell>
+                <cell>
+                    <p>
+                        Collaboration with classmates, any resources.
+                    </p>
+                </cell>
+            </row>
+
+            <row bottom="minor">
+                <cell>
+                    <p>
+                        Review Assessements
+                    </p>
+                </cell>
+                <cell>
+                    <p>
+                        Your own brain!
+                    </p>
+                </cell>
+                <cell>
+                    <p>
+                        Copying from any resource, turning in anything you don't
+                        understand, collaboration with classmates.
+                    </p>
+                </cell>
+            </row>
+        </tabular>
+    </table>
+
+    <paragraphs xml:id="subsec-AH-goldenrule">
+        <title>The Golden Rule</title>
+
+        <p>
+            Any submitted solution to any assignment must be your own writing
+            about your own understanding in your own words, regardless of
+            collaboration.
+            This means that at no point should you turn in work you do not
+            understand.
+        </p>
+    </paragraphs>
+
+    <paragraphs>
+        <title>A Note on Generative AI (like ChatGPT)</title>
+
+        <p>
+            In this course, we'll be developing skills that are important to
+            practice on your own.
+            Using generative AI can inhibit the development of those skills -
+            even if you just use it for hints or suggestions.
+            The cognitive struggle of working through problems leads to
+            learning!
+            So, please refrain from employing AI tools in this course.
+            I know that you may use generative AI in your future work, however,
+            now is not the time.
+            I trust that when it is the time, you'll figure it out.
+            You're able to do hard math!
+            Using such tools for any purposes, or attempting to represent
+            AI-generated work as your own, will violate our academic integrity
+            policy.
+            We will talk more about this policy in class.
+        </p>
+
+        <example>
+            <p>
+                You aren't sure how to start, so you paste the problem into ChatGPT to see if you can get a hint.
+                This is academic dishonesty. It's too easy and tempting to ask for more and more hints. And you can't write up your own solution once you've seen a solution. Instead, please ask DocK when you need a hint. She can likely give you a better one, and knows based on your work already whether you need a little nudge, or a review of some larger topic.
+            </p>
+        </example>
+
+        <example>
+            <p>
+                You've written a proof, but you want it to sound nicer. So you put your proof into a generative AI and ask it to edit it. This is also academic dishonesty. Though this may be more like how you use AI in the future, at this stage, leave getting feedback to other human writers. DocK is happy to sit with you and help your writing sound better, and still like you!
+            </p>
+        </example>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Collaboration with Other Students</title>
+
+        <p>
+            All collaboration with individual problems must occur with students
+            who are in our class and are at the same stage of the problem
+            solution as you.
+            Additionally, you should never share an Overleaf document with
+            another student.
+            You may not work with students who have previously taken MTH 210,
+            without explicit instructor permission.
+            Any assignment basing your work on the efforts of another student is
+            considered academic dishonesty.
+        </p>
+
+        <example>
+            <p>
+                You have not made any individual progress on a problem.
+                You ask several students, “How did you do portfolio problem 4?”
+                until you find someone who has completed the problem and is
+                willing to describe a route to the solution.
+                This is academic dishonesty: the work is not your own.
+            </p>
+        </example>
+
+        <example>
+            <p>
+                You have not made any individual progress on a problem.
+                Together with peers who also have not started the problem, you
+                attempt to work out a route to the solution on a whiteboard.
+                You don't take any notes, or a picture of the whiteboard.
+                You write up your solution on your own later, away from the
+                whiteboard.
+                This is fine - as long as you respect the Golden Rule when
+                writing your solution.
+            </p>
+        </example>
+
+        <example>
+            <p>
+                You aren't sure how to type something in Overleaf so you ask
+                your friend to share their Overleaf.
+                This is academic dishonesty.
+                Use the LaTeX cheat sheet or DeTeXify, or ask Dr.
+                Keough (keoulaur@gvsu.edu).
+                It is also OK to use google (and its AI response) to find LaTeX
+                commands.
+            </p>
+        </example>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Recommendations</title>
+
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Start early: I don't believe any of you intend to go
+                        into this class and be academically dishonest.
+                        Procrastination can put you in desperate situations, but
+                        this is not an excuse for misconduct.
+                        Do not procrastinate on any assignments.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Remember there are redos/grades based on effort: I'm not
+                        trying to “get you” in any part of your grade, my goal
+                        is for you to learn.
+                        Take advantage of redoing problems for the portfolio and
+                        extra attempts on quizzes.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Use me as your google: If you are ever tempted to google
+                        something for work you plan to turn in, just email me
+                        (keoulaur@gvsu.edu) and ask what you would ask google.
+                        I don't respond in .02 seconds as google often does, but
+                        I do typically respond quickly (within a couple of hours
+                        if between 9-5 M-F, or next business day if not) and my
+                        algorithm for advice is better since I can meet you
+                        where you're at.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Student Code: Make sure you are familiar with Section 5.1
+                        of the student code.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Penalties</title>
+
+        <p>
+            The principles of truth and honesty are recognized as fundamental to
+            a community of teachers and scholars.
+            If I suspect you of academic dishonesty I will notify you and meet
+            with you to discuss the incident.
+            I may ask you to explain your work (recall anything you turn in
+            should be a representation of your own understanding!).
+            In order to uphold these principles, any instances of academic
+            dishonesty will be penalized and reported to the office of student
+            conduct and conflict resolution.
+            Remember, I trust you to be honest and want you to learn.
+            Ask me for help.
+        </p>
+    </paragraphs>
+</section>

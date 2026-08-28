@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Syllabus Sections 02 (TR) and 03 (MW)</title>
+
+    <introduction>
+        <p/>
+    </introduction>
+    <!-- Include Chap.s -->
+    <subsection xml:id="sec-course-info">
+        <title>Course Information</title>
+
+        <p>
+            This is the syllabus for
+            <term>Communicating in Mathematics (MATH 210, sections 02 and 03)</term> for
+            Fall 2026.
+            It is a 4 credit course.
+            <!-- use a description list (dl) for short items -->
+            <dl>
+                <li>
+                    <title>Instructor</title>
+
+                    <p>
+                        <term>Name: </term> Dr.
+                        Keough (call me Dr.
+                        Keough, Professor Keough, or DocK for short!)
+                    </p>
+
+                    <p>
+                        <term>Office location:</term> MAK C-2-513 (but drop in
+                        hours in the PCS MAK A-2-610!)
+                    </p>
+
+                    <p>
+                        <term>Email:</term>
+                        <url href="mailto:keoulaur@gvsu.edu">keoulaur@gvsu.edu</url>.
+                        (Email me whenever!
+                        I typically respond to emails between 9AM and 5PM
+                        Monday-Friday.)
+                    </p>
+
+                    <p>
+                        <term>Phone:</term> 616-331-3632.
+                        (but email is the best way to contact me!)
+                    </p>
+                </li>
+
+                <li>
+                    <title>Class meets</title>
+                       <p>
+                        Section 02 meets Tuesdays and Thursdays 11-12:50PM in Mackinac Hall B-1-122.
+                    </p>
+
+                    <p>
+                        Section 03 meets Mondays and Wednesdays 2-3:50PM in Mackinac Hall
+                        A-2-161.
+                    </p>
+
+                 
+                </li>
+
+                <li>
+                    <title>Drop in Hours</title>
+
+                    <p>
+                        Drop in hours are for you to come and ask questions!
+                        They will all be held in the Peer Collaboration Space
+                        (or <q>the PCS</q> MAK A-2-610).
+                        Come any time during:
+                    </p>
+
+                    <p>
+                        <ul>
+                            <li>
+                                <p>
+                                    Mondays 4-5PM
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Wednesdays 10-11AM
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Thursdays 1-2PM
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Fridays 10-11AM
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    And by appointment!
+                                    Email
+                                    <url href="mailto:keoulaur@gvsu.edu">keoulaur@gvsu.edu</url>
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+
+                <li>
+                    <title>Course Description</title>
+
+                    <p>
+                        A study of proof techniques used in mathematics.
+                        Intensive practice in reading mathematics, expository
+                        writing in mathematics, and constructing and writing
+                        mathematical proofs.
+                        Mathematical content includes elementary logic,
+                        congruence arithmetic, set theory, functions,
+                        equivalence relations, and equivalence classes.
+                        Offered fall and winter semesters.
+                    </p>
+                </li>
+
+                <li>
+                    <title>Prerequisite</title>
+
+                    <p>
+                        MTH 201 and fulfillment of general education Foundations
+                        - Writing.
+                    </p>
+                </li>
+
+                <li>
+                    <title>Textbook and course materials</title>
+
+                    <p>
+                        <pubtitle>Proofs: A Long-Form Mathematics Textbook </pubtitle>
+                        by Jay Cummings.
+                        Available on Amazon:
+                        <url href="https://a.co/d/agiWS2b"/>.
+                    </p>
+
+                    <p>
+                        Please get a binder for organization!
+                    </p>
+
+                    <p>
+                        Announcements, assignments, and due dates are all on
+                        Blackboard: <url href="https://lms.gvsu.edu/"/>.
+                    </p>
+                </li>
+            </dl>
+        </p>
+        <!-- Use paragraphs to break apart subsections -->
+        <paragraphs>
+            <title>Why am I in this class?</title>
+
+            <p>
+                This course is required for all types of math majors -
+                theoretical, applied, secondary education, as well as the minor
+                in mathematics middle grade teaching: 5-9.
+                You may also be taking this class for SWS (Supplemental Writing
+                Skills Credit).
+                Plus, MTH 210 is a prerequisite for proof-based 300 and 400
+                level mathematics courses.
+            </p>
+
+            <p>
+                But why did the powers that be decide this class was required
+                for all those majors and that minor?
+                In the end, this course is about
+                <term> <em> solving problems, convincing other people that you're
+            right, and deciding whether other people are right.</em></term>
+                How do we do that?
+                We create, write, and read mathematical proofs.
+                This requires us to think about logic, reasoning, creativity,
+                patterns, critical thinking, and communication -- skills that
+                are key to living in the modern world.
+            </p>
+
+            <p>
+                I am well aware that you may never write a mathematical proof in
+                your life after this class.
+                But, consider this quote from GVSU Math alumni 2016 who is now
+                the Global Director of Talent Management at JR Automation :
+            </p>
+
+            <blockquote>
+                <p>
+                    Majors and job titles change; the ability to think clearly,
+                    solve problems, communicate, and adapt doesn't.
+                    Investing in these areas will always keep the most
+                    opportunity doors open for you.
+                </p>
+                <attribution>
+                    Nick Deanes, GVSU MTH '16 MBA, Western Michigan Univ
+                </attribution>
+            </blockquote>
+
+            <p>
+                The skills Nick mentions are skills of a math major, and many of
+                them are honed in this course.
+                Though we will focus on very math-y proofs, I will do my best to
+                make what you're doing in this course feel connected to the
+                ability to think clearly, solve problems, communicate, and
+                adapt.
+            </p>
+
+            <p>
+                This class may feel very different from previous math classes to
+                you.
+                In fact, many schools even call this course “Transitions”.
+                If you can, do your best to trust the process.
+                Additionally, please talk to me when you're feeling frustrated,
+                or a little at sea.
+                This is the course where I fell in love with mathematics,
+                because I learned math is creative and social.
+                I hope you will enjoy it just as much as I did.
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>What should I know about my instructor?</title>
+
+            <p>
+                Hi!
+                I'm Dr.
+                Keough, many students call me DocK for short.
+                I've been teaching at GVSU for 10 years.
+                My main priority in this course is for you to grow as a
+                mathematician: to be able to understand and apply complex
+                statements, to solve challenging problems, and to communicate
+                orally and in writing, and to have fun while doing it.
+            </p>
+
+            <p>
+                My teaching philosophy is that
+                <em> Everyone has the right to
+                understand and enjoy mathematics, and to feel part of a
+                mathematical community.</em>
+            </p>
+
+            <p>
+                I like math because I love the feeling of solving a really hard
+                problem.
+                I sometimes say that a mathematician is a person who has
+                productive ways to deal with infinite amounts of frustration to
+                get to that “aha” moment.
+                MTH 210 is one of my favorite courses to teach because I like
+                helping students through a hard transition.
+                In all aspects of the course, please understand that I am always
+                willing to discuss problems with you, and that I am trying to
+                push you just the right amount.
+                I will never simply give you an answer, but I will offer
+                direction and guidance that will assist you in coming up with a
+                solution on your own.
+                This is by far the most satisfying way to solve a problem, and
+                the difficulty is well worth it.
+                I hope you will make frequent use of my drop-in hours and email
+                (keoulaur@gvsu.edu).
+                I care a lot about your overall success in this course, but
+                first comes your well-being as a human.
+            </p>
+
+            <p>
+                I want you to succeed, whatever that means to you.
+                Please see me when you need help.
+            </p>
+        </paragraphs>
+    </subsection>
+
+    <subsection xml:id="subsec-SupplementalWritingSkills">
+        <title>Supplemental Writing Skills</title>
+
+        <paragraphs>
+            <title>Supplemental Writing Skills Course</title>
+
+            <p>
+                This course is designated SWS.
+                Completion of WRT 120 &amp; WRT 130 or 150 with a grade of C or
+                better (not C-) is a prerequisite.
+                SWS credit will not be given to a student who completes this
+                course before completing the prerequisite.
+                SWS courses adhere to certain guidelines.
+                Students turn in a total of at least 3000 words of writing.
+                Part of that total may be essay exams, but a substantial amount
+                of it is made up of essays, reports, or research papers.
+                The instructor works with the students on revising drafts of
+                papers, rather than simply grading the finished piece of
+                writing.
+                At least four hours of class time will be devoted to writing
+                instruction.
+                At least one third of the final grade in the course is based on
+                the writing assignments.
+                Students must complete the course with a grade of "C" or better
+                in order to receive SWS credit.
+                Students may receive SWS credit for taking the course as
+                Credit/No Credit provided the student passes the course with a
+                "Credit" grade.
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Fred Meijer Center for Writing and Michigan Authors</title>
+ <p>
+    A free university resource!
+ </p>
+            <p>
+                <dl>
+                    <li>
+                        <title>Web:</title>
+
+                        <p>
+                            Program information - <url href="gvsu.edu/wc"/>
+                            Appointment scheduling -
+                            <url href="https://www.gvsu.edu/bookit/ "/>
+                        </p>
+                    </li>
+
+                    <li>
+                        <title>Contact:</title>
+
+                        <p>
+                            virtualwc@mail.gvsu.edu - (616) 331-2922 or Patrick
+                            Johnson (Director - johpatri@gvsu.edu - (616)
+                            331-8077)
+                        </p>
+                    </li>
+
+                    <li>
+                        <title>Locations:</title>
+
+                        <p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        Main Location: Lake Ontario Hall, Room
+                                        120 (Allendale)
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        Satellite Locations: Mary Idema Pew
+                                        Knowledge Market (1st floor) and
+                                        Steelcase Knowledge Market (Devos
+                                        Building A)
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        Online: Virtual writing support is
+                                        available during all hours of operation
+                                        for both drop-ins or scheduled
+                                        appointments.
+                                        Email support is also available
+                                        (provided within 72 hours of
+                                        submission).
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+
+                    <li>
+                        <title>Hours:</title>
+
+                        <p>
+                            Writing Center services are available in-person and
+                            online during all hours: (Mon-Thurs 9 a.m.-11 p.m.,
+                            Friday 9 a.m.-3 p.m., Sunday 2 p.m.- 11 p.m.).
+                            Students can schedule appointments in advance via
+                            Book It or drop-in (first-come/first-serve) at any
+                            service location or virtually.
+                            Hours vary by location so please check Book It and
+                            our program website for up-to-date information -
+                            <url href="gvsu.edu/wc"/>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <title>Services:</title>
+
+                        <p>
+                            The Fred Meijer Center for Writing provides writing
+                            assistance to all GVSU students, on any type of
+                            project and at any stage of the process.
+                            The Writing Center employs both undergraduate and
+                            graduate writing consultants from a variety of
+                            majors and disciplines.
+                            Consultants are trained to help writers brainstorm,
+                            organize, and/or develop their ideas, and they can
+                            help writers edit their own work and document
+                            sources correctly.
+                            The Center's services are free and students can work
+                            with an idea or assignment prompt all the way
+                            through drafting and finalizing their paper.
+                            We look forward to working with you!
+                        </p>
+                    </li>
+                </dl>
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Writing in MTH 210</title>
+            <p>
+                Writing habits, processes, and skills will regularly be taught when introducing a new proof technique.
+                As part of writing, we will learn to type in the mathematical typesetting software LaTeX (via Overleaf).
+                The main type of writing assignment in this course will be proofs.
+                On the proof portfolio, you will have opportunities to revise each proof for the following week, and then revise again for the final portfolio.
+                You will receive detailed feedback on both the handwritten draft and on the typed revision, so you will get feedback on your writing weekly.
+            </p>
+        </paragraphs>
+        <paragraphs>
+            <title>Math Center</title>
+           <p> The math center is <em>not</em> to be used for this course. </p>
+        </paragraphs>
+    </subsection>
+
+    <subsection xml:id="subsec-SOR">
+        <title>Course Objectives (Syllabus of Record)</title>
+
+        <p>
+            <term>Learning Objectives:</term> After successful completion of the
+            course, students will be able to:
+        </p>
+
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Explain standard methods of mathematical proof
+                        (including direct proofs, logical equivalencies, proof
+                        by contradiction, mathematical induction, case analysis,
+                        and counterexamples).
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Create mathematical proofs using standard methods of
+                        mathematical proof.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Solve and generalize mathematical problems.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Critique mathematical proofs.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Determine appropriate method of proof for a given
+                        conjecture or argument.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </subsection>
+
+    <!-- <subsection xml:id="subsec-other">
+        <title/>
+        <p>
+            Learning Targets and Quizzes Goals: There are a number of basic
+            skills that you should demonstrate fluency with in an introduction
+            to proofs course.
+            These quizzes are intended to emphasize a few things.
+            One is that learning is a process.
+            You will not be penalized for not demonstrating fluency with a skill
+            the first time, but you are expected to eventually get there.
+            Another is that fluency with basic skills and knowing definitions is
+            an important part of doing mathematics.
+            For example, you shouldn't expect to be able to complete a complex
+            proof about the notion of divides if you don't know the definition
+            of divides.
+            These quizzes also provide individual assessment so you know whether
+            or not you are keeping up with course material.
+            Structure: We will have a closed book/closed note checkpoint each
+            Tuesday at the end of class assessing the following learning
+            targets.
+            While each target will be graded as only either ``S" for
+            ``Satisfactory" or ``NY" for ``does Not Yet meet the standard" each
+            target appears on 3 consecutive quizzes.
+            Once you have earned an “S” on a target you do not need to do so
+            again.
+            Blackboard will be updated weekly to reflect your “S”s and “NY”s.
+            You will be notified which targets will be on a checkpoint, but it
+            is your responsibility to know which targets you have yet to earn
+            satisfactory.
+            You may bring a 3x5 notecard with notes for each checkpoint.
+            Each target will be on three quizzes.
+            Your grade for this component will be the percentage of the 20
+            targets listed below that you have earned an S on.
+            Learning Targets: Come to office hours to ask a question or attend a
+            math event.
+            (See the math major emails for available math events, and let me
+            know if you don't get it!) State precisely the definition of an even
+            and odd integer and outline the proof of a statement using these
+            terms.
+            Given a statement to be proven using a direct proof, identify the
+            assumptions to be made and the statements to be proven.
+            Evaluate if a given proof is valid and adheres to our writing
+            guidelines.
+            Create and translate sets using set builder notation and fluently
+            work with sets written in set builder notation.
+            Identify if a given set of numbers is closed under a given
+            operation.
+            Use the symbols related to sets (like ∈, ∉, ⊆, ⊂, =, ⊈) correctly.
+            Given two sets and a universal set identify the union, intersection,
+            complement, and set difference and find the power set of a given
+            set.
+            State the definition of ``a divides b" and ``a is congruent to b
+            modulo n", and correctly apply these definitions in examples.
+            Identify situations in which it is appropriate to use induction and
+            state the procedure for proving a statement by induction.
+            Clearly and correctly disprove a statement using a counterexample.
+            Construct truth tables for statements that use the logical operators
+            and, or, not, and implies, and make conclusions about the truth
+            values of these statements.
+            Given a conditional statement, identify the hypothesis and
+            conclusion, determine its truth value, and apply it.
+            Negate a statement with and, or, not, implies, exists, and/or for
+            all.
+            Given a statement to be proven using a proof by contrapositive,
+            identify the assumptions to be made and the statements to be proven.
+            Given a statement to be proven using a proof by contradiction,
+            identify the assumptions to be made and the statements to be proven.
+            Correctly use function terminology such as domain, codomain, range,
+            dependent variable, independent variable, image, and preimage.
+            State the definition of injection, surjection, and bijection, create
+            examples of each, and identify if a given function is an injection,
+            surjection, or bijection.
+            Prove or disprove that a given relation is reflexive, symmetric,
+            and/or transitive and identify if the relation is an equivalence
+            relation.
+            Given an equivalence relation, I can determine the equivalence class
+            of an element.
+            I can list the distinct equivalence classes determined by the
+            relation.
+            Proof Portfolio At the end of the semester, you will submit a proof
+            portfolio containing at least 10 proofs.
+            Purpose There are a number of reasons why this exercise is important
+            in an introduction to proofs class: Written communication.
+            Perhaps one of the most important goals of the proof portfolio is to
+            work on your ability to write well.
+            I don't know anyone who was born a good mathematical writer.
+            Writing mathematics is decidedly different from writing an essay
+            (just as, you may have noticed, reading a math text is different
+            from reading a novel) and it will take some time to get good at it.
+            The proof portfolio gives you many opportunities to learn from
+            mistakes.
+            Learning LaTeX.
+            Mathematical typesetting in LaTeX is an important goal in this
+            course.
+            In future courses you'll be able to do your homework faster and
+            better, and it will look more professional.
+            You'll be glad you learned it, trust me!
+            The opportunity to act on feedback.
+            You will get lots of feedback on assignments in this course,
+            especially on proof drafts.
+            This is a chance for you and me to make sure you understand my
+            feedback and correct mistakes.
+            Seeing a proof through to perfection and celebrating your progress.
+            I hope this will be satisfying!
+            A resource later.
+            You will have 10 typed proofs and at least one example of every
+            proof technique we've learned in the course.
+            This could be of use in the event that you ever forget, say, how
+            induction works.
+            Collaboration and Resources You may use your textbook and class
+            notes.
+            You may brainstorm and discuss solutions in groups, but you may not
+            take any notes from these discussions in any form (including video
+            recording).
+            You must write your solutions individually.
+            You may only discuss your ideas with others in our section of MTH
+            210 who are at the same point in solving the problem, as well as me.
+            See academic integrity for more information and examples,
+            particularly the golden rule.
+            Drafts Drafts and deadlines: Each proof will have two deadlines
+            during the semester: First a rough draft, then a revised copy that
+            focuses on writing.
+            Each is due Friday at 5:00 pm on Blackboard with a 48 hour grace
+            period.
+            Exact due dates posted on Blackboard and announced in class.
+            Estimated due dates are in the schedule.
+            Rough draft: First, complete a rough draft of your portfolio
+            solution.
+            This could be in “know-show table” format or bullet points.
+            Your goal is to include all key mathematical ideas and work, with
+            just enough writing and detail to make it understandable.
+            Focus on the central ideas and don't try to make it beautiful (yet)!
+            Due: Friday at 5:00 pm (plus a 48 hour grace period).
+            Writing revision: I'll give feedback on your rough draft very
+            quickly, focusing only on the mathematical ideas.
+            Spend the next week revising it and bringing the writing up to meet
+            the professional communication specifications.
+            This writing revision is due the following Friday at 5:00 pm (plus a
+            48 hour grace period).
+            Here's an example of a well done rough draft and writing revision.
+            How to submit your work: Upload to the corresponding assignment on
+            Blackboard.
+            Upload a PDF of your work.
+            Submit writing revisions to the same assignment.
+            For the writing revision, you may want to Include a “read only” link
+            to your Overleaf document in the comments field so I can help with
+            LaTeX Grades on drafts: The rough draft will not receive a grade.
+            Blackboard insists I give one, so I will enter a 0.
+            You did NOT get a 0 on the assignment.
+            For the written revision, I will assign a grade according to this
+            Proof Portfolio Rubric.
+            This grade is not final, you may continue to revise your work, see
+            final grading.
+            Final Product Final product: You will put together all of your final
+            proofs into one Overleaf file.
+            Here's a template.
+            (See Blackboard for how to get an Overleaf file of your own.) In
+            addition to the problems, the final product will contain a short
+            reflection.
+            The reflection should be a paragraph (say 4-5 sentences) and include
+            an answer to what what you learned from doing (or redoing) a
+            problem.
+            Here are some questions to guide your reflection: did you learn a
+            particular strategy?
+            Did you make a mistake and what did you learn from it?
+            What vocabulary was important to know to do the problem?
+            What was a key insight you had to have to do the problem?
+            Was this problem particularly challenging for you?
+            If so, why?
+            what portfolio objectives the problem addresses (along with a
+            justification).
+            See proof portfolio objectives for the list.
+            Final deadline: The whole portfolio is due, with reflections and
+            objectives at the start of our final exam time (Tuesday, April 28 at
+            10:00AM).
+            Final grading: These final submissions are the only ones whose
+            grades count.
+            Everything up until then is feedback to help you write the best
+            possible proofs.
+            After feedback on the writing revision, you can continue to revise
+            as much as you would like.
+            I'm happy to meet with you during drop-in hours to talk about
+            subsequent revisions.
+            In the Overleaf template for the final portfolio there is a table to
+            fill out where you will assign yourself a grade for each of the
+            problems, justifying if your grade is different from the one on the
+            writing revision, as well as a grade for reflections and overall
+            meeting of the portfolio objectives.
+            Here are the point values: Problems/proofs (100 points): You will
+            complete 10 problems/proofs, 10 points each.
+            Reflections (10 points): Each reflection is worth 1 point.
+            Assign yourself 1 point for a well thought out reflection, half a
+            point if you started a reflection, and 0 points if you didn't do a
+            reflection for that problem.
+            Portfolio Objectives (20 points): Assign yourself a grade out of 20
+            points based on how many of the portfolio objectives you met.
+            The final portfolio is out of 130 points.
+            Proof Portfolio Objectives Proof methods: PM1 Write a correct direct
+            proof.
+            PM2 Write a correct proof using the contrapositive or other logical
+            equivalence.
+            PM3 Write a correct proof by contradiction.
+            PM4 Use cases correctly in a proof.
+            PM5 Write a correct proof using mathematical induction.
+            PM6 Correctly prove a biconditional statement in which both
+            directions are true.
+            PM7 Clearly and correctly disprove a statement using a
+            counterexample.
+            PM8 Correctly prove a set relation using element-chasing or set
+            algebra.
+            PM9 Correctly prove that a function is injective, surjective, or
+            bijective.
+            PM10 Correctly cite a previously proved theorem in the proof of
+            another theorem.
+            Content: Co1 Correctly use the idea of closure.
+            Co2 Correctly use the definitions of odd and even or divisibility.
+            Co3 Correctly use the definitions of rational and irrational.
+            Co4 Correctly use congruences, modular arithmetic, and modular
+            arithmetic shortcuts.
+            Co5 Fluently work with set builder notation and an arbitrary element
+            from a set.
+            Co6 Correctly use function terminology (domain, codomain, range,
+            image, and preimage).
+            Co7 Correctly use the definition of equivalence relation and its
+            parts (symmetric, reflexive, transitive).
+            Mathematical Strategies MS1 Correctly use appropriate mathematical
+            ideas from previous classes (such as Algebra and Calculus) to solve
+            problems.
+            MS2 Create a variety of concrete examples that illustrate the use of
+            a theorem.
+            MS3 Create a variety of concrete examples that illustrate the use of
+            a definition.
+            Proof Portfolio Rubric Score Characteristics 10 (Distinguished) A 10
+            is reserved for completely correct and well written proofs or
+            solutions.
+            Includes: Clearly communicated understanding of key ideas
+            Explanations and justifications are complete, correct, and easy to
+            follow.
+            Mathematical terminology and notation are used correctly.
+            Reasoning flows logically.
+            Computations are essentially correct (could contain one or two minor
+            errors that do not detract from the solution), well organized, and
+            easy to follow.
+            Adheres to all writing guidelines.
+            8 (Proficient) For an 8 the proof or solution has the main flow of
+            logic correct, but misses one of the high standards of a 10
+            Communication of key ideas is essentially correct but may contain
+            minor flaws that do not subtract significantly from the solution.
+            Explanations and justifications are essentially complete, correct,
+            and can be followed, but may contain minor errors that subtract, but
+            not significantly, from the solution.
+            Mathematical terminology and notation are used at least mostly
+            correctly.
+            Reasoning flows logically.
+            Computations are essentially correct, but may contain minor errors
+            that subtract, but not significantly, from the solution.
+            Adheres to at least most of the writing guidelines.
+            6 (Progressing significantly) A 6 is earned for proofs or solutions
+            that show significant progress towards a solution, but have a key
+            error.
+            Communication contains many of the key ideas but also may contain
+            errors that subtract significantly from the solution.
+            Explanations and justifications exist, but are not always clear and
+            easy to follow or they do not match the work done.
+            Mathematical terminology and notation are at least sometimes used
+            correctly.
+            Work done has some logical foundation, but flow of ideas may not
+            easily be followed.
+            A computation may contain an error that subtracts significantly from
+            the solution.
+            Adheres to at least some of the writing guidelines.
+            3 (Progressing) A 3 is earned for proofs or solutions that have the
+            basics, but have a major flaw that make it invalid.
+            Communication demonstrates understanding of some key ideas, but also
+            demonstrates a lack of understanding of other ideas.
+            Some claims have sufficient explanations or justifications, but some
+            are missing entirely or are hard to follow.
+            There may be a significant logical error.
+            The solution is disorganized or contains irrelevant information or
+            arguments.
+            Mathematical terminology or notation may be nonsensical or
+            incorrectly used.
+            Adheres to at least a few of the writing guidelines.
+            0 (Inadequate) A 0 is given to a proof or solution that is invalid
+            and demonstrates no understanding or is work that is not your own.
+            The reasoning is logically invalid.
+            Claims are not justified or the explanations are incomprehensible.
+            In addition to these grades, I may assign a “9.9”.
+            A 9.9 means there are errors that should be fixed, but I believe
+            that you can fix them on your own.
+            Policies Specific to this Course 
+            This course is subject to the GVSU policies listed at
+            http://www.gvsu.edu/coursepolicies/.
+            This syllabus may be updated!
+            Any changes will be announced clearly on Blackboard or via email and
+            the changes will show in the google doc version of the syllabus.
+        </p>
+    </subsection> -->
+</section>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <section xml:id="subsec-schedule">
+        <title>(Tentative) Course Schedule</title>
+
+        <table>
+            <title>PA=Preview Activity, Q=Quiz, WP = Weekly Practice PP = Proof Portfolio</title>
+
+            <tabular width="auto">
+                <row bottom="major">
+                    <cell colspan="4"/>
+                </row>
+
+                <row bottom="major">
+                    <cell><p>Week</p></cell>
+                    <cell><p>Textbook</p></cell>
+                    <cell><p>Topics</p></cell>
+                    <cell><p>Assignments</p></cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell><p>1 (Aug. 31)</p></cell>
+                    <cell><p>Chap. 1</p></cell>
+                    <cell><p>Chessboard problems, naming results</p></cell>
+                    <cell><p>PA1, PA2</p></cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell><p>2 (Sep. 7)</p></cell>
+                    <cell><p>Chap. 2</p></cell>
+                    <cell><p>No classes Monday! Direct proofs, definitions</p></cell>
+                    <cell><p>PA3, WP1</p></cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell><p>3 (Sep. 14)</p></cell>
+                    <cell><p>Chap. 2</p></cell>
+                    <cell><p>Writing, LaTex, proofs by cases, divisibility</p></cell>
+                    <cell><p>PA4, PA5, Q1, PP2, WP2</p></cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell><p>4 (Sep. 21)</p></cell>
+                    <cell><p>Chap. 2</p></cell>
+                    <cell><p>Modular arithmetic</p></cell>
+                    <cell><p>PA6, PA7, Q2, PP3,2, WP3</p></cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell><p>5 (Sep. 28)</p></cell>
+                    <cell><p>Chap. 3</p></cell>
+                    <cell><p>Sets - subsets (choose an element method)</p></cell>
+                    <cell><p>PA8, PA9, Q3, PP4,3,2, WP4</p></cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell><p>6 (Oct. 5)</p></cell>
+                    <cell><p>Chap. 4</p></cell>
+                    <cell><p>Set operations</p></cell>
+                    <cell><p>PA10, PA11, Q4, PP4,3 WP5</p></cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell><p>7 (Oct. 12)</p></cell>
+                    <cell><p>Chap. 5</p></cell>
+                    <cell><p>Induction</p></cell>
+                    <cell><p>PA12, PA13, Q5, PP5,4, WP6</p></cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell><p>8 (Oct. 19)</p></cell>
+                    <cell><p>Chap. 5</p></cell>
+                    <cell><p>Catch up, review, review assessment 1</p></cell>
+                    <cell><p>PA14, PA15, Q6, PP5, WP7</p></cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell><p>9 (Oct. 26)</p></cell>
+                    <cell><p>Chap. 6</p></cell>
+                    <cell><p>No classes Monday! (Fall break.) Logic.</p></cell>
+                    <cell><p>PA16, PP5</p></cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell><p>10 (Nov. 2)</p></cell>
+                    <cell><p>Chap. 7</p></cell>
+                    <cell><p>Proof by contrapositive.</p></cell>
+                    <cell><p>PA17, PA18, Q7, PP6, WP9</p></cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell><p>11 (Nov. 9)</p></cell>
+                    <cell><p>Chap. 8</p></cell>
+                    <cell><p>Proof by contradiction.</p></cell>
+                    <cell><p>PA19, PA20, Q8, PP7,6, WP10</p></cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell><p>12 (Nov. 16)</p></cell>
+                    <cell><p>Chap. 9</p></cell>
+                    <cell><p>
+                        Functions - Injections, Surjections, Bijections.
+                    </p></cell>
+                    <cell><p>PA21, 22, Q9, PP8,7,6 WP11</p></cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell><p>13 (Nov. 23)</p></cell>
+                    <cell><p>Chap. 9</p></cell>
+                    <cell><p>
+                        Equivalence relations, No class Wednesday (Thanksgiving)
+                    </p></cell>
+                    <cell><p>PA23, Q10, PP9,8,7</p></cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell><p>14 (Nov. 30)</p></cell>
+                    <cell><p>Chap. 9</p></cell>
+                    <cell><p>Equivalence relations.</p></cell>
+                    <cell><p>PA24, PA25, Q11, PP10,9,8, WP12</p></cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell><p>15 (Dec. 7)</p></cell>
+                    <cell/>
+                    <cell><p>Catch up/review</p></cell>
+                    <cell><p>PA26, Q12, PP1,10,9 WP13</p></cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell><p>Finals</p></cell>
+                    <cell/>
+                    <cell><p>Final Exam</p></cell>
+                    <cell/>
+                </row>
+                
+            </tabular>
+           
+        </table>
+    </section>

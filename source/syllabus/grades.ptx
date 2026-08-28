@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="sec-Grades">
+    <title>Grades</title>
+
+    <p>
+        Your final grade will be based on 5 components, each weighted
+        differently as shown in the chart in <xref ref="fig-gradespiechart"/>
+        All grades will be posted on Blackboard and you should check them for
+        accuracy.
+        After about the first month of class, I'll post an estimated grade on
+        Blackboard.
+        Please ask if you have any questions!
+    </p>
+
+    <figure xml:id="fig-gradespiechart">
+        <caption>Grade breakdown pie chart.</caption>
+        <image width="100%">
+            <shortdescription>Grade breakdown.</shortdescription>
+            <prefigure xmlns="https://prefigure.org" label="SyllabusGradesL">
+                <diagram dimensions="(350,200)" margins="5">
+                    <coordinates bbox="(-1,-1,2.5,1)">
+                        <arc at="Preview Activities" center="(0,0)" radius="1" range="(0,0.05*360)" stroke="black" fill="orange" sector="yes" opacity="0.5"/>
+                        <arc at="Weekly Practice" center="(0,0)" radius="1" range="(0.05*360, 0.15*360)" stroke="black" fill="blue" sector="yes" miterlimit="1" opacity="0.4"/>
+                        <arc at="Learning Targets" center="(0,0)" radius="1" range="(0.15*360, 0.45*360)" stroke="black" fill="magenta" sector="yes" miterlimit="1" opacity="0.4"/>
+                        <arc at="Review Assessments" center="(0,0)" radius="1" range="(0.45*360, 0.65*360)" stroke="black" fill="green" sector="yes" miterlimit="1" opacity="0.4"/>
+                        <arc at="Portfolio" center="(0,0)" radius="1" range="(0.65*360, 1*360)" stroke="black" fill="purple" sector="yes" miterlimit="1" opacity="0.4"/>
+                        <arc center="(0,0)" radius="1" range="(0.05*360, 0.15*360)" stroke="black" sector="yes" miterlimit="1"/>
+                        <arc center="(0,0)" radius="1" range="(0.45*360, 0.65*360)" stroke="black" sector="yes" miterlimit="1"/>
+                        <!-- <arc center="(0,0)" radius="1" range="(0.78*360, 360)" stroke="black" sector="yes" miterlimit="1"/> -->
+                        <label anchor="(0.57,0.12)" alignment="east" scale="0.7">
+                            [PA] 5%
+                        </label>
+                        <label anchor="(0.34,0.52)" alignment="east" scale="0.7">
+                            [WP] 10%
+                        </label>
+                        <label anchor="(-0.5,0.75)" alignment="east" scale="0.7">
+                            [LT] 30%
+                        </label>
+                        <label anchor="(-0.95,-0.15)" alignment="east" scale="0.7">
+                            [RA] 20%
+                        </label>
+                        <label anchor="(-0.28,-0.85)" alignment="east" scale="0.7">
+                            [PP] 35%
+                        </label>
+                        <circle center="(0,0)" radius="1" stroke="black"/>
+                    </coordinates>
+                </diagram>
+            </prefigure>
+        </image>
+    </figure>
+
+    <p>
+        <dl>
+            <li>
+                <title>Preview Activities [PA] (5%)</title>
+
+                <p>
+                    There will typically be 2 preview activities per week.
+                    These will be graded solely based on effort and completion
+                    with with a ✓ or an ✗.
+                    Only a ✓ earns you credit toward your grade.
+                    Your overall Preview Activity grade will be based on the
+                    percentage of Activities you earn a ✓ on throughout the
+                    semester (e.g.
+                    earning a ✓ on 24 out of 26 Activities would result in a
+                    24/26 = 92.3% Preview Activity grade).
+                </p>
+            </li>
+
+            <li>
+                <title>Weekly Practice [WP] (10%)</title>
+
+                <p>
+                    The problems will count for 10% and will be graded based on
+                    effort and completion.
+                    Students will present these exercises in class and you may correct your work.
+                    You earn 1 point per exercise you make an honest effort on, and 1 point for attending
+                    class and correcting your work.
+                    Your overall Activity grade will be based on the percentage
+                    of problems you make an honest effort on (e.g.
+                    doing 54 out of 60 problems
+                    54/60 = 90% of the weekly practice grade that's 15% of your
+                    course grade).
+                    In addition, presentations will be graded solely based on
+                    effort and completion with with a ✓ or an ✗.
+                    Only a ✓ earns you credit toward your grade.
+                    Your overall presentation grade will be based on the
+                    following table (3✓ = 100%, 2✓=80%, 1✓=60%, 0✓=0%.
+                </p>
+            </li>
+
+            <li>
+                <title>Proof Portfolio [PP] (35%)</title>
+
+                <p>
+                    You will complete 10 problems/proofs for the portfolio. Each 
+                    problem is due in 3 consecutive weeks, because you will submit
+                    a handwritten rough draft, a typed revision, and a reflection/list of objectives
+                    for each problem in consecutive weeks.
+                    The second draft of a portfolio problem will be given a
+                    grade, but you may continue to revise this work and give
+                    yourself a higher grade (with justification) in the final
+                    portfolio.
+                    The final portfolio grade will be based on your proofs, a
+                    reflection, and how the portfolio met given objectives.
+                </p>
+            </li>
+
+            <li>
+                <title>Learning Target Quizzes [LT] (30%)</title>
+
+                <p>
+                    You will earn an <q>S</q> (Satisfactory) or an
+                    <q>NY</q> (Not Yet) on each target.
+                    Your overall Learning Target grade will be based on the
+                    percentage of Learning Targets you earn an “S” on throughout
+                    the semester (e.g.
+                    earning an S on 17 out of 20 Learning Targets would result
+                    in a 17/20=85% Learning Target grade).
+                </p>
+            </li>
+
+            <li>
+                <title>Review Assessments [RA] (20%)</title>
+
+                <p>
+                    There will be 2 review assessments this semester.
+                    You'll be given a preliminary percentage, and then have the
+                    opportunity to revise orally.
+                    You can earn all the points back during the oral revision,
+                    but the time will be limited.
+                </p>
+            </li>
+        </dl>
+        The following table allows you to convert your weighted percentage to a
+        letter grade.
+        Note the percentage you earned will not be rounded (e.g.
+        92.8% is an A-).
+    </p>
+
+    <tabular top="minor" bottom="minor" left="minor" right="minor">
+        <row header="yes">
+            <cell>A</cell>
+            <cell>A-</cell>
+            <cell>B+</cell>
+            <cell>B</cell>
+            <cell>B-</cell>
+            <cell>C+</cell>
+            <cell>C</cell>
+            <cell>C-</cell>
+            <cell>D+</cell>
+            <cell>D</cell>
+            <cell>F</cell>
+        </row>
+
+        <row>
+            <cell><m>\ge 93</m></cell>
+            <cell><m>\ge 90</m></cell>
+            <cell><m>\ge 87</m></cell>
+            <cell><m>\ge 83</m></cell>
+            <cell><m>\ge 80</m></cell>
+            <cell><m>\ge 77</m></cell>
+            <cell><m>\ge 73</m></cell>
+            <cell><m>\ge 70</m></cell>
+            <cell><m>\ge 67</m></cell>
+            <cell><m>\ge 63</m></cell>
+            <cell><m>\lt 63</m></cell>
+        </row>
+    </tabular>
+
+</section>

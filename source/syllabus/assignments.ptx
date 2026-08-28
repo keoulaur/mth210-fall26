@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <section xml:id="subsec-Weekly-Assignments">
+        <title>Weekly Assignments</title>
+
+        <table>
+            <title>A Typical Week</title>
+
+            <tabular>
+                <col width="50%"/>
+                <col width="50%"/>
+                <row bottom="major">
+                    <cell colspan="2"/>
+                </row>
+
+                <row>
+                    <cell colspan="2" halign="center">
+                        <p>
+                            <term>Monday/Tuesday Preview Activity </term> (due at start
+                            of class)
+                        </p>
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell colspan="2">
+                        <p>
+                            <em>Prime your brain for the first class of the week. Some reading and answering questions.</em>
+                        </p>
+                    </cell>
+                </row>
+
+                <row bottom="major">
+                    <cell>
+                        <p>
+                            Submit: Via Blackboard.
+                            I will check for questions Monday morning.
+                        </p>
+                    </cell>
+                    <cell>
+                        <p>
+                            Spend: ~30-60 minutes.
+                        </p>
+                    </cell>
+                </row>
+
+                <row>
+                    <cell colspan="2" halign="center">
+                        <p>
+                            <term> Monday/Tuesday Learning Target Quiz </term> (in
+                            class)
+                        </p>
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell colspan="2">
+                        <p>
+                            <em>Will assess your progress on learning targets. Will be done at the end of class. Study before class :)</em>
+                        </p>
+                    </cell>
+                </row>
+
+                <row bottom="major">
+                    <cell>
+                        <p>
+                            Submit: In class.
+                            (Study before!)
+                        </p>
+                    </cell>
+                    <cell>
+                        <p>
+                            Spend: ~30 minutes studying.
+                        </p>
+                    </cell>
+                </row>
+
+                <row>
+                    <cell colspan="2" halign="center">
+                        <p>
+                            <term> Wednesday/Thursday Preview Activity </term> (due at
+                            start of class)
+                        </p>
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell colspan="2">
+                        <p>
+                            <em>Prime your brain for Wednesday's class. Some reading and answering questions.</em>
+                        </p>
+                    </cell>
+                </row>
+
+                <row bottom="major">
+                    <cell>
+                        <p>
+                            Submit: Via Blackboard.
+                            I will check for questions Monday morning.
+                        </p>
+                    </cell>
+                    <cell>
+                        <p>
+                            Spend: ~30-60 minutes.
+                        </p>
+                    </cell>
+                </row>
+
+                <row>
+                    <cell colspan="2" halign="center">
+                        <p>
+                            <term> Wednesday Weekly Practice </term> (due at
+                            start of class)
+                        </p>
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell colspan="2">
+                        <p>
+                            <em>Will help you test yourself on the week's content. These will be presented by classmates and you have the opportunity to correct your work in a different color pen.</em>
+                        </p>
+                    </cell>
+                </row>
+
+                <row bottom="major">
+                    <cell>
+                        <p>
+                            Submit: Via Blackboard.
+                            I will check for questions Monday morning.
+                        </p>
+                    </cell>
+                    <cell>
+                        <p>
+                            Spend: ~1.5 hours over the week.
+                            Material based on the previous Monday/Wednesday.
+                        </p>
+                    </cell>
+                </row>
+
+                <row>
+                    <cell colspan="2" halign="center">
+                        <p>
+                            <term> Friday Proof Portfolio Drafts and Reflection </term>
+                            (by 5PM)
+                        </p>
+                    </cell>
+                </row>
+
+                <row bottom="minor">
+                    <cell colspan="2">
+                        <p>
+                            <em>Will help you practice your writing. This is the SWS part of the course. You'll draft and revise and learn to professionally communicate mathematics. You automatically get a 48 hour grace period on these (so turn in by Sunday at 5PM), but note that I don't check email after 5PM or on weekends.</em>
+                        </p>
+                    </cell>
+                </row>
+
+                <row bottom="major">
+                    <cell>
+                        <p>
+                            Submit: Via Blackboard.
+                        </p>
+                    </cell>
+                    <cell>
+                        <p>
+                            Spend: ~3-4 hours over the week.
+                        </p>
+                    </cell>
+                </row>
+            </tabular>
+        </table>
+
+        <paragraphs>
+            <title>Other Assignments</title>
+
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            <term>Presentations:</term> You are expected to
+                            present a weekly practice or in-class activity three
+                            times during the semester.
+                            If you are nervous about presenting, please talk to
+                            me - I'm happy to talk through your work before you
+                            present.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <term> Review Assessments: </term> There will be 2
+                            review assessments throughout the semester.
+                            This will allow you to put together all the things
+                            you've learned so far.
+                            There will be opportunities for oral revisions.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <term>Final Proof Portfolio:</term> As the
+                            culminating experience you'll submit a proof
+                            portfolio with final drafts, along with reflections,
+                            and hwo the work demonstrates the objectives.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </paragraphs>
+    </section>

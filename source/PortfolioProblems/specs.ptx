@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="pp-specs">
+  <title>Writing Conventions for MTH 210</title>
+
+  <introduction>
+	<p>These are writing conventions that we will learn and use in MTH 210. Every writing revision of a portfolio should follow all of these.</p>
+	
+	<p>Click or tap on each convention below to read more details and see an example.</p>
+  </introduction>
+  
+  <subsection xml:id="pp-specs-required">
+  <title>Required writing conventions</title>
+  
+  <introduction>
+  	<p>To earn <q>math &amp; writing successful</q> or better, a proof must do <em>all</em> of these:</p>
+  </introduction>
+	
+	<exercise xml:id="wc-statement"><title>Include a true and correctly worded theorem statement just before the proof</title>
+		<p>The theorem statement should be a simple declarative statement, like we've studied in class. Here is a typical textbook problem:</p>
+			<blockquote><p>Prove that if <m>n</m> is an integer and <m>n^2</m> is odd, then <m>n</m> is odd.</p></blockquote>
+		<p>To write a solution to this problem, first turn it into a theorem statement like the following:</p>
+			<blockquote><p><em>Theorem 1:</em> If <m>n</m> is an integer and <m>n^2</m> is an odd integer, then <m>n</m> is an odd integer.</p></blockquote>
+		<p>The statement must be true (so make sure you've tried examples!). It should be in the form of a conditional and/or quantified statement. Your statement must follow all other writing conventions. That includes defining any variables in the statement before you use them. For example, note how <m>n</m> is defined right away above.</p>
+		<p>After the theorem statement is written, skip a line and write <q><em>Proof</em></q> and begin the proof on that same line.</p>
+	</exercise>
+
+	<exercise xml:id="wc-assumptions"><title>At the very beginning of the proof, state all assumptions and explain what will be proved</title>
+		<p>Clearly state all assumptions and say what you will prove. This may feel like you’re repeating things you just wrote in the theorem statement. That's OK! A proof should be fully self-contained. Here's an example:</p>
+		<blockquote>
+		<p><em>Theorem 1:</em> If <m>n</m> is an integer and <m>n^2</m> is an odd integer, then <m>n</m> is an odd integer.</p>
+		<p><em>Proof.</em> We assume that <m>n</m> is an integer and <m>n^2</m> is an odd integer. We will prove that <m>n</m> is an odd integer.</p></blockquote>
+		<p>You should always check some examples to see if a theorem statement is true or not. If it is false, give a single clear counterexample (with explanation) and then follow any additional instructions on the portfolio sheet.</p>
+	</exercise>
+	
+	<exercise xml:id="wc-proof-method"><title>State the proof method being used and any additional information required to clarify it</title>
+		<p>Always state the proof method being used just after the assumptions, such as <q>We give a direct proof.</q></p>
+		<p>If using proof by contrapositive, contradiction, cases, or induction, clearly state the new assumptions or statement being used.</p>
+		<p>These other proof methods listed begin in Chapter 3. When using any of these proof methods, first tell the reader that you are using them and clearly state the assumptions or new theorem statement before you continue the proof:</p>
+		<blockquote>
+		<p><em>Theorem 1:</em> If <m>n</m> is an integer and <m>n^2</m> is an odd integer, then <m>n</m> is an odd integer.</p>
+		<p><em>Proof.</em> We will prove the contrapositive of this statement, which is <q>If <m>n</m> is even, then <m>n^2</m> is even.</q> So, we assume that <m>n</m> is an even integer. We will prove that <m>n^2</m> is an even integer as well.</p></blockquote>
+		<p>Here's another example:</p>
+		<blockquote>
+		<p><em>Theorem:</em> If <m>x^2=2</m> then <m>x</m> is an irrational number.</p>
+		<p><em>Proof:</em> We will prove this theorem by contradiction. So, we assume that the negation of the statement is true. That is, we assume that <m>x^2=2</m> and <m>x</m> is a rational number.</p>
+		</blockquote>
+	</exercise>
+	
+	<exercise xml:id="wc-justify"><title>Give clear, correct, and organized justification for each statement, and have no important errors or omissions</title>
+		<p>Directly explain why each statement is true. When in doubt, explain more!</p>
+		
+		<p>A proof is made of statements that build up on each other. Once you've justified one statement, it becomes a building block that can be used to justify future statements. So, the sentences in your proofs must be put in a logical order so that each statement follows from the work before it.
+Each statement's justification must be clear and unambiguous in addition to being mathematically correct. Don't worry about being too direct or repetitive; always say exactly how you know that a statement is true. Leave nothing to the reader's imagination! The words <q>because</q> and <q>by</q> are helpful to indicate justifications.</p>
+		<blockquote>
+			<p><em>Theorem:</em> If <m>n</m> is an even integer, then <m>n^2</m> is an even integer.</p>
+			<p><em>Proof:</em> We assume that <m>n</m> is an even integer. We will give a direct proof that <m>n^2</m> is an even integer.</p>
+			<p>Because <m>n</m> is even by assumption, by definition we can write <m>n = 2k</m> for some integer <m>k</m>.</p>
+			<p>Using algebra, we know that <m>n^2 = (2k)^2 = 4k^2 = 2(2k^2).</m></p>
+			<p>Because <m>k</m> is an integer, by the closure properties of integers, <m>2k^2</m> is also an integer...</p>
+		</blockquote>
+		<p>Each sentence in the example above contains a statement, and a justification. Make sure you can see where each one is. Sometimes justifications come before statements, other times they come after -- this is a matter of finding a way to make a sentence sound natural.</p>
+		
+		<p>You can also justify statements using outside facts that are prerequisites for this class. <q>Using algebra</q> above is an example of this. You can (and should!) leave out details below the level of this class (including excessive algebra or arithmetic).</p>
+	</exercise>
+
+	<exercise xml:id="wc-variables"><title>Define all variables and new notation before they are used</title>
+		<p>Before using any variable, you must explain what it is. <em>Never</em> use a variable without defining it first. Here are some examples:</p>
+		<blockquote><p>Let <m>b</m> be the base length of the triangle.</p>
+		<p>Let <m>x \in \mathbb{R}</m>.</p>
+		</blockquote>
+		<p>In particular, notice that each example tells you the meaning of the variable or the set it comes from (which is like a meaning). It is also OK to define the variable immediately after using it in the same sentence, as in:</p>
+		<blockquote><p>Because <m>n</m> is even, we know that <m>n = 2k</m> for some integer <m>k</m>.</p>
+		<p>Therefore, <m>n = 2k</m> for some <m>k \in \mathbb{Z}</m>.</p>
+		</blockquote>
+		<p>Using an undefined variable is a critical logical mistake!</p>
+		<p>Similarly, you must define any new notation that you create or use within your proof. For example, if using <m>L_{n}</m> to represent the Lucas Numbers (we'll see what these are later!), you would need to write <q>Let <m>L_{n}</m> represent the <m>n</m>th Lucas number</q> before using that symbol anywhere else.</p>
+		<p>You do <em>not</em> need to define standard symbols that we have already defined and used in class.</p>
+	</exercise>
+	
+	<exercise xml:id="wc-definitions"><title>Cite definitions clearly and correctly each time one is used</title>
+	<p>Every definition has two parts: A word (like <q>even</q>), and a meaning for that word. Using a definition involves connecting one of these two parts to the other, so that you can use the other part.</p>
+	<p>For example, if you know a number <m>n</m> is even, the definition lets you include the other half of the definition as a statement in your proof: <q>There exists an integer <m>k</m> so that <m>n = 2k</m>.</q> Definitions work both ways, so if you know that <m>n = 2k</m> where <m>k</m> is an integer, then the definition lets you state that <q><m>n</m> is even.</q></p>
+	<p>To cite a definition, you must include a <q>warrant</q> or reason for why you can use it in this situation. Then, write the conclusion that the definition lets you make. Use the definition's word where it best fits and use the phrase <q>by definition</q> to connect these items.</p>
+	<p>It can sometimes feel repetitive to cite a definition each time you use it. That's OK! It is better to be clear and thorough, than to leave some justification out.</p>
+	<p>Good examples:</p>
+	<blockquote>
+		<p>Because we are given that <m>n</m> is even, by definition there exists an integer <m>k</m> such that <m>n = 2k</m>. (Here the warrant is that we are given <m>n</m> is even. Then the conclusion comes after <q>by definition.</q>)</p>
+		<p>Because we have written <m>n = 2k</m> where <m>k</m> is an integer, by definition <m>n</m> is an even integer. (This time the warrant is that we've already written <m>n = 2k</m> for an integer <m>k</m>. The conclusion is that we can say <m>n</m> is called <q>even.</q>)</p>
+	</blockquote>
+	<p>Note: You <em>don't</em> need to repeat the name of the definition multiple times in the same sentence. Use the word once, as long as it is clear which word you are using. Here's a poor example: <q>Because we are given that <m>n</m> is even, by definition of even there exists an integer <m>k</m> such that <m>n = 2k</m>.</q> Note that <q>even</q> is repeated unnecessarily. This is still a correct statement, just not well-written.</p>
+	</exercise>
+	</subsection>
+	
+	<subsection xml:id="pp-specs-additional">
+	<title>Additional writing conventions</title>
+	
+	<introduction>
+		<p>Every proof must do <em>most</em> of these, where <q>most</q> allows occasional errors in up to 3 items, or consistent errors in 1 item.</p>
+		<p>One way to earn <q>excellent</q> is for a proof to do <em>all</em> of these thoroughly and with no noticeable omissions.</p>
+	</introduction>
+	
+	<exercise xml:id="wc-overleaf"><title>Be typed in a new Overleaf document</title>
+		<p>Use the provided Overleaf template and refer to the LaTeX reference document for help with symbols and formatting. These are available on Blackboard.</p>
+	</exercise>
+	
+	<exercise xml:id="wc-spelling"><title>Follow all basic WRT 150 writing requirements, including spelling, grammar, and punctuation, and avoiding shorthand</title>
+		<p>Specifically, use correct spelling, grammar, and punctuation. Ensure each sentence is complete and has a subject and a verb (which may include mathematical symbols).</p>
+		<p>In addition, start a new paragraph when a new idea begins. Proofs often have only 1 or 2 sentences per paragraph, and it's OK to start a new paragraph as soon as there's a new idea, even if it makes for a very short paragraph.</p>
+		<p>Finally, avoid <q>shorthand</q> words, abbreviations, or slang. For example, use <q>substitute</q> rather than <q>sub in</q> or <q>plug in</q>. These are both shorthands for the more precise idea of substitution.</p>
+	</exercise>
+	
+	<exercise xml:id="wc-we"><title>Use <q>we</q> instead of <q>I</q> or <q>you</q></title>
+		<p>The idea is to stress that you and the reader are doing the mathematics together. This really is standard in math, so it’s good practice with it now!</p>
+	</exercise>
+	
+	<exercise xml:id="wc-begin"><title>Begin every sentence with a word, not a symbol</title>
+		<p>This avoids problems with whether you should capitalize a variable or not. Symbols also make it harder to tell where a sentence begins.</p>
+		<blockquote>
+			<p>Good example: <q>Because <m>n = 2k</m>, by definition we know that <m>n</m> is even.</q></p>
+			<p>Bad example: <q><m>n = 2k</m>, so by definition we know that <m>n</m> is even.</q></p>
+		</blockquote>
+	</exercise>
+	
+	<exercise xml:id="wc-formula"><title>Include every equation or formula in a sentence, including correct punctuation</title>
+		<p>Every equation can be read in words, and so it must fit properly within a sentence. This includes putting a punctuation mark at the end of a sentence, even if the sentence ends with a formula. For example, notice the comma, colon, and period in this complete sentence:</p>
+		<blockquote>
+			<p>Using algebra, we have:</p>
+			<md>x^2 + 2x + 1 = 0.</md>
+		</blockquote>
+		<p>Read this out loud: It forms a complete sentence including a verb. Here's how I would read this: <q>Using algebra, we have: <m>x</m> squared plus <m>2x</m> plus 1 equals zero.</q> Notice in particular that there's a period at the end of the sentence, even though that end occurs with an equation.</p>
+	</exercise>
+	
+	<exercise xml:id="wc-display"><title>Display (center) important equations and align <q><m>=</m></q> signs</title>
+		<p>This means putting important equations, centered, on their own line. Only center important equations that are key to the proof or its conclusion. Minor or <q>helper</q> equations can be left inline. If the left side of the equation does not change, don’t repeat it. For example:</p>
+		<md>
+			<mrow>x \cdot y &amp;= (2m+1)(2n+1)</mrow>
+			<mrow>&amp; = 4mn + 2m + 2n + 1</mrow>
+			<mrow>&amp; = 2(2mn+m+n) + 1.</mrow>
+		</md>
+		You can find examples of how to do this in the sample Overleaf file.
+	</exercise>
+	
+	<exercise xml:id="wc-symbols"><title>Use appropriate symbols in formulas; avoid excessive symbols (or writing out formulas in words) otherwise</title>
+		<p>Do <em>not</em> try to write out formulas in words. But also, never use a symbol or abbreviation in place of a word (such as <m>\forall</m>, <m>\exists</m>, <m>=</m>, etc.</p>
+		
+		<blockquote>
+			<p>Good example: <q>Because there exists an integer <m>k</m> so that <m>n = 2k</m>...</q></p>
+			<p>Bad example (too many symbols): <q>Because <m>\exists k</m> s.t. <m>n = 2k</m>...</q></p>
+			<p>Bad example (too many words): <q>Because n equals two times k, ...</q></p>
+		</blockquote>
+	</exercise>
+	
+	<exercise xml:id="wc-numbering"><title>Use equation numbers sparingly and always refer to them in the text</title>
+		<p>If you don’t need to refer to an equation by number, leave out the number. You can see examples of both in the sample Overleaf file.</p>
+	</exercise>
+	
+	<exercise xml:id="wc-textbook-format"><title>Write exponents, fractions, operations, and all other mathematical symbols in professional textbook format</title>
+		<p><em>Never</em> use shorthand formatting. See examples in the sample Overleaf file. Here's a quick reference:</p>
+		<tabular>
+    <row header="yes" bottom="minor" >
+      <cell>Yes!</cell>
+      <cell>Nooooooooo!</cell>
+    </row>
+    <row>
+      <cell><m>x^2</m></cell>
+      <cell>x^2</cell>
+    </row>
+    <row>
+      <cell><m>\frac{x+1}{5}</m></cell>
+      <cell>(x+1)/5, or worse: x+1/5</cell>
+    </row>
+    <row>
+      <cell><m>\sqrt{7}</m></cell>
+      <cell>sqrt(7)</cell>
+    </row>
+    <row>
+      <cell><m>xy</m> or <m>x \cdot y</m></cell>
+      <cell>x*y</cell>
+    </row>
+  </tabular>
+  
+	</exercise>
+	
+	<exercise xml:id="wc-italics"><title>Write all variables in italics</title>
+		<p>This helps them stick out and distinguishes words like <q>a</q> from variables like <m>a</m>.</p>
+	</exercise>
+	
+	<exercise xml:id="wc-summary"><title>Include a summary at the end of the proof and an <q>end of proof</q> symbol</title>
+		<p>It’s considered good form to sum up the proof once you’ve finished the main writing, and to clearly show the reader where the proof ends. Briefly state what you actually proved, and put a box at the end of that line. This can be summarized or simplified compared to the original theorem statement, as long as it is still true.</p>
+	</exercise>
+	
+	</subsection>
+</section>
