@@ -1,12 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="notes-week-01">
+<handout xml:id="notes-week-01">
   <title>Week 1</title>
 
-  <!-- Can also be <handout> instead of
-  <subsection>
-    to get a printable version -->
- <p>
-  Coming Soon!
- </p>
-  </section> 
+ <activity>
+  
+
+  <title>Exercise 1.2</title>
+  
+  
+  <p>
+    Explain the error in the following <q>proof</q> that <m>2=1</m>.
+  </p>
+
+
+ </activity>
+
+   <proof>
+    <p>
+      Let <m>x=y</m>. Then,
+
+      <md>
+       <mrow> x^2\amp = xy </mrow>
+       <mrow>x^2-y^2 \amp = xy-y^2 </mrow>
+       <mrow>(x+y)(x-y) \amp = y(x-y)</mrow>
+       <mrow>x+y \amp = y</mrow>
+       <mrow>2y \amp = y</mrow>
+       <mrow>2 \amp = 1</mrow>
+      </md>
+      
+      
+    </p>
+  </proof>
+
+
+  <activity>
+    
+
+    <title>Exercise 1.2</title>
+    
+    
+    <p>
+      Suppose that m and n are positive, odd integers.
+Does there exists a perfect cover of the mn chessboard?
+If I remove 1 square from the mn chessboard, will it have a perfect cover?
+
+    </p>
+  </activity>
+</handout> 
