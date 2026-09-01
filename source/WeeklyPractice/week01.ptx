@@ -1,50 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <handout xml:id="notes-week-01">
-  <title>Week 1</title>
+    <title>Week 1</title>
 
- <activity>
-  
+    <introduction>
+        <p>
+            <term> From the syllabus: </term> The problems will count for 8% and
+            will be graded based on effort and completion.
+            Presentations will count as 2% of your grade.
+            Students will present these exercises in class and you may correct
+            your work.
+            You earn 1 point per exercise you make an honest effort on, and 1
+            point for attending class and correcting your work.
+            Your overall Activity grade will be based on the percentage of
+            problems you make an honest effort on (e.g.
+            doing 54 out of 60 problems 54/60 = 90% of the weekly practice
+            assignments) In addition, presentations will be graded solely based
+            on effort and completion.
+            Your overall presentation grade will be based on the following: 3 =
+            100%, 2=80%, 1=60%, 0=0%.
+        </p>
+    </introduction>
 
-  <title>Exercise 1.2</title>
-  
-  
-  <p>
-    Explain the error in the following <q>proof</q> that <m>2=1</m>.
-  </p>
+    <activity>
+        <title>Exercise 1.2</title>
 
+        <p>
+            Explain the error in the following <q>proof</q> that <m>2=1</m>.
+        </p>
+    </activity>
 
- </activity>
+    <proof workspace="1in">
+        <p>
+            Let <m>x=y</m>.
+            Then,
+            <md>
+                <mrow> x^2\amp = xy </mrow>
+                <mrow>x^2-y^2 \amp = xy-y^2 </mrow>
+                <mrow>(x+y)(x-y) \amp = y(x-y)</mrow>
+                <mrow>x+y \amp = y</mrow>
+                <mrow>2y \amp = y</mrow>
+                <mrow>2 \amp = 1</mrow>
+            </md>
+        </p>
+    </proof>
 
-   <proof>
-    <p>
-      Let <m>x=y</m>. Then,
+    <activity workspace="1in">
+        <title>Exercise 1.3</title>
 
-      <md>
-       <mrow> x^2\amp = xy </mrow>
-       <mrow>x^2-y^2 \amp = xy-y^2 </mrow>
-       <mrow>(x+y)(x-y) \amp = y(x-y)</mrow>
-       <mrow>x+y \amp = y</mrow>
-       <mrow>2y \amp = y</mrow>
-       <mrow>2 \amp = 1</mrow>
-      </md>
-      
-      
-    </p>
-  </proof>
+        <introduction>
+            <p>
+                Suppose that <m>m</m> and <m>n</m> are positive, odd integers.
+            </p>
+        </introduction>
 
+        <task>
+            <statement>
+                <p>
+                    Does there exists a perfect cover of the <m>m\times n</m>
+                    chessboard?
+                </p>
+            </statement>
+        </task>
 
-  <activity>
-    
+        <task>
+            <statement>
+                <p>
+                    If I remove 1 square from the <m>m\times n</m> chessboard,
+                    will it have a perfect cover?
+                </p>
+            </statement>
+        </task>
+    </activity>
 
-    <title>Exercise 1.2</title>
-    
-    
-    <p>
-      Suppose that m and n are positive, odd integers.
-Does there exists a perfect cover of the mn chessboard?
-If I remove 1 square from the mn chessboard, will it have a perfect cover?
+    <activity workspace="1in">
+        <title>Exercise 1.12</title>
 
-    </p>
-  </activity>
-</handout> 
+        <p>
+            Determine whether or not the pigeonhole principle guarantees that at
+            least two students at GVSU have the exact same 3-letter initials.
+            (Include first, middle and last name in the initials.
+            For instance, Natalie Laura Hobson = NLH.)
+        </p>
+    </activity>
+
+    <activity workspace="1in">
+        <title>Exercise 1.22</title>
+
+        <introduction>
+            <p>
+                The following conjectures are false.
+                Prove that they are false by finding a counterexample to each.
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    <term>Conjecture 1:</term> If <m>x</m> and <m>y</m> are real
+                    numbers, then <m>|x+y| = |x|+|y|</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    <term>Conjecture 2:</term> If <m>x</m> is a real number,
+                    then <m>x^2 \lt x^4</m>
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    <term>Conjecture 3:</term> Suppose <m>x</m> and <m>y</m> are
+                    real numbers.
+                    If <m>|x+y|=|x-y</m> | then <m>y=0.</m>
+                </p>
+            </statement>
+        </task>
+    </activity>
+</handout>

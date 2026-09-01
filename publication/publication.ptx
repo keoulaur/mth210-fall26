@@ -12,7 +12,7 @@
 <publication>
   <common>
     <!-- Level at which are html files generated (chapter/section/etc): -->
-      <chunking level="2" />
+      <chunking level="3" />
 
     <!-- Depth for table of contents.  0 means no TOC -->
       <!--<tableofcontents level="2" />-->
@@ -67,7 +67,7 @@
     <!-- numbering should appear.                                     -->
     <!-- For use with a book organized by part, you can set the -->
      <!-- @part-structure to "decorative" or "structural" -->
-      <divisions level="2" part-structure="structural"/>
+      <divisions level="3" part-structure="structural"/>
 
     <!-- The next elements say how the levels deep to break up the    -->
     <!-- numbering of the respective elements. Can't be more than the -->
@@ -110,7 +110,7 @@
   </latex>
 
   <!-- The embed-button makes it easy to copy the code for an iframe into your LMS -->
-  <!-- <html embed-button="yes"> -->
+  <html embed-button="yes"/>
 
     <!-- A possible attribute for the html tag above is @short-answer-responses, with values either "always" or "graded".  As in: -->
     <!--<html short-answer-responses="always">-->
