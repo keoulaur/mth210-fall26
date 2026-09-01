@@ -9,7 +9,7 @@
 <!--******************************************-->
 <!--*  Authored with PreTeXt                 *-->
 <!--*  pretextbook.org                       *-->
-<!--*  Theme: denver                         *-->
+<!--*  Theme: default-modern                 *-->
 <!--*  Palette:                              *-->
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
@@ -19,6 +19,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 <link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<style>
+@counter-style ptx-marker-0 { system: extends lower-alpha; prefix: '('; suffix: ') '; }
+</style>
 <script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
 startMathJax({
 hasWebworkReps: false,
@@ -36,7 +39,7 @@ lang: "en-US",
 <meta name="twitter:description" content="MTH 210 Fall 2026">
 <meta property="og:description" content="MTH 210 Fall 2026">
 <meta name="twitter:card" content="summary">
-<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.49"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.49"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.50"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.50"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -58,14 +61,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.2.9';
+eBookConfig.runestone_version = '8.2.10';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.5ef53875c58b216b.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.c5ba0ffa5f963084.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<script src="_static/prefix-runtime.e3f9706509fcf6f7.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.c5ba0ffa5f963084.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.efe427683fc41f98.css">
 <script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -132,8 +135,51 @@ eBookConfig.enable_chatcodes =  false;
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth3 parts focused" data-preexpanded-levels="0" data-max-levels="3"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="root-1-2-4.html" class="internal"><span class="codenumber">I</span> <span class="title">Course and Assignment Information</span></a></div>
+<ul id="ptx-toc-group-root-1-2-4" class="structural toc-item-list">
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="course-documents.html" class="internal"><span class="codenumber">1</span> <span class="title">Getting Started</span></a></div>
+<ul id="ptx-toc-group-course-documents" class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="syllabus.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Syllabus Sections 02 (TR) and 03 (MW)</span></a></div>
+<ul id="ptx-toc-group-syllabus" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#sec-course-info" class="internal"><span class="title">Course Information</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#subsec-SupplementalWritingSkills" class="internal"><span class="title">Supplemental Writing Skills</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#subsec-SOR" class="internal"><span class="title">Course Objectives (Syllabus of Record)</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="subsec-Weekly-Assignments.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Weekly Assignments</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="subsec-schedule.html" class="internal"><span class="codenumber">1.3</span> <span class="title">(Tentative) Course Schedule</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Grades.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Grades</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-AcademicHonesty.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Academic Honesty Policies</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="targets.html" class="internal"><span class="codenumber">2</span> <span class="title">Learning Targets</span></a></div>
+<ul id="ptx-toc-group-targets" class="structural toc-item-list">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="targets-2.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Learning Target 1 Practice</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="targets-3.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Learning Target 2 Practice</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="targets-4.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Learning Target 3 Practice</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="targets-5.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Learning Target 4 Practice</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="targets-6.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Learning Target 5 Practice</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="weekly-practice.html" class="internal"><span class="codenumber">3</span> <span class="title">Weekly Practice</span></a></div>
+<ul id="ptx-toc-group-weekly-practice" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="weekly-practice-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-01.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Week 1</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="WP-02.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Week 2</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-part contains-active">
+<div class="toc-title-box"><a href="part-.html" class="internal"><span class="codenumber">II</span> <span class="title">Handouts</span></a></div>
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-part-">
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-1-intuitiveproofs.html" class="internal"><span class="codenumber">1</span> <span class="title">Intuitive Proofs</span></a></div>
 <ul id="ptx-toc-group-ch-1-intuitiveproofs" class="structural toc-item-list">
@@ -214,49 +260,6 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-relations-4.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Equivalence Classes</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="course-documents.html" class="internal"><span class="codenumber">10</span> <span class="title">Course Documents</span></a></div>
-<ul id="ptx-toc-group-course-documents" class="structural toc-item-list"><li class="toc-item toc-section">
-<div class="toc-title-box"><a href="syllabus.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Syllabus</span></a></div>
-<ul id="ptx-toc-group-syllabus" class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#sec-course-info" class="internal"><span class="title">Course Information</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#subsec-Weekly-Assignments" class="internal"><span class="title">Assignments</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#subsec-schedule" class="internal"><span class="title">(Tentative) Course Schedule</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#sec-assessments" class="internal"><span class="title">Assessments and Grades</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#subsec-ohter" class="internal"><span class="title"></span></a></div></li>
-</ul>
-</li></ul>
-</li>
-<li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="targets.html" class="internal"><span class="codenumber">11</span> <span class="title">Learning Targets</span></a></div>
-<ul id="ptx-toc-group-targets" class="structural toc-item-list">
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="targets-2.html" class="internal"><span class="codenumber">11.1</span> <span class="title">Learning Target 1 Practice</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="targets-3.html" class="internal"><span class="codenumber">11.2</span> <span class="title">Learning Target 2 Practice</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="targets-4.html" class="internal"><span class="codenumber">11.3</span> <span class="title">Learning Target 3 Practice</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="targets-5.html" class="internal"><span class="codenumber">11.4</span> <span class="title">Learning Target 4 Practice</span></a></div></li>
-<li class="toc-item toc-handout"><div class="toc-title-box"><a href="targets-6.html" class="internal"><span class="codenumber">11.5</span> <span class="title">Learning Target 5 Practice</span></a></div></li>
-</ul>
-</li>
-<li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="weekly-practice.html" class="internal"><span class="codenumber">12</span> <span class="title">Weekly Practice</span></a></div>
-<ul id="ptx-toc-group-weekly-practice" class="structural toc-item-list">
-<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="weekly-practice-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="notes-week-01.html" class="internal"><span class="codenumber">12.1</span> <span class="title">Week 1</span></a></div>
-<ul id="ptx-toc-group-notes-week-01" class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-01.html#notes-week-01-3" class="internal"><span class="title">Monday 8/22</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-01.html#notes-week-01-4" class="internal"><span class="title">Wednesday 8/24</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-01.html#notes-week-01-5" class="internal"><span class="title">Friday 8/26</span></a></div></li>
-</ul>
-</li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="notes-week-02.html" class="internal"><span class="codenumber">12.2</span> <span class="title">Week 2</span></a></div>
-<ul id="ptx-toc-group-notes-week-02" class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-02.html#notes-week-02-2" class="internal"><span class="title">Monday</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-02.html#notes-week-02-3" class="internal"><span class="title">Wednesday</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-02.html#notes-week-02-4" class="internal"><span class="title">Friday</span></a></div></li>
-</ul>
-</li>
 </ul>
 </li>
 </ul></nav></div>
@@ -299,7 +302,7 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-contrapositive-2-2-2">We proved this using truth tables in <a href="ch-logic-4.html#act-converse-contrapositive" class="xref" data-knowl="./knowl/xref/act-converse-contrapositive.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 5.3.1">Activity 5.3.1</a> and in the preview activity for today. This also makes intuitive sense, considering the examples in page 262 of your textbook. We also see it in the applied version of the Wason Selection Test (recall <a href="ch-1-intuitiveproofs-4.html#act-01-3-wason" class="xref" data-knowl="./knowl/xref/act-01-3-wason.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 1.3.4: The Wason Selection Test">Activity 1.3.4</a> ): If we’re following the US law and say<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-contrapositive-2-2-2">We proved this using truth tables in <a href="ch-logic-4.html#act-converse-contrapositive" class="xref" data-knowl="./knowl/xref/act-converse-contrapositive.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 5.7">Activity 5.7</a> and in the preview activity for today. This also makes intuitive sense, considering the examples in page 262 of your textbook. We also see it in the applied version of the Wason Selection Test (recall <a href="ch-1-intuitiveproofs-4.html#act-01-3-wason" class="xref" data-knowl="./knowl/xref/act-01-3-wason.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 1.12: The Wason Selection Test">Activity 1.12</a> ): If we’re following the US law and say<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <blockquote class="blockquote" id="ch-contrapositive-2-2-3">
 <div class="para" id="ch-contrapositive-2-2-3-1">if one is consuming an alcoholic beverage then one is at least age 21<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -316,14 +319,14 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="ch-contrapositive-2-2-6">If we label the first statement as <span class="process-math">\(P\implies Q\text{,}\)</span> then the second statement is <span class="process-math">\(\sim Q\implies \sim P\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <article class="definition definition-like" id="def-"><h2 class="heading">
-<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.1.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h2>
 <div class="para" id="def--1-1">In “<dfn class="terminology">proof by contrapositive</dfn>” we will use that a statement and its contrapositive are logically equivalent to our advantage. Instead of proving the original statement, we do a direct proof of the contrapositive. Note that proof by contrapositive is really just another type of direct proof.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def--1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Definition 6.1.1"><a tabindex="-1" href="#def-" title="Copy heading and permalink for Definition 6.1.1" aria-label="Copy heading and permalink for Definition 6.1.1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 6.1"><a tabindex="-1" href="#def-" title="Copy heading and permalink for Definition 6.1" aria-label="Copy heading and permalink for Definition 6.1">🔗</a></div>
 </article>
 <details id="ch-contrapositive-2-2-8" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h2 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.1.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h2></summary>
 <article class="example example-like knowl__content">
 <div class="para" id="ch-contrapositive-2-2-8-1">Suppose we want to do proof by contrapositive of the statement<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-2-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -357,7 +360,7 @@ eBookConfig.enable_chatcodes =  false;
 </ul>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-2-8-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Example 6.1.2"><a tabindex="-1" href="#ch-contrapositive-2-2-8" title="Copy heading and permalink for Example 6.1.2" aria-label="Copy heading and permalink for Example 6.1.2">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 6.2"><a tabindex="-1" href="#ch-contrapositive-2-2-8" title="Copy heading and permalink for Example 6.2" aria-label="Copy heading and permalink for Example 6.2">🔗</a></div>
 </article></details></section><section class="onepage" id="ch-contrapositive-2-3">
 <section class="paragraphs" id="ch-contrapositive-2-3-1"><h2 class="heading"><span class="title">Proof Writing.</span></h2>
 <div class="para" id="ch-contrapositive-2-3-1-2">Here’s a proof by contrapositive of the statement in the example. Underline the parts that would be included in all proofs by contrapositive.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-3-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -365,11 +368,11 @@ eBookConfig.enable_chatcodes =  false;
 <div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Proof Writing"><a tabindex="-1" href="#ch-contrapositive-2-3-1" title="Copy heading and permalink for Paragraphs: Proof Writing" aria-label="Copy heading and permalink for Paragraphs: Proof Writing">🔗</a></div>
 </section>
 <article class="theorem theorem-like" id="ch-contrapositive-2-3-2"><h2 class="heading">
-<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.1.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h2>
 <div class="para" id="ch-contrapositive-2-3-2-1-1">For all <span class="process-math">\(n\in\mathbb{N}\text{,}\)</span> if <span class="process-math">\(n^2\)</span> is odd, then <span class="process-math">\(n\)</span> is odd.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Theorem 6.1.3"><a tabindex="-1" href="#ch-contrapositive-2-3-2" title="Copy heading and permalink for Theorem 6.1.3" aria-label="Copy heading and permalink for Theorem 6.1.3">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 6.3"><a tabindex="-1" href="#ch-contrapositive-2-3-2" title="Copy heading and permalink for Theorem 6.3" aria-label="Copy heading and permalink for Theorem 6.3">🔗</a></div>
 </article>
 <details id="ch-contrapositive-2-3-3" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h2 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2></summary>
 <article class="hiddenproof knowl__content">
@@ -378,16 +381,16 @@ eBookConfig.enable_chatcodes =  false;
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/ch06-eqn-n2even.html" id="ch06-eqn-n2even">
 \begin{equation}
 n^{2} = (2m)^{2} = 4m^{2} =
-2(2m^{2}).\tag{6.1.1}
+2(2m^{2}).\tag{6.1}
 \end{equation}
 </div>
-<div class="para">We know that <span class="process-math">\(m\)</span> and <span class="process-math">\(2\)</span> are integers, and the integers are closed under and multiplication. Thus <span class="process-math">\(p = 2m^{2}\)</span> is also an integer. Thus equation <a href="ch-contrapositive-2.html#ch06-eqn-n2even" class="xref" data-knowl="./knowl/xref/ch06-eqn-n2even.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 6.1.1">(6.1.1)</a> shows that <span class="process-math">\(n^{2}\)</span> can be written in the form <span class="process-math">\(2p\)</span> where <span class="process-math">\(p\)</span> is an integer. By definition of even, this shows that <span class="process-math">\(n^{2}\)</span> is even. This completes the proof of the contrapositive, showing that if <span class="process-math">\(n^{2}\)</span> is odd, then <span class="process-math">\(n\)</span> is odd.</div>
+<div class="para">We know that <span class="process-math">\(m\)</span> and <span class="process-math">\(2\)</span> are integers, and the integers are closed under and multiplication. Thus <span class="process-math">\(p = 2m^{2}\)</span> is also an integer. Thus equation <a href="ch-contrapositive-2.html#ch06-eqn-n2even" class="xref" data-knowl="./knowl/xref/ch06-eqn-n2even.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 6.1">(6.1)</a> shows that <span class="process-math">\(n^{2}\)</span> can be written in the form <span class="process-math">\(2p\)</span> where <span class="process-math">\(p\)</span> is an integer. By definition of even, this shows that <span class="process-math">\(n^{2}\)</span> is even. This completes the proof of the contrapositive, showing that if <span class="process-math">\(n^{2}\)</span> is odd, then <span class="process-math">\(n\)</span> is odd.</div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Proof 1"><a tabindex="-1" href="#ch-contrapositive-2-3-3" title="Copy heading and permalink for Proof 1" aria-label="Copy heading and permalink for Proof 1">🔗</a></div>
 </article></details></section><section class="onepage" id="ch-contrapositive-2-4">
 <article class="activity project-like" id="act-06-contraeasier"><h2 class="heading">
-<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.1.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h2>
 <div class="introduction" id="act-06-contraeasier-1">
 <div class="para" id="act-06-contraeasier-1-1">For each of the following statements, find the contrapositive (turning the statement into an “if-then” conditional statement if needed). Then decide which one seems easier to prove - the statement or its contrapositive, and briefly explain why.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#act-06-contraeasier-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -416,7 +419,7 @@ n^{2} = (2m)^{2} = 4m^{2} =
 </div>
 </div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 6.1.4.a"><a tabindex="-1" href="#act-06-contraeasier-2" title="Copy heading and permalink for Task 6.1.4.a" aria-label="Copy heading and permalink for Task 6.1.4.a">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.4.a"><a tabindex="-1" href="#act-06-contraeasier-2" title="Copy heading and permalink for Task 6.4.a" aria-label="Copy heading and permalink for Task 6.4.a">🔗</a></div>
 </article>
 <article class="task exercise-like" id="act-06-contraeasier-3"><h3 class="heading"><span class="codenumber">(b)</span></h3>
 <div class="para" id="act-06-contraeasier-3-1-1">For all integers <span class="process-math">\(n\)</span> and <span class="process-math">\(m\text{,}\)</span> if <span class="process-math">\(nm\)</span> is even, then <span class="process-math">\(n\)</span> is even or <span class="process-math">\(m\)</span> is even.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#act-06-contraeasier-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -441,7 +444,7 @@ n^{2} = (2m)^{2} = 4m^{2} =
 </div>
 </div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 6.1.4.b"><a tabindex="-1" href="#act-06-contraeasier-3" title="Copy heading and permalink for Task 6.1.4.b" aria-label="Copy heading and permalink for Task 6.1.4.b">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.4.b"><a tabindex="-1" href="#act-06-contraeasier-3" title="Copy heading and permalink for Task 6.4.b" aria-label="Copy heading and permalink for Task 6.4.b">🔗</a></div>
 </article>
 <article class="task exercise-like" id="act-06-contraeasier-4"><h3 class="heading"><span class="codenumber">(c)</span></h3>
 <div class="para" id="act-06-contraeasier-4-1-1">Let <span class="process-math">\(a,b\in\mathbb{Z}\text{,}\)</span> and let <span class="process-math">\(p\)</span> be a prime. If <span class="process-math">\(p\nmid ab\)</span> then <span class="process-math">\(p\nmid a\)</span> and <span class="process-math">\(p\nmid b\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#act-06-contraeasier-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -466,7 +469,7 @@ n^{2} = (2m)^{2} = 4m^{2} =
 </div>
 </div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 6.1.4.c"><a tabindex="-1" href="#act-06-contraeasier-4" title="Copy heading and permalink for Task 6.1.4.c" aria-label="Copy heading and permalink for Task 6.1.4.c">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.4.c"><a tabindex="-1" href="#act-06-contraeasier-4" title="Copy heading and permalink for Task 6.4.c" aria-label="Copy heading and permalink for Task 6.4.c">🔗</a></div>
 </article>
 <article class="task exercise-like" id="act-06-contraeasier-5"><h3 class="heading"><span class="codenumber">(d)</span></h3>
 <div class="para" id="act-06-contraeasier-5-1-1">For all integers <span class="process-math">\(n\text{,}\)</span> if <span class="process-math">\(n^2\)</span> is even if and only if <span class="process-math">\(n\)</span> is even. (Note there are 2 conditional statements here, write out both conditional statements and their contrapositives.)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#act-06-contraeasier-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -511,14 +514,14 @@ n^{2} = (2m)^{2} = 4m^{2} =
 </div>
 </div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 6.1.4.d"><a tabindex="-1" href="#act-06-contraeasier-5" title="Copy heading and permalink for Task 6.1.4.d" aria-label="Copy heading and permalink for Task 6.1.4.d">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Activity 6.1.4"><a tabindex="-1" href="#act-06-contraeasier" title="Copy heading and permalink for Activity 6.1.4" aria-label="Copy heading and permalink for Activity 6.1.4">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.4.d"><a tabindex="-1" href="#act-06-contraeasier-5" title="Copy heading and permalink for Task 6.4.d" aria-label="Copy heading and permalink for Task 6.4.d">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Activity 6.4"><a tabindex="-1" href="#act-06-contraeasier" title="Copy heading and permalink for Activity 6.4" aria-label="Copy heading and permalink for Activity 6.4">🔗</a></div>
 </article></section><section class="onepage" id="ch-contrapositive-2-5">
 <article class="activity project-like" id="ch-contrapositive-2-5-1"><h2 class="heading">
-<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.1.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h2>
 <div class="introduction" id="ch-contrapositive-2-5-1-1">
-<div class="para" id="ch-contrapositive-2-5-1-1-1">Same instructions as <a href="ch-contrapositive-2.html#act-06-contraeasier" class="xref" data-knowl="./knowl/xref/act-06-contraeasier.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 6.1.4">Activity 6.1.4</a><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-5-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-contrapositive-2-5-1-1-1">Same instructions as <a href="ch-contrapositive-2.html#act-06-contraeasier" class="xref" data-knowl="./knowl/xref/act-06-contraeasier.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 6.4">Activity 6.4</a><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-5-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
 <article class="task exercise-like" id="ch-contrapositive-2-5-1-2"><h3 class="heading"><span class="codenumber">(a)</span></h3>
@@ -544,7 +547,7 @@ n^{2} = (2m)^{2} = 4m^{2} =
 </div>
 </div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 6.1.5.a"><a tabindex="-1" href="#ch-contrapositive-2-5-1-2" title="Copy heading and permalink for Task 6.1.5.a" aria-label="Copy heading and permalink for Task 6.1.5.a">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.5.a"><a tabindex="-1" href="#ch-contrapositive-2-5-1-2" title="Copy heading and permalink for Task 6.5.a" aria-label="Copy heading and permalink for Task 6.5.a">🔗</a></div>
 </article>
 <article class="task exercise-like" id="ch-contrapositive-2-5-1-3"><h3 class="heading"><span class="codenumber">(b)</span></h3>
 <div class="para" id="ch-contrapositive-2-5-1-3-1-1">For all <span class="process-math">\(n\in\mathbb{Z}\text{,}\)</span> if <span class="process-math">\(n^2-4n+7\)</span> is even, then <span class="process-math">\(n\)</span> is odd.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-5-1-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -569,7 +572,7 @@ n^{2} = (2m)^{2} = 4m^{2} =
 </div>
 </div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 6.1.5.b"><a tabindex="-1" href="#ch-contrapositive-2-5-1-3" title="Copy heading and permalink for Task 6.1.5.b" aria-label="Copy heading and permalink for Task 6.1.5.b">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.5.b"><a tabindex="-1" href="#ch-contrapositive-2-5-1-3" title="Copy heading and permalink for Task 6.5.b" aria-label="Copy heading and permalink for Task 6.5.b">🔗</a></div>
 </article>
 <article class="task exercise-like" id="ch-contrapositive-2-5-1-4"><h3 class="heading"><span class="codenumber">(c)</span></h3>
 <div class="para" id="ch-contrapositive-2-5-1-4-1-1">No prime number greater than <span class="process-math">\(3\)</span> is followed by a perfect square. (Rewrite as a conditional statement first!)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-5-1-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -594,38 +597,38 @@ n^{2} = (2m)^{2} = 4m^{2} =
 </div>
 </div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 6.1.5.c"><a tabindex="-1" href="#ch-contrapositive-2-5-1-4" title="Copy heading and permalink for Task 6.1.5.c" aria-label="Copy heading and permalink for Task 6.1.5.c">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Activity 6.1.5"><a tabindex="-1" href="#ch-contrapositive-2-5-1" title="Copy heading and permalink for Activity 6.1.5" aria-label="Copy heading and permalink for Activity 6.1.5">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.5.c"><a tabindex="-1" href="#ch-contrapositive-2-5-1-4" title="Copy heading and permalink for Task 6.5.c" aria-label="Copy heading and permalink for Task 6.5.c">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Activity 6.5"><a tabindex="-1" href="#ch-contrapositive-2-5-1" title="Copy heading and permalink for Activity 6.5" aria-label="Copy heading and permalink for Activity 6.5">🔗</a></div>
 </article></section><section class="onepage" id="ch-contrapositive-2-6">
 <article class="theorem theorem-like" id="thm-evenbicond"><h2 class="heading">
-<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.1.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h2>
 <div class="para" id="thm-evenbicond-1-1">For all integers <span class="process-math">\(n\text{,}\)</span> <span class="process-math">\(n^2-4n+7\)</span> is odd if and only if <span class="process-math">\(n\)</span> is even.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm-evenbicond-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Theorem 6.1.6"><a tabindex="-1" href="#thm-evenbicond" title="Copy heading and permalink for Theorem 6.1.6" aria-label="Copy heading and permalink for Theorem 6.1.6">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 6.6"><a tabindex="-1" href="#thm-evenbicond" title="Copy heading and permalink for Theorem 6.6" aria-label="Copy heading and permalink for Theorem 6.6">🔗</a></div>
 </article>
 <article class="activity project-like" id="ch-contrapositive-2-6-2"><h2 class="heading">
-<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.1.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h2>
-<div class="para" id="ch-contrapositive-2-6-2-1-1">Prove <a href="ch-contrapositive-2.html#thm-evenbicond" class="xref" data-knowl="./knowl/xref/thm-evenbicond.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 6.1.6">Theorem 6.1.6</a>. Notice the theorem is <em class="emphasis">biconditional</em>. This means you need to prove 2 conditional statements!<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-6-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-contrapositive-2-6-2-1-1">Prove <a href="ch-contrapositive-2.html#thm-evenbicond" class="xref" data-knowl="./knowl/xref/thm-evenbicond.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 6.6">Theorem 6.6</a>. Notice the theorem is <em class="emphasis">biconditional</em>. This means you need to prove 2 conditional statements!<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-6-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="workspace" data-space="1in"></div>
-<div class="autopermalink" aria-hidden="true" data-description="Activity 6.1.7"><a tabindex="-1" href="#ch-contrapositive-2-6-2" title="Copy heading and permalink for Activity 6.1.7" aria-label="Copy heading and permalink for Activity 6.1.7">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Activity 6.7"><a tabindex="-1" href="#ch-contrapositive-2-6-2" title="Copy heading and permalink for Activity 6.7" aria-label="Copy heading and permalink for Activity 6.7">🔗</a></div>
 </article></section><section class="onepage" id="ch-contrapositive-2-7">
 <article class="theorem theorem-like" id="thm-3dividesbicond"><h2 class="heading">
-<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.1.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h2>
 <div class="para" id="thm-3dividesbicond-1-1">For all integers <span class="process-math">\(m\)</span> and <span class="process-math">\(n\text{,}\)</span> <span class="process-math">\(3\mid mn\)</span> if and only if <span class="process-math">\(3\mid m\)</span> or <span class="process-math">\(3\mid n\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm-3dividesbicond-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Theorem 6.1.8"><a tabindex="-1" href="#thm-3dividesbicond" title="Copy heading and permalink for Theorem 6.1.8" aria-label="Copy heading and permalink for Theorem 6.1.8">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 6.8"><a tabindex="-1" href="#thm-3dividesbicond" title="Copy heading and permalink for Theorem 6.8" aria-label="Copy heading and permalink for Theorem 6.8">🔗</a></div>
 </article>
 <article class="activity project-like" id="ch-contrapositive-2-7-2"><h2 class="heading">
-<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.1.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h2>
-<div class="para" id="ch-contrapositive-2-7-2-1-1">Prove <a href="ch-contrapositive-2.html#thm-3dividesbicond" class="xref" data-knowl="./knowl/xref/thm-3dividesbicond.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 6.1.8">Theorem 6.1.8</a>. Note it is again biconditional!<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-7-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-contrapositive-2-7-2-1-1">Prove <a href="ch-contrapositive-2.html#thm-3dividesbicond" class="xref" data-knowl="./knowl/xref/thm-3dividesbicond.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 6.8">Theorem 6.8</a>. Note it is again biconditional!<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-7-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="workspace" data-space="1in"></div>
-<div class="autopermalink" aria-hidden="true" data-description="Activity 6.1.9"><a tabindex="-1" href="#ch-contrapositive-2-7-2" title="Copy heading and permalink for Activity 6.1.9" aria-label="Copy heading and permalink for Activity 6.1.9">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Activity 6.9"><a tabindex="-1" href="#ch-contrapositive-2-7-2" title="Copy heading and permalink for Activity 6.9" aria-label="Copy heading and permalink for Activity 6.9">🔗</a></div>
 </article></section><section class="onepage" id="ch-contrapositive-2-8">
 <section class="paragraphs" id="ch-contrapositive-2-8-1"><h2 class="heading"><span class="title">Proof Evaluation.</span></h2>
 <div class="para" id="ch-contrapositive-2-8-1-2">Evaluating reasoning is an important skill!<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-8-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -633,14 +636,14 @@ n^{2} = (2m)^{2} = 4m^{2} =
 <div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Proof Evaluation"><a tabindex="-1" href="#ch-contrapositive-2-8-1" title="Copy heading and permalink for Paragraphs: Proof Evaluation" aria-label="Copy heading and permalink for Paragraphs: Proof Evaluation">🔗</a></div>
 </section>
 <article class="activity project-like" id="ch-contrapositive-2-8-2"><h2 class="heading">
-<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.1.10</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.10</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h2>
 <div class="para" id="ch-contrapositive-2-8-2-1-1">Evaluate the following proof. Is it correct? Should more be explained? Does it meet our writing guidelines?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-8-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
 <figure class="figure figure-like" id="fig-contrapositiveisforcowards"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/images/ContrapositiveForCowards.PNG" class="contained" alt="A proof, of unknown origin, that if a square integer is even, then the original integer is even."></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.1.11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A proof, of unknown origin, that for all integers <span class="process-math">\(n\)</span> if <span class="process-math">\(n^2\)</span> is even then <span class="process-math">\(n\)</span> is even.<div class="autopermalink" aria-hidden="true" data-description="Figure 6.1.11"><a tabindex="-1" href="#fig-contrapositiveisforcowards" title="Copy heading and permalink for Figure 6.1.11" aria-label="Copy heading and permalink for Figure 6.1.11">🔗</a></div></figcaption>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A proof, of unknown origin, that for all integers <span class="process-math">\(n\)</span> if <span class="process-math">\(n^2\)</span> is even then <span class="process-math">\(n\)</span> is even.<div class="autopermalink" aria-hidden="true" data-description="Figure 6.11"><a tabindex="-1" href="#fig-contrapositiveisforcowards" title="Copy heading and permalink for Figure 6.11" aria-label="Copy heading and permalink for Figure 6.11">🔗</a></div></figcaption>
 </figure><div class="workspace" data-space="1in"></div>
-<div class="autopermalink" aria-hidden="true" data-description="Activity 6.1.10"><a tabindex="-1" href="#ch-contrapositive-2-8-2" title="Copy heading and permalink for Activity 6.1.10" aria-label="Copy heading and permalink for Activity 6.1.10">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Activity 6.10"><a tabindex="-1" href="#ch-contrapositive-2-8-2" title="Copy heading and permalink for Activity 6.10" aria-label="Copy heading and permalink for Activity 6.10">🔗</a></div>
 </article></section><section class="onepage" id="ch-contrapositive-2-9">
 <section class="paragraphs" id="ch-contrapositive-2-9-1"><h2 class="heading"><span class="title">Counterexamples.</span></h2>
 <div class="para" id="ch-contrapositive-2-9-1-2">This chapter returns to counterexamples, which we’ve done a bunch of (and is a learning target). Here’s an important connection to the chapter on logic - when you are disproving a statement, you are proving its negation. So if you have a statement that has a “for all” (or an implied for all), the negation has a “there exists”, and so one can just use an example to prove it.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-9-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -648,7 +651,7 @@ n^{2} = (2m)^{2} = 4m^{2} =
 <div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Counterexamples"><a tabindex="-1" href="#ch-contrapositive-2-9-1" title="Copy heading and permalink for Paragraphs: Counterexamples" aria-label="Copy heading and permalink for Paragraphs: Counterexamples">🔗</a></div>
 </section>
 <article class="remark remark-like" id="ch-contrapositive-2-9-2"><h2 class="heading">
-<span class="type">Remark</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.1.12</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<span class="type">Remark</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.12</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h2>
 <div class="para" id="ch-contrapositive-2-9-2-1">Here are two things that sometimes happen in math:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-9-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
@@ -705,7 +708,7 @@ n^{2} = (2m)^{2} = 4m^{2} =
 </ul>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ch-contrapositive-2-9-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Remark 6.1.12"><a tabindex="-1" href="#ch-contrapositive-2-9-2" title="Copy heading and permalink for Remark 6.1.12" aria-label="Copy heading and permalink for Remark 6.1.12">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Remark 6.12"><a tabindex="-1" href="#ch-contrapositive-2-9-2" title="Copy heading and permalink for Remark 6.12" aria-label="Copy heading and permalink for Remark 6.12">🔗</a></div>
 </article></section><div class="autopermalink" aria-hidden="true" data-description="Handout 6.1: The Contrapositive"><a tabindex="-1" href="#ch-contrapositive-2" title="Copy heading and permalink for Handout 6.1: The Contrapositive" aria-label="Copy heading and permalink for Handout 6.1: The Contrapositive">🔗</a></div>
 </section>
 </div>
