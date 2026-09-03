@@ -11,8 +11,7 @@
         <subtitle>MTH 210 Fall 2026</subtitle>
         <!-- Optional: include frontmatter with author info and date -->
         <xi:include href="./frontmatter.ptx"/>
-
-           <part>
+        <part>
             <title>Course and Assignment Information</title>
 
             <chapter xml:id="course-documents">
@@ -20,10 +19,10 @@
 
                 <!-- Course syllabus -->
                 <xi:include href="./syllabus/syllabus.ptx"/>
-                <xi:include href="./syllabus/assignments.ptx" />
-                <xi:include href="./syllabus/TentativeCourseSchedule.ptx" />
-                <xi:include href="./syllabus/grades.ptx" />
-                <xi:include href="./syllabus/AcademicHonesty.ptx" />
+                <xi:include href="./syllabus/assignments.ptx"/>
+                <xi:include href="./syllabus/TentativeCourseSchedule.ptx"/>
+                <xi:include href="./syllabus/grades.ptx"/>
+                <xi:include href="./syllabus/AcademicHonesty.ptx"/>
                 <!-- Other documents could go here, like a schedule, project description, etc. -->
             </chapter>
 
@@ -31,6 +30,7 @@
                 <title>Learning Targets</title>
 
                 <!-- Include handouts -->
+                <xi:include href="./LearningTargets/LearningTargetInstructionsList.ptx"/>
                 <xi:include href="./LearningTargets/LearningTarget1.ptx"/>
                 <xi:include href="./LearningTargets/LearningTarget2.ptx"/>
                 <xi:include href="./LearningTargets/LearningTarget3.ptx"/>
@@ -138,7 +138,5 @@
                 <xi:include href="./activities/09-3-EquivalenceClasses.ptx"/>
             </chapter>
         </part>
-
-     
     </book>
 </pretext>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>Learning Targets and Quizzes</title>
+
+    <page>
+        <paragraphs>
+            <title>Goals</title>
+
+            <p>
+                There are a number of basic skills that you should demonstrate
+                fluency with in an introduction to proofs course.
+                These checkpoints are intended to emphasize a few things.
+                One is that learning is a process.
+                You will not be penalized for not demonstrating fluency with a
+                skill the first time, but you are expected to eventually get
+                there.
+                Another is that fluency with basic skills and knowing
+                definitions is an important part of doing mathematics.
+                For example, you shouldn't expect to be able to complete a
+                complex proof about the notion of divides if you don't know the
+                definition of divides.
+                These checkpoints also provide individual assessment so you know
+                whether or not you are keeping up with course material.
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Structure</title>
+
+            <p>
+                We will have a closed book/closed note checkpoint at the end of
+                the first class meeting of the week assessing the following
+                learning targets.
+                While each target will be graded as only either <q>S</q> for
+                Satisfactory or <q>NY</q> for does Not Yet meet the standard.
+                Each target appears on 3 consecutive checkpoints.
+                Once you have earned an <q>S</q> on a target you do not need to
+                do so again.
+                Blackboard will be updated weekly to reflect your <q>S</q> s and
+                <q>NY</q> s.
+                You will be notified which targets will be on a checkpoint, but
+                it is your responsibility to know which targets you have yet to
+                earn satisfactory.
+                Each target will be on three checkpoints.
+                Your grade for this component will be the percentage of the 20
+                targets listed below that you have earned an S on.
+            </p>
+        </paragraphs>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Learning Targets</title>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Come to office hours to ask a question or attend a
+                            math event.
+                            (See the math major emails for available math
+                            events, and let me know if you don’t get it!)
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            State precisely the definition of an even and odd
+                            integer and outline the proof of a statement using
+                            these terms.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Given a statement to be proven using a direct proof,
+                            identify the assumptions to be made and the
+                            statements to be proven.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Identify if a given set of numbers is closed under a
+                            given operation.
+                            
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            State the definition of ``a divides b'' and ``a is
+                            congruent to b modulo n,'' and correctly apply these
+                            definitions in examples.
+                            
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Create and translate sets using set builder notation
+                            and fluently work with sets written in set builder
+                            notation.
+                           
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Use the symbols related to sets (like <m>\in</m>,
+                            <m>\notin</m>, <m>\subseteq</m>, <m>\subset</m>, <m>=</m>, <m>\nsubseteq</m>)
+                            correctly.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Given two sets and a universal set identify the
+                            union, intersection, complement, and set difference
+                            and find the power set of a given set.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Identify situations in which it is appropriate to
+                            use induction and state the procedure for proving a
+                            statement by induction.
+                         
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Clearly and correctly disprove a statement using a
+                            counterexample.
+                           
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Evaluate if a given proof is valid and adheres to
+                            our writing guidelines.
+                         
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Construct truth tables for statements that use the
+                            logical operators and, or, not, and implies, and
+                            make conclusions about the truth values of these
+                            statements.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Given a conditional statement, identify the
+                            hypothesis and conclusion, determine its truth
+                            value, and apply it.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Negate a statement with and, or, not, implies,
+                            exists, and/or for all.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Given a statement to be proven using a proof by
+                            contrapositive, identify the assumptions to be made
+                            and the statements to be proven.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Given a statement to be proven using a proof by
+                            contradiction, identify the assumptions to be made
+                            and the statements to be proven.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </paragraphs>
+    </page>
+</handout>
