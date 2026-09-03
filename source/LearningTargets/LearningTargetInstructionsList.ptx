@@ -59,8 +59,7 @@
                         <p>
                             Come to office hours to ask a question or attend a
                             math event.
-                            (See the math major emails for available math
-                            events, and let me know if you don’t get it!)
+                            (See the math major newsletter for events - <url href="https://www.gvsu.edu/math/math-major-newsletter-62.htm"></url>
                         </p>
                     </li>
 
@@ -89,8 +88,8 @@
 
                     <li>
                         <p>
-                            State the definition of ``a divides b'' and ``a is
-                            congruent to b modulo n,'' and correctly apply these
+                            State the definition of <q> a divides b</q> and <q>a is
+                            congruent to b modulo n</q>, and correctly apply these
                             definitions in examples.
                         </p>
                     </li>
@@ -114,7 +113,7 @@
                     <li>
                         <p>
                             Given two sets and a universal set identify the
-                            union, intersection, complement, and set difference
+                            union, intersection, complement, Cartesian product, and set difference
                             and find the power set of a given set.
                         </p>
                     </li>
@@ -185,17 +184,7 @@
                         <p>
                             Correctly use function terminology such as domain,
                             codomain, range, image, and preimage.
-                            State the definition of injection, surjection, and
-                            bijection, create examples of each, and identify if
-                            a given function is an injection, surjection, or
-                            bijection.
-                            Prove or disprove that a given relation is
-                            reflexive, symmetric, and/or transitive and identify
-                            if the relation is an equivalence relation.
-                            Given an equivalence relation, I can determine the
-                            equivalence class of an element.
-                            I can list the distinct equivalence classes
-                            determined by the relation.
+                        
                         </p>
                     </li>
 
