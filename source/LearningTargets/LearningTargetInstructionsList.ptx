@@ -84,7 +84,6 @@
                         <p>
                             Identify if a given set of numbers is closed under a
                             given operation.
-                            
                         </p>
                     </li>
 
@@ -93,7 +92,6 @@
                             State the definition of ``a divides b'' and ``a is
                             congruent to b modulo n,'' and correctly apply these
                             definitions in examples.
-                            
                         </p>
                     </li>
 
@@ -102,15 +100,14 @@
                             Create and translate sets using set builder notation
                             and fluently work with sets written in set builder
                             notation.
-                           
                         </p>
                     </li>
 
                     <li>
                         <p>
                             Use the symbols related to sets (like <m>\in</m>,
-                            <m>\notin</m>, <m>\subseteq</m>, <m>\subset</m>, <m>=</m>, <m>\nsubseteq</m>)
-                            correctly.
+                            <m>\notin</m>, <m>\subseteq</m>, <m>\subset</m>,
+                            <m>=</m>, <m>\nsubseteq</m> ) correctly.
                         </p>
                     </li>
 
@@ -127,7 +124,6 @@
                             Identify situations in which it is appropriate to
                             use induction and state the procedure for proving a
                             statement by induction.
-                         
                         </p>
                     </li>
 
@@ -135,7 +131,6 @@
                         <p>
                             Clearly and correctly disprove a statement using a
                             counterexample.
-                           
                         </p>
                     </li>
 
@@ -143,7 +138,6 @@
                         <p>
                             Evaluate if a given proof is valid and adheres to
                             our writing guidelines.
-                         
                         </p>
                     </li>
 
@@ -184,6 +178,50 @@
                             Given a statement to be proven using a proof by
                             contradiction, identify the assumptions to be made
                             and the statements to be proven.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Correctly use function terminology such as domain,
+                            codomain, range, image, and preimage.
+                            State the definition of injection, surjection, and
+                            bijection, create examples of each, and identify if
+                            a given function is an injection, surjection, or
+                            bijection.
+                            Prove or disprove that a given relation is
+                            reflexive, symmetric, and/or transitive and identify
+                            if the relation is an equivalence relation.
+                            Given an equivalence relation, I can determine the
+                            equivalence class of an element.
+                            I can list the distinct equivalence classes
+                            determined by the relation.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            State the definition of injection, surjection, and
+                            bijection, create examples of each, and identify if
+                            a given function is an injection, surjection, or
+                            bijection.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Prove or disprove that a given relation is
+                            reflexive, symmetric, and/or transitive and identify
+                            if the relation is an equivalence relation.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Given an equivalence relation, I can determine the
+                            equivalence class of an element.
+                            I can list the distinct equivalence classes
+                            determined by the relation.
                         </p>
                     </li>
                 </ol>
