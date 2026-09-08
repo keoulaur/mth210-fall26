@@ -178,7 +178,7 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "2.2",
   "title": "Learning Target 1 Practice",
-  "body": " Learning Target 1 Practice   Come to office hours to ask a question or attend a math event. (See the math major emails for available math events, and let me know if you don't get it!)   There's a math event every Friday at 1! There's also other events this semester, that I'll post on Blackboard. You can add the math student google calendar at   You can also earn an S on this learning target by coming to drop-in hours to ask a question (including appointments).  "
+  "body": " Learning Target 1 Practice   Come to office hours to ask a question or attend a math event.   Check the math major newsletter for events - !  There's a math event every Friday at 1! There's also other events this semester, which you can find in the math major newsletter.  You can add the math student google calendar at   You can also earn an S on this learning target by coming to drop-in hours to ask a question (including appointments). Drop-in hours are held in MAK A-2-610.     Monday: 4-5PM    Wednesday: 10-11AM    Thursday: 1-2PM    Friday: 10-11AM    By appointment     "
 },
 {
   "id": "targets-4",
