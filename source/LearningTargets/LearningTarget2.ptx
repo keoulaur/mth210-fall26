@@ -37,16 +37,23 @@
                     <ul>
                         <li>
                             <p>
-                                Proposition 2.5 proof on page 250 of your book.
+                                Proposition 2.5 proof on page 50 of your book.
                                 (The sum of two odd integers is even.)
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                See solutions on Blackboard!
+                                Pages 25-26 of our worksheets. Class notes will be on Blackboard.
                             </p>
                         </li>
+
+                        <li>
+                <p>
+                    Extra practice problem with solution below!
+                </p>
+             
+            </li>
                     </ul>
                 </p>
             </li>
@@ -71,12 +78,44 @@
                 </p>
             </li>
 
-            <li>
-                <p>
-                    Extra Practice: Prove the product of an odd integer and an
-                    even integer is even.
-                </p>
-            </li>
+            
         </ul>
+        
     </p>
+
+            <exercise>
+                <statement>
+                    <p>
+                    Prove the product of an odd integer and an
+                    even integer is even.  
+                    </p>
+                </statement>
+
+                <solution>
+                    <p>
+                        Let <m>a</m> be an odd integer and <m>b</m> be an even integer. By definition, there exist integers <m>j</m> and <m>k</m>
+                        such that <m>a=2j+1</m> and <m>b=2k</m>. 
+                        Then the product <m>ab=(2j+1)(2k)=4jk+2k=2(2jk+k)</m>.
+                        Let <m>\ell=2jk+k</m>. Since integers are closed under addition and multiplication, <m>l</m> is an integer, 
+                        we've written that <m>ab=2l</m>, and so <m>ab</m> is even. </p>
+                    
+                </solution>
+                
+            </exercise>
+
+        
+            
+                
+           
+                    <remark>
+                       <p> For the learning target, you do not need to write in complete sentences or a proof that meets our
+                        writing guidelines. You <em>do</em> need to cite the definitions, say what variables (or collections of varaibles) are integers, 
+                    and cite closure. </p>
+                    </remark>
+   
+                    
+
+                
+
+       
 </handout>
