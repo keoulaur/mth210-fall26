@@ -1,28 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="pp-specs">
+<handout xml:id="pp-specs">
   <title>Writing Conventions for MTH 210</title>
 
-  <introduction>
 	<p>These are writing conventions that we will learn and use in MTH 210. Every writing revision of a portfolio should follow all of these.</p>
 	
 	<p>Click or tap on each convention below to read more details and see an example.</p>
-  </introduction>
+
+	
   
-  <subsection xml:id="pp-specs-required">
+  <paragraphs xml:id="pp-specs-required">
   <title>Required writing conventions</title>
   
-  <introduction>
-  	<p>To earn <q>math &amp; writing successful</q> or better, a proof must do <em>all</em> of these:</p>
-  </introduction>
-	
+ 
+  
 	<exercise xml:id="wc-statement"><title>Include a true and correctly worded theorem statement just before the proof</title>
 		<p>The theorem statement should be a simple declarative statement, like we've studied in class. Here is a typical textbook problem:</p>
 			<blockquote><p>Prove that if <m>n</m> is an integer and <m>n^2</m> is odd, then <m>n</m> is odd.</p></blockquote>
 		<p>To write a solution to this problem, first turn it into a theorem statement like the following:</p>
 			<blockquote><p><em>Theorem 1:</em> If <m>n</m> is an integer and <m>n^2</m> is an odd integer, then <m>n</m> is an odd integer.</p></blockquote>
 		<p>The statement must be true (so make sure you've tried examples!). It should be in the form of a conditional and/or quantified statement. Your statement must follow all other writing conventions. That includes defining any variables in the statement before you use them. For example, note how <m>n</m> is defined right away above.</p>
-		<p>After the theorem statement is written, skip a line and write <q><em>Proof</em></q> and begin the proof on that same line.</p>
+		<p>After the theorem statement is written, skip a line and write <q><em>Proof</em></q> and begin the proof on that same line. </p>
+		<p>
+			In Overleaf, you can use the following code to write the theorem statement and begin the proof:
+			\begin{theorem} insert theorem statement here \end{theorem}
+			\begin{proof} insert proof here \end{proof}
+		</p>
 	</exercise>
 
 	<exercise xml:id="wc-assumptions"><title>At the very beginning of the proof, state all assumptions and explain what will be proved</title>
@@ -90,18 +93,15 @@ Each statement's justification must be clear and unambiguous in addition to bein
 	</blockquote>
 	<p>Note: You <em>don't</em> need to repeat the name of the definition multiple times in the same sentence. Use the word once, as long as it is clear which word you are using. Here's a poor example: <q>Because we are given that <m>n</m> is even, by definition of even there exists an integer <m>k</m> such that <m>n = 2k</m>.</q> Note that <q>even</q> is repeated unnecessarily. This is still a correct statement, just not well-written.</p>
 	</exercise>
-	</subsection>
-	
-	<subsection xml:id="pp-specs-additional">
+ </paragraphs>
+
+	<paragraphs xml:id="pp-specs-additional">
 	<title>Additional writing conventions</title>
 	
-	<introduction>
-		<p>Every proof must do <em>most</em> of these, where <q>most</q> allows occasional errors in up to 3 items, or consistent errors in 1 item.</p>
-		<p>One way to earn <q>excellent</q> is for a proof to do <em>all</em> of these thoroughly and with no noticeable omissions.</p>
-	</introduction>
 	
-	<exercise xml:id="wc-overleaf"><title>Be typed in a new Overleaf document</title>
-		<p>Use the provided Overleaf template and refer to the LaTeX reference document for help with symbols and formatting. These are available on Blackboard.</p>
+	<exercise xml:id="wc-overleaf"><title>Type in Overleaf</title>
+		<p>Use the provided Overleaf portfolio template and refer to the LaTeX cheat sheet 
+			for help with symbols and formatting. These are available on Blackboard.</p>
 	</exercise>
 	
 	<exercise xml:id="wc-spelling"><title>Follow all basic WRT 150 writing requirements, including spelling, grammar, and punctuation, and avoiding shorthand</title>
@@ -190,5 +190,5 @@ Each statement's justification must be clear and unambiguous in addition to bein
 		<p>It’s considered good form to sum up the proof once you’ve finished the main writing, and to clearly show the reader where the proof ends. Briefly state what you actually proved, and put a box at the end of that line. This can be summarized or simplified compared to the original theorem statement, as long as it is still true.</p>
 	</exercise>
 	
-	</subsection>
-</section>
+	</paragraphs>
+</handout>
