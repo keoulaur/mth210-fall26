@@ -352,6 +352,33 @@ var ptx_lunr_docs = [
   "body": "  Overleaf: Pick one of your proofs above and type in Overleaf according to our writing guidelines. Please print and bring to class! (If you can’t print, email me a PDF at least 2 hours before class and I’ll print it.) Here’s the “Duplicate this in Overleaf” exercise from page 17 of the worksheet that you can use as a model. Make a copy and then edit accordingly!   "
 },
 {
+  "id": "pp-1",
+  "level": "1",
+  "url": "pp-1.html",
+  "type": "Handout",
+  "number": "4.1",
+  "title": "Portfolio Problem 1 - Play Conjecture Prove",
+  "body": " Portfolio Problem 1 - Play Conjecture Prove  Will list problem options here!  "
+},
+{
+  "id": "pp-2",
+  "level": "1",
+  "url": "pp-2.html",
+  "type": "Handout",
+  "number": "4.2",
+  "title": "Portfolio Problem 2",
+  "body": " Portfolio Problem 2   The Theorem  For this portfolio problem, you'll prove the following theorem.    If is an even integer, then is an odd integer.      Instructions for the draft  Upload a scanned image of your draft to the Blackboard assignment. Typically drafts are handwritten!       Prove the theorem above. Include all key mathematical ideas and work so that you have a complete solution. Include just enough writing and detail to make it understandable. Drafts can be hand-written -- don't focus on writing guidelines nor typing them up yet.     Include examples. Substitute in a variety of appropriate values for to see how this theorem works. Include at least 3 examples, covering a variety of -values. For each, show how you know the hypothesis and conclusion are true (see the sample portfolio solution for an example of how to format these).      Instructions for the writing revision  First, wait for draft feedback on Blackboard!  Then, type your proof in Overleaf and submit a PDF of your writing revision to the Blackboard assignment.     Include a formal proof of Theorem 1.    Include examples, same as in the draft.    Address all feedback from the draft.    Type your work in latex .    Include a view only link to your Overleaf document in the Blackboard submission's text field.    Follow all of the conventions listed below (click each one to get more details and examples):        "
+},
+{
+  "id": "pp-2-2-3",
+  "level": "2",
+  "url": "pp-2.html#pp-2-2-3",
+  "type": "Theorem",
+  "number": "4.1",
+  "title": "",
+  "body": "  If is an even integer, then is an odd integer.   "
+},
+{
   "id": "ch-1-intuitiveproofs-2",
   "level": "1",
   "url": "ch-1-intuitiveproofs-2.html",
