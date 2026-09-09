@@ -1,12 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="WP-02">
-  <title>Week 2</title>
+<handout xml:id="WP-02">
+    <title>Week 2 Weekly Practice</title>
 
-  <!-- Can also be <handout> instead of
-  <subsection>
-    to get a printable version -->
- <p>
-  Coming Soon!
- </p>
-  </section> 
+    <p>
+        Due the second class of the week of September 15.
+    </p>
+  
+    <exercise workspace="2in">
+        <title>Exercise 2.3 (a) and (c)</title>
+
+        <introduction>
+            <p>
+                For each of the following, give three examples of the
+                proposition.
+                Then, prove it is true.
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    The sum of an even integer and an odd integer is odd.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    The product of two odd integers is odd.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise workspace="2in">
+        <title>Exercise 2.4 (a) and (b)</title>
+
+        <introduction>
+            <p>
+                For each of the following, give three examples of the
+                proposition.
+                Then prove it is true.
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    If n is an even integer then -n is an even integer.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    If n is an odd integer, then -n is an odd integer.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise workspace="2in">
+        <title>Exercise 2.8 (a)</title>
+
+        <statement>
+            <p>
+                Prove that if <m>n</m> is an integer, then <m> n^2 + n </m> is
+                an even integer.
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Overleaf: Pick one of your proofs above and type in Overleaf
+                according to our writing guidelines.
+                Please print and bring to class!
+                (If you can’t print, email me a PDF at least 2 hours before
+                class and I’ll print it.) Here’s the
+                <url href="https://www.overleaf.com/read/qgqzvtfzrqrp#f8f313">“Duplicate this in Overleaf”</url>
+                exercise from page 17 of the worksheet that you can use as a
+                model.
+                Make a copy and then edit accordingly!
+            </p>
+        </statement>
+    </exercise>
+</handout>
