@@ -1,81 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="pp-1">
-  <title>Portfolio Problem 2</title>
+<handout xml:id="pp-2">
+    <title>Portfolio Problem 2</title>
 
-  <introduction>
-	<theorem>
-		<statement>
-			<p>If <m>n</m> is an even integer, then <m>n^{2} + 8n + 9</m> is an odd integer.</p>
-		</statement>
-	</theorem>
-  </introduction>
+    <theorem>
+        <statement>
+            <p>
+                If <m>n</m> is an even integer, then <m>n^{2} + 8n + 9</m> is an
+                odd integer.
+            </p>
+        </statement>
+    </theorem>
 
-  <!-- Can also be <handout> instead of <subsection> to get a printable version -->
+    <paragraphs>
+        <title>Instructions for the draft</title>
 
-  
-  <subsection>
-  	<title>Instructions for the draft</title>
-	<p>Upload a scanned image of your draft to the Blackboard assignment.</p>
-	
-	<p>To earn <em>math successful</em>, your draft must do all of the following:</p>
-	<p>
-		
-	
-	<p><ol>
-		<li><p><em>Prove Theorem 1 using a know-show table or similar format.</em> Include all key mathematical ideas and work so that you have a complete solution. Include just enough writing and detail to make it understandable. Drafts can be hand-written -- don't focus on communication specifications nor typing them up yet.</p></li>
-		<li><p><em>Include examples.</em> Substitute in a variety of appropriate values for <m>n</m> to see how this theorem works. Include at least 3 examples, covering a variety of <m>n</m>-values. For each, show how you know the hypothesis and conclusion are true (see the <url href="https://www.overleaf.com/read/qndbyzmrxprd">sample portfolio solution</url> for an example of how to format these).</p></li>
-	</ol></p>
-	</p>
-  </subsection>
-  
-  <subsection>
-  	<title>Instructions for the writing revision</title>
-	<p>First, wait for draft feedback on Blackboard!</p>
-	
-	<p>Then, submit a PDF of your writing revision to the Blackboard assignment.</p>
-	
-	<p>To earn <em>math &amp; writing successful</em>, your writing revision must do all of the following:</p>
-	<p>
-	<p><ol>
-		<li><p>Include a formal proof of Theorem 1.</p></li>
-		<li><p>Include examples, same as in the draft.</p></li>
-		<li><p>Address all feedback from the draft.</p></li>
-		<li><p>Type your work in <latex />. Use the <url href="https://www.overleaf.com/read/wgbrgwbzkpkh#ab87eb">template</url>, <url href="https://www.overleaf.com/read/pkdmwpvttfvf#49a6e3">how-to guide</url>, and <url href="https://www.overleaf.com/read/qndbyzmrxprd">sample portfolio solution</url>.</p></li>
-		<li><p>Include a <q>view only</q> link to your Overleaf document in the Blackboard submission's text field.</p></li>
-		<li><p>Follow <em>all</em> of the conventions listed below (click each one to get more details and examples):</p></li>
-	</ol></p>
-</p>
-	
-	<p><xref ref="wc-statement" text="type-local-title" /></p>
-	
-	<p><xref ref="wc-assumptions" text="type-local-title" /></p>
-	
-	<p><xref ref="wc-proof-method" text="type-local-title" /></p>
-	
-	<p><xref ref="wc-justify" text="type-local-title" /></p>
-		
-	<p><xref ref="wc-variables" text="type-local-title" /></p>
-	
-	<p><xref ref="wc-definitions" text="type-local-title" /></p>
-	
-  </subsection>
-  
-  <subsection>
-  	<title>Instructions for excellence</title>
-	<p>To earn <em>math &amp; writing excellent</em>, do all of these (in the writing revision or later):</p>
-	
-	<p><ol>
-		<li><p>Thoroughly address all comments from the draft and writing revision, and thoroughly attend to detail.</p></li>
-		<li><p>Polish your writing so that it follows <em>all</em> of the <xref ref="pp-specs-additional" text="title" /> thoroughly, with no noticeable omissions. Click or tap the link to see all of them. (In future portfolios, you'll have other options for how to earn <em>excellent</em>. This time, your goal is to show that you can follow all of the conventions thoroughly.)</p></li>
-		<li><p>Note that <q>excellent</q> is <em>not</em> automatic upon revision, and relies on showing thorough attention to detail. (This is true in each portfolio -- just a reminder here!)</p></li>
-	</ol></p>
-  </subsection>
-  
-  	<!-- <li><p>After the writing revision, you can revise once more and submit a <em>final revision</em> by the final exam. Only this final revision will count towards your final grade.</p></li> -->
+        <p>
+            Upload a scanned image of your draft to the Blackboard assignment.
+            Typically drafts are handwritten!
+        </p>
+    </paragraphs>
 
+    <p>
+        <ol>
+            <li>
+                <p>
+                    <em>Prove the theorem above.</em> Include all key
+                    mathematical ideas and work so that you have a complete
+                    solution.
+                    Include just enough writing and detail to make it
+                    understandable.
+                    Drafts can be hand-written -- don't focus on writing
+                    guidelines nor typing them up yet.
+                </p>
+            </li>
 
-<!--
+            <li>
+                <p>
+                    <em>Include examples.</em> Substitute in a variety of
+                    appropriate values for <m>n</m> to see how this theorem
+                    works.
+                    Include at least 3 examples, covering a variety of
+                    <m>n</m>-values.
+                    For each, show how you know the hypothesis and conclusion
+                    are true (see the
+                    <url href="https://www.overleaf.com/read/tywmwskbkzpf#82a23f">sample portfolio solution</url>
+                    for an example of how to format these).
+                </p>
+            </li>
+        </ol>
+    </p>
+
+    <paragraphs>
+        <title>Instructions for the writing revision</title>
+
+        <p>
+            First, wait for draft feedback on Blackboard!
+        </p>
+
+        <p>
+            Then, type your proof in Overleaf and submit a PDF of your writing
+            revision to the Blackboard assignment.
+        </p>
+
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Include a formal proof of Theorem 1.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Include examples, same as in the draft.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Address all feedback from the draft.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Type your work in <latex/>.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Include a <q>view only</q> link to your Overleaf
+                        document in the Blackboard submission's text field.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Follow <em>all</em> of the conventions listed below
+                        (click each one to get more details and examples):
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </paragraphs>
+
+    
+    <!-- <li><p>After the writing revision, you can revise once more and submit a <em>final revision</em> by the final exam. Only this final revision will count towards your final grade.</p></li> -->
+    <!--
 \textbf{Theorem 1.} For each integer $m$,  $4m^3-6m+5$ is odd.
 \textbf{Theorem 1.} If $n$ is an even integer, then $n^{2} + 3n + 7$ is an odd integer.
 \textbf{Theorem 1.} If $n$ is an odd integer, then $n^{2} + 3n + 4$ is an even integer.
@@ -83,5 +116,4 @@
 \textbf{Theorem 1.} If $k$ is an odd integer, then $k^{2} + 3k + 9$ is an odd integer.
 If <m>n</m> is an even integer, then <m>n^{2} + 8n + 9</m> is an odd integer.
 -->
-
-</section>
+</handout>

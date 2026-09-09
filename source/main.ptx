@@ -51,6 +51,11 @@
                 <xi:include href="./WeeklyPractice/week02.ptx"/>
                 <!-- etc. -->
             </chapter>
+
+            <chapter xml:id="ch-ProofPortfolio">
+                <title>Proof Portfolio</title>
+                <xi:include href="./PortfolioProblems/PP2.ptx" />
+            </chapter>
         </part>
 
         <part xml:id="part-">
