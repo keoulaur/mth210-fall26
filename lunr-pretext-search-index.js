@@ -187,7 +187,7 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "2.3",
   "title": "Learning Target 2 Practice",
-  "body": " Learning Target 2 Practice   State precisely the definition of an even and odd integer and outline the proof of a statement using these terms.      State the definition of an odd integer. That is, complete the sentence,  An integer is odd if....    State the definition of an even integer. That is, complete the sentence,  An integer is even if....    Examples with solutions:   Proposition 2.5 proof on page 50 of your book. (The sum of two odd integers is even.)    Pages 25-26 of our worksheets. Class notes will be on Blackboard.    Extra practice problem with solution below!       Weekly Practice 2 #1:   The sum of an even integer and an odd integer is odd.    The product of two odd integers is odd.          Prove the product of an odd integer and an even integer is even.    Let be an odd integer and be an even integer. By definition, there exist integers and such that and . Then the product . Let . Since integers are closed under addition and multiplication, is an integer, we've written that , and so is even.     For the learning target, you do not need to write in complete sentences or a proof that meets our writing guidelines. You do need to cite the definitions, say what variables (or collections of varaibles) are integers, and cite closure.   "
+  "body": " Learning Target 2 Practice   State precisely the definition of an even and odd integer and outline the proof of a statement using these terms.      State the definition of an odd integer. That is, complete the sentence,  An integer is odd if....    State the definition of an even integer. That is, complete the sentence,  An integer is even if....    Examples with solutions:   Proposition 2.5 proof on page 50 of your book. (The sum of two odd integers is even.)    Pages 25-26 of our worksheets. Class notes will be on Blackboard.    Extra practice problem with solution below!       Weekly Practice 2 #1:   The sum of an even integer and an odd integer is odd.    The product of two odd integers is odd.          Prove the product of an odd integer and an even integer is even.    Let be an odd integer and be an even integer. By definition, there exist integers and such that and . Then the product . Let . Since integers are closed under addition and multiplication, is an integer, we've written that , and so is even.     For the learning target, you do not need to write in complete sentences or a proof that meets our writing guidelines. You do need to cite the definitions, say what variables (or collections of variables) are integers, and cite closure.   "
 },
 {
   "id": "targets-4-3",
@@ -214,7 +214,7 @@ var ptx_lunr_docs = [
   "type": "Remark",
   "number": "2.2",
   "title": "",
-  "body": " For the learning target, you do not need to write in complete sentences or a proof that meets our writing guidelines. You do need to cite the definitions, say what variables (or collections of varaibles) are integers, and cite closure.  "
+  "body": " For the learning target, you do not need to write in complete sentences or a proof that meets our writing guidelines. You do need to cite the definitions, say what variables (or collections of variables) are integers, and cite closure.  "
 },
 {
   "id": "targets-5",
@@ -310,10 +310,46 @@ var ptx_lunr_docs = [
   "id": "WP-02",
   "level": "1",
   "url": "WP-02.html",
-  "type": "Section",
+  "type": "Handout",
   "number": "3.2",
-  "title": "Week 2",
-  "body": " Week 2   Coming Soon!  "
+  "title": "Week 2 Weekly Practice",
+  "body": " Week 2 Weekly Practice  Due the second class of the week of September 15.   Exercise 2.3 (a) and (c)   For each of the following, give three examples of the proposition. Then, prove it is true.     The sum of an even integer and an odd integer is odd.      The product of two odd integers is odd.      Exercise 2.4 (a) and (b)   For each of the following, give three examples of the proposition. Then prove it is true.     If n is an even integer then -n is an even integer.      If n is an odd integer, then -n is an odd integer.      Exercise 2.8 (a)   Prove that if is an integer, then is an even integer.      Overleaf: Pick one of your proofs above and type in Overleaf according to our writing guidelines. Please print and bring to class! (If you can’t print, email me a PDF at least 2 hours before class and I’ll print it.) Here’s the “Duplicate this in Overleaf” exercise from page 17 of the worksheet that you can use as a model. Make a copy and then edit accordingly!    "
+},
+{
+  "id": "WP-02-3",
+  "level": "2",
+  "url": "WP-02.html#WP-02-3",
+  "type": "Checkpoint",
+  "number": "3.5",
+  "title": "Exercise 2.3 (a) and (c).",
+  "body": " Exercise 2.3 (a) and (c)   For each of the following, give three examples of the proposition. Then, prove it is true.     The sum of an even integer and an odd integer is odd.      The product of two odd integers is odd.    "
+},
+{
+  "id": "WP-02-4",
+  "level": "2",
+  "url": "WP-02.html#WP-02-4",
+  "type": "Checkpoint",
+  "number": "3.6",
+  "title": "Exercise 2.4 (a) and (b).",
+  "body": " Exercise 2.4 (a) and (b)   For each of the following, give three examples of the proposition. Then prove it is true.     If n is an even integer then -n is an even integer.      If n is an odd integer, then -n is an odd integer.    "
+},
+{
+  "id": "WP-02-5",
+  "level": "2",
+  "url": "WP-02.html#WP-02-5",
+  "type": "Checkpoint",
+  "number": "3.7",
+  "title": "Exercise 2.8 (a).",
+  "body": " Exercise 2.8 (a)   Prove that if is an integer, then is an even integer.   "
+},
+{
+  "id": "WP-02-6",
+  "level": "2",
+  "url": "WP-02.html#WP-02-6",
+  "type": "Checkpoint",
+  "number": "3.8",
+  "title": "",
+  "body": "  Overleaf: Pick one of your proofs above and type in Overleaf according to our writing guidelines. Please print and bring to class! (If you can’t print, email me a PDF at least 2 hours before class and I’ll print it.) Here’s the “Duplicate this in Overleaf” exercise from page 17 of the worksheet that you can use as a model. Make a copy and then edit accordingly!   "
 },
 {
   "id": "ch-1-intuitiveproofs-2",
