@@ -3,7 +3,14 @@
 <handout xml:id="pp-2">
     <title>Portfolio Problem 2</title>
 
-    <theorem>
+	<paragraphs>
+		<title>The Theorem</title>
+		
+	<p>
+		For this portfolio problem, you'll prove the following theorem.
+	</p>
+
+    <theorem workspace=".25in">
         <statement>
             <p>
                 If <m>n</m> is an even integer, then <m>n^{2} + 8n + 9</m> is an
@@ -11,6 +18,7 @@
             </p>
         </statement>
     </theorem>
+	</paragraphs>
 
     <paragraphs>
         <title>Instructions for the draft</title>
