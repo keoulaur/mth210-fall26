@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <handout xml:id="pp-specs">
-    <title>Writing Conventions for MTH 210</title>
+    <title>Writing Guidelines for MTH 210</title>
 
     <page>
         <p>
@@ -10,7 +10,7 @@
         </p>
 
         <paragraphs xml:id="pp-specs-required">
-            <title>Required writing conventions</title>
+            <title>Most important writing conventions</title>
 
             <exercise xml:id="wc-statement">
                 <title>
