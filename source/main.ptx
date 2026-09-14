@@ -54,9 +54,10 @@
 
             <chapter xml:id="ch-ProofPortfolio">
                 <title>Proof Portfolio</title>
+                <xi:include href="./PortfolioProblems/specs.ptx" />
                 <xi:include href="./PortfolioProblems/PP1.ptx" />
                 <xi:include href="./PortfolioProblems/PP2.ptx" />
-                <xi:include href="./PortfolioProblems/specs.ptx" />
+            
             </chapter>
         </part>
 
