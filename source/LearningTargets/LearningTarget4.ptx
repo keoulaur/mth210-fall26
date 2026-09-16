@@ -15,7 +15,7 @@
                 <li>
                     <p>
                         What it means for a set to be closed under an operation.
-                        See page 13 of class worksheets or Fact 2.1 on page 48
+                        See page 19-20 of class worksheets or Fact 2.1 on page 48
                         of your textbook.
                     </p>
                 </li>
@@ -30,8 +30,8 @@
 
                 <li>
                     <p>
-                        You need to be able to read sets written in set or
-                        roster notation.
+                        You need to be able to read sets written in
+                        roster notation (so continuing the pattern of the <m>\dots</m>).
                     </p>
                 </li>
             </ul>
@@ -39,85 +39,22 @@
     </paragraphs>
 
     <paragraphs>
-        <title>Practice Questions</title>
+        <title>Practice Questions (Solutions online!)</title>
 
-        <p>
-            <ol>
-                <li>
-                    <p>
-                        Is <m>\mathbb{N}</m> closed under addition?
+        <exercise>
+          <statement>
+            <p>
+              Is <m>\mathbb{N}</m> closed under addition?
                         subtraction?
                         multiplication?
                         division?
-                        Explain.
-                    </p>
-                </li>
-
-                <li>
-                    <p>
-                        Is <m>\mathbb{Z}</m> closed under addition?
-                        subtraction?
-                        multiplication?
-                        division?
-                        Explain.
-                    </p>
-                </li>
-
-                <li>
-                    <p>
-                        Is <m>\mathbb{Q}</m> closed under addition?
-                        subtraction?
-                        multiplication?
-                        division?
-                        Explain.
-                    </p>
-                </li>
-
-                <li>
-                    <p>
-                        Is the set <m>A = \{2,4,6,8,\dots\}</m> closed under
-                        addition?
-                        subtraction?
-                        multiplication?
-                        division?
-                        Explain.
-                    </p>
-                </li>
-
-                <li>
-                    <p>
-                        Is the set <m>B = \{1,3,5,7,\dots\}</m> closed under
-                        addition?
-                        subtraction?
-                        multiplication?
-                        division?
-                        Explain.
-                    </p>
-                </li>
-
-                <li>
-                    <p>
-                        Is the set
-                        <m>C = \{x\in \mathbb{Z}: x \equiv 2 \pmod{4}\}</m>
-                        closed under addition?
-                        subtraction?
-                        multiplication?
-                        division?
-                        Explain.
-                    </p>
-                </li>
-            </ol>
-        </p>
-    </paragraphs>
-
-    <paragraphs>
-        <title>Some Solutions</title>
-
-        <p>
-            <ul>
-                <li>
-                    <p>
-                        The natural numbers are closed under addition and
+                        Explain.  
+            </p>
+          </statement>
+<!-- 
+          <solution>
+            <p>
+                 The natural numbers are closed under addition and
                         multiplication, but not subtraction or division.
                         If <m>a</m> and <m>b</m> are natural numbers, then
                         <m>a+b</m> and <m>a\cdot b</m> are natural numbers,
@@ -128,12 +65,73 @@
                         numbers are not closed under subtraction.
                         Similarly, <m>3,5\in\mathbb{N}</m>, but
                         <m>3 \div 5 = \frac{3}{5}\notin \mathbb{N}</m>.
-                    </p>
-                </li>
+            </p>
+          </solution> -->
+        </exercise>
 
-                <li>
-                    <p>
-                        The set <m>A</m> is closed under addition, since any
+        <exercise>
+            <statement>
+                <p>
+                       Is <m>\mathbb{Z}</m> closed under addition?
+                        subtraction?
+                        multiplication?
+                        division?
+                        Explain.
+                </p>
+            </statement>
+<!-- 
+            <solution>
+                <p>
+                    The integers are closed under addition, subtraction, and multiplication, but 
+                    not division.
+                    The same example in the previous solution works (but changing <m>\mathbb{N}</m> to <m>\mathbb{Z}</m>). That is, <m>3,5\in\mathbb{Z}</m>, but
+                        <m>3 \div 5 = \frac{3}{5}\notin \mathbb{Z}</m>.
+                </p>
+            </solution> -->
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                       Is <m>\mathbb{Q}</m> closed under addition?
+                        subtraction?
+                        multiplication?
+                        division?
+                        Explain.
+                </p>
+            </statement>
+<!-- 
+            <solution>
+                <p>
+                    The rational numbers are closed under addition, subtraction, multiplication, but not division.
+                    For example, the rational numbers are closed under multiplication because for rational numbers <m>\frac{a}{b}</m>
+                    and <m>\frac{c}{d}</m> where <m>a,b,c,d\in\mathbb{Z}</m> and <m>c,d \neq 0</m>, we have 
+                    <m>\frac{a}{b}\cdot\frac{c}{d} = \frac{ab}{cd}</m>
+                    and <m>ab,cd\in\mathbb{Z}</m> and <m>cd\neq 0</m>. (See the defintion of rational numbers!)
+                </p>
+
+                <p>
+                    However, the rational numbers are not closed under division because <m>0,1\in\mathbb{Q}</m> and <m>1\div 0</m> is not 
+                    a rational number.
+                </p>
+            </solution> -->
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                     Is the set <m>A = \{2,4,6,8,\dots\}</m> closed under
+                        addition?
+                        subtraction?
+                        multiplication?
+                        division?
+                        Explain.
+                </p>
+            </statement>
+
+            <!-- <solution>
+                <p>
+                       The set <m>A</m> is closed under addition, since any
                         element of <m>A</m> has the form <m>2k</m> for some
                         <m>k\in\mathbb{N}</m>.
                         Let <m>a,b\in A</m>.
@@ -141,34 +139,76 @@
                         <m>j,k\in \mathbb{N}</m>.
                         Then <m>a+b = 2j + 2k = 2(j+k)</m> and <m>j+k</m> is a
                         natural number.
-                    </p>
-                </li>
+                </p>
 
-                <li>
-                    <p>
-                        The set
-                        <m>C = \{x\in \mathbb{Z}: x \equiv 2 \pmod{4}\} = \{ \dots,-6,-2,2,6,10,14,\dots\}</m>
+                <p>
+                    However, <m>A</m> is not closed under subtraction as <m>2,6\in A</m>, but <m>2-6=-4 \notin A.</m>
+                </p>
+                <p>
+                    The set is closed under multiplication, but not division.
+                </p>
+            </solution> -->
+
+    
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                     Is the set <m>B = \{1,3,5,7,\dots\}</m> closed under
+                        addition?
+                        subtraction?
+                        multiplication?
+                        division?
+                        Explain.
+                </p>
+            </statement>
+
+            <!-- <solution>
+                <p>
+                    The set <m>B</m> is not closed under addition, subtraction, nor division. However, <m>B</m> is closed under
+                    multiplication. We can write any element of the set <m>B</m> as <m>2k+1</m> for some natural number (or 0). 
+                    Taking 2 different elements of <m>B</m>, <m>a=2k+1</m> and <m>b=2j+1</m>, we can find <m>ab</m> and show that
+                    it is odd.
+                </p>
+            </solution> -->
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Is the set
+                        <m>C = \{\dots, -6,-2,2,6,10,14,\dots\}</m>
+                        closed under addition?
+                        subtraction?
+                        multiplication?
+                        division?
+                        Explain.
+                </p>
+            </statement>
+<!-- 
+            <solution>
+                <p>
+                      The set
+                        <m>C</m>
                         is not closed under any of these operations.
                         For examples of addition and multiplication, note
                         <m>2,6\in C</m>, but
-                    </p>
-                </li>
-
-                <li>
-                    <p>
+                </p>
+                 <p>
                         <m>2+6 = 8\notin C</m> as <m>8\equiv 0 \pmod{4}</m> so
                         <m>8\not\equiv 2\pmod{4}</m>
                     </p>
-                </li>
 
-                <li>
-                    <p>
+                     <p>
                         <m>2\cdot 6 =12\notin C</m> as
                         <m>12\equiv 0 \pmod{4}</m> so
                         <m>12\not\equiv 2\pmod{4}</m>
                     </p>
-                </li>
-            </ul>
-        </p>
+            </solution> -->
+        </exercise>
+      
+               
     </paragraphs>
+
 </handout>

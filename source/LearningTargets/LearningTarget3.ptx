@@ -15,96 +15,93 @@
   <paragraphs>
     <title>Practice</title>
 
-    <p>
-      <ul>
-        <li>
-          <p>
-            Examples with solutions (at bottom of page). For each, state what
-            you would assume in a direct proof and state what you would prove in
-            a direct proof.
-            <ul>
-              <li>
-                <p>
-                  For all integers <m>n</m>, if <m>n</m> is an odd integer, then
+    <exercise>
+      <statement>
+        <p>
+          For all integers <m>n</m>, if <m>n</m> is an odd integer, then
                   <m>n^{2}+1</m> is even.
-                </p>
-              </li>
+        </p>
+      </statement>
 
-              <li>
-                <p>
-                  For all integers <m>x</m>, if <m>x</m> is divisible by
-                  <m>6</m>, then <m>x</m> is divisible by <m>3</m>.
-                </p>
-              </li>
-
-              <li>
-                <p>
-                  For all natural numbers <m>p</m> and <m>q</m>, if <m>p</m> and
-                  <m>q</m> are twin primes other than <m>3</m> and <m>5</m>,
-                  then <m>pq+1</m> is a perfect square and <m>36</m> divides
-                  <m>pq+1</m>.
-                </p>
-              </li>
-            </ul>
-          </p>
-        </li>
-
-        <li>
-          <p>
-            More practice:
-            <ul>
-              <li>
-                <p>
-                  For all real numbers <m>x</m> and <m>y</m>, if <m>x&gt;y</m>
-                  then <m>x-7&gt;y-7</m>.
-                </p>
-              </li>
-
-              <li>
-                <p>
-                  For all integers <m>a</m> and <m>b</m>, if <m>a</m> and
-                  <m>b</m> are both even, then <m>4</m> divides <m>ab</m>.
-                </p>
-              </li>
-            </ul>
-          </p>
-        </li>
-      </ul>
-    </p>
-
-</paragraphs>
-
-  <paragraphs>
-    <title>Solutions</title>
-
-    <p>
-      <ul>
-        <li>
-          <p>
-            Since the statement starts ``for all'', we should start with an
+      <solution>
+        <p>
+           Since the statement starts <q>for all</q>, we should start with an
             arbitrary one. So, assume <m>n</m> is an integer. We also assume the
             hypothesis in a direct proof, so assume <m>n</m> is an odd integer.
             Prove that <m>n^{2}+1</m> is even.
-          </p>
-        </li>
+        </p>
+      </solution>
+    </exercise>
 
-        <li>
-          <p>
-            Again since the statement starts ``for all'', we should start with
+     <exercise>
+    <statement>
+      <p>
+        For all integers <m>x</m>, if <m>x</m> is divisible by
+                  <m>6</m>, then <m>x</m> is divisible by <m>3</m>.
+      </p>
+    </statement>
+
+    <solution>
+    <p>
+      Again since the statement starts <q>for all</q>,, we should start with
             an arbitrary one. So assume <m>x</m> is an integer. Also assume the
             hypothesis, so assume <m>x</m> is divisible by <m>6</m>. Then prove
             that <m>x</m> is divisible by <m>3</m>.
-          </p>
-        </li>
+    </p>
+    </solution>
+    </exercise>
 
-        <li>
-          <p>
-            Assume <m>p</m> and <m>q</m> are natural numbers, and that <m>p</m>
+    <exercise>
+      <statement>
+        <p>
+          For all natural numbers <m>p</m> and <m>q</m>, if <m>p</m> and
+                  <m>q</m> are twin primes other than <m>3</m> and <m>5</m>,
+                  then <m>pq+1</m> is a perfect square and <m>36</m> divides
+                  <m>pq+1</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+           Another <q>for all</q>! Assume <m>p</m> and <m>q</m> are natural numbers, and that <m>p</m>
             and <m>q</m> are twin primes other than <m>3</m> and <m>5</m>. Prove
             that <m>36</m> divides <m>pq+1</m>.
-          </p>
-        </li>
-      </ul>
-    </p>
+        </p>
+      </solution>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          For all real numbers <m>x</m> and <m>y</m>, if <m>x&gt;y</m>
+                  then <m>x-7&gt;y-7</m>.
+        </p>
+      </statement>
+
+      <solution>
+        <p>
+          Assume <m>x,y \in\mathbb{R}</m> and <m>x &gt; y</m>. Prove that <m>x-7&gt;y-7</m>.
+        </p>
+      </solution>
+    </exercise>
+         
+          
+                  
+    <exercise>
+      <statement>
+        <p>
+           For all integers <m>a</m> and <m>b</m>, if <m>a</m> and
+                  <m>b</m> are both even, then <m>4</m> divides <m>ab</m>.
+        </p>
+      </statement>
+
+      <solution>
+        <p>
+          Assume <m>a,b\in\mathbb{Z}</m> and <m>a</m> and <m>b</m> are both even. Prove that <m>4\mid ab</m>.
+        </p>
+      </solution>
+    </exercise>
+                 
+             
+
 </paragraphs>
 </handout>
