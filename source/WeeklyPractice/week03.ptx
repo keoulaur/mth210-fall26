@@ -27,7 +27,7 @@
             <introduction>
                 <p>
                     For each pair of integers, find the unique quotient and
-                    remainder when a is divided by m.
+                    remainder when <m>a</m>is divided by <m>m</m>.
                     Then, write your answer as a congruence.
                 </p>
             </introduction>
@@ -71,8 +71,7 @@
             <task>
                 <statement>
                     <p>
-                        For all integers a and all natural numbers m, aa (mod
-                        m).
+                        For all integers <m>a</m> and all natural numbers <m>m</m>, <m>a \equiv a \pmod{m}</m>
                     </p>
                 </statement>
             </task>
@@ -80,8 +79,8 @@
             <task>
                 <statement>
                     <p>
-                        For all integers a and b, and all natural numbers m, if
-                        ab (mod m) then ba (mod m).
+                        For all integers <m>a</m> and <m>b</m>, and all natural numbers m, if
+                        <m>a \equiv b \pmod{m}</m> then <m>b \equiv a \pmod{m}</m>.
                     </p>
                 </statement>
             </task>
@@ -89,8 +88,8 @@
             <task>
                 <statement>
                     <p>
-                        For all integers a,b, and c, and all natural numbers m,
-                        if ab (mod m) and bc (mod m) then ac (mod m).
+                        For all integers <m>a,b,</m> and <m>c</m>, and all natural numbers <m>m</m>,
+                        if <m>a \equiv b\pmod{m}</m>and <m>b \equiv c\pmod{m}</m> then<m>a \equiv c\pmod{m}</m>.
                     </p>
                 </statement>
             </task>

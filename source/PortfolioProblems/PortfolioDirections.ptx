@@ -6,6 +6,8 @@
 
 <handout xml:id="pp-instructions">
     <title>The MTH 210 Proof Portfolio</title>
+<page>
+    
 
     <p>
         At the end of the semester, you will submit a proof portfolio containing
@@ -87,8 +89,14 @@
             You must write your solutions individually.
             You may only discuss your ideas with others in our section of MTH
             210 who are at the same point in solving the problem, as well as me.
+            Please do not short change or self-sabotage yourself by asking any AI or searching for anything related to these problems.
+            The struggle is learning, but if struggling starts to feel like suffering,
+            talk to me! Ask me for a hint! You totally got this! 
         </p>
     </paragraphs>
+
+</page>
+<page>
 
     <paragraphs>
         <title>Drafts, Reflections, and Deadlines</title>
@@ -146,7 +154,7 @@
                         <ul>
                             <li>
                                 <p>
-                                    did you learn a particular strategy?
+                                    Did you learn a particular strategy?
                                 </p>
                             </li>
 
@@ -183,6 +191,9 @@
                 </li>
             </dl>
         </p>
+    </paragraphs>
+            
+        
 
         <p>
             <dl>
@@ -191,7 +202,7 @@
 
                     <p>
                         Here is an
-                        <url href="https://www.overleaf.com/read/tywmwskbkzpf#82a23f" visual="example "/>
+                        <url href="https://www.overleaf.com/read/tywmwskbkzpf#82a23f" visual="example"/>, <url href="gvsu.edu/s/3v0"></url>
                         of a well done rough draft and writing revision.
                     </p>
                 </li>
@@ -231,10 +242,25 @@
                         work, see final grading.
                     </p>
                 </li>
+
+                <li>
+                    <title>Grades on written revisions</title>
+                    
+                    
+                    <p>
+                        You will recieve a grade of 10,8,6,3, or 0, based on the table in <xref ref="grading-rubric"/>. You may get a 9.9 which
+                        means it is basically a 10, but there is a small thing worth fixing.
+                    </p>
+                </li>
             </dl>
         </p>
-    </paragraphs>
 
+
+    </page>
+
+    <page>
+        
+   
     <paragraphs>
         <title>Final Product</title>
 
@@ -263,7 +289,7 @@
             Here are the point values:
             <dl>
                 <li>
-                    <title> Problems/proofs (100 points)</title>
+                    <title> Problems/proofs (100 points):</title>
 
                     <p>
                         You will complete 10 problems/proofs, 10 points each.
@@ -277,7 +303,7 @@
                         You earn 1 point for each reflection you submitted
                         during the semester (10 points), and 5 points for the
                         final reflection on the portfolio as a whole.
-                        (Questions forthcoming!)
+                        (Final questions forthcoming!)
                     </p>
                 </li>
 
@@ -294,19 +320,12 @@
             </dl>
         </p>
     </paragraphs>
+ </page>
+    
 
-   
-    <paragraphs>
-        <title>Objectives</title>
-        <p>
-            The following table lists the objectives for the proof portfolio.
-            Each objective is a skill that you should demonstrate in your
-            portfolio. </p>
-    </paragraphs>
-            <p>
-        You should strive to meet each of these objectives at least once in your portfolio.
-     </p>
 
+ <page>
+    
 
 
    <table xml:id="grading-rubric">
@@ -321,25 +340,21 @@
     <row bottom="minor">
       <cell>10 (Distinguished)</cell>
       <cell>
-        <p>A 10 is reserved for completely correct and well written proofs or solutions. Includes:</p>
-        <p>Clearly communicated understanding of key ideas</p>
+        <p>For completely correct and well written proofs or solutions. Includes:</p>
+        <p>Clearly communicated understanding of key ideas.</p>
         <p>Explanations and justifications are complete, correct, and easy to follow.</p>
-        <p>Mathematical terminology and notation are used correctly.</p>
-        <p>Reasoning flows logically.</p>
-        <p>Computations are essentially correct (could contain one or two minor errors that do not detract from the solution), well organized, and easy to follow.</p>
-        <p>Adheres to all writing guidelines.</p>
+        <p>Mathematical terminology and notation are used correctly, reasoning flows logically, and adheres to all writing guidelines.</p>
+        <p></p>
       </cell>
     </row>
     <row bottom="minor">
       <cell>8 (Proficient)</cell>
       <cell>
-        <p>For an 8 the proof or solution has the main flow of logic correct, but misses one of the high standards of a 10</p>
+        <p>The proof or solution has the main flow of logic correct, but misses one of the high standards of a 10.</p>
         <p>Communication of key ideas is essentially correct but may contain minor flaws that do not subtract significantly from the solution.</p>
-        <p>Explanations and justifications are essentially complete, correct, and can be followed, but may contain minor errors that subtract, but not significantly, from the solution.</p>
-        <p>Mathematical terminology and notation are used at least mostly correctly.</p>
-        <p>Reasoning flows logically.</p>
-        <p>Computations are essentially correct, but may contain minor errors that subtract, but not significantly, from the solution.</p>
-        <p>Adheres to at least most of the writing guidelines.</p>
+        <p>Explanations and justifications are essentially complete, correct, and can be followed, but may contain minor errors that subtract, 
+            but not significantly, from the solution.</p>
+        <p>Reasoning flows logically, Mathematical terminology and notation are used at least mostly correctly, adheres to at least most of our writing guidelines.</p>
       </cell>
     </row>
     <row bottom="minor">
@@ -348,10 +363,8 @@
         <p>A 6 is earned for proofs or solutions that show significant progress towards a solution, but have a key error.</p>
         <p>Communication contains many of the key ideas but also may contain errors that subtract significantly from the solution.</p>
         <p>Explanations and justifications exist, but are not always clear and easy to follow or they do not match the work done.</p>
-        <p>Mathematical terminology and notation are at least sometimes used correctly.</p>
-        <p>Work done has some logical foundation, but flow of ideas may not easily be followed.</p>
-        <p>A computation may contain an error that subtracts significantly from the solution.</p>
-        <p>Adheres to at least some of the writing guidelines.</p>
+        <p>Mathematical terminology and notation are at least sometimes used correctly and ddheres to at least some of the writing guidelines. </p>
+        <p> Work done has some logical foundation, but flow of ideas may not easily be followed. Or there is a computation that contains an error that subtracts significantly from the solution.</p>
       </cell>
     </row>
     <row bottom="minor">
@@ -359,22 +372,79 @@
       <cell>
         <p>A 3 is earned for proofs or solutions that have the basics, but have a major flaw that make it invalid.</p>
         <p>Communication demonstrates understanding of some key ideas, but also demonstrates a lack of understanding of other ideas.</p>
-        <p>Some claims have sufficient explanations or justifications, but some are missing entirely or are hard to follow.</p>
-        <p>There may be a significant logical error.</p>
-        <p>The solution is disorganized or contains irrelevant information or arguments.</p>
-        <p>Mathematical terminology or notation may be nonsensical or incorrectly used.</p>
-        <p>Adheres to at least a few of the writing guidelines.</p>
+        <p>Some claims have sufficient explanations or justifications, but some are missing entirely or are hard to follow, or there may be a significant logical error, or The solution is disorganized or contains irrelevant information or arguments.</p>
+        <p>Mathematical terminology or notation may be nonsensical or incorrectly used but adheres to at least a few of the writing guidelines.</p>
       </cell>
     </row>
     <row bottom="major">
       <cell>0 (Inadequate)</cell>
       <cell>
-        <p>A 0 is given to a proof or solution that is invalid and demonstrates no understanding or is work that is not your own.</p>
-        <p>The reasoning is logically invalid.</p>
-        <p>Claims are not justified or the explanations are incomprehensible.</p>
+        <p>A 0 is given to a proof or solution that is invalid (due to logic or being
+            not understandable to the reader). Or the proof is work that is not your own.</p>
       </cell>
     </row>
   </tabular>
 </table>
+ </page>
 
+<page>
+   
+    <paragraphs>
+        <title>Objectives</title>
+        <p>
+            The following table lists the objectives for the proof portfolio.
+            Each objective is a skill that you should demonstrate in your
+            portfolio. </p>
+    </paragraphs>
+            <p>
+        You should strive to meet each of these objectives at least once in your portfolio.
+     </p>
+
+     <table xml:id="table-proof-portfolio-objectives">
+  <title>Proof Portfolio Objectives</title>
+  <tabular>
+    <row header="yes" bottom="minor">
+      <cell>Code</cell>
+      <cell>Objective</cell>
+    </row>
+    <row bottom="minor">
+      <cell colspan="2"><term>Proof Methods</term></cell>
+    </row>
+    <row><cell>PM1</cell><cell>Write a correct direct proof.</cell></row>
+    <row><cell>PM2</cell><cell>Write a correct proof using the contrapositive or other logical equivalence.</cell></row>
+    <row><cell>PM3</cell><cell>Write a correct proof by contradiction.</cell></row>
+    <row><cell>PM4</cell><cell>Use cases correctly in a proof.</cell></row>
+    <row><cell>PM5</cell><cell>Write a correct proof using mathematical induction.</cell></row>
+    <row><cell>PM6</cell><cell>Correctly prove a biconditional statement in which both directions are true.</cell></row>
+    <row><cell>PM7</cell><cell>Clearly and correctly disprove a statement using a counterexample.</cell></row>
+    <row><cell>PM8</cell><cell>Correctly prove a set relation using element-chasing or set algebra.</cell></row>
+    <row><cell>PM9</cell><cell>Correctly prove that a function is injective, surjective, or bijective.</cell></row>
+    <row bottom="minor"><cell>PM10</cell><cell>Correctly cite a previously proved theorem (or a lemma) in the proof of another theorem.</cell></row>
+    <row bottom="minor" >
+      <cell colspan="2"><term>Content</term></cell>
+    </row>
+    <row><cell>Co1</cell><cell>Turn a problem/question into a theorem statement.</cell></row>
+    <row><cell>Co2</cell><cell>Correctly use the idea of closure.</cell></row>
+    <row><cell>Co3</cell><cell>Correctly use the definitions of odd and even or divisibility.</cell></row>
+    <row><cell>Co4</cell><cell>Correctly use the definitions of rational and irrational.</cell></row>
+    <row><cell>Co5</cell><cell>Correctly use congruences, modular arithmetic, and modular arithmetic shortcuts.</cell></row>
+    <row><cell>Co6</cell><cell>Fluently work with set builder notation and an arbitrary element from a set.</cell></row>
+    <row><cell>Co7</cell><cell>Correctly use function terminology (domain, codomain, range, image, and preimage).</cell></row>
+    <row bottom="minor"><cell>Co7</cell><cell>Correctly use the definition of equivalence relation and its parts (symmetric, reflexive, transitive).</cell></row>
+    <row bottom="minor" >
+      <cell colspan="2"><term>Mathematical Strategies</term></cell>
+    </row>
+    <row><cell>MS1</cell><cell>Correctly use appropriate mathematical ideas from previous classes (such as Algebra and Calculus) to solve problems.</cell></row>
+    <row><cell>MS2</cell><cell>Create a variety of concrete examples that illustrate the use of a theorem.</cell></row>
+    <row><cell>MS3</cell><cell>Create a variety of concrete examples that illustrate the use of a definition.</cell></row>
+    <row>
+        <cell>MS4</cell> <cell>Describe something clearly that is difficult to word.</cell>
+    </row>
+    <row>
+        <cell>MS5</cell> <cell><q>Mathematize</q> a statement, translating from a more common phrase, into something you can work with mathematically.</cell>
+    </row>
+  </tabular>
+</table>
+
+ </page>
 </handout>
