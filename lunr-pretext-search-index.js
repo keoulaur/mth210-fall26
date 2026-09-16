@@ -223,7 +223,52 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "2.4",
   "title": "Learning Target 3 Practice",
-  "body": " Learning Target 3 Practice   Given a statement to be proven using a direct proof, identify the assumptions to be made and the statements to be proven.   See the box on page 52 of your textbook for the outline of a direct proof. If we are trying to prove , i.e., a statement of the form if then  , we assume and show .   Practice     Examples with solutions (at bottom of page). For each, state what you would assume in a direct proof and state what you would prove in a direct proof.   For all integers , if is an odd integer, then is even.    For all integers , if is divisible by , then is divisible by .    For all natural numbers and , if and are twin primes other than and , then is a perfect square and divides .       More practice:   For all real numbers and , if then .    For all integers and , if and are both even, then divides .          Solutions     Since the statement starts ``for all'', we should start with an arbitrary one. So, assume is an integer. We also assume the hypothesis in a direct proof, so assume is an odd integer. Prove that is even.    Again since the statement starts ``for all'', we should start with an arbitrary one. So assume is an integer. Also assume the hypothesis, so assume is divisible by . Then prove that is divisible by .    Assume and are natural numbers, and that and are twin primes other than and . Prove that divides .      "
+  "body": " Learning Target 3 Practice   Given a statement to be proven using a direct proof, identify the assumptions to be made and the statements to be proven.   See the box on page 52 of your textbook for the outline of a direct proof. If we are trying to prove , i.e., a statement of the form if then  , we assume and show .   Practice    For all integers , if is an odd integer, then is even.    Since the statement starts for all , we should start with an arbitrary one. So, assume is an integer. We also assume the hypothesis in a direct proof, so assume is an odd integer. Prove that is even.      For all integers , if is divisible by , then is divisible by .    Again since the statement starts for all ,, we should start with an arbitrary one. So assume is an integer. Also assume the hypothesis, so assume is divisible by . Then prove that is divisible by .      For all natural numbers and , if and are twin primes other than and , then is a perfect square and divides .    Another for all ! Assume and are natural numbers, and that and are twin primes other than and . Prove that divides .      For all real numbers and , if then .    Assume and . Prove that .      For all integers and , if and are both even, then divides .    Assume and and are both even. Prove that .     "
+},
+{
+  "id": "targets-5-4-2",
+  "level": "2",
+  "url": "targets-5.html#targets-5-4-2",
+  "type": "Checkpoint",
+  "number": "2.3",
+  "title": "",
+  "body": "  For all integers , if is an odd integer, then is even.    Since the statement starts for all , we should start with an arbitrary one. So, assume is an integer. We also assume the hypothesis in a direct proof, so assume is an odd integer. Prove that is even.   "
+},
+{
+  "id": "targets-5-4-3",
+  "level": "2",
+  "url": "targets-5.html#targets-5-4-3",
+  "type": "Checkpoint",
+  "number": "2.4",
+  "title": "",
+  "body": "  For all integers , if is divisible by , then is divisible by .    Again since the statement starts for all ,, we should start with an arbitrary one. So assume is an integer. Also assume the hypothesis, so assume is divisible by . Then prove that is divisible by .   "
+},
+{
+  "id": "targets-5-4-4",
+  "level": "2",
+  "url": "targets-5.html#targets-5-4-4",
+  "type": "Checkpoint",
+  "number": "2.5",
+  "title": "",
+  "body": "  For all natural numbers and , if and are twin primes other than and , then is a perfect square and divides .    Another for all ! Assume and are natural numbers, and that and are twin primes other than and . Prove that divides .   "
+},
+{
+  "id": "targets-5-4-5",
+  "level": "2",
+  "url": "targets-5.html#targets-5-4-5",
+  "type": "Checkpoint",
+  "number": "2.6",
+  "title": "",
+  "body": "  For all real numbers and , if then .    Assume and . Prove that .   "
+},
+{
+  "id": "targets-5-4-6",
+  "level": "2",
+  "url": "targets-5.html#targets-5-4-6",
+  "type": "Checkpoint",
+  "number": "2.7",
+  "title": "",
+  "body": "  For all integers and , if and are both even, then divides .    Assume and and are both even. Prove that .   "
 },
 {
   "id": "targets-6",
@@ -232,7 +277,61 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "2.5",
   "title": "Learning Target 4 Practice",
-  "body": " Learning Target 4 Practice   Identify if a given set of numbers is closed under a given operation.    Need to know:     What it means for a set to be closed under an operation. See page 13 of class worksheets or Fact 2.1 on page 48 of your textbook.    You need to know what each of the following symbols mean:     You need to be able to read sets written in set or roster notation.       Practice Questions     Is closed under addition? subtraction? multiplication? division? Explain.    Is closed under addition? subtraction? multiplication? division? Explain.    Is closed under addition? subtraction? multiplication? division? Explain.    Is the set closed under addition? subtraction? multiplication? division? Explain.    Is the set closed under addition? subtraction? multiplication? division? Explain.    Is the set closed under addition? subtraction? multiplication? division? Explain.       Some Solutions     The natural numbers are closed under addition and multiplication, but not subtraction or division. If and are natural numbers, then and are natural numbers, which means the natural numbers are closed under addition and multiplication. However, and , which shows the natural numbers are not closed under subtraction. Similarly, , but .    The set is closed under addition, since any element of has the form for some . Let . Then and for some . Then and is a natural number.    The set is not closed under any of these operations. For examples of addition and multiplication, note , but     as so      as so       "
+  "body": " Learning Target 4 Practice   Identify if a given set of numbers is closed under a given operation.    Need to know:     What it means for a set to be closed under an operation. See page 19-20 of class worksheets or Fact 2.1 on page 48 of your textbook.    You need to know what each of the following symbols mean:     You need to be able to read sets written in roster notation (so continuing the pattern of the ).       Practice Questions (Solutions online!)    Is closed under addition? subtraction? multiplication? division? Explain.    The natural numbers are closed under addition and multiplication, but not subtraction or division. If and are natural numbers, then and are natural numbers, which means the natural numbers are closed under addition and multiplication. However, and , which shows the natural numbers are not closed under subtraction. Similarly, , but .      Is closed under addition? subtraction? multiplication? division? Explain.    The integers are closed under addition, subtraction, and multiplication, but not division. The same example in the previous solution works (but changing to ). That is, , but .      Is closed under addition? subtraction? multiplication? division? Explain.    The rational numbers are closed under addition, subtraction, multiplication, but not division. For example, the rational numbers are closed under multiplication because for rational numbers and where and , we have and and . (See the defintion of rational numbers!)  However, the rational numbers are not closed under division because and is not a rational number.      Is the set closed under addition? subtraction? multiplication? division? Explain.    The set is closed under addition, since any element of has the form for some . Let . Then and for some . Then and is a natural number.  However, is not closed under subtraction as , but   The set is closed under multiplication, but not division.      Is the set closed under addition? subtraction? multiplication? division? Explain.    The set is not closed under addition, subtraction, nor division. However, is closed under multiplication. We can write any element of the set as for some natural number (or 0). Taking 2 different elements of , and , we can find and show that it is odd.      Is the set closed under addition? subtraction? multiplication? division? Explain.    The set is not closed under any of these operations. For examples of addition and multiplication, note , but   as so    as so      "
+},
+{
+  "id": "targets-6-4-2",
+  "level": "2",
+  "url": "targets-6.html#targets-6-4-2",
+  "type": "Checkpoint",
+  "number": "2.8",
+  "title": "",
+  "body": "  Is closed under addition? subtraction? multiplication? division? Explain.    The natural numbers are closed under addition and multiplication, but not subtraction or division. If and are natural numbers, then and are natural numbers, which means the natural numbers are closed under addition and multiplication. However, and , which shows the natural numbers are not closed under subtraction. Similarly, , but .   "
+},
+{
+  "id": "targets-6-4-3",
+  "level": "2",
+  "url": "targets-6.html#targets-6-4-3",
+  "type": "Checkpoint",
+  "number": "2.9",
+  "title": "",
+  "body": "  Is closed under addition? subtraction? multiplication? division? Explain.    The integers are closed under addition, subtraction, and multiplication, but not division. The same example in the previous solution works (but changing to ). That is, , but .   "
+},
+{
+  "id": "targets-6-4-4",
+  "level": "2",
+  "url": "targets-6.html#targets-6-4-4",
+  "type": "Checkpoint",
+  "number": "2.10",
+  "title": "",
+  "body": "  Is closed under addition? subtraction? multiplication? division? Explain.    The rational numbers are closed under addition, subtraction, multiplication, but not division. For example, the rational numbers are closed under multiplication because for rational numbers and where and , we have and and . (See the defintion of rational numbers!)  However, the rational numbers are not closed under division because and is not a rational number.   "
+},
+{
+  "id": "targets-6-4-5",
+  "level": "2",
+  "url": "targets-6.html#targets-6-4-5",
+  "type": "Checkpoint",
+  "number": "2.11",
+  "title": "",
+  "body": "  Is the set closed under addition? subtraction? multiplication? division? Explain.    The set is closed under addition, since any element of has the form for some . Let . Then and for some . Then and is a natural number.  However, is not closed under subtraction as , but   The set is closed under multiplication, but not division.   "
+},
+{
+  "id": "targets-6-4-6",
+  "level": "2",
+  "url": "targets-6.html#targets-6-4-6",
+  "type": "Checkpoint",
+  "number": "2.12",
+  "title": "",
+  "body": "  Is the set closed under addition? subtraction? multiplication? division? Explain.    The set is not closed under addition, subtraction, nor division. However, is closed under multiplication. We can write any element of the set as for some natural number (or 0). Taking 2 different elements of , and , we can find and show that it is odd.   "
+},
+{
+  "id": "targets-6-4-7",
+  "level": "2",
+  "url": "targets-6.html#targets-6-4-7",
+  "type": "Checkpoint",
+  "number": "2.13",
+  "title": "",
+  "body": "  Is the set closed under addition? subtraction? multiplication? division? Explain.    The set is not closed under any of these operations. For examples of addition and multiplication, note , but   as so    as so    "
 },
 {
   "id": "targets-7",
