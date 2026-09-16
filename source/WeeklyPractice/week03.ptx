@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout xml:id="WP-03">
+    <title>Week 3 Weekly Practice</title>
+
+    <page>
+        <p>
+            Due the second class of the week of September 22.
+        </p>
+
+        <exercise workspace="2in">
+            <title>Exercise 2.8 (a)</title>
+
+            <statement>
+                <p>
+                    Prove that if <m>n</m> is an integer, then <m> n^2 + n </m>
+                    is an even integer.
+                </p>
+            </statement>
+        </exercise>
+    </page>
+
+    <page>
+        <exercise workspace="2in">
+            <title>Exercise 2.16</title>
+
+            <introduction>
+                <p>
+                    For each pair of integers, find the unique quotient and
+                    remainder when a is divided by m.
+                    Then, write your answer as a congruence.
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
+                    <p>
+                        <m>a=15, m=4 </m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m>a=4, m=15</m>
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m>a=-7, m=3</m>
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+    </page>
+
+    <page>
+        <exercise workspace="2in">
+            <title>Congruence Facts</title>
+
+            <introduction>
+                <p>
+                    In this problem, you will prove congruence acts a lot like
+                    “=”.
+                    Prove the following:
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
+                    <p>
+                        For all integers a and all natural numbers m, aa (mod
+                        m).
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        For all integers a and b, and all natural numbers m, if
+                        ab (mod m) then ba (mod m).
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        For all integers a,b, and c, and all natural numbers m,
+                        if ab (mod m) and bc (mod m) then ac (mod m).
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+    </page>
+</handout>

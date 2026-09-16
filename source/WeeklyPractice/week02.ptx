@@ -49,7 +49,7 @@
         <task>
             <statement>
                 <p>
-                    If n is an even integer then -n is an even integer.
+                    If <m>n</m> is an even integer then <m>-n</m> is an even integer.
                 </p>
             </statement>
         </task>
@@ -57,7 +57,7 @@
         <task>
             <statement>
                 <p>
-                    If n is an odd integer, then -n is an odd integer.
+                    If <m>n</m> is an odd integer, then <m>-n</m> is an odd integer.
                 </p>
             </statement>
         </task>

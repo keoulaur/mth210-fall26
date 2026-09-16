@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout xml:id="pp-3">
+    <title>Portfolio Problem 3</title>
+
+    <paragraphs>
+        <title>The Conjectures</title>
+
+        <p>
+            For this portfolio problem, you'll prove OR disprove BOTH of the
+            following conjectures.
+            Recall <q>conjecture</q> is a statement that is believed to be true
+            but has not yet been proven.
+            So it could be true or false.
+            Start by trying some concrete example for each conjecture.
+            You should include these examples in your handwritten draft and in
+            your writing revision.
+        </p>
+
+        <conjecture>
+            <statement>
+                <p>
+                    The sum of the cubes of any three consecutive integers is
+                    divisible by 3.
+                </p>
+            </statement>
+        </conjecture>
+
+        <conjecture>
+            <statement>
+                <p>
+                    The sum of the cubes of any three consecutive integers is
+                    divisible by 4.
+                </p>
+            </statement>
+        </conjecture>
+
+        <p>
+            After doing some examples, if you think the theorem is true, you
+            should write it as a theorem and then write a proof of it.
+            Your proof should start by <q>mathematizing</q> the theorem
+            statement.
+            (By that I mean, how do you turn <q>3 consecutive integers</q> into
+            something you can work with?)
+        </p>
+
+        <p>
+            If you believe a conjecture is false, say so and include one concrete
+            counterexample.
+            Use specific numbers and explain how they make the hypothesis true,
+            but the conclusion is false.
+            (You do not need to correct the theorem, just provide one
+            counterexample!)
+        </p>
+
+        <p>
+            A suggesting ordering for your written revision, is 
+            <ol>
+                <li>
+                    <p>
+                        First conjecture statement.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Examples related to the first conjecture.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Either write a theorem statement and a proof, or explain a counterexample.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Second conjecture statement.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Examples related to the second conjecture.
+                    </p>
+                </li>
+
+                 <li>
+                    <p>
+                        Either write a theorem statement and a proof, or explain a counterexample.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </paragraphs>
+</handout>
