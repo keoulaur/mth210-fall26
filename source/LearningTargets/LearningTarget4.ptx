@@ -51,7 +51,7 @@
                         Explain.  
             </p>
           </statement>
-<!-- 
+
           <solution>
             <p>
                  The natural numbers are closed under addition and
@@ -66,7 +66,7 @@
                         Similarly, <m>3,5\in\mathbb{N}</m>, but
                         <m>3 \div 5 = \frac{3}{5}\notin \mathbb{N}</m>.
             </p>
-          </solution> -->
+          </solution>
         </exercise>
 
         <exercise>
@@ -79,7 +79,7 @@
                         Explain.
                 </p>
             </statement>
-<!-- 
+
             <solution>
                 <p>
                     The integers are closed under addition, subtraction, and multiplication, but 
@@ -87,7 +87,7 @@
                     The same example in the previous solution works (but changing <m>\mathbb{N}</m> to <m>\mathbb{Z}</m>). That is, <m>3,5\in\mathbb{Z}</m>, but
                         <m>3 \div 5 = \frac{3}{5}\notin \mathbb{Z}</m>.
                 </p>
-            </solution> -->
+            </solution>
         </exercise>
 
         <exercise>
@@ -100,7 +100,7 @@
                         Explain.
                 </p>
             </statement>
-<!-- 
+
             <solution>
                 <p>
                     The rational numbers are closed under addition, subtraction, multiplication, but not division.
@@ -114,7 +114,7 @@
                     However, the rational numbers are not closed under division because <m>0,1\in\mathbb{Q}</m> and <m>1\div 0</m> is not 
                     a rational number.
                 </p>
-            </solution> -->
+            </solution>
         </exercise>
 
         <exercise>
@@ -129,7 +129,7 @@
                 </p>
             </statement>
 
-            <!-- <solution>
+            <solution>
                 <p>
                        The set <m>A</m> is closed under addition, since any
                         element of <m>A</m> has the form <m>2k</m> for some
@@ -147,7 +147,7 @@
                 <p>
                     The set is closed under multiplication, but not division.
                 </p>
-            </solution> -->
+            </solution>
 
     
         </exercise>
@@ -164,14 +164,14 @@
                 </p>
             </statement>
 
-            <!-- <solution>
+            <solution>
                 <p>
                     The set <m>B</m> is not closed under addition, subtraction, nor division. However, <m>B</m> is closed under
                     multiplication. We can write any element of the set <m>B</m> as <m>2k+1</m> for some natural number (or 0). 
                     Taking 2 different elements of <m>B</m>, <m>a=2k+1</m> and <m>b=2j+1</m>, we can find <m>ab</m> and show that
                     it is odd.
                 </p>
-            </solution> -->
+            </solution>
         </exercise>
 
         <exercise>
@@ -186,7 +186,7 @@
                         Explain.
                 </p>
             </statement>
-<!-- 
+
             <solution>
                 <p>
                       The set
@@ -205,7 +205,7 @@
                         <m>12\equiv 0 \pmod{4}</m> so
                         <m>12\not\equiv 2\pmod{4}</m>
                     </p>
-            </solution> -->
+            </solution>
         </exercise>
       
                
