@@ -3,25 +3,25 @@
 <handout xml:id="WP-03">
     <title>Week 3 Weekly Practice</title>
 
-    <page>
+   
         <p>
             Due the second class of the week of September 22.
         </p>
 
-        <exercise workspace="2in">
+        <exercise workspace="6in">
             <title>Exercise 2.8 (a)</title>
 
             <statement>
                 <p>
-                    Prove that if <m>n</m> is an integer, then <m> n^2 + n </m>
-                    is an even integer.
+                    Prove that if <m>n</m> is an integer, then <m> 3n^2+5n+1 </m>
+                    is an odd integer.
                 </p>
             </statement>
         </exercise>
-    </page>
 
-    <page>
-        <exercise workspace="2in">
+        
+   
+        <exercise workspace="1.5in">
             <title>Exercise 2.16</title>
 
             <introduction>
@@ -56,10 +56,8 @@
                 </statement>
             </task>
         </exercise>
-    </page>
-
-    <page>
-        <exercise workspace="2in">
+  
+        <exercise workspace="1.5in">
             <title>Congruence Facts</title>
 
             <introduction>
@@ -97,5 +95,34 @@
                 </statement>
             </task>
         </exercise>
-    </page>
+
+        <exercise workspace = "1in">
+            <title>A Reflection on Class So Far</title>
+            
+            
+            <task>
+                <statement>
+                    <p>
+                      What are 3 things you've learned so far in MTH 210?  
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        What are 2 things you are still working on understanding?
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        What is 1 thing that you have enjoyed the most in MTH 210 so far?
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+
 </handout>
