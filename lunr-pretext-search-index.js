@@ -358,7 +358,7 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "3.3",
   "title": "Week 3 Weekly Practice",
-  "body": " Week 3 Weekly Practice  Due the second class of the week of September 22.   Exercise 2.8 (a)   Prove that if is an integer, then is an odd integer.     Exercise 2.16   For each pair of integers, find the unique quotient and remainder when a is divided by m. Then, write your answer as a congruence.                          Congruence Facts   In this problem, you will prove congruence acts a lot like “=”. Prove the following:     For all integers a and all natural numbers m, aa (mod m).      For all integers a and b, and all natural numbers m, if ab (mod m) then ba (mod m).      For all integers a,b, and c, and all natural numbers m, if ab (mod m) and bc (mod m) then ac (mod m).      A Reflection on Class So Far    What are 3 things you've learned so far in MTH 210?      What are 2 things you are still working on understanding?      What is 1 thing that you have enjoyed the most in MTH 210 so far?     "
+  "body": " Week 3 Weekly Practice  Due the second class of the week of September 22.   Exercise 2.8 (a)   Prove that if is an integer, then is an odd integer.     Exercise 2.16   For each pair of integers, find the unique quotient and remainder when is divided by . Then, write your answer as a congruence.                          Congruence Facts   In this problem, you will prove congruence acts a lot like “=”. Prove the following:     For all integers and all natural numbers ,       For all integers and , and all natural numbers m, if then .      For all integers and , and all natural numbers , if and then .      A Reflection on Class So Far    What are 3 things you've learned so far in MTH 210?      What are 2 things you are still working on understanding?      What is 1 thing that you have enjoyed the most in MTH 210 so far?     "
 },
 {
   "id": "WP-03-3",
@@ -376,7 +376,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.10",
   "title": "Exercise 2.16.",
-  "body": " Exercise 2.16   For each pair of integers, find the unique quotient and remainder when a is divided by m. Then, write your answer as a congruence.                        "
+  "body": " Exercise 2.16   For each pair of integers, find the unique quotient and remainder when is divided by . Then, write your answer as a congruence.                        "
 },
 {
   "id": "WP-03-5",
@@ -385,7 +385,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.11",
   "title": "Congruence Facts.",
-  "body": " Congruence Facts   In this problem, you will prove congruence acts a lot like “=”. Prove the following:     For all integers a and all natural numbers m, aa (mod m).      For all integers a and b, and all natural numbers m, if ab (mod m) then ba (mod m).      For all integers a,b, and c, and all natural numbers m, if ab (mod m) and bc (mod m) then ac (mod m).    "
+  "body": " Congruence Facts   In this problem, you will prove congruence acts a lot like “=”. Prove the following:     For all integers and all natural numbers ,       For all integers and , and all natural numbers m, if then .      For all integers and , and all natural numbers , if and then .    "
 },
 {
   "id": "WP-03-6",
@@ -403,12 +403,12 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "4.1",
   "title": "The MTH 210 Proof Portfolio",
-  "body": " The MTH 210 Proof Portfolio  At the end of the semester, you will submit a proof portfolio containing 10 proofs.   Purpose  There are a number of reasons why this exercise is important in an introduction to proofs class:   Written communication  Perhaps one of the most important goals of the proof portfolio is to work on your ability to write well. I don't know anyone who was born a good mathematical writer. Writing mathematics is decidedly different from writing an essay (just as, you may have noticed, reading a math text is different from reading a novel) and it will take some time to get good at it. The proof portfolio gives you many opportunities to learn from mistakes.    Learning LaTeX  Mathematical typesetting in LaTeX is an important goal in this course. In future courses you'll be able to do your homework faster and better, and it will look more professional. You'll be glad you learned it, trust me!    The opportunity to act on feedback.  You will get lots of feedback on assignments in this course, especially on proof drafts. This is a chance for you and me to make sure you understand my feedback and correct mistakes. Seeing a proof through to perfection and celebrating your progress. I hope this will be satisfying!    A resource later.  You will have 10 typed proofs and at least one example of every proof technique we've learned in the course. This could be of use in the event that you ever forget, say, how induction works.       Collaboration and Resources  You may use your textbook and class notes. You may brainstorm and discuss solutions in groups, but you may not take any notes from these discussions in any form (including video recording). You must write your solutions individually. You may only discuss your ideas with others in our section of MTH 210 who are at the same point in solving the problem, as well as me.    Drafts, Reflections, and Deadlines  Each proof and reflection will have three deadlines during the semester. Exact due dates posted on Blackboard and announced in class. Estimated due dates are in the schedule.     Rough draft  First, complete a rough draft of your portfolio solution. This could be in “know-show table” format or bullet points. Your goal is to include all key mathematical ideas and work, with just enough writing and detail to make it understandable. Focus on the central ideas and don’t try to make it beautiful (yet)! Due: Friday at 5:00 pm (plus a 48 hour grace period).    Writing revision  I’ll give feedback on your rough draft very quickly, focusing only on the mathematical ideas. Spend the next week revising it and bringing the writing up to meet the professional communication specifications. This writing revision is due the following Friday at 5:00 pm (plus a 48 hour grace period).      Reflection  A week after you submit your writing revision, you will submit a reflection on the problem. This reflection will be a paragraph (say 4-5 sentences). You will submit through the Here are some questions to guide your reflection:   did you learn a particular strategy?    Did you make a mistake and what did you learn from it?    What vocabulary was important to know to do the problem?    What was a key insight you had to have to do the problem?    Was this problem particularly challenging for you? Why or why not?           Example  Here is an of a well done rough draft and writing revision.    How to submit your work  Upload PDF of your (handwritten) work to the corresponding problem number on Blackboard. You can find the problem submissions on our Blackboad course under the Portfolio (35%) folder and then the Problem Submission folder. A week later, you'll submit writing revisions to the same assignment. For the writing revision, you may want to include a “read only” link to your Overleaf document in the comments field so I can help with LaTeX. For the reflection, see the Reflection Journal in the same Problem Submission folder. This would also be a good time to think about the objectives you met for the problem. See Objectives below.    Grades on drafts  The rough draft will not receive a grade. Blackboard insists I give one, so I will enter a 0. You did NOT get a 0 on the assignment. For the written revision, I will assign a grade according to this Proof Portfolio Rubric. This grade is not final, you may continue to revise your work, see final grading.       Final Product  You will put together all of your final proofs into one Overleaf file. These final submissions are the only ones whose grades count. Everything up until then is feedback to help you write the best possible proofs. After feedback on the writing revision, you can continue to revise as much as you would like. I’m happy to meet with you during drop-in hours to talk about subsequent revisions. In the Overleaf template for the final portfolio there is a table to fill out where you will give the Blackboard grade and assign yourself a grade for each of the problems, justifying if your grade is different from the one on the writing revision, as well as a grade for reflections and overall meeting of the portfolio objectives.   Final deadline: The whole portfolio is due, with reflections and objectives at the start of our final exam time.    Here are the point values:   Problems\/proofs (100 points)  You will complete 10 problems\/proofs, 10 points each.    Reflections (15 points):  You earn 1 point for each reflection you submitted during the semester (10 points), and 5 points for the final reflection on the portfolio as a whole. (Questions forthcoming!)    Portfolio Objectives (15 points):  You will fill out a table in the final portfolio saying which objectives were achieved in your portfolio. You can assign yourself a grade for this section, but I will review it and assign a grade as well.       Objectives  The following table lists the objectives for the proof portfolio. Each objective is a skill that you should demonstrate in your portfolio.   You should strive to meet each of these objectives at least once in your portfolio.   Grading Rubric      Score  Characteristics    10 (Distinguished)   A 10 is reserved for completely correct and well written proofs or solutions. Includes:  Clearly communicated understanding of key ideas  Explanations and justifications are complete, correct, and easy to follow.  Mathematical terminology and notation are used correctly.  Reasoning flows logically.  Computations are essentially correct (could contain one or two minor errors that do not detract from the solution), well organized, and easy to follow.  Adheres to all writing guidelines.     8 (Proficient)   For an 8 the proof or solution has the main flow of logic correct, but misses one of the high standards of a 10  Communication of key ideas is essentially correct but may contain minor flaws that do not subtract significantly from the solution.  Explanations and justifications are essentially complete, correct, and can be followed, but may contain minor errors that subtract, but not significantly, from the solution.  Mathematical terminology and notation are used at least mostly correctly.  Reasoning flows logically.  Computations are essentially correct, but may contain minor errors that subtract, but not significantly, from the solution.  Adheres to at least most of the writing guidelines.     6 (Progressing significantly)   A 6 is earned for proofs or solutions that show significant progress towards a solution, but have a key error.  Communication contains many of the key ideas but also may contain errors that subtract significantly from the solution.  Explanations and justifications exist, but are not always clear and easy to follow or they do not match the work done.  Mathematical terminology and notation are at least sometimes used correctly.  Work done has some logical foundation, but flow of ideas may not easily be followed.  A computation may contain an error that subtracts significantly from the solution.  Adheres to at least some of the writing guidelines.     3 (Progressing)   A 3 is earned for proofs or solutions that have the basics, but have a major flaw that make it invalid.  Communication demonstrates understanding of some key ideas, but also demonstrates a lack of understanding of other ideas.  Some claims have sufficient explanations or justifications, but some are missing entirely or are hard to follow.  There may be a significant logical error.  The solution is disorganized or contains irrelevant information or arguments.  Mathematical terminology or notation may be nonsensical or incorrectly used.  Adheres to at least a few of the writing guidelines.     0 (Inadequate)   A 0 is given to a proof or solution that is invalid and demonstrates no understanding or is work that is not your own.  The reasoning is logically invalid.  Claims are not justified or the explanations are incomprehensible.      "
+  "body": " The MTH 210 Proof Portfolio   At the end of the semester, you will submit a proof portfolio containing 10 proofs.   Purpose  There are a number of reasons why this exercise is important in an introduction to proofs class:   Written communication  Perhaps one of the most important goals of the proof portfolio is to work on your ability to write well. I don't know anyone who was born a good mathematical writer. Writing mathematics is decidedly different from writing an essay (just as, you may have noticed, reading a math text is different from reading a novel) and it will take some time to get good at it. The proof portfolio gives you many opportunities to learn from mistakes.    Learning LaTeX  Mathematical typesetting in LaTeX is an important goal in this course. In future courses you'll be able to do your homework faster and better, and it will look more professional. You'll be glad you learned it, trust me!    The opportunity to act on feedback.  You will get lots of feedback on assignments in this course, especially on proof drafts. This is a chance for you and me to make sure you understand my feedback and correct mistakes. Seeing a proof through to perfection and celebrating your progress. I hope this will be satisfying!    A resource later.  You will have 10 typed proofs and at least one example of every proof technique we've learned in the course. This could be of use in the event that you ever forget, say, how induction works.       Collaboration and Resources  You may use your textbook and class notes. You may brainstorm and discuss solutions in groups, but you may not take any notes from these discussions in any form (including video recording). You must write your solutions individually. You may only discuss your ideas with others in our section of MTH 210 who are at the same point in solving the problem, as well as me. Please do not short change or self-sabotage yourself by asking any AI or searching for anything related to these problems. The struggle is learning, but if struggling starts to feel like suffering, talk to me! Ask me for a hint! You totally got this!      Drafts, Reflections, and Deadlines  Each proof and reflection will have three deadlines during the semester. Exact due dates posted on Blackboard and announced in class. Estimated due dates are in the schedule.     Rough draft  First, complete a rough draft of your portfolio solution. This could be in “know-show table” format or bullet points. Your goal is to include all key mathematical ideas and work, with just enough writing and detail to make it understandable. Focus on the central ideas and don’t try to make it beautiful (yet)! Due: Friday at 5:00 pm (plus a 48 hour grace period).    Writing revision  I’ll give feedback on your rough draft very quickly, focusing only on the mathematical ideas. Spend the next week revising it and bringing the writing up to meet the professional communication specifications. This writing revision is due the following Friday at 5:00 pm (plus a 48 hour grace period).      Reflection  A week after you submit your writing revision, you will submit a reflection on the problem. This reflection will be a paragraph (say 4-5 sentences). You will submit through the Here are some questions to guide your reflection:   Did you learn a particular strategy?    Did you make a mistake and what did you learn from it?    What vocabulary was important to know to do the problem?    What was a key insight you had to have to do the problem?    Was this problem particularly challenging for you? Why or why not?            Example  Here is an , of a well done rough draft and writing revision.    How to submit your work  Upload PDF of your (handwritten) work to the corresponding problem number on Blackboard. You can find the problem submissions on our Blackboad course under the Portfolio (35%) folder and then the Problem Submission folder. A week later, you'll submit writing revisions to the same assignment. For the writing revision, you may want to include a “read only” link to your Overleaf document in the comments field so I can help with LaTeX. For the reflection, see the Reflection Journal in the same Problem Submission folder. This would also be a good time to think about the objectives you met for the problem. See Objectives below.    Grades on drafts  The rough draft will not receive a grade. Blackboard insists I give one, so I will enter a 0. You did NOT get a 0 on the assignment. For the written revision, I will assign a grade according to this Proof Portfolio Rubric. This grade is not final, you may continue to revise your work, see final grading.    Grades on written revisions  You will recieve a grade of 10,8,6,3, or 0, based on the table in . You may get a 9.9 which means it is basically a 10, but there is a small thing worth fixing.        Final Product  You will put together all of your final proofs into one Overleaf file. These final submissions are the only ones whose grades count. Everything up until then is feedback to help you write the best possible proofs. After feedback on the writing revision, you can continue to revise as much as you would like. I’m happy to meet with you during drop-in hours to talk about subsequent revisions. In the Overleaf template for the final portfolio there is a table to fill out where you will give the Blackboard grade and assign yourself a grade for each of the problems, justifying if your grade is different from the one on the writing revision, as well as a grade for reflections and overall meeting of the portfolio objectives.   Final deadline: The whole portfolio is due, with reflections and objectives at the start of our final exam time.    Here are the point values:   Problems\/proofs (100 points):  You will complete 10 problems\/proofs, 10 points each.    Reflections (15 points):  You earn 1 point for each reflection you submitted during the semester (10 points), and 5 points for the final reflection on the portfolio as a whole. (Final questions forthcoming!)    Portfolio Objectives (15 points):  You will fill out a table in the final portfolio saying which objectives were achieved in your portfolio. You can assign yourself a grade for this section, but I will review it and assign a grade as well.         Grading Rubric      Score  Characteristics    10 (Distinguished)   For completely correct and well written proofs or solutions. Includes:  Clearly communicated understanding of key ideas.  Explanations and justifications are complete, correct, and easy to follow.  Mathematical terminology and notation are used correctly, reasoning flows logically, and adheres to all writing guidelines.      8 (Proficient)   The proof or solution has the main flow of logic correct, but misses one of the high standards of a 10.  Communication of key ideas is essentially correct but may contain minor flaws that do not subtract significantly from the solution.  Explanations and justifications are essentially complete, correct, and can be followed, but may contain minor errors that subtract, but not significantly, from the solution.  Reasoning flows logically, Mathematical terminology and notation are used at least mostly correctly, adheres to at least most of our writing guidelines.     6 (Progressing significantly)   A 6 is earned for proofs or solutions that show significant progress towards a solution, but have a key error.  Communication contains many of the key ideas but also may contain errors that subtract significantly from the solution.  Explanations and justifications exist, but are not always clear and easy to follow or they do not match the work done.  Mathematical terminology and notation are at least sometimes used correctly and ddheres to at least some of the writing guidelines.  Work done has some logical foundation, but flow of ideas may not easily be followed. Or there is a computation that contains an error that subtracts significantly from the solution.     3 (Progressing)   A 3 is earned for proofs or solutions that have the basics, but have a major flaw that make it invalid.  Communication demonstrates understanding of some key ideas, but also demonstrates a lack of understanding of other ideas.  Some claims have sufficient explanations or justifications, but some are missing entirely or are hard to follow, or there may be a significant logical error, or The solution is disorganized or contains irrelevant information or arguments.  Mathematical terminology or notation may be nonsensical or incorrectly used but adheres to at least a few of the writing guidelines.     0 (Inadequate)   A 0 is given to a proof or solution that is invalid (due to logic or being not understandable to the reader). Or the proof is work that is not your own.         Objectives  The following table lists the objectives for the proof portfolio. Each objective is a skill that you should demonstrate in your portfolio.   You should strive to meet each of these objectives at least once in your portfolio.   Proof Portfolio Objectives    Code  Objective    Proof Methods   PM1 Write a correct direct proof.  PM2 Write a correct proof using the contrapositive or other logical equivalence.  PM3 Write a correct proof by contradiction.  PM4 Use cases correctly in a proof.  PM5 Write a correct proof using mathematical induction.  PM6 Correctly prove a biconditional statement in which both directions are true.  PM7 Clearly and correctly disprove a statement using a counterexample.  PM8 Correctly prove a set relation using element-chasing or set algebra.  PM9 Correctly prove that a function is injective, surjective, or bijective.  PM10 Correctly cite a previously proved theorem (or a lemma) in the proof of another theorem.   Content   Co1 Turn a problem\/question into a theorem statement.  Co2 Correctly use the idea of closure.  Co3 Correctly use the definitions of odd and even or divisibility.  Co4 Correctly use the definitions of rational and irrational.  Co5 Correctly use congruences, modular arithmetic, and modular arithmetic shortcuts.  Co6 Fluently work with set builder notation and an arbitrary element from a set.  Co7 Correctly use function terminology (domain, codomain, range, image, and preimage).  Co7 Correctly use the definition of equivalence relation and its parts (symmetric, reflexive, transitive).   Mathematical Strategies   MS1 Correctly use appropriate mathematical ideas from previous classes (such as Algebra and Calculus) to solve problems.  MS2 Create a variety of concrete examples that illustrate the use of a theorem.  MS3 Create a variety of concrete examples that illustrate the use of a definition.   MS4  Describe something clearly that is difficult to word.    MS5  Mathematize a statement, translating from a more common phrase, into something you can work with mathematically.      "
 },
 {
-  "id": "pp-instructions-6-3",
+  "id": "pp-instructions-4-1-3",
   "level": "2",
-  "url": "pp-instructions.html#pp-instructions-6-3",
+  "url": "pp-instructions.html#pp-instructions-4-1-3",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -421,7 +421,16 @@ var ptx_lunr_docs = [
   "type": "Table",
   "number": "4.1",
   "title": "Grading Rubric",
-  "body": " Grading Rubric      Score  Characteristics    10 (Distinguished)   A 10 is reserved for completely correct and well written proofs or solutions. Includes:  Clearly communicated understanding of key ideas  Explanations and justifications are complete, correct, and easy to follow.  Mathematical terminology and notation are used correctly.  Reasoning flows logically.  Computations are essentially correct (could contain one or two minor errors that do not detract from the solution), well organized, and easy to follow.  Adheres to all writing guidelines.     8 (Proficient)   For an 8 the proof or solution has the main flow of logic correct, but misses one of the high standards of a 10  Communication of key ideas is essentially correct but may contain minor flaws that do not subtract significantly from the solution.  Explanations and justifications are essentially complete, correct, and can be followed, but may contain minor errors that subtract, but not significantly, from the solution.  Mathematical terminology and notation are used at least mostly correctly.  Reasoning flows logically.  Computations are essentially correct, but may contain minor errors that subtract, but not significantly, from the solution.  Adheres to at least most of the writing guidelines.     6 (Progressing significantly)   A 6 is earned for proofs or solutions that show significant progress towards a solution, but have a key error.  Communication contains many of the key ideas but also may contain errors that subtract significantly from the solution.  Explanations and justifications exist, but are not always clear and easy to follow or they do not match the work done.  Mathematical terminology and notation are at least sometimes used correctly.  Work done has some logical foundation, but flow of ideas may not easily be followed.  A computation may contain an error that subtracts significantly from the solution.  Adheres to at least some of the writing guidelines.     3 (Progressing)   A 3 is earned for proofs or solutions that have the basics, but have a major flaw that make it invalid.  Communication demonstrates understanding of some key ideas, but also demonstrates a lack of understanding of other ideas.  Some claims have sufficient explanations or justifications, but some are missing entirely or are hard to follow.  There may be a significant logical error.  The solution is disorganized or contains irrelevant information or arguments.  Mathematical terminology or notation may be nonsensical or incorrectly used.  Adheres to at least a few of the writing guidelines.     0 (Inadequate)   A 0 is given to a proof or solution that is invalid and demonstrates no understanding or is work that is not your own.  The reasoning is logically invalid.  Claims are not justified or the explanations are incomprehensible.     "
+  "body": " Grading Rubric      Score  Characteristics    10 (Distinguished)   For completely correct and well written proofs or solutions. Includes:  Clearly communicated understanding of key ideas.  Explanations and justifications are complete, correct, and easy to follow.  Mathematical terminology and notation are used correctly, reasoning flows logically, and adheres to all writing guidelines.      8 (Proficient)   The proof or solution has the main flow of logic correct, but misses one of the high standards of a 10.  Communication of key ideas is essentially correct but may contain minor flaws that do not subtract significantly from the solution.  Explanations and justifications are essentially complete, correct, and can be followed, but may contain minor errors that subtract, but not significantly, from the solution.  Reasoning flows logically, Mathematical terminology and notation are used at least mostly correctly, adheres to at least most of our writing guidelines.     6 (Progressing significantly)   A 6 is earned for proofs or solutions that show significant progress towards a solution, but have a key error.  Communication contains many of the key ideas but also may contain errors that subtract significantly from the solution.  Explanations and justifications exist, but are not always clear and easy to follow or they do not match the work done.  Mathematical terminology and notation are at least sometimes used correctly and ddheres to at least some of the writing guidelines.  Work done has some logical foundation, but flow of ideas may not easily be followed. Or there is a computation that contains an error that subtracts significantly from the solution.     3 (Progressing)   A 3 is earned for proofs or solutions that have the basics, but have a major flaw that make it invalid.  Communication demonstrates understanding of some key ideas, but also demonstrates a lack of understanding of other ideas.  Some claims have sufficient explanations or justifications, but some are missing entirely or are hard to follow, or there may be a significant logical error, or The solution is disorganized or contains irrelevant information or arguments.  Mathematical terminology or notation may be nonsensical or incorrectly used but adheres to at least a few of the writing guidelines.     0 (Inadequate)   A 0 is given to a proof or solution that is invalid (due to logic or being not understandable to the reader). Or the proof is work that is not your own.     "
+},
+{
+  "id": "table-proof-portfolio-objectives",
+  "level": "2",
+  "url": "pp-instructions.html#table-proof-portfolio-objectives",
+  "type": "Table",
+  "number": "4.2",
+  "title": "Proof Portfolio Objectives",
+  "body": " Proof Portfolio Objectives    Code  Objective    Proof Methods   PM1 Write a correct direct proof.  PM2 Write a correct proof using the contrapositive or other logical equivalence.  PM3 Write a correct proof by contradiction.  PM4 Use cases correctly in a proof.  PM5 Write a correct proof using mathematical induction.  PM6 Correctly prove a biconditional statement in which both directions are true.  PM7 Clearly and correctly disprove a statement using a counterexample.  PM8 Correctly prove a set relation using element-chasing or set algebra.  PM9 Correctly prove that a function is injective, surjective, or bijective.  PM10 Correctly cite a previously proved theorem (or a lemma) in the proof of another theorem.   Content   Co1 Turn a problem\/question into a theorem statement.  Co2 Correctly use the idea of closure.  Co3 Correctly use the definitions of odd and even or divisibility.  Co4 Correctly use the definitions of rational and irrational.  Co5 Correctly use congruences, modular arithmetic, and modular arithmetic shortcuts.  Co6 Fluently work with set builder notation and an arbitrary element from a set.  Co7 Correctly use function terminology (domain, codomain, range, image, and preimage).  Co7 Correctly use the definition of equivalence relation and its parts (symmetric, reflexive, transitive).   Mathematical Strategies   MS1 Correctly use appropriate mathematical ideas from previous classes (such as Algebra and Calculus) to solve problems.  MS2 Create a variety of concrete examples that illustrate the use of a theorem.  MS3 Create a variety of concrete examples that illustrate the use of a definition.   MS4  Describe something clearly that is difficult to word.    MS5  Mathematize a statement, translating from a more common phrase, into something you can work with mathematically.    "
 },
 {
   "id": "pp-specs",
@@ -437,7 +446,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-specs.html#wc-statement",
   "type": "Checkpoint",
-  "number": "4.2",
+  "number": "4.3",
   "title": "Include a true and correctly worded theorem statement just before the proof.",
   "body": " Include a true and correctly worded theorem statement just before the proof  Here is a typical textbook problem:   Prove that if is an integer and is odd, then is odd.   To write a solution to this problem, first turn it into a theorem statement like the following:    Theorem 1: If is an integer and is an odd integer, then is an odd integer.   The statement must be true (so make sure you've tried examples!). It should be in the form of a conditional and\/or quantified statement. Your statement must follow all other writing conventions. That includes defining any variables in the statement before you use them. For example, note how is defined right away above.  After the theorem statement is written, skip a line and write Proof and begin the proof on that same line.  In Overleaf, you can use the following code to write the theorem statement and begin the proof: \\begin{theorem} insert theorem statement here \\end{theorem} \\begin{proof} insert proof here \\end{proof}  "
 },
@@ -446,7 +455,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-specs.html#wc-assumptions",
   "type": "Checkpoint",
-  "number": "4.3",
+  "number": "4.4",
   "title": "At the very beginning of the proof, state all assumptions and explain what will be proved.",
   "body": " At the very beginning of the proof, state all assumptions and explain what will be proved  Clearly state all assumptions and say what you will prove. This may feel like you’re repeating things you just wrote in the theorem statement. That's OK! A proof should be fully self-contained. Here's an example:    Theorem 1: If is an integer and is an odd integer, then is an odd integer.   Proof. We assume that is an integer and is an odd integer. We will prove that is an odd integer.   You should always check some examples to see if a theorem statement is true or not. If it is false, give a single clear counterexample (with explanation) and then follow any additional instructions on the portfolio sheet.  "
 },
@@ -455,7 +464,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-specs.html#wc-proof-method",
   "type": "Checkpoint",
-  "number": "4.4",
+  "number": "4.5",
   "title": "State the proof method being used and any additional information required to clarify it.",
   "body": " State the proof method being used and any additional information required to clarify it  Always state the proof method being used just after the assumptions, such as We give a direct proof.   If using proof by contrapositive, contradiction, cases, or induction, clearly state the new assumptions or statement being used.  These other proof methods listed begin in Chapter 2 with proof by cases. When using any of these proof methods, first tell the reader that you are using them and clearly state the assumptions or new theorem statement before you continue the proof:    Theorem 1: If is an integer and is an odd integer, then is an odd integer.   Proof. We will prove the contrapositive of this statement, which is If is even, then is even. So, we assume that is an even integer. We will prove that is an even integer as well.   Here's another example:    Theorem: If then is an irrational number.   Proof: We will prove this theorem by contradiction. So, we assume that the negation of the statement is true. That is, we assume that and is a rational number.   "
 },
@@ -464,7 +473,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-specs.html#wc-justify",
   "type": "Checkpoint",
-  "number": "4.5",
+  "number": "4.6",
   "title": "Give clear, correct, and organized justification for each statement, and have no important errors or omissions.",
   "body": " Give clear, correct, and organized justification for each statement, and have no important errors or omissions  Directly explain why each statement is true. When in doubt, explain more!  A proof is made of statements that build up on each other. Once you've justified one statement, it becomes a building block that can be used to justify future statements. So, the sentences in your proofs must be put in a logical order so that each statement follows from the work before it. Each statement's justification must be clear and unambiguous in addition to being mathematically correct. Don't worry about being too direct or repetitive; always say exactly how you know that a statement is true. Leave nothing to the reader's imagination! The words because and by are helpful to indicate justifications.    Theorem: If is an even integer, then is an even integer.   Proof: We assume that is an even integer. We will give a direct proof that is an even integer.  Because is even by assumption, by definition we can write for some integer .  Using algebra, we know that   Because is an integer, by the closure properties of integers, is also an integer...   Each sentence in the example above contains a statement, and a justification. Make sure you can see where each one is. Sometimes justifications come before statements, other times they come after -- this is a matter of finding a way to make a sentence sound natural.  You can also justify statements using outside facts that are prerequisites for this class. Using algebra above is an example of this. You can (and should!) leave out details below the level of this class (including excessive algebra or arithmetic).  "
 },
@@ -473,7 +482,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-specs.html#wc-variables",
   "type": "Checkpoint",
-  "number": "4.6",
+  "number": "4.7",
   "title": "Define all variables and new notation before they are used.",
   "body": " Define all variables and new notation before they are used  Before using any variable, you must explain what it is. Never use a variable without defining it first. Here are some examples:   Let be the base length of the triangle.  Let .   In particular, notice that each example tells you the meaning of the variable or the set it comes from (which is like a meaning). It is also OK to define the variable immediately after using it in the same sentence, as in:   Because is even, we know that for some integer .  Therefore, for some .   Using an undefined variable is a critical logical mistake!  Similarly, you must define any new notation that you create or use within your proof. For example, if using to represent the Lucas Numbers (we'll see what these are later!), you would need to write Let represent the Lucas number before using that symbol anywhere else.  You do not need to define standard symbols that we have already defined and used in class (like for the integers.)  "
 },
@@ -482,7 +491,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-specs.html#wc-definitions",
   "type": "Checkpoint",
-  "number": "4.7",
+  "number": "4.8",
   "title": "Cite definitions clearly and correctly each time one is used.",
   "body": " Cite definitions clearly and correctly each time one is used  Every definition has two parts: A word (like even ), and a meaning for that word. Using a definition involves connecting one of these two parts to the other, so that you can use the other part.  For example, if you know a number is even, the definition lets you include the other half of the definition as a statement in your proof: There exists an integer so that . Definitions work both ways, so if you know that where is an integer, then the definition lets you state that is even.   To cite a definition, you must include a warrant or reason for why you can use it in this situation. Then, write the conclusion that the definition lets you make. Use the definition's word where it best fits and use the phrase by definition to connect these items.  It can sometimes feel repetitive to cite a definition each time you use it. That's OK! It is better to be clear and thorough, than to leave some justification out.  Good examples:   Because we are given that is even, by definition there exists an integer such that . (Here the warrant is that we are given is even. Then the conclusion comes after by definition. )  Because we have written where is an integer, by definition is an even integer. (This time the warrant is that we've already written for an integer . The conclusion is that we can say is called even. )   Note: You don't need to repeat the name of the definition multiple times in the same sentence. Use the word once, as long as it is clear which word you are using. Here's a poor example: Because we are given that is even, by definition of even there exists an integer such that . Note that even is repeated unnecessarily. This is still a correct statement, just not well-written.  "
 },
@@ -491,7 +500,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-specs.html#wc-overleaf",
   "type": "Checkpoint",
-  "number": "4.8",
+  "number": "4.9",
   "title": "Type in Overleaf.",
   "body": " Type in Overleaf  Use the provided Overleaf portfolio template and refer to the LaTeX cheat sheet for help with symbols and formatting. These are available on Blackboard.  "
 },
@@ -500,7 +509,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-specs.html#wc-spelling",
   "type": "Checkpoint",
-  "number": "4.9",
+  "number": "4.10",
   "title": "Follow all basic WRT 150 writing requirements, including spelling, grammar, and punctuation, and avoiding shorthand.",
   "body": " Follow all basic WRT 150 writing requirements, including spelling, grammar, and punctuation, and avoiding shorthand  Specifically, use correct spelling, grammar, and punctuation. Ensure each sentence is complete and has a subject and a verb (which may include mathematical symbols).  In addition, start a new paragraph when a new idea begins. Proofs often have only 1 or 2 sentences per paragraph, and it's OK to start a new paragraph as soon as there's a new idea, even if it makes for a very short paragraph. In math, we tend to write in short declarative sentences. It helps the reader process one idea at a time.  Finally, avoid shorthand words, abbreviations, or slang. For example, use substitute rather than sub in or plug in . These are both shorthands for the more precise idea of substitution.  "
 },
@@ -509,7 +518,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-specs.html#wc-we",
   "type": "Checkpoint",
-  "number": "4.10",
+  "number": "4.11",
   "title": "Use “we” instead of “I” or “you”.",
   "body": " Use we instead of I or you  The idea is to stress that you and the reader are doing the mathematics together. This really is standard in math, so it’s good practice with it now!  "
 },
@@ -518,7 +527,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-specs.html#wc-begin",
   "type": "Checkpoint",
-  "number": "4.11",
+  "number": "4.12",
   "title": "Begin every sentence with a word, not a symbol.",
   "body": " Begin every sentence with a word, not a symbol  This avoids problems with whether you should capitalize a variable or not. Symbols also make it harder to tell where a sentence begins.   Good example: Because , by definition we know that is even.   Bad example: , so by definition we know that is even.    "
 },
@@ -527,7 +536,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-specs.html#wc-formula",
   "type": "Checkpoint",
-  "number": "4.12",
+  "number": "4.13",
   "title": "Include every equation or formula in a sentence, including correct punctuation.",
   "body": " Include every equation or formula in a sentence, including correct punctuation  Every equation can be read in words, and so it must fit properly within a sentence. This includes putting a punctuation mark at the end of a sentence, even if the sentence ends with a formula. For example, notice the comma, colon, and period in this complete sentence:   Using algebra, we have:    Read this out loud: It forms a complete sentence including a verb. Here's how I would read this: Using algebra, we have: squared plus plus 1 equals zero. Notice in particular that there's a period at the end of the sentence, even though that end occurs with an equation.  "
 },
@@ -536,7 +545,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-specs.html#wc-display",
   "type": "Checkpoint",
-  "number": "4.13",
+  "number": "4.14",
   "title": "Display (center) important equations and align “<span class=\"process-math\">\\(=\\)<\/span>” signs.",
   "body": " Display (center) important equations and align signs  This means putting important equations, centered, on their own line. Only center important equations that are key to the proof or its conclusion. Minor or helper equations can be left inline. If the left side of the equation does not change, don’t repeat it. For example: You can find examples of how to do this in the sample Overleaf file.  "
 },
@@ -545,7 +554,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-specs.html#wc-symbols",
   "type": "Checkpoint",
-  "number": "4.14",
+  "number": "4.15",
   "title": "Use appropriate symbols in formulas; avoid excessive symbols (or writing out formulas in words) otherwise.",
   "body": " Use appropriate symbols in formulas; avoid excessive symbols (or writing out formulas in words) otherwise  Do not try to write out formulas in words. But also, never use a symbol or abbreviation in place of a word (such as , , , etc.   Good example: Because there exists an integer so that ...   Bad example (too many symbols): Because s.t. ...   Bad example (too many words): Because n equals two times k, ...    "
 },
@@ -554,7 +563,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-specs.html#wc-numbering",
   "type": "Checkpoint",
-  "number": "4.15",
+  "number": "4.16",
   "title": "Use equation numbers sparingly and always refer to them in the text.",
   "body": " Use equation numbers sparingly and always refer to them in the text  If you don’t need to refer to an equation by number, leave out the number. You can see examples of both in the sample Overleaf file.  "
 },
@@ -563,7 +572,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-specs.html#wc-textbook-format",
   "type": "Checkpoint",
-  "number": "4.16",
+  "number": "4.17",
   "title": "Write exponents, fractions, operations, and all other mathematical symbols in professional textbook format.",
   "body": " Write exponents, fractions, operations, and all other mathematical symbols in professional textbook format   Never use shorthand formatting. See examples in the sample Overleaf file. Here's a quick reference:    Yes!  Nooooooooo!     x^2     (x+1)\/5, or worse: x+1\/5     sqrt(7)    or  x*y    "
 },
@@ -572,7 +581,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-specs.html#wc-italics",
   "type": "Checkpoint",
-  "number": "4.17",
+  "number": "4.18",
   "title": "Write all variables in italics.",
   "body": " Write all variables in italics  This helps them stick out and distinguishes words like a from variables like .  "
 },
@@ -581,7 +590,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-specs.html#wc-summary",
   "type": "Checkpoint",
-  "number": "4.18",
+  "number": "4.19",
   "title": "Include a summary at the end of the proof and an “end of proof” symbol.",
   "body": " Include a summary at the end of the proof and an end of proof symbol  It’s considered good form to sum up the proof once you’ve finished the main writing, and to clearly show the reader where the proof ends. Briefly state what you actually proved, and put a box at the end of that line (whic will be done automatically if you use \\begin{proof} and \\end{proof} in Overleaf). This can be summarized or simplified compared to the original theorem statement, as long as it is still true.  "
 },
@@ -608,7 +617,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-2.html#pp-2-2-3",
   "type": "Theorem",
-  "number": "4.19",
+  "number": "4.20",
   "title": "",
   "body": "  If is an even integer, then is an odd integer.   "
 },
@@ -626,7 +635,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-3.html#pp-3-2-3",
   "type": "Conjecture",
-  "number": "4.20",
+  "number": "4.21",
   "title": "",
   "body": "  The sum of the cubes of any three consecutive integers is divisible by 3.   "
 },
@@ -635,7 +644,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-3.html#pp-3-2-4",
   "type": "Conjecture",
-  "number": "4.21",
+  "number": "4.22",
   "title": "",
   "body": "  The sum of the cubes of any three consecutive integers is divisible by 4.   "
 },
