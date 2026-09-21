@@ -4,6 +4,44 @@
     <title>Portfolio Problem 1 - Play Conjecture Prove</title>
 
     <p>
-        Will list problem options here!
+        <dl>
+            <li>
+                <title>Option 1: Chessboard covering problems</title>
+
+                <p>
+                    Pick a conjecture from class, or another one you.
+                    have been wondering about, about chess- boards and prove it!
+                </p>
+            </li>
+
+            <li>
+                <title>Option 2: The game SET</title>
+
+                <p>
+                    Pick a conjecture about the game SET from class, or
+                    something you are curious about, and prove it!
+                </p>
+            </li>
+
+            <li>
+                <title>Option 3: The pancake problem</title>
+
+                <p>
+                    The chef in our place is sloppy and when he prepares a stack
+                    of pancakes they come out all di!erent sizes.
+                    Therefore, when I deliver them to the customer, on the way
+                    to the table I rearrange them (so the smallest winds up on
+                    top and so on, down to the largest is on the bottom) by
+                    grabbing several from the top and flipping them over,
+                    repeating this (varying the number I flip) as many times as
+                    necessary.
+                    If there are n pancakes, what is the maximum number of flips
+                    (in terms of n) that I will ever have to use to rearrange
+                    them?
+                    Note: For this problem, you could do a proof for the maximum
+                    number of flips for 3 pancakes.
+                </p>
+            </li>
+        </dl>
     </p>
 </handout>
