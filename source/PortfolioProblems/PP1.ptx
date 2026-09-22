@@ -23,8 +23,20 @@
                 </p>
             </li>
 
+               <li>
+                <title>Option 3: Eeeny Meeny Miny Moe </title>
+                
+                
+                <p>
+                 Remember the childhood game for deciding who is <q>it</q> - eeny meeny miny moe? How could you <q>win</q>
+                  this game? This could go in a number of different directions. Different number of people? Do you want to 
+                  be the last person pointed at or not? What if you do <q>elimination</q> and go until no one is out.
+
+                </p>
+            </li>
+
             <li>
-                <title>Option 3: The pancake problem</title>
+                <title>Option 4: The pancake problem</title>
 
                 <p>
                     The chef in our place is sloppy and when he prepares a stack
@@ -42,6 +54,8 @@
                     number of flips for 3 pancakes.
                 </p>
             </li>
+
+         
         </dl>
     </p>
 </handout>
