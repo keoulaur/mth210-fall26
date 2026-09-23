@@ -844,7 +844,7 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "4.6",
   "title": "Portfolio Problem 4",
-  "body": " Portfolio Problem 4   More Conjectures  Read both of the conjectures below. Recall conjecture means that they may or may not be true! Try a variety of concrete examples of each one to see if it is true. As in Proof Portfolio 3 for this portfolio problem, you’ll prove OR disprove BOTH of the following conjectures. Your submission should address both of these conjecture and include examples of each.    For all if then or .      For all if or or .then .     "
+  "body": " Portfolio Problem 4   More Conjectures  Read both of the conjectures below. Recall conjecture means that they may or may not be true! Try a variety of concrete examples of each one to see if it is true. As in Proof Portfolio 3 for this portfolio problem, you’ll prove OR disprove BOTH of the following conjectures. Your submission should address both of these conjecture and include examples of each.    For all if then or .      For all if or or then .     "
 },
 {
   "id": "pp-4-2-3",
@@ -862,7 +862,7 @@ var ptx_lunr_docs = [
   "type": "Conjecture",
   "number": "4.24",
   "title": "",
-  "body": "  For all if or or .then .   "
+  "body": "  For all if or or then .   "
 },
 {
   "id": "ch-1-intuitiveproofs-2",
