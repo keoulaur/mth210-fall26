@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>More Practice with Congruence and Divides</title>
+
+    <page>
+        <p>
+            It will be important to both internalize the exact definitions, and
+            have some intuition.
+            This practice is to help with that!
+        </p>
+
+        <activity>
+            <title>Defintions</title>
+
+            <introduction>
+                <p>
+                    First, let's start with definitions!
+                </p>
+            </introduction>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        State the precise definition of divides below.
+                        That is, complete the sentence a
+                        <fillin characters="20"/> integer <m>a</m> divides an
+                        integer <m>b</m> if
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        State the precise definition congruence below.
+                        That is, complete the sentence for
+                        <m>a,b \in <fillin characters="5"/></m> and
+                        <m>m \in <fillin characters="5"/></m>, we say <m>a</m>
+                        is congruent to <m>b</m> modulo <m>m</m> or (in
+                        notation) <fillin characters="20"/> if
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity workspace=".3in">
+            <introduction>
+                <p>
+                    Now let's practice doing the math! You can do it intuitively if you've got an idea, but then check
+                    with the official defintion!
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
+                   <p>
+                    Determine if the following are true or false.
+                    <ol>
+                        <li>
+                            <p>
+                                <m> 3\mid 12 </m>
+                            </p>
+                        </li>
+
+                          <li>
+                            <p>
+                                <m>12 \mid 3</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>7 \mid 50</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>5 \mid 0</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>0 \mid 5</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>-4 \mid 12</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>6\mid -18</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>1 \mid 9999999</m>
+                            </p>
+                        </li>
+
+                      
+                    </ol>
+                   </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        For each of the following, determine if true or false.
+                  
+
+                    <ol>
+                        <li>
+                            <p>
+                                <m>17 \equiv  5 \pmod{6}</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>23 \equiv  2 \pmod{6}</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>8 \equiv  -4 \pmod{6}</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>100 \equiv  1 \pmod{6}</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>-1 \equiv 6 \pmod{7}</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>45 \equiv 0 \pmod{9}</m>
+                            </p>
+                        </li>
+                    </ol>
+                      </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity workspace=".5in">
+            <introduction>
+                <p>
+                    More advanced practice.
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
+                    <p>
+                        Find all integers <m>n</m> such that <m>n\mid 15</m>.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                       Find all integers <m>n</m> with <m>0\le n\le 100</m> such that <m>11\mid n</m>.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Find the smallest nonnegative integer <m>x</m> such that <m>47\equiv x\pmod{5}</m>.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Find all integers <m>x</m> such that
+                        <m>x \equiv 1 \pmod{5}</m>.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Find all integers <m>x</m> such that
+                        <m>3x\equiv 6 \pmod{9}</m> (or say that none exist).
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Find all integers <m>x</m> such that
+                        <m>5x\equiv 3 \pmod{7}</m> (or say that none exist).
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity workspace="1in">
+            <title>For fun</title>
+            
+            <introduction>
+                <p>
+                    These problems are for people who want an additional challenge/more fun.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        For which integers <m>n</m> does <m>6\mid n</m> and <m>6\mid (n+15)</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the remainder when <m>2^{100}</m> is divided by 7? 
+                        (Hint: find a pattern in powers of 2 mod 7.)
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        If you know <m>a \mid b</m>, what are 3 other divides expressions you could
+                        say?
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        We saw in class, that if you take a type <m>1</m> integer and multiply 
+                        with another type <m>1</m> integer the result is a type <m>1</m> integer. This
+                        is equivalent to saying if <m>x\equiv 1 \pmod{3}\</m> and <m>y\equiv 1 \pmod{3}</m>,
+                        then <m>xy\equiv 1 \pmod{3}</m>. So if we are multiplying <q>mod 3</q>, then <m>1 \cdot 1 = 1</m>.
+
+                        What is <m>2\cdot 2</m> <q>mod 3</q>? Can you fill out a multiplication table for 3? What about 4? 
+                        Do you see any patterns?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+    </page>
+</handout>

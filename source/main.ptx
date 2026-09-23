@@ -88,6 +88,7 @@
                 <xi:include href="./activities/02-3-Cases.ptx"/>
                 <xi:include href="./activities/02-4-Dividing.ptx"/>
                 <xi:include href="./activities/02-5-Congruence.ptx"/>
+                 <xi:include href="./activities/02-5-MorePracticeWithCong.ptx"/>
             </chapter>
 
             <chapter xml:id="ch-3-sets">
