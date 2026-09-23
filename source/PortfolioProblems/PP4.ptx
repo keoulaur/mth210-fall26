@@ -32,7 +32,7 @@
 <conjecture >
     <statement>
         <p>
-            For all <m>a,b\in\mathbb{Z}</m> if <m>a\equiv 0 \pmod{6}</m> or  or <m>b\equiv 0 \pmod{6}</m>.then 
+            For all <m>a,b\in\mathbb{Z}</m> if <m>a\equiv 0 \pmod{6}</m> or  or <m>b\equiv 0 \pmod{6}</m> then 
                 <m>b\equiv 0\pmod{6}</m>.
 
         </p>
