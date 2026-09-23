@@ -340,7 +340,52 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "2.6",
   "title": "Learning Target 5 Practice",
-  "body": " Learning Target 5 Practice   State the definition of ``a divides b'' and ``a is congruent to b modulo n'', and correctly apply these definitions in examples.    Need to know:     The definition of divides and its notation: Definition 2.8 on page 55 or page 21 of class worksheets.    The definition of congruence and its notation: Definition 2.14 on page 62 or page 27 of class worksheets.       Practice:     Pages 21 and 27 of class worksheets    Carefully state the definition of (for ) and (for and .    Given any integer , does ? does ?    Give examples of integers and such that and . Explain using the definition.    Give examples of integers and such that and . Explain using the definition.    List all integers such that . Explain using the definition.    List all integers such that . (Using is okay!)    Give an example of two integers, and , such that , where one of the integers is negative.       Some Solutions     3.  Yes, for , since is an integer and . However, in the definition of , we prohibit from being . Moreover, there is no integer such that , unless .    4.  Note since and , so . However, since (Lots of correct answers here.)    8.  Let and . Then , or since and so .      "
+  "body": " Learning Target 5 Practice   State the definition of a divides b (or ) and a is congruent to b modulo n (or ), and correctly apply these definitions in examples.    Need to know     The definition of divides and its notation: Definition 2.8 on page 55 of your textbook or page 29 of class worksheets.    The definition of congruence and its notation: Definition 2.14 on page 62 of your textbook or page 34 of class worksheets.       Practice    Given any integer , does ? does ?    Yes, for , since is an integer and . However, in the definition of , we prohibit from being . Moreover, there is no integer such that , unless .      Give examples of integers and such that and . Explain using the definition.    Note since and , so . However, since (Lots of correct answers here.)      Give examples of integers and such that and . Explain using the definition.    There are lots of answers here. E.g., you could state that but . We know as and . However, since there is no integer such that .      List all integers such that . Explain using the definition.    The integers are .      Give an example of two integers, and , such that , where one of the integers is negative.    Let and . Then , or since and so .     "
+},
+{
+  "id": "targets-7-4-2",
+  "level": "2",
+  "url": "targets-7.html#targets-7-4-2",
+  "type": "Checkpoint",
+  "number": "2.14",
+  "title": "",
+  "body": "  Given any integer , does ? does ?    Yes, for , since is an integer and . However, in the definition of , we prohibit from being . Moreover, there is no integer such that , unless .   "
+},
+{
+  "id": "targets-7-4-3",
+  "level": "2",
+  "url": "targets-7.html#targets-7-4-3",
+  "type": "Checkpoint",
+  "number": "2.15",
+  "title": "",
+  "body": "  Give examples of integers and such that and . Explain using the definition.    Note since and , so . However, since (Lots of correct answers here.)   "
+},
+{
+  "id": "targets-7-4-4",
+  "level": "2",
+  "url": "targets-7.html#targets-7-4-4",
+  "type": "Checkpoint",
+  "number": "2.16",
+  "title": "",
+  "body": "  Give examples of integers and such that and . Explain using the definition.    There are lots of answers here. E.g., you could state that but . We know as and . However, since there is no integer such that .   "
+},
+{
+  "id": "targets-7-4-5",
+  "level": "2",
+  "url": "targets-7.html#targets-7-4-5",
+  "type": "Checkpoint",
+  "number": "2.17",
+  "title": "",
+  "body": "  List all integers such that . Explain using the definition.    The integers are .   "
+},
+{
+  "id": "targets-7-4-6",
+  "level": "2",
+  "url": "targets-7.html#targets-7-4-6",
+  "type": "Checkpoint",
+  "number": "2.18",
+  "title": "",
+  "body": "  Give an example of two integers, and , such that , where one of the integers is negative.    Let and . Then , or since and so .   "
 },
 {
   "id": "notes-week-01",
@@ -494,6 +539,51 @@ var ptx_lunr_docs = [
   "number": "3.12",
   "title": "A Reflection on Class So Far.",
   "body": " A Reflection on Class So Far    What are 3 things you've learned so far in MTH 210?      What are 2 things you are still working on understanding?      What is 1 thing that you have enjoyed the most in MTH 210 so far?    "
+},
+{
+  "id": "WP-04",
+  "level": "1",
+  "url": "WP-04.html",
+  "type": "Handout",
+  "number": "3.4",
+  "title": "Week 4 Weekly Practice",
+  "body": " Week 4 Weekly Practice  Due the second class of the week of September 29.    For each of the following, justify using your intution for the notion of divides, and using the official defintion of divides (which is what we will use in proofs.).     Does ?      Does ?      Does ?      Does ?      Does ? (Can you do this without a calculator?)       When we justify things in proofs, we'll want to use the definition of congurence modulo . But, in practice, another way you might think of it is to reduce each of them modulo to a number in (i.e., find each remainder when divided by and then compare. In the following answer the questions using both the definition and the remainder.     Is ?      Is ?      Is ?       Prove that if and then .      Prove that if is any integer then n or . (Hint: Use cases based on the remainder when n is divided by 4.)    "
+},
+{
+  "id": "WP-04-3",
+  "level": "2",
+  "url": "WP-04.html#WP-04-3",
+  "type": "Checkpoint",
+  "number": "3.13",
+  "title": "",
+  "body": "  For each of the following, justify using your intution for the notion of divides, and using the official defintion of divides (which is what we will use in proofs.).     Does ?      Does ?      Does ?      Does ?      Does ? (Can you do this without a calculator?)    "
+},
+{
+  "id": "WP-04-4",
+  "level": "2",
+  "url": "WP-04.html#WP-04-4",
+  "type": "Checkpoint",
+  "number": "3.14",
+  "title": "",
+  "body": "  When we justify things in proofs, we'll want to use the definition of congurence modulo . But, in practice, another way you might think of it is to reduce each of them modulo to a number in (i.e., find each remainder when divided by and then compare. In the following answer the questions using both the definition and the remainder.     Is ?      Is ?      Is ?    "
+},
+{
+  "id": "WP-04-5",
+  "level": "2",
+  "url": "WP-04.html#WP-04-5",
+  "type": "Checkpoint",
+  "number": "3.15",
+  "title": "",
+  "body": "  Prove that if and then .   "
+},
+{
+  "id": "WP-04-6",
+  "level": "2",
+  "url": "WP-04.html#WP-04-6",
+  "type": "Checkpoint",
+  "number": "3.16",
+  "title": "",
+  "body": "  Prove that if is any integer then n or . (Hint: Use cases based on the remainder when n is divided by 4.)   "
 },
 {
   "id": "pp-instructions",
@@ -746,6 +836,33 @@ var ptx_lunr_docs = [
   "number": "4.22",
   "title": "",
   "body": "  The sum of the cubes of any three consecutive integers is divisible by 4.   "
+},
+{
+  "id": "pp-4",
+  "level": "1",
+  "url": "pp-4.html",
+  "type": "Handout",
+  "number": "4.6",
+  "title": "Portfolio Problem 4",
+  "body": " Portfolio Problem 4   More Conjectures  Read both of the conjectures below. Recall conjecture means that they may or may not be true! Try a variety of concrete examples of each one to see if it is true. As in Proof Portfolio 3 for this portfolio problem, you’ll prove OR disprove BOTH of the following conjectures. Your submission should address both of these conjecture and include examples of each.    For all if then or .      For all if or or .then .     "
+},
+{
+  "id": "pp-4-2-3",
+  "level": "2",
+  "url": "pp-4.html#pp-4-2-3",
+  "type": "Conjecture",
+  "number": "4.23",
+  "title": "",
+  "body": "  For all if then or .   "
+},
+{
+  "id": "pp-4-2-4",
+  "level": "2",
+  "url": "pp-4.html#pp-4-2-4",
+  "type": "Conjecture",
+  "number": "4.24",
+  "title": "",
+  "body": "  For all if or or .then .   "
 },
 {
   "id": "ch-1-intuitiveproofs-2",
