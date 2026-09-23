@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout xml:id="pp-4">
+    <title>Portfolio Problem 4</title>
+
+    <paragraphs>
+        <title>More Conjectures</title>
+        <p>
+            
+       
+        Read both of the
+        <em>
+            conjectures
+        </em>
+        below. Recall
+        <q>conjecture</q>
+        means that they may or may not be true! Try a variety of concrete examples of each one to see if it is true. 
+        As in <xref ref="pp-3" text ="custom"> Proof Portfolio 3</xref> for this portfolio problem, you’ll prove OR disprove BOTH of the following conjectures. Your
+        submission should address both of these conjecture and include examples of each.
+	 </p>
+	
+<conjecture >
+    <statement>
+        <p>
+            For all <m>a,b\in\mathbb{Z}</m> if <m>ab \equiv 0\pmod{6}</m> then 
+                <m>\equiv 0\pmod{6}</m> or <m>b\equiv 0 \pmod{6}</m>.
+
+        </p>
+    </statement>
+</conjecture>
+
+<conjecture >
+    <statement>
+        <p>
+            For all <m>a,b\in\mathbb{Z}</m> if <m>a\equiv 0 \pmod{6}</m> or  or <m>b\equiv 0 \pmod{6}</m>.then 
+                <m>b\equiv 0\pmod{6}</m>.
+
+        </p>
+    </statement>
+</conjecture>
+    </paragraphs>
+</handout>

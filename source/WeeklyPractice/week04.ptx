@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout xml:id="WP-04">
+    <title>Week 4 Weekly Practice</title>
+
+
+        <p>
+            Due the second class of the week of September 29.
+        </p>
+
+        <exercise workspace=".25in">
+            <introduction>
+                <p>
+                    For each of the following, justify using your intution for
+                    the notion of divides, and using the official defintion of
+                    divides (which is what we will use in proofs.).
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
+                    <p>
+                        Does <m>3\mid 51</m>?
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Does <m> -3 \mid 51 </m>?
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Does <m>7 \mid 42 </m>?
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Does <m> 7 \mid 77 </m>?
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Does <m> 7 \mid 49\cdot 3 + 77 \cdot 12 </m>?
+                        (Can you do this without a calculator?)
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+   
+        <exercise workspace=".75in">
+            <introduction>
+                <p>
+                    When we justify things in proofs, we'll want to use the
+                    definition of congurence modulo <m>n</m>.
+                    But, in practice, another way you might think of it is to
+                    reduce each of them modulo <m>n</m> to a number in
+                    <m> \{0, 1, 2, . . . , n - 1\} </m> (i.e., find each
+                    remainder when divided by <m>n</m> and then compare.
+                    In the following answer the questions using both the
+                    definition and the remainder.
+                </p>
+            </introduction>
+
+            <task>
+                <statement>
+                    <p>
+                        Is <m>342 \equiv 482 \pmod{7}</m>?
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Is <m> 25 \equiv -7\pmod{16}</m>?
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Is <m>25 \equiv 7 \pmod{16}</m>?
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+    
+        <exercise workspace="6in">
+            <statement>
+                <p>
+                    Prove that if <m>a\mid b</m> and <m>b\mid c</m> then
+                    <m>a\mid c</m>.
+                </p>
+            </statement>
+        </exercise>
+    
+        <exercise workspace="6in">
+            <statement>
+                <p>
+                    Prove that if <m>n</m> is any integer then
+                    <m>n\equiv 0 \pmod{4}</m> n or <m>n \equiv 1 \pmod{4}</m>.
+                    (Hint: Use cases based on the remainder when n is divided by
+                    4.)
+                </p>
+            </statement>
+        </exercise>
+</handout>
