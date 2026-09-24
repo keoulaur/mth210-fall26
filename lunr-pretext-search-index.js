@@ -1522,6 +1522,51 @@ var ptx_lunr_docs = [
   "body": "  For all integers and , and all natural numbers , if and then .   "
 },
 {
+  "id": "ch-2-directproofs-7",
+  "level": "1",
+  "url": "ch-2-directproofs-7.html",
+  "type": "Handout",
+  "number": "2.6",
+  "title": "More Practice with Congruence and Divides",
+  "body": " More Practice with Congruence and Divides   It will be important to both internalize the exact definitions, and have some intuition. This practice is to help with that!   Defintions   First, let's start with definitions!     State the precise definition of divides below. That is, complete the sentence a integer divides an integer if    A nonzero integer divides an integer , written , if there exists such that .      State the precise definition congruence below. That is, complete the sentence for and , we say is congruent to modulo or (in notation) if    For and , we say is congruent to modulo , written provided that .       Now let's practice doing the math! You can do it intuitively if you've got an idea, but then check with the official defintion!     Determine if the following are true or false.                                                    True. We know because and .       False. We know as there is no integer such that .       False.       True. We know as and        False. , as the definition of divides prohibits the divisor from being .       True.       True.       True.         For each of the following, determine if true or false.                                          True. We know because and so .       False. We know because as there is no integer such that .       True.       False.       True.       True.          More advanced practice.     Find all integers such that .    The integers are and .      Find all integers with such that .    The integers are and . Don't forget about !      Find the smallest nonnegative integer such that .    The smallest nonnegative integer such that is . Note that this is the remainder when you divide by . But congruence doesn't always have to be the remainder.      Find all integers such that .    We want or that there exists an integer such that , which means . In other words, every such integer is for some . We could write this in roster notation as .      Find all integers such that (or say that none exist).    We want , or that there exists an integer such that . That is, .      Find all integers such that (or say that none exist).    We want , or there exists an integer such that . This means we want an integer such that When , we have we can choose .      For fun   These problems are for people who want an additional challenge\/more fun.     For which integers does and     Suppose and . Then there exists an integer such that and an integer such that , or . This woudl mean , or . Then , or which is not true. So that's a contradiction and there is no such integer.      What is the remainder when is divided by 7? (Hint: find a pattern in powers of 2 mod 7.)      If you know , what are 3 other divides expressions you could say?      We saw in class, that if you take a type integer and multiply with another type integer the result is a type integer. This is equivalent to saying if and , then . So if we are multiplying mod 3 , then . What is  mod 3 ? Can you fill out a multiplication table for 3? What about 4? Do you see any patterns?      "
+},
+{
+  "id": "ch-2-directproofs-7-2-2",
+  "level": "2",
+  "url": "ch-2-directproofs-7.html#ch-2-directproofs-7-2-2",
+  "type": "Activity",
+  "number": "2.30",
+  "title": "Defintions.",
+  "body": " Defintions   First, let's start with definitions!     State the precise definition of divides below. That is, complete the sentence a integer divides an integer if    A nonzero integer divides an integer , written , if there exists such that .      State the precise definition congruence below. That is, complete the sentence for and , we say is congruent to modulo or (in notation) if    For and , we say is congruent to modulo , written provided that .    "
+},
+{
+  "id": "ch-2-directproofs-7-2-3",
+  "level": "2",
+  "url": "ch-2-directproofs-7.html#ch-2-directproofs-7-2-3",
+  "type": "Activity",
+  "number": "2.31",
+  "title": "",
+  "body": "  Now let's practice doing the math! You can do it intuitively if you've got an idea, but then check with the official defintion!     Determine if the following are true or false.                                                    True. We know because and .       False. We know as there is no integer such that .       False.       True. We know as and        False. , as the definition of divides prohibits the divisor from being .       True.       True.       True.         For each of the following, determine if true or false.                                          True. We know because and so .       False. We know because as there is no integer such that .       True.       False.       True.       True.       "
+},
+{
+  "id": "ch-2-directproofs-7-2-4",
+  "level": "2",
+  "url": "ch-2-directproofs-7.html#ch-2-directproofs-7-2-4",
+  "type": "Activity",
+  "number": "2.32",
+  "title": "",
+  "body": "  More advanced practice.     Find all integers such that .    The integers are and .      Find all integers with such that .    The integers are and . Don't forget about !      Find the smallest nonnegative integer such that .    The smallest nonnegative integer such that is . Note that this is the remainder when you divide by . But congruence doesn't always have to be the remainder.      Find all integers such that .    We want or that there exists an integer such that , which means . In other words, every such integer is for some . We could write this in roster notation as .      Find all integers such that (or say that none exist).    We want , or that there exists an integer such that . That is, .      Find all integers such that (or say that none exist).    We want , or there exists an integer such that . This means we want an integer such that When , we have we can choose .    "
+},
+{
+  "id": "ch-2-directproofs-7-2-5",
+  "level": "2",
+  "url": "ch-2-directproofs-7.html#ch-2-directproofs-7-2-5",
+  "type": "Activity",
+  "number": "2.33",
+  "title": "For fun.",
+  "body": " For fun   These problems are for people who want an additional challenge\/more fun.     For which integers does and     Suppose and . Then there exists an integer such that and an integer such that , or . This woudl mean , or . Then , or which is not true. So that's a contradiction and there is no such integer.      What is the remainder when is divided by 7? (Hint: find a pattern in powers of 2 mod 7.)      If you know , what are 3 other divides expressions you could say?      We saw in class, that if you take a type integer and multiply with another type integer the result is a type integer. This is equivalent to saying if and , then . So if we are multiplying mod 3 , then . What is  mod 3 ? Can you fill out a multiplication table for 3? What about 4? Do you see any patterns?    "
+},
+{
   "id": "ch-3-sets-2",
   "level": "1",
   "url": "ch-3-sets-2.html",
