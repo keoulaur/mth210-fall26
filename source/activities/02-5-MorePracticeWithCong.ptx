@@ -433,8 +433,11 @@
                     <p>
                         We want <m>7\mid (5x-3)</m>, or <m></m> there exists 
                         an integer <m>k</m> such that <m>5x-3=7k</m>. 
-                        This means we want an integer such that <m>5x = 3 + 7k.</m>
-                        When <m>k=1</m>, we have <m>5x</m> we can choose <m>x=2</m>.
+                        This means we want an integer <m>x</m> such that <m>5x = 7k + 3.</m>
+                        When <m>k=1</m>, we have <m>5x</m> we can choose <m>x=2</m>. It turns
+                        out that <m>x=37</m> is also a solution as <m>5(51) = 255 = 7(36)3</m>.
+
+                        Interesting....
                     </p>
                 </solution>
                
@@ -490,6 +493,13 @@
                         expressions you could say?
                     </p>
                 </statement>
+
+                <solution>
+                    <p>
+                        <m>a \mid (-b)</m>, <m>-a \mid b</m>, and <m>-a\mid -b</m>.
+
+                    </p>
+                </solution>
             </task>
 
             <task>
@@ -499,7 +509,7 @@
                         integer and multiply with another type <m>1</m> integer
                         the result is a type <m>1</m> integer.
                         This is equivalent to saying if
-                        <m>x\equiv 1 \pmod{3}\</m> and
+                        <m>x\equiv 1 \pmod{3}</m> and
                         <m>y\equiv 1 \pmod{3}</m>, then
                         <m>xy\equiv 1 \pmod{3}</m>.
                         So if we are multiplying <q>mod 3</q>, then
