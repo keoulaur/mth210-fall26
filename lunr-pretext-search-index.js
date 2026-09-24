@@ -547,7 +547,7 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "3.4",
   "title": "Week 4 Weekly Practice",
-  "body": " Week 4 Weekly Practice  Due the second class of the week of September 29.    For each of the following, justify using your intution for the notion of divides, and using the official defintion of divides (which is what we will use in proofs.).     Does ?      Does ?      Does ?      Does ?      Does ? (Can you do this without a calculator?)       When we justify things in proofs, we'll want to use the definition of congurence modulo . But, in practice, another way you might think of it is to reduce each of them modulo to a number in (i.e., find each remainder when divided by and then compare. In the following answer the questions using both the definition and the remainder.     Is ?      Is ?      Is ?       Prove that if and then .      Prove that if is any integer then n or . (Hint: Use cases based on the remainder when n is divided by 4.)    "
+  "body": " Week 4 Weekly Practice  Due the second class of the week of September 29.    For each of the following, justify using your intution for the notion of divides, and using the official defintion of divides (which is what we will use in proofs.).     Does ?      Does ?      Does ?      Does ?      Does ? (Can you do this without a calculator?)       When we justify things in proofs, we'll want to use the definition of congurence modulo . But, in practice, another way you might think of it is to reduce each of them modulo to a number in (i.e., find each remainder when divided by and then compare. In the following answer the questions using both the definition and the remainder.     Is ?      Is ?      Is ?       Prove that if and then .      Prove that if is any integer then n or . (Hint: Use cases based on the remainder when is divided by 4.)    "
 },
 {
   "id": "WP-04-3",
@@ -583,7 +583,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.16",
   "title": "",
-  "body": "  Prove that if is any integer then n or . (Hint: Use cases based on the remainder when n is divided by 4.)   "
+  "body": "  Prove that if is any integer then n or . (Hint: Use cases based on the remainder when is divided by 4.)   "
 },
 {
   "id": "pp-instructions",
