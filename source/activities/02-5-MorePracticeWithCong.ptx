@@ -28,6 +28,14 @@
                         integer <m>b</m> if
                     </p>
                 </statement>
+
+                <solution>
+                    <p>
+                        A nonzero integer <m>a</m> divides an integer <m>b</m>,
+                        written <m>a\mid b</m>, if there exists
+                        <m>k\in\mathbb{Z}</m> such that <m>b=mk</m>.
+                    </p>
+                </solution>
             </task>
 
             <task workspace="1in">
@@ -41,120 +49,287 @@
                         notation) <fillin characters="20"/> if
                     </p>
                 </statement>
+
+                <solution>
+                    <p>
+                        For <m>a,b\in\mathbb{Z}</m> and <m>m\in\mathbb{N}</m>,
+                        we say <m>a</m> is congruent to <m>b</m> modulo
+                        <m>m</m>, written <m>a \equiv b \pmod{m}</m> provided
+                        that <m>m \mid a-b</m>.
+                    </p>
+                </solution>
             </task>
         </activity>
 
         <activity workspace=".3in">
             <introduction>
                 <p>
-                    Now let's practice doing the math! You can do it intuitively if you've got an idea, but then check
-                    with the official defintion!
+                    Now let's practice doing the math!
+                    You can do it intuitively if you've got an idea, but then
+                    check with the official defintion!
                 </p>
             </introduction>
 
             <task>
                 <statement>
-                   <p>
-                    Determine if the following are true or false.
-                    <ol>
-                        <li>
-                            <p>
-                                <m> 3\mid 12 </m>
-                            </p>
-                        </li>
+                    <p>
+                        Determine if the following are true or false.
+                        <ol>
+                            <li>
+                                <p>
+                                    <m> 3\mid 12 </m>
+                                </p>
+                            </li>
 
-                          <li>
-                            <p>
-                                <m>12 \mid 3</m>
-                            </p>
-                        </li>
+                            <li>
+                                <p>
+                                    <m>12 \mid 3</m>
+                                </p>
+                            </li>
 
-                        <li>
-                            <p>
-                                <m>7 \mid 50</m>
-                            </p>
-                        </li>
+                            <li>
+                                <p>
+                                    <m>7 \mid 50</m>
+                                </p>
+                            </li>
 
-                        <li>
-                            <p>
-                                <m>5 \mid 0</m>
-                            </p>
-                        </li>
+                            <li>
+                                <p>
+                                    <m>5 \mid 0</m>
+                                </p>
+                            </li>
 
-                        <li>
-                            <p>
-                                <m>0 \mid 5</m>
-                            </p>
-                        </li>
+                            <li>
+                                <p>
+                                    <m>0 \mid 5</m>
+                                </p>
+                            </li>
 
-                        <li>
-                            <p>
-                                <m>-4 \mid 12</m>
-                            </p>
-                        </li>
+                            <li>
+                                <p>
+                                    <m>-4 \mid 12</m>
+                                </p>
+                            </li>
 
-                        <li>
-                            <p>
-                                <m>6\mid -18</m>
-                            </p>
-                        </li>
+                            <li>
+                                <p>
+                                    <m>6\mid -18</m>
+                                </p>
+                            </li>
 
-                        <li>
-                            <p>
-                                <m>1 \mid 9999999</m>
-                            </p>
-                        </li>
-
-                      
-                    </ol>
-                   </p>
+                            <li>
+                                <p>
+                                    <m>1 \mid 9999999</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
                 </statement>
+
+                <solution>
+                    <p>
+                        <ol>
+                            <li>
+                                <p>
+                                    <m> 3\mid 12 </m>
+                                </p>
+
+                                <p>
+                                    True.
+                                    We know <m>3\mid 12</m> because
+                                    <m>12 = 3(4)</m> and <m>4\in \mathbb{Z}</m>.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <m>12 \mid 3</m>
+                                </p>
+
+                                <p>
+                                    False.
+                                    We know <m>12 \nmid 3</m> as there is no
+                                    integer <m>k</m> such that <m>3 = 12(k)</m>.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <m>7 \mid 50</m>
+                                </p>
+
+                                <p>
+                                    False.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <m>5 \mid 0</m>
+                                </p>
+
+                                <p>
+                                    True.
+                                    We know <m>5\mid 0</m> as <m>0 = 5(0)</m>
+                                    and <m>0\in \mathbb{Z}</m>
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <m>0 \mid 5</m>
+                                </p>
+
+                                <p>
+                                    False.
+                                    <m>0\nmid 5</m>, as the definition of
+                                    divides prohibits the divisor from being
+                                    <m>0. </m>.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <m>-4 \mid 12</m>
+                                </p>
+
+                                <p>
+                                    True.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <m>6\mid -18</m>
+                                </p>
+
+                                <p>
+                                    True.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <m>1 \mid 9999999</m>
+                                </p>
+
+                                <p>
+                                    True.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
             </task>
+
             <task>
                 <statement>
                     <p>
                         For each of the following, determine if true or false.
-                  
+                        <ol>
+                            <li>
+                                <p>
+                                    <m>17 \equiv  5 \pmod{6}</m>
+                                </p>
+                            </li>
 
-                    <ol>
-                        <li>
-                            <p>
-                                <m>17 \equiv  5 \pmod{6}</m>
-                            </p>
-                        </li>
+                            <li>
+                                <p>
+                                    <m>23 \equiv  2 \pmod{6}</m>
+                                </p>
+                            </li>
 
-                        <li>
-                            <p>
-                                <m>23 \equiv  2 \pmod{6}</m>
-                            </p>
-                        </li>
+                            <li>
+                                <p>
+                                    <m>8 \equiv  -4 \pmod{6}</m>
+                                </p>
+                            </li>
 
-                        <li>
-                            <p>
-                                <m>8 \equiv  -4 \pmod{6}</m>
-                            </p>
-                        </li>
+                            <li>
+                                <p>
+                                    <m>100 \equiv  1 \pmod{6}</m>
+                                </p>
+                            </li>
 
-                        <li>
-                            <p>
-                                <m>100 \equiv  1 \pmod{6}</m>
-                            </p>
-                        </li>
+                            <li>
+                                <p>
+                                    <m>-1 \equiv 6 \pmod{7}</m>
+                                </p>
+                            </li>
 
-                        <li>
-                            <p>
-                                <m>-1 \equiv 6 \pmod{7}</m>
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                <m>45 \equiv 0 \pmod{9}</m>
-                            </p>
-                        </li>
-                    </ol>
-                      </p>
+                            <li>
+                                <p>
+                                    <m>45 \equiv 0 \pmod{9}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
                 </statement>
+
+                <solution>
+                    <p>
+                        <ol>
+                            <li>
+                                <p>
+                                    <m>17 \equiv  5 \pmod{6}</m>
+                                </p>
+                                <p>
+                                    True. We know <m>17\equiv  5 \pmod{6}</m>
+                                    because <m>6(2) \mid 17-5</m> and <m>2\in \mathbb{Z}</m>
+                                    so <m>6\mid (17-5)</m>.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <m>23 \equiv  2 \pmod{6}</m>
+                                </p>
+
+                                <p>
+                                    False. We know  <m>23 \not\equiv  2 \pmod{6}</m> because
+                                    <m>6\nmid (23-2)</m> as there is no integer <m>k</m> such
+                                    that <m>23-2 = 6k</m>.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <m>8 \equiv  -4 \pmod{6}</m>
+                                </p>
+                                <p>
+                                    True.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <m>100 \equiv  1 \pmod{6}</m>
+                                </p>
+                                <p>
+                                    False.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <m>-1 \equiv 6 \pmod{7}</m>
+                                </p>
+                                <p>
+                                    True.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <m>45 \equiv 0 \pmod{9}</m>
+                                </p>
+                                <p>
+                                    True.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
             </task>
         </activity>
 
@@ -171,22 +346,44 @@
                         Find all integers <m>n</m> such that <m>n\mid 15</m>.
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        The integers are <m>\pm 1, \pm 3, \pm 5, </m> and <m>\pm 15</m>.
+                    </p>
+                </solution>
             </task>
 
             <task>
                 <statement>
                     <p>
-                       Find all integers <m>n</m> with <m>0\le n\le 100</m> such that <m>11\mid n</m>.
+                        Find all integers <m>n</m> with <m>0\le n\le 100</m>
+                        such that <m>11\mid n</m>.
                     </p>
+                  
                 </statement>
+                   <solution>
+                    <p>
+                        The integers are <m>0, 11, 22,33, 44,55,66,77,88,</m> and <m>99</m>. Don't
+                        forget about <m>0</m>!
+                    </p>
+                </solution>
             </task>
 
             <task>
                 <statement>
                     <p>
-                        Find the smallest nonnegative integer <m>x</m> such that <m>47\equiv x\pmod{5}</m>.
+                        Find the smallest nonnegative integer <m>x</m> such that
+                        <m>47\equiv x\pmod{5}</m>.
                     </p>
                 </statement>
+
+                <solution>
+                    <p>
+                        The smallest nonnegative integer such that <m>47\equiv x\pmod{5}</m>
+                        is <m>x=2</m>. Note that this is the remainder when you divide <m>47</m>
+                        by <m>2</m>. But congruence doesn't always have to be the remainder.
+                    </p>
+                </solution>
             </task>
 
             <task>
@@ -196,6 +393,17 @@
                         <m>x \equiv 1 \pmod{5}</m>.
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        We want <m>5\mid (x-1)</m> or that
+                        there exists an integer <m>k</m> such that
+                        <m>x-1 = 5k</m>, which means <m>x = 5k+1</m>. In other
+                        words, every such integer <m>x</m> is <m>5k+1</m> for some
+                        <m>k\in\mathbb{Z}</m>.
+                        We could write this in <q>roster notation</q> as 
+                        <m>\{\dots, -4, 1, 6, 11, \dots \}</m>.
+                    </p>
+                </solution>
             </task>
 
             <task>
@@ -205,6 +413,13 @@
                         <m>3x\equiv 6 \pmod{9}</m> (or say that none exist).
                     </p>
                 </statement>
+
+                <solution>
+                    <p>
+                        We want <m>9\mid (3x-6)</m>, or that there exists an integer
+                        <m>k</m> such that <m>9k = 3x-6</m>. That is, <m>3x = 9k-6</m>.
+                    </p>
+                </solution>
             </task>
 
             <task>
@@ -214,28 +429,55 @@
                         <m>5x\equiv 3 \pmod{7}</m> (or say that none exist).
                     </p>
                 </statement>
+                 <solution>
+                    <p>
+                        We want <m>7\mid (5x-3)</m>, or <m></m> there exists 
+                        an integer <m>k</m> such that <m>5x-3=7k</m>. 
+                        This means we want an integer such that <m>5x = 3 + 7k.</m>
+                        When <m>k=1</m>, we have <m>5x</m> we can choose <m>x=2</m>.
+                    </p>
+                </solution>
+               
             </task>
         </activity>
 
         <activity workspace="1in">
             <title>For fun</title>
-            
+
             <introduction>
                 <p>
-                    These problems are for people who want an additional challenge/more fun.
+                    These problems are for people who want an additional
+                    challenge/more fun.
                 </p>
             </introduction>
+
             <task>
                 <statement>
                     <p>
-                        For which integers <m>n</m> does <m>6\mid n</m> and <m>6\mid (n+15)</m>
+                        For which integers <m>n</m> does <m>6\mid n</m> and
+                        <m>6\mid (n+15)</m>
                     </p>
                 </statement>
+
+                <solution>
+                    <p>
+                        Suppose <m>6\mid n </m> and <m>6\mid (n+15)</m>. Then there 
+                        exists an integer <m>k</m> such that <m>6k = n</m> and 
+                        an integer <m>j</m> such that <m>6j = n+15</m>, or <m>n = 6j-15</m>.
+                        This woudl mean <m>6k = 6j-15</m>, or <m>6k - 6j = 15</m>. Then
+                        <m>6(k-j) = 15</m>, or <m> 6 \mid 15 </m> which is not true. 
+                        So that's a contradiction and there is no such integer.
+                        
+                        
+                    </p>
+                </solution>
             </task>
+
             <task>
                 <statement>
                     <p>
-                        What is the remainder when <m>2^{100}</m> is divided by 7? 
+                        What is the remainder when <m>2^{100}</m> is divided by
+                        7?
                         (Hint: find a pattern in powers of 2 mod 7.)
                     </p>
                 </statement>
@@ -244,8 +486,8 @@
             <task>
                 <statement>
                     <p>
-                        If you know <m>a \mid b</m>, what are 3 other divides expressions you could
-                        say?
+                        If you know <m>a \mid b</m>, what are 3 other divides
+                        expressions you could say?
                     </p>
                 </statement>
             </task>
@@ -253,12 +495,18 @@
             <task>
                 <statement>
                     <p>
-                        We saw in class, that if you take a type <m>1</m> integer and multiply 
-                        with another type <m>1</m> integer the result is a type <m>1</m> integer. This
-                        is equivalent to saying if <m>x\equiv 1 \pmod{3}\</m> and <m>y\equiv 1 \pmod{3}</m>,
-                        then <m>xy\equiv 1 \pmod{3}</m>. So if we are multiplying <q>mod 3</q>, then <m>1 \cdot 1 = 1</m>.
-
-                        What is <m>2\cdot 2</m> <q>mod 3</q>? Can you fill out a multiplication table for 3? What about 4? 
+                        We saw in class, that if you take a type <m>1</m>
+                        integer and multiply with another type <m>1</m> integer
+                        the result is a type <m>1</m> integer.
+                        This is equivalent to saying if
+                        <m>x\equiv 1 \pmod{3}\</m> and
+                        <m>y\equiv 1 \pmod{3}</m>, then
+                        <m>xy\equiv 1 \pmod{3}</m>.
+                        So if we are multiplying <q>mod 3</q>, then
+                        <m>1 \cdot 1 = 1</m>.
+                        What is <m>2\cdot 2</m> <q>mod 3</q>?
+                        Can you fill out a multiplication table for 3?
+                        What about 4?
                         Do you see any patterns?
                     </p>
                 </statement>
