@@ -51,6 +51,7 @@
                 <xi:include href="./WeeklyPractice/week02.ptx"/>
                 <xi:include href="./WeeklyPractice/week03.ptx"/>
                 <xi:include href="./WeeklyPractice/week04.ptx"/>
+                <xi:include href="./WeeklyPractice/week05.ptx" />
                 <!-- etc. -->
             </chapter>
 
