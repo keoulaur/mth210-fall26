@@ -36,6 +36,8 @@
                 <xi:include href="./LearningTargets/LearningTarget3.ptx"/>
                 <xi:include href="./LearningTargets/LearningTarget4.ptx"/>
                 <xi:include href="./LearningTargets/LearningTarget5.ptx"/>
+                <xi:include href="./LearningTargets/LearningTarget6.ptx" />
+                <xi:include href="./LearningTargets/LearningTarget7.ptx" />
             </chapter>
 
             <chapter xml:id="weekly-practice">
@@ -49,7 +51,7 @@
 
                 <xi:include href="./WeeklyPractice/week01.ptx"/>
                 <xi:include href="./WeeklyPractice/week02.ptx"/>
-                <xi:include href="./WeeklyPractice/week03.ptx"/>
+                <xi:include href="./WeeklyPractice/week03.ptx"/>0
                 <xi:include href="./WeeklyPractice/week04.ptx"/>
                 <xi:include href="./WeeklyPractice/week05.ptx" />
                 <!-- etc. -->
