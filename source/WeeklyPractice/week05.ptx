@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<handout xml:id="WP-05">
+<worksheet xml:id="WP-05">
     <title>Week 5 Weekly Practice</title>
 <page>
     
@@ -250,4 +250,4 @@
     </exercise>
 
 </page>
-</handout>
+</worksheet>

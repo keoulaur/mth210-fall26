@@ -65,6 +65,7 @@
                 <xi:include href="./PortfolioProblems/PP2.ptx" />
                 <xi:include href="./PortfolioProblems/PP3.ptx" />
                 <xi:include href="./PortfolioProblems/PP4.ptx" />
+                <xi:include href="./PortfolioProblems/PP5.ptx" />
             
             </chapter>
         </part>

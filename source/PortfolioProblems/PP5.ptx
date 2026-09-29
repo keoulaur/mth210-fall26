@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout xml:id="pp-5">
+    <title>Portfolio Problem 5</title>
+
+  <p>
+    All problems are in an Overleaf document at
+    <url href="https://gvsu.edu/s/3tn"/>.
+    The writing guidelines are at
+    <url href="https://gvsu.edu/s/3to"/>.
+    There's a sample portfolio solution at
+    <url href="https://gvsu.edu/s/3v0"/>.
+    There's an Overleaf Cheat Sheet at
+    <url href="https://gvsu.edu/s/3OL"/>.
+  </p>
+
+  <p>
+    <alert>Instructions:</alert>
+    Pick ONE of the following 3 problems. You might begin by doing an example,
+    or listing out the elements in roster notation. Your proof should use the
+    <q>choose an element</q> method discussed in class. For set equality,
+    e.g., <m>A = B</m> you should prove both <m>A\subseteq B</m> and
+    <m>B\subseteq A</m>. For proper subset, e.g., <m>A\subset B</m> you should
+    prove <m>A\subseteq B</m> and <m>A\neq B</m>.
+  </p>
+
+  <paragraphs>
+    <title>Option A</title>
+    <p>
+      If <m>A, B,</m> and <m>C</m> are subsets of some universal set
+      <m>U</m> then
+      <md>(A-B) \times C = (A\times C) - (B\times C).</md>
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Option B</title>
+    <p>
+      Let <m>X = \{x \in\mathbb{Z} : x \equiv 2 \pmod{6} \}</m> and
+      <m>Y = \{y\in\mathbb{Z} : 3 \mid y-5\}</m>. Prove that one of these
+      sets is a proper subset of the other (stating your result as a theorem).
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Option C</title>
+    <p>
+      Let <m>A = \{ x\in\mathbb{Z} : 4\mid x-7\}</m> and
+      <m>B = \{x\in\mathbb{Z}: x \equiv 3 \pmod{12}\}</m>. Then
+      <m>A=B</m>.
+    </p>
+  </paragraphs>
+
+<paragraphs>
+   
+
+  <title>Some LaTeX Notes</title>
+
+  <p>For option A:</p>
+  <p>
+    <cd>$(A-B) \times  C = (A\times B) -(A\times C)$</cd>
+  </p>
+
+  <p>For option B:</p>
+  <p>
+    <cd>$X = \{x \in\mathbb{Z} : x \equiv 2 \pmod{6} \}$ and $Y = \{y\in\mathbb{Z} : 3 \mid y-5\}$</cd>
+    (The <c>\</c> makes the set braces appear.) You could also use
+    <c>\Z</c> if you are using my LaTeX file (instead of
+    <c>\mathbb{Z}</c>).
+  </p>
+
+  <p>For option C:</p>
+  <p>
+    <cd>$A = \{ x\in\mathbb{Z} : 4\mid x-7\}$</cd>
+    <cd>$B = \{x\in\mathbb{Z}: x \equiv 3 \pmod{12}\}$.</cd>
+  </p>
+</paragraphs>
+</handout>
