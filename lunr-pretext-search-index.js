@@ -388,6 +388,114 @@ var ptx_lunr_docs = [
   "body": "  Give an example of two integers, and , such that , where one of the integers is negative.    Let and . Then , or since and so .   "
 },
 {
+  "id": "targets-8",
+  "level": "1",
+  "url": "targets-8.html",
+  "type": "Handout",
+  "number": "2.7",
+  "title": "Learning Target 6 Practice",
+  "body": " Learning Target 6 Practice   Create and translate sets using set builder notation and fluently work with sets written in set builder notation.    Need to know     Given a set in set-builder notation, write in roster notation (if possible).    Given a set in roster notation, write in set-builder notation.       Practice    Given any integer , does ? does ?    Yes, for , since is an integer and . However, in the definition of , we prohibit from being . Moreover, there is no integer such that , unless .      Give examples of integers and such that and . Explain using the definition.    Note since and , so . However, since (Lots of correct answers here.)      Give examples of integers and such that and . Explain using the definition.    There are lots of answers here. E.g., you could state that but . We know as and . However, since there is no integer such that .      List all integers such that . Explain using the definition.    The integers are .      Give an example of two integers, and , such that , where one of the integers is negative.    Let and . Then , or since and so .     "
+},
+{
+  "id": "targets-8-4-2",
+  "level": "2",
+  "url": "targets-8.html#targets-8-4-2",
+  "type": "Checkpoint",
+  "number": "2.19",
+  "title": "",
+  "body": "  Given any integer , does ? does ?    Yes, for , since is an integer and . However, in the definition of , we prohibit from being . Moreover, there is no integer such that , unless .   "
+},
+{
+  "id": "targets-8-4-3",
+  "level": "2",
+  "url": "targets-8.html#targets-8-4-3",
+  "type": "Checkpoint",
+  "number": "2.20",
+  "title": "",
+  "body": "  Give examples of integers and such that and . Explain using the definition.    Note since and , so . However, since (Lots of correct answers here.)   "
+},
+{
+  "id": "targets-8-4-4",
+  "level": "2",
+  "url": "targets-8.html#targets-8-4-4",
+  "type": "Checkpoint",
+  "number": "2.21",
+  "title": "",
+  "body": "  Give examples of integers and such that and . Explain using the definition.    There are lots of answers here. E.g., you could state that but . We know as and . However, since there is no integer such that .   "
+},
+{
+  "id": "targets-8-4-5",
+  "level": "2",
+  "url": "targets-8.html#targets-8-4-5",
+  "type": "Checkpoint",
+  "number": "2.22",
+  "title": "",
+  "body": "  List all integers such that . Explain using the definition.    The integers are .   "
+},
+{
+  "id": "targets-8-4-6",
+  "level": "2",
+  "url": "targets-8.html#targets-8-4-6",
+  "type": "Checkpoint",
+  "number": "2.23",
+  "title": "",
+  "body": "  Give an example of two integers, and , such that , where one of the integers is negative.    Let and . Then , or since and so .   "
+},
+{
+  "id": "targets-9",
+  "level": "1",
+  "url": "targets-9.html",
+  "type": "Handout",
+  "number": "2.8",
+  "title": "Learning Target 7 Practice",
+  "body": " Learning Target 7 Practice   Use the symbols related to sets (like correctly.   Need to know     What each symbol in the list means!    How to deal with sets inside of sets.       Practice    Given any integer , does ? does ?    Yes, for , since is an integer and . However, in the definition of , we prohibit from being . Moreover, there is no integer such that , unless .      Give examples of integers and such that and . Explain using the definition.    Note since and , so . However, since (Lots of correct answers here.)      Give examples of integers and such that and . Explain using the definition.    There are lots of answers here. E.g., you could state that but . We know as and . However, since there is no integer such that .      List all integers such that . Explain using the definition.    The integers are .      Give an example of two integers, and , such that , where one of the integers is negative.    Let and . Then , or since and so .     "
+},
+{
+  "id": "targets-9-4-2",
+  "level": "2",
+  "url": "targets-9.html#targets-9-4-2",
+  "type": "Checkpoint",
+  "number": "2.24",
+  "title": "",
+  "body": "  Given any integer , does ? does ?    Yes, for , since is an integer and . However, in the definition of , we prohibit from being . Moreover, there is no integer such that , unless .   "
+},
+{
+  "id": "targets-9-4-3",
+  "level": "2",
+  "url": "targets-9.html#targets-9-4-3",
+  "type": "Checkpoint",
+  "number": "2.25",
+  "title": "",
+  "body": "  Give examples of integers and such that and . Explain using the definition.    Note since and , so . However, since (Lots of correct answers here.)   "
+},
+{
+  "id": "targets-9-4-4",
+  "level": "2",
+  "url": "targets-9.html#targets-9-4-4",
+  "type": "Checkpoint",
+  "number": "2.26",
+  "title": "",
+  "body": "  Give examples of integers and such that and . Explain using the definition.    There are lots of answers here. E.g., you could state that but . We know as and . However, since there is no integer such that .   "
+},
+{
+  "id": "targets-9-4-5",
+  "level": "2",
+  "url": "targets-9.html#targets-9-4-5",
+  "type": "Checkpoint",
+  "number": "2.27",
+  "title": "",
+  "body": "  List all integers such that . Explain using the definition.    The integers are .   "
+},
+{
+  "id": "targets-9-4-6",
+  "level": "2",
+  "url": "targets-9.html#targets-9-4-6",
+  "type": "Checkpoint",
+  "number": "2.28",
+  "title": "",
+  "body": "  Give an example of two integers, and , such that , where one of the integers is negative.    Let and . Then , or since and so .   "
+},
+{
   "id": "notes-week-01",
   "level": "1",
   "url": "notes-week-01.html",
@@ -592,7 +700,7 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "3.5",
   "title": "Week 5 Weekly Practice",
-  "body": " Week 5 Weekly Practice   Due the second class of the week of October 5.     Exercise 3.3 . Rewrite each of the following sets by listing their elements between braces (roster notation). If it is an infinite set, write out enough elements for the reader to see the pattern, then use ellipses.                                            Exercise 3.4 Suppose , , , and the universal set is . Determine the following.                                           Rewrite each of the following sets in set-builder notation.                                    Determine whether each of the following are true or false.                                                         Prove that .     "
+  "body": " Week 5 Weekly Practice   Due the second class of the week of October 5.   Exercise 3.3   Rewrite each of the following sets by listing their elements between braces (roster notation). If it is an infinite set, write out enough elements for the reader to see the pattern, then use ellipses.                                          Exercise 3.4   Suppose , , , and the universal set is . Determine the following.                                          Exercise 3.5   Rewrite each of the following sets in set-builder notation.                                   Exercise 3.8   Determine whether each of the following are true or false.                                                        Exercise 3.19 (b)   Prove that .     "
 },
 {
   "id": "WP-05-2-2",
@@ -600,8 +708,8 @@ var ptx_lunr_docs = [
   "url": "WP-05.html#WP-05-2-2",
   "type": "Checkpoint",
   "number": "",
-  "title": "",
-  "body": "   Exercise 3.3 . Rewrite each of the following sets by listing their elements between braces (roster notation). If it is an infinite set, write out enough elements for the reader to see the pattern, then use ellipses.                                      "
+  "title": "Exercise 3.3.",
+  "body": " Exercise 3.3   Rewrite each of the following sets by listing their elements between braces (roster notation). If it is an infinite set, write out enough elements for the reader to see the pattern, then use ellipses.                                      "
 },
 {
   "id": "WP-05-3-1",
@@ -609,8 +717,8 @@ var ptx_lunr_docs = [
   "url": "WP-05.html#WP-05-3-1",
   "type": "Checkpoint",
   "number": "",
-  "title": "",
-  "body": "   Exercise 3.4 Suppose , , , and the universal set is . Determine the following.                                      "
+  "title": "Exercise 3.4.",
+  "body": " Exercise 3.4   Suppose , , , and the universal set is . Determine the following.                                      "
 },
 {
   "id": "WP-05-4-1",
@@ -618,8 +726,8 @@ var ptx_lunr_docs = [
   "url": "WP-05.html#WP-05-4-1",
   "type": "Checkpoint",
   "number": "",
-  "title": "",
-  "body": "  Rewrite each of the following sets in set-builder notation.                               "
+  "title": "Exercise 3.5.",
+  "body": " Exercise 3.5   Rewrite each of the following sets in set-builder notation.                               "
 },
 {
   "id": "WP-05-5-1",
@@ -627,8 +735,8 @@ var ptx_lunr_docs = [
   "url": "WP-05.html#WP-05-5-1",
   "type": "Checkpoint",
   "number": "",
-  "title": "",
-  "body": "  Determine whether each of the following are true or false.                                                    "
+  "title": "Exercise 3.8.",
+  "body": " Exercise 3.8   Determine whether each of the following are true or false.                                                    "
 },
 {
   "id": "WP-05-6-1",
@@ -636,8 +744,8 @@ var ptx_lunr_docs = [
   "url": "WP-05.html#WP-05-6-1",
   "type": "Checkpoint",
   "number": "",
-  "title": "",
-  "body": "  Prove that .   "
+  "title": "Exercise 3.19 (b).",
+  "body": " Exercise 3.19 (b)   Prove that .   "
 },
 {
   "id": "pp-instructions",
