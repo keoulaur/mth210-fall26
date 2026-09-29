@@ -586,6 +586,60 @@ var ptx_lunr_docs = [
   "body": "  Prove that if is any integer then n or . (Hint: Use cases based on the remainder when is divided by 4.)   "
 },
 {
+  "id": "WP-05",
+  "level": "1",
+  "url": "WP-05.html",
+  "type": "Handout",
+  "number": "3.5",
+  "title": "Week 5 Weekly Practice",
+  "body": " Week 5 Weekly Practice   Due the second class of the week of October 5.     Exercise 3.3 . Rewrite each of the following sets by listing their elements between braces (roster notation). If it is an infinite set, write out enough elements for the reader to see the pattern, then use ellipses.                                            Exercise 3.4 Suppose , , , and the universal set is . Determine the following.                                           Rewrite each of the following sets in set-builder notation.                                    Determine whether each of the following are true or false.                                                         Prove that .     "
+},
+{
+  "id": "WP-05-2-2",
+  "level": "2",
+  "url": "WP-05.html#WP-05-2-2",
+  "type": "Checkpoint",
+  "number": "",
+  "title": "",
+  "body": "   Exercise 3.3 . Rewrite each of the following sets by listing their elements between braces (roster notation). If it is an infinite set, write out enough elements for the reader to see the pattern, then use ellipses.                                      "
+},
+{
+  "id": "WP-05-3-1",
+  "level": "2",
+  "url": "WP-05.html#WP-05-3-1",
+  "type": "Checkpoint",
+  "number": "",
+  "title": "",
+  "body": "   Exercise 3.4 Suppose , , , and the universal set is . Determine the following.                                      "
+},
+{
+  "id": "WP-05-4-1",
+  "level": "2",
+  "url": "WP-05.html#WP-05-4-1",
+  "type": "Checkpoint",
+  "number": "",
+  "title": "",
+  "body": "  Rewrite each of the following sets in set-builder notation.                               "
+},
+{
+  "id": "WP-05-5-1",
+  "level": "2",
+  "url": "WP-05.html#WP-05-5-1",
+  "type": "Checkpoint",
+  "number": "",
+  "title": "",
+  "body": "  Determine whether each of the following are true or false.                                                    "
+},
+{
+  "id": "WP-05-6-1",
+  "level": "2",
+  "url": "WP-05.html#WP-05-6-1",
+  "type": "Checkpoint",
+  "number": "",
+  "title": "",
+  "body": "  Prove that .   "
+},
+{
   "id": "pp-instructions",
   "level": "1",
   "url": "pp-instructions.html",
