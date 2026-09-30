@@ -394,52 +394,25 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "2.7",
   "title": "Learning Target 6 Practice",
-  "body": " Learning Target 6 Practice   Create and translate sets using set builder notation and fluently work with sets written in set builder notation.    Need to know     Given a set in set-builder notation, write in roster notation (if possible).    Given a set in roster notation, write in set-builder notation.       Practice    Given any integer , does ? does ?    Yes, for , since is an integer and . However, in the definition of , we prohibit from being . Moreover, there is no integer such that , unless .      Give examples of integers and such that and . Explain using the definition.    Note since and , so . However, since (Lots of correct answers here.)      Give examples of integers and such that and . Explain using the definition.    There are lots of answers here. E.g., you could state that but . We know as and . However, since there is no integer such that .      List all integers such that . Explain using the definition.    The integers are .      Give an example of two integers, and , such that , where one of the integers is negative.    Let and . Then , or since and so .     "
+  "body": " Learning Target 6 Practice   Create and translate sets using set builder notation and fluently work with sets written in set builder notation.    Need to know     Given a set in set-builder notation, write in roster notation (if possible).    Given a set in roster notation, write in set-builder notation.       Practice From Class\/Homework     Weekly Practice 5 Exercsie 3.3 (a) and (e) and Weekly Practice 5 Exercise 3.5 (all parts)    Worksheets page 41.       Practice Questions    Write the following sets in roster notation (if possible).                                                                                                          This one is impossible! This is all real numbers strictly between and . but there's no way to list all the real numbers, or create a pattern of them in a list.       Write the following in set-builder notation. Note there are many possible answers!      is the set of all integers that are a perfect square, i.e.,                              or        is the set of all real numbers for which (do not actually find these!)                        is the set of all integers congruent to modulo                        "
 },
 {
-  "id": "targets-8-4-2",
+  "id": "targets-8-5-2",
   "level": "2",
-  "url": "targets-8.html#targets-8-4-2",
+  "url": "targets-8.html#targets-8-5-2",
   "type": "Checkpoint",
   "number": "2.19",
   "title": "",
-  "body": "  Given any integer , does ? does ?    Yes, for , since is an integer and . However, in the definition of , we prohibit from being . Moreover, there is no integer such that , unless .   "
+  "body": "  Write the following sets in roster notation (if possible).                                                                                                          This one is impossible! This is all real numbers strictly between and . but there's no way to list all the real numbers, or create a pattern of them in a list.    "
 },
 {
-  "id": "targets-8-4-3",
+  "id": "targets-8-5-3",
   "level": "2",
-  "url": "targets-8.html#targets-8-4-3",
+  "url": "targets-8.html#targets-8-5-3",
   "type": "Checkpoint",
   "number": "2.20",
   "title": "",
-  "body": "  Give examples of integers and such that and . Explain using the definition.    Note since and , so . However, since (Lots of correct answers here.)   "
-},
-{
-  "id": "targets-8-4-4",
-  "level": "2",
-  "url": "targets-8.html#targets-8-4-4",
-  "type": "Checkpoint",
-  "number": "2.21",
-  "title": "",
-  "body": "  Give examples of integers and such that and . Explain using the definition.    There are lots of answers here. E.g., you could state that but . We know as and . However, since there is no integer such that .   "
-},
-{
-  "id": "targets-8-4-5",
-  "level": "2",
-  "url": "targets-8.html#targets-8-4-5",
-  "type": "Checkpoint",
-  "number": "2.22",
-  "title": "",
-  "body": "  List all integers such that . Explain using the definition.    The integers are .   "
-},
-{
-  "id": "targets-8-4-6",
-  "level": "2",
-  "url": "targets-8.html#targets-8-4-6",
-  "type": "Checkpoint",
-  "number": "2.23",
-  "title": "",
-  "body": "  Give an example of two integers, and , such that , where one of the integers is negative.    Let and . Then , or since and so .   "
+  "body": "  Write the following in set-builder notation. Note there are many possible answers!      is the set of all integers that are a perfect square, i.e.,                              or        is the set of all real numbers for which (do not actually find these!)                        is the set of all integers congruent to modulo                      "
 },
 {
   "id": "targets-9",
@@ -448,52 +421,25 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "2.8",
   "title": "Learning Target 7 Practice",
-  "body": " Learning Target 7 Practice   Use the symbols related to sets (like correctly.   Need to know     What each symbol in the list means!    How to deal with sets inside of sets.       Practice    Given any integer , does ? does ?    Yes, for , since is an integer and . However, in the definition of , we prohibit from being . Moreover, there is no integer such that , unless .      Give examples of integers and such that and . Explain using the definition.    Note since and , so . However, since (Lots of correct answers here.)      Give examples of integers and such that and . Explain using the definition.    There are lots of answers here. E.g., you could state that but . We know as and . However, since there is no integer such that .      List all integers such that . Explain using the definition.    The integers are .      Give an example of two integers, and , such that , where one of the integers is negative.    Let and . Then , or since and so .     "
+  "body": " Learning Target 7 Practice   Use the symbols related to sets (like ) correctly. The question may ask you for one appropriate symbol, or all the symbols that work!   Need to know     What each symbol in the list means!    How to deal with sets inside of sets.       Practice:    Let , , . Fill in the blanks with an appropriate symbol from the list .                                                                                          Fill in the following blanks with all appropriate symbols from the list .                                                                                         "
 },
 {
   "id": "targets-9-4-2",
   "level": "2",
   "url": "targets-9.html#targets-9-4-2",
   "type": "Checkpoint",
-  "number": "2.24",
+  "number": "2.21",
   "title": "",
-  "body": "  Given any integer , does ? does ?    Yes, for , since is an integer and . However, in the definition of , we prohibit from being . Moreover, there is no integer such that , unless .   "
+  "body": "  Let , , . Fill in the blanks with an appropriate symbol from the list .                                                                                       "
 },
 {
   "id": "targets-9-4-3",
   "level": "2",
   "url": "targets-9.html#targets-9-4-3",
   "type": "Checkpoint",
-  "number": "2.25",
+  "number": "2.22",
   "title": "",
-  "body": "  Give examples of integers and such that and . Explain using the definition.    Note since and , so . However, since (Lots of correct answers here.)   "
-},
-{
-  "id": "targets-9-4-4",
-  "level": "2",
-  "url": "targets-9.html#targets-9-4-4",
-  "type": "Checkpoint",
-  "number": "2.26",
-  "title": "",
-  "body": "  Give examples of integers and such that and . Explain using the definition.    There are lots of answers here. E.g., you could state that but . We know as and . However, since there is no integer such that .   "
-},
-{
-  "id": "targets-9-4-5",
-  "level": "2",
-  "url": "targets-9.html#targets-9-4-5",
-  "type": "Checkpoint",
-  "number": "2.27",
-  "title": "",
-  "body": "  List all integers such that . Explain using the definition.    The integers are .   "
-},
-{
-  "id": "targets-9-4-6",
-  "level": "2",
-  "url": "targets-9.html#targets-9-4-6",
-  "type": "Checkpoint",
-  "number": "2.28",
-  "title": "",
-  "body": "  Give an example of two integers, and , such that , where one of the integers is negative.    Let and . Then , or since and so .   "
+  "body": "  Fill in the following blanks with all appropriate symbols from the list .                                                                                       "
 },
 {
   "id": "notes-week-01",
@@ -655,7 +601,7 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "3.4",
   "title": "Week 4 Weekly Practice",
-  "body": " Week 4 Weekly Practice  Due the second class of the week of September 29.    For each of the following, justify using your intution for the notion of divides, and using the official defintion of divides (which is what we will use in proofs.).     Does ?      Does ?      Does ?      Does ?      Does ? (Can you do this without a calculator?)       When we justify things in proofs, we'll want to use the definition of congurence modulo . But, in practice, another way you might think of it is to reduce each of them modulo to a number in (i.e., find each remainder when divided by and then compare. In the following answer the questions using both the definition and the remainder.     Is ?      Is ?      Is ?       Prove that if and then .      Prove that if is any integer then n or . (Hint: Use cases based on the remainder when is divided by 4.)    "
+  "body": " Week 4 Weekly Practice  Due the second class of the week of September 29.    For each of the following, justify using your intution for the notion of divides, and using the official defintion of divides (which is what we will use in proofs.).     Does ?      Does ?      Does ?      Does ?      Does ? (Can you do this without a calculator?)       When we justify things in proofs, we'll want to use the definition of congurence modulo . But, in practice, another way you might think of it is to reduce each of them modulo to a number in (i.e., find each remainder when divided by and then compare. In the following answer the questions using both the definition and the remainder.     Is ?      Is ?      Is ?       Prove that if and then .      Prove that if is any integer then or . (Hint: Use cases based on the remainder when is divided by 4.)    "
 },
 {
   "id": "WP-04-3",
@@ -691,13 +637,13 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.16",
   "title": "",
-  "body": "  Prove that if is any integer then n or . (Hint: Use cases based on the remainder when is divided by 4.)   "
+  "body": "  Prove that if is any integer then or . (Hint: Use cases based on the remainder when is divided by 4.)   "
 },
 {
   "id": "WP-05",
   "level": "1",
   "url": "WP-05.html",
-  "type": "Handout",
+  "type": "Worksheet",
   "number": "3.5",
   "title": "Week 5 Weekly Practice",
   "body": " Week 5 Weekly Practice   Due the second class of the week of October 5.   Exercise 3.3   Rewrite each of the following sets by listing their elements between braces (roster notation). If it is an infinite set, write out enough elements for the reader to see the pattern, then use ellipses.                                          Exercise 3.4   Suppose , , , and the universal set is . Determine the following.                                          Exercise 3.5   Rewrite each of the following sets in set-builder notation.                                   Exercise 3.8   Determine whether each of the following are true or false.                                                        Exercise 3.19 (b)   Prove that .     "
@@ -706,8 +652,8 @@ var ptx_lunr_docs = [
   "id": "WP-05-2-2",
   "level": "2",
   "url": "WP-05.html#WP-05-2-2",
-  "type": "Checkpoint",
-  "number": "",
+  "type": "Worksheet Exercise",
+  "number": "3.5.1",
   "title": "Exercise 3.3.",
   "body": " Exercise 3.3   Rewrite each of the following sets by listing their elements between braces (roster notation). If it is an infinite set, write out enough elements for the reader to see the pattern, then use ellipses.                                      "
 },
@@ -715,8 +661,8 @@ var ptx_lunr_docs = [
   "id": "WP-05-3-1",
   "level": "2",
   "url": "WP-05.html#WP-05-3-1",
-  "type": "Checkpoint",
-  "number": "",
+  "type": "Worksheet Exercise",
+  "number": "3.5.2",
   "title": "Exercise 3.4.",
   "body": " Exercise 3.4   Suppose , , , and the universal set is . Determine the following.                                      "
 },
@@ -724,8 +670,8 @@ var ptx_lunr_docs = [
   "id": "WP-05-4-1",
   "level": "2",
   "url": "WP-05.html#WP-05-4-1",
-  "type": "Checkpoint",
-  "number": "",
+  "type": "Worksheet Exercise",
+  "number": "3.5.3",
   "title": "Exercise 3.5.",
   "body": " Exercise 3.5   Rewrite each of the following sets in set-builder notation.                               "
 },
@@ -733,8 +679,8 @@ var ptx_lunr_docs = [
   "id": "WP-05-5-1",
   "level": "2",
   "url": "WP-05.html#WP-05-5-1",
-  "type": "Checkpoint",
-  "number": "",
+  "type": "Worksheet Exercise",
+  "number": "3.5.4",
   "title": "Exercise 3.8.",
   "body": " Exercise 3.8   Determine whether each of the following are true or false.                                                    "
 },
@@ -742,8 +688,8 @@ var ptx_lunr_docs = [
   "id": "WP-05-6-1",
   "level": "2",
   "url": "WP-05.html#WP-05-6-1",
-  "type": "Checkpoint",
-  "number": "",
+  "type": "Worksheet Exercise",
+  "number": "3.5.5",
   "title": "Exercise 3.19 (b).",
   "body": " Exercise 3.19 (b)   Prove that .   "
 },
@@ -1006,7 +952,7 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "4.6",
   "title": "Portfolio Problem 4",
-  "body": " Portfolio Problem 4   More Conjectures  Read both of the conjectures below. Recall conjecture means that they may or may not be true! Try a variety of concrete examples of each one to see if it is true. As in Proof Portfolio 3 for this portfolio problem, you’ll prove OR disprove BOTH of the following conjectures. Your submission should address both of these conjecture and include examples of each.    For all if then or .      For all if or or then .     "
+  "body": " Portfolio Problem 4   More Conjectures  Read both of the conjectures below. Recall conjecture means that they may or may not be true! Try a variety of concrete examples of each one to see if it is true. As in Proof Portfolio 3 for this portfolio problem, you’ll prove OR disprove BOTH of the following conjectures. Your submission should address both of these conjecture and include examples of each.    For all if then or .      For all if or then .     "
 },
 {
   "id": "pp-4-2-3",
@@ -1024,7 +970,16 @@ var ptx_lunr_docs = [
   "type": "Conjecture",
   "number": "4.24",
   "title": "",
-  "body": "  For all if or or then .   "
+  "body": "  For all if or then .   "
+},
+{
+  "id": "pp-5",
+  "level": "1",
+  "url": "pp-5.html",
+  "type": "Handout",
+  "number": "4.7",
+  "title": "Portfolio Problem 5",
+  "body": " Portfolio Problem 5  All problems are in an Overleaf document at . The writing guidelines are at . There's a sample portfolio solution at . There's an Overleaf Cheat Sheet at .   Instructions: Pick ONE of the following 3 problems. You might begin by doing an example, or listing out the elements in roster notation. Your proof should use the choose an element method discussed in class. For set equality, e.g., you should prove both and . For proper subset, e.g., you should prove and .   Option A  If and are subsets of some universal set then     Option B  Let and . Prove that one of these sets is a proper subset of the other (stating your result as a theorem).    Option C  Let and . Then .    Some LaTeX Notes  For option A:   $(A-B) \\times C = (A\\times B) -(A\\times C)$   For option B:   $X = \\{x \\in\\mathbb{Z} : x \\equiv 2 \\pmod{6} \\}$ and $Y = \\{y\\in\\mathbb{Z} : 3 \\mid y-5\\}$ (The \\ makes the set braces appear.) You could also use \\Z if you are using my LaTeX file (instead of \\mathbb{Z} ).  For option C:   $A = \\{ x\\in\\mathbb{Z} : 4\\mid x-7\\}$  $B = \\{x\\in\\mathbb{Z}: x \\equiv 3 \\pmod{12}\\}$.    "
 },
 {
   "id": "ch-1-intuitiveproofs-2",
