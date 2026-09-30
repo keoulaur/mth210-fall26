@@ -23,7 +23,7 @@
     <statement>
         <p>
             For all <m>a,b\in\mathbb{Z}</m> if <m>ab \equiv 0\pmod{6}</m> then 
-                <m>\equiv 0\pmod{6}</m> or <m>b\equiv 0 \pmod{6}</m>.
+                <m>a\equiv 0\pmod{6}</m> or <m>b\equiv 0 \pmod{6}</m>.
 
         </p>
     </statement>
@@ -32,8 +32,8 @@
 <conjecture >
     <statement>
         <p>
-            For all <m>a,b\in\mathbb{Z}</m> if <m>a\equiv 0 \pmod{6}</m> or  or <m>b\equiv 0 \pmod{6}</m> then 
-                <m>b\equiv 0\pmod{6}</m>.
+            For all <m>a,b\in\mathbb{Z}</m> if <m>a\equiv 0 \pmod{6}</m>  or <m>b\equiv 0 \pmod{6}</m> then 
+                <m>ab\equiv 0\pmod{6}</m>.
 
         </p>
     </statement>

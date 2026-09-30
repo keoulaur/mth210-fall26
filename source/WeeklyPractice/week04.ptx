@@ -111,7 +111,7 @@
             <statement>
                 <p>
                     Prove that if <m>n</m> is any integer then
-                    <m>n^2\equiv 0 \pmod{4}</m> n or <m>n^2 \equiv 1 \pmod{4}</m>.
+                    <m>n^2\equiv 0 \pmod{4}</m> or <m>n^2 \equiv 1 \pmod{4}</m>.
                     (Hint: Use cases based on the remainder when <m>n</m>is divided by
                     4.)
                 </p>
