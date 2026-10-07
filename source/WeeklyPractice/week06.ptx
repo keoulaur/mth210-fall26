@@ -1,102 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet xml:id="WP-06">
-    <title>Week 6 Weekly Practice</title>    
+    <title>Week 6 Weekly Practice</title>
+<page>
+  
 
     <p>
         Due the second class of the week of October 12.
     </p>
 
-   <exercise>
-  <title>Practice with writing up disproofs/counterexamples</title>
-  <introduction>
-        <p>
-      For each of the following, find a counterexample and clearly write a disproof.
-    </p>
-    <p>
-      See <url href="https://gvsu.edu/s/3v0"/> disproof/counterexample that you could mimic.
-    </p>
+            <figure>
+        <caption>Disproof Example</caption>
+        <image source="images/disproof.png" width="100%"/>
+    </figure>
+    <exercise>
+        <title>Practice with writing up disproofs/counterexamples</title>
 
-  </introduction>
+        <introduction>
+            <p>
+                For each of the following, find a counterexample and clearly
+                write a disproof.
+            </p>
 
-  <task>
-    <statement>
-      <p>
-        Conjecture 1: For each integer <m>n</m>, if <m>5 \mid (n^2-1)</m> then <m>5 \mid (n-1)</m>.
-      </p>
-    </statement>
-  </task>
+            <p>
+                See <url href="https://gvsu.edu/s/3v0"/> disproof/counterexample
+                that you could mimic, or the one above.
+            </p>
+        </introduction>
 
-  <task>
-    <statement>
-      <p>
-        Conjecture 2: For each integer <m>a</m>, if <m>a^2 \equiv 4 \pmod{8}</m> then <m>a \equiv 2 \pmod{8}</m>.
-      </p>
-    </statement>
-  </task>
 
-  <task>
-    <statement>
-      <p>
-        Conjecture 3: If <m>A</m> is not a subset of <m>B</m> and <m>B</m> is not a subset of <m>C</m>, then <m>A</m> is not a subset of <m>C</m>.
-      </p>
-    </statement>
-  </task>
-</exercise>
 
-<exercise>
-  <title>Practice with writing up examples/working with definitions/making up conjectures</title>
+        <task workspace="5in">
+            <statement>
+                <p>
+                    Conjecture 1: For each integer <m>n</m>, if
+                    <m>5 \mid (n^2-1)</m> then <m>5 \mid (n-1)</m>.
+                </p>
+            </statement>
+        </task>
 
-  <task>
-    <statement>
-      <p>
-        For a natural number <m>n</m> we'll call an integer <m>a</m> an <term><m>n</m>-factor</term> if <m>a \not\equiv 0 \pmod{n}</m> and there exists an integer <m>b</m> such that <m>b \not\equiv 0 \pmod{n}</m> and <m>ab \equiv 0 \pmod{n}</m>. Find 3 examples of <m>n</m>-factors using 3 different values of <m>n</m>. Make a conjecture about which natural numbers <m>n</m> have <m>n</m>-factors.
-      </p>
-    </statement>
-  </task>
+        <task workspace="5in">
+            <statement>
+                <p>
+                    Conjecture 2: For each integer <m>a</m>, if
+                    <m>a^2 \equiv 4 \pmod{8}</m> then
+                    <m>a \equiv 2 \pmod{8}</m>.
+                </p>
+            </statement>
+        </task>
 
-  <task>
-    <statement>
-      <p>
-        A graph is <term>traversable</term> if you can travel along each edge exactly once, and end where you started. Which of the following graphs are traversable? Give an example of an additional traversable graph, and an example of a graph that is not traversable. Make a conjecture about graphs that are or are not traversable. (It doesn't have to completely solve the problem, conjectures about <q>special cases</q> are good too!)
-      </p>
-      <!-- The graphs were images and did not come through. Add them, e.g.:
-      <figure xml:id="fig-graphs">
-        <caption>Graphs</caption>
-        <image source="graphs.png" width="60%"/>
-      </figure>
-      -->
-    </statement>
-  </task>
-</exercise>
+        <task workspace="5in">
+            <statement>
+                <p>
+                    Conjecture 3: If <m>A</m> is not a subset of <m>B</m> and
+                    <m>B</m> is not a subset of <m>C</m>, then <m>A</m> is not a
+                    subset of <m>C</m>.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+</page>
 
-<exercise>
-  <title>Evaluating proofs</title>
-  <introduction>
-    <p>
-      For these, read the proofs, and decide if they are correct. If the proof is incorrect, explain why (e.g., where is the logic not sound). If the proof is correct, determine if it meets our writing guidelines.
-    </p>
-  </introduction>
+<page>
+    <exercise>
+        <title>
+            Practice with writing up examples/working with definitions/making up
+            conjectures
+        </title>
 
-  <task>
-    <statement>
-      <!-- Proof text for item 1 was missing. -->
-      <p></p>
-    </statement>
-  </task>
+        <task workspace="5in">
+            <statement>
+                <p>
+                    For a natural number <m>n</m> we'll call an integer <m>a</m>
+                    an <term><m>n</m>-factor</term> if
+                    <m>a \not\equiv 0 \pmod{n}</m> and there exists an integer
+                    <m>b</m> such that <m>b \not\equiv 0 \pmod{n}</m> and
+                    <m>ab \equiv 0 \pmod{n}</m>.
+                    Find 3 examples of <m>n</m>-factors using 3 different values
+                    of <m>n</m>.
+                    Make a conjecture about which natural numbers <m>n</m> have
+                    <m>n</m>-factors.
+                </p>
+            </statement>
+        </task>
 
-  <task >
-    <statement>
-      <!-- Proof text for item 2 was missing. -->
-      <p></p>
-    </statement>
-  </task>
+        <task workspace="4in">
+            <statement>
+                <p>
+                    A graph is <term>traversable</term> if you can travel along
+                    each edge exactly once, and end where you started.
+                    Which of the following graphs are traversable?
+                    Give an example of an additional traversable graph, and an
+                    example of a graph that is not traversable.
+                    Make a conjecture about graphs that are or are not
+                    traversable.
+                    (It doesn't have to completely solve the problem,
+                    conjectures about <q>special cases</q> are good too!)
+                </p>
+            <figure xml:id="fig-graphs">
+                <caption>Graphs</caption>
+                <image source="images/graphs.png" width="75%"/>
+            </figure>
+            </statement>
+        </task>
+    </exercise>
+</page>
 
-  <task>
-    <statement>
-      <!-- Proof text for item 3 was missing. -->
-      <p></p>
-    </statement>
-  </task>
-</exercise>
+<page>
+    <exercise>
+        <title>Evaluating proofs</title>
+
+        <introduction>
+            <p>
+                For these, read the proofs, and decide if they are correct.
+                If the proof is incorrect, explain why (e.g., where is the logic
+                not sound).
+                If the proof is correct, determine if it meets our writing
+                guidelines.
+            </p>
+        </introduction>
+
+        <task workspace="2in">
+            <statement>
+                <figure>
+                    <caption>Proof Evaluation 1</caption>
+                    <image source="images/ProofEval1.png" width="100%"/>
+                </figure>
+            </statement>
+        </task>
+
+        <task workspace="2in">
+            <statement>
+                   <figure>
+                    <caption>Proof Evaluation 2</caption>
+                    <image source="images/ProofEval2.png" width="100%"/>
+                </figure>
+            </statement>
+        </task>
+
+        <task workspace="2in">
+            <statement>
+                 <figure>
+                    <caption>Proof Evaluation 3</caption>
+                    <image source="images/ProofEval3.png" width="100%"/>
+                </figure>
+            </statement>
+        </task>
+    </exercise>
+    </page>
 </worksheet>

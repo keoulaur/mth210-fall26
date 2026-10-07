@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>More Fun Problems! (Chapters 2 and 3)</title>
+
+    <introduction>
+        <p>
+            Remember these facts about congruence arithmetic!
+            If
+            <md>
+                a\equiv b \pmod{m}
+            </md>
+            and
+            <md>
+                c\equiv d \pmod{m}
+            </md>,
+            then
+            <ol>
+                <li>
+                    <p>
+                        <m>a+c \equiv b+d \pmod{m}</m>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>a-c \equiv b-d \pmod{m}</m>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>ac \equiv bd \pmod{m}</m>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>a^n \equiv b^n \pmod{m}</m> for any
+                        <m>n\in\mathbb{N}</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </introduction>
+
+    <activity>
+        <title>Practice Proofs Using Mod and Divisibility</title>
+
+        <task>
+            <statement>
+                <p>
+                    Fill in the blank and prove.
+                    If <m>n\equiv 2 \pmod{7}</m> then
+                    <m>n^2+n+2 \equiv <fillin characters="3"/>\pmod{7} </m>
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                   If <m>n\equiv 5 \pmod{8}</m> then <m>8 \mid n^2 -1</m>.
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <activity>
+        <title>Roster Notation to Set Builder Notation Practice</title>
+
+        <task>
+            <statement>
+                <p>
+                    The integers that leave remainder 3 when divided by 7.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    The positive divisors of 18.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    The multiples of 5 that are between 1 and 50.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    <m>\{\dots, -81, 9, 99, 189, 279, 369,\dots\}</m>
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    <m>\{1,3,9,27,81, \dots\}</m>
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <activity>
+        <task>
+            <statement>
+                <p>
+                    What are the possible remainders when you square an integer
+                    and divide by 8?
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    When you square a natural number and divide by 6, show that
+                    you always get a remainder of 0, 1, or 3.
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <activity>
+        <introduction>
+            <p>
+                Recall the fact we briefly explored: if <m>p</m> is a prime
+                number greater than <m>3</m> then <m> 24 \mid p^2 - 1 </m>.
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Let's start by showing <m>3\mid p^2 -1</m> for any prime
+                    greater than <m>3</m>.
+                    Hint: Use cases, and the congruence algebra at the start.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Can you do a similar thing to show that <m>8\mid p^2 -1</m>?
+                    Since <m>8</m> and <m>3</m> are relatively prime (have no
+                    factors in common), this will complete the proof that
+                    <m>24 \mid p^2-1</m>.
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <activity>
+        <task>
+            <statement>
+                <p>
+                    What is the remainder when you divide <m>3^{100}</m> by
+                    <m>2</m>?
+                    Said differently, find <m>3^{100} \pmod{2}</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    What is the remainder when you divide an <m>2^{100}</m> by
+                    <m>3</m>?
+                    Said differently, find <m>2^{100} \pmod{3}</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    What is the remainder when you divide an <m>3^{2026}</m> by
+                    <m>7</m>?
+                    Said differently, find <m>3^{2026} \pmod{7}</m>.
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <activity>
+        <introduction>
+            <p>
+                You may have seen the trick in which you know an integer is
+                divisible by <m>3</m> if the sum of its digits is divisible by
+                <m>3</m>.
+                E.g., we know <m>123</m> is divisible by <m>3</m> because the
+                sum of its digits, <m>1+2+3=6</m>, is divisible by <m>3</m>.
+                Let's prove that!
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    We can write out <m>123</m> the place value way, i.e.,
+                    <md>
+                        123 = 1\cdot 100 + 2\cdot 10 + 3\cdot 1
+                    </md>.
+                    Pick another number, say a 4 digit one and write it out the
+                    place value way too.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Remember that trick where we replaced <m>9</m> with
+                    <m>8 + 1</m>?
+                    Can you do some similar algebra with <m>123</m> and see how
+                    the sum of its digits comes into play.
+                    (Hint: Don't forget you are thinking about divisibility by
+                    <m>3</m>!)
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Try the same thing for the number you used in the first
+                    task.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Can you generalize this idea to any number?
+                    That is, show that for any integer, the sum of its digits is
+                    divisible by <m>3</m> if and only if the number itself is
+                    divisible by <m>3</m>.
+                    Consider a number written out by it's digits, i.e.,
+                    <m>d_kd_{k-1}d_{k-2}\dots d_1d_0</m>?
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Say the sum of the digits has remainder <m>1</m> or <m>2</m>
+                    when divided by <m>3</m>.
+                    What can you conclude about the remainder when the number
+                    itself is divided by <m>3</m>?
+                    In other words, what is <m>n \pmod{3}</m> for any integer
+                    <m>n</m>?
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Does the same trick work with negative numbers?
+                    How?
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    There are lots of tricks like this.
+                    You can do these tricks with different divisors, and also in
+                    different number bases as well (like binary).
+                    Feel free to make a conjecture and use as your play,
+                    conjecture, prove!
+                </p>
+            </statement>
+        </task>
+    </activity>
+</handout>

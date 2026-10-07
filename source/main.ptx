@@ -105,6 +105,7 @@
                 <xi:include href="./activities/03-2-SetBuilder.ptx"/>
                 <xi:include href="./activities/03-3-ChooseAnElement.ptx"/>
                 <xi:include href="./activities/03-4-SetOperations.ptx"/>
+                <xi:include href="./activities/03-5-FurtherPractice.ptx" />
             </chapter>
 
             <chapter xml:id="ch-4-induction">

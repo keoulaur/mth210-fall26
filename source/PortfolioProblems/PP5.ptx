@@ -21,7 +21,9 @@
     <q>choose an element</q> method discussed in class. For set equality,
     e.g., <m>A = B</m> you should prove both <m>A\subseteq B</m> and
     <m>B\subseteq A</m>. For proper subset, e.g., <m>A\subset B</m> you should
-    prove <m>A\subseteq B</m> and <m>A\neq B</m>.
+    prove <m>A\subseteq B</m> and <m>A\neq B</m>. If the option you choose has a 
+    false statement, please correct it to a true statement involving the sames sets
+    with <m>=</m> or <m>\subset</m>.
   </p>
 
   <paragraphs>
@@ -29,7 +31,7 @@
     <p>
       If <m>A, B,</m> and <m>C</m> are subsets of some universal set
       <m>U</m> then
-      <md>(A-B) \times C = (A\times C) - (B\times C).</md>
+      <md>(A \backslash B) \times C = (A\times C) \backslash (B\times C).</md>
     </p>
   </paragraphs>
 
@@ -58,7 +60,7 @@
 
   <p>For option A:</p>
   <p>
-    <cd>$(A-B) \times  C = (A\times B) -(A\times C)$</cd>
+    <cd>$(A\backslash B) \times  C = (A\times C) \backslash(B\times C)$</cd>
   </p>
 
   <p>For option B:</p>
