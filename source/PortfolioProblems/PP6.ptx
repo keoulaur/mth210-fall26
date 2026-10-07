@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout xml:id="pp-6">
+    <title>Portfolio Problem 6</title>
+
+  <p>
+    All problems are in an Overleaf document at
+    <url href="https://gvsu.edu/s/3tn"/>.
+    The writing guidelines are at
+    <url href="https://gvsu.edu/s/3to"/>.
+    There's a sample portfolio solution at
+    <url href="https://gvsu.edu/s/3v0"/>.
+    There's an Overleaf Cheat Sheet at
+    <url href="https://gvsu.edu/s/3OL"/>.
+  </p>
+
+<paragraphs>
+  <title>Instructions:</title>
+  <p>
+  <ol>
+    <li>
+      <p>Pick ONE of the following problems.</p>
+    </li>
+    <li>
+      <p>In both your draft and writing revision, include at least 3 examples that show how you came up with your conjecture.</p>
+    </li>
+    <li>
+      <p>
+        The given prompts are not yet theorem statements! You may need to complete the statements, and modify the sentences so that they are theorem statements. In particular, theorem statements don't have <q>prove that</q> in them.
+      </p>
+    </li>
+    <li>
+      <p>Prove these using induction! (Proof Portfolio Objective PM5.)</p>
+    </li>
+    <li>
+      <p>
+        Put a special focus on demonstrating that you understand how induction works. For example, make sure you use correct quantifiers and notation.
+      </p>
+    </li>
+    <li>
+      <p>
+        You can use page 46 of the worksheets, or pages 151 or 157 of your textbook for a model of a proof by induction.
+      </p>
+    </li>
+  </ol>
+</p>
+</paragraphs>
+
+<paragraphs xml:id="conjecture-6a">
+  <title>Conjecture 6A:</title>
+  <p>
+    Let <m>f_1, f_2, \dots, f_n,\dots</m> be the Fibonacci numbers. Conjecture an expression to complete the statement <q>For each <m>n\in\mathbb{N}</m>, <m>f_1+f_3+\dots+f_{2n-1} = \dots</m></q>. Prove your statement.
+  </p>
+</paragraphs>
+
+<paragraphs xml:id="conjecture-6b">
+  <title>Conjecture 6B:</title>
+  <p>
+    Let <m>n\in\mathbb{N}</m> and let <m>f(x) = \frac{8}{3x+2}</m>. Then the <m>n^{th}</m> derivative of <m>f(x)</m> is <m>f^{(n)}(x) = \dots</m>.
+  </p>
+</paragraphs>
+</handout>
