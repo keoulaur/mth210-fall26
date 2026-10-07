@@ -442,6 +442,42 @@ var ptx_lunr_docs = [
   "body": "  Fill in the following blanks with all appropriate symbols from the list .                                                                                       "
 },
 {
+  "id": "targets-10",
+  "level": "1",
+  "url": "targets-10.html",
+  "type": "Handout",
+  "number": "2.9",
+  "title": "Learning Target 8 Practice",
+  "body": " Learning Target 8 Practice   Given two sets and a universal set identify the union, intersection, complement, Cartesian product, and set difference and find the power set of a given set.    Need to know     Given two sets and a universal set in roster notation or set-builder notation, identify the union, intersection, complement, and set difference.    Notation for union, intersection, complement, and set difference, i.e., , and the power set of a set , .    How to list out the elements of the power set of a set with 2 or 3 elements.       Practice From Class     Weekly Practice 5 #2 and #3    Worksheet page 44        Let . Let and . (You can use roster notation for your answers.)     Find            Find            Find (or )           Find (or ).            Let be the universal set. Let and . (You can use roster notation for your answers.)     Find            Find            Find            Find (or ).           Find             Find and      and     "
+},
+{
+  "id": "targets-10-5",
+  "level": "2",
+  "url": "targets-10.html#targets-10-5",
+  "type": "Checkpoint",
+  "number": "2.23",
+  "title": "",
+  "body": "  Let . Let and . (You can use roster notation for your answers.)     Find            Find            Find (or )           Find (or ).         "
+},
+{
+  "id": "targets-10-6",
+  "level": "2",
+  "url": "targets-10.html#targets-10-6",
+  "type": "Checkpoint",
+  "number": "2.24",
+  "title": "",
+  "body": "  Let be the universal set. Let and . (You can use roster notation for your answers.)     Find            Find            Find            Find (or ).           Find          "
+},
+{
+  "id": "targets-10-7",
+  "level": "2",
+  "url": "targets-10.html#targets-10-7",
+  "type": "Checkpoint",
+  "number": "2.25",
+  "title": "",
+  "body": "  Find and      and    "
+},
+{
   "id": "notes-week-01",
   "level": "1",
   "url": "notes-week-01.html",
@@ -692,6 +728,42 @@ var ptx_lunr_docs = [
   "number": "3.5.5",
   "title": "Exercise 3.19 (b).",
   "body": " Exercise 3.19 (b)   Prove that .   "
+},
+{
+  "id": "WP-06",
+  "level": "1",
+  "url": "WP-06.html",
+  "type": "Worksheet",
+  "number": "3.6",
+  "title": "Week 6 Weekly Practice",
+  "body": " Week 6 Weekly Practice  Due the second class of the week of October 12.   Practice with writing up disproofs\/counterexamples   For each of the following, find a counterexample and clearly write a disproof.  See disproof\/counterexample that you could mimic.     Conjecture 1: For each integer , if then .      Conjecture 2: For each integer , if then .      Conjecture 3: If is not a subset of and is not a subset of , then is not a subset of .      Practice with writing up examples\/working with definitions\/making up conjectures    For a natural number we'll call an integer an -factor if and there exists an integer such that and . Find 3 examples of -factors using 3 different values of . Make a conjecture about which natural numbers have -factors.      A graph is traversable if you can travel along each edge exactly once, and end where you started. Which of the following graphs are traversable? Give an example of an additional traversable graph, and an example of a graph that is not traversable. Make a conjecture about graphs that are or are not traversable. (It doesn't have to completely solve the problem, conjectures about special cases are good too!)       Evaluating proofs   For these, read the proofs, and decide if they are correct. If the proof is incorrect, explain why (e.g., where is the logic not sound). If the proof is correct, determine if it meets our writing guidelines.                      "
+},
+{
+  "id": "WP-06-3",
+  "level": "2",
+  "url": "WP-06.html#WP-06-3",
+  "type": "Worksheet Exercise",
+  "number": "3.6.1",
+  "title": "Practice with writing up disproofs\/counterexamples.",
+  "body": " Practice with writing up disproofs\/counterexamples   For each of the following, find a counterexample and clearly write a disproof.  See disproof\/counterexample that you could mimic.     Conjecture 1: For each integer , if then .      Conjecture 2: For each integer , if then .      Conjecture 3: If is not a subset of and is not a subset of , then is not a subset of .    "
+},
+{
+  "id": "WP-06-4",
+  "level": "2",
+  "url": "WP-06.html#WP-06-4",
+  "type": "Worksheet Exercise",
+  "number": "3.6.2",
+  "title": "Practice with writing up examples\/working with definitions\/making up conjectures.",
+  "body": " Practice with writing up examples\/working with definitions\/making up conjectures    For a natural number we'll call an integer an -factor if and there exists an integer such that and . Find 3 examples of -factors using 3 different values of . Make a conjecture about which natural numbers have -factors.      A graph is traversable if you can travel along each edge exactly once, and end where you started. Which of the following graphs are traversable? Give an example of an additional traversable graph, and an example of a graph that is not traversable. Make a conjecture about graphs that are or are not traversable. (It doesn't have to completely solve the problem, conjectures about special cases are good too!)     "
+},
+{
+  "id": "WP-06-5",
+  "level": "2",
+  "url": "WP-06.html#WP-06-5",
+  "type": "Worksheet Exercise",
+  "number": "3.6.3",
+  "title": "Evaluating proofs.",
+  "body": " Evaluating proofs   For these, read the proofs, and decide if they are correct. If the proof is incorrect, explain why (e.g., where is the logic not sound). If the proof is correct, determine if it meets our writing guidelines.                     "
 },
 {
   "id": "pp-instructions",
@@ -980,6 +1052,15 @@ var ptx_lunr_docs = [
   "number": "4.7",
   "title": "Portfolio Problem 5",
   "body": " Portfolio Problem 5  All problems are in an Overleaf document at . The writing guidelines are at . There's a sample portfolio solution at . There's an Overleaf Cheat Sheet at .   Instructions: Pick ONE of the following 3 problems. You might begin by doing an example, or listing out the elements in roster notation. Your proof should use the choose an element method discussed in class. For set equality, e.g., you should prove both and . For proper subset, e.g., you should prove and .   Option A  If and are subsets of some universal set then     Option B  Let and . Prove that one of these sets is a proper subset of the other (stating your result as a theorem).    Option C  Let and . Then .    Some LaTeX Notes  For option A:   $(A-B) \\times C = (A\\times B) -(A\\times C)$   For option B:   $X = \\{x \\in\\mathbb{Z} : x \\equiv 2 \\pmod{6} \\}$ and $Y = \\{y\\in\\mathbb{Z} : 3 \\mid y-5\\}$ (The \\ makes the set braces appear.) You could also use \\Z if you are using my LaTeX file (instead of \\mathbb{Z} ).  For option C:   $A = \\{ x\\in\\mathbb{Z} : 4\\mid x-7\\}$  $B = \\{x\\in\\mathbb{Z}: x \\equiv 3 \\pmod{12}\\}$.    "
+},
+{
+  "id": "pp-6",
+  "level": "1",
+  "url": "pp-6.html",
+  "type": "Handout",
+  "number": "4.8",
+  "title": "Portfolio Problem 6",
+  "body": " Portfolio Problem 6  All problems are in an Overleaf document at . The writing guidelines are at . There's a sample portfolio solution at . There's an Overleaf Cheat Sheet at .   Instructions:     Pick ONE of the following problems.    In both your draft and writing revision, include at least 3 examples that show how you came up with your conjecture.    The given prompts are not yet theorem statements! You may need to complete the statements, and modify the sentences so that they are theorem statements. In particular, theorem statements don't have prove that in them.    Prove these using induction! (Proof Portfolio Objective PM5.)    Put a special focus on demonstrating that you understand how induction works. For example, make sure you use correct quantifiers and notation.    You can use page 46 of the worksheets, or pages 151 or 157 of your textbook for a model of a proof by induction.       Conjecture 6A:  Let be the Fibonacci numbers. Conjecture an expression to complete the statement For each , . Prove your statement.    Conjecture 6B:  Let and let . Then the derivative of is .   "
 },
 {
   "id": "ch-1-intuitiveproofs-2",
