@@ -230,6 +230,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-3-sets-3.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Roster Notation and Set Builder Notation</span></a></div></li>
 <li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-3-sets-4.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Proving <span class="process-math">\(A\subseteq B\text{:}\)</span> The “Choose an Element Method”</span></a></div></li>
 <li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-3-sets-5.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Operations on Sets</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="ch-3-sets-6.html" class="internal"><span class="codenumber">3.5</span> <span class="title">More Fun Problems! (Chapters 2 and 3)</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -317,14 +318,14 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="pp-5-2">All problems are in an Overleaf document at <a class="external" href="https://gvsu.edu/s/3tn" target="_blank"><code class="code-inline tex2jax_ignore">https://gvsu.edu/s/3tn</code></a>. The writing guidelines are at <a class="external" href="https://gvsu.edu/s/3to" target="_blank"><code class="code-inline tex2jax_ignore">https://gvsu.edu/s/3to</code></a>. There’s a sample portfolio solution at <a class="external" href="https://gvsu.edu/s/3v0" target="_blank"><code class="code-inline tex2jax_ignore">https://gvsu.edu/s/3v0</code></a>. There’s an Overleaf Cheat Sheet at <a class="external" href="https://gvsu.edu/s/3OL" target="_blank"><code class="code-inline tex2jax_ignore">https://gvsu.edu/s/3OL</code></a>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pp-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="pp-5-3">
-<em class="alert">Instructions:</em> Pick ONE of the following 3 problems. You might begin by doing an example, or listing out the elements in roster notation. Your proof should use the “choose an element” method discussed in class. For set equality, e.g., <span class="process-math">\(A = B\)</span> you should prove both <span class="process-math">\(A\subseteq B\)</span> and <span class="process-math">\(B\subseteq A\text{.}\)</span> For proper subset, e.g., <span class="process-math">\(A\subset B\)</span> you should prove <span class="process-math">\(A\subseteq B\)</span> and <span class="process-math">\(A\neq B\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pp-5-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="alert">Instructions:</em> Pick ONE of the following 3 problems. You might begin by doing an example, or listing out the elements in roster notation. Your proof should use the “choose an element” method discussed in class. For set equality, e.g., <span class="process-math">\(A = B\)</span> you should prove both <span class="process-math">\(A\subseteq B\)</span> and <span class="process-math">\(B\subseteq A\text{.}\)</span> For proper subset, e.g., <span class="process-math">\(A\subset B\)</span> you should prove <span class="process-math">\(A\subseteq B\)</span> and <span class="process-math">\(A\neq B\text{.}\)</span> If the option you choose has a false statement, please correct it to a true statement involving the sames sets with <span class="process-math">\(=\)</span> or <span class="process-math">\(\subset\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pp-5-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="pp-5-4"><h2 class="heading"><span class="title">Option A.</span></h2>
 <div class="para logical" id="pp-5-4-2">
 <div class="para">If <span class="process-math">\(A, B,\)</span> and <span class="process-math">\(C\)</span> are subsets of some universal set <span class="process-math">\(U\)</span> then</div>
 <div class="displaymath process-math" id="pp-5-4-2-4">
 \begin{equation*}
-(A-B) \times C = (A\times C) - (B\times C).
+(A \backslash B) \times C = (A\times C) \backslash (B\times C).
 \end{equation*}
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pp-5-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -345,7 +346,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="pp-5-7-2">For option A:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pp-5-7-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="pp-5-7-3">
-<pre class="code-display tex2jax_ignore clipboardable">$(A-B) \times  C = (A\times B) -(A\times C)$</pre>
+<pre class="code-display tex2jax_ignore clipboardable">$(A\backslash B) \times  C = (A\times C) \backslash(B\times C)$</pre>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pp-5-7-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="pp-5-7-4">For option B:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pp-5-7-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>

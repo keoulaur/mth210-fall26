@@ -736,34 +736,43 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "3.6",
   "title": "Week 6 Weekly Practice",
-  "body": " Week 6 Weekly Practice  Due the second class of the week of October 12.   Practice with writing up disproofs\/counterexamples   For each of the following, find a counterexample and clearly write a disproof.  See disproof\/counterexample that you could mimic.     Conjecture 1: For each integer , if then .      Conjecture 2: For each integer , if then .      Conjecture 3: If is not a subset of and is not a subset of , then is not a subset of .      Practice with writing up examples\/working with definitions\/making up conjectures    For a natural number we'll call an integer an -factor if and there exists an integer such that and . Find 3 examples of -factors using 3 different values of . Make a conjecture about which natural numbers have -factors.      A graph is traversable if you can travel along each edge exactly once, and end where you started. Which of the following graphs are traversable? Give an example of an additional traversable graph, and an example of a graph that is not traversable. Make a conjecture about graphs that are or are not traversable. (It doesn't have to completely solve the problem, conjectures about special cases are good too!)       Evaluating proofs   For these, read the proofs, and decide if they are correct. If the proof is incorrect, explain why (e.g., where is the logic not sound). If the proof is correct, determine if it meets our writing guidelines.                      "
+  "body": " Week 6 Weekly Practice   Due the second class of the week of October 12.   Disproof Example     Practice with writing up disproofs\/counterexamples   For each of the following, find a counterexample and clearly write a disproof.  See disproof\/counterexample that you could mimic, or the one above.     Conjecture 1: For each integer , if then .      Conjecture 2: For each integer , if then .      Conjecture 3: If is not a subset of and is not a subset of , then is not a subset of .        Practice with writing up examples\/working with definitions\/making up conjectures    For a natural number we'll call an integer an -factor if and there exists an integer such that and . Find 3 examples of -factors using 3 different values of . Make a conjecture about which natural numbers have -factors.      A graph is traversable if you can travel along each edge exactly once, and end where you started. Which of the following graphs are traversable? Give an example of an additional traversable graph, and an example of a graph that is not traversable. Make a conjecture about graphs that are or are not traversable. (It doesn't have to completely solve the problem, conjectures about special cases are good too!)   Graphs          Evaluating proofs   For these, read the proofs, and decide if they are correct. If the proof is incorrect, explain why (e.g., where is the logic not sound). If the proof is correct, determine if it meets our writing guidelines.      Proof Evaluation 1         Proof Evaluation 2         Proof Evaluation 3        "
 },
 {
-  "id": "WP-06-3",
+  "id": "WP-06-2-2",
   "level": "2",
-  "url": "WP-06.html#WP-06-3",
+  "url": "WP-06.html#WP-06-2-2",
+  "type": "Figure",
+  "number": "3.17",
+  "title": "",
+  "body": " Disproof Example   "
+},
+{
+  "id": "WP-06-2-3",
+  "level": "2",
+  "url": "WP-06.html#WP-06-2-3",
   "type": "Worksheet Exercise",
   "number": "3.6.1",
   "title": "Practice with writing up disproofs\/counterexamples.",
-  "body": " Practice with writing up disproofs\/counterexamples   For each of the following, find a counterexample and clearly write a disproof.  See disproof\/counterexample that you could mimic.     Conjecture 1: For each integer , if then .      Conjecture 2: For each integer , if then .      Conjecture 3: If is not a subset of and is not a subset of , then is not a subset of .    "
+  "body": " Practice with writing up disproofs\/counterexamples   For each of the following, find a counterexample and clearly write a disproof.  See disproof\/counterexample that you could mimic, or the one above.     Conjecture 1: For each integer , if then .      Conjecture 2: For each integer , if then .      Conjecture 3: If is not a subset of and is not a subset of , then is not a subset of .    "
 },
 {
-  "id": "WP-06-4",
+  "id": "WP-06-3-1",
   "level": "2",
-  "url": "WP-06.html#WP-06-4",
+  "url": "WP-06.html#WP-06-3-1",
   "type": "Worksheet Exercise",
   "number": "3.6.2",
   "title": "Practice with writing up examples\/working with definitions\/making up conjectures.",
-  "body": " Practice with writing up examples\/working with definitions\/making up conjectures    For a natural number we'll call an integer an -factor if and there exists an integer such that and . Find 3 examples of -factors using 3 different values of . Make a conjecture about which natural numbers have -factors.      A graph is traversable if you can travel along each edge exactly once, and end where you started. Which of the following graphs are traversable? Give an example of an additional traversable graph, and an example of a graph that is not traversable. Make a conjecture about graphs that are or are not traversable. (It doesn't have to completely solve the problem, conjectures about special cases are good too!)     "
+  "body": " Practice with writing up examples\/working with definitions\/making up conjectures    For a natural number we'll call an integer an -factor if and there exists an integer such that and . Find 3 examples of -factors using 3 different values of . Make a conjecture about which natural numbers have -factors.      A graph is traversable if you can travel along each edge exactly once, and end where you started. Which of the following graphs are traversable? Give an example of an additional traversable graph, and an example of a graph that is not traversable. Make a conjecture about graphs that are or are not traversable. (It doesn't have to completely solve the problem, conjectures about special cases are good too!)   Graphs      "
 },
 {
-  "id": "WP-06-5",
+  "id": "WP-06-4-1",
   "level": "2",
-  "url": "WP-06.html#WP-06-5",
+  "url": "WP-06.html#WP-06-4-1",
   "type": "Worksheet Exercise",
   "number": "3.6.3",
   "title": "Evaluating proofs.",
-  "body": " Evaluating proofs   For these, read the proofs, and decide if they are correct. If the proof is incorrect, explain why (e.g., where is the logic not sound). If the proof is correct, determine if it meets our writing guidelines.                     "
+  "body": " Evaluating proofs   For these, read the proofs, and decide if they are correct. If the proof is incorrect, explain why (e.g., where is the logic not sound). If the proof is correct, determine if it meets our writing guidelines.      Proof Evaluation 1         Proof Evaluation 2         Proof Evaluation 3      "
 },
 {
   "id": "pp-instructions",
@@ -1051,7 +1060,7 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "4.7",
   "title": "Portfolio Problem 5",
-  "body": " Portfolio Problem 5  All problems are in an Overleaf document at . The writing guidelines are at . There's a sample portfolio solution at . There's an Overleaf Cheat Sheet at .   Instructions: Pick ONE of the following 3 problems. You might begin by doing an example, or listing out the elements in roster notation. Your proof should use the choose an element method discussed in class. For set equality, e.g., you should prove both and . For proper subset, e.g., you should prove and .   Option A  If and are subsets of some universal set then     Option B  Let and . Prove that one of these sets is a proper subset of the other (stating your result as a theorem).    Option C  Let and . Then .    Some LaTeX Notes  For option A:   $(A-B) \\times C = (A\\times B) -(A\\times C)$   For option B:   $X = \\{x \\in\\mathbb{Z} : x \\equiv 2 \\pmod{6} \\}$ and $Y = \\{y\\in\\mathbb{Z} : 3 \\mid y-5\\}$ (The \\ makes the set braces appear.) You could also use \\Z if you are using my LaTeX file (instead of \\mathbb{Z} ).  For option C:   $A = \\{ x\\in\\mathbb{Z} : 4\\mid x-7\\}$  $B = \\{x\\in\\mathbb{Z}: x \\equiv 3 \\pmod{12}\\}$.    "
+  "body": " Portfolio Problem 5  All problems are in an Overleaf document at . The writing guidelines are at . There's a sample portfolio solution at . There's an Overleaf Cheat Sheet at .   Instructions: Pick ONE of the following 3 problems. You might begin by doing an example, or listing out the elements in roster notation. Your proof should use the choose an element method discussed in class. For set equality, e.g., you should prove both and . For proper subset, e.g., you should prove and . If the option you choose has a false statement, please correct it to a true statement involving the sames sets with or .   Option A  If and are subsets of some universal set then     Option B  Let and . Prove that one of these sets is a proper subset of the other (stating your result as a theorem).    Option C  Let and . Then .    Some LaTeX Notes  For option A:   $(A\\backslash B) \\times C = (A\\times C) \\backslash(B\\times C)$   For option B:   $X = \\{x \\in\\mathbb{Z} : x \\equiv 2 \\pmod{6} \\}$ and $Y = \\{y\\in\\mathbb{Z} : 3 \\mid y-5\\}$ (The \\ makes the set braces appear.) You could also use \\Z if you are using my LaTeX file (instead of \\mathbb{Z} ).  For option C:   $A = \\{ x\\in\\mathbb{Z} : 4\\mid x-7\\}$  $B = \\{x\\in\\mathbb{Z}: x \\equiv 3 \\pmod{12}\\}$.    "
 },
 {
   "id": "pp-6",
@@ -1943,6 +1952,69 @@ var ptx_lunr_docs = [
   "number": "3.17",
   "title": "",
   "body": " Prove .  "
+},
+{
+  "id": "ch-3-sets-6",
+  "level": "1",
+  "url": "ch-3-sets-6.html",
+  "type": "Handout",
+  "number": "3.5",
+  "title": "More Fun Problems! (Chapters 2 and 3)",
+  "body": " More Fun Problems! (Chapters 2 and 3)   Remember these facts about congruence arithmetic! If and , then                   for any .       Practice Proofs Using Mod and Divisibility    Fill in the blank and prove. If then       If then .      Roster Notation to Set Builder Notation Practice    The integers that leave remainder 3 when divided by 7.      The positive divisors of 18.      The multiples of 5 that are between 1 and 50.                      What are the possible remainders when you square an integer and divide by 8?      When you square a natural number and divide by 6, show that you always get a remainder of 0, 1, or 3.       Recall the fact we briefly explored: if is a prime number greater than then .     Let's start by showing for any prime greater than . Hint: Use cases, and the congruence algebra at the start.      Can you do a similar thing to show that ? Since and are relatively prime (have no factors in common), this will complete the proof that .        What is the remainder when you divide by ? Said differently, find .      What is the remainder when you divide an by ? Said differently, find .      What is the remainder when you divide an by ? Said differently, find .       You may have seen the trick in which you know an integer is divisible by if the sum of its digits is divisible by . E.g., we know is divisible by because the sum of its digits, , is divisible by . Let's prove that!     We can write out the place value way, i.e., . Pick another number, say a 4 digit one and write it out the place value way too.      Remember that trick where we replaced with ? Can you do some similar algebra with and see how the sum of its digits comes into play. (Hint: Don't forget you are thinking about divisibility by !)      Try the same thing for the number you used in the first task.      Can you generalize this idea to any number? That is, show that for any integer, the sum of its digits is divisible by if and only if the number itself is divisible by . Consider a number written out by it's digits, i.e., ?      Say the sum of the digits has remainder or when divided by . What can you conclude about the remainder when the number itself is divided by ? In other words, what is for any integer ?      Does the same trick work with negative numbers? How?      There are lots of tricks like this. You can do these tricks with different divisors, and also in different number bases as well (like binary). Feel free to make a conjecture and use as your play, conjecture, prove!     "
+},
+{
+  "id": "ch-3-sets-6-3",
+  "level": "2",
+  "url": "ch-3-sets-6.html#ch-3-sets-6-3",
+  "type": "Activity",
+  "number": "3.18",
+  "title": "Practice Proofs Using Mod and Divisibility.",
+  "body": " Practice Proofs Using Mod and Divisibility    Fill in the blank and prove. If then       If then .    "
+},
+{
+  "id": "ch-3-sets-6-4",
+  "level": "2",
+  "url": "ch-3-sets-6.html#ch-3-sets-6-4",
+  "type": "Activity",
+  "number": "3.19",
+  "title": "Roster Notation to Set Builder Notation Practice.",
+  "body": " Roster Notation to Set Builder Notation Practice    The integers that leave remainder 3 when divided by 7.      The positive divisors of 18.      The multiples of 5 that are between 1 and 50.                  "
+},
+{
+  "id": "ch-3-sets-6-5",
+  "level": "2",
+  "url": "ch-3-sets-6.html#ch-3-sets-6-5",
+  "type": "Activity",
+  "number": "3.20",
+  "title": "",
+  "body": "   What are the possible remainders when you square an integer and divide by 8?      When you square a natural number and divide by 6, show that you always get a remainder of 0, 1, or 3.    "
+},
+{
+  "id": "ch-3-sets-6-6",
+  "level": "2",
+  "url": "ch-3-sets-6.html#ch-3-sets-6-6",
+  "type": "Activity",
+  "number": "3.21",
+  "title": "",
+  "body": "  Recall the fact we briefly explored: if is a prime number greater than then .     Let's start by showing for any prime greater than . Hint: Use cases, and the congruence algebra at the start.      Can you do a similar thing to show that ? Since and are relatively prime (have no factors in common), this will complete the proof that .    "
+},
+{
+  "id": "ch-3-sets-6-7",
+  "level": "2",
+  "url": "ch-3-sets-6.html#ch-3-sets-6-7",
+  "type": "Activity",
+  "number": "3.22",
+  "title": "",
+  "body": "   What is the remainder when you divide by ? Said differently, find .      What is the remainder when you divide an by ? Said differently, find .      What is the remainder when you divide an by ? Said differently, find .    "
+},
+{
+  "id": "ch-3-sets-6-8",
+  "level": "2",
+  "url": "ch-3-sets-6.html#ch-3-sets-6-8",
+  "type": "Activity",
+  "number": "3.23",
+  "title": "",
+  "body": "  You may have seen the trick in which you know an integer is divisible by if the sum of its digits is divisible by . E.g., we know is divisible by because the sum of its digits, , is divisible by . Let's prove that!     We can write out the place value way, i.e., . Pick another number, say a 4 digit one and write it out the place value way too.      Remember that trick where we replaced with ? Can you do some similar algebra with and see how the sum of its digits comes into play. (Hint: Don't forget you are thinking about divisibility by !)      Try the same thing for the number you used in the first task.      Can you generalize this idea to any number? That is, show that for any integer, the sum of its digits is divisible by if and only if the number itself is divisible by . Consider a number written out by it's digits, i.e., ?      Say the sum of the digits has remainder or when divided by . What can you conclude about the remainder when the number itself is divided by ? In other words, what is for any integer ?      Does the same trick work with negative numbers? How?      There are lots of tricks like this. You can do these tricks with different divisors, and also in different number bases as well (like binary). Feel free to make a conjecture and use as your play, conjecture, prove!    "
 },
 {
   "id": "ch-4-induction-2",
