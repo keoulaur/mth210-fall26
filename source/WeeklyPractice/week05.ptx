@@ -247,6 +247,40 @@
                 Prove that <m>\{12a + 3b: a, b\in\mathbb{Z}\} = \{3k: k\in\mathbb{Z}\}</m>.
             </p>
         </statement>
+
+        <solution>
+            <p>
+                <em>Theorem. If <m>A= \{12a + 3b: a, b\in\mathbb{Z}\}</m> and <m>B= \{3k: k\in\mathbb{Z}\}</m> 
+                    then <m>A=B</m> </em> </p>
+                    <p>
+                <em>Proof</em>. Suppose that <m>A= \{12a + 3b: a, b\in\mathbb{Z}\}</m> and <m>B= \{3k: k\in\mathbb{Z}\}</m>. 
+                We will show <m>A=B</m> by showing that <m>A\subseteq B</m> and <m>B\subseteq A</m>. 
+            </p>
+
+            <p>
+                First, suppose that <m>x\in A</m>. Then there exist integers <m>a</m> and <m>b</m> such that <m>x=12a+3b</m>.
+                Thus,
+                    <md>
+                        x = 12 a + 3 b = 3 (4a+b).                    
+                    </md>
+                   Since the integers are closed under multiplicaton and addition, <m>4a+b\in\mathbb{Z}</m>. 
+                   Therefore, <m>x=3k</m> for some integer <m>k=4a+b</m>, and so <m>x\in B</m>. Thus we have shown that <m>A\subseteq B</m>.
+            </p>
+
+            <p>
+                Now we will show that <m>B\subseteq A</m>. 
+                Suppose that <m>y\in B</m>. Then there exists an integer <m>k</m> such that <m>y=3k</m>.
+                Let <m>a=0</m> and <m>b=k</m>. Then <m>a, b\in\mathbb{Z}</m> and
+                    <md>
+                        y = 3k = 12(0) + 3k = 12a + 3b.
+                    </md>
+                Thus <m>y\in A</m>, and we have shown that <m>B\subseteq A</m>.
+            </p>
+
+            <p>
+                Since we have shown that <m>A\subseteq B</m> and <m>B\subseteq A</m>, it follows that <m>A=B</m>.
+            </p>
+        </solution>
     </exercise>
 
 </page>
