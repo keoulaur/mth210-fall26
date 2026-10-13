@@ -682,7 +682,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "3.5",
   "title": "Week 5 Weekly Practice",
-  "body": " Week 5 Weekly Practice   Due the second class of the week of October 5.   Exercise 3.3   Rewrite each of the following sets by listing their elements between braces (roster notation). If it is an infinite set, write out enough elements for the reader to see the pattern, then use ellipses.                                          Exercise 3.4   Suppose , , , and the universal set is . Determine the following.                                          Exercise 3.5   Rewrite each of the following sets in set-builder notation.                                   Exercise 3.8   Determine whether each of the following are true or false.                                                        Exercise 3.19 (b)   Prove that .     "
+  "body": " Week 5 Weekly Practice   Due the second class of the week of October 5.   Exercise 3.3   Rewrite each of the following sets by listing their elements between braces (roster notation). If it is an infinite set, write out enough elements for the reader to see the pattern, then use ellipses.                                          Exercise 3.4   Suppose , , , and the universal set is . Determine the following.                                          Exercise 3.5   Rewrite each of the following sets in set-builder notation.                                   Exercise 3.8   Determine whether each of the following are true or false.                                                        Exercise 3.19 (b)   Prove that .     Theorem. If and then     Proof . Suppose that and . We will show by showing that and .  First, suppose that . Then there exist integers and such that . Thus, Since the integers are closed under multiplicaton and addition, . Therefore, for some integer , and so . Thus we have shown that .  Now we will show that . Suppose that . Then there exists an integer such that . Let and . Then and Thus , and we have shown that .  Since we have shown that and , it follows that .     "
 },
 {
   "id": "WP-05-2-2",
@@ -727,7 +727,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3.5.5",
   "title": "Exercise 3.19 (b).",
-  "body": " Exercise 3.19 (b)   Prove that .   "
+  "body": " Exercise 3.19 (b)   Prove that .     Theorem. If and then     Proof . Suppose that and . We will show by showing that and .  First, suppose that . Then there exist integers and such that . Thus, Since the integers are closed under multiplicaton and addition, . Therefore, for some integer , and so . Thus we have shown that .  Now we will show that . Suppose that . Then there exists an integer such that . Let and . Then and Thus , and we have shown that .  Since we have shown that and , it follows that .   "
 },
 {
   "id": "WP-06",
