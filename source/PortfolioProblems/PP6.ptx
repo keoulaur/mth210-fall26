@@ -5,13 +5,23 @@
 
   <p>
     All problems are in an Overleaf document at
-    <url href="https://gvsu.edu/s/3tn"/>.
+    <url href="https://gvsu.edu/s/3tn"/>. Copy/paste problems
+    from there to learn notation in Overleaf!
+
     The writing guidelines are at
     <url href="https://gvsu.edu/s/3to"/>.
+
     There's a sample portfolio solution at
     <url href="https://gvsu.edu/s/3v0"/>.
+
     There's an Overleaf Cheat Sheet at
     <url href="https://gvsu.edu/s/3OL"/>.
+
+    All of the writing guidelines are at
+    <url href="https://gvsu.edu/s/3NG"></url>.
+
+    All of the proof portfolio objectives are at
+    <url href="https://gvsu.edu/s/3QC"></url>.
   </p>
 
 <paragraphs>
@@ -30,16 +40,17 @@
       </p>
     </li>
     <li>
-      <p>Prove these using induction! (Proof Portfolio Objective PM5.)</p>
+      <p>Prove these using induction!</p>
     </li>
     <li>
       <p>
-        Put a special focus on demonstrating that you understand how induction works. For example, make sure you use correct quantifiers and notation.
+        Put a special focus on demonstrating that you understand how induction works. For example, make sure you use correct quantifiers (for all, there exists) 
+        and notation.
       </p>
     </li>
     <li>
       <p>
-        You can use page 46 of the worksheets, or pages 151 or 157 of your textbook for a model of a proof by induction.
+        You can use page 48 of the worksheets, or pages 151 or 157 of your textbook for a model of a proof by induction.
       </p>
     </li>
   </ol>
@@ -54,9 +65,17 @@
 </paragraphs>
 
 <paragraphs xml:id="conjecture-6b">
-  <title>Conjecture 6B:</title>
+  <title>Conjecture 6B</title>
   <p>
     Let <m>n\in\mathbb{N}</m> and let <m>f(x) = \frac{8}{3x+2}</m>. Then the <m>n^{th}</m> derivative of <m>f(x)</m> is <m>f^{(n)}(x) = \dots</m>.
+  </p>
+</paragraphs>
+
+<paragraphs xml:id="conjecture-6c">
+  <title>Conjecture 6C</title>
+  <p> Consider the expressions <m>5+2^n</m> and <m>3^n</m>. Conjecture an expression to complete the statement 
+   For each <m>n\in\mathbb{N}</m>, with <m>n\geq <fillin characters="2" /></m> <m>5+2^n <fillin characters="2" /> 3^n </m>.
+  (The first blank is a natural number and the second blank is an inequality.) Prove your statement.
   </p>
 </paragraphs>
 </handout>
