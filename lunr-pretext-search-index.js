@@ -775,6 +775,33 @@ var ptx_lunr_docs = [
   "body": " Evaluating proofs   For these, read the proofs, and decide if they are correct. If the proof is incorrect, explain why (e.g., where is the logic not sound). If the proof is correct, determine if it meets our writing guidelines.      Proof Evaluation 1         Proof Evaluation 2         Proof Evaluation 3      "
 },
 {
+  "id": "WP-07",
+  "level": "1",
+  "url": "WP-07.html",
+  "type": "Worksheet",
+  "number": "3.7",
+  "title": "Week 7 Weekly Practice",
+  "body": " Week 7 Weekly Practice   Due the first (?) class of the week of October 19.   Exercise 4.4 (i)   Prove by induction that for all natural numbers ,        Exercise 4.2   Provide three proofs that if is a natural number, then is even.     Prove it by cases, by considering is even and is odd .    Prove it by applying Proposition 4.2 to the sum .    Prove it by induction.      Note: Proposition 4.2 says .     "
+},
+{
+  "id": "exercise-4-4-i",
+  "level": "2",
+  "url": "WP-07.html#exercise-4-4-i",
+  "type": "Worksheet Exercise",
+  "number": "3.7.1",
+  "title": "Exercise 4.4 (i).",
+  "body": " Exercise 4.4 (i)   Prove by induction that for all natural numbers ,    "
+},
+{
+  "id": "exercise-4-2",
+  "level": "2",
+  "url": "WP-07.html#exercise-4-2",
+  "type": "Worksheet Exercise",
+  "number": "3.7.2",
+  "title": "Exercise 4.2.",
+  "body": " Exercise 4.2   Provide three proofs that if is a natural number, then is even.     Prove it by cases, by considering is even and is odd .    Prove it by applying Proposition 4.2 to the sum .    Prove it by induction.      Note: Proposition 4.2 says .   "
+},
+{
   "id": "pp-instructions",
   "level": "1",
   "url": "pp-instructions.html",
@@ -1069,7 +1096,7 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "4.8",
   "title": "Portfolio Problem 6",
-  "body": " Portfolio Problem 6  All problems are in an Overleaf document at . The writing guidelines are at . There's a sample portfolio solution at . There's an Overleaf Cheat Sheet at .   Instructions:     Pick ONE of the following problems.    In both your draft and writing revision, include at least 3 examples that show how you came up with your conjecture.    The given prompts are not yet theorem statements! You may need to complete the statements, and modify the sentences so that they are theorem statements. In particular, theorem statements don't have prove that in them.    Prove these using induction! (Proof Portfolio Objective PM5.)    Put a special focus on demonstrating that you understand how induction works. For example, make sure you use correct quantifiers and notation.    You can use page 46 of the worksheets, or pages 151 or 157 of your textbook for a model of a proof by induction.       Conjecture 6A:  Let be the Fibonacci numbers. Conjecture an expression to complete the statement For each , . Prove your statement.    Conjecture 6B:  Let and let . Then the derivative of is .   "
+  "body": " Portfolio Problem 6  All problems are in an Overleaf document at . Copy\/paste problems from there to learn notation in Overleaf! The writing guidelines are at . There's a sample portfolio solution at . There's an Overleaf Cheat Sheet at . All of the writing guidelines are at . All of the proof portfolio objectives are at .   Instructions:     Pick ONE of the following problems.    In both your draft and writing revision, include at least 3 examples that show how you came up with your conjecture.    The given prompts are not yet theorem statements! You may need to complete the statements, and modify the sentences so that they are theorem statements. In particular, theorem statements don't have prove that in them.    Prove these using induction!    Put a special focus on demonstrating that you understand how induction works. For example, make sure you use correct quantifiers (for all, there exists) and notation.    You can use page 48 of the worksheets, or pages 151 or 157 of your textbook for a model of a proof by induction.       Conjecture 6A:  Let be the Fibonacci numbers. Conjecture an expression to complete the statement For each , . Prove your statement.    Conjecture 6B  Let and let . Then the derivative of is .    Conjecture 6C  Consider the expressions and . Conjecture an expression to complete the statement For each , with  . (The first blank is a natural number and the second blank is an inequality.) Prove your statement.   "
 },
 {
   "id": "ch-1-intuitiveproofs-2",
