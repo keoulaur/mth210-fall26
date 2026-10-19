@@ -2050,7 +2050,7 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "4.1",
   "title": "Proof by Induction",
-  "body": " Proof by Induction    Procedure for a Proof by Mathematical Induction To prove a series of statements .      : Prove .     : Prove , if then .    Then we can conclude that is true .     To identify a statement you might prove by induction you might look for...   Example Of Formal Writing of a Proof by Mathematical Induction. In the proof below, read one sentence at a time, trying to make sense of the steps and the logic. Underline the parts that you think will be in every proof by induction.    For all , the sum of the first odd natural numbers is . That is, for all ,      We will use proof by mathematical induction. For each natural number , we let the statement be For the base case, we prove that is true. In the case where , the left side of is and the right side is . Since , is true and the base case is complete.  For the inductive step, we prove that for each , if is true, then is true. So let be a natural number and assume that is true. That is, assume that Now we must show that is true. That is, we will show that   To do so, we add to both sides of and factor the right side of the resulting equation. This gives us: The result above is exactly the statement , as seen in . This proves that if is true, then is true. Hence, the inductive step has been established.  Thus by the Principle of Mathematical Induction, we have proved that for each natural number , the sum of the first odd natural numbers is .      There are multiple ways to do the inductive step. Above, we added the same thing to both sides of the inductive hypothesis, as you likely recall doing in algebra We can also start by working with the left hand side of the inductive hypothesis and using substitution, as shown below. Which of these two ways you do this inductive proof is only a matter of preference, both are valid. The vertical dots in the proof below indicate that the rest of the proof is the same as the one above.   We will use a proof by mathematical induction. To do so, we begin with the left side of and substitute the expression for which is true by our assumption from . We find The result above is exactly the statement , the sum of the first odd natural numbers is .     What is not valid is to start with using . This would be assuming the conclusion of the conditional statement that is the inductive step which says  If  then .    Here's some things you may do when working to do any proof by induction:     First, you may want to test a couple of values of to see if the statement even seems true\/you understand what it is. Test . See if you can write down what the statement says when .    What is in this case?    What is and is it true?    Then, let and write at the top of your page and at the bottom. Wiggle your way in between!         For every natural number , the sum of the squares of the first natural numbers is . That is,       Use the principle of mathematical induction to prove .    First, you may want to test a couple of values of to see if the statement even seems true\/you understand what it is. Test . See if you can write down what the statement says when .    What is in this case?    What is and is it true?    Then, let and write at the top of your page and at the bottom. Wiggle your way in between!    Here's some space to put all your thoughts together.        For every natural number , .      Use the principle of mathematical induction to prove . Work to get the big ideas of the induction argument right first; then, sketch the proof.     First, you may want to test a couple of values of to see if the statement even seems true\/you understand what it is. Test . See if you can write down what the statement says when . Does it seem true?     What is in this case?    What is and is it true?    Then, let and write at the top of your page and at the bottom. Wiggle your way in between! Two approaches here:   Use definitions to translate from the definition of congruence, to the definition of divides, and then to an equation. Mess around with some algebra.    Recall that we proved that if and then . How could you use that as a Lemma?       Here's some space to put all your thoughts together.         If time: Prove, using induction:  For every natural number ,          An induction proof from calculus: Find a formula for the derivative of , state your result as a theorem, and prove it using induction.        For all , .       An induction proof with inequality Recall (or learn for the first time!) that . E.g., and . Determine if is true. If not, modify it to be true, and then prove by induction.     "
+  "body": " Proof by Induction    Procedure for a Proof by Mathematical Induction To prove a series of statements .      : Prove .     : Prove , if then .    Then we can conclude that is true .     To identify a statement you might prove by induction you might look for...   Example Of Formal Writing of a Proof by Mathematical Induction. In the proof below, read one sentence at a time, trying to make sense of the steps and the logic. Underline the parts that you think will be in every proof by induction.    For all , the sum of the first odd natural numbers is . That is, for all ,      We will use proof by mathematical induction. For each natural number , we let the statement be For the base case, we prove that is true. In the case where , the left side of is and the right side is . Since , is true and the base case is complete.  For the inductive step, we prove that for each , if is true, then is true. So let be a natural number and assume that is true. That is, assume that Now we must show that is true. That is, we will show that   To do so, we add to both sides of and factor the right side of the resulting equation. This gives us: The result above is exactly the statement , as seen in . This proves that if is true, then is true. Hence, the inductive step has been established.  Thus by the Principle of Mathematical Induction, we have proved that for each natural number , the sum of the first odd natural numbers is .      There are multiple ways to do the inductive step. Above, we added the same thing to both sides of the inductive hypothesis, as you likely recall doing in algebra We can also start by working with the left hand side of the inductive hypothesis and using substitution, as shown below. Which of these two ways you do this inductive proof is only a matter of preference, both are valid. The vertical dots in the proof below indicate that the rest of the proof is the same as the one above.   We will use a proof by mathematical induction. To do so, we begin with the left side of and substitute the expression for which is true by our assumption from . We find The result above is exactly the statement , the sum of the first odd natural numbers is .     What is not valid is to start with using . This would be assuming the conclusion of the conditional statement that is the inductive step which says  If  then .    Here's some things you may do when working to do any proof by induction:     First, you may want to test a couple of values of to see if the statement even seems true\/you understand what it is. Test . See if you can write down what the statement says when .    What is in this case?    What is and is it true?    Then, let and write at the top of your page and at the bottom. Wiggle your way in between!         For every natural number , the sum of the squares of the first natural numbers is . That is,       Use the principle of mathematical induction to prove .    First, you may want to test a couple of values of to see if the statement even seems true\/you understand what it is. Test . See if you can write down what the statement says when .    What is in this case?    What is and is it true?    Then, let and write at the top of your page and at the bottom. Wiggle your way in between!    Here's some space to put all your thoughts together.        For every natural number , .      Use the principle of mathematical induction to prove . Work to get the big ideas of the induction argument right first; then, sketch the proof.     First, you may want to test a couple of values of to see if the statement even seems true\/you understand what it is. Test . See if you can write down what the statement says when . Does it seem true?     What is in this case?    What is and is it true?    Then, let and write at the top of your page and at the bottom. Wiggle your way in between! Two approaches here:   Use definitions to translate from the definition of congruence, to the definition of divides, and then to an equation. Mess around with some algebra.    Recall that we proved that if and then . How could you use that as a Lemma?       Here's some space to put all your thoughts together.         If time: Prove, using induction:  For every natural number ,          An induction proof from calculus: Find a formula for the derivative of , state your result as a theorem, and prove it using induction.        For all , .       An induction proof with inequality Recall (or learn for the first time!) that . E.g., and . Determine if is true. If not, modify it to be true, and then prove by induction.        For all , the sum of the squares of the first natural numbers is . That is, for all , .     We will use proof by mathematical induction. For each natural number , we let the statement be For the base case, we prove that is true. In the case where , the left side of is and the right side is . Since , is true and the base case is complete.  For the inductive step, we prove that for each , if is true, then is true. So let be a natural number and assume that is true. That is, assume that Now we must show that is true. That is, we will show that   The result above is exactly the statement , as seen in . This proves that if is true, then is true. Hence, the inductive step has been established.  Thus by the Principle of Mathematical Induction, we have proved that for each natural number , .    "
 },
 {
   "id": "ch-4-induction-2-2-1",
@@ -2179,6 +2179,24 @@ var ptx_lunr_docs = [
   "body": "   An induction proof with inequality Recall (or learn for the first time!) that . E.g., and . Determine if is true. If not, modify it to be true, and then prove by induction.   "
 },
 {
+  "id": "ch-4-induction-2-9-1",
+  "level": "2",
+  "url": "ch-4-induction-2.html#ch-4-induction-2-9-1",
+  "type": "Theorem",
+  "number": "4.11",
+  "title": "",
+  "body": "  For all , the sum of the squares of the first natural numbers is . That is, for all , .   "
+},
+{
+  "id": "ch-4-induction-2-9-2",
+  "level": "2",
+  "url": "ch-4-induction-2.html#ch-4-induction-2-9-2",
+  "type": "Proof",
+  "number": "1",
+  "title": "",
+  "body": " We will use proof by mathematical induction. For each natural number , we let the statement be For the base case, we prove that is true. In the case where , the left side of is and the right side is . Since , is true and the base case is complete.  For the inductive step, we prove that for each , if is true, then is true. So let be a natural number and assume that is true. That is, assume that Now we must show that is true. That is, we will show that   The result above is exactly the statement , as seen in . This proves that if is true, then is true. Hence, the inductive step has been established.  Thus by the Principle of Mathematical Induction, we have proved that for each natural number , .  "
+},
+{
   "id": "ch-4-induction-3",
   "level": "1",
   "url": "ch-4-induction-3.html",
@@ -2192,7 +2210,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-2-1",
   "type": "Definition",
-  "number": "4.11",
+  "number": "4.12",
   "title": "",
   "body": "  The Fibonacci Numbers are a recursive sequence defined by with    , and    For each natural number , .   A process is recursive if the next step is defined in terms of previous ones.   "
 },
@@ -2201,7 +2219,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-2-2",
   "type": "Remark",
-  "number": "4.12",
+  "number": "4.13",
   "title": "",
   "body": " So induction is a great proof technique for statements about recursive sequences - in induction we prove a case based on a previous case, and recursive sequences are defined by previous cases!  "
 },
@@ -2210,7 +2228,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-2-3",
   "type": "Activity",
-  "number": "4.13",
+  "number": "4.14",
   "title": "",
   "body": "  In the preview activity, you likely conjectured that, for all , . Let's prove this by induction!   "
 },
@@ -2219,7 +2237,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-3-1",
   "type": "Activity",
-  "number": "4.14",
+  "number": "4.15",
   "title": "",
   "body": "  Here are the first several Fibonacci numbers (starting with ):     There are lots of patterns in the Fibonacci numbers. For example, circle every fourth Fibonacci number starting with the fourth one. What do you notice?    State your observation in the form of a Proposition: For all , is Then prove your conjecture using induction!   "
 },
@@ -2228,7 +2246,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-4-2",
   "type": "Activity",
-  "number": "4.15",
+  "number": "4.16",
   "title": "",
   "body": "  Suppose you had a chocolate bar, a grid of squares, and you want to break it up completely so that each piece is only one square. No tricks, just break along the grid lines. Try breaking it up - how many breaks did it take? Can you do it more efficiently? Start simple - like with a .   "
 },
@@ -2237,7 +2255,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-5-1",
   "type": "Activity",
-  "number": "4.16",
+  "number": "4.17",
   "title": "Play, Conjecture, Prove Option.",
   "body": " Play, Conjecture, Prove Option   In a simplified version of the super bowl, teams can score points (for a field goal) or points (for a touchdown). What are the possible scores for one team?   "
 },
@@ -2246,7 +2264,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-6-1",
   "type": "Remark",
-  "number": "4.17",
+  "number": "4.18",
   "title": "Common Induction Mistakes.",
   "body": " Common Induction Mistakes  Here are some things that you should never ever do. For each one, can you explain why it's a mistake?     Writing something like `` '' or `` .'' A predicate is never equal to anything. It's a sentence!    In the base case: Stating and then forgetting to explain why it is true. Base cases should usually look ``obvious'' but you still need to say something about why they're true.    Forgetting to do the base case at all.    In the inductive step: Saying that ``We assume that is true for all natural numbers .'' If you really did assume this, what would you have left to prove?    Writing ``We assume that is ''. Are you actually assuming anything is true ?     "
 },
@@ -2255,7 +2273,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-4-induction-3.html#ch-4-induction-3-6-2",
   "type": "Activity",
-  "number": "4.18",
+  "number": "4.19",
   "title": "Evaluating an Induction Proof.",
   "body": " Evaluating an Induction Proof   Explain what the following proof is doing and what theorem it is trying to prove. Do you think the theorem is true? If not, what makes the proof fail?   A comic from Dinosaur Comics .   A comic where one dinosaur claims that they have a proof by induction that all dinos are the same color.     "
 },
@@ -3482,6 +3500,15 @@ var ptx_lunr_docs = [
   "number": "9.17",
   "title": "",
   "body": "  In , solve each of the following equations, keeping in mind that the solution to any equation is the set of all values that make the equation true. Here, = means equality as congruence classes. Note, order of operations for and are the same as for regular addition and multiplication, and , in the following way: in the absence of parentheses, we multiply before we add.  Find all such that:                        "
+},
+{
+  "id": "ch-review-assessments-2",
+  "level": "1",
+  "url": "ch-review-assessments-2.html",
+  "type": "Handout",
+  "number": "10.1",
+  "title": "(More) About Review Assessment 1",
+  "body": " (More) About Review Assessment 1    Example short answer questions?  See the Review Assessment 1 from Winter 26 for sample questions!    List of Things to Know About     Tilings\/tiling proofs   Pigeonhole principle (simple and general form)  What to assume and prove in a direct proof  What cases you might use in a proof by cases  The steps in a proof by induction, how to do a base case  Find and explain counterexamples  Closure  Definition of even integer and odd integer  Definition of divides  Definition of congruence  Division algorithm  Properties of congruence  Definition of subset, proper subset, equal sets and all the subset symbols  How to prove a set is a subset of another, how to prove proper subset, how to prove two sets are equal  Power sets  Cartesian products  Roster notation and set builder notation and translating between  Intersection, union, complement, set subtraction  Disjoint sets, how to prove 2 sets are disjoint        Which Type of Proof?  So far our main proof techniques are direct proofs, and proof by cases. We have also done proofs about different topics, like pigeonhole proofs, chessboard problems, even\/odd integers, divisibility, congruence, and sets. The proof on Review Assessment 1 will not be on pigeonhole principle nor chessboard problems (though these topics will be on the Review Asssement). Here's some recommendations:     My biggest recommendation: any statement you are asked to prove, write what you know at the top of your page and what you want to prove at the bottom of the page. It's hard to prove something if you don't know where you are going! Then do the no thinking part of the proof, where you write down defintions, both going forward and taking backwards steps.    Two ways to recognize cases: (a) the statement's hypothesis is something vague like for all integers and it's not clear where to start, (b) the statement has a an or in the hypothesis. Note that an or in the conclusion does not necessarily mean you need to do a proof by cases.    It might help to write down the general structure of each type of proof. Like if you were doing an even\/odd proof, what was the overall idea? What about divisibility? Congruence? Each type of set proof? (Like equality, subset, proper subset, disjoint,etc.)       Sets, Curly Braces, Power Sets, Cartesian Products  Each of problems 3.3-3.8 in your textbook on pages 126-127 are good practice problems. See next page for more!        Consider , , and .   What are the sizes (or cardinality) of each of these sets? (That is, how many elements are in each set?)    List all the elements of each of these sets.    What are the cardinalities of and ? What about ? ? ?    Which of the following are true?    ,          ,     , ?            Which of the following are true?    ,          ,     ,            Which of the following are true?                            Which of the following are true?   Is ? Is ?    Is ? Is ?    Is ? Is ?    Is ?          Is ?    Is ?         Is ?    Is ?    Is ?              Review from Earlier Chapters     Explain why a chessboard with 1 square removed cannot be tiled with dominoes.    Explain why a chessboard with 2 corner squares removed cannot be tiled with dominoes.    Explain why the 5 standard tetris pieces not be able to perfectly cover a chessboard. (Look up the Tetris pieces for now, I would put a picture on the review assessment if this was on there!)    How many people would we need in class to guarantee 2 of them were born in the same month? What if we wanted 3 of them to be born in the same month? What if we wanted 4 of them to be born in the same month?    The U.S. population is currently abouy 350 million people. Are there enough people to guarantee that 1 million people have the same birthday? Why or why not? If not, how many people would we need to guarantee that 1 million people have the same birthday?    How many cards would you need in your hand to guarantee you had 2 cards of the same suit? 3 cards of the same suit? 4 cards of the same suit?    Prove that if and are even integers, then .    Prove that, for all integers and if and then .    Find the (unique) quotient and remainder when and ? What congurence can you state as a result of this?    List all the integers that are congruent to .    What is the (unique) quotient and remainder when and ?    List all the integers that are congruent to .    Someone says that when you divide by the reamainder is ? What is this person thinking? What is the correct remainder?       "
 }
 ]
 
