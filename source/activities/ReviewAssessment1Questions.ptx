@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>(More) About Review Assessment 1</title>
+
+    <page>
+        <paragraphs>
+            <title>Example short answer questions?</title>
+
+            <p>
+                See the Review Assessment 1 from Winter 26 for sample questions!
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>List of Things to Know About</title>
+
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Tilings/tiling proofs
+                        </p>
+                    </li>
+
+                    <li>Pigeonhole principle (simple and general form)</li>
+                    <li>What to assume and prove in a direct proof</li>
+                    <li>What cases you might use in a proof by cases</li>
+                    <li>
+                        The steps in a proof by induction, how to do a base case
+                    </li>
+
+                    <li>Find and explain counterexamples</li>
+                    <li>Closure</li>
+                    <li>Definition of even integer and odd integer</li>
+                    <li>Definition of divides</li>
+                    <li>Definition of congruence</li>
+                    <li>Division algorithm</li>
+                    <li>Properties of congruence</li>
+                    <li>
+                        Definition of subset, proper subset, equal sets and all
+                        the subset symbols
+                    </li>
+
+                    <li>
+                        How to prove a set is a subset of another, how to prove
+                        proper subset, how to prove two sets are equal
+                    </li>
+
+                    <li>Power sets</li>
+                    <li>Cartesian products</li>
+                    <li>
+                        Roster notation and set builder notation and translating
+                        between
+                    </li>
+
+                    <li>Intersection, union, complement, set subtraction</li>
+                    <li>Disjoint sets, how to prove 2 sets are disjoint</li>
+                </ul>
+            </p>
+        </paragraphs>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Which Type of Proof?</title>
+
+            <p>
+                So far our main proof techniques are direct proofs, and proof by
+                cases.
+                We have also done proofs about different topics, like pigeonhole
+                proofs, chessboard problems, even/odd integers, divisibility,
+                congruence, and sets.
+                The proof on Review Assessment 1 will not be on pigeonhole
+                principle nor chessboard problems (though these topics will be
+                on the Review Asssement).
+                Here's some recommendations:
+            </p>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            My biggest recommendation: any statement you are
+                            asked to prove, write what you know at the top of
+                            your page and what you want to prove at the bottom
+                            of the page.
+                            It's hard to prove something if you don't know where
+                            you are going!
+                            Then do the <q>no thinking</q> part of the proof,
+                            where you write down defintions, both going forward
+                            and taking backwards steps.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Two ways to recognize cases: (a) the statement's
+                            hypothesis is something vague like
+                            <q>for all integers</q> and it's not clear where to
+                            start, (b) the statement has a an <q>or</q> in the
+                            hypothesis.
+                            Note that an <q>or</q> in the conclusion does not
+                            necessarily mean you need to do a proof by cases.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            It might help to write down the general structure of
+                            each type of proof.
+                            Like if you were doing an even/odd proof, what was
+                            the overall idea?
+                            What about divisibility?
+                            Congruence?
+                            Each type of set proof?
+                            (Like equality, subset, proper subset,
+                            disjoint,etc.)
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+             <title>Sets, Curly Braces, Power Sets, Cartesian Products</title>
+
+            <p>
+                Each of problems 3.3-3.8 in your textbook on pages 126-127 are
+                good practice problems.
+                See next page for more!
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+           <title></title>
+           
+           
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Consider <m> A = \{1,2\} </m>, <m>B = \{3,4\} </m>,
+                            and <m>C = \{5,\{6\},7\} </m>.
+                            <ol>
+                                <li>
+                                    <p>
+                                        What are the sizes (or cardinality) of
+                                        each of these sets?
+                                        (That is, how many elements are in each
+                                        set?)
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        List all the elements of each of these
+                                        sets.
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        What are the cardinalities of
+                                        <m>A \times B</m> and <m>B \times C</m>?
+                                        What about <m>\mathcal{P}(A)</m>?
+                                        <m>\mathcal{P}(B)</m>?
+                                        <m>\mathcal{P}(C)</m>?
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        Which of the following are true?
+                                        <ol>
+                                            <li>
+                                                <p>
+                                                    <m>5\in C</m>,
+                                                </p>
+                                            </li>
+
+                                            <li>
+                                                <p>
+                                                    <m>5 \subseteq C</m>
+                                                </p>
+                                            </li>
+
+                                            <li>
+                                                <p>
+                                                    <m>\{5\}\in C</m>,
+                                                </p>
+                                            </li>
+
+                                            <li>
+                                                <p>
+                                                    <m>\{5\} \subseteq C</m>,
+                                                    <m>\{5\} \subset C</m>?
+                                                </p>
+                                            </li>
+
+                                            <li>
+                                                <p>
+                                                    <m>\{5\} \subset C</m>
+                                                </p>
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        Which of the following are true?
+                                        <ol>
+                                            <li>
+                                                <p>
+                                                    <m>6\in C</m>,
+                                                </p>
+                                            </li>
+
+                                            <li>
+                                                <p>
+                                                    <m>6 \subseteq C</m>
+                                                </p>
+                                            </li>
+
+                                            <li>
+                                                <p>
+                                                    <m>\{6\}\in C</m>,
+                                                </p>
+                                            </li>
+
+                                            <li>
+                                                <p>
+                                                    <m>\{6\} \subseteq C</m>,
+                                                </p>
+                                            </li>
+
+                                            <li>
+                                                <p>
+                                                    <m>\{6\} \subset C</m>
+                                                </p>
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        Which of the following are true?
+                                    </p>
+
+                                    <p>
+                                        <ol>
+                                            <li>
+                                                <p>
+                                                    <m>\{5\} \in \mathcal{P}(C)</m>
+                                                </p>
+                                            </li>
+
+                                            <li>
+                                                <p>
+                                                    <m>\{6\} \in \mathcal{P}(C)</m>
+                                                </p>
+                                            </li>
+
+                                            <li>
+                                                <p>
+                                                    <m>\{\{6\}\} \in \mathcal{P}(C)</m>
+                                                </p>
+                                            </li>
+
+                                            <li>
+                                                <p>
+                                                    <m>\{5,6\} \in \mathcal{P}(C)</m>
+                                                </p>
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        Which of the following are true?
+                                        <ol>
+                                            <li>
+                                                <p>
+                                                    Is
+                                                    <m>(1,2) \in A \times B</m>?
+                                                    Is
+                                                    <m>\{1,2\} \in A\times B</m>?
+                                                </p>
+                                            </li>
+
+                                            <li>
+                                                <p>
+                                                    Is
+                                                    <m>(2,3) \in A\times B</m>?
+                                                    Is
+                                                    <m>\{2,3\} \in A\times B</m>?
+                                                </p>
+                                            </li>
+
+                                            <li>
+                                                <p>
+                                                    Is
+                                                    <m>(4,6)\in B\times C</m>?
+                                                    Is
+                                                    <m>(4,\{6\})\in B\times C</m>?
+                                                </p>
+                                            </li>
+
+                                            <li>
+                                                <p>
+                                                    Is
+                                                    <m>\{4,\{6\}\}\in B\times C</m>?
+                                                </p>
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <ol>
+                                            <li>
+                                                <p>
+                                                    Is
+                                                    <m>(1,2) \in \mathcal{P}(A)</m>?
+                                                </p>
+                                            </li>
+
+                                            <li>
+                                                <p>
+                                                    Is
+                                                    <m>\{1,2\} \in \mathcal{P}(A)</m>?
+                                                </p>
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <ol>
+                                        <li>
+                                            <p>
+                                                Is
+                                                <m>\emptyset \in \mathcal{P}(A)</m>?
+                                            </p>
+                                        </li>
+
+                                        <li>
+                                            <p>
+                                                Is
+                                                <m>\{\} \in \mathcal{P}(A)</m>?
+                                            </p>
+                                        </li>
+
+                                        <li>
+                                            <p>
+                                                Is
+                                                <m>\{\emptyset\}\in\mathcal{P}(A)</m>?
+                                            </p>
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </paragraphs>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Review from Earlier Chapters</title>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Explain why a chessboard with 1 square removed
+                            cannot be tiled with dominoes.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Explain why a chessboard with 2 corner squares
+                            removed cannot be tiled with dominoes.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Explain why the 5 standard tetris pieces not be able
+                            to perfectly cover a <m>4\times 5</m> chessboard.
+                            (Look up the Tetris pieces for now, I would put a
+                            picture on the review assessment if this was on
+                            there!)
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            How many people would we need in class to guarantee
+                            2 of them were born in the same month?
+                            What if we wanted 3 of them to be born in the same
+                            month?
+                            What if we wanted 4 of them to be born in the same
+                            month?
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            The U.S.
+                            population is currently abouy 350 million people.
+                            Are there enough people to guarantee that 1 million
+                            people have the same birthday?
+                            Why or why not?
+                            If not, how many people would we need to guarantee
+                            that 1 million people have the same birthday?
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            How many cards would you need in your hand to
+                            guarantee you had 2 cards of the same suit?
+                            3 cards of the same suit?
+                            4 cards of the same suit?
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Prove that if <m>m</m> and <m>n</m> are even
+                            integers, then <m>4\mid 3mn</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Prove that, for all integers <m>a,b,x,y</m> and
+                            <m>n</m> if <m>x\mid n</m> and <m>y \mid n</m> then
+                            <m>n\mid xa + yb</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Find the (unique) quotient and remainder when
+                            <m>a = 15</m> and <m>m=4</m>?
+                            What congurence can you state as a result of this?
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            List all the integers that are congruent to
+                            <m>15 \pmod{4}</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            What is the (unique) quotient and remainder when
+                            <m>a = -1</m> and <m>m=15</m>?
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            List all the integers that are congruent to
+                            <m>-1 \pmod{15}</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Someone says that when you divide <m>-18</m> by
+                            <m>4</m> the reamainder is <m>-2</m>?
+                            What is this person thinking?
+                            What is the correct remainder?
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </paragraphs>
+    </page>
+</handout>

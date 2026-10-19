@@ -160,6 +160,12 @@
                 <xi:include href="./activities/09-2-ProofsOfEquivalenceRelations.ptx"/>
                 <xi:include href="./activities/09-3-EquivalenceClasses.ptx"/>
             </chapter>
+
+            <chapter xml:id="ch-review-assessments">
+                <title>Review Assessments</title>
+
+                <xi:include href="./activities/ReviewAssessment1Questions.ptx"/>
+            </chapter>
         </part>
     </book>
 </pretext>
