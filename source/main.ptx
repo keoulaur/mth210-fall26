@@ -39,6 +39,7 @@
                 <xi:include href="./LearningTargets/LearningTarget6.ptx" />
                 <xi:include href="./LearningTargets/LearningTarget7.ptx" />
                 <xi:include href="./LearningTargets/LearningTarget8.ptx" />
+                <xi:include href="./LearningTargets/LearningTarget9.ptx" />
             </chapter>
 
             <chapter xml:id="weekly-practice">

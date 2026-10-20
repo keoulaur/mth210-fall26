@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>Learning Target 9 Practice</title>
+
+    <p workspace=".2in">
+        <em>Identify situations in which it is appropriate to
+                            use induction and state the procedure for proving a
+                            statement by induction.</em>
+    </p>
+
+    <paragraphs>
+        <title>Need to know</title>
+
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        How to identify when you can prove a statement by induction. You can do 
+                        induction when there is a starting place, and an <q>up by one every time</q> or <q>discrete step</q>
+                        aspect to the theorem. E.g., if the theorem starts <q> for all <m>n\in\mathbb{N}</m> </q>
+                            or <q>for all <m>n\in\mathbb{Z}</m> with <m>n\ge -2</m></q>. You cannot use induction for all
+                             <m>n\in\mathbb{R}</m> (no discrete step) nor for all <m>n\in \mathbb{Z}</m> (no starting point).
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                      What the two steps for induction are (base case and inductive hypothesis).
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        How to write out the two steps are, specific to a theorem statement.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        You will NOT need to complete an entire proof by induction.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Practice From Class</title>
+
+        <p>
+            Anything in the Chapter 4 worksheets. Weekly Practice 7. See also the extra help for induction under the 
+            getting help folder on Blackboard. 
+        </p>
+
+    </paragraphs>
+
+  <paragraphs>
+    <title>More Practice</title>
+    
+
+            <p>
+                Choose the statements that are appropriate to prove by induction and explain
+                why.
+                For each statement you choose, state what your steps would be in a proof by
+                induction.
+                (Your response should be specific to the statement.)
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            For all <m>a\in\mathbb{Z}</m> the equation
+                            <m>ax^{3} + ax+a = 0</m> does not have a solution that is a
+                            natural number.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            For each natural number <m>n</m>, <m>3\mid 4^{n} - 1</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            For all integers <m>x</m> and <m>y</m>, if <m>x</m> is even and
+                            <m>y</m> is odd, <m>x+y</m> is odd.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            For all natural numbers <m>m</m> and <m>n</m>, if <m>mn</m> is
+                            an even integer, then <m>m</m> is even or <m>n</m> is even.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            For all natural numbers <m>n</m> with <m>n\ge 4</m>,
+                            <m>n!&gt;2^{n}</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Let <m>a,b\in\mathbb{Z}</m> and <m>n\in\mathbb{N}</m>.
+                            For all <m>m\in \mathbb{N}</m>, if <m>a\equiv b \pmod{n}</m>
+                            then <m>a^{m} \equiv b^{m} \pmod{n}</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            For all real numbers <m>x</m>, if <m>x^{2} = 2</m>, then
+                            <m>x</m> is irrational.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+  </paragraphs>
+</handout>
