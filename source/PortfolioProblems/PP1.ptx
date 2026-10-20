@@ -9,8 +9,9 @@
                 <title>Option 1: Chessboard covering problems</title>
 
                 <p>
-                    Pick a conjecture from class, or another one you.
-                    have been wondering about, about chess- boards and prove it!
+                    Pick a conjecture from class about chess- boards, or another
+                    chessboard mystery you have been wondering about.
+                    Either way, make a conjecture and prove it!
                 </p>
             </li>
 
@@ -23,15 +24,19 @@
                 </p>
             </li>
 
-               <li>
+            <li>
                 <title>Option 3: Eeeny Meeny Miny Moe </title>
-                
-                
+
                 <p>
-                 Remember the childhood game for deciding who is <q>it</q> - eeny meeny miny moe? How could you <q>win</q>
-                  this game? This could go in a number of different directions. Different number of people? Different rhyme?
-                  Do you want to be the last person pointed at or not? What if you do <q>elimination</q> and go until one only
-                  one person is left.
+                    Remember the childhood game for deciding who is <q>it</q>-
+                    eeny meeny miny moe?
+                    How could you <q>win</q> this game?
+                    This could go in a number of different directions.
+                    Different number of people?
+                    Different rhyme?
+                    Do you want to be the last person pointed at or not?
+                    What if you do <q>elimination</q> and go until one only one
+                    person is left.
                 </p>
             </li>
 
@@ -55,7 +60,112 @@
                 </p>
             </li>
 
-         
+            <li>
+                <title>Option 5: Crop Circles</title>
+
+                <p>
+                    The aliens came last night to make crop circles and they
+                    blew around some seeds on your field.
+                    Any acre that has multiple seed types is ruined.
+                    You know the following facts.
+                    How many acres are unruined?
+                    You should state your answer as a theorem and prove it.
+                    <ol>
+                        <li>
+                            <p>
+                                There are 68 total acres
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                60 acres have tomato, corn, or carrot seeds
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                37 acres have tomato seeds
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                36 acres have corn seeds
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                40 acres have carrot seeds
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                21 acres have tomato and carrot seeds
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                25 acres have carrot and corn seeds
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                24 acres have tomato and corn seeds
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                17 acres have tomato, corn, and carrot seeds
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </li>
+
+            <li>
+                <title>Option 6: <m>n</m>-factors</title>
+
+                <p>
+                    For a natural number <m>n</m> we'll call an integer <m>a</m>
+                    an <term><m>n</m>-factor</term> if
+                    <m>a \not\equiv 0 \pmod{n}</m> and there exists an integer
+                    <m>b</m> such that <m>b \not\equiv 0 \pmod{n}</m> and
+                    <m>ab \equiv 0 \pmod{n}</m>.
+                    Find 3 examples of <m>n</m>-factors using 3 different values
+                    of <m>n</m>.
+                    Make a conjecture about which natural numbers <m>n</m> have
+                    <m>n</m>-factors.
+                </p>
+            </li>
+
+            <li>
+                <title>Option 7: Traversable Graphs</title>
+
+                <p>
+                    A graph is <term>traversable</term> if you can travel along
+                    each edge exactly once, and end where you started.
+                    Which of the following graphs are traversable?
+                    Give an example of an additional traversable graph, and an
+                    example of a graph that is not traversable.
+                    Make a conjecture about graphs that are or are not
+                    traversable.
+                    (It doesn't have to completely solve the problem,
+                    conjectures about <q>special cases</q> are good too!)
+                </p>
+
+                <figure xml:id="fig-graphs2">
+                    <caption>Graphs</caption>
+                    <image source="images/graphs.png" width="75%"/>
+                </figure>
+            </li>
+
+            <li><title>Option 8: McNuggets</title> <p/></li>
         </dl>
     </p>
 </handout>
