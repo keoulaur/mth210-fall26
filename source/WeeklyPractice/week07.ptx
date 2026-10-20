@@ -5,12 +5,12 @@
    <page>
 
     <p>
-        Due the first (?) class of the week of October 19.
+        Due the first class of the week of October 19.
     </p>
 
    
 
-    <exercise xml:id="exercise-4-4-i">
+    <exercise>
   <title>Exercise 4.4 (i)</title>
   <statement>
     <p>
@@ -19,6 +19,51 @@
     </p>
   </statement>
 </exercise>
+
+<theorem>
+  <statement>
+    <p>
+      For all natural numbers <m>n</m>,
+      <md>4^0 + 4^1 + 4^2 + 4^3 + \cdots + 4^n = \frac{4^{n+1} - 1}{3}.</md>
+    </p>
+  </statement>
+</theorem>
+
+<proof>
+  <p>
+    We will use a proof by induction. For each <m>n\in \mathbb{N}</m> let <m>S_n</m> be the statement
+    <md>4^0 + 4^1 + 4^2 + 4^3 + \cdots + 4^n = \frac{4^{n+1} - 1}{3}.</md>
+  </p>
+  <p>
+    For the base case, consider <m>n=1</m>. Since the left side of <m>S_1</m> is <m>4^0+4^1=1+4=5</m> 
+    and the right side is <m>\frac{4^{1+1}-1}{3}= \frac{15}{3}=5</m>, the base case is true.
+  </p>
+
+  <p>
+    For the inductive step, let <m>k\in\mathbb{N}</m> and assume <m>S_k</m> is true. That is, assume that
+      <md>4^0 + 4^1 + 4^2 + 4^3 + \cdots + 4^k = \frac{4^{k+1} - 1}{3}.</md>
+    We will prove
+    that <m>S_{k+1}</m> is true, or that
+    <md>4^0 + 4^1 + 4^2 + 4^3 + \cdots + 4^{k+1} = \frac{4^{(k+1)+1} - 1}{3}.</md>
+  </p>
+
+  <p>
+    Adding <m>4^{k+1}</m> to both sides of <m> S_k</m> and doing algebra, we obtain
+    <md>
+      <mrow>4^0 + 4^1 + 4^2 + 4^3 + \cdots +4^k + 4^{k+1} \amp = \frac{4^{k+1} - 1}{3} + 4^{k+1} </mrow>
+      <mrow> \amp = \frac{4^{k+1}-1}{3} + \frac{3(4^{k+1})}{3} </mrow>
+      <mrow> \amp = \frac{4^{k+1}+3(4^{k+1}-1)}{3} </mrow>
+      <mrow> \amp = \frac{4(4^{k+1})-1}{3}</mrow>
+      <mrow> \amp = \frac{4^{(k+1)+1} -1}{3}.</mrow>
+    </md>
+   Thus, we have shown <m>S_{k+1}</m> and the induction step is complete. 
+  </p>
+
+  <p>
+    By the Principle of Mathematical Induction, the theorem is true.
+  </p>
+</proof>
+
 </page>
 <page>
 
@@ -58,6 +103,126 @@
       </p>
   </statement>
 </exercise>
+
+<theorem >
+  <statement>
+    <p>
+      If <m>n</m> is a natural number, then
+      <m>n^2 - n</m> is even.
+    </p>
+  </statement>
+</theorem>
+<proof>
+  <p>
+    We will use a proof by cases. Consider the cases where <m>n</m> is even and the case where
+    <m>n</m> is odd.
+  </p>
+
+  <p>
+    <term>Case 1:</term> Suppose <m>n</m> is even. Then <m>n = 2k</m> for some integer <m>k</m>.
+    By substition and algebra,
+    <md> 
+      <mrow>n^2 - n \amp (2k)^2 - 2k</mrow>
+      <mrow> \amp 4k^2 - 2k </mrow>
+      <mrow> \amp 2(2k^2 - k). </mrow>
+    </md>
+    Since the integers are closed under addition and multiplication, <m>2k^2-k\in\mathbb{Z}</m>
+    and so <m>n^2-n</m> is even whenever <m>n</m> is even.
+  </p>
+
+  <p>
+     <term>Case 2:</term> Suppose <m>n</m> is odd. Then <m>n = 2k+1</m> for some integer <m>k</m>.
+    By substition and algebra,
+    <md> 
+      <mrow>n^2 - n \amp (2k+1)^2 - (2k+1)</mrow>
+      <mrow> \amp = 4k^2 +4k +1 - 2k -1 </mrow>
+      <mrow> \amp = 4k^2 + 2k  </mrow>
+      <mrow> \amp 2(2k^2 + k).</mrow>
+    </md>
+    Since the integers are closed under addition and multiplication, <m>2k^2+k\in\mathbb{Z}</m>
+    and so <m>n^2-n</m> is even whenever <m>n</m> is odd.
+  </p>
+</proof>
+</page>
+<page>
+
+<lemma xml:id="lem-trianglenumber">
+  <statement>
+    <p>
+      For all <m>n\in \mathbb{N}</m>,
+      <md>
+        1+2+3 + \dots + n = \frac{n(n+1)}{2}.
+      </md>
+      
+    </p>
+  </statement>
+</lemma>
+<theorem >
+  <statement>
+    <p>
+      If <m>n</m> is a natural number, then
+      <m>n^2 - n</m> is even.
+    </p>
+  </statement>
+</theorem>
+
+<proof>
+  <p>
+    Let <m>n\in\mathbb{N}</m>. Then, by <xref ref="lem-trianglenumber"/>, applied to the sum
+    of the first <m>n-1</m> natural numbers, we have that
+    <md>
+      1+2+\dots + (n-1) = \frac{(n-1)((n-1)+1)}{2}.
+    </md>
+    By algebra,
+    <md>
+      2(1+2+\dots + (n-1)) = (n-1)(n).
+    </md>
+    Since the integers are closed under addition, <m>1+2 + \cdots + (n-1)\in\mathbb{Z}</m> and thus, 
+    <m>(n-1)n = n^2-n</m>
+    is even.
+  </p>
+</proof>
+
+<theorem >
+  <statement>
+    <p>
+      If <m>n</m> is a natural number, then
+      <m>n^2 - n</m> is even.
+    </p>
+  </statement>
+</theorem>
+<proof>
+  <p>
+    We will use a proof by induction. For each natural number <m>n</m> define <m>S_n</m> to be
+    that <m>n^2-n</m> is even.
+  </p>
+  <p>
+    For the base case, we consider <m>S_1</m>, or when <m>n=1</m>. When <m>n=1</m>, <m>n^2-n = 1^2-1 = 0</m>. 
+    Note <m>0</m> is even as <m>0=2(0)</m> and <m>0\in\mathbb{Z}</m>. Thus the theorem is true when <m>n=1</m>.
+  </p>
+
+  <p>
+    For the inductive step, let <m>k\in\mathbb{N}</m> and assume <m>S_k</m> is true. That is,
+    assume that <m> k^2-k </m> is even. We will prove that <m>(k+1)^2 - (k+1)</m> is even. 
+    Since <m>k^2-k</m> is even, we know that there exists an integer <m>j</m> such that <m>k^2-k = 2j</m>.
+    By algebra and substitution,
+    <md>
+      <mrow>(k+1)^2-(k+1) \amp =  k^2 + 2k + 1 -k - 1</mrow>
+      <mrow> \amp = (k^2 - k) + 2k</mrow>
+      <mrow> \amp = 2j + 2k</mrow>
+      <mrow> \amp = 2(j+k).</mrow>
+    </md>
+    Since <m>k</m> and <m>j</m> are integers and the integers are closed under addition, <m>k+j \in\mathbb{Z}</m>.
+    Thus, <m>(k+1)^2 - (k+1)</m> is even and the inductive step is complete.
+  </p>
+
+  <p>
+    By the principle of mathematical induction, <m>n^2 - n</m> is even for all <m>n\in\mathbb{N}</m>.
+  </p>
+</proof>
+
+
+
 
 
 </page>

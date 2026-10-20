@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>Example Induction Proofs</title>
+
+     <theorem>
+            <statement>
+                <p>
+                    For all <m>n\in\mathbb{N}</m>,
+                    <md>
+                        \ds \sum_{i=1}^{n} i^2 =  \frac{n(n+1)(2n+1)}{6}.
+                    </md>
+                </p>
+            </statement>
+        </theorem>
+
+        <proof>
+            <p>
+                We will use a proof by induction.
+                Let <m>n\in\mathbb{N}</m>.
+                Define <m>S_n</m> to be
+                <md>
+                    \ds \sum_{i=1}^{n} i^2 =  \frac{n(n+1)(2n+1)}{6}.
+                </md>
+            </p>
+
+            <p>
+                For the base case, let <m>n=1</m>.
+                Then the left side of <m>S_1</m> is <m>1^2 = 1</m>.
+                The right side of <m>S_1</m> is
+                <m>\frac{1(1+1)(2\cdot 1+1)}{6} = \frac{1\cdot 2 \cdot 3}{6} = 1</m>.
+                Since the left and right sides of <m>S_1</m> are equal the base
+                case is complete.
+            </p>
+
+            <p>
+                For the inductive step, let <m>k\in\mathbb{N}</m> and assume
+                <m>S_k</m> is true.
+                That is, assume that
+                <md>
+                    \ds \sum_{i=1}^{k} i^2 =  \frac{k(k+1)(2k+1)}{6}.
+                </md>
+                We aim to prove that
+                <md>
+                    \ds \sum_{i=1}^{k+1} i^2 =  \frac{(k+1)((k+1)+1)(2(k+1)+1)}{6}.
+                </md>
+                Since <m>S_k</m> is true, we can add <m>(k+1)^2</m> to both sides to 
+                get the true statement
+                <md>
+                    \ds \sum_{i=1}^{k+1} i^2  =  \frac{k(k+1)(2k+1)}{6} + (k+1)^2.
+                    </md>
+                By algebra,
+                <md>
+                        <mrow> \ds \sum_{i=1}^{k+1} i^2 \amp =  \frac{k(k+1)(2k+1)}{6} + (k+1)^2.</mrow>
+                        <mrow> \amp = \frac{k(2k^2+3k+1)}{6} + \frac{6(k^2+2k+1)}{6}</mrow>
+                        <mrow> \amp = \frac{2k^3 + 3k^2+k + 6k^2 + 12k + 6}{6}</mrow>
+                        <mrow> \amp = \frac{2k^3 + 9k^2+13k+6}{6}</mrow>
+                        <mrow> \amp = \frac{2k^3 + 6k^2 + 4k + 3k^2 + 3k+6 }{6}</mrow>
+                        <mrow>  \amp = \frac{2k(k^2 + 3k+2) + 3(k^2+3k+2)}{6}</mrow>
+                        <mrow> \amp = \frac{(k^2+3k+2)(2k+3)}{6}</mrow>
+                        <mrow> \amp = \frac{(k+1)(k+2)(2k+3)}{6}</mrow>
+                        <mrow> \amp =  \frac{(k+1)((k+1)+1)(2(k+1)+1)}{6}.</mrow>
+                    </md> 
+                Thus <m>S_{k+1}</m> is true and the inductive step is complete.
+            </p>
+
+            <p>
+                By the Principle of Mathematical Induction, the theorem is true.
+            </p>
+        </proof>
+
+    <theorem>
+            <statement>
+                <p>
+                    For all <m>n\in\mathbb{N}</m> with <m>n\geq 4</m>, <m>2^n &lt; n!</m>.
+                </p>
+            </statement>
+        </theorem>
+
+        <proof>
+            <p>
+                For each <m>n\in\mathbb{N}</m> with <m>n\ge 4</m>, let <m>S_n</m> be the 
+                inequality <m>2^n &lt; n!</m>.
+            </p>
+            <p>
+                For the base case, consider <m>n=4</m>. The left side is <m>2^4 = 16</m> and
+                the right side is <m>4! = 24</m>. Since <m>16&lt; 24 </m> we have that <m>S_4</m>
+                is true and the base case is complete.
+            </p>
+
+            <p>
+                For the inductive step, let <m>k\in\mathbb{N}</m> and assume that <m>S_k</m> is true.
+                That is, assume that <m>2^k &lt; k!</m>. We will prove that <m>S_{k+1}</m> is true,
+                or that <m>2^{k+1} &lt; (k+1)!</m>. By algebra and the inductive hypothesis,
+                <md>
+                    2^{k+1} = 2\cdot 2^k &lt; 2\cdot k!.
+                </md>
+                Moreover, we know <m>k+1 \geq 5</m> which, in particular means that <m>2 &lt; k+1</m>. So,
+                <md>
+                    2\cdot k! &lt; (k+1)k! = (k+1)!.
+                </md>
+                Combining the above, we see that 
+                <md>
+                    2^{k+1} &lt; (k+1)!.
+                </md>
+                This shows that <m>S_{k+1}</m> is true whenever <m>S_k</m> is true. Thus, the inductive
+                step is complete.
+                
+            </p>
+
+            <p>
+                By the Principle of Mathematical Induction, <m>2^n &lt; n!</m> for all <m>n\in \mathbb{N}</m> with
+                <m>n\geq 4</m>.
+            </p>
+        </proof>
+        
+        <theorem>
+            <statement>
+                <p>
+                    For all <m>n\in\mathbb{N}</m>, the <m>n^{th}</m> derivative of <m>e^{2x}</m> is <m>2^ne^{2x}</m>.
+                </p>
+            </statement>
+        </theorem>
+
+        <proof>
+            <p>
+                We will use a proof by induction. For each <m>n\in\mathbb{N}</m>, let <m>S_n</m> be the satement that
+                the <m>n^{th}</m> derivative of <m>e^{2x}</m> is <m>2^ne^{2x}</m>.
+            </p>
+
+            <p>
+                For the base case, we will prove that the first derivative <m>e^{2x}</m> is <m>2^1 e^{2x}</m>.
+                This is true by the chain rule and the base case is complete.
+            </p>
+
+            <p>
+                For the inductive step, let <m>k\in\mathbb{N}</m> and assume that the <m>k^{th}</m> derivative of <m>e^{2x}</m> is
+                <m>2^k e^{2x}</m>. To get the <m>(k+1)^{st}</m> derivative, we take the derivative of <m>2^k e^{2x}</m>. Since 
+                <m>2^k</m> is a constant, by the cahin rule, the <m>(k+1)^{st}</m> derivative of <m>e^{2x}</m> is
+                <md>
+                    \frac{d}{dx} \left[ 2^k e^{2x}\right] = 2^k \frac{d}{dx} \left[ e^{2x}\right] = 2^k \cdot 2e^{2x} = 2^{k+1}e^{2x}.
+                </md>
+                Thus, the <m>(k+1)^{st}</m> derivative is <m>2^{k+1}e^{2x}</m> and <m>S_{k+1}</m> is true whenever
+                <m>S_k</m> is true.
+            </p>
+
+            <p>
+                By the Principle of Mathematical Induction, the theorem is true.
+            </p>
+        </proof>
+        
+
+        <theorem>
+            <statement>
+                <p>
+                    Let <m>f_n</m> be the <m>n^{th}</m> Fibonacci number. For
+                    all <m>n \in \mathbb{N}</m>, the sum of the squares of the first <m>n</m>
+                    Fibonacci numbers is <m>f_nf_{n+1}</m>. That is, for all <m>n\in\mathbb{N}</m>
+                    <md>f_1^2 + f_2^2 + \cdots + f_{n}^2 = f_{n} f_{n+1}.</md>
+                </p>
+            </statement>
+        </theorem>
+
+        <proof>
+            <p>
+                We will use a proof by induction. For each <m>n\in\mathbb{N}</m>, let <m>S_n</m> be 
+                <m>f_1^2 + f_2^2 + \cdots + f_{n}^2 = f_{n} f_{n+1}</m>.
+            </p>
+            <p>
+                For the base case, we prove <m>S_1</m>. The left side of <m>S_1</m> is <m>f_1^2 = 1^2 = 1</m>.
+                The right side is <m>f_1 f_2 = 1 \cdot 1 = 1</m>. Thus, <m>S_1</m> is true and the 
+                base case is complete.
+            </p>
+
+            <p>
+                For the inductive step let <m>k\in \mathbb{N}</m> and assume that <m> S_k </m> is true. That is,
+                we assume that <m>f_1^2 + f_2^2 + \cdots + f_{k}^2 = f_{k} f_{k+1}</m>. We will prove <m>S_{k+1}</m> or that
+                <m>f_1^2 + f_2^2 + \cdots + f_{k+1}^2 = f_{k+1} f_{(k+1)+1}</m>. By algebra and substitution,
+                <md>
+                    <mrow>f_1^2 + f_2^2 + \cdots + f_{k+1}^2  \amp = (f_1^2 + f_2^2 + \cdots + f_{k}^2) + f_{k+1}^2 </mrow>
+                    <mrow> \amp = f_kf_{k+1} + f_{k+1}^2 </mrow>
+                    <mrow> \amp = f_{k+1}(f_k + f_{k+1}).</mrow>
+                </md>
+                By the definition of the Fibonacci numbers, <m>f_k + f_{k+1} = f_{k+2}</m>. So
+        
+                 <md>
+                    <mrow>f_1^2 + f_2^2 + \cdots + f_{k+1}^2  \amp = f_{k+1}(f_k + f_{k+1}) </mrow>
+                        <mrow> \amp = f_{k+1} + f_{k+2}</mrow>
+                        <mrow> \amp f_{k+1} + f_{(k+1)+1}.</mrow>
+                    </md>
+                    Thus, whenever <m>S_k</m> is true, <m>S_{k+1}</m> is also true and the inductive step is complete.
+                    </p>
+
+                    <p>
+                        By the Principle of Mathematical Induction, the theorem is true.
+                    </p>
+        </proof>
+        
+
+</handout>
