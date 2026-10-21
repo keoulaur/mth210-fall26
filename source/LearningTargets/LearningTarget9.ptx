@@ -58,66 +58,64 @@
   <paragraphs>
     <title>More Practice</title>
     
-
-            <p>
+<exercise>
+            <introduction>
                 Choose the statements that are appropriate to prove by induction and explain
                 why.
                 For each statement you choose, state what your steps would be in a proof by
                 induction.
                 (Your response should be specific to the statement.)
-            </p>
-            <p>
-                <ol>
-                    <li>
+            </introduction>
+    
+                    <task>
                         <p>
                             For all <m>a\in\mathbb{Z}</m> the equation
                             <m>ax^{3} + ax+a = 0</m> does not have a solution that is a
                             natural number.
                         </p>
-                    </li>
+                    </task>
 
-                    <li>
+                    <task>
                         <p>
                             For each natural number <m>n</m>, <m>3\mid 4^{n} - 1</m>.
                         </p>
-                    </li>
+                    </task>
 
-                    <li>
+                    <task>
                         <p>
                             For all integers <m>x</m> and <m>y</m>, if <m>x</m> is even and
                             <m>y</m> is odd, <m>x+y</m> is odd.
                         </p>
-                    </li>
+                    </task>
 
-                    <li>
+                    <task>
                         <p>
                             For all natural numbers <m>m</m> and <m>n</m>, if <m>mn</m> is
                             an even integer, then <m>m</m> is even or <m>n</m> is even.
                         </p>
-                    </li>
+                    </task>
 
-                    <li>
+                    <task>
                         <p>
                             For all natural numbers <m>n</m> with <m>n\ge 4</m>,
                             <m>n!&gt;2^{n}</m>.
                         </p>
-                    </li>
+                    </task>
 
-                    <li>
+                    <task>
                         <p>
                             Let <m>a,b\in\mathbb{Z}</m> and <m>n\in\mathbb{N}</m>.
                             For all <m>m\in \mathbb{N}</m>, if <m>a\equiv b \pmod{n}</m>
                             then <m>a^{m} \equiv b^{m} \pmod{n}</m>.
                         </p>
-                    </li>
+                    </task>
 
-                    <li>
+                    <task>
                         <p>
                             For all real numbers <m>x</m>, if <m>x^{2} = 2</m>, then
-                            <m>x</m> is irrational.
-                        </p>
-                    </li>
-                </ol>
-            </p>
-  </paragraphs>
+                            <m>x</m> is irrational. </p>
+                        </task>
+                    </exercise>
+
+                </paragraphs>
 </handout>
