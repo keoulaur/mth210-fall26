@@ -478,6 +478,15 @@ var ptx_lunr_docs = [
   "body": "  Find and      and    "
 },
 {
+  "id": "targets-11",
+  "level": "1",
+  "url": "targets-11.html",
+  "type": "Handout",
+  "number": "2.10",
+  "title": "Learning Target 9 Practice",
+  "body": " Learning Target 9 Practice   Identify situations in which it is appropriate to use induction and state the procedure for proving a statement by induction.    Need to know     How to identify when you can prove a statement by induction. You can do induction when there is a starting place, and an up by one every time or discrete step aspect to the theorem. E.g., if the theorem starts for all  or for all with . You cannot use induction for all (no discrete step) nor for all (no starting point).    What the two steps for induction are (base case and inductive hypothesis).    How to write out the two steps are, specific to a theorem statement.    You will NOT need to complete an entire proof by induction.       Practice From Class  Anything in the Chapter 4 worksheets. Weekly Practice 7. See also the extra help for induction under the getting help folder on Blackboard.    More Practice  Choose the statements that are appropriate to prove by induction and explain why. For each statement you choose, state what your steps would be in a proof by induction. (Your response should be specific to the statement.)     For all the equation does not have a solution that is a natural number.    For each natural number , .    For all integers and , if is even and is odd, is odd.    For all natural numbers and , if is an even integer, then is even or is even.    For all natural numbers with , .    Let and . For all , if then .    For all real numbers , if , then is irrational.      "
+},
+{
   "id": "notes-week-01",
   "level": "1",
   "url": "notes-week-01.html",
@@ -1087,7 +1096,16 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "4.3",
   "title": "Portfolio Problem 1 - Play Conjecture Prove",
-  "body": " Portfolio Problem 1 - Play Conjecture Prove     Option 1: Chessboard covering problems  Pick a conjecture from class, or another one you. have been wondering about, about chess- boards and prove it!    Option 2: The game SET  Pick a conjecture about the game SET from class, or something you are curious about, and prove it!    Option 3: Eeeny Meeny Miny Moe  Remember the childhood game for deciding who is it - eeny meeny miny moe? How could you win this game? This could go in a number of different directions. Different number of people? Different rhyme? Do you want to be the last person pointed at or not? What if you do elimination and go until one only one person is left.    Option 4: The pancake problem  The chef in our place is sloppy and when he prepares a stack of pancakes they come out all di!erent sizes. Therefore, when I deliver them to the customer, on the way to the table I rearrange them (so the smallest winds up on top and so on, down to the largest is on the bottom) by grabbing several from the top and flipping them over, repeating this (varying the number I flip) as many times as necessary. If there are n pancakes, what is the maximum number of flips (in terms of n) that I will ever have to use to rearrange them? Note: For this problem, you could do a proof for the maximum number of flips for 3 pancakes.     "
+  "body": " Portfolio Problem 1 - Play Conjecture Prove     Option 1: Chessboard covering problems  Pick a conjecture from class about chess- boards, or another chessboard mystery you have been wondering about. Either way, make a conjecture and prove it!    Option 2: The game SET  Pick a conjecture about the game SET from class, or something you are curious about, and prove it!    Option 3: Eeeny Meeny Miny Moe  Remember the childhood game for deciding who is it - eeny meeny miny moe? How could you win this game? This could go in a number of different directions. Different number of people? Different rhyme? Do you want to be the last person pointed at or not? What if you do elimination and go until one only one person is left.    Option 4: The pancake problem  The chef in our place is sloppy and when he prepares a stack of pancakes they come out all di!erent sizes. Therefore, when I deliver them to the customer, on the way to the table I rearrange them (so the smallest winds up on top and so on, down to the largest is on the bottom) by grabbing several from the top and flipping them over, repeating this (varying the number I flip) as many times as necessary. If there are n pancakes, what is the maximum number of flips (in terms of n) that I will ever have to use to rearrange them? Note: For this problem, you could do a proof for the maximum number of flips for 3 pancakes.    Option 5: Crop Circles  The aliens came last night to make crop circles and they blew around some seeds on your field. Any acre that has multiple seed types is ruined. You know the following facts. How many acres are unruined? You should state your answer as a theorem and prove it.   There are 68 total acres    60 acres have tomato, corn, or carrot seeds    37 acres have tomato seeds    36 acres have corn seeds    40 acres have carrot seeds    21 acres have tomato and carrot seeds    25 acres have carrot and corn seeds    24 acres have tomato and corn seeds    17 acres have tomato, corn, and carrot seeds       Option 6: -factors  For a natural number we'll call an integer an -factor if and there exists an integer such that and . Find 3 examples of -factors using 3 different values of . Make a conjecture about which natural numbers have -factors.    Option 7: Traversable Graphs  A graph is traversable if you can travel along each edge exactly once, and end where you started. Which of the following graphs are traversable? Give an example of an additional traversable graph, and an example of a graph that is not traversable. Make a conjecture about graphs that are or are not traversable. (It doesn't have to completely solve the problem, conjectures about special cases are good too!)   Graphs     Option 8: McNuggets     "
+},
+{
+  "id": "pp-1-2",
+  "level": "2",
+  "url": "pp-1.html#pp-1-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "-factor traversable "
 },
 {
   "id": "pp-2",
@@ -1103,7 +1121,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-2.html#pp-2-2-3",
   "type": "Theorem",
-  "number": "4.20",
+  "number": "4.21",
   "title": "",
   "body": "  If is an even integer, then is an odd integer.   "
 },
@@ -1121,7 +1139,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-3.html#pp-3-2-3",
   "type": "Conjecture",
-  "number": "4.21",
+  "number": "4.22",
   "title": "",
   "body": "  The sum of the cubes of any three consecutive integers is divisible by 3.   "
 },
@@ -1130,7 +1148,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-3.html#pp-3-2-4",
   "type": "Conjecture",
-  "number": "4.22",
+  "number": "4.23",
   "title": "",
   "body": "  The sum of the cubes of any three consecutive integers is divisible by 4.   "
 },
@@ -1148,7 +1166,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-4.html#pp-4-2-3",
   "type": "Conjecture",
-  "number": "4.23",
+  "number": "4.24",
   "title": "",
   "body": "  For all if then or .   "
 },
@@ -1157,7 +1175,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "pp-4.html#pp-4-2-4",
   "type": "Conjecture",
-  "number": "4.24",
+  "number": "4.25",
   "title": "",
   "body": "  For all if or then .   "
 },
