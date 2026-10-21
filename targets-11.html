@@ -303,7 +303,10 @@ eBookConfig.enable_chatcodes =  false;
         </label><label><input type="radio" name="papersize" value="letter">Letter
         </label>
 </form>
-<details class="print-options"><summary>Additional printing options</summary><div class="header-footer-options">
+<details class="print-options"><summary>Additional printing options</summary><div class="hide-solutions-options"><div class="hide-option">
+<label for="hide-solution-checkbox">Hide solutions</label><input type="checkbox" id="hide-solution-checkbox">
+</div></div>
+<div class="header-footer-options">
 <div class="header-option">
 <span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
 </div>
@@ -359,51 +362,106 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Practice From Class"><a tabindex="-1" href="#targets-11-4" title="Copy heading and permalink for Paragraphs: Practice From Class" aria-label="Copy heading and permalink for Paragraphs: Practice From Class">🔗</a></div>
 </section>
-<section class="paragraphs" id="targets-11-5"><h2 class="heading"><span class="title">More Practice.</span></h2>
-<div class="para" id="targets-11-5-2">Choose the statements that are appropriate to prove by induction and explain why. For each statement you choose, state what your steps would be in a proof by induction. (Your response should be specific to the statement.)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<details id="targets-11-5" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h2 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.26</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2></summary>
+<article class="exercise exercise-like knowl__content">
+<div class="introduction" id="targets-11-5-1">
+<div class="para" id="targets-11-5-1-1">Choose the statements that are appropriate to prove by induction and explain why. For each statement you choose, state what your steps would be in a proof by induction. (Your response should be specific to the statement.)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="targets-11-5-3">
-<ol class="decimal" id="targets-11-5-3-1">
-<li id="targets-11-5-3-1-1">
-<div class="para" id="targets-11-5-3-1-1-1">For all <span class="process-math">\(a\in\mathbb{Z}\)</span> the equation <span class="process-math">\(ax^{3} + ax+a = 0\)</span> does not have a solution that is a natural number.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 1"><a tabindex="-1" href="#targets-11-5-3-1-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
-</li>
-<li id="targets-11-5-3-1-2">
-<div class="para" id="targets-11-5-3-1-2-1">For each natural number <span class="process-math">\(n\text{,}\)</span> <span class="process-math">\(3\mid 4^{n} - 1\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="task exercise-like" id="targets-11-5-2"><h3 class="heading"><span class="codenumber">(a)</span></h3>
+<div class="para" id="targets-11-5-2-1-1">For all <span class="process-math">\(a\in\mathbb{Z}\)</span> the equation <span class="process-math">\(ax^{3} + ax+a = 0\)</span> does not have a solution that is a natural number.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 2"><a tabindex="-1" href="#targets-11-5-3-1-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
-</li>
-<li id="targets-11-5-3-1-3">
-<div class="para" id="targets-11-5-3-1-3-1">For all integers <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{,}\)</span> if <span class="process-math">\(x\)</span> is even and <span class="process-math">\(y\)</span> is odd, <span class="process-math">\(x+y\)</span> is odd.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="solutions">
+<details id="targets-11-5-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="targets-11-5-2-2-1">This is not a proof by induction since you are proving a statement for all <span class="process-math">\(a\in\mathbb{Z}\)</span> (no starting point).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 3"><a tabindex="-1" href="#targets-11-5-3-1-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
-</li>
-<li id="targets-11-5-3-1-4">
-<div class="para" id="targets-11-5-3-1-4-1">For all natural numbers <span class="process-math">\(m\)</span> and <span class="process-math">\(n\text{,}\)</span> if <span class="process-math">\(mn\)</span> is an even integer, then <span class="process-math">\(m\)</span> is even or <span class="process-math">\(n\)</span> is even.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-3-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 2.26.a.1"><a tabindex="-1" href="#targets-11-5-2-2" title="Copy heading and permalink for Solution 2.26.a.1" aria-label="Copy heading and permalink for Solution 2.26.a.1">🔗</a></div>
+</div></details>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 4"><a tabindex="-1" href="#targets-11-5-3-1-4" title="Copy heading and permalink for Item 4" aria-label="Copy heading and permalink for Item 4">🔗</a></div>
-</li>
-<li id="targets-11-5-3-1-5">
-<div class="para" id="targets-11-5-3-1-5-1">For all natural numbers <span class="process-math">\(n\)</span> with <span class="process-math">\(n\ge 4\text{,}\)</span> <span class="process-math">\(n!&gt;2^{n}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-3-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.26.a"><a tabindex="-1" href="#targets-11-5-2" title="Copy heading and permalink for Task 2.26.a" aria-label="Copy heading and permalink for Task 2.26.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="targets-11-5-3"><h3 class="heading"><span class="codenumber">(b)</span></h3>
+<div class="para" id="targets-11-5-3-1-1">For each natural number <span class="process-math">\(n\text{,}\)</span> <span class="process-math">\(3\mid 4^{n} - 1\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 5"><a tabindex="-1" href="#targets-11-5-3-1-5" title="Copy heading and permalink for Item 5" aria-label="Copy heading and permalink for Item 5">🔗</a></div>
-</li>
-<li id="targets-11-5-3-1-6">
-<div class="para" id="targets-11-5-3-1-6-1">Let <span class="process-math">\(a,b\in\mathbb{Z}\)</span> and <span class="process-math">\(n\in\mathbb{N}\text{.}\)</span> For all <span class="process-math">\(m\in \mathbb{N}\text{,}\)</span> if <span class="process-math">\(a\equiv b \pmod{n}\)</span> then <span class="process-math">\(a^{m} \equiv b^{m} \pmod{n}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-3-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="solutions">
+<details id="targets-11-5-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="targets-11-5-3-2-1">This can be proven by induction. Let <span class="process-math">\(S_n\)</span> be the statement <span class="process-math">\(3\mid 4^{n}-1\text{.}\)</span> For the base case, we show <span class="process-math">\(S_1\)</span> or that <span class="process-math">\(3\mid 4^{1} - 1\text{.}\)</span> For the inductive step, let <span class="process-math">\(k\in\mathbb{N}\)</span> and assume <span class="process-math">\(S_k\)</span> is true which is that <span class="process-math">\(3\mid 4^{k}-1\text{.}\)</span> Then we prove <span class="process-math">\(S_{k+1}\)</span> which is that <span class="process-math">\(3\mid 4^{k+1}-1\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 6"><a tabindex="-1" href="#targets-11-5-3-1-6" title="Copy heading and permalink for Item 6" aria-label="Copy heading and permalink for Item 6">🔗</a></div>
-</li>
-<li id="targets-11-5-3-1-7">
-<div class="para" id="targets-11-5-3-1-7-1">For all real numbers <span class="process-math">\(x\text{,}\)</span> if <span class="process-math">\(x^{2} = 2\text{,}\)</span> then <span class="process-math">\(x\)</span> is irrational.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-3-1-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 2.26.b.1"><a tabindex="-1" href="#targets-11-5-3-2" title="Copy heading and permalink for Solution 2.26.b.1" aria-label="Copy heading and permalink for Solution 2.26.b.1">🔗</a></div>
+</div></details>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 7"><a tabindex="-1" href="#targets-11-5-3-1-7" title="Copy heading and permalink for Item 7" aria-label="Copy heading and permalink for Item 7">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.26.b"><a tabindex="-1" href="#targets-11-5-3" title="Copy heading and permalink for Task 2.26.b" aria-label="Copy heading and permalink for Task 2.26.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="targets-11-5-4"><h3 class="heading"><span class="codenumber">(c)</span></h3>
+<div class="para" id="targets-11-5-4-1-1">For all integers <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{,}\)</span> if <span class="process-math">\(x\)</span> is even and <span class="process-math">\(y\)</span> is odd, <span class="process-math">\(x+y\)</span> is odd.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: More Practice"><a tabindex="-1" href="#targets-11-5" title="Copy heading and permalink for Paragraphs: More Practice" aria-label="Copy heading and permalink for Paragraphs: More Practice">🔗</a></div>
-</section><div class="autopermalink" aria-hidden="true" data-description="Handout 2.10: Learning Target 9 Practice"><a tabindex="-1" href="#targets-11" title="Copy heading and permalink for Handout 2.10: Learning Target 9 Practice" aria-label="Copy heading and permalink for Handout 2.10: Learning Target 9 Practice">🔗</a></div>
+<div class="solutions">
+<details id="targets-11-5-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="targets-11-5-4-2-1">This statement is not proved by induction since it’s for all integers <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{.}\)</span> The integers don’t have a starting point to be used as a base case.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 2.26.c.1"><a tabindex="-1" href="#targets-11-5-4-2" title="Copy heading and permalink for Solution 2.26.c.1" aria-label="Copy heading and permalink for Solution 2.26.c.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.26.c"><a tabindex="-1" href="#targets-11-5-4" title="Copy heading and permalink for Task 2.26.c" aria-label="Copy heading and permalink for Task 2.26.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="targets-11-5-5"><h3 class="heading"><span class="codenumber">(d)</span></h3>
+<div class="para" id="targets-11-5-5-1-1">For all natural numbers <span class="process-math">\(m\)</span> and <span class="process-math">\(n\text{,}\)</span> if <span class="process-math">\(mn\)</span> is an even integer, then <span class="process-math">\(m\)</span> is even or <span class="process-math">\(n\)</span> is even.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="targets-11-5-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="targets-11-5-5-2-1">This statement is not proved by induction. Even though it says for all natural numbers <span class="process-math">\(m\)</span> and <span class="process-math">\(n\text{,}\)</span> we haven’t done an induction proof that has<span class="process-math">\(2\)</span> variables like this.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 2.26.d.1"><a tabindex="-1" href="#targets-11-5-5-2" title="Copy heading and permalink for Solution 2.26.d.1" aria-label="Copy heading and permalink for Solution 2.26.d.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.26.d"><a tabindex="-1" href="#targets-11-5-5" title="Copy heading and permalink for Task 2.26.d" aria-label="Copy heading and permalink for Task 2.26.d">🔗</a></div>
+</article>
+<article class="task exercise-like" id="targets-11-5-6"><h3 class="heading"><span class="codenumber">(e)</span></h3>
+<div class="para" id="targets-11-5-6-1-1">For all natural numbers <span class="process-math">\(n\)</span> with <span class="process-math">\(n\ge 4\text{,}\)</span> <span class="process-math">\(n! \gt;2^{n}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="targets-11-5-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="targets-11-5-6-2-1">For this one we do use inductions, since it starts “for all natural numbers <span class="process-math">\(n\)</span> with <span class="process-math">\(n\geq 4\)</span>” and we can see how we might move from one case to the next. We would define <span class="process-math">\(S_n\)</span> for all <span class="process-math">\(n\geq 4\)</span> as <span class="process-math">\(n! gt; 2^n\text{.}\)</span> For the base case, prove <span class="process-math">\(S_4\)</span> or that <span class="process-math">\(4! \gt 2^4 \text{.}\)</span> For the inductive step, let <span class="process-math">\(k\in \mathbb{N}\)</span> and assume <span class="process-math">\(S_k\)</span> is true which is that <span class="process-math">\(k!\gt 2^k \text{.}\)</span> We then prove that <span class="process-math">\(S_{k+1}\)</span> is true, which is that <span class="process-math">\((k+1)! \gt 2^{k+1}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 2.26.e.1"><a tabindex="-1" href="#targets-11-5-6-2" title="Copy heading and permalink for Solution 2.26.e.1" aria-label="Copy heading and permalink for Solution 2.26.e.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.26.e"><a tabindex="-1" href="#targets-11-5-6" title="Copy heading and permalink for Task 2.26.e" aria-label="Copy heading and permalink for Task 2.26.e">🔗</a></div>
+</article>
+<article class="task exercise-like" id="targets-11-5-7"><h3 class="heading"><span class="codenumber">(f)</span></h3>
+<div class="para" id="targets-11-5-7-1-1">Let <span class="process-math">\(a,b\in\mathbb{Z}\)</span> and <span class="process-math">\(n\in\mathbb{N}\text{.}\)</span> For all <span class="process-math">\(m\in \mathbb{N}\text{,}\)</span> if <span class="process-math">\(a\equiv b \pmod{n}\)</span> then <span class="process-math">\(a^{m} \equiv b^{m} \pmod{n}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="targets-11-5-7-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="targets-11-5-7-2-1">We can prove this statement by induction (though we haven’t yet done one like it in class). We induction on <span class="process-math">\(n\text{.}\)</span> For each <span class="process-math">\(n\in\mathbb{N}\)</span> let <span class="process-math">\(S_n\)</span> be if <span class="process-math">\(a \equiv b\pmod{n}\)</span> then <span class="process-math">\(a^m \equiv b^m \pmod{n}\text{.}\)</span> We prove the base case by proving <span class="process-math">\(S_1\)</span> which is “if <span class="process-math">\(a \equiv b \pmod{n}\)</span>” then <span class="process-math">\(a^1 \equiv b^1 \pmod{n} \text{.}\)</span> Now, for the inductive step let <span class="process-math">\(k\in\mathbb{N}\text{.}\)</span> Assume <span class="process-math">\(S_k\)</span> or that if <span class="process-math">\(a\equiv b \pmod{n}\)</span> then <span class="process-math">\(a^k b\pmod{n}\text{.}\)</span> We would show <span class="process-math">\(S_{k+1}\)</span> or that if <span class="process-math">\(a\equiv b\pmod{n}\)</span> then <span class="process-math">\(a^{k+1}\equiv b \pmod{n}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 2.26.f.1"><a tabindex="-1" href="#targets-11-5-7-2" title="Copy heading and permalink for Solution 2.26.f.1" aria-label="Copy heading and permalink for Solution 2.26.f.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.26.f"><a tabindex="-1" href="#targets-11-5-7" title="Copy heading and permalink for Task 2.26.f" aria-label="Copy heading and permalink for Task 2.26.f">🔗</a></div>
+</article>
+<article class="task exercise-like" id="targets-11-5-8"><h3 class="heading"><span class="codenumber">(g)</span></h3>
+<div class="para" id="targets-11-5-8-1-1">For all real numbers <span class="process-math">\(x\text{,}\)</span> if <span class="process-math">\(x^{2} = 2\text{,}\)</span> then <span class="process-math">\(x\)</span> is irrational.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="targets-11-5-8-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="targets-11-5-8-2-1">We would not use induction here since the statement is for all real numbers <span class="process-math">\(x\text{.}\)</span> The real numbers have neither a starting point or a “discrete step” where the next step would be the same amount more. (I.e., there’s no one real number that you can say is “next” after  <span class="process-math">\(3\)</span>).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#targets-11-5-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 2.26.g.1"><a tabindex="-1" href="#targets-11-5-8-2" title="Copy heading and permalink for Solution 2.26.g.1" aria-label="Copy heading and permalink for Solution 2.26.g.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.26.g"><a tabindex="-1" href="#targets-11-5-8" title="Copy heading and permalink for Task 2.26.g" aria-label="Copy heading and permalink for Task 2.26.g">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Checkpoint 2.26"><a tabindex="-1" href="#targets-11-5" title="Copy heading and permalink for Checkpoint 2.26" aria-label="Copy heading and permalink for Checkpoint 2.26">🔗</a></div>
+</article></details><div class="autopermalink" aria-hidden="true" data-description="Handout 2.10: Learning Target 9 Practice"><a tabindex="-1" href="#targets-11" title="Copy heading and permalink for Handout 2.10: Learning Target 9 Practice" aria-label="Copy heading and permalink for Handout 2.10: Learning Target 9 Practice">🔗</a></div>
 </section>
 </div>
 <div id="ptx-content-footer" class="ptx-content-footer">
