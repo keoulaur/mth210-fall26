@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
+
+
+
 <handout>
     <title>Learning Target 9 Practice</title>
 
@@ -55,67 +59,152 @@
 
     </paragraphs>
 
-  <paragraphs>
-    <title>More Practice</title>
+
     
 <exercise>
             <introduction>
-                Choose the statements that are appropriate to prove by induction and explain
+               <p> Choose the statements that are appropriate to prove by induction and explain
                 why.
                 For each statement you choose, state what your steps would be in a proof by
                 induction.
-                (Your response should be specific to the statement.)
+                (Your response should be specific to the statement.) </p>
             </introduction>
     
                     <task>
+                        <statement>
+                        
                         <p>
                             For all <m>a\in\mathbb{Z}</m> the equation
                             <m>ax^{3} + ax+a = 0</m> does not have a solution that is a
                             natural number.
+                    
                         </p>
+            
+                        </statement>
+                        <solution>
+                            <p>
+                                This is not a proof by induction since you are proving a statement for all <m>a\in\mathbb{Z}</m>
+                                (no starting point).
+                            </p>
+                        </solution>
                     </task>
 
                     <task>
+                          <statement>
                         <p>
                             For each natural number <m>n</m>, <m>3\mid 4^{n} - 1</m>.
                         </p>
+                         </statement>
+                         <solution>
+                            <p>
+                                This can be proven by induction. Let <m>S_n</m> be the statement <m>3\mid 4^{n}-1</m>. For 
+                                the base case, we show <m>S_1</m> or that <m>3\mid 4^{1} - 1</m>. For the inductive step, 
+                                let <m>k\in\mathbb{N}</m> and assume <m>S_k</m> is true which is that <m>3\mid 4^{k}-1</m>. Then
+                                we prove <m>S_{k+1}</m> which is that <m>3\mid 4^{k+1}-1</m>.
+                            </p>
+                         </solution>
                     </task>
+                       
 
                     <task>
+                          <statement>
                         <p>
                             For all integers <m>x</m> and <m>y</m>, if <m>x</m> is even and
                             <m>y</m> is odd, <m>x+y</m> is odd.
                         </p>
+                        
+                                                </statement>
+                                                <solution>
+                                                    <p>
+                                                       This statement is not proved by induction since it's for all 
+                                                       integers <m>a</m> and <m>b</m>. The integers don't have a 
+                                                       starting point to be used as a base case.
+                                                    </p>
+                                                </solution>
                     </task>
 
                     <task>
+                          <statement>
                         <p>
                             For all natural numbers <m>m</m> and <m>n</m>, if <m>mn</m> is
                             an even integer, then <m>m</m> is even or <m>n</m> is even.
                         </p>
+                                                </statement>
+
+                                                <solution>
+                                                    <p>
+                                                        This statement is not proved by induction. Even though it says 
+                                                        for all natural numbers <m>m</m> and <m>n</m>, we haven't done
+                                                        an induction proof that has<m>2</m> variables like this.
+                                                    </p>
+                                                </solution>
+
                     </task>
 
                     <task>
+                          <statement>
                         <p>
                             For all natural numbers <m>n</m> with <m>n\ge 4</m>,
-                            <m>n!&gt;2^{n}</m>.
+                            <m>n! \gt;2^{n}</m>.
                         </p>
+                                                </statement>
+                                                <solution>
+                                                    <p>
+                                                        For this one we do use inductions, since it starts <q>for all natural 
+                                                            numbers <m>n</m> with <m>n\geq 4</m></q> and we can see how 
+                                                            we might move from one case to the next. We would define <m>S_n</m> for 
+                                                            all <m>n\geq 4</m> as <m>n! gt; 2^n</m>. For the base case, prove <m>S_4</m>
+                                                            or that <m>4! \gt 2^4 </m>. For the inductive step, let <m>k\in \mathbb{N}</m>
+                                                            and assume <m>S_k</m> is true which is that <m>k!\gt 2^k </m>. We then prove that
+                                                            <m>S_{k+1}</m> is true, which is that <m>(k+1)! \gt 2^{k+1}</m>.
+                                                       
+                                                    </p>
+                                                </solution>
+
                     </task>
 
                     <task>
+                          <statement>
                         <p>
                             Let <m>a,b\in\mathbb{Z}</m> and <m>n\in\mathbb{N}</m>.
                             For all <m>m\in \mathbb{N}</m>, if <m>a\equiv b \pmod{n}</m>
                             then <m>a^{m} \equiv b^{m} \pmod{n}</m>.
                         </p>
+
+        
+                                                </statement>
+                                                <solution>
+                                                    <p>
+                                                        We can prove this statement by induction (though we haven't yet done
+                                                        one like it in class). We induction on <m>n</m>. For each <m>n\in\mathbb{N}</m>
+                                                        let <m>S_n</m> be if <m> a \equiv b\pmod{n}</m> then <m>a^m \equiv b^m \pmod{n}</m>. 
+                                                        We prove the base case by proving <m>S_1</m> which is <q>if <m>a \equiv b \pmod{n}</m></q>
+                                                        then <m>a^1 \equiv b^1 \pmod{n} </m>. Now, for the inductive step let <m>k\in\mathbb{N}</m>. 
+                                                        Assume <m>S_k</m> or that if <m>a\equiv b \pmod{n}</m> then <m>a^k b\pmod{n}</m>.
+                                                        We would show <m>S_{k+1}</m> or that if <m>a\equiv b\pmod{n}</m> then <m>a^{k+1}\equiv b \pmod{n}</m>.
+                                                    </p>
+                                                </solution>
                     </task>
 
                     <task>
+                          <statement>
                         <p>
                             For all real numbers <m>x</m>, if <m>x^{2} = 2</m>, then
                             <m>x</m> is irrational. </p>
+                             </statement>
+
+                             <solution>
+                                <p>
+                                    We would not use induction here since the statement is for all real numbers <m>x</m>. The real numbers
+                                    have neither a starting point or a <q>discrete step</q> where the next step would be the same amount more.
+                                    (I.e., there's no one real number that you can say is <q>next</q> after  <m>3</m>).
+                                </p>
+                             </solution>
                         </task>
+                                               
+
+                   
                     </exercise>
 
-                </paragraphs>
-</handout>
+
+        </handout>
