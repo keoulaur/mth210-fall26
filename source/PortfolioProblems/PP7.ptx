@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout xml:id="pp-7">
+    <title>Portfolio Problem 7</title>
+
+  <p>
+    All problems are in an Overleaf document at
+    <url href="https://gvsu.edu/s/3tn"/>. Copy/paste problems
+    from there to learn notation in Overleaf!
+
+    The writing guidelines are at
+    <url href="https://gvsu.edu/s/3to"/>.
+
+    There's a sample portfolio solution at
+    <url href="https://gvsu.edu/s/3v0"/>.
+
+    There's an Overleaf Cheat Sheet at
+    <url href="https://gvsu.edu/s/3OL"/>.
+
+    All of the writing guidelines are at
+    <url href="https://gvsu.edu/s/3NG"></url>.
+
+    All of the proof portfolio objectives are at
+    <url href="https://gvsu.edu/s/3QC"></url>.
+  </p>
+
+<paragraphs>
+  <title>Instructions:</title>
+  <p>
+        <ol>
+            <li>
+                <p>
+                    Start with examples!
+                    This is a logically complicated statement, so think about how to
+                    do examples that ``push on'' the ``or'' and the ``if and only
+                    if''.
+                    Include these examples in both your rough draft and typed
+                    revision.
+                </p>
+            </li>
+  
+            <li>
+                <p>
+                    If the conjecture is true, make it a theorem statement.
+                    If the conjecture is false, modify the conjecture to make it
+                    true.
+                </p>
+            </li>
+  
+            <li>
+                <p>
+                    Think about proof techniques!
+                    You might get a lot of the proof portfolio objectives in this
+                    problem.
+                </p>
+            </li>
+  
+            <li>
+                <p>
+                    In your typed revision, put a special focus on communicating
+                    proof techniques you are using clearly.
+                </p>
+            </li>
+        </ol>
+    </p>
+</paragraphs>
+
+
+<paragraphs>
+  <title>Conjecture 7</title>
+  <p>
+        Suppose <m>m,n\in\mathbb{Z}</m>.
+        The expression <m>m^{2}(n^{2}+5)</m> is even if and only if <m>m</m> is even
+        or <m>n</m> is odd.
+    </p>
+</paragraphs>
+</handout>

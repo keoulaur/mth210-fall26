@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="WP-0809">
+    <title>Week 8 and 9 Weekly Practice</title>
+   <page>
+
+    <p>
+        Due the first class of the week of November 2.
+    </p>
+
+   
+
+    <exercise>
+  <title>Exercise 4.4 (f)</title>
+  <statement>
+    <p>
+      Prove by induction that for all natural numbers <m>n</m>,
+      <md>1\cdot 1! + 2\cdot 2! + 3\cdot 3! + \dots + n\cdot n! = (n+1)! -1.</md>
+    </p>
+  </statement>
+</exercise>
+</page>
+<page>
+
+<exercise>
+  <statement>
+    <p>
+      The Lucas Numbers are a sequence of natural numbers <m>L_1, L_2, L_3, \dots, L_n, \dots</m> which are 
+      defined recursively as follows
+        <ul>
+          <li>
+            <p>
+              <m>L_1 =1</m> and <m>L_2 = 3</m>
+            </p>
+          </li>
+           <li>
+            <p>
+              For each naturnal number <m>n</m>, <m>L_{n+2} = L _{n+1} + L_n</m>.
+            </p>
+          </li>
+        </ul>
+    </p>
+    <p>
+    Find the first 10 Lucas numbers and the first 10 Fibonacci numbers and then prove that <m>L_n = 2f_{n+1}-f_n</m>
+    for each natural number <m>n</m>.
+    </p>
+    </statement>
+  </exercise>
+
+
+
+
+
+
+</page>
+
+
+</worksheet>

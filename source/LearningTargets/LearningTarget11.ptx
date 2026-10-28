@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+
+<handout>
+    <title>Learning Target 11 Practice</title>
+
+    <p >
+        <em>Evaluate if a given proof is valid and adheres to our writing guidelines.
+        </em>
+    </p>
+
+    <paragraphs>
+        <title>Need to know</title>
+
+        <p>
+           <ul>
+                           <li>
+                               <p>
+                                   The professional communication specifications we've been working
+                                   with.
+                               </p>
+                           </li>
+           
+                           <li>
+                               <p>
+                                   Carefully read a proof for logical errors - did the author assume
+                                   their conclusion?
+                                   miss a case?
+                               </p>
+                           </li>
+            </ul>
+        </p>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Practice From Class</title>
+
+        <p>
+            Weekly Pracitce 6, #3
+        </p>
+
+    </paragraphs>
+
+
+    <paragraphs>
+        <title> Additional Practice</title>
+        
+
+    
+<exercise>
+            <introduction>
+               <p> Consider each of the following proofs. 
+                Is the proof correct? If not, explain why not. If so, does the proof meet our writing guidelines? </p>
+            </introduction>
+    
+                    <task>
+                        <statement>
+                        
+                        <p>
+            
+                                  <term>Theorem.</term>                     
+                                          
+                                                               If <m>m</m> is an odd integer then <m>m+6</m> is an odd integer.
+                                                           </p>
+                                                      
+                                            
+                                                        <p>
+                                                   <em>Proof. </em>
+                                                     
+                                                           For <m>m+6</m> to be an odd integer there must exist an integer <m>n</m>
+                                                           such that
+                                                           <md>
+                                                               m+6 = 2n+1.
+                                                           </md>
+                                                           By subtracting <m>6</m> from both sides of this equation we obtain
+                                                           <md alignment="align">
+                                                               <mrow>m&amp;= 2n-6+1</mrow>
+                                                               <mrow>&amp;=2(n-3)+1.</mrow>
+                                                           </md>
+                                                           By the closure properties of integers, <m>n-3</m> is an integer, and
+                                                           hence, the last equation implies that <m>m</m> is an odd integer.
+                                                           This proves that if <m>m</m> is an odd integer then <m>m+6</m> is an odd
+                                                           integer.
+                                                        </p>
+                        </statement>
+
+                        <solution>
+                           <p>
+                            
+                           </p>
+                        </solution>
+                    </task>
+                                               
+
+                   
+                    </exercise>
+
+                    <exercise>
+                        <statement>
+                            <p>
+                               <term>Theorem.</term> For each integer <m>n</m>, <m>3\mid n^{2} + 2</m>.
+                            </p>
+
+                            <p>
+                                <em>Proof.</em> 
+                                                                    We will consider two cases, <m>n\equiv 1\pmod{3}</m> and
+                                                                    <m>n\equiv 2\pmod{3}</m>.
+                                                                    When <m>n\equiv 1 \pmod{3}</m>, there exists an integer <m>k</m> such that
+                                                                    <m>3k = n-1</m>.
+                                                                    Then
+                                                                    <md>
+                                                                        n^{2}+2 = (3k+1)^{2} + 2 = 9k^{2} + 6k + 1 + 2 = 3(3k^{2}+2k+1).
+                                                                    </md>
+                                                                    Since integers are closed under addition and multiplication
+                                                                    <m>3k^{2}+2k+1</m> is an integer.
+                                                                    Thus <m>3\mid n^{2}+2</m> in this case.
+                                                                </p>
+                                
+                                                                <p>
+                                                                    When <m>n\equiv 2 \pmod{3}</m> there exists an integer <m>k</m> such that
+                                                                    <m>3k=n-2</m>.
+                                                                    Then
+                                                                    <md>
+                                                                        n^{2}+2 = (3k+2)^{2} +2 =9k^{2}+12k+4+2 = 3(3k^{2}+4k+2).
+                                                                    </md>
+                                                                    Since integers are closed under addition and multiplication,
+                                                                    <m>3k^{2}+4k+2</m> is an integer.
+                                                                    Thus <m>3\mid n^{2}+2</m> in this case as well.
+                                                                </p>
+                                
+                                                                <p>
+                                                                    Since we've proven that <m>3\mid n^{2}+2</m> in all possible cases we have
+                                                                    completed the proof.
+                                                                </p>
+                        
+                        </statement>
+                        <solution>
+                            <p>
+                                
+                            </p>
+                        </solution>
+
+                    </exercise>
+
+                </paragraphs>
+
+
+        </handout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+
+<handout>
+    <title>Learning Target 10 Practice</title>
+
+    <p workspace=".2in">
+        <em>Clearly and correctly disprove a statement using a counterexample.
+        </em>
+    </p>
+
+    <paragraphs>
+        <title>Need to know</title>
+
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        How to search for appropriate counterexamples (being strategic, e.g., trying odd/even, or 0,1,or 2 mod 3,
+                        or positive/negative).
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                     How to explain a counterexample, for example, how your example satisfies the hypothesis but not the conclusion.
+                    </p>
+                </li>
+
+            </ul>
+        </p>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Practice From Class</title>
+
+        <p>
+            Weekly Practice 6: # 1,  Weekly Practice 1: Activity 3.4, Countrexamples you wrote up in the 
+            proof portfolio.
+        </p>
+
+    </paragraphs>
+
+
+    
+<exercise>
+            <introduction>
+               <p> Each of thte following statements is incorrect. Show the statement is false using a counterexample. 
+                You should clearly explain why the counterexample you found shows the statement is false.
+ </p>
+            </introduction>
+    
+                    <task>
+                        <statement>
+                        
+                        <p>
+                            
+                           If <m>n</m> is an integer, then <m>n^{2} \equiv 1 \pmod{3}</m>.
+                                                       (Note - this statement is equivalent to <q> For all integers <m>n</m>,
+                                                       <m>n^{2} \equiv 1 \pmod{3}</m>.</q>)
+                        </p>
+            
+                        </statement>
+                        <solution>
+                            <p>
+                             
+                            </p>
+                        </solution>
+                    </task>
+
+                    <task>
+                          <statement>
+                        <p>
+                            For each integer <m>n</m>, <m>n^{2}+1</m> is a prime number.
+                        </p>
+                         </statement>
+                         <solution>
+                            <p>
+                                
+                            </p>
+                         </solution>
+                    </task>
+                       
+
+                    <task>
+                          <statement>
+                        <p>
+                            For all integers <m>x</m> and <m>y</m>, if <m>x</m> is even and <m>y</m> is odd,
+                                                        then <m>2x-y</m> is even.
+                        </p>
+                        
+                                                </statement>
+                                                <solution>
+                                                    <p>
+                                            
+                                                    </p>
+                                                </solution>
+                    </task>
+
+                    <task>
+                          <statement>
+                        <p>
+                        If <m>x</m> is a real number then <m>x^{2}&gt;x</m>.
+                        </p>
+                                                </statement>
+
+                                                <solution>
+                                                    <p>
+                                                      
+                                                    </p>
+                                                </solution>
+
+                    </task>
+
+                    <task>
+                          <statement>
+                        <p>
+                            For all real numbers $x, y,$ and $z$, if $|x-y|&lt; 4$ and $|y-z| &lt; 4$ then $|x-z|&lt;4$.
+                        </p>
+                                                </statement>
+                                                <solution>
+                                                    <p>
+                                                       
+                                                    </p>
+                                                </solution>
+
+                    </task>
+
+                    <task>
+                          <statement>
+                        <p>
+                            For all integers <m>n</m>, if <m>n^{2}-n</m> is even, then <m>n</m> is even.
+                        </p>
+
+        
+                                                </statement>
+                                                <solution>
+                                                    <p>
+                                                     
+                                                    </p>
+                                                </solution>
+                    </task>
+
+               
+                                               
+
+                   
+                    </exercise>
+
+
+        </handout>
