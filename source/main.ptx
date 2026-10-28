@@ -116,6 +116,7 @@
                 <xi:include href="./activities/04-1-Induction.ptx"/>
                 <xi:include href="./activities/04-2-InductionWithRecursion.ptx"/>
                 <xi:include href="./activities/04-3-SomeExampleInductionProofs.ptx"/>
+                <xi:include href="./activities/04-4-TheWildernesss.ptx"/>
             </chapter>
 
             <chapter xml:id="ch-logic">

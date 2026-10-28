@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>Getting Comfortable When You are Stuck in the Muck</title>
+
+    <blockquote>
+        <p>
+            "Mathematics is not a careful march down a well-cleared highway, but
+            a journey into a strange wilderness, where the explorers often get
+            lost.
+            Rigour should be a signal to the historian that the maps have been
+            made, and the real explorers have gone elsewhere."
+        </p>
+        <attribution>W.S. Anglin</attribution>
+    </blockquote>
+
+
+    <activity>
+        <title>The Sum of The Cubes vs. The Square of the Sum</title>
+        <task workspace=".5in">
+            <statement>
+                <p>
+                    Compute <m>1^3 + 2^3 + \dots + n^3 </m> for several values of <m>n</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace=".5in">
+            <statement>
+                <p>
+                    Compute <m>(1+2+\dots + n)^2</m> for the same values of <m>n</m> you used above.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace=".5in">
+            <statement>
+                <p>
+                    Write a conjecture based on your work. Can you use summation notation to do it?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="8in"> 
+            <statement>
+                <p>
+                    Venture into the wilderness and look for a path to prove!
+                </p>
+            </statement>
+        </task>
+
+        
+    </activity>
+
+    <activity>
+        <task workspace=".5in">
+            <statement>
+                <p>
+                   For every prime <m>p \ge 3</m> that we tried, it was true that <m>24\mid p^2-1</m>. Turn this statement 
+                   into a conjecture.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="4in">
+            <statement>
+                <p>
+                    Start by trying to prove the conjecture for <m>3</m> instead of <m>24</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="4in">
+            <statement>
+                <p>
+                    Now try to prove ethe conjecture for <m>8</m> instead of <m>24</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Use the following lemma: For all integers <m>a,b</m> and <m>c</m>, if <m>\gcd(a,b)=1</m>, <m>a\mid c</m>
+                and <m>b\mid c</m> then <m>ab\mid c</m> to prove the result.
+                </p>
+            </statement>
+        </task>
+    </activity>
+</handout>
