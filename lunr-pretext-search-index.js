@@ -496,6 +496,51 @@ var ptx_lunr_docs = [
   "body": "  Choose the statements that are appropriate to prove by induction and explain why. For each statement you choose, state what your steps would be in a proof by induction. (Your response should be specific to the statement.)     For all the equation does not have a solution that is a natural number.    This is not a proof by induction since you are proving a statement for all (no starting point).      For each natural number , .    This can be proven by induction. Let be the statement . For the base case, we show or that . For the inductive step, let and assume is true which is that . Then we prove which is that .      For all integers and , if is even and is odd, is odd.    This statement is not proved by induction since it's for all integers and . The integers don't have a starting point to be used as a base case.      For all natural numbers and , if is an even integer, then is even or is even.    This statement is not proved by induction. Even though it says for all natural numbers and , we haven't done an induction proof that has variables like this.      For all natural numbers with , .    For this one we do use inductions, since it starts for all natural numbers with and we can see how we might move from one case to the next. We would define for all as . For the base case, prove or that . For the inductive step, let and assume is true which is that . We then prove that is true, which is that .      Let and . For all , if then .    We can prove this statement by induction (though we haven't yet done one like it in class). We induction on . For each let be if then . We prove the base case by proving which is if then . Now, for the inductive step let . Assume or that if then . We would show or that if then .      For all real numbers , if , then is irrational.    We would not use induction here since the statement is for all real numbers . The real numbers have neither a starting point or a discrete step where the next step would be the same amount more. (I.e., there's no one real number that you can say is next after ).    "
 },
 {
+  "id": "targets-12",
+  "level": "1",
+  "url": "targets-12.html",
+  "type": "Handout",
+  "number": "2.11",
+  "title": "Learning Target 10 Practice",
+  "body": " Learning Target 10 Practice   Clearly and correctly disprove a statement using a counterexample.    Need to know     How to search for appropriate counterexamples (being strategic, e.g., trying odd\/even, or 0,1,or 2 mod 3, or positive\/negative).    How to explain a counterexample, for example, how your example satisfies the hypothesis but not the conclusion.       Practice From Class  Weekly Practice 6: # 1, Weekly Practice 1: Activity 3.4, Countrexamples you wrote up in the proof portfolio.     Each of thte following statements is incorrect. Show the statement is false using a counterexample. You should clearly explain why the counterexample you found shows the statement is false.     If is an integer, then . (Note - this statement is equivalent to For all integers , . )          For each integer , is a prime number.          For all integers and , if is even and is odd, then is even.          If is a real number then .          For all real numbers $x, y,$ and $z$, if $|x-y|< 4$ and $|y-z| < 4$ then $|x-z|<4$.          For all integers , if is even, then is even.         "
+},
+{
+  "id": "targets-12-5",
+  "level": "2",
+  "url": "targets-12.html#targets-12-5",
+  "type": "Checkpoint",
+  "number": "2.27",
+  "title": "",
+  "body": "  Each of thte following statements is incorrect. Show the statement is false using a counterexample. You should clearly explain why the counterexample you found shows the statement is false.     If is an integer, then . (Note - this statement is equivalent to For all integers , . )          For each integer , is a prime number.          For all integers and , if is even and is odd, then is even.          If is a real number then .          For all real numbers $x, y,$ and $z$, if $|x-y|< 4$ and $|y-z| < 4$ then $|x-z|<4$.          For all integers , if is even, then is even.        "
+},
+{
+  "id": "targets-13",
+  "level": "1",
+  "url": "targets-13.html",
+  "type": "Handout",
+  "number": "2.12",
+  "title": "Learning Target 11 Practice",
+  "body": " Learning Target 11 Practice   Evaluate if a given proof is valid and adheres to our writing guidelines.    Need to know     The professional communication specifications we've been working with.    Carefully read a proof for logical errors - did the author assume their conclusion? miss a case?       Practice From Class  Weekly Pracitce 6, #3    Additional Practice    Consider each of the following proofs. Is the proof correct? If not, explain why not. If so, does the proof meet our writing guidelines?      Theorem. If is an odd integer then is an odd integer.   Proof. For to be an odd integer there must exist an integer such that By subtracting from both sides of this equation we obtain By the closure properties of integers, is an integer, and hence, the last equation implies that is an odd integer. This proves that if is an odd integer then is an odd integer.            Theorem. For each integer , .   Proof. We will consider two cases, and . When , there exists an integer such that . Then Since integers are closed under addition and multiplication is an integer. Thus in this case.  When there exists an integer such that . Then Since integers are closed under addition and multiplication, is an integer. Thus in this case as well.  Since we've proven that in all possible cases we have completed the proof.         "
+},
+{
+  "id": "targets-13-5-2",
+  "level": "2",
+  "url": "targets-13.html#targets-13-5-2",
+  "type": "Checkpoint",
+  "number": "2.28",
+  "title": "",
+  "body": "  Consider each of the following proofs. Is the proof correct? If not, explain why not. If so, does the proof meet our writing guidelines?      Theorem. If is an odd integer then is an odd integer.   Proof. For to be an odd integer there must exist an integer such that By subtracting from both sides of this equation we obtain By the closure properties of integers, is an integer, and hence, the last equation implies that is an odd integer. This proves that if is an odd integer then is an odd integer.        "
+},
+{
+  "id": "targets-13-5-3",
+  "level": "2",
+  "url": "targets-13.html#targets-13-5-3",
+  "type": "Checkpoint",
+  "number": "2.29",
+  "title": "",
+  "body": "   Theorem. For each integer , .   Proof. We will consider two cases, and . When , there exists an integer such that . Then Since integers are closed under addition and multiplication is an integer. Thus in this case.  When there exists an integer such that . Then Since integers are closed under addition and multiplication, is an integer. Thus in this case as well.  Since we've proven that in all possible cases we have completed the proof.       "
+},
+{
   "id": "notes-week-01",
   "level": "1",
   "url": "notes-week-01.html",
@@ -901,6 +946,33 @@ var ptx_lunr_docs = [
   "body": " We will use a proof by induction. For each natural number define to be that is even.  For the base case, we consider , or when . When , . Note is even as and . Thus the theorem is true when .  For the inductive step, let and assume is true. That is, assume that is even. We will prove that is even. Since is even, we know that there exists an integer such that . By algebra and substitution, Since and are integers and the integers are closed under addition, . Thus, is even and the inductive step is complete.  By the principle of mathematical induction, is even for all .  "
 },
 {
+  "id": "WP-0809",
+  "level": "1",
+  "url": "WP-0809.html",
+  "type": "Worksheet",
+  "number": "3.8",
+  "title": "Week 8 and 9 Weekly Practice",
+  "body": " Week 8 and 9 Weekly Practice   Due the first class of the week of November 2.   Exercise 4.4 (f)   Prove by induction that for all natural numbers ,         The Lucas Numbers are a sequence of natural numbers which are defined recursively as follows    and     For each naturnal number , .     Find the first 10 Lucas numbers and the first 10 Fibonacci numbers and then prove that for each natural number .     "
+},
+{
+  "id": "WP-0809-2-2",
+  "level": "2",
+  "url": "WP-0809.html#WP-0809-2-2",
+  "type": "Worksheet Exercise",
+  "number": "3.8.1",
+  "title": "Exercise 4.4 (f).",
+  "body": " Exercise 4.4 (f)   Prove by induction that for all natural numbers ,    "
+},
+{
+  "id": "WP-0809-3-1",
+  "level": "2",
+  "url": "WP-0809.html#WP-0809-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3.8.2",
+  "title": "",
+  "body": "  The Lucas Numbers are a sequence of natural numbers which are defined recursively as follows    and     For each naturnal number , .     Find the first 10 Lucas numbers and the first 10 Fibonacci numbers and then prove that for each natural number .   "
+},
+{
   "id": "pp-instructions",
   "level": "1",
   "url": "pp-instructions.html",
@@ -1205,6 +1277,15 @@ var ptx_lunr_docs = [
   "number": "4.8",
   "title": "Portfolio Problem 6",
   "body": " Portfolio Problem 6  All problems are in an Overleaf document at . Copy\/paste problems from there to learn notation in Overleaf! The writing guidelines are at . There's a sample portfolio solution at . There's an Overleaf Cheat Sheet at . All of the writing guidelines are at . All of the proof portfolio objectives are at .   Instructions:     Pick ONE of the following problems.    In both your draft and writing revision, include at least 3 examples that show how you came up with your conjecture.    The given prompts are not yet theorem statements! You may need to complete the statements, and modify the sentences so that they are theorem statements. In particular, theorem statements don't have prove that in them.    Prove these using induction!    Put a special focus on demonstrating that you understand how induction works. For example, make sure you use correct quantifiers (for all, there exists) and notation.    You can use page 48 of the worksheets, or pages 151 or 157 of your textbook for a model of a proof by induction.       Conjecture 6A:  Let be the Fibonacci numbers. Conjecture an expression to complete the statement For each , . Prove your statement.    Conjecture 6B  Let and let . Then the derivative of is .    Conjecture 6C  Consider the expressions and . Conjecture an expression to complete the statement For each , with  . (The first blank is a natural number and the second blank is an inequality.) Prove your statement.   "
+},
+{
+  "id": "pp-7",
+  "level": "1",
+  "url": "pp-7.html",
+  "type": "Handout",
+  "number": "4.9",
+  "title": "Portfolio Problem 7",
+  "body": " Portfolio Problem 7  All problems are in an Overleaf document at . Copy\/paste problems from there to learn notation in Overleaf! The writing guidelines are at . There's a sample portfolio solution at . There's an Overleaf Cheat Sheet at . All of the writing guidelines are at . All of the proof portfolio objectives are at .   Instructions:     Start with examples! This is a logically complicated statement, so think about how to do examples that ``push on'' the ``or'' and the ``if and only if''. Include these examples in both your rough draft and typed revision.    If the conjecture is true, make it a theorem statement. If the conjecture is false, modify the conjecture to make it true.    Think about proof techniques! You might get a lot of the proof portfolio objectives in this problem.    In your typed revision, put a special focus on communicating proof techniques you are using clearly.       Conjecture 7  Suppose . The expression is even if and only if is even or is odd.   "
 },
 {
   "id": "ch-1-intuitiveproofs-2",
@@ -2465,6 +2546,33 @@ var ptx_lunr_docs = [
   "number": "4.3.4",
   "title": "",
   "body": " We will use a proof by induction. For each , let be .  For the base case, we prove . The left side of is . The right side is . Thus, is true and the base case is complete.  For the inductive step let and assume that is true. That is, we assume that . We will prove or that . By algebra and substitution, By the definition of the Fibonacci numbers, . So Thus, whenever is true, is also true and the inductive step is complete.  By the Principle of Mathematical Induction, the theorem is true.  "
+},
+{
+  "id": "ch-4-induction-5",
+  "level": "1",
+  "url": "ch-4-induction-5.html",
+  "type": "Handout",
+  "number": "4.4",
+  "title": "Getting Comfortable When You are Stuck in the Muck",
+  "body": " Getting Comfortable When You are Stuck in the Muck   \"Mathematics is not a careful march down a well-cleared highway, but a journey into a strange wilderness, where the explorers often get lost. Rigour should be a signal to the historian that the maps have been made, and the real explorers have gone elsewhere.\"  W.S. Anglin    The Sum of The Cubes vs. The Square of the Sum    Compute for several values of .      Compute for the same values of you used above.      Write a conjecture based on your work. Can you use summation notation to do it?      Venture into the wilderness and look for a path to prove!        For every prime that we tried, it was true that . Turn this statement into a conjecture.      Start by trying to prove the conjecture for instead of .      Now try to prove ethe conjecture for instead of .      Use the following lemma: For all integers and , if , and then to prove the result.     "
+},
+{
+  "id": "ch-4-induction-5-3",
+  "level": "2",
+  "url": "ch-4-induction-5.html#ch-4-induction-5-3",
+  "type": "Activity",
+  "number": "4.25",
+  "title": "The Sum of The Cubes vs. The Square of the Sum.",
+  "body": " The Sum of The Cubes vs. The Square of the Sum    Compute for several values of .      Compute for the same values of you used above.      Write a conjecture based on your work. Can you use summation notation to do it?      Venture into the wilderness and look for a path to prove!    "
+},
+{
+  "id": "ch-4-induction-5-4",
+  "level": "2",
+  "url": "ch-4-induction-5.html#ch-4-induction-5-4",
+  "type": "Activity",
+  "number": "4.26",
+  "title": "",
+  "body": "   For every prime that we tried, it was true that . Turn this statement into a conjecture.      Start by trying to prove the conjecture for instead of .      Now try to prove ethe conjecture for instead of .      Use the following lemma: For all integers and , if , and then to prove the result.    "
 },
 {
   "id": "ch-logic-2",
