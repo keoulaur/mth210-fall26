@@ -89,7 +89,11 @@
 
                         <solution>
                            <p>
-                            
+                            This theorem is true, however, they start by assuming the conclusion,
+                            that <m>m+6 = 2n+1</m>. In addition, they don't state that <m>n</m> is 
+                            an integer when applying the defintion of odd integer. The proof
+                            mostly meets our writing guidelines otherwise, though it is missing
+                            the end of proof symbol.
                            </p>
                         </solution>
                     </task>
@@ -139,7 +143,13 @@
                         </statement>
                         <solution>
                             <p>
-                                
+                                This theorem is false (consider <m>n=0</m>). So the proof
+                                must be wrong. The biggest problem with the proof is that
+                                they only consider <m>n\equiv 1 \pmod{3}</m> and <m>n\equiv 2 \pmod{3}</m>.
+                                However the hypothesis says for all integers <m>n</m>, so they must 
+                                also consider <m>n\equiv 0 \pmod{3}</m>. Otherwise the proof
+                                is well written and meets our writing guidelines (except that it is 
+                                lacking an end of proof symbol).
                             </p>
                         </solution>
 
