@@ -541,6 +541,24 @@ var ptx_lunr_docs = [
   "body": "   Theorem. For each integer , .   Proof. We will consider two cases, and . When , there exists an integer such that . Then Since integers are closed under addition and multiplication is an integer. Thus in this case.  When there exists an integer such that . Then Since integers are closed under addition and multiplication, is an integer. Thus in this case as well.  Since we've proven that in all possible cases we have completed the proof.    This theorem is false (consider ). So the proof must be wrong. The biggest problem with the proof is that they only consider and . However the hypothesis says for all integers , so they must also consider . Otherwise the proof is well written and meets our writing guidelines (except that it is lacking an end of proof symbol).   "
 },
 {
+  "id": "targets-14",
+  "level": "1",
+  "url": "targets-14.html",
+  "type": "Handout",
+  "number": "2.13",
+  "title": "Learning Target 12 Practice",
+  "body": " Learning Target 12 Practice   Construct truth tables for statements that use the logical operators and, or, not, and implies, and make conclusions about the truth values of these statements.    Need to know     The truth tables for and, or, not, implies, and the symbols     How to break down a complicated statement into pieces.    How to set up a truth table for combinations of statements and and combinations of statements , , and .       Practice From Class     Weekly Practice 10    Worksheets pages 67 and 68       Additional Practice     Construct a truth table for .           Construct a truth table for .           "
+},
+{
+  "id": "targets-14-5-2",
+  "level": "2",
+  "url": "targets-14.html#targets-14-5-2",
+  "type": "Checkpoint",
+  "number": "2.30",
+  "title": "",
+  "body": "   Construct a truth table for .           Construct a truth table for .         "
+},
+{
   "id": "notes-week-01",
   "level": "1",
   "url": "notes-week-01.html",
@@ -952,7 +970,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "3.8",
   "title": "Week 8 and 9 Weekly Practice",
-  "body": " Week 8 and 9 Weekly Practice   Due the first class of the week of November 2.   Exercise 4.4 (f)   Prove by induction that for all natural numbers ,         The Lucas Numbers are a sequence of natural numbers which are defined recursively as follows    and     For each naturnal number , .     Find the first 10 Lucas numbers and the first 10 Fibonacci numbers and then prove that for each natural number .     "
+  "body": " Week 8 and 9 Weekly Practice   Due the first class of the week of November 2.   Exercise 4.4 (f)   Prove by induction that for all natural numbers ,      Theorem. For all natural numbers     Proof. We will use mathematical induction. For each let be   For the base case, let Then and Since the base case is complete.  For the inductive step, let and assume that is true. That is, assume We will show that is is true. That is, we want to show   Starting with the left side of , substituting , and factoring out , we have Since and we have Thus we have shown and the inductive step is complete.  By the Principle of Mathematical Induction for all .        The Lucas Numbers are a sequence of natural numbers which are defined recursively as follows    and     For each natural number , .     Find the first 10 Lucas numbers and the first 10 Fibonacci numbers and then prove that for each natural number .    The first Fibonacci numbers are   The first Lucas numbers are Testing a few examples we see The statement for each natural number appears to be true.   Theorem. For all ,    Proof. We will use a proof by mathematical induction. For each let be .  For the base cases, let and . For we have . For we have So the theorem is true for .  For the inductive step, let and suppose that, for each with that is true. That is, suppose that . We will prove that is true. That is, we will show Beginning with the left side of and using the recursion for the Lucas numbers we have Since both and are between and (inclusive) we have By algebra and the Fibonacci number recursion we have which is what we aimed to show.  Thus, by the principle of mathematical induction, for all , and the proof is complete.  Note that we need strong induction here since when we are proving we are relying on both and . Then we need two base cases because we need both and to be between and inclusive. But if then , which is not in the interval!     "
 },
 {
   "id": "WP-0809-2-2",
@@ -961,7 +979,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3.8.1",
   "title": "Exercise 4.4 (f).",
-  "body": " Exercise 4.4 (f)   Prove by induction that for all natural numbers ,    "
+  "body": " Exercise 4.4 (f)   Prove by induction that for all natural numbers ,      Theorem. For all natural numbers     Proof. We will use mathematical induction. For each let be   For the base case, let Then and Since the base case is complete.  For the inductive step, let and assume that is true. That is, assume We will show that is is true. That is, we want to show   Starting with the left side of , substituting , and factoring out , we have Since and we have Thus we have shown and the inductive step is complete.  By the Principle of Mathematical Induction for all .   "
 },
 {
   "id": "WP-0809-3-1",
@@ -970,7 +988,52 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3.8.2",
   "title": "",
-  "body": "  The Lucas Numbers are a sequence of natural numbers which are defined recursively as follows    and     For each naturnal number , .     Find the first 10 Lucas numbers and the first 10 Fibonacci numbers and then prove that for each natural number .   "
+  "body": "  The Lucas Numbers are a sequence of natural numbers which are defined recursively as follows    and     For each natural number , .     Find the first 10 Lucas numbers and the first 10 Fibonacci numbers and then prove that for each natural number .    The first Fibonacci numbers are   The first Lucas numbers are Testing a few examples we see The statement for each natural number appears to be true.   Theorem. For all ,    Proof. We will use a proof by mathematical induction. For each let be .  For the base cases, let and . For we have . For we have So the theorem is true for .  For the inductive step, let and suppose that, for each with that is true. That is, suppose that . We will prove that is true. That is, we will show Beginning with the left side of and using the recursion for the Lucas numbers we have Since both and are between and (inclusive) we have By algebra and the Fibonacci number recursion we have which is what we aimed to show.  Thus, by the principle of mathematical induction, for all , and the proof is complete.  Note that we need strong induction here since when we are proving we are relying on both and . Then we need two base cases because we need both and to be between and inclusive. But if then , which is not in the interval!   "
+},
+{
+  "id": "WP-10",
+  "level": "1",
+  "url": "WP-10.html",
+  "type": "Worksheet",
+  "number": "3.9",
+  "title": "Week 10 Weekly Practice",
+  "body": " Week 10 Weekly Practice   Due the first class of the week of November 9.   Exercise 5.2. (f)   You are investigating a muuuuurderr. The following table lists the possibilities.   Who, What, When, Where    Killer  Murder Weapon  Time of Crime  Location    Miss Scarlet (S)  Wrench (W)  Noon (D)  Billiard Room (B)    Colonel Mustard (M)  Knife (Kn)  Midnight (N)  Kitchen (K)    Professor Plum (P)  Candlestick (C)   Library (L)     You have the following additional facts that have been established at the scene of the crime.     Either the weapon was the wrench or the crime took place in the billiard room (but not both)    If the crime took place at midnight, then Colonel Mustard is guilty.    Professor Plum is innocent if and only if the weapon was not the wrench.    If the weapon was the candlestick, then Miss Scarlet is guilty.    If the crime occurred at noon, then it was not in the library and the weapon was not a knife.     Now, as a side hustle, you are also a mathematician. As such, you start wondering what further piece of evidence would conclusively determine the killer. For each of the following, explain how that piece of evidence, if established, would determine the killer.     The weapon was the wrench.      The crime took place in the billiard room.        Exercise 5.3   Determine whether the following are statements. Among those that are, determine whether it is true or false.     2+3=5      The sets and .      The sets and both contain 2.      8675309 is a prime number      Every integer is a real number.      Every real number is an integer.        Exercise 5.22   Construct truth tables to prove the following logical equivalences, for open sentences and                    Exercise 5.10   Negate the following sentences. You do not need to determine the truth value!     For every prime , there exists a prime for which .      Every polynomial is differentiable.      For all real numbers and , if , then or .      If is odd, then is odd, and is odd.      For all natural numbers if is prime then .      If I pass Algebra I and Analysis I this semester, then I will take Algebra II or Analysis II next semester.      For every there exists an such that implies . (Note is the Greek letter epsilon       "
+},
+{
+  "id": "WP-10-2-2",
+  "level": "2",
+  "url": "WP-10.html#WP-10-2-2",
+  "type": "Worksheet Exercise",
+  "number": "3.9.1",
+  "title": "Exercise 5.2. (f).",
+  "body": " Exercise 5.2. (f)   You are investigating a muuuuurderr. The following table lists the possibilities.   Who, What, When, Where    Killer  Murder Weapon  Time of Crime  Location    Miss Scarlet (S)  Wrench (W)  Noon (D)  Billiard Room (B)    Colonel Mustard (M)  Knife (Kn)  Midnight (N)  Kitchen (K)    Professor Plum (P)  Candlestick (C)   Library (L)     You have the following additional facts that have been established at the scene of the crime.     Either the weapon was the wrench or the crime took place in the billiard room (but not both)    If the crime took place at midnight, then Colonel Mustard is guilty.    Professor Plum is innocent if and only if the weapon was not the wrench.    If the weapon was the candlestick, then Miss Scarlet is guilty.    If the crime occurred at noon, then it was not in the library and the weapon was not a knife.     Now, as a side hustle, you are also a mathematician. As such, you start wondering what further piece of evidence would conclusively determine the killer. For each of the following, explain how that piece of evidence, if established, would determine the killer.     The weapon was the wrench.      The crime took place in the billiard room.    "
+},
+{
+  "id": "WP-10-3-1",
+  "level": "2",
+  "url": "WP-10.html#WP-10-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3.9.2",
+  "title": "Exercise 5.3.",
+  "body": " Exercise 5.3   Determine whether the following are statements. Among those that are, determine whether it is true or false.     2+3=5      The sets and .      The sets and both contain 2.      8675309 is a prime number      Every integer is a real number.      Every real number is an integer.    "
+},
+{
+  "id": "WP-10-4-1",
+  "level": "2",
+  "url": "WP-10.html#WP-10-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3.9.3",
+  "title": "Exercise 5.22.",
+  "body": " Exercise 5.22   Construct truth tables to prove the following logical equivalences, for open sentences and                "
+},
+{
+  "id": "WP-10-5-1",
+  "level": "2",
+  "url": "WP-10.html#WP-10-5-1",
+  "type": "Worksheet Exercise",
+  "number": "3.9.4",
+  "title": "Exercise 5.10.",
+  "body": " Exercise 5.10   Negate the following sentences. You do not need to determine the truth value!     For every prime , there exists a prime for which .      Every polynomial is differentiable.      For all real numbers and , if , then or .      If is odd, then is odd, and is odd.      For all natural numbers if is prime then .      If I pass Algebra I and Analysis I this semester, then I will take Algebra II or Analysis II next semester.      For every there exists an such that implies . (Note is the Greek letter epsilon     "
 },
 {
   "id": "pp-instructions",
