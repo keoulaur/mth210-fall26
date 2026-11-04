@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+
+<handout>
+    <title>Learning Target 12 Practice</title>
+
+    <p >
+        <em>Construct truth tables for statements that use the logical operators 
+            and, or, not, and implies, and make conclusions about the truth values of these statements.
+        </em>
+    </p>
+
+    <paragraphs>
+        <title>Need to know</title>
+
+        <p>
+                    <ul>
+                        <li>
+                            <p>
+                                The truth tables for and, or, not, implies, and the symbols
+                                <m>\wedge, \vee, \sim, \implies</m>
+                            </p>
+                        </li>
+        
+                        <li>
+                            <p>
+                                How to break down a complicated statement into pieces.
+                            </p>
+                        </li>
+        
+                        <li>
+                            <p>
+                                How to set up a truth table for combinations of statements
+                                <m>P</m> and <m>Q</m> and combinations of statements <m>P</m>,
+                                <m>Q</m>, and <m>R</m>.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Practice From Class</title>
+
+    <p>
+                <ol>
+                    <li>
+                        <p>
+                            Weekly Practice 10
+                        </p>
+                    </li>
+    
+                    <li>
+                        <p>
+                            Worksheets pages 67 and 68
+                        </p>
+                    </li>
+    
+                   
+                </ol>
+            </p>
+
+    </paragraphs>
+
+
+    <paragraphs>
+        <title> Additional Practice</title>
+        
+
+    
+<exercise>
+             <task>
+                        <statement>
+                           <p> Construct a truth table for <m>(\sim P\vee Q) \implies R</m>. </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <m>
+                                    \begin{array}{|c|c|c|c|c|}
+                                        \hline
+                                        P \amp Q \amp R \amp \sim P\amp \sim P\vee Q \amp (\sim P\vee Q) \implies R\\
+                                        \hline
+                                        T \amp T \amp T \amp F \amp T \amp T\\
+                                        T \amp T \amp F \amp F\amp T \amp F\\
+                                        T \amp F \amp T \amp F\amp F \amp T\\
+                                        T \amp F \amp F \amp F\amp F \amp T\\
+                                        F \amp T \amp T \amp T\amp T \amp T\\
+                                        F \amp T \amp F \amp T \amp T \amp F\\
+                                        F \amp F \amp T \amp T \amp T \amp T\\
+                                        F \amp F \amp F \amp T \amp F \amp T\\
+                                        \hline
+                                    \end{array}
+                                </m>
+                            </p>
+                        </solution>
+                    </task>
+                    
+                    <task>
+                        <statement>
+                            <p> Construct a truth table for <m>P \implies (Q\wedge \sim R)</m>. </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <m>
+                                    \begin{array}{|c|c|c|c|c|}
+                                        \hline
+                                        P \amp Q \amp R \amp \sim R \amp Q\wedge \sim R \amp P \implies (Q\wedge \sim R)\\
+                                        \hline
+                                        T \amp T \amp T \amp F \amp F \amp T\\
+                                        T \amp T \amp F \amp T \amp T \amp F\\
+                                        T \amp F \amp T \amp F \amp F \amp T\\
+                                        T \amp F \amp F \amp F \amp F \amp T\\
+                                        F \amp T \amp T \amp F \amp T \amp T\\
+                                        F \amp T \amp F \amp T \amp T \amp F\\
+                                        F \amp F \amp T \amp F \amp T \amp T\\
+                                        F \amp F \amp F \amp F \amp T \amp T\\
+                                        \hline
+                                    \end{array}
+                                </m>
+                            </p>
+                        </solution>
+                    </task>
+                    </exercise>
+                </paragraphs>
+
+
+        </handout>

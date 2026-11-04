@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="WP-10">
+    <title>Week 10 Weekly Practice</title>
+   <page>
+
+    <p>
+        Due the first class of the week of November 9.
+    </p>
+
+   
+
+    <exercise>
+  <title>Exercise 5.2. (f)</title>
+
+<introduction>
+   <p>You are investigating a muuuuurderr. The following table lists the possibilities.</p>
+
+<table>
+  <title>Who, What, When, Where</title>
+  <tabular halign="center">
+    <row header="yes" bottom="minor" >
+      <cell>Killer </cell>
+      <cell>Murder Weapon </cell>
+      <cell>Time of Crime </cell>
+      <cell>Location </cell>
+    </row>
+    <row>
+      <cell>Miss Scarlet (S)</cell>
+      <cell>Wrench (W)</cell>
+      <cell>Noon (D)</cell>
+      <cell>Billiard Room (B)</cell>
+    </row>
+    <row>
+      <cell>Colonel Mustard (M)</cell>
+      <cell>Knife (Kn)</cell>
+      <cell>Midnight (N)</cell>
+      <cell>Kitchen (K)</cell>
+    </row>
+    <row>
+      <cell>Professor Plum (P)</cell>
+      <cell>Candlestick (C)</cell>
+      <cell></cell>
+      <cell>Library (L)</cell>
+    </row>
+
+  </tabular>
+
+</table>
+
+
+<p>
+  You have the following additional facts that have been 
+  established at the scene of the crime.
+</p>
+<p>
+  <ol>
+    <li>
+      <p>
+        Either the weapon was the wrench or the crime took place in the billiard room (but not both)
+
+      </p>
+    </li>
+
+    <li>
+      <p>
+        If the crime took place at midnight, then Colonel Mustard is guilty.
+      </p>
+    </li>
+    <li>
+      <p>
+        Professor Plum is innocent if and only if the weapon was not the wrench.
+      </p>
+    </li>
+
+    <li>
+      <p>
+        If the weapon was the candlestick, then Miss Scarlet is guilty.
+      </p>
+    </li>
+    <li>
+      <p>
+        If the crime occurred at noon, then it was not in the library and the weapon was not a knife.
+      </p>
+    </li>
+  </ol>
+</p>
+
+<p>
+  Now, as a side hustle, you are also a mathematician. As such, you start wondering 
+  what further piece of evidence would conclusively determine the killer. 
+  For each of the following, explain how that piece of evidence, if established,  
+  would determine the killer. </p>
+
+</introduction>
+<task workspace = "2in">
+  <statement>
+    <p>
+      The weapon was the wrench.
+    </p>
+  </statement>
+</task>
+  <task workspace = "2in">
+    <statement>
+      <p>
+        The crime took place in the billiard room.
+      </p>
+    </statement>
+  </task>
+
+
+</exercise>
+</page>
+
+
+<page>
+<exercise>
+  <title>Exercise 5.3</title>
+  <introduction>
+    <p>
+      Determine whether the following are statements. 
+      Among those that are, determine whether it is true or false.
+    </p>
+  </introduction>
+
+  <task workspace = ".5in">
+    <statement>
+      <p>
+        2+3=5
+
+      </p>
+    </statement>
+  </task>
+  <task workspace = ".5in">
+    <statement>
+      <p>
+        The sets <m>\mathbb{Z}</m> and <m>\mathbb{Q}</m>.
+      </p>
+    </statement>
+  </task>
+
+  <task workspace = ".5in">
+    <statement>
+      <p>
+        The sets <m>\mathbb{Z}</m> and <m>\mathbb{Q}</m> both contain 2.
+      </p>
+    </statement>
+  </task>
+
+  <task workspace = ".5in">
+    <statement>
+      <p>
+        8675309 is a prime number
+      </p>
+    </statement>
+  </task>
+
+  <task workspace = ".5in">
+    <statement>
+      <p>
+        Every integer is a real number.
+      </p>
+    </statement>
+  </task>
+
+  <task workspace = ".5in">
+    <statement>
+      <p>
+        Every real number is an integer.
+      </p>
+    </statement>
+  </task>
+</exercise>
+
+</page>
+<page>
+<exercise>
+  <title>Exercise 5.22</title>
+  
+  <introduction>
+    <p>
+      Construct truth tables to 
+      prove the following logical equivalences, 
+      for open sentences <m>P,Q</m> and <m>R.</m>
+    </p>
+  </introduction>
+<task workspace = "3in">
+  <p>
+     <m>\sim (P\vee Q) \equiv \sim P \wedge \sim Q</m>
+  </p>
+</task>
+<task workspace = "3in">
+  <statement>
+    <p>
+      <m>P\implies (Q\vee R) \equiv (P\implies Q) \wedge (P\implies R) </m>
+    </p>
+  </statement>
+</task>
+
+
+</exercise>
+
+</page>
+<page>
+<exercise>
+  <title>Exercise 5.10</title>
+  
+  <introduction>
+    <p>
+      Negate the following sentences. You do not need to determine the truth value!
+    </p>
+  </introduction>
+  <task workspace = ".5in">
+    <statement>
+      <p>
+        For every prime <m>p</m>, there exists a prime <m>q</m> for which <m>q &gt; p</m>.
+      </p>
+    </statement>
+  </task>
+
+  <task workspace = ".5in">
+    <statement>
+      <p>
+        Every polynomial is differentiable.
+      </p>
+    </statement>
+  </task>
+
+  <task workspace = ".5in">
+    <statement>
+      <p>
+        For all real numbers <m>x</m> and <m>y</m>, if <m>xy=0</m>, then <m>x=0</m> or <m>y=0</m>.
+      </p>
+    </statement>
+  </task>
+  <task workspace = ".5in">
+    <statement>
+      <p>
+        If <m>mn</m> is odd, then <m>m</m> is odd, and <m>n</m> is odd.
+      </p>
+    </statement>
+  </task>
+
+  <task workspace = ".5in">
+    <statement>
+      <p>
+        For all natural numbers <m>p</m> if <m>p</m> is prime then 
+        <m>\sqrt{p} \notin \mathbb{Q}</m>.
+      </p>
+    </statement>
+  </task>
+  <task workspace = ".5in">
+    <statement>
+      <p>
+        If I pass Algebra I and Analysis I this semester, then I will take Algebra II or Analysis II next semester.
+      </p>
+    </statement>
+  </task>
+
+  <task workspace = ".5in">
+    <statement>
+      <p>
+        For every <m>\epsilon &gt; 0</m> there exists an <m>N</m> such that 
+        <m>N&gt; n</m> implies <m>|an-a|&lt;\epsilon</m>. 
+        (Note <m>\epsilon</m> is the Greek letter <q>epsilon</q>
+      </p>
+    </statement>
+  </task>
+</exercise>
+</page>
+
+
+</worksheet>
