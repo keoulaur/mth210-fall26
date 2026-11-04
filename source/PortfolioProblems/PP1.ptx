@@ -45,7 +45,7 @@
 
                 <p>
                     The chef in our place is sloppy and when he prepares a stack
-                    of pancakes they come out all di!erent sizes.
+                    of pancakes they come out all different sizes.
                     Therefore, when I deliver them to the customer, on the way
                     to the table I rearrange them (so the smallest winds up on
                     top and so on, down to the largest is on the bottom) by
@@ -165,7 +165,13 @@
                 </figure>
             </li>
 
-            <li><title>Option 8: McNuggets</title> <p/></li>
+            <li>
+                <title>Option 8: Super Bowl</title>
+                <p> In a simplified version of the super bowl, teams can score
+                    <m>3</m> points (for a field goal) or <m>7</m> points (for a
+                    touchdown).
+                    What are the possible scores for one team? </p>
+            </li>
         </dl>
     </p>
 </handout>
