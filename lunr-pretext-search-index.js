@@ -559,6 +559,24 @@ var ptx_lunr_docs = [
   "body": "   Construct a truth table for .           Construct a truth table for .         "
 },
 {
+  "id": "targets-15",
+  "level": "1",
+  "url": "targets-15.html",
+  "type": "Handout",
+  "number": "2.14",
+  "title": "Learning Target 13 Practice",
+  "body": " Learning Target 13 Practice   Given a conditional statement, identify the hypothesis and conclusion, determine its truth value, and apply it.    Need to know:     In a conditional statement the hypothesis is the part after the if, not including the if, and the conclusion is the part after the then, not including the then. In If is even then is even , the hypothesis is is even and the conclusion is is even .    Modus ponens: If is true and is true then is true.    Modus tollens: If is true and is false then is false.    If is true, and you know Is false or is true, you can't conclude anything.    The truth table for .       Practice:     Weekly Practice 10 #1    Worksheet pages 77-78    Consider the conditional statement ``If is a prime number then has exactly three positive factors. What is the hypothesis and what is the conclusion? Using ONLY that the conditional statement is true, and each of the following (individually) what can you conclude (if anything)? Explain your answer.    is prime,     is not prime,     has 3 positive factors     has 5 positive factors       Consider the following conditional statement ``If the function is continuous at , then exists.'' What is the hypothesis and what is the conclusion? Using ONLY that the conditional statement is true, and each of the following (individually) what can you conclude (if anything)? Explain your answer.    is a function that is continuous at      is a function that is not continuous at     for a function , exists    for a function , does not exist         "
+},
+{
+  "id": "targets-16",
+  "level": "1",
+  "url": "targets-16.html",
+  "type": "Handout",
+  "number": "2.15",
+  "title": "Learning Target 14 Practice",
+  "body": " Learning Target 14 Practice   Negate a statement with and, or, not, implies, exists, and\/or for all.    Need to know     How to negate conditional statements (e.g. if...then... statements).    Use DeMorgan's Laws to negate statements with ``and'' and ``or''    Negate statements that have ``there exists'' or ``for all''.    How to avoid the word not. Like changing `` is not even'' to `` is odd''.       Practice Questions     Weekly Practice 10 #4    Worksheet pages 69-71    Write a useful negation of the following statements. Useful negations don't start with things like ``It is not true that...'' and avoid the word not when possible.   There exists such that if then .    For all if then .    For all , if then .    For every student in the class, if they studied and completed the homework, then they passed the exam.    For every real number , there exists a real number such that .         "
+},
+{
   "id": "notes-week-01",
   "level": "1",
   "url": "notes-week-01.html",
@@ -1036,6 +1054,60 @@ var ptx_lunr_docs = [
   "body": " Exercise 5.10   Negate the following sentences. You do not need to determine the truth value!     For every prime , there exists a prime for which .      Every polynomial is differentiable.      For all real numbers and , if , then or .      If is odd, then is odd, and is odd.      For all natural numbers if is prime then .      If I pass Algebra I and Analysis I this semester, then I will take Algebra II or Analysis II next semester.      For every there exists an such that implies . (Note is the Greek letter epsilon     "
 },
 {
+  "id": "WP-11",
+  "level": "1",
+  "url": "WP-11.html",
+  "type": "Worksheet",
+  "number": "3.10",
+  "title": "Week 11 Weekly Practice",
+  "body": " Week 11 Weekly Practice   Due the second class of the week of November 16.    Exercise 6.5 (b) Prove that for all integers , if is even then is odd.        Exercise 6.6 (d) Prove that for all integers , if 3 does not divide then 3 divides .        Exercise 6.12(a) Prove that for all integers , is even if and only if is odd.        Exercise 6.16 The following statements are all false. For each, find a counterexample.     If and are natural numbers, then .      If is a natural number then is prime.      If are integers and and then .      If and are sets, then .       Exercise 6.14 Find an implication in a song and write down the implication as an “if, then” statement. Then write down the contrapositive. For example, the contrapositive to If a guy is a scrub, then he can’t get no love from me is If a guy can get love from me, then he is not a scrub .     "
+},
+{
+  "id": "WP-11-2-2",
+  "level": "2",
+  "url": "WP-11.html#WP-11-2-2",
+  "type": "Worksheet Exercise",
+  "number": "3.10.1",
+  "title": "",
+  "body": "  Exercise 6.5 (b) Prove that for all integers , if is even then is odd.   "
+},
+{
+  "id": "WP-11-3-1",
+  "level": "2",
+  "url": "WP-11.html#WP-11-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3.10.2",
+  "title": "",
+  "body": "  Exercise 6.6 (d) Prove that for all integers , if 3 does not divide then 3 divides .   "
+},
+{
+  "id": "WP-11-4-1",
+  "level": "2",
+  "url": "WP-11.html#WP-11-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3.10.3",
+  "title": "",
+  "body": "  Exercise 6.12(a) Prove that for all integers , is even if and only if is odd.   "
+},
+{
+  "id": "WP-11-5-1",
+  "level": "2",
+  "url": "WP-11.html#WP-11-5-1",
+  "type": "Worksheet Exercise",
+  "number": "3.10.4",
+  "title": "",
+  "body": "  Exercise 6.16 The following statements are all false. For each, find a counterexample.     If and are natural numbers, then .      If is a natural number then is prime.      If are integers and and then .      If and are sets, then .    "
+},
+{
+  "id": "WP-11-5-2",
+  "level": "2",
+  "url": "WP-11.html#WP-11-5-2",
+  "type": "Worksheet Exercise",
+  "number": "3.10.5",
+  "title": "",
+  "body": "  Exercise 6.14 Find an implication in a song and write down the implication as an “if, then” statement. Then write down the contrapositive. For example, the contrapositive to If a guy is a scrub, then he can’t get no love from me is If a guy can get love from me, then he is not a scrub .   "
+},
+{
   "id": "pp-instructions",
   "level": "1",
   "url": "pp-instructions.html",
@@ -1349,6 +1421,15 @@ var ptx_lunr_docs = [
   "number": "4.9",
   "title": "Portfolio Problem 7",
   "body": " Portfolio Problem 7  All problems are in an Overleaf document at . Copy\/paste problems from there to learn notation in Overleaf! The writing guidelines are at . There's a sample portfolio solution at . There's an Overleaf Cheat Sheet at . All of the writing guidelines are at . All of the proof portfolio objectives are at .   Instructions:     Start with examples! This is a logically complicated statement, so think about how to do examples that ``push on'' the ``or'' and the ``if and only if''. Include these examples in both your rough draft and typed revision.    If the conjecture is true, make it a theorem statement. If the conjecture is false, modify the conjecture to make it true.    Think about proof techniques! You might get a lot of the proof portfolio objectives in this problem.    In your typed revision, put a special focus on communicating proof techniques you are using clearly.       Conjecture 7  Suppose . The expression is even if and only if is even or is odd.   "
+},
+{
+  "id": "pp-8",
+  "level": "1",
+  "url": "pp-8.html",
+  "type": "Handout",
+  "number": "4.10",
+  "title": "Portfolio Problem 8",
+  "body": " Portfolio Problem 8  All problems are in an Overleaf document at . Copy\/paste problems from there to learn notation in Overleaf! The writing guidelines are at . There's a sample portfolio solution at . There's an Overleaf Cheat Sheet at . All of the writing guidelines are at . All of the proof portfolio objectives are at .   Instructions:    Choose ONE of the following theorems and prove.    Both conjectures talk about irrational numbers. Be sure to clearly state the definition of a rational number.    Both conjectures require a ``lemma'' that you should state, prove, and then cite in the proof of your theorem. If you aren't sure what lemma you should use, please ask Dr. Keough (keoulaur@gvsu.edu). Recall that our AI policy on the proof portfolio is do not use, ever. Talk to DocK! She wants to help!    The order in the typed revision is Lemma, Proof of lemma, Theorem, Proof of theorem. Use the lemma, theorem, and proof environments in Overleaf:  \\begin{lemma} ... \\end{lemma} \\begin{proof} ... \\end{proof} \\begin{theorem} ... \\end{theorem} \\begin{proof} ... \\end{proof}  If you plan to use a definition, don't put it between a statement and its proof. You can put it between the proof of the lemma and the theorem statement (and I would if you use that definition in the theorem or theorem proof, but not in the lemma or lemma proof.)    In your typed revision, put a special focus on communicating proof techniques you are using clearly.      Theorem 8A. The real number is irrational. (Recall that is a real number such that .)    Theorem 8B. The real number is irrational.    Overleaf\/LaTex Notes:      To get type  $\\log_3(8)$    To get type  $\\sqrt[3]{2}$    To get a fraction like or a bigger fraction like type  $\\frac{x}{y}$ or $\\dfrac{x}{y}$     "
 },
 {
   "id": "ch-1-intuitiveproofs-2",
