@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+
+<handout>
+    <title>Learning Target 14 Practice</title>
+
+    <p >
+        <em>Negate a statement with and, or, not, implies,
+                            exists, and/or for all.
+        </em>
+    </p>
+
+   <paragraphs>
+           <title>Need to know</title>
+   
+           <p>
+               <ul>
+                   <li>
+                       <p>
+                           How to negate conditional statements (e.g.
+                           <q>if...then...</q> statements).
+                       </p>
+                   </li>
+   
+                   <li>
+                       <p>
+                           Use DeMorgan's Laws to negate statements with ``and'' and
+                           ``or''
+                       </p>
+                   </li>
+   
+                   <li>
+                       <p>
+                           Negate statements that have ``there exists'' or ``for all''.
+                       </p>
+                   </li>
+   
+                   <li>
+                       <p>
+                           How to avoid the word not.
+                           Like changing ``<m>n</m> is not even'' to ``<m>n</m> is
+                           odd''.
+                       </p>
+                   </li>
+               </ul>
+           </p>
+        </paragraphs>
+   
+       <paragraphs>
+           <title>Practice Questions</title>
+   
+           <p>
+               <ol>
+                   <li>
+                       <p>
+                           Weekly Practice 10 #4
+                       </p>
+                   </li>
+   
+                   <li>
+                       <p>
+                           Worksheet pages 69-71
+                       </p>
+                   </li>
+   
+                   <li>
+                       <p>
+                           Write a useful negation of the following statements.
+                           Useful negations don't start with things like ``It is not
+                           true that...'' and avoid the word not when possible.
+                           <ol>
+                               <li>
+                                   <p>
+                                       There exists <m>x\in\mathbb{Z}</m> such that if
+                                       <m>y\in\mathbb{Z}</m> then
+                                       <m>\dfrac{y}{x}\in \mathbb{Z}</m>.
+                                   </p>
+                               </li>
+   
+                               <li>
+                                   <p>
+                                       For all <m>y \in \mathbb{R}</m> if <m>y\ge 0</m>
+                                       then <m>\sqrt{y}\in \mathbb{R}</m>.
+                                   </p>
+                               </li>
+   
+                               <li>
+                                   <p>
+                                       For all <m>r\in\mathbb{R}</m>, if <m>r&gt;2</m>
+                                       then <m>r^{2}&gt;4</m>.
+                                   </p>
+                               </li>
+   
+                               <li>
+                                   <p>
+                                       For every student in the class, if they studied
+                                       and completed the homework, then they passed the
+                                       exam.
+                                   </p>
+                               </li>
+   
+                               <li>
+                                   <p>
+                                       For every real number <m>x</m>, there exists a
+                                       real number <m>y</m> such that <m>x + y = 0</m>.
+                                   </p>
+                               </li>
+                           </ol>
+                       </p>
+                   </li>
+               </ol>
+           </p>
+       </paragraphs>
+
+        </handout>

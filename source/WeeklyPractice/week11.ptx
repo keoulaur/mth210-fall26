@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="WP-11">
+    <title>Week 11 Weekly Practice</title>
+   <page>
+
+    <p>
+        Due the second class of the week of November 16.
+    </p>
+
+   
+<exercise>
+  <statement>
+    <p>
+      Exercise 6.5 (b) Prove that for all integers <m>n</m>, if <md>5n^2+3</md> is even then <m>n</m> is odd.
+    </p>
+  </statement>
+</exercise>
+</page>
+<page>
+<exercise>
+  <statement>
+    <p>
+      Exercise 6.6 (d)  Prove that for all integers <m>n</m>, if 3 does not divide <md>n^2-1</md> then 3 divides <m>n</m>.
+    </p>
+  </statement>
+</exercise>
+
+</page>
+<page>
+<exercise>
+  <statement>
+    <p>
+      Exercise 6.12(a) Prove that for all integers <m>n</m>, <m>n</m> is even if and only if <md>n^2+1</md> is odd.
+    </p>
+  </statement>
+</exercise>
+
+</page>
+<page>
+<exercise workspace="1in">
+  <introduction>
+    <p>
+      Exercise 6.16 The following statements are all false. For each, find a counterexample.
+    </p>
+  </introduction>
+  <task>
+    <statement>
+      <p>
+        If <m>a,b,</m> and <m>c</m> are natural numbers, then <md>a^2+b^2=c^2</md>.
+      </p>
+    </statement>
+  </task>
+  <task>
+    <statement>
+      <p>
+        If <m>n</m> is a natural number then <md>n^2+17n+17</md> is prime.
+      </p>
+    </statement>
+  </task>
+  <task>
+    <statement>
+      <p>
+        If <m>a,b</m> are integers and <m>a\mid b</m> and <m>b\mid a</m> then <m>a=b</m>.
+      </p>
+    </statement>
+  </task>
+  <task>
+    <statement>
+      <p>
+        If <m>A,B,C,</m> and <m>D</m> are sets, then <md>(A\cap B)\cup(C\cap D)=(A\cap C)\cup(B\cap D)</md>.
+      </p>
+    </statement>
+  </task>
+</exercise>
+
+
+<exercise workspace="1in">
+  <statement>
+    <p>
+      Exercise 6.14 Find an implication in a song and write down the implication as an “if, then” statement. Then write down the contrapositive. 
+      For example, the contrapositive to <q>If a guy is a scrub, then he can’t get no love from me</q> is <q>If a guy can get love from me, then he is not a scrub</q>.
+    </p>
+  </statement>
+</exercise>
+</page>
+
+</worksheet>

@@ -43,6 +43,8 @@
                 <xi:include href="./LearningTargets/LearningTarget10.ptx" />
                  <xi:include href="./LearningTargets/LearningTarget11.ptx" />
                  <xi:include href="./LearningTargets/LearningTarget12.ptx"/>
+                <xi:include href="./LearningTargets/LearningTarget13.ptx"/>
+                <xi:include href="./LearningTargets/LearningTarget14.ptx"/>
             </chapter>
 
             <chapter xml:id="weekly-practice">
@@ -63,7 +65,8 @@
                  <xi:include href="./WeeklyPractice/week07.ptx" />
                  <xi:include href="./WeeklyPractice/week0809.ptx"/>
                 <xi:include href="./WeeklyPractice/week10.ptx" />
-                <!-- etc. -->
+                <xi:include href="./WeeklyPractice/week11.ptx"/>
+               
             </chapter>
 
             <chapter xml:id="ch-ProofPortfolio">
@@ -77,6 +80,7 @@
                 <xi:include href="./PortfolioProblems/PP5.ptx" />
                  <xi:include href="./PortfolioProblems/PP6.ptx" />
                  <xi:include href="./PortfolioProblems/PP7.ptx" />
+                 <xi:include href="./PortfolioProblems/PP8.ptx" />
             
             </chapter>
         </part>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout xml:id="pp-8">
+    <title>Portfolio Problem 8</title>
+
+  <p>
+    All problems are in an Overleaf document at
+    <url href="https://gvsu.edu/s/3tn"/>. Copy/paste problems
+    from there to learn notation in Overleaf!
+
+    The writing guidelines are at
+    <url href="https://gvsu.edu/s/3to"/>.
+
+    There's a sample portfolio solution at
+    <url href="https://gvsu.edu/s/3v0"/>.
+
+    There's an Overleaf Cheat Sheet at
+    <url href="https://gvsu.edu/s/3OL"/>.
+
+    All of the writing guidelines are at
+    <url href="https://gvsu.edu/s/3NG"></url>.
+
+    All of the proof portfolio objectives are at
+    <url href="https://gvsu.edu/s/3QC"></url>.
+  </p>
+
+<p>
+    <alert>Instructions:</alert>
+    <ol>
+        <li>
+            <p>
+                Choose ONE of the following theorems and prove.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Both conjectures talk about irrational numbers.
+                Be sure to clearly state the definition of a rational number.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Both conjectures require a ``lemma'' that you should state,
+                prove, and then cite in the proof of your theorem.
+                If you aren't sure what lemma you should use, please ask Dr.
+                Keough (keoulaur@gvsu.edu).
+                Recall that our AI policy on the proof portfolio is do not use,
+                ever.
+                Talk to DocK!
+                She wants to help!
+            </p>
+        </li>
+
+        <li>
+            <p>
+                The order in the typed revision is Lemma, Proof of lemma,
+                Theorem, Proof of theorem.
+                Use the lemma, theorem, and proof environments in Overleaf:
+            </p>
+            <pre>
+        \begin{lemma} ... \end{lemma}
+        \begin{proof} ... \end{proof}
+        \begin{theorem} ... \end{theorem}
+        \begin{proof} ... \end{proof}
+            </pre>
+            <p>
+                If you plan to use a definition, don't put it between a
+                statement and its proof.
+                You can put it between the proof of the lemma and the theorem
+                statement (and I would if you use that definition in the theorem
+                or theorem proof, but not in the lemma or lemma proof.)
+            </p>
+        </li>
+
+        <li>
+            <p>
+                In your typed revision, put a special focus on communicating
+                proof techniques you are using clearly.
+            </p>
+        </li>
+    </ol>
+</p>
+
+<p>
+    <alert>Theorem 8A.</alert> The real number <m>\log_{3} 8</m> is irrational.
+    (Recall that <m>\log_{3} 8</m> is a real number <m>a</m> such that
+    <m>3^{a} = 8</m>.)
+    <!--Lemma hint: Show that  any power of $8$ is even and any power of $3$ is odd.-->
+</p>
+
+<p>
+    <alert>Theorem 8B.</alert> The real number <m>\sqrt[3]{2}</m> is irrational.
+    <!--You'll need to show that a^3 is even if and only if a is even. -->
+</p>
+
+<p>
+    <alert>Overleaf/LaTex Notes:</alert>
+</p>
+
+<p>
+    <ul>
+        <li>
+            <p>
+                To get <m>\log_{3}(8)</m> type
+            </p>
+            <pre>
+    $\log_3(8)$
+            </pre>
+        </li>
+
+        <li>
+            <p>
+                To get <m>\sqrt[3]{2}</m> type
+            </p>
+            <pre>
+    $\sqrt[3]{2}$
+            </pre>
+        </li>
+
+        <li>
+            <p>
+                To get a fraction like <m>\frac{x}{y}</m> or a bigger fraction
+                like <m>\dfrac{x}{y}</m> type
+            </p>
+            <pre>
+    $\frac{x}{y}$ or $\dfrac{x}{y}$
+            </pre>
+        </li>
+    </ul>
+</p>
+</handout>

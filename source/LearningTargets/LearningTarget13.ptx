@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+
+<handout>
+    <title>Learning Target 13 Practice</title>
+
+    <p >
+        <em>Given a conditional statement, identify the
+                            hypothesis and conclusion, determine its truth
+                            value, and apply it.
+        </em>
+    </p>
+
+  <paragraphs>
+          <title>Need to know:</title>
+  
+          <p>
+              <ul>
+                  <li>
+                      <p>
+                          In a conditional statement the hypothesis is the part after
+                          the if, not including the if, and the conclusion is the part
+                          after the then, not including the then.
+                          In <q>If <m>x</m> is even then <m>x^{2}</m> is even</q>, the
+                          hypothesis is <q><m>x</m> is even</q> and the conclusion is
+                          <q><m>x^{2}</m> is even</q>.
+                      </p>
+                  </li>
+  
+                  <li>
+                      <p>
+                          Modus ponens: If <m>P\implies Q</m> is true and <m>P</m> is
+                          true then <m>Q</m> is true.
+                      </p>
+                  </li>
+  
+                  <li>
+                      <p>
+                          Modus tollens: If <m>P\implies Q</m> is true and <m>Q</m> is
+                          false then <m>P</m> is false.
+                      </p>
+                  </li>
+  
+                  <li>
+                      <p>
+                          If <m>P\implies Q</m> is true, and you know <m>P</m> Is
+                          false or <m>Q</m> is true, you can't conclude anything.
+                      </p>
+                  </li>
+  
+                  <li>
+                      <p>
+                          The truth table for <m>P\implies Q</m>.
+                      </p>
+                  </li>
+              </ul>
+          </p>
+      </paragraphs>
+  
+      <paragraphs>
+          <title>Practice:</title>
+  
+          <p>
+              <ol>
+                  <li>
+                      <p>
+                          Weekly Practice 10 #1
+                      </p>
+                  </li>
+  
+                  <li>
+                      <p>
+                          Worksheet pages 77-78
+                      </p>
+                  </li>
+  
+                  <li>
+                      <p>
+                          Consider the conditional statement ``If <m>n</m> is a prime
+                          number then <m>n^{2}</m> has exactly three positive factors.
+                          What is the hypothesis and what is the conclusion?
+                          Using ONLY that the conditional statement is true, and each
+                          of the following (individually) what can you conclude (if
+                          anything)?
+                          Explain your answer.
+                          <ol>
+                              <li>
+                                  <p>
+                                      <m>3</m> is prime,
+                                  </p>
+                              </li>
+  
+                              <li>
+                                  <p>
+                                      <m>6</m> is not prime,
+                                  </p>
+                              </li>
+  
+                              <li>
+                                  <p>
+                                      <m>5^{2}</m> has 3 positive factors
+                                  </p>
+                              </li>
+  
+                              <li>
+                                  <p>
+                                      <m>4^{2}</m> has 5 positive factors
+                                  </p>
+                              </li>
+                          </ol>
+                      </p>
+                  </li>
+  
+                  <li>
+                      <p>
+                          Consider the following conditional statement ``If the
+                          function <m>y=f(x)</m> is continuous at <m>x=a</m>, then
+                          <m>\lim_{x\to a}f(x)</m> exists.'' What is the hypothesis
+                          and what is the conclusion?
+                          Using ONLY that the conditional statement is true, and each
+                          of the following (individually) what can you conclude (if
+                          anything)?
+                          Explain your answer.
+                          <ol>
+                              <li>
+                                  <p>
+                                      <m>f(x)</m> is a function that is continuous at
+                                      <m>x=-3</m>
+                                  </p>
+                              </li>
+  
+                              <li>
+                                  <p>
+                                      <m>g(x)</m> is a function that is not continuous
+                                      at <m>x=7</m>
+                                  </p>
+                              </li>
+  
+                              <li>
+                                  <p>
+                                      for a function <m>h(x)</m>,
+                                      <m>\lim_{x\to 17}h(x)</m> exists
+                                  </p>
+                              </li>
+  
+                              <li>
+                                  <p>
+                                      for a function <m>k(x)</m>,
+                                      <m>\lim_{x\to \pi}k(x)</m> does not exist
+                                  </p>
+                              </li>
+                          </ol>
+                      </p>
+                  </li>
+              </ol>
+          </p>
+      </paragraphs>
+
+        </handout>
