@@ -90,7 +90,7 @@
                                         F \amp T \amp T \amp T\amp T \amp T\\
                                         F \amp T \amp F \amp T \amp T \amp F\\
                                         F \amp F \amp T \amp T \amp T \amp T\\
-                                        F \amp F \amp F \amp T \amp F \amp T\\
+                                        F \amp F \amp F \amp T \amp T \amp F\\
                                         \hline
                                     \end{array}
                                 </m>
@@ -109,14 +109,14 @@
                                         \hline
                                         P \amp Q \amp R \amp \sim R \amp Q\wedge \sim R \amp P \implies (Q\wedge \sim R)\\
                                         \hline
-                                        T \amp T \amp T \amp F \amp F \amp T\\
-                                        T \amp T \amp F \amp T \amp T \amp F\\
-                                        T \amp F \amp T \amp F \amp F \amp T\\
-                                        T \amp F \amp F \amp F \amp F \amp T\\
-                                        F \amp T \amp T \amp F \amp T \amp T\\
-                                        F \amp T \amp F \amp T \amp T \amp F\\
-                                        F \amp F \amp T \amp F \amp T \amp T\\
-                                        F \amp F \amp F \amp F \amp T \amp T\\
+                                        T \amp T \amp T \amp F \amp F \amp F\\
+                                        T \amp T \amp F \amp T \amp T \amp T\\
+                                        T \amp F \amp T \amp F \amp F \amp F\\
+                                        T \amp F \amp F \amp T \amp F \amp F\\
+                                        F \amp T \amp T \amp F \amp F \amp T\\
+                                        F \amp T \amp F \amp T \amp T \amp T\\
+                                        F \amp F \amp T \amp F \amp F \amp T\\
+                                        F \amp F \amp F \amp T \amp F \amp T\\
                                         \hline
                                     \end{array}
                                 </m>
