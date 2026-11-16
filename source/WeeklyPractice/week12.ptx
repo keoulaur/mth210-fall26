@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="WP-12">
+    <title>Week 12 Weekly Practice</title>
+   <page>
+
+    <p>
+        Due the first class of the week of November 23.
+    </p>
+
+    <exercise workspace="2in">
+      <title>Exercise 7.2</title>
+      <task>
+        <statement>
+          <p>
+             Prove that if <m>a</m> is rational and <m>ab</m> is irrational, then <m>b</m> is irrational.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Give an example of two irrational numbers whose product is rational.
+          </p>
+        </statement>
+      </task>
+      
+    </exercise>
+   
+  </page>
+
+  <page>
+    <exercise workspace="1in">
+      <title>Exercise 7.3</title>
+        <statement>
+          <p>
+            Prove that there do not exist integers <m>m</m> and <m>n</m> where <m>12m+21n=1</m>.
+          </p>
+        </statement>
+    </exercise>
+
+    <exercise workspace="1in">
+      <title>Exercise 7.7</title>
+        <statement>
+          <p>
+            Let <m>A</m> and <m>B</m> be subsets of some universal set <m>U</m>. 
+            Show <m>A\backslash B</m> and <m>B\backslash A</m> are disjoint.
+          </p>
+        </statement>
+
+    </exercise>
+  </page>
+    <page>
+
+    <exercise workspace="1in">
+      <title>Exercise 7.12</title>
+        <statement>
+          <p>
+            Are there infinitely many composite numbers? Prove your answer.
+          </p>
+        </statement>
+    </exercise>
+
+<exercise workspace="1in">
+  <title>Exercise 7.15</title>
+  <statement>
+    <p>
+Prove that if <m>x</m> and <m>y</m> are positive real numbers, 
+then <md>\frac{x+y}{2xy} &lt; 2xy</md>.<fn>  This is called the “AM-GM” inequality for “arithmetic mean” and “geometric mean”. 
+  Notice the left side is how you would take the average or mean of two numbers. 
+  The right side is the geometric mean. More info at: 
+  <url href="https://en.wikipedia.org/wiki/AM%E2%80%93GM_inequality" visual = "https://en.wikipedia.org/wiki/AM%E2%80%93GM_inequality"/> 
+  There's a proof there, but you should write your own proof using contradiction.  </fn>
+    </p>
+  </statement>
+</exercise>
+
+</page>
+
+</worksheet>
