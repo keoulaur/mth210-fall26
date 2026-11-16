@@ -81,6 +81,7 @@
                  <xi:include href="./PortfolioProblems/PP6.ptx" />
                  <xi:include href="./PortfolioProblems/PP7.ptx" />
                  <xi:include href="./PortfolioProblems/PP8.ptx" />
+                 <xi:include href="./PortfolioProblems/PP9.ptx" />
             
             </chapter>
         </part>

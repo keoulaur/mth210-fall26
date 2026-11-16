@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout xml:id="pp-9">
+    <title>Portfolio Problem 9</title>
+
+  <p>
+    All problems are in an Overleaf document at
+    <url href="https://gvsu.edu/s/3tn"/>. Copy/paste problems
+    from there to learn notation in Overleaf!
+
+    The writing guidelines are at
+    <url href="https://gvsu.edu/s/3to"/>.
+
+    There's a sample portfolio solution at
+    <url href="https://gvsu.edu/s/3v0"/>.
+
+    There's an Overleaf Cheat Sheet at
+    <url href="https://gvsu.edu/s/3OL"/>.
+
+    All of the writing guidelines are at
+    <url href="https://gvsu.edu/s/3NG"></url>.
+
+    All of the proof portfolio objectives are at
+    <url href="https://gvsu.edu/s/3QC"></url>.
+  </p>
+
+          <p>
+              <alert>Instructions:</alert>
+              <ol>
+                  <li>
+                      <p>
+                          Choose ONE of the following conjectures.
+                      </p>
+                  </li>
+   
+                  <li>
+                      <p>
+                          Both conjectures ask you to prove a function is a bijection.
+                          Be sure to follow the special instructions on what to do if
+                          the conjecture is false - it's different in each case.
+                      </p>
+                  </li>
+   
+                  <li>
+                      <p>
+                          You don't need to do any specific examples besides
+                          counterexamples when needed (based on the problem
+                          description).
+                      </p>
+                  </li>
+              </ol>
+          </p>
+   
+          <p>
+              <alert>Conjecture 9A:</alert> Let <m>f: \mathbb{R}\to\mathbb{R}</m> be
+              defined by <m>f(x) = (x+2)^{2}-3</m> for all <m>x\in\mathbb{R}</m>.
+              Then <m>f</m> is a bijection.
+          </p>
+   
+          <p>
+              <em>Special Instructions:</em> As written, <m>f</m> in 9A, is neither an
+              injection nor a surjection.
+              If you choose 9A, you must first include concrete counterexamples to
+              show why it is not injective and not surjective.
+              Then <em>change</em> both the domain and codomain to make <m>f</m> a
+              bijection.
+              State your new result with a properly written theorem statement that
+              includes the corrected domain and codomain, and prove the new statement.
+          </p>
+   
+          <p>
+              <alert>Conjecture 9B:</alert> Let <m>M</m> be the set of all
+              <m>3\times 3</m> matrices with real number entries.
+              The function <m>tr: M\to \mathbb{R}</m> defined by the rule
+          </p>
+   
+          <p>
+              <md>
+                  tr\left(\begin{bmatrix}a_{11}&amp;a_{12}&amp;a_{13}\\ a_{21}&amp;a_{22}&amp;a_{23}\\ a_{31}&amp;a_{32}&amp;a_{33}\end{bmatrix} \right) = a_{11}+ a_{22}+ a_{33}.
+              </md>
+              where <m>a_{ij}\in \mathbb{R}</m> for <m>1\le i\le 3</m> and
+              <m>1\le j\le 3</m>, is a bijection.
+          </p>
+   
+          <p>
+              <em>Special Instructions:</em> If you choose 9B and it is false, then
+              determine if <m>tr</m> is an injection or is a surjection.
+              State a new theorem including only the true things and prove it.
+              Separately (<em>outside</em> of the proof) provide one clear
+              counterexample to any parts that are false.
+          </p>
+   
+          <p>
+              <alert>Note:</alert> The Overleaf for all portfolio problems is at
+              <url href="gvsu.edu/s/3tn"/>, so if you are wondering how to typeset
+              anything in these problems, go and copy-paste from there!
+          </p>
+</handout>
