@@ -1108,6 +1108,60 @@ var ptx_lunr_docs = [
   "body": "  Exercise 6.14 Find an implication in a song and write down the implication as an “if, then” statement. Then write down the contrapositive. For example, the contrapositive to If a guy is a scrub, then he can’t get no love from me is If a guy can get love from me, then he is not a scrub .   "
 },
 {
+  "id": "WP-12",
+  "level": "1",
+  "url": "WP-12.html",
+  "type": "Worksheet",
+  "number": "3.11",
+  "title": "Week 12 Weekly Practice",
+  "body": " Week 12 Weekly Practice   Due the first class of the week of November 23.   Exercise 7.2    Prove that if is rational and is irrational, then is irrational.      Give an example of two irrational numbers whose product is rational.        Exercise 7.3   Prove that there do not exist integers and where .     Exercise 7.7   Let and be subsets of some universal set . Show and are disjoint.       Exercise 7.12   Are there infinitely many composite numbers? Prove your answer.     Exercise 7.15   Prove that if and are positive real numbers, then . This is called the “AM-GM” inequality for “arithmetic mean” and “geometric mean”. Notice the left side is how you would take the average or mean of two numbers. The right side is the geometric mean. More info at: There's a proof there, but you should write your own proof using contradiction.      "
+},
+{
+  "id": "WP-12-2-2",
+  "level": "2",
+  "url": "WP-12.html#WP-12-2-2",
+  "type": "Worksheet Exercise",
+  "number": "3.11.1",
+  "title": "Exercise 7.2.",
+  "body": " Exercise 7.2    Prove that if is rational and is irrational, then is irrational.      Give an example of two irrational numbers whose product is rational.    "
+},
+{
+  "id": "WP-12-3-1",
+  "level": "2",
+  "url": "WP-12.html#WP-12-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3.11.2",
+  "title": "Exercise 7.3.",
+  "body": " Exercise 7.3   Prove that there do not exist integers and where .   "
+},
+{
+  "id": "WP-12-3-2",
+  "level": "2",
+  "url": "WP-12.html#WP-12-3-2",
+  "type": "Worksheet Exercise",
+  "number": "3.11.3",
+  "title": "Exercise 7.7.",
+  "body": " Exercise 7.7   Let and be subsets of some universal set . Show and are disjoint.   "
+},
+{
+  "id": "WP-12-4-1",
+  "level": "2",
+  "url": "WP-12.html#WP-12-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3.11.4",
+  "title": "Exercise 7.12.",
+  "body": " Exercise 7.12   Are there infinitely many composite numbers? Prove your answer.   "
+},
+{
+  "id": "WP-12-4-2",
+  "level": "2",
+  "url": "WP-12.html#WP-12-4-2",
+  "type": "Worksheet Exercise",
+  "number": "3.11.5",
+  "title": "Exercise 7.15.",
+  "body": " Exercise 7.15   Prove that if and are positive real numbers, then . This is called the “AM-GM” inequality for “arithmetic mean” and “geometric mean”. Notice the left side is how you would take the average or mean of two numbers. The right side is the geometric mean. More info at: There's a proof there, but you should write your own proof using contradiction.    "
+},
+{
   "id": "pp-instructions",
   "level": "1",
   "url": "pp-instructions.html",
@@ -1430,6 +1484,15 @@ var ptx_lunr_docs = [
   "number": "4.10",
   "title": "Portfolio Problem 8",
   "body": " Portfolio Problem 8  All problems are in an Overleaf document at . Copy\/paste problems from there to learn notation in Overleaf! The writing guidelines are at . There's a sample portfolio solution at . There's an Overleaf Cheat Sheet at . All of the writing guidelines are at . All of the proof portfolio objectives are at .   Instructions:    Choose ONE of the following theorems and prove.    Both conjectures talk about irrational numbers. Be sure to clearly state the definition of a rational number.    Both conjectures require a ``lemma'' that you should state, prove, and then cite in the proof of your theorem. If you aren't sure what lemma you should use, please ask Dr. Keough (keoulaur@gvsu.edu). Recall that our AI policy on the proof portfolio is do not use, ever. Talk to DocK! She wants to help!    The order in the typed revision is Lemma, Proof of lemma, Theorem, Proof of theorem. Use the lemma, theorem, and proof environments in Overleaf:  \\begin{lemma} ... \\end{lemma} \\begin{proof} ... \\end{proof} \\begin{theorem} ... \\end{theorem} \\begin{proof} ... \\end{proof}  If you plan to use a definition, don't put it between a statement and its proof. You can put it between the proof of the lemma and the theorem statement (and I would if you use that definition in the theorem or theorem proof, but not in the lemma or lemma proof.)    In your typed revision, put a special focus on communicating proof techniques you are using clearly.      Theorem 8A. The real number is irrational. (Recall that is a real number such that .)    Theorem 8B. The real number is irrational.    Overleaf\/LaTex Notes:      To get type  $\\log_3(8)$    To get type  $\\sqrt[3]{2}$    To get a fraction like or a bigger fraction like type  $\\frac{x}{y}$ or $\\dfrac{x}{y}$     "
+},
+{
+  "id": "pp-9",
+  "level": "1",
+  "url": "pp-9.html",
+  "type": "Handout",
+  "number": "4.11",
+  "title": "Portfolio Problem 9",
+  "body": " Portfolio Problem 9  All problems are in an Overleaf document at . Copy\/paste problems from there to learn notation in Overleaf! The writing guidelines are at . There's a sample portfolio solution at . There's an Overleaf Cheat Sheet at . All of the writing guidelines are at . All of the proof portfolio objectives are at .   Instructions:    Choose ONE of the following conjectures.    Both conjectures ask you to prove a function is a bijection. Be sure to follow the special instructions on what to do if the conjecture is false - it's different in each case.    You don't need to do any specific examples besides counterexamples when needed (based on the problem description).      Conjecture 9A: Let be defined by for all . Then is a bijection.   Special Instructions: As written, in 9A, is neither an injection nor a surjection. If you choose 9A, you must first include concrete counterexamples to show why it is not injective and not surjective. Then change both the domain and codomain to make a bijection. State your new result with a properly written theorem statement that includes the corrected domain and codomain, and prove the new statement.   Conjecture 9B: Let be the set of all matrices with real number entries. The function defined by the rule   where for and , is a bijection.   Special Instructions: If you choose 9B and it is false, then determine if is an injection or is a surjection. State a new theorem including only the true things and prove it. Separately ( outside of the proof) provide one clear counterexample to any parts that are false.   Note: The Overleaf for all portfolio problems is at , so if you are wondering how to typeset anything in these problems, go and copy-paste from there!  "
 },
 {
   "id": "ch-1-intuitiveproofs-2",
