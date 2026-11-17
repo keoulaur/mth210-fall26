@@ -601,7 +601,7 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "2.15",
   "title": "Learning Target 14 Practice",
-  "body": " Learning Target 14 Practice   Negate a statement with and, or, not, implies, exists, and\/or for all.    Need to know     How to negate conditional statements (e.g. if...then... statements).    Use DeMorgan's Laws to negate statements with ``and'' and ``or''    Negate statements that have ``there exists'' or ``for all''.    How to avoid the word not. Like changing `` is not even'' to `` is odd''.       Practice Questions     Weekly Practice 10 #4      Worksheet pages 69-71       Write a useful negation of the following statements. Useful negations don't start with things like ``It is not true that...'' and avoid the word not when possible.     There exists such that if then .    For all , there exists such that .  There's a hidden quantifier here (the hypothesis is for all  ). So this statement is more readable with a there exists. For the learning target it is acceptable to write For all , and . Do notice that our negation either way does not include an if and a then though!      For all if then .    There exists such that and .      For all , if then .    There exists such that and .  Be careful with your inequailities here!      For every student in the class, if they studied and completed the homework, then they passed the exam.    There exists a student in the class that studied and completed the homework and did not pass the exam.      For every real number , there exists a real number such that .    There exists a real number such that for every real number ,       "
+  "body": " Learning Target 14 Practice   Negate a statement with and, or, not, implies, exists, and\/or for all.    Need to know     How to negate conditional statements (e.g. if...then... statements).    Use DeMorgan's Laws to negate statements with ``and'' and ``or''    Negate statements that have ``there exists'' or ``for all''.    How to avoid the word not. Like changing `` is not even'' to `` is odd''.       Practice Questions     Weekly Practice 10 #4      Worksheet pages 69-71       Write a useful negation of the following statements. Useful negations don't start with things like ``It is not true that...'' and avoid the word not when possible.     There exists such that if then .    For all , there exists such that .  There's a hidden quantifier here (the hypothesis is for all  ). So this statement is more readable with a there exists. For the learning target it is acceptable to write For all , and . Do notice that our negation either way does not include an if and a then though!      For all if then .    There exists such that and .      For all , if then .    There exists such that and .  Be careful with your inequailities here!      For every student in the class, if they studied and completed the homework, then they passed the exam.    There exists a student in the class that studied and completed the homework and did not pass the exam.      For every real number , there exists a real number such that .    There exists a real number such that for every real number , .      "
 },
 {
   "id": "targets-16-4-2",
@@ -619,7 +619,79 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.35",
   "title": "",
-  "body": "  Write a useful negation of the following statements. Useful negations don't start with things like ``It is not true that...'' and avoid the word not when possible.     There exists such that if then .    For all , there exists such that .  There's a hidden quantifier here (the hypothesis is for all  ). So this statement is more readable with a there exists. For the learning target it is acceptable to write For all , and . Do notice that our negation either way does not include an if and a then though!      For all if then .    There exists such that and .      For all , if then .    There exists such that and .  Be careful with your inequailities here!      For every student in the class, if they studied and completed the homework, then they passed the exam.    There exists a student in the class that studied and completed the homework and did not pass the exam.      For every real number , there exists a real number such that .    There exists a real number such that for every real number ,     "
+  "body": "  Write a useful negation of the following statements. Useful negations don't start with things like ``It is not true that...'' and avoid the word not when possible.     There exists such that if then .    For all , there exists such that .  There's a hidden quantifier here (the hypothesis is for all  ). So this statement is more readable with a there exists. For the learning target it is acceptable to write For all , and . Do notice that our negation either way does not include an if and a then though!      For all if then .    There exists such that and .      For all , if then .    There exists such that and .  Be careful with your inequailities here!      For every student in the class, if they studied and completed the homework, then they passed the exam.    There exists a student in the class that studied and completed the homework and did not pass the exam.      For every real number , there exists a real number such that .    There exists a real number such that for every real number , .    "
+},
+{
+  "id": "targets-17",
+  "level": "1",
+  "url": "targets-17.html",
+  "type": "Handout",
+  "number": "2.16",
+  "title": "Learning Target 15 Practice",
+  "body": " Learning Target 15 Practice   Given a statement to be proven using a proof by contrapositive, identify the assumptions to be made and the statements to be proven.    Need to know     How to translate a statement into its contrapositive.    State what you would assume in a proof by contrapositive (for proving if then , assume ).    State what you would prove in a proof by contrapositive (for proving if then , prove )       Practice Questions     Weekly Practice 11 #1,2,3,5      Worksheet pages 83-84       In each of the following statements, suppose you were going to use a proof by contrapositive. What would you assume, what would you try to prove?     For all integers , if is even then is even.      Let . For the Fibonacci numbers, , if is odd then for any .      For all if then or .      For all primes and for all integers and , if , then or .      For all integers , is odd if and only if is odd. What two statements do you need to prove? Which one would you prove by contrap      "
+},
+{
+  "id": "targets-17-4-2",
+  "level": "2",
+  "url": "targets-17.html#targets-17-4-2",
+  "type": "Checkpoint",
+  "number": "2.36",
+  "title": "",
+  "body": "   Weekly Practice 11 #1,2,3,5      Worksheet pages 83-84    "
+},
+{
+  "id": "targets-17-4-3",
+  "level": "2",
+  "url": "targets-17.html#targets-17-4-3",
+  "type": "Checkpoint",
+  "number": "2.37",
+  "title": "",
+  "body": "  In each of the following statements, suppose you were going to use a proof by contrapositive. What would you assume, what would you try to prove?     For all integers , if is even then is even.      Let . For the Fibonacci numbers, , if is odd then for any .      For all if then or .      For all primes and for all integers and , if , then or .      For all integers , is odd if and only if is odd. What two statements do you need to prove? Which one would you prove by contrap    "
+},
+{
+  "id": "targets-18",
+  "level": "1",
+  "url": "targets-18.html",
+  "type": "Handout",
+  "number": "2.17",
+  "title": "Learning Target 16 Practice",
+  "body": " Learning Target 16 Practice   Given a statement to be proven using a proof by contradiction, identify the assumptions to be made and the statements to be proven.    Need to know     How to negate conditional statements (e.g. if...then... statements).    What to assume at the start of a proof by contradiction.    What a contradiction is at the end of a proof by contradiction, and examples of some common contradictions.       Practice Questions     Weekly Practice 11 (just what you assume and make note of the contradictions you arrive at)      Worksheet page 92      The Learning Target 14 review (you need to know how to negate statements!)       For each of the following statements, state what you would assume in a proof by contradiction.     For all , if is odd, then cannot be expressed as the sum of even integers.          For all , if and then .          For all , if and are positive, and then .    There exists such that and .      For all natural numbers and , if and are twin primes other than and , then is a perfect square and divides .          For every real number , there exists a real number such that .           What is the goal in a proof by contradiction?      Name at least 4 examples of contradictions.     "
+},
+{
+  "id": "targets-18-4-2",
+  "level": "2",
+  "url": "targets-18.html#targets-18-4-2",
+  "type": "Checkpoint",
+  "number": "2.38",
+  "title": "",
+  "body": "   Weekly Practice 11 (just what you assume and make note of the contradictions you arrive at)      Worksheet page 92      The Learning Target 14 review (you need to know how to negate statements!)    "
+},
+{
+  "id": "targets-18-4-3",
+  "level": "2",
+  "url": "targets-18.html#targets-18-4-3",
+  "type": "Checkpoint",
+  "number": "2.39",
+  "title": "",
+  "body": "  For each of the following statements, state what you would assume in a proof by contradiction.     For all , if is odd, then cannot be expressed as the sum of even integers.          For all , if and then .          For all , if and are positive, and then .    There exists such that and .      For all natural numbers and , if and are twin primes other than and , then is a perfect square and divides .          For every real number , there exists a real number such that .        "
+},
+{
+  "id": "targets-18-4-4",
+  "level": "2",
+  "url": "targets-18.html#targets-18-4-4",
+  "type": "Checkpoint",
+  "number": "2.40",
+  "title": "",
+  "body": "  What is the goal in a proof by contradiction?   "
+},
+{
+  "id": "targets-18-4-5",
+  "level": "2",
+  "url": "targets-18.html#targets-18-4-5",
+  "type": "Checkpoint",
+  "number": "2.41",
+  "title": "",
+  "body": "  Name at least 4 examples of contradictions.   "
 },
 {
   "id": "notes-week-01",
