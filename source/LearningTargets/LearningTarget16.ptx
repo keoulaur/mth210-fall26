@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+
+<handout>
+    <title>Learning Target 16 Practice</title>
+
+    <p >
+        <em>Given a statement to be proven using a proof by contradiction, identify the assumptions to be made and the statements to be proven.
+
+        </em>
+    </p>
+
+   <paragraphs>
+           <title>Need to know</title>
+   
+           <p>
+               <ul>
+                   <li>
+                       <p>
+                           How to negate conditional statements (e.g.
+                           <q>if...then...</q> statements).
+                       </p>
+                   </li>
+   
+                   <li>
+                       <p>
+                           What to assume at the start of a proof by contradiction.
+                       </p>
+                   </li>
+   
+                   <li>
+                       <p>
+                           What a contradiction is at the end of a proof by contradiction, and examples of some common contradictions.
+                       </p>
+                   </li>
+               </ul>
+           </p>
+        </paragraphs>
+   
+       <paragraphs>
+           <title>Practice Questions</title>
+   
+          <exercise>
+            <task>
+                <statement>
+                    <p>
+                        Weekly Practice 11 (just what you assume and make note of the contradictions you arrive at)
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                         Worksheet page 92
+                    </p>
+                </statement>
+            </task>
+                <task>
+                    <statement>
+                        <p>
+                            The Learning Target 14 review (you need to know how to negate statements!)
+                        </p>
+                    </statement>
+                </task>
+
+        </exercise>
+
+        <exercise>
+            <introduction>
+                <p>
+                      For each of the following statements, state what you would assume in a proof by contradiction.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>For all <m>n\in\mathbb{Z}</m>, if <m>n</m> is odd, then <m>n</m> cannot be
+                                        expressed as the sum of <m>3</m> even integers.
+                        
+                    </p>
+                </statement>
+                <solution>
+                   <p>
+                    
+                   </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                         For all <m>a,b\in \mathbb{R}</m>, if <m>a\neq 0</m> and <m>b\neq 0</m> then
+                                                  <m>(a+b)^{2}\neq a^{2} + b^{2}</m>.
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                                   </p>
+                </solution>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                       For all <m>x,y\in\mathbb{R}</m>, if <m>x</m> and <m>y</m> are positive,
+                                               <m>x-4y&lt;y-3x</m> and <m>3x&gt;2y</m> then <m>12x^{2}+10y^{2}&lt;24xy</m>.
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                       There exists <m>r\in \mathbb{R}</m> such that <m>r&gt; 2</m> and  <m>r^2 \leq 4</m>.
+                    </p>
+                </solution>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                         For all natural numbers <m>p</m> and <m>q</m>, if <m>p</m> and <m>q</m> are twin
+                                                  primes other than <m>3</m> and <m>5</m>, then <m>pq+1</m> is a perfect square
+                                                  and <m>36</m> divides <m>pq+1</m>.
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                    </p>
+                </solution>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                         For every real number <m>x</m>, there exists a
+                                       real number <m>y</m> such that <m>x + y = 0</m>. 
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                    </p>
+                </solution>
+            </task>
+      
+   
+                  
+                         
+
+             </exercise>
+
+             <exercise>
+                <statement>
+                    <p>
+                        What is the goal in a proof by contradiction?
+                    </p>
+                </statement>
+             </exercise>
+
+             <exercise>
+                <statement>
+                    <p>
+                        Name at least 4 examples of contradictions.
+                    </p>
+                </statement>
+             </exercise>
+       </paragraphs>
+
+        </handout>

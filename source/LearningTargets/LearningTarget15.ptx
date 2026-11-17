@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>Learning Target 15 Practice</title>
+
+    <p>
+        <em>Given a statement to be proven using a proof by contrapositive, identify the assumptions to be made and the statements to be proven.
+
+        </em>
+    </p>
+
+    <paragraphs>
+        <title>Need to know</title>
+
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        How to translate a statement into its contrapositive.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        State what you would assume in a proof by contrapositive
+                        (for proving if <m>P</m> then <m>Q</m>, assume
+                        <m>\sim Q</m>).
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        State what you would prove in a proof by contrapositive
+                        (for proving if <m>P</m> then <m>Q</m>, prove
+                        <m>\sim P</m>)
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Practice Questions</title>
+
+        <exercise>
+            <task>
+                <statement>
+                    <p>
+                        Weekly Practice 11 #1,2,3,5
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Worksheet pages 83-84
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+
+        <exercise>
+            <introduction>
+                <p>
+                   
+                            In each of the following statements, suppose you were going to use a proof
+                            by contrapositive.
+                            What would you assume, what would you try to prove?
+                </p>
+            </introduction>
+
+           <task> 
+            <statement>
+                <p>
+                      For all integers <m>n</m>, if <m>n^{2}</m> is even then <m>n</m>
+                                        is even.
+                </p>
+            </statement>
+
+
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                     Let <m>n\in \mathbb{N}</m>.
+                                        For the Fibonacci numbers, <m>f_{n}</m>, if <m>f_{n}</m> is odd
+                                        then <m>f_{n}\neq 3k</m> for any <m>k\in \mathbb{N}</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                      For all <m>x,y\in\mathbb{R},</m> if <m>x+y\ge 2</m> then
+                                        <m>x\ge 1</m> or <m>y\ge 1</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                      For all primes <m>a</m> and for all integers <m>b</m> and
+                                        <m>c</m>, if <m>a\mid bc</m>, then <m>a\mid b</m> or
+                                        <m>a\mid c</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                        For all integers <m>n</m>, <m>n</m> is odd if and only if
+                                        <m>n^{2}+n+6</m> is odd.
+                                        What two statements do you need to prove?
+                                        Which one would you prove by contrap
+                </p>
+            </statement>
+        </task>
+
+            
+                    
+        </exercise>
+    </paragraphs>
+</handout>
