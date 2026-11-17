@@ -565,7 +565,34 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "2.14",
   "title": "Learning Target 13 Practice",
-  "body": " Learning Target 13 Practice   Given a conditional statement, identify the hypothesis and conclusion, determine its truth value, and apply it.    Need to know:     In a conditional statement the hypothesis is the part after the if, not including the if, and the conclusion is the part after the then, not including the then. In If is even then is even , the hypothesis is is even and the conclusion is is even .    Modus ponens: If is true and is true then is true.    Modus tollens: If is true and is false then is false.    If is true, and you know Is false or is true, you can't conclude anything.    The truth table for .       Practice:     Weekly Practice 10 #1    Worksheet pages 77-78    Consider the conditional statement ``If is a prime number then has exactly three positive factors. What is the hypothesis and what is the conclusion? Using ONLY that the conditional statement is true, and each of the following (individually) what can you conclude (if anything)? Explain your answer.    is prime,     is not prime,     has 3 positive factors     has 5 positive factors       Consider the following conditional statement ``If the function is continuous at , then exists.'' What is the hypothesis and what is the conclusion? Using ONLY that the conditional statement is true, and each of the following (individually) what can you conclude (if anything)? Explain your answer.    is a function that is continuous at      is a function that is not continuous at     for a function , exists    for a function , does not exist         "
+  "body": " Learning Target 13 Practice   Given a conditional statement, identify the hypothesis and conclusion, determine its truth value, and apply it.    Need to know:     In a conditional statement the hypothesis is the part after the if, not including the if, and the conclusion is the part after the then, not including the then. In If is even then is even , the hypothesis is is even and the conclusion is is even .    Modus ponens: If is true and is true then is true.    Modus tollens: If is true and is false then is false.    If is true, and you know Is false or is true, you can't conclude anything.    The truth table for .       Practice     Weekly Practice 10 #1    Worksheet pages 77-78      Consider the conditional statement ``If is a prime number then has exactly three positive factors. Using ONLY that the conditional statement is true, and each of the following (individually) what can you conclude (if anything)? Explain your answer.     What is the hypothesis and what is the conclusion?    The hypothesis is is prime . The conclusion is  has exactly three positive factors .       is prime,    Since is prime, then has exactly three positive factors. Here, the hypothesis is true for and so the conclusion must also be true.       is not prime,    In this case, the hypothesis is false, but we cannot conclude whether the conclusion is true or false. We can see this in the truth table, we have a true conditional statement, so we consider only the first, third, and fourth row. But the third and fourth row have the hypothesis is false, but the conclusion can be true or false.       has 3 positive factors    In this case, the conclusion is true, so we cannot make a conclusion using only the conditional statement.       has 5 positive factors    In this case, the conclusion is false, so by the contrapositive is not prime. Note here we've also narrowed down to one row of the truth table.       Consider the following conditional statement If the function is continuous at , then exists. Using ONLY that the conditional statement is true, and each of the following (individually) what can you conclude (if anything)? Explain your answer.     What is the hypothesis and what is the conclusion?    The hyptohesis is the function is continous at . The conclusion is exists.        is a function that is continuous at     The hypothesis is true for and and so the conclusion must also be true (as the conditional statement is true). Thus exists.       is a function that is not continuous at     Here the hypothesis is false, and so no conclusion can be made.      for a function , exists    Here the conclusion is true, but in that case the hypothesis could be true or false. So no conclusion can be made.      for a function , does not exist    Here the conclusion is false, so we can conclude the hypothesis is false (using the contrapositive, or modus tollens, or the truth table). Thus, M is not continuous at .      "
+},
+{
+  "id": "targets-15-4-3",
+  "level": "2",
+  "url": "targets-15.html#targets-15-4-3",
+  "type": "Checkpoint",
+  "number": "2.31",
+  "title": "",
+  "body": "  Weekly Practice 10 #1    Worksheet pages 77-78   "
+},
+{
+  "id": "targets-15-4-4",
+  "level": "2",
+  "url": "targets-15.html#targets-15-4-4",
+  "type": "Checkpoint",
+  "number": "2.32",
+  "title": "",
+  "body": "  Consider the conditional statement ``If is a prime number then has exactly three positive factors. Using ONLY that the conditional statement is true, and each of the following (individually) what can you conclude (if anything)? Explain your answer.     What is the hypothesis and what is the conclusion?    The hypothesis is is prime . The conclusion is  has exactly three positive factors .       is prime,    Since is prime, then has exactly three positive factors. Here, the hypothesis is true for and so the conclusion must also be true.       is not prime,    In this case, the hypothesis is false, but we cannot conclude whether the conclusion is true or false. We can see this in the truth table, we have a true conditional statement, so we consider only the first, third, and fourth row. But the third and fourth row have the hypothesis is false, but the conclusion can be true or false.       has 3 positive factors    In this case, the conclusion is true, so we cannot make a conclusion using only the conditional statement.       has 5 positive factors    In this case, the conclusion is false, so by the contrapositive is not prime. Note here we've also narrowed down to one row of the truth table.    "
+},
+{
+  "id": "targets-15-4-5",
+  "level": "2",
+  "url": "targets-15.html#targets-15-4-5",
+  "type": "Checkpoint",
+  "number": "2.33",
+  "title": "",
+  "body": "  Consider the following conditional statement If the function is continuous at , then exists. Using ONLY that the conditional statement is true, and each of the following (individually) what can you conclude (if anything)? Explain your answer.     What is the hypothesis and what is the conclusion?    The hyptohesis is the function is continous at . The conclusion is exists.        is a function that is continuous at     The hypothesis is true for and and so the conclusion must also be true (as the conditional statement is true). Thus exists.       is a function that is not continuous at     Here the hypothesis is false, and so no conclusion can be made.      for a function , exists    Here the conclusion is true, but in that case the hypothesis could be true or false. So no conclusion can be made.      for a function , does not exist    Here the conclusion is false, so we can conclude the hypothesis is false (using the contrapositive, or modus tollens, or the truth table). Thus, M is not continuous at .    "
 },
 {
   "id": "targets-16",
@@ -574,7 +601,25 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "2.15",
   "title": "Learning Target 14 Practice",
-  "body": " Learning Target 14 Practice   Negate a statement with and, or, not, implies, exists, and\/or for all.    Need to know     How to negate conditional statements (e.g. if...then... statements).    Use DeMorgan's Laws to negate statements with ``and'' and ``or''    Negate statements that have ``there exists'' or ``for all''.    How to avoid the word not. Like changing `` is not even'' to `` is odd''.       Practice Questions     Weekly Practice 10 #4    Worksheet pages 69-71    Write a useful negation of the following statements. Useful negations don't start with things like ``It is not true that...'' and avoid the word not when possible.   There exists such that if then .    For all if then .    For all , if then .    For every student in the class, if they studied and completed the homework, then they passed the exam.    For every real number , there exists a real number such that .         "
+  "body": " Learning Target 14 Practice   Negate a statement with and, or, not, implies, exists, and\/or for all.    Need to know     How to negate conditional statements (e.g. if...then... statements).    Use DeMorgan's Laws to negate statements with ``and'' and ``or''    Negate statements that have ``there exists'' or ``for all''.    How to avoid the word not. Like changing `` is not even'' to `` is odd''.       Practice Questions     Weekly Practice 10 #4      Worksheet pages 69-71       Write a useful negation of the following statements. Useful negations don't start with things like ``It is not true that...'' and avoid the word not when possible.     There exists such that if then .    For all , there exists such that .  There's a hidden quantifier here (the hypothesis is for all  ). So this statement is more readable with a there exists. For the learning target it is acceptable to write For all , and . Do notice that our negation either way does not include an if and a then though!      For all if then .    There exists such that and .      For all , if then .    There exists such that and .  Be careful with your inequailities here!      For every student in the class, if they studied and completed the homework, then they passed the exam.    There exists a student in the class that studied and completed the homework and did not pass the exam.      For every real number , there exists a real number such that .    There exists a real number such that for every real number ,       "
+},
+{
+  "id": "targets-16-4-2",
+  "level": "2",
+  "url": "targets-16.html#targets-16-4-2",
+  "type": "Checkpoint",
+  "number": "2.34",
+  "title": "",
+  "body": "   Weekly Practice 10 #4      Worksheet pages 69-71    "
+},
+{
+  "id": "targets-16-4-3",
+  "level": "2",
+  "url": "targets-16.html#targets-16-4-3",
+  "type": "Checkpoint",
+  "number": "2.35",
+  "title": "",
+  "body": "  Write a useful negation of the following statements. Useful negations don't start with things like ``It is not true that...'' and avoid the word not when possible.     There exists such that if then .    For all , there exists such that .  There's a hidden quantifier here (the hypothesis is for all  ). So this statement is more readable with a there exists. For the learning target it is acceptable to write For all , and . Do notice that our negation either way does not include an if and a then though!      For all if then .    There exists such that and .      For all , if then .    There exists such that and .  Be careful with your inequailities here!      For every student in the class, if they studied and completed the homework, then they passed the exam.    There exists a student in the class that studied and completed the homework and did not pass the exam.      For every real number , there exists a real number such that .    There exists a real number such that for every real number ,     "
 },
 {
   "id": "notes-week-01",
