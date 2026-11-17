@@ -52,67 +52,121 @@
        <paragraphs>
            <title>Practice Questions</title>
    
-           <p>
-               <ol>
-                   <li>
-                       <p>
-                           Weekly Practice 10 #4
-                       </p>
-                   </li>
-   
-                   <li>
-                       <p>
-                           Worksheet pages 69-71
-                       </p>
-                   </li>
-   
-                   <li>
-                       <p>
-                           Write a useful negation of the following statements.
+          <exercise>
+            <task>
+                <statement>
+                    <p>
+                        Weekly Practice 10 #4
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                         Worksheet pages 69-71
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+
+        <exercise>
+            <introduction>
+                <p>
+                      Write a useful negation of the following statements.
                            Useful negations don't start with things like ``It is not
                            true that...'' and avoid the word not when possible.
-                           <ol>
-                               <li>
-                                   <p>
-                                       There exists <m>x\in\mathbb{Z}</m> such that if
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>There exists <m>x\in\mathbb{Z}</m> such that if
                                        <m>y\in\mathbb{Z}</m> then
                                        <m>\dfrac{y}{x}\in \mathbb{Z}</m>.
-                                   </p>
-                               </li>
-   
-                               <li>
-                                   <p>
-                                       For all <m>y \in \mathbb{R}</m> if <m>y\ge 0</m>
+                        
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        For all <m>x\in \mathbb{Z}</m>, there exists  <m>y\in\mathbb{Z}</m> 
+                        such that
+                        <m>\dfrac{y}{x} \notin \mathbb{Z}</m>.
+                    </p>
+
+                    <p>
+                        There's a <q>hidden quantifier</q> here (the hypothesis is <q>for all</q> <m>y\in\mathbb{Z}</m>).
+                        So this statement is more readable with a <q>there exists.</q> For the learning target it is acceptable
+                        to write <q>For all <m>x\in\mathbb{Z}</m>, <m>y\in\mathbb{Z} </m> and <m> \frac{y}{x} \notin\mathbb{Z}</m>.</q>
+                        Do notice that our negation either way does not include an if and a then though!
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                         For all <m>y \in \mathbb{R}</m> if <m>y\ge 0</m>
                                        then <m>\sqrt{y}\in \mathbb{R}</m>.
-                                   </p>
-                               </li>
-   
-                               <li>
-                                   <p>
-                                       For all <m>r\in\mathbb{R}</m>, if <m>r&gt;2</m>
-                                       then <m>r^{2}&gt;4</m>.
-                                   </p>
-                               </li>
-   
-                               <li>
-                                   <p>
-                                       For every student in the class, if they studied
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        There exists <m>y\in\mathbb{R}</m> such that <m>y\ge 0</m> and <m>\sqrt{y} \notin \mathbb{R}</m>.
+                    </p>
+                </solution>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        For all <m>r\in\mathbb{R}</m>, if <m>r&gt;2</m>
+                                       then <m>r^{2}&gt;4</m>. 
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                       There exists <m>r\in \mathbb{R}</m> such that <m>r&gt; 2</m> and  <m>r^2 \leq 4</m>.
+                    </p>
+
+                    <p>
+                        Be careful with your inequailities here!
+                    </p>
+                </solution>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                         For every student in the class, if they studied
                                        and completed the homework, then they passed the
                                        exam.
-                                   </p>
-                               </li>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        There exists a student in the class that studied and completed the 
+                        homework and did not pass the exam.
+                    </p>
+                </solution>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                         For every real number <m>x</m>, there exists a
+                                       real number <m>y</m> such that <m>x + y = 0</m>. 
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        There exists a real number <m>x</m> such that for every real number <m>y</m>, <m>x+y\neq 0</m>.
+                    </p>
+                </solution>
+            </task>
+      
    
-                               <li>
-                                   <p>
-                                       For every real number <m>x</m>, there exists a
-                                       real number <m>y</m> such that <m>x + y = 0</m>.
-                                   </p>
-                               </li>
-                           </ol>
-                       </p>
-                   </li>
-               </ol>
-           </p>
+                  
+                         
+
+             </exercise>
        </paragraphs>
 
         </handout>
