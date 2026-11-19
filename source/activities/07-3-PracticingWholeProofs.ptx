@@ -49,21 +49,183 @@
 </lemma>
 
 
-    <activity>
-        <p>
-            Work to prove the theorems in <xref ref="act-contradictionstart"/>.
-        </p>
+  <theorem>
+    <statement>
+      <p>
+        For all real numbers <m>a</m> 
+        and <m>b</m>, if <m>a&gt;0</m> and <m>b&gt;0</m>, then <m>\frac{2}{a} + \frac{2}{b} \neq \frac{4}{a+b}</m>.
+      </p>
+    </statement>
+  </theorem>
+  
+  <proof>
+    <p>
+       We will use a proof by contradiction.
+                    So we assume the theorem is false.
+                    That is, we assume there exist real numbers <m>a</m> and <m>b</m> 
+                    such that <m>\frac{2}{a} + \frac{2}{b} = \frac{4}{a+b}.</m> By algebra,
+                    <md>
+                      <mrow> \frac{2}{a} + \frac{2}{b}\amp = \frac{4}{a+b} </mrow>
+                      <mrow> \frac{2b+2a}{ab} \amp = \frac{4}{a+b} </mrow>
+                      <mrow> (2b+2a)(a+b) \amp = 4ab </mrow>
+                      <mrow> 2a^2+4ab+b^2\amp = 4ab </mrow>
+                      <mrow>2a^2 + 2b^2 = 0. \amp </mrow>
+                    </md>
+        This is a contradiction because we assumed <m>a&gt; 0</m> and <m>b &gt; 0</m>, so 
+        <md>2a^2+2b^2 &gt; 0</md>.
+        Thus, the negation of the theorem is false and we conclude for all real numbers <m>a</m> 
+        and <m>b</m>, if <m>a&gt;0</m> and <m>b&gt;0</m>, then <m>\frac{2}{a} + \frac{2}{b} \neq \frac{4}{a+b}</m>.      
+    </p>
+  </proof>
 
-        <p>
-            What are some examples of contradictions you can get?
-        </p>
-    </activity>
+</page>
+
+  <page>
+  <theorem>
+    <statement>
+      <p>
+        For each real number <m>x</m>, <m>(\sqrt{2}+x)</m> is irrational or <m>(\sqrt{2}-x)</m> is irrational.
+      </p>
+    </statement>
+  </theorem>
+  
+  <proof>
+    <p>
+      We will use a proof by contradiction.
+                    So we assume the theorem is false.
+                    That is, we assume that there exists <m>x\in\mathbb{R}</m> such that <m>(\sqrt{2}+x)</m> is rational and 
+                    <m>(\sqrt{2}-x)</m> is rational. Since rationals are closed under addition
+                    <md>
+                      (\sqrt{2}+x)+(\sqrt{2}-x) = 2\sqrt{2}
+                    </md>
+                    is also rational. Since rationals are closed under multiplication, and <m>2\sqrt{2}</m> and <m>\frac{1}{2}</m>
+                    are rational then 
+                    <md>
+                      \frac{1}{2}(2\sqrt{2}) = \sqrt{2}
+                    </md>
+                    is rational. This is a contradiction as we know <m>\sqrt{2}</m> is irrational. Thus, the negation of 
+                    the theorem is false and the theorem is true. That is, for each real number
+                     <m>x</m>, <m>(\sqrt{2}+x)</m> is irrational or <m>(\sqrt{2}-x)</m> is irrational.
+    </p>
+  </proof>
 
       </page>
-      <page>
 
-    <p>
-      Additional space to work.
-    </p>
-  </page>
+
+      <page>
+        <theorem >
+          <statement>
+            <p>
+              For each real number <m>x</m>, if <m>x</m> is irrational, then <m>\sqrt[3]{x}</m> is irrational.
+            </p>
+          </statement>
+        </theorem>
+        
+        <proof>
+          <p>
+             We will use a proof by contradiction.
+                    So we assume the theorem is false.
+                    That is, we assume that there exists a real number <m>x</m> such that <m>x</m> is irrational and 
+                    <m>\sqrt[3]{x}</m> is rational. Since <m>\sqrt[3]{x}</m> is rational, there exist <m>m</m> and <m>n</m>
+                    such that <m>\sqrt[3]{x} = \frac{m}{n}</m>. Cubing both sides, <m>x = \frac{m^3}{n^3}</m> and so <m>x</m>
+                    is rational, which contradicts our assumption that <m>x</m> is rational.
+          </p>
+        </proof>
+
+        <remark>
+          <p>
+            Note this proof could also be done by contrapositive. In general, if you start by assuming the conclusion
+            is false (because of the negation) and you end up contradicting the hypothesis, you were just doing a proof 
+            by contrapositive. I sometimes call this <q>contradiction-itis</q>. Once one learns proof by contradiction,
+            one sometimes overuses it when other proof techniques would be clearer.
+          </p>
+        </remark>
+      </page>
+
+      <page>
+        <theorem>
+          <statement>
+            <p>
+              For each <m>a,b\in\mathbb{R}</m>, if <m>a\neq 0</m> and <m>b\neq 0</m> then <m>\sqrt{a^2+b^2} \neq a+b</m>.
+            </p>
+          </statement>
+        </theorem>
+
+        <proof>
+          <p>
+            We will use a proof by contradiction.
+                    So we assume the theorem is false.
+                    That is, we assume that there exists <m>a,b\in\mathbb{R}</m> such that <m>a\neq 0</m> and <m>b\neq 0</m>
+                    and <m>\sqrt{a^2+b^2} = a+b</m>. Then
+                    <md>
+                      <mrow>\sqrt{a^2+b^2} \amp = a+b </mrow>
+                      <mrow>a^2 + b^2 \amp = (a+b)^2 </mrow>
+                      <mrow>a^2+b^2 \amp = a^2+2ab+ b^2 </mrow>
+                      <mrow> 0 = 2ab. \amp </mrow>
+                    </md>
+                However, since <m>a\neq 0</m> and <m>b\neq 0</m>, <m>2ab \neq 0</m>. So we have reached a 
+                contradiction and the negation is false. Thus, for each <m>a,b\in\mathbb{R}</m>, 
+                if <m>a\neq 0</m> and <m>b\neq 0</m> then <m>\sqrt{a^2+b^2} \neq a+b</m>.
+          </p>
+        </proof>
+        
+      </page>
+
+      <page>
+        <theorem>
+          <statement>
+            <p>
+              For all integers <m>a</m> and <m>b</m>, if <m>5\nmid ab</m>, then <m>5\nmid a</m> and <m>5\nmid b</m>.
+            </p>
+          </statement>
+        </theorem>
+
+        <proof>
+          <p>
+            We will use a proof by contradiction. So we assume the theorem is false, or that there exist integers <m>a</m>
+            and <m>b</m> such that <m>5\nmid ab</m> and <m>5\mid a</m> or <m>5\mid b</m>. Without loss of generality, assume
+            <m>5\mid a</m>. By definition of divides, there exists an integer <m>k</m> such that <m>5k= a</m>. Then
+            <m>5kb=ab</m>. By closure, <m>kb\in \mathbb{Z}</m> so <m>5\mid ab</m>. However, we assumed <m>5\nmid ab</m>,
+            so we've reached a contradiction. Thus, the negation of the theorem is false and for all integers <m>a</m> and <m>b</m>, 
+            if <m>5\nmid ab</m>, then <m>5\nmid a</m> and <m>5\nmid b</m>.
+          </p>
+        </proof>
+        
+      </page>
+
+      <page>
+        <theorem>
+          <statement>
+            <p>
+              For all integers <m>a</m> and <m>b</m>, if <m>5\mid ab</m> then <m>5\mid a</m> or <m>5\mid b</m>.
+            </p>
+          </statement>
+        </theorem>
+        
+        <proof>
+          <p>
+            We will use proof by contradiction so we assume the theorem is false. That is, suppose that
+            there exist integers <m>a</m> and <m>b</m> such that <m>5\mid ab</m> and <m>5\nmid a</m> and <m>5\nmid b</m>.
+            Since <m>5\nmid a</m> we know there exists <m>q,r \in \mathbb{Z}</m> with <m>0&lt; r &lt; 5</m> 
+            such that <m>a = 5q+r</m>. Similarly, since <m>5 \nmid b</m>, there exist <m>q,r\in\mathbb{Z}</m> with <m>0 \lt; r' &lt; 5</m>
+            such that <m>b = 5q' + r'</m>. By substitution and algebra,
+              <md>
+                <mrow>ab \amp = (5q+r)(5q'+r') </mrow>
+                <mrow> \amp = 25qq' + 5qr' + 5q'r + rr' </mrow>
+                <mrow> \amp = 5(5qq'+qr'+q'r) + rr'. </mrow>
+              </md>
+            Now, consider the possibilites for <m>r</m> and <m>r'</m>. There is no ordered pair <m>(r,r')\in \{1,2,3,4\}\times 
+              \{1,2,3,4\} 
+            </m> where <m>5 \mid rr'</m>. So <m>ab</m> has a nonzero remainder when divided by <m>5</m>.
+            This is a contradiction, since we assumed <m>5\mid ab</m>. Thus the negation is false and for 
+            all integers <m>a</m> and <m>b</m>, if <m>5\mid ab</m> then <m>5\mid a</m> or <m>5\mid b</m>.
+          </p>
+        </proof>
+
+        <remark>
+          <p>
+            Another case of contradictionitis! Can you use the contrapositive here.
+          </p>
+        </remark>
+      </page>
 </handout>
