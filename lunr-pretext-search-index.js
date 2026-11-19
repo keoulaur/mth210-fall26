@@ -628,7 +628,7 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "2.16",
   "title": "Learning Target 15 Practice",
-  "body": " Learning Target 15 Practice   Given a statement to be proven using a proof by contrapositive, identify the assumptions to be made and the statements to be proven.    Need to know     How to translate a statement into its contrapositive.    State what you would assume in a proof by contrapositive (for proving if then , assume ).    State what you would prove in a proof by contrapositive (for proving if then , prove )       Practice Questions     Weekly Practice 11 #1,2,3,5      Worksheet pages 83-84       In each of the following statements, suppose you were going to use a proof by contrapositive. What would you assume, what would you try to prove?     For all integers , if is even then is even.      Let . For the Fibonacci numbers, , if is odd then for any .      For all if then or .      For all primes and for all integers and , if , then or .      For all integers , is odd if and only if is odd. What two statements do you need to prove? Which one would you prove by contrap      "
+  "body": " Learning Target 15 Practice   Given a statement to be proven using a proof by contrapositive, identify the assumptions to be made and the statements to be proven.    Need to know     How to translate a statement into its contrapositive.    State what you would assume in a proof by contrapositive (for proving if then , assume ).    State what you would prove in a proof by contrapositive (for proving if then , prove )       Practice Questions     Weekly Practice 11 #1,2,3,5      Worksheet pages 83-84       In each of the following statements, suppose you were going to use a proof by contrapositive. What would you assume, what would you try to prove?     For all integers , if is even then is even.    Assume that is an integer and is odd. Aim to show that is odd.      Let . For the Fibonacci numbers, , if is odd then for any .    Assume , are the Fibonacci numbers, for some . Aim to prove that is even.      For all if then or .    Assume and and . Aim to show that .      For all primes and for all integers and , if , then or .    Assume is prime, and are integers. Also assume that and . Aim to show that .      For all integers , is odd if and only if is odd. What two statements do you need to prove? Which one would you prove by contrapositive?    We would need to prove that for all integers :   if is odd then is even    if is odd then is odd.   Contrapositive is fitting for the second statement. Assume and is even. Show that is even.      "
 },
 {
   "id": "targets-17-4-2",
@@ -646,7 +646,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.37",
   "title": "",
-  "body": "  In each of the following statements, suppose you were going to use a proof by contrapositive. What would you assume, what would you try to prove?     For all integers , if is even then is even.      Let . For the Fibonacci numbers, , if is odd then for any .      For all if then or .      For all primes and for all integers and , if , then or .      For all integers , is odd if and only if is odd. What two statements do you need to prove? Which one would you prove by contrap    "
+  "body": "  In each of the following statements, suppose you were going to use a proof by contrapositive. What would you assume, what would you try to prove?     For all integers , if is even then is even.    Assume that is an integer and is odd. Aim to show that is odd.      Let . For the Fibonacci numbers, , if is odd then for any .    Assume , are the Fibonacci numbers, for some . Aim to prove that is even.      For all if then or .    Assume and and . Aim to show that .      For all primes and for all integers and , if , then or .    Assume is prime, and are integers. Also assume that and . Aim to show that .      For all integers , is odd if and only if is odd. What two statements do you need to prove? Which one would you prove by contrapositive?    We would need to prove that for all integers :   if is odd then is even    if is odd then is odd.   Contrapositive is fitting for the second statement. Assume and is even. Show that is even.    "
 },
 {
   "id": "targets-18",
@@ -655,7 +655,7 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "2.17",
   "title": "Learning Target 16 Practice",
-  "body": " Learning Target 16 Practice   Given a statement to be proven using a proof by contradiction, identify the assumptions to be made and the statements to be proven.    Need to know     How to negate conditional statements (e.g. if...then... statements).    What to assume at the start of a proof by contradiction.    What a contradiction is at the end of a proof by contradiction, and examples of some common contradictions.       Practice Questions     Weekly Practice 11 (just what you assume and make note of the contradictions you arrive at)      Worksheet page 92      The Learning Target 14 review (you need to know how to negate statements!)       For each of the following statements, state what you would assume in a proof by contradiction.     For all , if is odd, then cannot be expressed as the sum of even integers.          For all , if and then .          For all , if and are positive, and then .    There exists such that and .      For all natural numbers and , if and are twin primes other than and , then is a perfect square and divides .          For every real number , there exists a real number such that .           What is the goal in a proof by contradiction?      Name at least 4 examples of contradictions.     "
+  "body": " Learning Target 16 Practice   Given a statement to be proven using a proof by contradiction, identify the assumptions to be made and the statements to be proven.    Need to know     How to negate conditional statements (e.g. if...then... statements).    What to assume at the start of a proof by contradiction.    What a contradiction is at the end of a proof by contradiction, and examples of some common contradictions.       Practice Questions     Weekly Practice 11 (just what you assume and make note of the contradictions you arrive at)      Worksheet page 92      The Learning Target 14 review (you need to know how to negate statements!)       For each of the following statements, state what you would assume in a proof by contradiction.     For all , if is odd, then cannot be expressed as the sum of even integers.    Assume there exists such that is odd and can be expressed as the sum of integers.      For all , if and then .    Assume there exist such that , and .      For all , if and are positive, and then .    Assume there exists such that and are positive, and and .      For every real number , there exists a real number such that .    Assume that there exists a real number such that for all real numbers , .       What is the goal in a proof by contradiction?    To reach a statement that is obviously false (in other words a contradiction).      Name at least 4 examples of contradictions.    Lots of answers here, e.g., , is odd, and , is prime, etc.     "
 },
 {
   "id": "targets-18-4-2",
@@ -673,7 +673,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.39",
   "title": "",
-  "body": "  For each of the following statements, state what you would assume in a proof by contradiction.     For all , if is odd, then cannot be expressed as the sum of even integers.          For all , if and then .          For all , if and are positive, and then .    There exists such that and .      For all natural numbers and , if and are twin primes other than and , then is a perfect square and divides .          For every real number , there exists a real number such that .        "
+  "body": "  For each of the following statements, state what you would assume in a proof by contradiction.     For all , if is odd, then cannot be expressed as the sum of even integers.    Assume there exists such that is odd and can be expressed as the sum of integers.      For all , if and then .    Assume there exist such that , and .      For all , if and are positive, and then .    Assume there exists such that and are positive, and and .      For every real number , there exists a real number such that .    Assume that there exists a real number such that for all real numbers , .    "
 },
 {
   "id": "targets-18-4-4",
@@ -682,7 +682,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.40",
   "title": "",
-  "body": "  What is the goal in a proof by contradiction?   "
+  "body": "  What is the goal in a proof by contradiction?    To reach a statement that is obviously false (in other words a contradiction).   "
 },
 {
   "id": "targets-18-4-5",
@@ -691,7 +691,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.41",
   "title": "",
-  "body": "  Name at least 4 examples of contradictions.   "
+  "body": "  Name at least 4 examples of contradictions.    Lots of answers here, e.g., , is odd, and , is prime, etc.   "
 },
 {
   "id": "notes-week-01",
