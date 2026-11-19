@@ -16,6 +16,31 @@
     </p>
   </statement>
 </exercise>
+
+<theorem>
+  <statement>
+    <p>
+      For all integers <m>n</m>, if <m>5n^2+3</m> is even then <m>n</m> is odd.
+    </p>
+  </statement>
+</theorem>
+
+<proof>
+  <p>
+    We will use a proof by contrapositive. That is, we will prove for all integers <m>m</m> and <m>n</m>
+    if <m>n</m> is even then <m>5n^2+3</m> is odd. Let <m>n\in\Z</m> be even. Then <m>n = 2k</m> for some
+    <m>k\in\mathbb{Z}</m>. By substitution and algebra,
+      <md>
+        <mrow>5n^2+3 \amp = 5(2k)^2 + 3 </mrow>
+        <mrow> \amp = 20k^2 + 3</mrow>
+        <mrow> \amp = 2(10k^2+1)+1.</mrow>
+      </md>
+      Since <m>k</m> is an integer and the integers are closed under addition and multiplicaiton, <m>q = 10k^2+1\in\mathbb{Z}</m>
+      So <m>5n^2+3=2q+1</m>. So <m>5n^2+3</m> is odd by the definition of odd, whenever <m>n\</m> is even. Thus we have
+      proved the contrapositive and so for all integers <m>n</m>, if <m>5n^2+3</m> is even then <m>n</m> is odd.
+  </p>
+</proof>
+
 </page>
 <page>
 <exercise>
@@ -26,6 +51,49 @@
   </statement>
 </exercise>
 
+<theorem >
+  <statement>
+    <p>
+      For all integers <m>n</m>, if 3 does not divide <md>n^2-1</md> then 3 divides <m>n</m>.
+    </p>
+  </statement>
+</theorem>
+
+<proof>
+  <p>
+    We will prove the contrapositive. That is we will prove that for all integers <m>n</m> if <m>3\nmid n</m>
+    then <m>3\mid n^2-1</m>. Let <m>n\in\mathbb{Z}</m> and suppose <m>3\nmid n</m>. This means, <m>n</m> has remainder
+    <m>1</m> or <m>2</m> when divided by <m>3</m>. So we consider two cases: the first where <m>n=3k+1</m> for some <m>k\in \mathbb{Z}</m>.
+    and one where <m>n=3k+2</m> for some <m>k\in\mathbb{Z}</m>.
+  </p>
+  <p>
+    Case 1: Suppose <m>n = 3k+1</m> for some <m>k\in\mathbb{Z}</m>. Then, by algebra and substitution,
+      <md>
+        <mrow>n^2-1 \amp = (3k+1)^2-1 </mrow>
+        <mrow> \amp = 9k^2+6k+1-1</mrow>
+        <mrow> \amp = 3(3k^2+2k).</mrow>
+      </md>
+      Since <m>k</m> is an integer and the integers are closed under addition and multiplicaiton, <m>q = 3k^2+2k</m> is 
+      an integer. So <m>n^2-1 = 3q</m> and <m>3\mid n^2-1</m> when <m>n=3k+1</m>. This completes the proof of Case 1.
+  </p>
+  <p>
+    Case 2: Suppose <m> n=3k+2 </m>  for some <m>k\in\mathbb{Z}</m>. Then, by algebra and substitution,
+      <md>
+        <mrow>n^2-1 \amp = (3k+2)^2-1 </mrow>
+        <mrow> \amp = 9k^2+12k+4-1</mrow>
+        <mrow> \amp = 3(3k^2+4k+1).</mrow>
+      </md>
+      Since <m>k</m> is an integer and the integers are closed under addition and multiplicaiton, <m>q = 3k^2+4k+1</m> is 
+      an integer. So <m>n^2-1 = 3q</m> and <m>3\mid n^2-1</m> when <m>n=3k+2</m>. This completes the proof of Case 2.
+  </p>
+  <p>
+    This means that if <m>3\nmid n</m>, then <m>3\mid n^2-1</m> for all integers <m>n</m>. Thus we have proved the
+    contrapositive and for all integers <m>n</m>, if 3 does not divide <md>n^2-1</md> then 3 divides <m>n</m>.
+  </p>
+
+</proof>
+
+
 </page>
 <page>
 <exercise>
@@ -35,6 +103,56 @@
     </p>
   </statement>
 </exercise>
+
+<theorem>
+  <statement>
+    <p>
+      For all integers <m>n</m>, <m>n</m> is even if and only if <md>n^2+1</md> is odd.
+    </p>
+  </statement>
+</theorem>
+
+<proof>
+  <p>
+    This is a biconditional statement so we will prove both the forward and backward direction. That is, we will
+    prove that for all integers <m>n</m> if <m>n</m> is even then <m>n^2 + 1</m> is odd, and for all integers <m>n</m>
+    if <m>n^2+1</m> is odd then <m>n</m> is even.
+  </p>
+  <p>
+    Forward direction: for all integers <m>n</m> if <m>n</m> is even then <m>n^2 + 1</m> is odd.
+  </p>
+  <p>
+    Suppose <m>n\in\mathbb{Z}</m> is even. By definition of even, there exists <m>k\in\mathbb{Z}</m> such that
+    <m>n=2k</m>. By substitution and algebra,
+    <md>
+      n^2 + 1 = (2k)^2+1 = 4k^2 + 1 = 2(2k^2) + 1.
+    </md>
+    Since <m>k</m> is an integer and the integers are closed under addition and multiplication, <m>2k^2\in\mathbb{Z}</m>.
+    Thus, <m>n^2+1 = 2q+1</m> for the integer <m>q</m> and <m>n^2+1</m> is an odd integer. Thus we have proved
+    if <m>n</m> is an even integer then <m>n^2+1</m> is odd. This completes the proof of the forward direction.
+  </p>
+  <p>
+    Backward direction: for all integers <m>n</m> if <m>n^2+1</m> is odd then <m>n</m> is even.
+  </p>
+  <p>
+    We will prove this using the contrapositive which is, for all integers <m>n</m> if <m>n</m> is odd then
+    <m>n^2+1</m> is even. Let <m>n\in\mathbb{Z}</m>. By definition of odd, there exists an integer <m>k</m> such
+    that <m>n=2k+1</m>. By substitution and algebra
+    <md>
+      n^2 + 1 = (2k+1)^2 + 1 = 4k^2+4k+1 + 1 = 2(2k^2+2k +1).
+    </md>
+    Since <m>k</m> is an integer and integers are closed under addition and multiplication, <m>q = 2k^2+2k+1</m> is 
+    an integer. Thus, <m>n^2+1 = 2q</m> is an even integer by definition. Therefore, <m>n^2+1</m> is even whenever
+    <m>n</m> is odd and the contrapositive of the backward direction is true. Thus, for all integers <m>n</m> if 
+    <m>n^2+1</m> is odd then <m>n</m> is even. This completes the proof of the backward direction.
+  </p>
+  <p>
+    Since we have proved both directions of this biconditional statement,  for all integers <m>n</m>, 
+    <m>n</m> is even if and only if <m>n^2+1</m> is odd.
+ 
+  </p>
+</proof>
+
 
 </page>
 <page>
@@ -50,6 +168,21 @@
         If <m>a,b,</m> and <m>c</m> are natural numbers, then <md>a^2+b^2=c^2</md>.
       </p>
     </statement>
+
+    <solution>
+      <p>
+        Let <m>a=1, b=2</m> and <m>c=3</m>. Then the left side is <m>1^2+2^2 = 5</m> and the
+        right side is <m>3^2=9</m>. Since <m>a,b,c\in\mathbb{Z}</m> and <m>a^2+b^2\neq c^2</m>
+        the hypothesis is true and the conclusion is false in this case. Thus, the statement is false.
+      </p>
+      <p>
+        Integers for which this equality is true are called Pythagorean triples (because of the Pythagorean Theorem).
+        It turns out that there are no itnegers <m>a,b,</m> and <m>c</m> such that <m>a^n + b^n =c^n</m> for any
+        <m>n&gt; 2</m>. This is Fermat's last theorem. Fermat claimed this around 1637, but it was not proved
+        until 1995, over 350 years later.
+      </p>
+
+    </solution>
   </task>
   <task>
     <statement>
@@ -57,6 +190,13 @@
         If <m>n</m> is a natural number then <md>n^2+17n+17</md> is prime.
       </p>
     </statement>
+
+    <solution>
+      <p>
+        Let <m>n=1</m>. Then <m>n\in \mathbb{N}</m>. However, <m>1^2+17(1)+17 = 35 = 7\cdot 5</m> and 
+        so <m>35</m> is not prime.
+      </p>
+    </solution>
   </task>
   <task>
     <statement>
@@ -64,6 +204,15 @@
         If <m>a,b</m> are integers and <m>a\mid b</m> and <m>b\mid a</m> then <m>a=b</m>.
       </p>
     </statement>
+
+    <solution>
+      <p>
+        Let <m>a=2</m> and <m>b=-2</m>. Then <m>a,b\in\mathbb{Z}</m>. Note <m>2\mid -2</m> as 
+        <m>2(-1)=-2</m> and <m>-1 \in\mathsbb{Z}</m>. Similarly, <m>-2\mid 2</m> as <m>-2(-1)=2</m> 
+        and <m>-1 \in\mathbb{Z}</m>. Thus the hypothesis holds for this <m>a</m> and <m>b</m>. However,
+        <m>2\neq -2</m> so the conclusion is false.
+      </p>
+    </solution>
   </task>
   <task>
     <statement>
@@ -71,6 +220,13 @@
         If <m>A,B,C,</m> and <m>D</m> are sets, then <md>(A\cap B)\cup(C\cap D)=(A\cap C)\cup(B\cap D)</md>.
       </p>
     </statement>
+
+    <solution>
+      <p>
+        Let <m>A=B = \{1,2\} </m> and <m>C=D=\{3,4\}</m>. Then <m>(A\cap B)\cup(C\cap D)= \{1,2,3,4\}</m> and 
+        <m>(A\cap C)\cup(B\cap D) = \emptyset</m>. This shows this statement is false.
+      </p>
+    </solution>
   </task>
 </exercise>
 
