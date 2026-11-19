@@ -1177,7 +1177,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "3.10",
   "title": "Week 11 Weekly Practice",
-  "body": " Week 11 Weekly Practice   Due the second class of the week of November 16.    Exercise 6.5 (b) Prove that for all integers , if is even then is odd.        Exercise 6.6 (d) Prove that for all integers , if 3 does not divide then 3 divides .        Exercise 6.12(a) Prove that for all integers , is even if and only if is odd.        Exercise 6.16 The following statements are all false. For each, find a counterexample.     If and are natural numbers, then .      If is a natural number then is prime.      If are integers and and then .      If and are sets, then .       Exercise 6.14 Find an implication in a song and write down the implication as an “if, then” statement. Then write down the contrapositive. For example, the contrapositive to If a guy is a scrub, then he can’t get no love from me is If a guy can get love from me, then he is not a scrub .     "
+  "body": " Week 11 Weekly Practice   Due the second class of the week of November 16.    Exercise 6.5 (b) Prove that for all integers , if is even then is odd.      For all integers , if is even then is odd.     We will use a proof by contrapositive. That is, we will prove for all integers and if is even then is odd. Let be even. Then for some . By substitution and algebra, Since is an integer and the integers are closed under addition and multiplicaiton, So . So is odd by the definition of odd, whenever is even. Thus we have proved the contrapositive and so for all integers , if is even then is odd.       Exercise 6.6 (d) Prove that for all integers , if 3 does not divide then 3 divides .      For all integers , if 3 does not divide then 3 divides .     We will prove the contrapositive. That is we will prove that for all integers if then . Let and suppose . This means, has remainder or when divided by . So we consider two cases: the first where for some . and one where for some .  Case 1: Suppose for some . Then, by algebra and substitution, Since is an integer and the integers are closed under addition and multiplicaiton, is an integer. So and when . This completes the proof of Case 1.  Case 2: Suppose for some . Then, by algebra and substitution, Since is an integer and the integers are closed under addition and multiplicaiton, is an integer. So and when . This completes the proof of Case 2.  This means that if , then for all integers . Thus we have proved the contrapositive and for all integers , if 3 does not divide then 3 divides .       Exercise 6.12(a) Prove that for all integers , is even if and only if is odd.      For all integers , is even if and only if is odd.     This is a biconditional statement so we will prove both the forward and backward direction. That is, we will prove that for all integers if is even then is odd, and for all integers if is odd then is even.  Forward direction: for all integers if is even then is odd.  Suppose is even. By definition of even, there exists such that . By substitution and algebra, Since is an integer and the integers are closed under addition and multiplication, . Thus, for the integer and is an odd integer. Thus we have proved if is an even integer then is odd. This completes the proof of the forward direction.  Backward direction: for all integers if is odd then is even.  We will prove this using the contrapositive which is, for all integers if is odd then is even. Let . By definition of odd, there exists an integer such that . By substitution and algebra Since is an integer and integers are closed under addition and multiplication, is an integer. Thus, is an even integer by definition. Therefore, is even whenever is odd and the contrapositive of the backward direction is true. Thus, for all integers if is odd then is even. This completes the proof of the backward direction.  Since we have proved both directions of this biconditional statement, for all integers , is even if and only if is odd.       Exercise 6.16 The following statements are all false. For each, find a counterexample.     If and are natural numbers, then .    Let and . Then the left side is and the right side is . Since and the hypothesis is true and the conclusion is false in this case. Thus, the statement is false.  Integers for which this equality is true are called Pythagorean triples (because of the Pythagorean Theorem). It turns out that there are no itnegers and such that for any . This is Fermat's last theorem. Fermat claimed this around 1637, but it was not proved until 1995, over 350 years later.      If is a natural number then is prime.    Let . Then . However, and so is not prime.      If are integers and and then .    Let and . Then . Note as and . Similarly, as and . Thus the hypothesis holds for this and . However, so the conclusion is false.      If and are sets, then .    Let and . Then and . This shows this statement is false.       Exercise 6.14 Find an implication in a song and write down the implication as an “if, then” statement. Then write down the contrapositive. For example, the contrapositive to If a guy is a scrub, then he can’t get no love from me is If a guy can get love from me, then he is not a scrub .     "
 },
 {
   "id": "WP-11-2-2",
@@ -1189,6 +1189,24 @@ var ptx_lunr_docs = [
   "body": "  Exercise 6.5 (b) Prove that for all integers , if is even then is odd.   "
 },
 {
+  "id": "WP-11-2-3",
+  "level": "2",
+  "url": "WP-11.html#WP-11-2-3",
+  "type": "Theorem",
+  "number": "3.28",
+  "title": "",
+  "body": "  For all integers , if is even then is odd.   "
+},
+{
+  "id": "WP-11-2-4",
+  "level": "2",
+  "url": "WP-11.html#WP-11-2-4",
+  "type": "Proof",
+  "number": "1",
+  "title": "",
+  "body": " We will use a proof by contrapositive. That is, we will prove for all integers and if is even then is odd. Let be even. Then for some . By substitution and algebra, Since is an integer and the integers are closed under addition and multiplicaiton, So . So is odd by the definition of odd, whenever is even. Thus we have proved the contrapositive and so for all integers , if is even then is odd.  "
+},
+{
   "id": "WP-11-3-1",
   "level": "2",
   "url": "WP-11.html#WP-11-3-1",
@@ -1196,6 +1214,24 @@ var ptx_lunr_docs = [
   "number": "3.10.2",
   "title": "",
   "body": "  Exercise 6.6 (d) Prove that for all integers , if 3 does not divide then 3 divides .   "
+},
+{
+  "id": "WP-11-3-2",
+  "level": "2",
+  "url": "WP-11.html#WP-11-3-2",
+  "type": "Theorem",
+  "number": "3.29",
+  "title": "",
+  "body": "  For all integers , if 3 does not divide then 3 divides .   "
+},
+{
+  "id": "WP-11-3-3",
+  "level": "2",
+  "url": "WP-11.html#WP-11-3-3",
+  "type": "Proof",
+  "number": "1",
+  "title": "",
+  "body": " We will prove the contrapositive. That is we will prove that for all integers if then . Let and suppose . This means, has remainder or when divided by . So we consider two cases: the first where for some . and one where for some .  Case 1: Suppose for some . Then, by algebra and substitution, Since is an integer and the integers are closed under addition and multiplicaiton, is an integer. So and when . This completes the proof of Case 1.  Case 2: Suppose for some . Then, by algebra and substitution, Since is an integer and the integers are closed under addition and multiplicaiton, is an integer. So and when . This completes the proof of Case 2.  This means that if , then for all integers . Thus we have proved the contrapositive and for all integers , if 3 does not divide then 3 divides .  "
 },
 {
   "id": "WP-11-4-1",
@@ -1207,13 +1243,31 @@ var ptx_lunr_docs = [
   "body": "  Exercise 6.12(a) Prove that for all integers , is even if and only if is odd.   "
 },
 {
+  "id": "WP-11-4-2",
+  "level": "2",
+  "url": "WP-11.html#WP-11-4-2",
+  "type": "Theorem",
+  "number": "3.30",
+  "title": "",
+  "body": "  For all integers , is even if and only if is odd.   "
+},
+{
+  "id": "WP-11-4-3",
+  "level": "2",
+  "url": "WP-11.html#WP-11-4-3",
+  "type": "Proof",
+  "number": "1",
+  "title": "",
+  "body": " This is a biconditional statement so we will prove both the forward and backward direction. That is, we will prove that for all integers if is even then is odd, and for all integers if is odd then is even.  Forward direction: for all integers if is even then is odd.  Suppose is even. By definition of even, there exists such that . By substitution and algebra, Since is an integer and the integers are closed under addition and multiplication, . Thus, for the integer and is an odd integer. Thus we have proved if is an even integer then is odd. This completes the proof of the forward direction.  Backward direction: for all integers if is odd then is even.  We will prove this using the contrapositive which is, for all integers if is odd then is even. Let . By definition of odd, there exists an integer such that . By substitution and algebra Since is an integer and integers are closed under addition and multiplication, is an integer. Thus, is an even integer by definition. Therefore, is even whenever is odd and the contrapositive of the backward direction is true. Thus, for all integers if is odd then is even. This completes the proof of the backward direction.  Since we have proved both directions of this biconditional statement, for all integers , is even if and only if is odd.  "
+},
+{
   "id": "WP-11-5-1",
   "level": "2",
   "url": "WP-11.html#WP-11-5-1",
   "type": "Worksheet Exercise",
   "number": "3.10.4",
   "title": "",
-  "body": "  Exercise 6.16 The following statements are all false. For each, find a counterexample.     If and are natural numbers, then .      If is a natural number then is prime.      If are integers and and then .      If and are sets, then .    "
+  "body": "  Exercise 6.16 The following statements are all false. For each, find a counterexample.     If and are natural numbers, then .    Let and . Then the left side is and the right side is . Since and the hypothesis is true and the conclusion is false in this case. Thus, the statement is false.  Integers for which this equality is true are called Pythagorean triples (because of the Pythagorean Theorem). It turns out that there are no itnegers and such that for any . This is Fermat's last theorem. Fermat claimed this around 1637, but it was not proved until 1995, over 350 years later.      If is a natural number then is prime.    Let . Then . However, and so is not prime.      If are integers and and then .    Let and . Then . Note as and . Similarly, as and . Thus the hypothesis holds for this and . However, so the conclusion is false.      If and are sets, then .    Let and . Then and . This shows this statement is false.    "
 },
 {
   "id": "WP-11-5-2",
@@ -3382,7 +3436,7 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "7.3",
   "title": "Practicing Whole Proofs By Contradiction",
-  "body": " Practicing Whole Proofs By Contradiction   Recall a real number is rational if for some with . Otherwise, we say is irrational . Recall that the set of rationals is denoted (for quotient).  You may use any of the following as lemmas without proof. We will prove soon.    The real number is irrational.      If , if then or .      For all and , if and then .     Work to prove the theorems in .  What are some examples of contradictions you can get?     Additional space to work.   "
+  "body": " Practicing Whole Proofs By Contradiction   Recall a real number is rational if for some with . Otherwise, we say is irrational . Recall that the set of rationals is denoted (for quotient).  You may use any of the following as lemmas without proof. We will prove soon.    The real number is irrational.      If , if then or .      For all and , if and then .      For all real numbers and , if and , then .     We will use a proof by contradiction. So we assume the theorem is false. That is, we assume there exist real numbers and such that By algebra, This is a contradiction because we assumed and , so . Thus, the negation of the theorem is false and we conclude for all real numbers and , if and , then .       For each real number , is irrational or is irrational.     We will use a proof by contradiction. So we assume the theorem is false. That is, we assume that there exists such that is rational and is rational. Since rationals are closed under addition is also rational. Since rationals are closed under multiplication, and and are rational then is rational. This is a contradiction as we know is irrational. Thus, the negation of the theorem is false and the theorem is true. That is, for each real number , is irrational or is irrational.       For each real number , if is irrational, then is irrational.     We will use a proof by contradiction. So we assume the theorem is false. That is, we assume that there exists a real number such that is irrational and is rational. Since is rational, there exist and such that . Cubing both sides, and so is rational, which contradicts our assumption that is rational.    Note this proof could also be done by contrapositive. In general, if you start by assuming the conclusion is false (because of the negation) and you end up contradicting the hypothesis, you were just doing a proof by contrapositive. I sometimes call this contradiction-itis . Once one learns proof by contradiction, one sometimes overuses it when other proof techniques would be clearer.       For each , if and then .     We will use a proof by contradiction. So we assume the theorem is false. That is, we assume that there exists such that and and . Then However, since and , . So we have reached a contradiction and the negation is false. Thus, for each , if and then .       For all integers and , if , then and .     We will use a proof by contradiction. So we assume the theorem is false, or that there exist integers and such that and or . Without loss of generality, assume . By definition of divides, there exists an integer such that . Then . By closure, so . However, we assumed , so we've reached a contradiction. Thus, the negation of the theorem is false and for all integers and , if , then and .       For all integers and , if then or .     We will use proof by contradiction so we assume the theorem is false. That is, suppose that there exist integers and such that and and . Since we know there exists with such that . Similarly, since , there exist with such that . By substitution and algebra, Now, consider the possibilites for and . There is no ordered pair where . So has a nonzero remainder when divided by . This is a contradiction, since we assumed . Thus the negation is false and for all integers and , if then or .    Another case of contradictionitis! Can you use the contrapositive here.    "
 },
 {
   "id": "ch-contradiction-4-2-1",
@@ -3424,10 +3478,127 @@ var ptx_lunr_docs = [
   "id": "ch-contradiction-4-2-6",
   "level": "2",
   "url": "ch-contradiction-4.html#ch-contradiction-4-2-6",
-  "type": "Activity",
+  "type": "Theorem",
   "number": "7.8",
   "title": "",
-  "body": " Work to prove the theorems in .  What are some examples of contradictions you can get?  "
+  "body": "  For all real numbers and , if and , then .   "
+},
+{
+  "id": "ch-contradiction-4-2-7",
+  "level": "2",
+  "url": "ch-contradiction-4.html#ch-contradiction-4-2-7",
+  "type": "Proof",
+  "number": "1",
+  "title": "",
+  "body": " We will use a proof by contradiction. So we assume the theorem is false. That is, we assume there exist real numbers and such that By algebra, This is a contradiction because we assumed and , so . Thus, the negation of the theorem is false and we conclude for all real numbers and , if and , then .  "
+},
+{
+  "id": "ch-contradiction-4-3-1",
+  "level": "2",
+  "url": "ch-contradiction-4.html#ch-contradiction-4-3-1",
+  "type": "Theorem",
+  "number": "7.9",
+  "title": "",
+  "body": "  For each real number , is irrational or is irrational.   "
+},
+{
+  "id": "ch-contradiction-4-3-2",
+  "level": "2",
+  "url": "ch-contradiction-4.html#ch-contradiction-4-3-2",
+  "type": "Proof",
+  "number": "1",
+  "title": "",
+  "body": " We will use a proof by contradiction. So we assume the theorem is false. That is, we assume that there exists such that is rational and is rational. Since rationals are closed under addition is also rational. Since rationals are closed under multiplication, and and are rational then is rational. This is a contradiction as we know is irrational. Thus, the negation of the theorem is false and the theorem is true. That is, for each real number , is irrational or is irrational.  "
+},
+{
+  "id": "ch-contradiction-4-4-1",
+  "level": "2",
+  "url": "ch-contradiction-4.html#ch-contradiction-4-4-1",
+  "type": "Theorem",
+  "number": "7.10",
+  "title": "",
+  "body": "  For each real number , if is irrational, then is irrational.   "
+},
+{
+  "id": "ch-contradiction-4-4-2",
+  "level": "2",
+  "url": "ch-contradiction-4.html#ch-contradiction-4-4-2",
+  "type": "Proof",
+  "number": "1",
+  "title": "",
+  "body": " We will use a proof by contradiction. So we assume the theorem is false. That is, we assume that there exists a real number such that is irrational and is rational. Since is rational, there exist and such that . Cubing both sides, and so is rational, which contradicts our assumption that is rational.  "
+},
+{
+  "id": "ch-contradiction-4-4-3",
+  "level": "2",
+  "url": "ch-contradiction-4.html#ch-contradiction-4-4-3",
+  "type": "Remark",
+  "number": "7.11",
+  "title": "",
+  "body": " Note this proof could also be done by contrapositive. In general, if you start by assuming the conclusion is false (because of the negation) and you end up contradicting the hypothesis, you were just doing a proof by contrapositive. I sometimes call this contradiction-itis . Once one learns proof by contradiction, one sometimes overuses it when other proof techniques would be clearer.  "
+},
+{
+  "id": "ch-contradiction-4-5-1",
+  "level": "2",
+  "url": "ch-contradiction-4.html#ch-contradiction-4-5-1",
+  "type": "Theorem",
+  "number": "7.12",
+  "title": "",
+  "body": "  For each , if and then .   "
+},
+{
+  "id": "ch-contradiction-4-5-2",
+  "level": "2",
+  "url": "ch-contradiction-4.html#ch-contradiction-4-5-2",
+  "type": "Proof",
+  "number": "1",
+  "title": "",
+  "body": " We will use a proof by contradiction. So we assume the theorem is false. That is, we assume that there exists such that and and . Then However, since and , . So we have reached a contradiction and the negation is false. Thus, for each , if and then .  "
+},
+{
+  "id": "ch-contradiction-4-6-1",
+  "level": "2",
+  "url": "ch-contradiction-4.html#ch-contradiction-4-6-1",
+  "type": "Theorem",
+  "number": "7.13",
+  "title": "",
+  "body": "  For all integers and , if , then and .   "
+},
+{
+  "id": "ch-contradiction-4-6-2",
+  "level": "2",
+  "url": "ch-contradiction-4.html#ch-contradiction-4-6-2",
+  "type": "Proof",
+  "number": "1",
+  "title": "",
+  "body": " We will use a proof by contradiction. So we assume the theorem is false, or that there exist integers and such that and or . Without loss of generality, assume . By definition of divides, there exists an integer such that . Then . By closure, so . However, we assumed , so we've reached a contradiction. Thus, the negation of the theorem is false and for all integers and , if , then and .  "
+},
+{
+  "id": "ch-contradiction-4-7-1",
+  "level": "2",
+  "url": "ch-contradiction-4.html#ch-contradiction-4-7-1",
+  "type": "Theorem",
+  "number": "7.14",
+  "title": "",
+  "body": "  For all integers and , if then or .   "
+},
+{
+  "id": "ch-contradiction-4-7-2",
+  "level": "2",
+  "url": "ch-contradiction-4.html#ch-contradiction-4-7-2",
+  "type": "Proof",
+  "number": "1",
+  "title": "",
+  "body": " We will use proof by contradiction so we assume the theorem is false. That is, suppose that there exist integers and such that and and . Since we know there exists with such that . Similarly, since , there exist with such that . By substitution and algebra, Now, consider the possibilites for and . There is no ordered pair where . So has a nonzero remainder when divided by . This is a contradiction, since we assumed . Thus the negation is false and for all integers and , if then or .  "
+},
+{
+  "id": "ch-contradiction-4-7-3",
+  "level": "2",
+  "url": "ch-contradiction-4.html#ch-contradiction-4-7-3",
+  "type": "Remark",
+  "number": "7.15",
+  "title": "",
+  "body": " Another case of contradictionitis! Can you use the contrapositive here.  "
 },
 {
   "id": "ch-contradiction-5",
@@ -3452,7 +3623,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-contradiction-5.html#lem-squareeven",
   "type": "Lemma",
-  "number": "7.9",
+  "number": "7.16",
   "title": "",
   "body": "  For all integers , is even if and only if is even.   "
 },
@@ -3461,7 +3632,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-contradiction-5.html#ch-contradiction-5-3-3",
   "type": "Theorem",
-  "number": "7.10",
+  "number": "7.17",
   "title": "",
   "body": "  The real number is irrational.   "
 },
@@ -3479,7 +3650,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-contradiction-5.html#con-dividesfalse",
   "type": "Conjecture",
-  "number": "7.11",
+  "number": "7.18",
   "title": "",
   "body": "  For all integers and , if , then or given integers , , .   "
 },
@@ -3488,7 +3659,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-contradiction-5.html#ch-contradiction-5-4-2",
   "type": "Activity",
-  "number": "7.12",
+  "number": "7.19",
   "title": "",
   "body": "  Does seem true or false? Try to prove or disprove. (I think one skill of a mathematician is holding two contradictory ideas at the same time - we don't know if something is true or false yet, so we try to alternate proving and disproving.)   "
 },
@@ -3497,7 +3668,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-contradiction-5.html#ch07-thm-primedivisor",
   "type": "Theorem",
-  "number": "7.13",
+  "number": "7.20",
   "title": "The Prime Divisor Theorem.",
   "body": " The Prime Divisor Theorem   Let , and be natural numbers. If and is prime, then or .   "
 },
@@ -3506,7 +3677,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-contradiction-5.html#ch-contradiction-5-5-1",
   "type": "Theorem",
-  "number": "7.14",
+  "number": "7.21",
   "title": "",
   "body": "  The real number is irrational.   "
 },
@@ -3524,7 +3695,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-contradiction-5.html#ch-contradiction-5-5-3",
   "type": "Activity",
-  "number": "7.15",
+  "number": "7.22",
   "title": "",
   "body": " We have now proved and are irrational. What other numbers can you prove are irrational using the same strategy and ? Can you prove , , and are all irrational?  "
 },
@@ -3542,7 +3713,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ch-contradiction-6.html#ch-contradiction-6-2",
   "type": "Activity",
-  "number": "7.16",
+  "number": "7.23",
   "title": "",
   "body": "  Try to determine if the following conjectures are true on false. If true, work on the proving them by contradiction. Otherwise, find a counterexample.     For each real number , if then .    Let and be integers. If and and then the equation has no solution in which both and are integers.    For each positive real number , if is irrational then is irrational.      "
 },
