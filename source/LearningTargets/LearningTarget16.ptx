@@ -83,7 +83,8 @@
                 </statement>
                 <solution>
                    <p>
-                    
+                    Assume there exists <m>n\in\mathbb{Z}</m> such that <m>n</m> is odd and <m>n</m> can 
+                    be expressed as the sum of <m>3</m> integers.
                    </p>
                 </solution>
             </task>
@@ -96,6 +97,8 @@
                 </statement>
                 <solution>
                     <p>
+                        Assume there exist <m>a,b\in\mathbb{R}</m> such that <m>a\neq 0</m>, <m>b\neq 0</m>
+                        and <m>(a+b)^2 = a^2+b^2</m>.
                                    </p>
                 </solution>
             </task>
@@ -109,24 +112,14 @@
                 </statement>
                 <solution>
                     <p>
-                       There exists <m>r\in \mathbb{R}</m> such that <m>r&gt; 2</m> and  <m>r^2 \leq 4</m>.
+                        Assume there exists <m>x,y\in\mathbb{R}</m> such that  <m>x</m> and <m>y</m> are positive,
+                                               <m>x-4y&lt;y-3x</m> and <m>3x&gt;2y</m> and <m>12x^{2}+10y^{2}\geq 24xy</m>.
                     </p>
                 </solution>
             </task>
 
-            <task>
-                <statement>
-                    <p>
-                         For all natural numbers <m>p</m> and <m>q</m>, if <m>p</m> and <m>q</m> are twin
-                                                  primes other than <m>3</m> and <m>5</m>, then <m>pq+1</m> is a perfect square
-                                                  and <m>36</m> divides <m>pq+1</m>.
-                    </p>
-                </statement>
-                <solution>
-                    <p>
-                    </p>
-                </solution>
-            </task>
+            
+
 
             <task>
                 <statement>
@@ -137,6 +130,8 @@
                 </statement>
                 <solution>
                     <p>
+                        Assume that there exists a real number <m>x</m> such that for all real numbers
+                        <m>y</m>, <m>x+y\neq 0</m>.
                     </p>
                 </solution>
             </task>
@@ -153,6 +148,11 @@
                         What is the goal in a proof by contradiction?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        To reach a statement that is obviously false (in other words a contradiction).
+                    </p>
+                </solution>
              </exercise>
 
              <exercise>
@@ -161,6 +161,12 @@
                         Name at least 4 examples of contradictions.
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        Lots of answers here, e.g., <m>0=1</m>, <m>2</m> is odd, <m>n\in\mathbb{Z}</m> and <m>n^2 &lt; 0</m>,
+                        <m>4</m> is prime, etc.
+                    </p>
+                </solution>
              </exercise>
        </paragraphs>
 

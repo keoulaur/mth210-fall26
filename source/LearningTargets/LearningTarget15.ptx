@@ -76,8 +76,13 @@
                       For all integers <m>n</m>, if <m>n^{2}</m> is even then <m>n</m>
                                         is even.
                 </p>
+            
             </statement>
-
+            <solution>
+                <p>
+                    Assume that <m>n</m> is an integer and <m>n</m> is odd. Aim to show that <m>n^2</m> is odd.
+                </p>
+            </solution>
 
         </task>
 
@@ -89,7 +94,16 @@
                                         then <m>f_{n}\neq 3k</m> for any <m>k\in \mathbb{N}</m>.
                 </p>
             </statement>
+
+            <solution> 
+                <p>
+                    Assume <m>n\in\mathbb{N}</m>, <m>f_n</m> are the Fibonacci numbers,
+                     <m>f_n = 3k</m> for some <m>k\in\mahthbb{Z}</m>. Aim to prove that <m>f_n</m> is even.
+                </p> 
+            </solution>
         </task>
+
+
         <task>
             <statement>
                 <p>
@@ -97,6 +111,12 @@
                                         <m>x\ge 1</m> or <m>y\ge 1</m>.
                 </p>
             </statement>
+            <solution>
+                <p>
+                    Assume <m>x,y\n\matthbb{Z}</m> and <m>x &lt; 1</m> and <m>y&lt; 1</m>. Aim to 
+                    show that <m>x+y &lt; 2</m>.
+                </p>
+            </solution>
         </task>
 
         <task>
@@ -107,6 +127,13 @@
                                         <m>a\mid c</m>.
                 </p>
             </statement>
+
+            <solution>
+                <p>
+                    Assume <m>a</m> is prime, and <m>b,c</m> are integers. Also assume that <m>a\nmid b</m>  and <m>a\nmid c</m>.
+                    Aim to show that <m>a\nmid bc</m>.
+                </p>
+            </solution>
         </task>
 
         <task>
@@ -115,9 +142,29 @@
                         For all integers <m>n</m>, <m>n</m> is odd if and only if
                                         <m>n^{2}+n+6</m> is odd.
                                         What two statements do you need to prove?
-                                        Which one would you prove by contrap
+                                        Which one would you prove by contrapositive?
                 </p>
             </statement>
+
+            <solution>
+                <p>
+                    We would need to prove that for all integers <m>n</m>:
+                    <ol>
+                        <li>
+                            <p>
+                                if <m>n</m> is odd then <m>n^2+n+6</m> is even
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                if <m>n^2+n+6</m> is odd then <m>n</m> is odd.
+                            </p>
+                        </li>
+                    </ol>
+                   Contrapositive is fitting for the second statement. Assume <m>n\in\mathbb{Z}</m>
+                   and <m>n</m> is even. Show that <m>n^2+n+6</m> is even.
+                </p>
+            </solution>
         </task>
 
             
