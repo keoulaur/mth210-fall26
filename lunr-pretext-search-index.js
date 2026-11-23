@@ -1333,6 +1333,51 @@ var ptx_lunr_docs = [
   "body": " Exercise 7.15   Prove that if and are positive real numbers, then . This is called the “AM-GM” inequality for “arithmetic mean” and “geometric mean”. Notice the left side is how you would take the average or mean of two numbers. The right side is the geometric mean. More info at: There's a proof there, but you should write your own proof using contradiction.    "
 },
 {
+  "id": "WP-13",
+  "level": "1",
+  "url": "WP-13.html",
+  "type": "Worksheet",
+  "number": "3.12",
+  "title": "Week 13 Weekly Practice",
+  "body": " Week 13 Weekly Practice   Due the second class of the week of November 30.    Give two reasons why where is not a function.      For each of the following, use the words “image” and “pre-image” in a sentence or two about the function. Then, determine the range of the function. Is the function a surjection? If not, how could you change the co-domain to make the function a surjection?     The function is defined as .      The function is defined by . This is the floor function, where you round down from the number. E.g., and .         Define by . Determine whether this is an injection, surjection, bijection, or none of these. Prove your answers.      Define where . Determine whether this is an injection, surjection, bijection, or none of these. Prove your answers.     "
+},
+{
+  "id": "WP-13-2-2",
+  "level": "2",
+  "url": "WP-13.html#WP-13-2-2",
+  "type": "Worksheet Exercise",
+  "number": "3.12.1",
+  "title": "",
+  "body": "  Give two reasons why where is not a function.   "
+},
+{
+  "id": "WP-13-2-3",
+  "level": "2",
+  "url": "WP-13.html#WP-13-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3.12.2",
+  "title": "",
+  "body": "  For each of the following, use the words “image” and “pre-image” in a sentence or two about the function. Then, determine the range of the function. Is the function a surjection? If not, how could you change the co-domain to make the function a surjection?     The function is defined as .      The function is defined by . This is the floor function, where you round down from the number. E.g., and .    "
+},
+{
+  "id": "WP-13-3-1",
+  "level": "2",
+  "url": "WP-13.html#WP-13-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3.12.3",
+  "title": "",
+  "body": "  Define by . Determine whether this is an injection, surjection, bijection, or none of these. Prove your answers.   "
+},
+{
+  "id": "WP-13-3-2",
+  "level": "2",
+  "url": "WP-13.html#WP-13-3-2",
+  "type": "Worksheet Exercise",
+  "number": "3.12.4",
+  "title": "",
+  "body": "  Define where . Determine whether this is an injection, surjection, bijection, or none of these. Prove your answers.   "
+},
+{
   "id": "pp-instructions",
   "level": "1",
   "url": "pp-instructions.html",
