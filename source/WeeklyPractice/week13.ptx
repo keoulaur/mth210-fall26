@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="WP-13">
+    <title>Week 13 Weekly Practice</title>
+   <page>
+
+    <p>
+        Due the second class of the week of November 30.
+    </p>
+
+    <exercise workspace="1in">
+
+      <statement>
+        <p>
+            Give two reasons why <m>f:\mathbb{R} \to \mathbb{R}</m> where <m>f(x)=\pm \sqrt{x}</m> is not a function. 
+        </p>
+      </statement>
+    </exercise>
+
+
+<exercise workspace="2in">
+  <introduction>
+    <p>
+      For each of the following, use the words “image” and “pre-image” in a sentence or two about the function. 
+      Then, determine the range of the function.
+      Is the function a surjection? If not, how could you change the co-domain to make the function a surjection? 
+    </p>
+  </introduction>
+  <task>
+    <statement>
+      <p>
+      The function <m>f:\mathbb{N}\to\mathbb{Z}</m> is defined as <m>f(n)=n-5</m>.
+      </p>
+    </statement>
+  </task>
+  <task>
+    <statement>
+      <p>
+        The function <m>g:\mathbb{R} \to \mathbb{R}</m> is defined by <m>g(x) = \lfloor x \rfloor</m>. This is 
+        the floor function, where you round down from the number. E.g., <m>\lfloor 3.7\rfloor = 3</m> and 
+        <m>\lfloor -4.2 \rfloor = -5</m>.
+      </p>
+    </statement>
+  </task>
+</exercise>
+  </page>
+  <page>
+  
+<exercise workspace = "2in">
+<statement>
+  <p>
+    Define <m>f:\mathbb{R} \to \mathbb{R}</m> by <m>f(x)=2x+7</m>. 
+    Determine whether this is an injection, surjection, bijection, or none of these. Prove your answers.
+  </p>
+</statement>
+</exercise>
+
+<exercise workspace="2in">
+  <statement>
+    <p>
+      Define <m>k:\mathbb{N}\to \mathbb{N}</m> where <m>k(x)=x^2</m>. 
+      Determine whether this is an injection, surjection, bijection, or none of these. Prove your answers.
+    </p>
+  </statement>
+</exercise>
+</page>
+
+  </worksheet>
