@@ -67,7 +67,7 @@
   <statement>
     <p>
 Prove that if <m>x</m> and <m>y</m> are positive real numbers, 
-then <md>\frac{x+y}{2xy} &lt; 2xy</md>.<fn>  This is called the “AM-GM” inequality for “arithmetic mean” and “geometric mean”. 
+then <md>\frac{x+y}{2} &gt; \sqrt{xy}</md>.<fn>  This is called the “AM-GM” inequality for “arithmetic mean” and “geometric mean”. 
   Notice the left side is how you would take the average or mean of two numbers. 
   The right side is the geometric mean. More info at: 
   <url href="https://en.wikipedia.org/wiki/AM%E2%80%93GM_inequality" visual = "https://en.wikipedia.org/wiki/AM%E2%80%93GM_inequality"/> 
