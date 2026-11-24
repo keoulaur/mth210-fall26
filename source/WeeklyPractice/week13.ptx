@@ -69,7 +69,7 @@
         The image of <m>\lfloor 3.7\rfloor</m> is <m>3</m>. A preimage of <m>3</m> is <m>3.7</m>. The 
         set of all preimages of <m>3</m> is the set of all real numbers that round down to <m>3</m>, in other
         words the interval <m>[3,4)</m>. This is not a surjection as the only elements of <m>\mathbb{R}</m> that 
-        are in the range are integers. We could make <m>g</m> a surjection by choosing the codomain to be <m>\matbb{Z}</m>.
+        are in the range are integers. We could make <m>g</m> a surjection by choosing the codomain to be <m>\mathbb{Z}</m>.
       </p>
     </solution>
   </task>
@@ -106,7 +106,7 @@
     such that <m>f(x) = y</m>. Choose <m>x = \frac{y+7}{2}</m>. Then 
     <m>x\in\mathbb{R}</m> and 
     <md>  
-      <mrow> f(\frac{y+7}{2}) \amp = 2\left(\frac{y+7}{2}\right) - 7 </mrow>
+      <mrow> f\left(\frac{y+7}{2}\right) \amp = 2\left(\frac{y+7}{2}\right) - 7 </mrow>
       <mrow>  \amp = y+7 - 7 </mrow>
       <mrow> \amp = y. </mrow>
     </md>
