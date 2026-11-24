@@ -15,6 +15,15 @@
             Give two reasons why <m>f:\mathbb{R} \to \mathbb{R}</m> where <m>f(x)=\pm \sqrt{x}</m> is not a function. 
         </p>
       </statement>
+
+      <solution>
+        <p>
+          By the definition of function, every element in the domain needs to map to exactly one element of the codomain.
+          This is not a function as some numbers, like <m>4</m> map to both positive 2 and negative 2 (splitting) and some 
+          of the elements in the domain don't map to any elemenet in the codomain, like <m>-4</m>, as <m>\sqrt{-4}\in \mathbb{C}\setminus \mathbb{R}</m>.
+
+        </p>
+      </solution>
     </exercise>
 
 
@@ -32,6 +41,20 @@
       The function <m>f:\mathbb{N}\to\mathbb{Z}</m> is defined as <m>f(n)=n-5</m>.
       </p>
     </statement>
+    <solution>
+      <p>
+        The image of <m>1</m> is <m>f(1)=-4</m>. So a preimage of <m>-4</m> is <m>1</m>.
+      </p>
+      <p>
+        This function is 
+        not a surjection as there exists <m>y\in \mathbb{Z}</m> such that for all <m>x\in\mathbb{N}</m>,
+        <m>f(x)\neq y</m>. In particular, suppose that <m>y = -5</m>. Then, solving <m>-5 = f(n)</m> or <m>-5= n-5</m>
+        we obtain <m>n=0</m>. But <m>0\notin \mathbb{N}</m> and so no element of <m>\mathbb{N}</m> maps to <m>-5</m>.
+      </p>
+      <p>
+        To make <m>f</m> a surjection, we could change the codomain to be <m>\{ x\in \mathbb{Z}: x\geq -4</m>.
+      </p>
+    </solution>
   </task>
   <task>
     <statement>
@@ -41,6 +64,14 @@
         <m>\lfloor -4.2 \rfloor = -5</m>.
       </p>
     </statement>
+    <solution>
+      <p>
+        The image of <m>\lfloor 3.7\rfloor</m> is <m>3</m>. A preimage of <m>3</m> is <m>3.7</m>. The 
+        set of all preimages of <m>3</m> is the set of all real numbers that round down to <m>3</m>, in other
+        words the interval <m>[3,4)</m>. This is not a surjection as the only elements of <m>\mathbb{R}</m> that 
+        are in the range are integers. We could make <m>g</m> a surjection by choosing the codomain to be <m>\matbb{Z}</m>.
+      </p>
+    </solution>
   </task>
 </exercise>
   </page>
@@ -53,6 +84,35 @@
     Determine whether this is an injection, surjection, bijection, or none of these. Prove your answers.
   </p>
 </statement>
+
+<solution>
+  <p>
+    The function <m>f: \mathbb{R} \to \mathbb{R}</m> defined by <m>f(x)=2x+7</m> is a bijection. We will first 
+    show <m>f</m> is an injection and then we will show <m>f</m> is a surjection.
+  </p>
+  <p>
+    To show <m>f</m> is an injection, suppose that <m>x_1 </m> and <m>x_2</m> are real numbers such that 
+    <m>f(x_1)=f(x_2)</m>. We will show <m>x_1 = x_2</m>. By definition of the function and algebra,
+    <md>
+      <mrow>f(x_1) \amp = f(x_2)</mrow>
+      <mrow> 2x_1 + 7  \amp = 2x_2+7 </mrow>
+      <mrow> 2x_1 \amp = 2x_2</mrow>
+      <mrow> x_1 \amp = x_2. </mrow>
+    </md>
+    We have shown that for all <m>x_1,x_2\in\mathbb{R}</m> if <m>f(x_1)=f(x_2)</m> then <m>x_1=x_2.</m>
+  </p>
+  <p>
+    To show <m>f</m> is a surjection, let <m>y\in\mathbb{R}</m>. We will find <m>x\in\mathbb{R}</m>
+    such that <m>f(x) = y</m>. Choose <m>x = \frac{y+7}{2}</m>. Then 
+    <m>x\in\mathbb{R}</m> and 
+    <md>  
+      <mrow> f(\frac{y+7}{2}) \amp = 2\left(\frac{y+7}{2}\right) - 7 </mrow>
+      <mrow>  \amp = y+7 - 7 </mrow>
+      <mrow> \amp = y. </mrow>
+    </md>
+    So for an arbitrary <m>y\in\mathbb{R}</m> we have found <m>x\in\mathbb{R}</m> such that <m>f(x)=y.</m>
+  </p>
+</solution>
 </exercise>
 
 <exercise workspace="2in">
@@ -62,6 +122,20 @@
       Determine whether this is an injection, surjection, bijection, or none of these. Prove your answers.
     </p>
   </statement>
+
+  <solution>
+    <p>
+      The function <m>k</m> is an injection, but not a surjection.
+    </p>
+    <p>
+      To show the function <m>k</m> is not a surjection, suppose <m>y = 2</m>. If <m>k(x)=2</m> then <m>x=\sqrt{2}\notin \mathbb{N}</m>
+      and so there is no element of the domain that has image <m>2</m>. Thus, <m>k</m> is not a surjection.
+    </p>
+    <p>
+      However, the function <m>k</m> is an injection. Suppose <m>x_1,x_2 \in\mathbb{N}</m> such that <m>k(x_1)=k(x_2)</m>.
+      Then <m>x_1^2 = x_2^2</m>. Since <m>x_1, x_2\in \mathbb{N}</m>, this implies <m>x_1=x_2.</m>
+    </p>
+  </solution>
 </exercise>
 </page>
 
