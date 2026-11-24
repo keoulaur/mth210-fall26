@@ -16,6 +16,22 @@
              Prove that if <m>a</m> is rational and <m>ab</m> is irrational, then <m>b</m> is irrational.
           </p>
         </statement>
+
+        <solution>
+          <p>
+            We will use a proof by contradiction. So assume the negation which means there exist real numbers 
+            <m>a</m> and <m>b</m> such that <m>a</m> is rational and <m>ab</m> is irrational and <m>b</m> is rational.
+            Since <m>a</m> and <m>b</m> are rational, there exist integers <m>x,y,z,</m> and <m>w</m> with <m>y,w\neq 0</m>
+            such that <m>a = \frac{x}{y} </m> and <m>b = \frac{z}{w}</m>. Then
+            <md>
+             <mrow>  ab \amp = \frac{x}{y} \cdot \frac{z}{w}</mrow> 
+             <mrow> \amp = \frac{xz}{yw} .</mrow>
+            </md>
+            Since integers are closed under multiplication, <m>xz, yw \in \mathbb{Z}</m>. Since <m>y,w\neq 0</m>, we 
+            know <m>yw \neq 0</m>. So, by the definition of rational, <m>ab</m> is rational, which contradicts our assumption
+            that <m>ab</m> is irrational. Therefore, the product of a rational and an irrational number is always rational.
+          </p>
+        </solution>
       </task>
 
       <task>
@@ -24,6 +40,14 @@
             Give an example of two irrational numbers whose product is rational.
           </p>
         </statement>
+
+        <solution>
+          <p>
+            There are lots of examples, but one simple one is choosing both irrational numbers to be <m>\sqrt{2}</m>
+            (which we have previously proved is irrational). Then <m>\sqrt{2}\sqrt{2} = (\sqrt{2})^2 = 2</m> and <m>2</m>
+            is rational. Said differently, the irrational numbers are not closed under multiplication.
+          </p>
+        </solution>
       </task>
       
     </exercise>
@@ -38,6 +62,19 @@
             Prove that there do not exist integers <m>m</m> and <m>n</m> where <m>12m+21n=1</m>.
           </p>
         </statement>
+        <solution>
+          <p> 
+            Suppose for the sake of a contradiction that there do exist integers <m>m</m> and <m>n</m> such that
+            <m>12m+21n = 1</m>.  Then
+            <md>
+              3(4m + 7n)=1.
+            </md>
+            Since <m>m</m> and <m>n</m> are integers and the integers are closed under addition and multiplication, 
+            <m>4m+7n\in\mathbb{Z}</m>. So by the definition of divides, <m>3\mid 1</m>, but that's absurd. So the negation
+            is false and  there do not exist integers <m>m</m> and <m>n</m> where <m>12m+21n=1</m>.
+          </p>
+        </solution>
+
     </exercise>
 
     <exercise workspace="1in">
@@ -48,6 +85,21 @@
             Show <m>A\backslash B</m> and <m>B\backslash A</m> are disjoint.
           </p>
         </statement>
+        <solution>
+          <p>
+            Recall that two sets are disjoint if they have no elements in common, i.e., the intersection is 
+            empty. Suppose for the sake of a contradiction <m>A\backslash B</m> and <m>B\backslash A</m> are not disjoint.
+            Then <m>(A\backslash B ) \cap (B\backslash A) \neq \emptyset</m>. In that case there is some element <m>x\in U</m>
+            such that 
+            <md>
+              x\in (A\backslash B ) \cap (B\backslash A).
+            </md>
+            This means that <m>x \in A\backslash B  </m> and <m>x \in B\backslash A</m>. By definition of set 
+            subtraction <m>x\in A\backslash B</m> means that <m>x\in A</m> and <m>x\notin B</m>. On the other hand 
+             <m>x \in B\backslash A</m> means that <m>x\in B</m> and <m>x\not in A</m>. But <m>x \in A</m> and <m>x\notin A</m>
+             is a contradiction. So the negation is false and we conclude that <m>A\backslash B</m> and <m>B\backslash A</m> are disjoint.
+          </p>
+        </solution>
 
     </exercise>
   </page>
@@ -60,6 +112,16 @@
             Are there infinitely many composite numbers? Prove your answer.
           </p>
         </statement>
+
+        <solution>
+          <p>
+            There are indeed. One proof is that there are infinitely many positive even integers, and every positive
+            even integer besides <m>2</m> is composite. Alternatively, following along with the infinitely many primes proof
+            that uses contradiction, suppose there are finitely many composite numbers, call them <m>c_1,c_2,\dots, c_n</m> for 
+            some <m>n\in\mathbb{N}</m>. Then multiply them all and don't add 1: <m>c_1c_2\cdots c_n</m> is a composite number
+            that is not in the list.
+          </p>
+        </solution>
     </exercise>
 
 <exercise workspace="1in">
@@ -74,6 +136,24 @@ then <md>\frac{x+y}{2} &gt; \sqrt{xy}</md>.<fn>  This is called the “AM-GM” 
   There's a proof there, but you should write your own proof using contradiction.  </fn>
     </p>
   </statement>
+
+  <solution>
+    <p>
+      We will use a proof by contradiction. Suppose <m>x</m> and <m>y</m> are positive real numbers, and 
+      <md>
+        \frac{x+y}{2} \leq \sqrt{xy}.
+      </md>
+      Then, using algebra,
+      <md>
+        <mrow> \frac{x+y}{2}\amp \leq \sqrt{xy}</mrow>
+        <mrow> \frac{(x+y)^2}{2^2} \amp \leq xy </mrow>
+        <mrow> x^2 + 2xy+y^2 \amp \leq 4xy  </mrow>
+        <mrow> x^2-2xy +y^2 \amp \leq 0 </mrow>
+        <mrow> (x-y)^2 \amp \leq 0 </mrow>
+      </md>
+      This is absurd! The square of a real number is always positive!
+    </p>
+  </solution>
 </exercise>
 
 </page>
