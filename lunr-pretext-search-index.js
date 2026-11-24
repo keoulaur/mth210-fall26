@@ -1285,7 +1285,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "3.11",
   "title": "Week 12 Weekly Practice",
-  "body": " Week 12 Weekly Practice   Due the first class of the week of November 23.   Exercise 7.2    Prove that if is rational and is irrational, then is irrational.      Give an example of two irrational numbers whose product is rational.        Exercise 7.3   Prove that there do not exist integers and where .     Exercise 7.7   Let and be subsets of some universal set . Show and are disjoint.       Exercise 7.12   Are there infinitely many composite numbers? Prove your answer.     Exercise 7.15   Prove that if and are positive real numbers, then . This is called the “AM-GM” inequality for “arithmetic mean” and “geometric mean”. Notice the left side is how you would take the average or mean of two numbers. The right side is the geometric mean. More info at: There's a proof there, but you should write your own proof using contradiction.      "
+  "body": " Week 12 Weekly Practice   Due the first class of the week of November 23.   Exercise 7.2    Prove that if is rational and is irrational, then is irrational.    We will use a proof by contradiction. So assume the negation which means there exist real numbers and such that is rational and is irrational and is rational. Since and are rational, there exist integers and with such that and . Then Since integers are closed under multiplication, . Since , we know . So, by the definition of rational, is rational, which contradicts our assumption that is irrational. Therefore, the product of a rational and an irrational number is always rational.      Give an example of two irrational numbers whose product is rational.    There are lots of examples, but one simple one is choosing both irrational numbers to be (which we have previously proved is irrational). Then and is rational. Said differently, the irrational numbers are not closed under multiplication.        Exercise 7.3   Prove that there do not exist integers and where .    Suppose for the sake of a contradiction that there do exist integers and such that . Then Since and are integers and the integers are closed under addition and multiplication, . So by the definition of divides, , but that's absurd. So the negation is false and there do not exist integers and where .     Exercise 7.7   Let and be subsets of some universal set . Show and are disjoint.    Recall that two sets are disjoint if they have no elements in common, i.e., the intersection is empty. Suppose for the sake of a contradiction and are not disjoint. Then . In that case there is some element such that This means that and . By definition of set subtraction means that and . On the other hand means that and . But and is a contradiction. So the negation is false and we conclude that and are disjoint.       Exercise 7.12   Are there infinitely many composite numbers? Prove your answer.    There are indeed. One proof is that there are infinitely many positive even integers, and every positive even integer besides is composite. Alternatively, following along with the infinitely many primes proof that uses contradiction, suppose there are finitely many composite numbers, call them for some . Then multiply them all and don't add 1: is a composite number that is not in the list.     Exercise 7.15   Prove that if and are positive real numbers, then . This is called the “AM-GM” inequality for “arithmetic mean” and “geometric mean”. Notice the left side is how you would take the average or mean of two numbers. The right side is the geometric mean. More info at: There's a proof there, but you should write your own proof using contradiction.     We will use a proof by contradiction. Suppose and are positive real numbers, and Then, using algebra, This is absurd! The square of a real number is always positive!     "
 },
 {
   "id": "WP-12-2-2",
@@ -1294,7 +1294,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3.11.1",
   "title": "Exercise 7.2.",
-  "body": " Exercise 7.2    Prove that if is rational and is irrational, then is irrational.      Give an example of two irrational numbers whose product is rational.    "
+  "body": " Exercise 7.2    Prove that if is rational and is irrational, then is irrational.    We will use a proof by contradiction. So assume the negation which means there exist real numbers and such that is rational and is irrational and is rational. Since and are rational, there exist integers and with such that and . Then Since integers are closed under multiplication, . Since , we know . So, by the definition of rational, is rational, which contradicts our assumption that is irrational. Therefore, the product of a rational and an irrational number is always rational.      Give an example of two irrational numbers whose product is rational.    There are lots of examples, but one simple one is choosing both irrational numbers to be (which we have previously proved is irrational). Then and is rational. Said differently, the irrational numbers are not closed under multiplication.    "
 },
 {
   "id": "WP-12-3-1",
@@ -1303,7 +1303,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3.11.2",
   "title": "Exercise 7.3.",
-  "body": " Exercise 7.3   Prove that there do not exist integers and where .   "
+  "body": " Exercise 7.3   Prove that there do not exist integers and where .    Suppose for the sake of a contradiction that there do exist integers and such that . Then Since and are integers and the integers are closed under addition and multiplication, . So by the definition of divides, , but that's absurd. So the negation is false and there do not exist integers and where .   "
 },
 {
   "id": "WP-12-3-2",
@@ -1312,7 +1312,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3.11.3",
   "title": "Exercise 7.7.",
-  "body": " Exercise 7.7   Let and be subsets of some universal set . Show and are disjoint.   "
+  "body": " Exercise 7.7   Let and be subsets of some universal set . Show and are disjoint.    Recall that two sets are disjoint if they have no elements in common, i.e., the intersection is empty. Suppose for the sake of a contradiction and are not disjoint. Then . In that case there is some element such that This means that and . By definition of set subtraction means that and . On the other hand means that and . But and is a contradiction. So the negation is false and we conclude that and are disjoint.   "
 },
 {
   "id": "WP-12-4-1",
@@ -1321,7 +1321,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3.11.4",
   "title": "Exercise 7.12.",
-  "body": " Exercise 7.12   Are there infinitely many composite numbers? Prove your answer.   "
+  "body": " Exercise 7.12   Are there infinitely many composite numbers? Prove your answer.    There are indeed. One proof is that there are infinitely many positive even integers, and every positive even integer besides is composite. Alternatively, following along with the infinitely many primes proof that uses contradiction, suppose there are finitely many composite numbers, call them for some . Then multiply them all and don't add 1: is a composite number that is not in the list.   "
 },
 {
   "id": "WP-12-4-2",
@@ -1330,7 +1330,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3.11.5",
   "title": "Exercise 7.15.",
-  "body": " Exercise 7.15   Prove that if and are positive real numbers, then . This is called the “AM-GM” inequality for “arithmetic mean” and “geometric mean”. Notice the left side is how you would take the average or mean of two numbers. The right side is the geometric mean. More info at: There's a proof there, but you should write your own proof using contradiction.    "
+  "body": " Exercise 7.15   Prove that if and are positive real numbers, then . This is called the “AM-GM” inequality for “arithmetic mean” and “geometric mean”. Notice the left side is how you would take the average or mean of two numbers. The right side is the geometric mean. More info at: There's a proof there, but you should write your own proof using contradiction.     We will use a proof by contradiction. Suppose and are positive real numbers, and Then, using algebra, This is absurd! The square of a real number is always positive!   "
 },
 {
   "id": "WP-13",
